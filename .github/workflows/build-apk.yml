@@ -1,36 +1,41 @@
-
 name: Build Genshin Assistant APK
 
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
 
-      - uses:      - name: Install Android SDK
-        run: |
-          SDK_ROOT="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
-          SDKMANAGER="$(find "$SDK_ROOT/cmdline-tools" -type f -name sdkmanager | sort -V | tail -n 1)"
-          yes | "$SDKMANAGER" --sdk_root="$SDK_ROOT" --licenses
-          "$SDKMANAGER" --sdk_root="$SDK_ROOT" "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
 
-      - uses: gradle/actions/setup-gradle@v4
+      - name: Install Android packages
+        run: |
+          yes | sdkmanager --licenses
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
 
       - name: Create Android project
         run: |
-          mkdir -p app/src/main/java/com/example/genshinautoassistant
+          mkdir -p app/src/main/java/com/example/genshinassistant
 
           cat > settings.gradle <<'EOF'
           pluginManagement {
@@ -41,6 +46,7 @@ jobs:
               }
           }
           dependencyResolutionManagement {
+              repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
               repositories {
                   google()
                   mavenCentral()
@@ -60,19 +66,17 @@ jobs:
           plugins {
               id 'com.android.application'
           }
+
           android {
-              namespace 'com.example.genshinautoassistant'
+              namespace 'com.example.genshinassistant'
               compileSdk 35
+
               defaultConfig {
-                  applicationId 'com.example.genshinautoassistant'
+                  applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 35
                   versionCode 1
                   versionName '1.0'
-              }
-              compileOptions {
-                  sourceCompatibility JavaVersion.VERSION_17
-                  targetCompatibility JavaVersion.VERSION_17
               }
           }
           EOF
@@ -80,65 +84,77 @@ jobs:
           cat > app/src/main/AndroidManifest.xml <<'EOF'
           <manifest xmlns:android="http://schemas.android.com/apk/res/android">
               <application
-                  android:theme="@android:style/Theme.Material.Light.NoActionBar"
-                  android:label="Genshin Assistant">
+                  android:allowBackup="true"
+                  android:label="Genshin Assistant"
+                  android:theme="@android:style/Theme.Material.Light.NoActionBar">
                   <activity
                       android:name=".MainActivity"
                       android:exported="true">
                       <intent-filter>
-                          <action android:name="android.intent.action.MAIN"/>
-                          <category android:name="android.intent.category.LAUNCHER"/>
+                          <action android:name="android.intent.action.MAIN" />
+                          <category android:name="android.intent.category.LAUNCHER" />
                       </intent-filter>
                   </activity>
               </application>
           </manifest>
           EOF
 
-          cat > app/src/main/java/com/example/genshinautoassistant/MainActivity.java <<'EOF'
-          package com.example.genshinautoassistant;
+          cat > app/src/main/java/com/example/genshinassistant/MainActivity.java <<'EOF'
+          package com.example.genshinassistant;
 
           import android.app.Activity;
           import android.os.Bundle;
-          import android.graphics.Color;
+          import android.graphics.Typeface;
           import android.view.Gravity;
           import android.widget.LinearLayout;
           import android.widget.TextView;
+          import android.widget.ScrollView;
 
           public class MainActivity extends Activity {
               @Override
-              public void onCreate(Bundle state) {
-                  super.onCreate(state);
+              protected void onCreate(Bundle savedInstanceState) {
+                  super.onCreate(savedInstanceState);
+
                   LinearLayout layout = new LinearLayout(this);
-                  layout.setOrientation(1);
-                  layout.setGravity(Gravity.CENTER);
-                  layout.setPadding(28, 28, 28, 28);
-                  layout.setBackgroundColor(Color.rgb(25, 29, 38));
+                  layout.setOrientation(LinearLayout.VERTICAL);
+                  layout.setPadding(28, 36, 28, 28);
+                  layout.setGravity(Gravity.CENTER_HORIZONTAL);
 
                   TextView title = new TextView(this);
-                  title.setText("GENSHIN ASSISTANT");
-                  title.setTextSize(25);
-                  title.setTextColor(Color.WHITE);
+                  title.setText("Genshin Assistant");
+                  title.setTextSize(26);
+                  title.setTypeface(null, Typeface.BOLD);
                   title.setGravity(Gravity.CENTER);
-
-                  TextView info = new TextView(this);
-                  info.setText("\nمساعد Genshin Impact\n\n• مسارات التفريم\n• الصناديق والمهام\n• مواد الشخصيات والأسلحة\n\nمساعد إرشادي مستقل");
-                  info.setTextSize(18);
-                  info.setTextColor(Color.WHITE);
-                  info.setGravity(Gravity.CENTER);
-
                   layout.addView(title);
-                  layout.addView(info);
-                  setContentView(layout);
+
+                  TextView content = new TextView(this);
+                  content.setText(
+                      "مساعدك الإرشادي للعبة Genshin Impact\n\n" +
+                      "مرحباً بك!\n\n" +
+                      "يمكنك استخدام هذا التطبيق لتنظيم تقدمك في اللعبة.\n\n" +
+                      "• خطط لمسارات جمع الموارد.\n\n" +
+                      "• راجع مواد تطوير الشخصيات والأسلحة.\n\n" +
+                      "• دوّن المهام والأهداف التي تريد إنجازها.\n\n" +
+                      "• تابع تقدمك في الاستكشاف والتجميع.\n\n" +
+                      "هذا التطبيق دليل مساعد مستقل، ولا يتحكم باللعبة أو يعدّل ملفاتها."
+                  );
+                  content.setTextSize(18);
+                  content.setGravity(Gravity.CENTER);
+                  content.setPadding(12, 36, 12, 20);
+                  layout.addView(content);
+
+                  ScrollView scroll = new ScrollView(this);
+                  scroll.addView(layout);
+                  setContentView(scroll);
               }
           }
           EOF
 
       - name: Build APK
-        run: gradle assembleDebug
+        run: gradle --no-daemon assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: GenshinAssistant-APK
+          name: Genshin-Assistant-APK
           path: app/build/outputs/apk/debug/app-debug.apk
-          if-no-files-found: error
