@@ -729,7 +729,14 @@ jobs:
                   if(requestCode==REQUEST_SCREEN_CAPTURE) {
                       if(resultCode==RESULT_OK && data!=null) {
                           if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: تم منح الإذن، جارٍ تشغيل المحرك...");
-                          startProjectionForegroundService(resultCode,data);
+                          try {
+                              startProjectionForegroundService(resultCode,data);
+                          } catch(Exception e) {
+                              String message=e.getClass().getSimpleName()+": "+String.valueOf(e.getMessage());
+                              if(liveScanStatus!=null) liveScanStatus.setText("فشل تشغيل خدمة مشاركة الشاشة: "+message);
+                              Toast.makeText(this,"فشل تشغيل خدمة مشاركة الشاشة: "+message,Toast.LENGTH_LONG).show();
+                              stopProjectionForegroundService();
+                          }
                       } else {
                           if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: لم تتم الموافقة على مشاركة الشاشة.");
                           Toast.makeText(this,"لم يتم منح إذن مشاركة الشاشة.",Toast.LENGTH_LONG).show();
@@ -990,10 +997,17 @@ jobs:
                           .setOngoing(true)
                           .build();
                   }
-                  if(Build.VERSION.SDK_INT>=29){
-                      startForeground(1001,notification,ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION);
-                  }else{
-                      startForeground(1001,notification);
+                  try {
+                      if(Build.VERSION.SDK_INT>=29){
+                          startForeground(1001,notification,ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION);
+                      }else{
+                          startForeground(1001,notification);
+                      }
+                  } catch(Exception e) {
+                      String message=e.getClass().getSimpleName()+": "+String.valueOf(e.getMessage());
+                      android.util.Log.e("GenshinAssistant","Projection foreground service failed",e);
+                      Toast.makeText(this,"تعذر تشغيل خدمة مشاركة الشاشة: "+message,Toast.LENGTH_LONG).show();
+                      stopSelf();
                   }
                   return START_NOT_STICKY;
               }
