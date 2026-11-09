@@ -217,8 +217,42 @@ jobs:
               String key(String prefix,String name) {
                   return prefix+"_"+name.toLowerCase(Locale.ROOT).replace(" ","_");
               }
+              int dp(float value) { return (int)(value*getResources().getDisplayMetrics().density+0.5f); }
+              class GenshinFrame extends android.view.View {
+                  final android.graphics.Paint paint=new android.graphics.Paint(3);
+                  GenshinFrame(android.content.Context context) { super(context); }
+                  void star(android.graphics.Canvas canvas,float x,float y,float radius) {
+                      android.graphics.Path path=new android.graphics.Path();
+                      path.moveTo(x,y-radius); path.lineTo(x+radius*.25f,y-radius*.25f);
+                      path.lineTo(x+radius,y); path.lineTo(x+radius*.25f,y+radius*.25f);
+                      path.lineTo(x,y+radius); path.lineTo(x-radius*.25f,y+radius*.25f);
+                      path.lineTo(x-radius,y); path.lineTo(x-radius*.25f,y-radius*.25f); path.close();
+                      paint.setColor(0xFFFFD98A); paint.setStyle(android.graphics.Paint.Style.FILL); canvas.drawPath(path,paint);
+                  }
+                  @Override protected void onDraw(android.graphics.Canvas canvas) {
+                      super.onDraw(canvas);
+                      float w=getWidth(),h=getHeight(); android.graphics.RectF r=new android.graphics.RectF(2,2,w-2,h-2);
+                      paint.setShader(new android.graphics.LinearGradient(0,0,w,h,new int[]{0xFF101B3A,0xFF38245F,0xFF172B50},null,android.graphics.Shader.TileMode.CLAMP));
+                      canvas.drawRoundRect(r,dp(18),dp(18),paint); paint.setShader(null);
+                      paint.setStyle(android.graphics.Paint.Style.STROKE); paint.setStrokeWidth(dp(2)); paint.setColor(0xFFE7C47B);
+                      canvas.drawRoundRect(new android.graphics.RectF(dp(5),dp(5),w-dp(5),h-dp(5)),dp(15),dp(15),paint);
+                      paint.setStrokeWidth(dp(1)); paint.setColor(0x887FC9F4);
+                      canvas.drawRoundRect(new android.graphics.RectF(dp(10),dp(10),w-dp(10),h-dp(10)),dp(12),dp(12),paint);
+                      paint.setStyle(android.graphics.Paint.Style.FILL);
+                      star(canvas,dp(26),dp(25),dp(9)); star(canvas,w-dp(26),dp(25),dp(9));
+                      star(canvas,dp(26),h-dp(25),dp(6)); star(canvas,w-dp(26),h-dp(25),dp(6));
+                      paint.setTextAlign(android.graphics.Paint.Align.CENTER); paint.setTypeface(Typeface.create("serif",Typeface.BOLD));
+                      paint.setColor(Color.WHITE); paint.setTextSize(dp(21)); canvas.drawText("GENSHIN IMPACT",w/2,h/2-dp(2),paint);
+                      paint.setTypeface(Typeface.DEFAULT_BOLD); paint.setColor(0xFFFFD98A); paint.setTextSize(dp(13));
+                      canvas.drawText("رحلتك في تيفات تبدأ هنا",w/2,h/2+dp(23),paint);
+                      paint.setTextSize(dp(10)); paint.setColor(0xFFB9DDFB);
+                      canvas.drawText("✦  GENSHIN ASSISTANT  ✦",w/2,h-dp(13),paint);
+                  }
+              }
               void showHome() {
-                  content.removeAllViews(); heading("أهلاً بك في رحلتك في تيفات!");
+                  content.removeAllViews();
+                  content.addView(new GenshinFrame(this),new LinearLayout.LayoutParams(-1,dp(132)));
+                  heading("أهلاً بك في رحلتك في تيفات!");
                   line("تابع شخصياتك ومواد التطوير والمهام من مكان واحد.");
                   int owned=0,done=0,total=0;
                   for(String n:characters) {
