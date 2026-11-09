@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 11
-                  versionName '5.7'
+                  versionCode 12
+                  versionName '5.8'
               }
           }
 
@@ -189,6 +189,8 @@ jobs:
               LinearLayout floatingMenu, floatingMenuItems;
               WindowManager.LayoutParams floatingMenuParams;
               boolean resourceMarkersEnabled=true, translationVisible=true;
+              boolean checkingOverlayPermission=false;
+              TextView overlayPermissionStatus;
               Translator liveTranslator;
               boolean translatorReady=false;
               final AtomicBoolean translatingText=new AtomicBoolean(false);
@@ -203,6 +205,19 @@ jobs:
               SharedPreferences prefs;
               final String[] characters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
           
+              @Override protected void onResume() {
+                  super.onResume();
+                  if(checkingOverlayPermission) {
+                      checkingOverlayPermission=false;
+                      boolean enabled=hasOverlayPermission();
+                      updateOverlayPermissionStatus();
+                      Toast.makeText(this,enabled?"تم التأكد: إذن النوافذ العائمة مفعّل ✓":"الإذن غير مفعّل بعد. لن تظهر النوافذ العائمة حتى تسمح به.",Toast.LENGTH_LONG).show();
+                  }
+              }
+              boolean hasOverlayPermission() { return Build.VERSION.SDK_INT<23 || Settings.canDrawOverlays(this); }
+              void updateOverlayPermissionStatus() {
+                  if(overlayPermissionStatus!=null) overlayPermissionStatus.setText("إذن النوافذ العائمة: "+(hasOverlayPermission()?"مفعّل ✓":"غير مفعّل ✕"));
+              }
               @Override public void onCreate(Bundle state) {
                   super.onCreate(state);
                   prefs=getSharedPreferences("genshin_progress",MODE_PRIVATE);
@@ -419,6 +434,9 @@ jobs:
           void showAchievements() {
                   content.removeAllViews(); heading("سجل الإنجازات");
                   line("يمكنك قراءة النصوص الظاهرة في اللعبة مباشرةً دون التقاط صور يدوياً. ابدأ المسح ووافق على مشاركة الشاشة، ثم انتقل إلى صفحات الإنجازات ومرّر بينها.");
+                  overlayPermissionStatus=new TextView(this); overlayPermissionStatus.setTextSize(16); overlayPermissionStatus.setTypeface(null,Typeface.BOLD); overlayPermissionStatus.setPadding(dp(10),dp(12),dp(10),dp(12));
+                  overlayPermissionStatus.setTextColor(Color.rgb(65,48,91)); content.addView(overlayPermissionStatus); updateOverlayPermissionStatus();
+                  Button checkPermission=new Button(this); checkPermission.setText("فحص إذن النوافذ العائمة الآن"); checkPermission.setOnClickListener(v->{boolean enabled=hasOverlayPermission(); updateOverlayPermissionStatus(); Toast.makeText(this,enabled?"الإذن مفعّل ✓":"الإذن غير مفعّل ✕ — فعّله من إعدادات الظهور فوق التطبيقات.",Toast.LENGTH_LONG).show();}); content.addView(checkPermission);
                   Button live=new Button(this); live.setText("بدء المسح المباشر من الشاشة"); live.setOnClickListener(v->startLiveScan()); content.addView(live);
                   Button menuHelp=new Button(this); menuHelp.setText("إظهار قائمة تيفات العائمة"); menuHelp.setOnClickListener(v->{
                       if(mediaProjection!=null) setupFloatingMenu();
@@ -726,6 +744,7 @@ jobs:
                           .setNegativeButton("لاحقاً",null)
                           .setPositiveButton("فتح الإعدادات",(d,w)->{
                               Intent settings=new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,Uri.parse("package:"+getPackageName()));
+                              checkingOverlayPermission=true;
                               startActivity(settings);
                           }).show();
                       return;
