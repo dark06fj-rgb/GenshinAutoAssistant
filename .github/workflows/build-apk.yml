@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 9
-                  versionName '5.5'
+                  versionCode 10
+                  versionName '5.6'
               }
           }
 
@@ -94,6 +94,22 @@ jobs:
           }
           EOF
 
+          mkdir -p app/src/main/res/drawable
+          
+          cat > app/src/main/res/drawable/ic_launcher.xml <<'EOF'
+          <vector xmlns:android="http://schemas.android.com/apk/res/android"
+              android:width="108dp" android:height="108dp"
+              android:viewportWidth="108" android:viewportHeight="108">
+              <path android:fillColor="#101B3A" android:pathData="M0,0h108v108h-108z"/>
+              <path android:fillColor="#243E78" android:pathData="M0,78L30,38L52,68L75,24L108,70V108H0z"/>
+              <path android:fillColor="#315A9A" android:pathData="M0,91L27,57L49,79L76,45L108,84V108H0z"/>
+              <path android:fillColor="#FFD98A" android:pathData="M54,10 L61,39 L90,54 L61,61 L54,90 L47,61 L18,54 L47,39z"/>
+              <path android:fillColor="#7FD7FF" android:pathData="M54,25 L60,48 L83,54 L60,60 L54,83 L48,60 L25,54 L48,48z"/>
+              <path android:fillColor="#FFFFFF" android:pathData="M54,39 L58,50 L69,54 L58,58 L54,69 L50,58 L39,54 L50,50z"/>
+              <path android:fillColor="#E8C47B" android:pathData="M9,9h90v3h-90zM9,96h90v3h-90z"/>
+          </vector>
+          EOF
+          
           cat > app/src/main/AndroidManifest.xml <<'EOF'
           <manifest xmlns:android="http://schemas.android.com/apk/res/android">
               <uses-permission android:name="android.permission.INTERNET"/>
@@ -104,6 +120,7 @@ jobs:
               <application
                   android:allowBackup="true"
                   android:label="Genshin Assistant"
+                  android:icon="@drawable/ic_launcher"
                   android:theme="@android:style/Theme.Material.Light.NoActionBar">
                   <activity
                       android:name=".MainActivity"
@@ -236,27 +253,27 @@ jobs:
                   }
                   @Override protected void onDraw(android.graphics.Canvas canvas) {
                       super.onDraw(canvas);
-                      float w=getWidth(),h=getHeight(); android.graphics.RectF r=new android.graphics.RectF(2,2,w-2,h-2);
-                      paint.setShader(new android.graphics.LinearGradient(0,0,w,h,new int[]{0xFF101B3A,0xFF38245F,0xFF172B50},null,android.graphics.Shader.TileMode.CLAMP));
-                      canvas.drawRoundRect(r,dp(18),dp(18),paint); paint.setShader(null);
-                      paint.setStyle(android.graphics.Paint.Style.STROKE); paint.setStrokeWidth(dp(2)); paint.setColor(0xFFE7C47B);
-                      canvas.drawRoundRect(new android.graphics.RectF(dp(5),dp(5),w-dp(5),h-dp(5)),dp(15),dp(15),paint);
-                      paint.setStrokeWidth(dp(1)); paint.setColor(0x887FC9F4);
-                      canvas.drawRoundRect(new android.graphics.RectF(dp(10),dp(10),w-dp(10),h-dp(10)),dp(12),dp(12),paint);
+                      float w=getWidth(),h=getHeight();
+                      paint.setShader(new android.graphics.LinearGradient(0,0,0,h,new int[]{0xFF102B66,0xFF367DC0,0xFFB5D9F1},null,android.graphics.Shader.TileMode.CLAMP));
+                      canvas.drawRoundRect(new android.graphics.RectF(2,2,w-2,h-2),dp(18),dp(18),paint); paint.setShader(null);
                       paint.setStyle(android.graphics.Paint.Style.FILL);
-                      star(canvas,dp(26),dp(25),dp(9)); star(canvas,w-dp(26),dp(25),dp(9));
-                      star(canvas,dp(26),h-dp(25),dp(6)); star(canvas,w-dp(26),h-dp(25),dp(6));
-                      paint.setTextAlign(android.graphics.Paint.Align.CENTER); paint.setTypeface(Typeface.create("serif",Typeface.BOLD));
-                      paint.setColor(Color.WHITE); paint.setTextSize(dp(21)); canvas.drawText("GENSHIN IMPACT",w/2,h/2-dp(2),paint);
-                      paint.setTypeface(Typeface.DEFAULT_BOLD); paint.setColor(0xFFFFD98A); paint.setTextSize(dp(13));
-                      canvas.drawText("رحلتك في تيفات تبدأ هنا",w/2,h/2+dp(23),paint);
-                      paint.setTextSize(dp(10)); paint.setColor(0xFFB9DDFB);
-                      canvas.drawText("✦  GENSHIN ASSISTANT  ✦",w/2,h-dp(13),paint);
+                      paint.setColor(0xFFFFE8A3); canvas.drawCircle(w*.82f,h*.22f,dp(17),paint);
+                      paint.setColor(0xFF6EA5D4); canvas.drawCircle(w*.85f,h*.18f,dp(16),paint);
+                      for(int k=0;k<18;k++){float x=(k*73%997)/997f*w;float y=(k*37%311)/311f*h;paint.setColor(0xCCFFFFFF);canvas.drawCircle(x,y,dp(1.2f),paint);}
+                      paint.setColor(0xFF314B83); android.graphics.Path far=new android.graphics.Path();far.moveTo(0,h*.72f);far.lineTo(w*.18f,h*.36f);far.lineTo(w*.32f,h*.68f);far.lineTo(w*.52f,h*.29f);far.lineTo(w*.75f,h*.7f);far.lineTo(w*.9f,h*.4f);far.lineTo(w,h*.62f);far.lineTo(w,h);far.lineTo(0,h);far.close();canvas.drawPath(far,paint);
+                      paint.setColor(0xFF182D58); android.graphics.Path near=new android.graphics.Path();near.moveTo(0,h*.82f);near.lineTo(w*.2f,h*.58f);near.lineTo(w*.4f,h*.83f);near.lineTo(w*.63f,h*.55f);near.lineTo(w*.82f,h*.8f);near.lineTo(w,h*.58f);near.lineTo(w,h);near.lineTo(0,h);near.close();canvas.drawPath(near,paint);
+                      paint.setColor(0xFFFFD98A);canvas.drawRect(w*.61f,h*.39f,w*.64f,h*.72f,paint);canvas.drawRect(w*.68f,h*.34f,w*.71f,h*.72f,paint);canvas.drawRect(w*.75f,h*.43f,w*.78f,h*.72f,paint);
+                      canvas.drawRect(w*.595f,h*.36f,w*.655f,h*.4f,paint);canvas.drawRect(w*.665f,h*.31f,w*.725f,h*.35f,paint);canvas.drawRect(w*.735f,h*.4f,w*.795f,h*.44f,paint);
+                      paint.setColor(0xFF0C1B43);canvas.drawRect(0,h*.82f,w,h,paint);
+                      paint.setStyle(android.graphics.Paint.Style.STROKE);paint.setStrokeWidth(dp(2));paint.setColor(0xFFFFD98A);canvas.drawRoundRect(new android.graphics.RectF(dp(5),dp(5),w-dp(5),h-dp(5)),dp(16),dp(16),paint);paint.setStyle(android.graphics.Paint.Style.FILL);
+                      star(canvas,w*.12f,h*.22f,dp(8));star(canvas,w*.9f,h*.2f,dp(7));
+                      paint.setTextAlign(android.graphics.Paint.Align.CENTER);paint.setTypeface(Typeface.create("serif",Typeface.BOLD));paint.setColor(Color.WHITE);paint.setTextSize(dp(20));canvas.drawText("GENSHIN ASSISTANT",w/2,h*.48f,paint);
+                      paint.setTypeface(Typeface.DEFAULT_BOLD);paint.setColor(0xFFFFD98A);paint.setTextSize(dp(12));canvas.drawText("رحلتك في تيفات تبدأ هنا",w/2,h*.62f,paint);
                   }
               }
               void showHome() {
                   content.removeAllViews();
-                  content.addView(new GenshinFrame(this),new LinearLayout.LayoutParams(-1,dp(132)));
+                  content.addView(new GenshinFrame(this),new LinearLayout.LayoutParams(-1,dp(180)));
                   heading("أهلاً بك في رحلتك في تيفات!");
                   line("تابع شخصياتك ومواد التطوير والمهام من مكان واحد.");
                   int owned=0,done=0,total=0;
