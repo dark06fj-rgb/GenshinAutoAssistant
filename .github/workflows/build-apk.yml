@@ -1,0 +1,132 @@
+
+name: Build Genshin Assistant APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+
+      - name: Create Android project
+        run: |
+          mkdir -p app/src/main/java/com/example/genshinautoassistant
+          cat > settings.gradle <<'EOF'
+          pluginManagement {
+              repositories {
+                  google()
+                  mavenCentral()
+                  gradlePluginPortal()
+              }
+          }
+          dependencyResolutionManagement {
+              repositories {
+                  google()
+                  mavenCentral()
+              }
+          }
+          rootProject.name = "GenshinAssistant"
+          include(":app")
+          EOF
+
+          cat > build.gradle <<'EOF'
+          plugins {
+              id 'com.android.application' version '8.7.3' apply false
+              id 'org.jetbrains.kotlin.android' version '2.0.21' apply false
+          }
+          EOF
+
+          cat > app/build.gradle <<'EOF'
+          plugins {
+              id 'com.android.application'
+              id 'org.jetbrains.kotlin.android'
+          }
+          android {
+              namespace 'com.example.genshinautoassistant'
+              compileSdk 35
+              defaultConfig {
+                  applicationId 'com.example.genshinautoassistant'
+                  minSdk 23
+                  targetSdk 35
+                  versionCode 1
+                  versionName '1.0'
+              }
+          }
+          EOF
+
+          cat > app/src/main/AndroidManifest.xml <<'EOF'
+          <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+              <application
+                  android:theme="@android:style/Theme.Material.Light.NoActionBar"
+                  android:label="Genshin Assistant">
+                  <activity
+                      android:name=".MainActivity"
+                      android:exported="true">
+                      <intent-filter>
+                          <action android:name="android.intent.action.MAIN"/>
+                          <category android:name="android.intent.category.LAUNCHER"/>
+                      </intent-filter>
+                  </activity>
+              </application>
+          </manifest>
+          EOF
+
+          cat > app/src/main/java/com/example/genshinautoassistant/MainActivity.kt <<'EOF'
+          package com.example.genshinautoassistant
+
+          import android.app.Activity
+          import android.os.Bundle
+          import android.graphics.Color
+          import android.view.Gravity
+          import android.widget.LinearLayout
+          import android.widget.TextView
+
+          class MainActivity : Activity() {
+              override fun onCreate(savedInstanceState: Bundle?) {
+                  super.onCreate(savedInstanceState)
+                  val layout = LinearLayout(this)
+                  layout.orientation = LinearLayout.VERTICAL
+                  layout.gravity = Gravity.CENTER
+                  layout.setPadding(28, 28, 28, 28)
+                  layout.setBackgroundColor(Color.rgb(25, 29, 38))
+
+                  val title = TextView(this)
+                  title.text = "GENSHIN ASSISTANT"
+                  title.textSize = 26f
+                  title.setTextColor(Color.WHITE)
+                  title.gravity = Gravity.CENTER
+
+                  val info = TextView(this)
+                  info.text = "\nمساعدك الإرشادي للعبة Genshin Impact\n\n• مسارات التفريم\n• الصناديق والمهام\n• مواد الشخصيات والأسلحة\n\nهذا التطبيق لا يتحكم باللعبة."
+                  info.textSize = 18f
+                  info.setTextColor(Color.WHITE)
+                  info.gravity = Gravity.CENTER
+
+                  layout.addView(title)
+                  layout.addView(info)
+                  setContentView(layout)
+              }
+          }
+          EOF
+
+      - name: Build APK
+        run: gradle assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: GenshinAssistant-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
