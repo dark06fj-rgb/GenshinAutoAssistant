@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'tools/train_resource_detector.py'\n      - 'tools/dataset_sources.md'
+      - 'tools/train_resource_detector.py'
+      - 'tools/dataset_sources.md'
       - '.github/workflows/train-resource-detector.yml'
 
 permissions:
@@ -30,7 +31,8 @@ jobs:
 
       - name: Train resource detector
         env:
-          ROBOFLOW_API_KEY: ${{ secrets.ROBOFLOW_API_KEY }}\n          ROBOFLOW_DATASETS: ${{ vars.ROBOFLOW_DATASETS }}
+          ROBOFLOW_API_KEY: ${{ secrets.ROBOFLOW_API_KEY }}
+          ROBOFLOW_DATASETS: ${{ vars.ROBOFLOW_DATASETS }}
         run: python tools/train_resource_detector.py
 
       - name: Upload trained model and evaluation files
