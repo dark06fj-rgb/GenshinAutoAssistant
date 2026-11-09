@@ -42,11 +42,13 @@ jobs:
           name: genshin-resource-detector-experimental
           path: |
             runs/detect/genshin_resources/weights/best.pt
+            runs/detect/genshin_resources/weights/best.onnx
             runs/detect/genshin_resources/results.csv
             runs/detect/genshin_resources/confusion_matrix.png
             runs/detect/genshin_resources/PR_curve.png
             runs/detect/genshin_resources/F1_curve.png
             runs/detect/genshin_resources/class_counts.txt
             runs/detect/genshin_resources/DATASET_ATTRIBUTION.txt
+            runs/detect/genshin_resources/test_metrics.txt
           if-no-files-found: warn
           retention-days: 30
