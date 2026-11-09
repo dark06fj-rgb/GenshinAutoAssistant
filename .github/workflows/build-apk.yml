@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 12
-                  versionName '5.8'
+                  versionCode 13
+                  versionName '5.9'
               }
           }
 
@@ -437,6 +437,9 @@ jobs:
                   overlayPermissionStatus=new TextView(this); overlayPermissionStatus.setTextSize(16); overlayPermissionStatus.setTypeface(null,Typeface.BOLD); overlayPermissionStatus.setPadding(dp(10),dp(12),dp(10),dp(12));
                   overlayPermissionStatus.setTextColor(Color.rgb(65,48,91)); content.addView(overlayPermissionStatus); updateOverlayPermissionStatus();
                   Button checkPermission=new Button(this); checkPermission.setText("فحص إذن النوافذ العائمة الآن"); checkPermission.setOnClickListener(v->{boolean enabled=hasOverlayPermission(); updateOverlayPermissionStatus(); Toast.makeText(this,enabled?"الإذن مفعّل ✓":"الإذن غير مفعّل ✕ — فعّله من إعدادات الظهور فوق التطبيقات.",Toast.LENGTH_LONG).show();}); content.addView(checkPermission);
+                  Button testOverlay=new Button(this); testOverlay.setText("اختبار ظهور نافذة فوق الشاشة"); testOverlay.setOnClickListener(v->testOverlayWindow()); content.addView(testOverlay);
+                  Button deviceSettings=new Button(this); deviceSettings.setText("إعدادات التوافق مع TECNO"); deviceSettings.setOnClickListener(v->showTecnoCompatibilityHelp()); content.addView(deviceSettings);
+                  line("إذا كان الإذن مفعّلاً ولم تظهر النافذة، فقد يحتاج HiOS إلى السماح بالنوافذ المنبثقة والتشغيل في الخلفية وإلغاء تقييد البطارية.");
                   Button live=new Button(this); live.setText("بدء المسح المباشر من الشاشة"); live.setOnClickListener(v->startLiveScan()); content.addView(live);
                   Button menuHelp=new Button(this); menuHelp.setText("إظهار قائمة تيفات العائمة"); menuHelp.setOnClickListener(v->{
                       if(mediaProjection!=null) setupFloatingMenu();
@@ -735,6 +738,44 @@ jobs:
                   } catch(Exception e) {
                       content.removeAllViews(); heading("تعذر فتح الصورة"); line(e.getMessage());
                   }
+              }
+              void testOverlayWindow() {
+                  if(!hasOverlayPermission()) {
+                      Toast.makeText(this,"إذن الظهور فوق التطبيقات غير مفعّل.",Toast.LENGTH_LONG).show();
+                      return;
+                  }
+                  WindowManager wm=(WindowManager)getSystemService(WINDOW_SERVICE);
+                  TextView test=new TextView(this);
+                  test.setText("✓ اختبار النافذة العائمة\nإذا كنت ترى هذه الرسالة فالإذن يعمل.");
+                  test.setTextColor(Color.WHITE); test.setTextSize(16); test.setGravity(Gravity.CENTER);
+                  test.setPadding(dp(18),dp(16),dp(18),dp(16));
+                  GradientDrawable bg=new GradientDrawable();
+                  bg.setColor(0xEE203B68); bg.setCornerRadius(dp(16)); bg.setStroke(dp(2),0xFFFFD98A);
+                  test.setBackground(bg);
+                  int type=Build.VERSION.SDK_INT>=26?WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY:WindowManager.LayoutParams.TYPE_PHONE;
+                  WindowManager.LayoutParams p=new WindowManager.LayoutParams(dp(280),-2,type,
+                      WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL,
+                      PixelFormat.TRANSLUCENT);
+                  p.gravity=Gravity.CENTER;
+                  try {
+                      wm.addView(test,p);
+                      Toast.makeText(this,"تم إنشاء نافذة الاختبار لمدة 6 ثوانٍ.",Toast.LENGTH_SHORT).show();
+                      new Handler(Looper.getMainLooper()).postDelayed(()->{
+                          try { wm.removeView(test); } catch(Exception ignored) {}
+                      },6000);
+                  } catch(Exception e) {
+                      Toast.makeText(this,"فشل اختبار النافذة: "+e.getClass().getSimpleName()+" — "+e.getMessage(),Toast.LENGTH_LONG).show();
+                  }
+              }
+              void showTecnoCompatibilityHelp() {
+                  new android.app.AlertDialog.Builder(this)
+                      .setTitle("إعدادات TECNO / HiOS")
+                      .setMessage("للسماح للمساعد بالعمل فوق Genshin Impact:\\n1) افتح معلومات تطبيق Genshin Assistant ثم الأذونات الخاصة وفعّل الظهور فوق التطبيقات.\\n2) من إعدادات البطارية اجعل التطبيق بلا قيود أو اختر عدم التحسين.\\n3) فعّل التشغيل التلقائي والسماح بالنوافذ المنبثقة في الخلفية إن ظهرت هذه الخيارات في HiOS.\\n4) أعد فتح المساعد وابدأ المسح من جديد.\\nقد تختلف أسماء القوائم حسب إصدار HiOS.")
+                      .setNegativeButton("إغلاق",null)
+                      .setPositiveButton("فتح معلومات التطبيق",(d,w)->{
+                          try { startActivity(new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,Uri.parse("package:"+getPackageName()))); }
+                          catch(Exception e) { Toast.makeText(this,"تعذر فتح معلومات التطبيق.",Toast.LENGTH_LONG).show(); }
+                      }).show();
               }
               void startLiveScan() {
                   if(Build.VERSION.SDK_INT>=23 && !Settings.canDrawOverlays(this)) {
