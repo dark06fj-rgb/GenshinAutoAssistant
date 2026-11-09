@@ -18,7 +18,7 @@ import yaml
 from roboflow import Roboflow
 from ultralytics import YOLO
 
-DEFAULT_DATASETS = "xhu/genshin-guivb/2"
+DEFAULT_DATASETS = "xhu/genshin-guivb/2;genshin-cczfg/genshinthingscollect/8"
 OUTPUT = Path("runs/detect/genshin_resources")
 MERGED = Path("resource_dataset_merged")
 
@@ -31,6 +31,9 @@ KEEP = {
     "dandelion": "dandelion",
     "mint": "mint",
     "sweet_flower": "sweet_flower",
+    "sweetflower": "sweet_flower",
+    "valberry": "valberry",
+    "wolfhook": "wolfhook",
     "sweet_flowery": "sweet_flower",
     "crystalchunk": "crystal_chunk",
     "crystal_chunk": "crystal_chunk",
