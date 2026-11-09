@@ -1,5 +1,4 @@
 
-name: Build Genshin Assistant APK
 
 on:
   workflow_dispatch:
@@ -90,43 +89,4 @@ jobs:
           import android.app.Activity
           import android.os.Bundle
           import android.graphics.Color
-          import android.view.Gravity
-          import android.widget.LinearLayout
-          import android.widget.TextView
-
-          class MainActivity : Activity() {
-              override fun onCreate(savedInstanceState: Bundle?) {
-                  super.onCreate(savedInstanceState)
-                  val layout = LinearLayout(this)
-                  layout.orientation = LinearLayout.VERTICAL
-                  layout.gravity = Gravity.CENTER
-                  layout.setPadding(28, 28, 28, 28)
-                  layout.setBackgroundColor(Color.rgb(25, 29, 38))
-
-                  val title = TextView(this)
-                  title.text = "GENSHIN ASSISTANT"
-                  title.textSize = 26f
-                  title.setTextColor(Color.WHITE)
-                  title.gravity = Gravity.CENTER
-
-                  val info = TextView(this)
-                  info.text = "\nمساعدك الإرشادي للعبة Genshin Impact\n\n• مسارات التفريم\n• الصناديق والمهام\n• مواد الشخصيات والأسلحة\n\nهذا التطبيق لا يتحكم باللعبة."
-                  info.textSize = 18f
-                  info.setTextColor(Color.WHITE)
-                  info.gravity = Gravity.CENTER
-
-                  layout.addView(title)
-                  layout.addView(info)
-                  setContentView(layout)
-              }
-          }
-          EOF
-
-      - name: Build APK
-        run: gradle assembleDebug
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: GenshinAssistant-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
+          import android.view.Grav
