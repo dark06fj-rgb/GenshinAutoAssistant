@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 10
-                  versionName '5.6'
+                  versionCode 11
+                  versionName '5.7'
               }
           }
 
@@ -420,6 +420,10 @@ jobs:
                   content.removeAllViews(); heading("سجل الإنجازات");
                   line("يمكنك قراءة النصوص الظاهرة في اللعبة مباشرةً دون التقاط صور يدوياً. ابدأ المسح ووافق على مشاركة الشاشة، ثم انتقل إلى صفحات الإنجازات ومرّر بينها.");
                   Button live=new Button(this); live.setText("بدء المسح المباشر من الشاشة"); live.setOnClickListener(v->startLiveScan()); content.addView(live);
+                  Button menuHelp=new Button(this); menuHelp.setText("إظهار قائمة تيفات العائمة"); menuHelp.setOnClickListener(v->{
+                      if(mediaProjection!=null) setupFloatingMenu();
+                      else Toast.makeText(this,"ابدأ المسح المباشر أولاً، ثم ستظهر القائمة فوق اللعبة.",Toast.LENGTH_LONG).show();
+                  }); content.addView(menuHelp);
                   Button stop=new Button(this); stop.setText("إيقاف المسح وعرض النتائج"); stop.setOnClickListener(v->stopLiveScan()); content.addView(stop);
                   line("لا تُحفظ لقطات الشاشة؛ تُحلّل الإطارات مؤقتاً على الجهاز. قد تمنع اللعبة التقاط الشاشة، ويجب مراجعة النتائج يدوياً.");
                   Button pick=new Button(this); pick.setText("استيراد صورة (اختياري)"); pick.setOnClickListener(v->{
@@ -530,13 +534,18 @@ jobs:
                       collapse.setText(expanded?"+":"−");
                   });
 
+                  if(Build.VERSION.SDK_INT>=23 && !Settings.canDrawOverlays(this)) {
+                      Toast.makeText(this,"قائمة تيفات تحتاج إذن الظهور فوق التطبيقات. فعّل الإذن ثم أعد بدء المسح.",Toast.LENGTH_LONG).show();
+                      floatingMenu=null; floatingMenuItems=null; floatingMenuParams=null;
+                      return;
+                  }
                   int type=Build.VERSION.SDK_INT>=26?WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY:WindowManager.LayoutParams.TYPE_PHONE;
-                  floatingMenuParams=new WindowManager.LayoutParams(dp(205),-2,type,
+                  floatingMenuParams=new WindowManager.LayoutParams(dp(220),-2,type,
                       WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL|WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                       PixelFormat.TRANSLUCENT);
-                  floatingMenuParams.gravity=Gravity.TOP|Gravity.RIGHT;
+                  floatingMenuParams.gravity=Gravity.TOP|Gravity.LEFT;
                   floatingMenuParams.x=dp(12);
-                  floatingMenuParams.y=dp(205);
+                  floatingMenuParams.y=dp(130);
                   header.setOnTouchListener(new android.view.View.OnTouchListener(){
                       float downX,downY; int startX,startY;
                       @Override public boolean onTouch(android.view.View view,android.view.MotionEvent event) {
@@ -554,8 +563,13 @@ jobs:
                           return event.getAction()==android.view.MotionEvent.ACTION_UP;
                       }
                   });
-                  try { overlayManager.addView(floatingMenu,floatingMenuParams); }
-                  catch(Exception e) { Toast.makeText(this,"تعذر إظهار قائمة تيفات العائمة.",Toast.LENGTH_LONG).show(); }
+                  try {
+                      if(floatingMenu.getParent()==null) overlayManager.addView(floatingMenu,floatingMenuParams);
+                      Toast.makeText(this,"ظهرت قائمة تيفات أعلى يسار الشاشة. اسحب عنوانها لتحريكها.",Toast.LENGTH_LONG).show();
+                  } catch(Exception e) {
+                      Toast.makeText(this,"تعذر إظهار القائمة: "+e.getClass().getSimpleName()+" — تحقق من إذن الظهور فوق التطبيقات.",Toast.LENGTH_LONG).show();
+                      floatingMenu=null; floatingMenuItems=null; floatingMenuParams=null;
+                  }
               }
               void addFloatingMenuItem(String label,Runnable action) {
                   TextView item=new TextView(this);
