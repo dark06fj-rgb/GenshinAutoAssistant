@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 7
-                  versionName '5.2'
+                  versionCode 8
+                  versionName '5.4'
               }
           }
 
@@ -98,6 +98,9 @@ jobs:
           <manifest xmlns:android="http://schemas.android.com/apk/res/android">
               <uses-permission android:name="android.permission.INTERNET"/>
               <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+              <queries>
+                  <package android:name="com.miHoYo.GenshinImpact"/>
+              </queries>
               <application
                   android:allowBackup="true"
                   android:label="Genshin Assistant"
@@ -263,10 +266,32 @@ jobs:
                   line("مهام تطوير الشخصيات المنجزة: "+done+" من "+total);
                   ProgressBar bar=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
                   bar.setMax(Math.max(1,total));bar.setProgress(done);content.addView(bar,new LinearLayout.LayoutParams(-1,24));
+                  Button launch=new Button(this); launch.setText("▶ تشغيل Genshin Impact"); launch.setTextSize(17); launch.setOnClickListener(v->launchGenshin()); content.addView(launch,new LinearLayout.LayoutParams(-1,dp(54)));
                   Button b=new Button(this);b.setText("افتح قائمة الشخصيات");b.setOnClickListener(v->showCharacters());content.addView(b);
                   Button connect=new Button(this); connect.setText("ربط حساب Genshin عبر UID"); connect.setOnClickListener(v->connectAccount()); content.addView(connect);
                   line("يمكن جلب بيانات المعرض العام عبر UID دون كلمة مرور أو ملفات اللعبة.");
                   Button achievements=new Button(this); achievements.setText("سجل الإنجازات"); achievements.setOnClickListener(v->showAchievements()); content.addView(achievements);
+              }
+              void launchGenshin() {
+                  final String packageName="com.miHoYo.GenshinImpact";
+                  try {
+                      Intent launchIntent=getPackageManager().getLaunchIntentForPackage(packageName);
+                      if(launchIntent!=null) {
+                          launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                          startActivity(launchIntent);
+                      } else {
+                          new android.app.AlertDialog.Builder(this)
+                              .setTitle("اللعبة غير موجودة")
+                              .setMessage("لم أجد Genshin Impact مثبتة على هذا الجهاز. هل تريد فتح صفحة اللعبة في Google Play؟")
+                              .setNegativeButton("إلغاء",null)
+                              .setPositiveButton("فتح المتجر",(dialog,which)->{
+                                  try { startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("market://details?id="+packageName))); }
+                                  catch(Exception e) { startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/details?id="+packageName))); }
+                              }).show();
+                      }
+                  } catch(Exception e) {
+                      Toast.makeText(this,"تعذر فتح اللعبة: "+e.getMessage(),Toast.LENGTH_LONG).show();
+                  }
               }
               void connectAccount() {
                   LinearLayout form=new LinearLayout(this); form.setOrientation(LinearLayout.VERTICAL);
