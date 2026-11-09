@@ -9,12 +9,13 @@ This file separates sources suitable for object-detection training from metadata
 - Reported dataset license: CC BY 4.0 (verify again on the exact version before redistribution).
 - Resource labels retained by the training pipeline: mushroom, berry, crystalfly, dandelion, mint, sweet flower, mushroom berry.
 
-## Candidate source — not enabled yet
+## Enabled additional source
 
-- `genshin-cczfg/genshinthingscollect`
-- Roboflow Universe: https://universe.roboflow.com/genshin-cczfg/genshinthingscollect
-- Search index reports 364 images and classes including CrystalChunk, SmallLampGrass, Sunsettia, WhiteIronChunk, iron, mint, and pinecone.
-- Exact dataset version and reuse license were not independently verified during this review. Do not add it to `ROBOFLOW_DATASETS` until its owner/license and a downloadable version are confirmed.
+- `genshin-cczfg/genshinthingscollect/8`
+- Roboflow Universe: https://universe.roboflow.com/genshin-cczfg/genshinthingscollect/dataset/8
+- Version 8: 361 images; 253 train, 73 validation, 35 test; 24 classes total.
+- The project page explicitly lists CC BY 4.0. Attribution is retained in the training artifact.
+- Resource classes retained include CrystalChunk, SmallLampGrass, Sunsettia, WhiteIronChunk, iron, mint, pinecone, sweetFlower, valberry, and wolfhook. Non-resource classes are filtered out.
 
 ## Metadata-only / not training images
 
@@ -24,7 +25,7 @@ This file separates sources suitable for object-detection training from metadata
 
 ## Training configuration
 
-Set the GitHub Actions repository variable `ROBOFLOW_DATASETS` only to verified sources, separated by semicolons, in this format:
+The default training configuration now includes both verified sources above. An optional GitHub Actions repository variable `ROBOFLOW_DATASETS` can override the sources, separated by semicolons, in this format:
 
 `workspace/project/version;workspace2/project2/version`
 
