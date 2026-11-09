@@ -261,8 +261,48 @@ def main() -> None:
     best = OUTPUT / "weights" / "best.pt"
     if not best.exists():
         raise RuntimeError("Training finished without producing weights/best.pt")
+
+    # Evaluate on a held-out test split when the source datasets provide one.
+    trained = YOLO(str(best))
+    test_images = MERGED / "test" / "images"
+    metrics_path = OUTPUT / "test_metrics.txt"
+    if test_images.exists() and any(test_images.iterdir()) and "test" in config:
+        print("Evaluating best.pt on the held-out test split...", flush=True)
+        test_metrics = trained.val(
+            data=str(filtered_yaml),
+            split="test",
+            imgsz=320,
+            batch=4,
+            device="cpu",
+            plots=True,
+            project="runs/detect",
+            name="genshin_resources_test",
+            exist_ok=True,
+        )
+        box = test_metrics.box
+        metrics_path.write_text(
+            "Held-out test split metrics (not training/validation metrics):\\n"
+            f"mAP50: {float(box.map50):.6f}\\n"
+            f"mAP50-95: {float(box.map):.6f}\\n"
+            f"precision: {float(box.mp):.6f}\\n"
+            f"recall: {float(box.mr):.6f}\\n",
+            encoding="utf-8",
+        )
+    else:
+        metrics_path.write_text(
+            "No held-out test split was supplied by the configured datasets.\\n",
+            encoding="utf-8",
+        )
+
+    print("Exporting experimental model to ONNX for a future Android test build...", flush=True)
+    onnx_path = trained.export(format="onnx", imgsz=320, simplify=False)
+    if not Path(onnx_path).exists():
+        raise RuntimeError("ONNX export did not produce a model file.")
+
     print(f"TRAINING_COMPLETE best_model={best}")
-    print("Experimental model only; inspect validation metrics and false positives before mobile integration.")
+    print(f"ONNX_EXPORT_COMPLETE model={onnx_path}")
+    print(f"TEST_METRICS_FILE={metrics_path}")
+    print("Experimental model only; do not integrate as production-ready until real gameplay false positives are reviewed.")
 
 
 if __name__ == "__main__":
