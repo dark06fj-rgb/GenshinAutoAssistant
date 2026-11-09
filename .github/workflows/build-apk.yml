@@ -79,9 +79,13 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 35
-                  versionCode 4
-                  versionName '4.0'
+                  versionCode 5
+                  versionName '5.0'
               }
+          }
+
+          dependencies {
+              implementation 'com.google.mlkit:text-recognition:16.0.1'
           }
           EOF
 
@@ -120,8 +124,16 @@ jobs:
           import java.net.*;
           import java.io.*;
           import org.json.*;
+          import android.content.Intent;
+          import android.net.Uri;
+          import com.google.mlkit.vision.common.InputImage;
+          import com.google.mlkit.vision.text.Text;
+          import com.google.mlkit.vision.text.TextRecognition;
+          import com.google.mlkit.vision.text.TextRecognizer;
+          import com.google.mlkit.vision.text.latin.TextRecognizerOptions;
           
           public class MainActivity extends Activity {
+              static final int PICK_ACHIEVEMENT_IMAGE=501;
               LinearLayout root, content, nav;
               SharedPreferences prefs;
               final String[] characters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
@@ -139,7 +151,7 @@ jobs:
                   content.setPadding(2,4,2,18); scroll.addView(content);
                   root.addView(scroll,new LinearLayout.LayoutParams(-1,0,1));
                   nav=new LinearLayout(this); nav.setOrientation(LinearLayout.HORIZONTAL); nav.setGravity(Gravity.CENTER);
-                  addNav("الرئيسية",()->showHome()); addNav("الشخصيات",()->showCharacters()); addNav("المهام",()->showTasks());
+                  addNav("الرئيسية",()->showHome()); addNav("الشخصيات",()->showCharacters()); addNav("المهام",()->showTasks()); addNav("الإنجازات",()->showAchievements());
                   root.addView(nav); setContentView(root); showHome();
               }
               void addNav(String label,Runnable action) {
@@ -178,6 +190,7 @@ jobs:
                   Button b=new Button(this);b.setText("افتح قائمة الشخصيات");b.setOnClickListener(v->showCharacters());content.addView(b);
                   Button connect=new Button(this); connect.setText("ربط حساب Genshin عبر UID"); connect.setOnClickListener(v->connectAccount()); content.addView(connect);
                   line("يمكن جلب بيانات المعرض العام عبر UID دون كلمة مرور أو ملفات اللعبة.");
+                  Button achievements=new Button(this); achievements.setText("سجل الإنجازات"); achievements.setOnClickListener(v->showAchievements()); content.addView(achievements);
               }
               void connectAccount() {
                   LinearLayout form=new LinearLayout(this); form.setOrientation(LinearLayout.VERTICAL);
@@ -282,6 +295,82 @@ jobs:
                   line("إنجاز تطوير الشخصية: "+(done*20)+"٪");
                   ProgressBar bar=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
                   bar.setMax(5);bar.setProgress(done);content.addView(bar,new LinearLayout.LayoutParams(-1,24));
+              }
+          void showAchievements() {
+                  content.removeAllViews(); heading("سجل الإنجازات");
+                  line("استورد صور صفحات الإنجازات من اللعبة. يمكنك استيراد عدة صور، وستُدمج الأسماء المكتشفة في قائمة واحدة.");
+                  Button pick=new Button(this); pick.setText("اختيار صورة إنجازات"); pick.setOnClickListener(v->{
+                      Intent intent=new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                      intent.setType("image/*"); intent.addCategory(Intent.CATEGORY_OPENABLE);
+                      startActivityForResult(intent,PICK_ACHIEVEMENT_IMAGE);
+                  }); content.addView(pick);
+                  showAchievementList();
+              }
+              String achievementKey(String name) {
+                  return "achievement_done_"+Integer.toHexString(name.toLowerCase(Locale.ROOT).trim().hashCode());
+              }
+              void showAchievementList() {
+                  try {
+                      JSONArray items=new JSONArray(prefs.getString("achievement_lines","[]"));
+                      int done=0;
+                      for(int i=0;i<items.length();i++) if(prefs.getBoolean(achievementKey(items.optString(i)),false)) done++;
+                      line("العناصر التي تعرّف عليها التطبيق: "+items.length());
+                      line("التي علّمتها كمكتملة: "+done+" من "+items.length());
+                      ProgressBar progress=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
+                      progress.setMax(Math.max(1,items.length())); progress.setProgress(done);
+                      content.addView(progress,new LinearLayout.LayoutParams(-1,24));
+                      for(int i=0;i<items.length();i++) {
+                          String name=items.optString(i);
+                          CheckBox item=new CheckBox(this); item.setText(name); item.setTextSize(14);
+                          item.setChecked(prefs.getBoolean(achievementKey(name),false));
+                          item.setOnCheckedChangeListener((button,checked)->prefs.edit().putBoolean(achievementKey(name),checked).apply());
+                          content.addView(item);
+                      }
+                      if(items.length()==0) line("لا توجد إنجازات مستوردة بعد. افتح صفحة الإنجازات في اللعبة والتقط صورة واضحة لها.");
+                  } catch(Exception e) { line("تعذر عرض القائمة: "+e.getMessage()); }
+              }
+              @Override protected void onActivityResult(int requestCode,int resultCode,Intent data) {
+                  super.onActivityResult(requestCode,resultCode,data);
+                  if(requestCode!=PICK_ACHIEVEMENT_IMAGE || resultCode!=RESULT_OK || data==null || data.getData()==null) return;
+                  Uri uri=data.getData();
+                  content.removeAllViews(); heading("قراءة الصورة...");
+                  line("يجري استخراج النصوص من الصورة على جهازك.");
+                  try {
+                      InputImage image=InputImage.fromFilePath(this,uri);
+                      TextRecognizer recognizer=TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS);
+                      recognizer.process(image)
+                          .addOnSuccessListener(result->{
+                              try {
+                                  LinkedHashSet<String> names=new LinkedHashSet<>();
+                                  JSONArray old=new JSONArray(prefs.getString("achievement_lines","[]"));
+                                  for(int i=0;i<old.length();i++) names.add(old.optString(i));
+                                  for(Text.TextBlock block:result.getTextBlocks()) {
+                                      for(Text.Line textLine:block.getLines()) {
+                                          String value=textLine.getText().trim().replaceAll("\\s+"," ");
+                                          boolean hasLetter=value.codePoints().anyMatch(Character::isLetter);
+                                          if(value.length()>=3 && hasLetter) names.add(value);
+                                      }
+                                  }
+                                  JSONArray merged=new JSONArray();
+                                  for(String name:names) merged.put(name);
+                                  prefs.edit().putString("achievement_lines",merged.toString()).apply();
+                                  recognizer.close();
+                                  content.removeAllViews(); heading("اكتملت قراءة الصورة");
+                                  line("أضيفت النصوص المكتشفة. راجع القائمة وحدد الإنجازات المكتملة بنفسك؛ قد يلتقط OCR عناوين أو نصوصاً إضافية.");
+                                  showAchievementList();
+                              } catch(Exception e) {
+                                  recognizer.close(); content.removeAllViews(); heading("تعذرت معالجة النص");
+                                  line(e.getMessage());
+                              }
+                          })
+                          .addOnFailureListener(error->{
+                              recognizer.close(); content.removeAllViews(); heading("فشلت قراءة الصورة");
+                              line("جرّب صورة أوضح، مع تكبير النص وتقليل الانعكاس.");
+                              line(error.getMessage());
+                          });
+                  } catch(Exception e) {
+                      content.removeAllViews(); heading("تعذر فتح الصورة"); line(e.getMessage());
+                  }
               }
               void showTasks() {
                   content.removeAllViews();heading("المهام العامة");
