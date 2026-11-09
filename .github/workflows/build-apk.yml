@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 17
-                  versionName '6.4'
+                  versionCode 18
+                  versionName '6.5'
               }
           }
 
@@ -228,6 +228,9 @@ jobs:
               ImageReader imageReader;
               TextRecognizer liveRecognizer;
               final AtomicBoolean processingFrame=new AtomicBoolean(false);
+              int ocrFrameCount=0;
+              int lastOcrLineCount=0;
+              long lastOcrUiUpdate=0;
               final LinkedHashSet<String> liveNames=new LinkedHashSet<>();
               final LinkedHashMap<String,TextView> resourceMarkers=new LinkedHashMap<>();
               LinearLayout root, content, nav;
@@ -516,15 +519,29 @@ jobs:
               String achievementKey(String name) {
                   return "achievement_done_"+Integer.toHexString(name.toLowerCase(Locale.ROOT).trim().hashCode());
               }
+              boolean isAchievementPage(List<String> lines) {
+                  for(String line:lines) {
+                      String value=line.toLowerCase(Locale.ROOT).trim();
+                      if(value.equals("achievements") || value.equals("achievement") || value.contains("achievement menu") || value.contains("الإنجازات")) return true;
+                  }
+                  return false;
+              }
+              boolean isCompletionStatus(String raw) {
+                  String value=raw.toLowerCase(Locale.ROOT).trim();
+                  return value.matches("^(achievement\\s+)?(completed|obtained|claimed|unlocked)(\\b.*)$")
+                      || value.matches("^date\\s+completed\\b.*$")
+                      || value.contains("achievement completed") || value.contains("تم الحصول")
+                      || value.contains("مكتمل") || value.contains("مكتملة") || value.contains("تم فتح")
+                      || value.contains("تم الإنجاز");
+              }
               void markCompletedFromOcr(List<String> lines) {
                   for(int i=0;i<lines.size();i++) {
-                      String status=lines.get(i).toLowerCase(Locale.ROOT).trim();
-                      boolean completed=status.matches("^(achievement\\s+)?(completed|obtained|claimed|unlocked)(\\b.*)$")
-                          || status.matches("^date\\s+completed\\b.*$");
-                      if(!completed) continue;
+                      if(!isCompletionStatus(lines.get(i))) continue;
                       for(int j=i-1;j>=0;j--) {
                           String candidate=lines.get(j).trim();
-                          if(candidate.length()>=4 && !candidate.equalsIgnoreCase("Achievements")) {
+                          String lower=candidate.toLowerCase(Locale.ROOT);
+                          if(candidate.length()>=4 && !lower.equals("achievements") && !lower.equals("achievement")
+                              && !lower.matches(".*(completed|obtained|claimed|unlocked|date completed).*")) {
                               prefs.edit().putBoolean(achievementKey(candidate),true).apply();
                               try {
                                   JSONArray old=new JSONArray(prefs.getString("achievement_lines","[]"));
@@ -553,7 +570,10 @@ jobs:
                       WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL,
                       PixelFormat.TRANSLUCENT);
                   params.gravity=Gravity.TOP|Gravity.CENTER_HORIZONTAL; params.y=(int)(getResources().getDisplayMetrics().density*90);
-                  try { overlayManager.addView(overlayText,params); } catch(Exception e) { Toast.makeText(this,"تعذر إظهار نافذة الترجمة. تحقق من إذن الظهور فوق التطبيقات.",Toast.LENGTH_LONG).show(); }
+                  try { overlayManager.addView(overlayText,params); } catch(Exception e) {
+                      overlayText=null;
+                      Toast.makeText(this,"تعذر إظهار نافذة الترجمة: "+e.getClass().getSimpleName()+" — تحقق من إذن الظهور فوق التطبيقات.",Toast.LENGTH_LONG).show();
+                  }
                   setupFloatingMenu();
                   TranslatorOptions options=new TranslatorOptions.Builder()
                       .setSourceLanguage(TranslateLanguage.ENGLISH)
@@ -561,7 +581,8 @@ jobs:
                   liveTranslator=Translation.getClient(options);
                   liveTranslator.downloadModelIfNeeded(new DownloadConditions.Builder().build())
                       .addOnSuccessListener(v->{translatorReady=true;updateOverlay("الترجمة جاهزة\nافتح اللعبة لعرض الترجمة هنا.");})
-                      .addOnFailureListener(e->updateOverlay("تعذر تنزيل نموذج الترجمة. اتصل بالإنترنت ثم أعد المحاولة."));              }
+                      .addOnFailureListener(e->updateOverlay("تعذر تنزيل نموذج الترجمة: "+e.getClass().getSimpleName()+". اتصل بالإنترنت وأعد بدء المسح."));
+              }
               void setupFloatingMenu() {
                   floatingMenu=new LinearLayout(this);
                   floatingMenu.setOrientation(LinearLayout.VERTICAL);
@@ -677,18 +698,32 @@ jobs:
               }
               void translateLiveText(String source) {
                   long now=System.currentTimeMillis();
-                  if(!translatorReady || liveTranslator==null || translatingText.get() || now-lastTranslationAt<1800 || source.equals(lastLiveSource)) return;
-                  lastTranslationAt=now; lastLiveSource=source;
+                  if(!translatorReady || liveTranslator==null || translatingText.get() || now-lastTranslationAt<1400 || source.equals(lastLiveSource)) return;
                   if(!translatingText.compareAndSet(false,true)) return;
+                  lastTranslationAt=now; lastLiveSource=source;
                   liveTranslator.translate(source)
                       .addOnSuccessListener(translated->updateOverlay(source+"\n\nالعربية:\n"+translated))
-                      .addOnFailureListener(e->updateOverlay("تعذرت ترجمة النص الظاهر.\n"+source))
+                      .addOnFailureListener(e->updateOverlay("تعذرت ترجمة النص: "+e.getClass().getSimpleName()+"\n"+source))
                       .addOnCompleteListener(task->translatingText.set(false));
               }
+              String normalizeOcr(String raw) {
+                  return raw.toLowerCase(Locale.ROOT).replaceAll("[^a-z]","");
+              }
               String detectedResource(String raw) {
-                  String s=raw.toLowerCase(Locale.ROOT);
-                  String[] resources={"sweet flower","mint","matsutake","sunsettia","berry","valberry","windwheel aster","cecilia","wolfhook","qingxin","silk flower","cor lapis","noctilucous jade","crystal chunk","white iron chunk","amethyst lump","iron chunk","scarab","onikabuto","sakura bloom","dandelion seed","lotus head","jueyun chili","philanemo mushroom","pinecone","bird egg","fowl","fish","crab","frog","lizard tail","common chest","exquisite chest","precious chest","luxurious chest","remarkable chest"};
-                  for(String item:resources) if(s.contains(item)) return item;
+                  String s=normalizeOcr(raw);
+                  String[][] resources={
+                      {"sweet flower","sweetflower"},{"mint","mint"},{"matsutake","matsutake"},{"sunsettia","sunsettia"},
+                      {"berry","berry"},{"valberry","valberry"},{"windwheel aster","windwheelaster"},{"cecilia","cecilia"},
+                      {"wolfhook","wolfhook"},{"qingxin","qingxin"},{"silk flower","silkflower"},{"cor lapis","corlapis"},
+                      {"noctilucous jade","noctilucousjade"},{"crystal chunk","crystalchunk"},{"white iron chunk","whiteironchunk"},
+                      {"amethyst lump","amethystlump"},{"iron chunk","ironchunk"},{"scarab","scarab"},{"onikabuto","onikabuto"},
+                      {"sakura bloom","sakurabloom"},{"dandelion seed","dandelionseed"},{"lotus head","lotushead"},
+                      {"jueyun chili","jueyunchili"},{"philanemo mushroom","philanemomushroom"},{"pinecone","pinecone"},
+                      {"bird egg","birdegg"},{"fowl","fowl"},{"fish","fish"},{"crab","crab"},{"frog","frog"},
+                      {"lizard tail","lizardtail"},{"common chest","commonchest"},{"exquisite chest","exquisitechest"},
+                      {"precious chest","preciouschest"},{"luxurious chest","luxuriouschest"},{"remarkable chest","remarkablechest"}
+                  };
+                  for(String[] item:resources) if(s.contains(item[1])) return item[0];
                   return null;
               }
               void updateResourceMarkers(List<Text.Line> lines) {
@@ -712,12 +747,12 @@ jobs:
                               WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE|WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                               PixelFormat.TRANSLUCENT);
                           p.gravity=Gravity.TOP|Gravity.LEFT;
-                          p.x=Math.max(0,bounds.centerX()); p.y=Math.max(0,bounds.centerY());
+                          p.x=Math.max(0,bounds.centerX()-dp(45)); p.y=Math.max(0,bounds.centerY()-dp(18));
                           try { overlayManager.addView(marker,p); resourceMarkers.put(item,marker); } catch(Exception ignored) {}
                       } else {
                           try {
                               WindowManager.LayoutParams p=(WindowManager.LayoutParams)marker.getLayoutParams();
-                              p.x=Math.max(0,bounds.centerX()); p.y=Math.max(0,bounds.centerY());
+                              p.x=Math.max(0,bounds.centerX()-dp(45)); p.y=Math.max(0,bounds.centerY()-dp(18));
                               overlayManager.updateViewLayout(marker,p);
                           } catch(Exception ignored) {}
                       }
@@ -936,14 +971,29 @@ jobs:
                                           if(screenText.length()<650) screenText.append(value).append('\n');
                                       }
                                   }
-                                  saveLiveNames(found);
-                                  markCompletedFromOcr(orderedLines);
+                                  ocrFrameCount++;
+                                  lastOcrLineCount=orderedLines.size();
                                   updateResourceMarkers(detectedLines);
+                                  boolean achievementPage=isAchievementPage(orderedLines);
+                                  if(achievementPage) {
+                                      saveLiveNames(found);
+                                      markCompletedFromOcr(orderedLines);
+                                  }
+                                  long now=System.currentTimeMillis();
+                                  if(liveScanStatus!=null && now-lastOcrUiUpdate>2500) {
+                                      lastOcrUiUpdate=now;
+                                      liveScanStatus.setText("حالة المسح: يقرأ الشاشة ✓ | إطارات: "+ocrFrameCount+" | أسطر مقروءة: "+lastOcrLineCount+" | صفحة الإنجازات: "+(achievementPage?"نعم":"لا"));
+                                  }
                                   if(screenText.length()>0) translateLiveText(screenText.toString().trim());
+                                  else if(translatorReady && overlayText!=null) updateOverlay("المسح يعمل، لكن لم أتعرف على نص في هذه اللقطة. تأكد أن نص اللعبة ظاهر وواضح.");
+                              }).addOnFailureListener(error->{
+                                  android.util.Log.e("GenshinAssistant","Live OCR failed",error);
+                                  updateOverlay("تعذرت قراءة نص الشاشة: "+error.getClass().getSimpleName());
                               }).addOnCompleteListener(task->{frame.close();processingFrame.set(false);});
                           } catch(Exception e){frame.close();processingFrame.set(false);}
                       },new Handler(Looper.getMainLooper()));
-                      if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: يعمل الآن ✓ انتقل إلى اللعبة ومرّر صفحات الإنجازات.");
+                      ocrFrameCount=0; lastOcrLineCount=0; lastOcrUiUpdate=0;
+                      if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: يعمل الآن؛ أنتظر أول إطار من الشاشة...");
                       Toast.makeText(this,"بدأ المسح. انتقل إلى اللعبة ومرّر صفحات الإنجازات.",Toast.LENGTH_LONG).show();
                   } catch(Exception e){
                       String message=e.getClass().getSimpleName()+": "+e.getMessage();
