@@ -46,7 +46,7 @@ KEEP = {
 
 
 def parse_sources() -> list[tuple[str, str, int]]:
-    raw = os.environ.get("ROBOFLOW_DATASETS", DEFAULT_DATASETS)
+    raw = os.environ.get("ROBOFLOW_DATASETS", "").strip() or DEFAULT_DATASETS
     sources = []
     for item in raw.split(";"):
         item = item.strip()
