@@ -105,134 +105,121 @@ jobs:
 
           cat > app/src/main/java/com/example/genshinassistant/MainActivity.java <<'EOF'
           package com.example.genshinassistant;
-
+          
           import android.app.Activity;
           import android.os.Bundle;
-          import android.graphics.Typeface;
           import android.graphics.Color;
+          import android.graphics.Typeface;
           import android.view.Gravity;
+          import android.text.Editable;
+          import android.text.TextWatcher;
           import android.widget.*;
           import android.content.SharedPreferences;
-
+          import java.util.*;
+          
           public class MainActivity extends Activity {
-              LinearLayout content;
+              LinearLayout root, content, nav;
               SharedPreferences prefs;
-
-              @Override
-              protected void onCreate(Bundle savedInstanceState) {
-                  super.onCreate(savedInstanceState);
-                  prefs = getSharedPreferences("progress", MODE_PRIVATE);
-
-                  LinearLayout root = new LinearLayout(this);
-                  root.setOrientation(LinearLayout.VERTICAL);
-                  root.setPadding(20, 24, 20, 20);
-                  root.setBackgroundColor(Color.rgb(245, 245, 250));
-
-                  TextView title = new TextView(this);
-                  title.setText("Genshin Assistant");
-                  title.setTextSize(26);
-                  title.setTypeface(null, Typeface.BOLD);
-                  title.setGravity(Gravity.CENTER);
-                  root.addView(title);
-
-                  LinearLayout menu = new LinearLayout(this);
-                  menu.setOrientation(LinearLayout.VERTICAL);
-
-                  addButton(menu, "الشخصيات", () -> showCharacters());
-                  addButton(menu, "التفريم", () -> showFarming());
-                  addButton(menu, "تقدم الحساب", () -> showProgress());
-
-                  root.addView(menu);
-
-                  ScrollView scroll = new ScrollView(this);
-                  content = new LinearLayout(this);
-                  content.setOrientation(LinearLayout.VERTICAL);
-                  content.setPadding(8, 20, 8, 20);
-                  scroll.addView(content);
-                  root.addView(scroll, new LinearLayout.LayoutParams(
-                      -1, 0, 1
-                  ));
-
-                  setContentView(root);
-                  showHome();
+              final String[] characters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
+          
+              @Override public void onCreate(Bundle state) {
+                  super.onCreate(state);
+                  prefs=getSharedPreferences("genshin_progress",MODE_PRIVATE);
+                  root=new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL);
+                  root.setPadding(16,18,16,12); root.setBackgroundColor(Color.rgb(247,246,250));
+                  TextView title=new TextView(this); title.setText("Genshin Assistant"); title.setTextSize(25);
+                  title.setTypeface(null,Typeface.BOLD); title.setTextColor(Color.rgb(65,48,91));
+                  title.setGravity(Gravity.CENTER); title.setPadding(4,8,4,14); root.addView(title);
+                  ScrollView scroll=new ScrollView(this);
+                  content=new LinearLayout(this); content.setOrientation(LinearLayout.VERTICAL);
+                  content.setPadding(2,4,2,18); scroll.addView(content);
+                  root.addView(scroll,new LinearLayout.LayoutParams(-1,0,1));
+                  nav=new LinearLayout(this); nav.setOrientation(LinearLayout.HORIZONTAL); nav.setGravity(Gravity.CENTER);
+                  addNav("الرئيسية",()->showHome()); addNav("الشخصيات",()->showCharacters()); addNav("المهام",()->showTasks());
+                  root.addView(nav); setContentView(root); showHome();
               }
-
-              void addButton(LinearLayout parent, String label, Runnable action) {
-                  Button b = new Button(this);
-                  b.setText(label);
-                  b.setTextSize(17);
-                  b.setOnClickListener(v -> action.run());
-                  parent.addView(b);
+              void addNav(String label,Runnable action) {
+                  Button b=new Button(this); b.setText(label); b.setTextSize(12); b.setOnClickListener(v->action.run());
+                  nav.addView(b,new LinearLayout.LayoutParams(0,-2,1));
               }
-
-              void heading(String text) {
-                  TextView t = new TextView(this);
-                  t.setText(text);
-                  t.setTextSize(21);
-                  t.setTypeface(null, Typeface.BOLD);
-                  t.setPadding(8, 12, 8, 12);
-                  content.addView(t);
+              void heading(String value) {
+                  TextView t=new TextView(this); t.setText(value); t.setTextSize(21); t.setTypeface(null,Typeface.BOLD);
+                  t.setTextColor(Color.rgb(65,48,91)); t.setPadding(4,12,4,10); content.addView(t);
               }
-
-              void line(String text) {
-                  TextView t = new TextView(this);
-                  t.setText(text);
-                  t.setTextSize(16);
-                  t.setPadding(8, 8, 8, 8);
-                  content.addView(t);
+              void line(String value) {
+                  TextView t=new TextView(this); t.setText(value); t.setTextSize(15); t.setTextColor(Color.DKGRAY);
+                  t.setPadding(4,5,4,8); content.addView(t);
               }
-
-              void check(String key, String label) {
-                  CheckBox c = new CheckBox(this);
-                  c.setText(label);
-                  c.setTextSize(16);
-                  c.setChecked(prefs.getBoolean(key, false));
-                  c.setOnCheckedChangeListener((v, checked) ->
-                      prefs.edit().putBoolean(key, checked).apply()
-                  );
+              void check(String key,String label) {
+                  CheckBox c=new CheckBox(this); c.setText(label); c.setTextSize(15); c.setPadding(4,5,4,5);
+                  c.setChecked(prefs.getBoolean(key,false));
+                  c.setOnCheckedChangeListener((v,checked)->prefs.edit().putBoolean(key,checked).apply());
                   content.addView(c);
               }
-
+              String key(String prefix,String name) {
+                  return prefix+"_"+name.toLowerCase(Locale.ROOT).replace(" ","_");
+              }
               void showHome() {
-                  content.removeAllViews();
-                  heading("مرحباً بك!");
-                  line("مساعد مستقل لتنظيم تقدمك في Genshin Impact.");
-                  line("اختر أحد الأقسام من الأزرار أعلاه.");
-                  line("هذا التطبيق لا يتحكم باللعبة ولا يعدّل ملفاتها.");
+                  content.removeAllViews(); heading("أهلاً بك في رحلتك في تيفات!");
+                  line("تابع شخصياتك ومواد التطوير والمهام من مكان واحد.");
+                  int owned=0,done=0,total=0;
+                  for(String n:characters) {
+                      if(prefs.getBoolean(key("owned",n),false)) owned++;
+                      for(int i=1;i<=5;i++){total++;if(prefs.getBoolean(key("task"+i,n),false))done++;}
+                  }
+                  line("الشخصيات التي تملكها: "+owned+" من "+characters.length);
+                  line("مهام تطوير الشخصيات المنجزة: "+done+" من "+total);
+                  ProgressBar bar=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
+                  bar.setMax(Math.max(1,total));bar.setProgress(done);content.addView(bar,new LinearLayout.LayoutParams(-1,24));
+                  Button b=new Button(this);b.setText("افتح قائمة الشخصيات");b.setOnClickListener(v->showCharacters());content.addView(b);
+                  line("البيانات تحفظ على هذا الجهاز. لا يوجد اتصال مباشر بحساب اللعبة.");
               }
-
               void showCharacters() {
-                  content.removeAllViews();
-                  heading("الشخصيات");
-                  line("قائمة متابعة تطوير شخصياتك:");
-                  check("char1", "رفع مستوى الشخصية");
-                  check("char2", "جمع مواد الصعود");
-                  check("char3", "تطوير المواهب");
-                  check("char4", "تحسين القطع الأثرية");
-                  check("char5", "تطوير السلاح");
+                  content.removeAllViews();heading("قائمة الشخصيات");
+                  line("ضع علامة على الشخصيات التي تملكها، واضغط على اسمها لمتابعة تطويرها.");
+                  EditText search=new EditText(this);search.setSingleLine(true);search.setTextSize(15);
+                  search.setHint("ابحث عن شخصية...");content.addView(search);
+                  LinearLayout list=new LinearLayout(this);list.setOrientation(LinearLayout.VERTICAL);content.addView(list);
+                  Runnable refresh=()->{
+                      list.removeAllViews();String q=search.getText().toString().toLowerCase(Locale.ROOT).trim();
+                      for(String name:characters){
+                          if(!name.toLowerCase(Locale.ROOT).contains(q))continue;
+                          LinearLayout row=new LinearLayout(this);row.setOrientation(LinearLayout.HORIZONTAL);row.setGravity(Gravity.CENTER_VERTICAL);
+                          CheckBox owned=new CheckBox(this);owned.setText("أملكها");owned.setTextSize(12);
+                          owned.setChecked(prefs.getBoolean(key("owned",name),false));
+                          owned.setOnCheckedChangeListener((v,checked)->prefs.edit().putBoolean(key("owned",name),checked).apply());
+                          row.addView(owned);
+                          Button details=new Button(this);details.setText(name);details.setAllCaps(false);
+                          details.setOnClickListener(v->showCharacterDetails(name));
+                          row.addView(details,new LinearLayout.LayoutParams(0,-2,1));list.addView(row);
+                      }
+                  };
+                  search.addTextChangedListener(new TextWatcher(){
+                      public void beforeTextChanged(CharSequence s,int st,int c,int a){}
+                      public void onTextChanged(CharSequence s,int st,int before,int count){refresh.run();}
+                      public void afterTextChanged(Editable e){}
+                  });refresh.run();
               }
-
-              void showFarming() {
-                  content.removeAllViews();
-                  heading("التفريم");
-                  line("قائمة مهام جمع الموارد اليومية:");
-                  check("farm1", "جمع الزهور والموارد المحلية");
-                  check("farm2", "جمع مواد الوحوش");
-                  check("farm3", "جمع خامات تطوير الأسلحة");
-                  check("farm4", "إنجاز الزنزانات");
-                  check("farm5", "استخدام الراتنج الأصلي");
-                  line("حدد المهام التي أنجزتها لتُحفظ تلقائياً.");
+              void showCharacterDetails(String name) {
+                  content.removeAllViews();Button back=new Button(this);back.setText("رجوع إلى الشخصيات");
+                  back.setOnClickListener(v->showCharacters());content.addView(back);heading(name);
+                  line("علّم على ما أنجزته؛ سيُحفظ التقدم تلقائياً.");
+                  check(key("task1",name),"رفع المستوى");check(key("task2",name),"جمع مواد الصعود");
+                  check(key("task3",name),"تطوير المواهب");check(key("task4",name),"تحسين القطع الأثرية");
+                  check(key("task5",name),"تطوير السلاح");
+                  int done=0;for(int i=1;i<=5;i++)if(prefs.getBoolean(key("task"+i,name),false))done++;
+                  line("إنجاز تطوير الشخصية: "+(done*20)+"٪");
+                  ProgressBar bar=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
+                  bar.setMax(5);bar.setProgress(done);content.addView(bar,new LinearLayout.LayoutParams(-1,24));
               }
-
-              void showProgress() {
-                  content.removeAllViews();
-                  heading("تقدم الحساب");
-                  line("تابع إنجازاتك:");
-                  check("prog1", "إنجاز المهام اليومية");
-                  check("prog2", "استكشاف المناطق");
-                  check("prog3", "فتح نقاط الانتقال");
-                  check("prog4", "تطوير الشخصيات");
-                  check("prog5", "جمع الأسلحة والموارد");
+              void showTasks() {
+                  content.removeAllViews();heading("المهام العامة");
+                  line("مهام يمكنك التأشير عليها بعد إنجازها.");
+                  check("daily_commissions","إنجاز المهام اليومية");check("daily_resin","استخدام الراتنج الأصلي");
+                  check("weekly_boss","إنجاز زعماء الأسبوع");check("domains","إنجاز الزنزانات");
+                  check("exploration","استكشاف المناطق");check("waypoints","فتح نقاط الانتقال");
+                  check("local_specialties","جمع الموارد المحلية");check("enemy_drops","جمع مواد الوحوش");
+                  line("تبقى العلامات محفوظة حتى تغيّرها بنفسك.");
               }
           }
           EOF
