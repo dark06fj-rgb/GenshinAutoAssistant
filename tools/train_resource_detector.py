@@ -139,14 +139,14 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    print("Starting CPU transfer-learning run with YOLO11n (60 epochs, 416px)...")
+    print("Starting lightweight CPU transfer-learning run with YOLO11n (20 epochs, 320px, batch 4)...", flush=True)
     model = YOLO("yolo11n.pt")
     model.train(
         data=str(filtered_yaml),
-        epochs=60,
-        imgsz=416,
-        batch=8,
-        patience=15,
+        epochs=20,
+        imgsz=320,
+        batch=4,
+        patience=8,
         workers=2,
         device="cpu",
         pretrained=True,
