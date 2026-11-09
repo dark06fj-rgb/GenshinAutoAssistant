@@ -1,0 +1,47 @@
+name: Train Genshin Resource Detector
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install training tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "ultralytics==8.3.0" "roboflow==1.1.49" "PyYAML==6.0.2"
+
+      - name: Train resource detector
+        env:
+          ROBOFLOW_API_KEY: ${{ secrets.ROBOFLOW_API_KEY }}
+        run: python tools/train_resource_detector.py
+
+      - name: Upload trained model and evaluation files
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: genshin-resource-detector-experimental
+          path: |
+            runs/detect/genshin_resources/weights/best.pt
+            runs/detect/genshin_resources/results.csv
+            runs/detect/genshin_resources/confusion_matrix.png
+            runs/detect/genshin_resources/PR_curve.png
+            runs/detect/genshin_resources/F1_curve.png
+            runs/detect/genshin_resources/class_counts.txt
+            runs/detect/genshin_resources/DATASET_ATTRIBUTION.txt
+          if-no-files-found: warn
+          retention-days: 30
