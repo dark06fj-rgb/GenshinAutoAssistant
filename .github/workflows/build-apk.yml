@@ -83,8 +83,8 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 33
-                  versionCode 13
-                  versionName '5.9'
+                  versionCode 14
+                  versionName '6.0'
               }
           }
 
@@ -190,7 +190,7 @@ jobs:
               WindowManager.LayoutParams floatingMenuParams;
               boolean resourceMarkersEnabled=true, translationVisible=true;
               boolean checkingOverlayPermission=false;
-              TextView overlayPermissionStatus;
+              TextView overlayPermissionStatus, liveScanStatus;
               Translator liveTranslator;
               boolean translatorReady=false;
               final AtomicBoolean translatingText=new AtomicBoolean(false);
@@ -440,6 +440,7 @@ jobs:
                   Button testOverlay=new Button(this); testOverlay.setText("اختبار ظهور نافذة فوق الشاشة"); testOverlay.setOnClickListener(v->testOverlayWindow()); content.addView(testOverlay);
                   Button deviceSettings=new Button(this); deviceSettings.setText("إعدادات التوافق مع TECNO"); deviceSettings.setOnClickListener(v->showTecnoCompatibilityHelp()); content.addView(deviceSettings);
                   line("إذا كان الإذن مفعّلاً ولم تظهر النافذة، فقد يحتاج HiOS إلى السماح بالنوافذ المنبثقة والتشغيل في الخلفية وإلغاء تقييد البطارية.");
+                  liveScanStatus=new TextView(this); liveScanStatus.setTextSize(14); liveScanStatus.setTextColor(Color.rgb(65,48,91)); liveScanStatus.setPadding(dp(8),dp(8),dp(8),dp(8)); liveScanStatus.setText("حالة المسح: متوقف"); content.addView(liveScanStatus);
                   Button live=new Button(this); live.setText("بدء المسح المباشر من الشاشة"); live.setOnClickListener(v->startLiveScan()); content.addView(live);
                   Button menuHelp=new Button(this); menuHelp.setText("إظهار قائمة تيفات العائمة"); menuHelp.setOnClickListener(v->{
                       if(mediaProjection!=null) setupFloatingMenu();
@@ -697,7 +698,16 @@ jobs:
               }
               @Override protected void onActivityResult(int requestCode,int resultCode,Intent data) {
                   super.onActivityResult(requestCode,resultCode,data);
-                  if(requestCode==REQUEST_SCREEN_CAPTURE) { if(resultCode==RESULT_OK && data!=null) beginLiveScan(resultCode,data); else line("لم يتم منح إذن مشاركة الشاشة."); return; }
+                  if(requestCode==REQUEST_SCREEN_CAPTURE) {
+                      if(resultCode==RESULT_OK && data!=null) {
+                          if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: تم منح الإذن، جارٍ تشغيل المحرك...");
+                          beginLiveScan(resultCode,data);
+                      } else {
+                          if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: لم تتم الموافقة على مشاركة الشاشة.");
+                          Toast.makeText(this,"لم يتم منح إذن مشاركة الشاشة.",Toast.LENGTH_LONG).show();
+                      }
+                      return;
+                  }
                   if(requestCode!=PICK_ACHIEVEMENT_IMAGE || resultCode!=RESULT_OK || data==null || data.getData()==null) return;
                   Uri uri=data.getData();
                   content.removeAllViews(); heading("قراءة الصورة...");
@@ -778,7 +788,11 @@ jobs:
                       }).show();
               }
               void startLiveScan() {
+                  if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: تم الضغط على زر البدء، جارٍ فحص الأذونات...");
+                  Toast.makeText(this,"جارٍ تجهيز المسح المباشر...",Toast.LENGTH_SHORT).show();
+                  try {
                   if(Build.VERSION.SDK_INT>=23 && !Settings.canDrawOverlays(this)) {
+                      if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: إذن الظهور فوق التطبيقات غير مفعّل.");
                       new android.app.AlertDialog.Builder(this)
                           .setTitle("السماح بالنافذة العائمة")
                           .setMessage("لإظهار الترجمة العربية فوق اللعبة، اسمح للتطبيق بالظهور فوق التطبيقات الأخرى، ثم ارجع واضغط بدء المسح مرة أخرى.")
@@ -790,8 +804,20 @@ jobs:
                           }).show();
                       return;
                   }
+                  requestScreenCapturePermission();
+                  } catch(Exception e) {
+                      String message=e.getClass().getSimpleName()+": "+e.getMessage();
+                      if(liveScanStatus!=null) liveScanStatus.setText("تعذر بدء المسح: "+message);
+                      Toast.makeText(this,"تعذر بدء المسح: "+message,Toast.LENGTH_LONG).show();
+                  }
+              }
+              void requestScreenCapturePermission() {
                   MediaProjectionManager manager=(MediaProjectionManager)getSystemService(MEDIA_PROJECTION_SERVICE);
-                  startActivityForResult(manager.createScreenCaptureIntent(),REQUEST_SCREEN_CAPTURE);
+                  if(manager==null) throw new IllegalStateException("خدمة مشاركة الشاشة غير متاحة على الجهاز");
+                  Intent captureIntent=manager.createScreenCaptureIntent();
+                  if(captureIntent==null) throw new IllegalStateException("تعذر إنشاء طلب مشاركة الشاشة");
+                  if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: افتح نافذة أندرويد واختر بدء الآن للسماح بمشاركة الشاشة.");
+                  startActivityForResult(captureIntent,REQUEST_SCREEN_CAPTURE);
               }
               void beginLiveScan(int resultCode,Intent data) {
                   try {
@@ -831,8 +857,14 @@ jobs:
                               }).addOnCompleteListener(task->{frame.close();processingFrame.set(false);});
                           } catch(Exception e){frame.close();processingFrame.set(false);}
                       },new Handler(Looper.getMainLooper()));
+                      if(liveScanStatus!=null) liveScanStatus.setText("حالة المسح: يعمل الآن ✓ انتقل إلى اللعبة ومرّر صفحات الإنجازات.");
                       Toast.makeText(this,"بدأ المسح. انتقل إلى اللعبة ومرّر صفحات الإنجازات.",Toast.LENGTH_LONG).show();
-                  } catch(Exception e){line("تعذر بدء المسح: "+e.getMessage());releaseCapture();}
+                  } catch(Exception e){
+                      String message=e.getClass().getSimpleName()+": "+e.getMessage();
+                      if(liveScanStatus!=null) liveScanStatus.setText("فشل تشغيل المسح: "+message);
+                      Toast.makeText(this,"تعذر بدء المسح: "+message,Toast.LENGTH_LONG).show();
+                      releaseCapture();
+                  }
               }
               void saveLiveNames(Set<String> found) {
                   try {
