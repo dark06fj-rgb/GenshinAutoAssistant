@@ -20,7 +20,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-          - name: Install Android SDK packages
+      - name: Install Android SDK packages
         run: |
           SDK_ROOT="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
           echo "ANDROID_HOME=$SDK_ROOT" >> "$GITHUB_ENV"
