@@ -376,7 +376,7 @@ jobs:
               void setupTranslationOverlay() {
                   overlayManager=(WindowManager)getSystemService(WINDOW_SERVICE);
                   overlayText=new TextView(this);
-                  overlayText.setText("Genshin Assistant\\nجارٍ تجهيز الترجمة الإنجليزية ← العربية...");
+                  overlayText.setText("Genshin Assistant\nجارٍ تجهيز الترجمة الإنجليزية ← العربية...");
                   overlayText.setTextColor(Color.WHITE); overlayText.setTextSize(15);
                   overlayText.setPadding(18,14,18,14); overlayText.setGravity(Gravity.CENTER_VERTICAL);
                   overlayText.setMaxLines(8);
@@ -394,8 +394,8 @@ jobs:
                       .setSourceLanguage(TranslateLanguage.ENGLISH)
                       .setTargetLanguage(TranslateLanguage.ARABIC).build();
                   liveTranslator=Translation.getClient(options);
-                  liveTranslator.downloadIfNeeded(new DownloadConditions.Builder().build())
-                      .addOnSuccessListener(v->{translatorReady=true;updateOverlay("الترجمة جاهزة\\nافتح اللعبة لعرض الترجمة هنا.");})
+                  liveTranslator.downloadModelIfNeeded(new DownloadConditions.Builder().build())
+                      .addOnSuccessListener(v->{translatorReady=true;updateOverlay("الترجمة جاهزة\nافتح اللعبة لعرض الترجمة هنا.");})
                       .addOnFailureListener(e->updateOverlay("تعذر تنزيل نموذج الترجمة. اتصل بالإنترنت ثم أعد المحاولة."));
               }
               void translateLiveText(String source) {
@@ -404,8 +404,8 @@ jobs:
                   lastTranslationAt=now; lastLiveSource=source;
                   if(!translatingText.compareAndSet(false,true)) return;
                   liveTranslator.translate(source)
-                      .addOnSuccessListener(translated->updateOverlay(source+"\\n\\nالعربية:\\n"+translated))
-                      .addOnFailureListener(e->updateOverlay("تعذرت ترجمة النص الظاهر.\\n"+source))
+                      .addOnSuccessListener(translated->updateOverlay(source+"\n\nالعربية:\n"+translated))
+                      .addOnFailureListener(e->updateOverlay("تعذرت ترجمة النص الظاهر.\n"+source))
                       .addOnCompleteListener(task->translatingText.set(false));
               }
               void updateOverlay(String value) {
