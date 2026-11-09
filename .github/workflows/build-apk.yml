@@ -79,14 +79,15 @@ jobs:
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 35
-                  versionCode 3
-                  versionName '3.0'
+                  versionCode 4
+                  versionName '4.0'
               }
           }
           EOF
 
           cat > app/src/main/AndroidManifest.xml <<'EOF'
           <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+              <uses-permission android:name="android.permission.INTERNET"/>
               <application
                   android:allowBackup="true"
                   android:label="Genshin Assistant"
@@ -116,6 +117,9 @@ jobs:
           import android.widget.*;
           import android.content.SharedPreferences;
           import java.util.*;
+          import java.net.*;
+          import java.io.*;
+          import org.json.*;
           
           public class MainActivity extends Activity {
               LinearLayout root, content, nav;
@@ -172,7 +176,74 @@ jobs:
                   ProgressBar bar=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
                   bar.setMax(Math.max(1,total));bar.setProgress(done);content.addView(bar,new LinearLayout.LayoutParams(-1,24));
                   Button b=new Button(this);b.setText("افتح قائمة الشخصيات");b.setOnClickListener(v->showCharacters());content.addView(b);
-                  line("البيانات تحفظ على هذا الجهاز. لا يوجد اتصال مباشر بحساب اللعبة.");
+                  Button connect=new Button(this); connect.setText("ربط حساب Genshin عبر UID"); connect.setOnClickListener(v->connectAccount()); content.addView(connect);
+                  line("يمكن جلب بيانات المعرض العام عبر UID دون كلمة مرور أو ملفات اللعبة.");
+              }
+              void connectAccount() {
+                  LinearLayout form=new LinearLayout(this); form.setOrientation(LinearLayout.VERTICAL);
+                  EditText uidInput=new EditText(this); uidInput.setSingleLine(true); uidInput.setInputType(2);
+                  uidInput.setHint("أدخل UID الخاص بك (9 أرقام)"); 
+                  String saved=prefs.getString("game_uid","");
+                  if(!saved.isEmpty()) uidInput.setText(saved);
+                  form.addView(uidInput);
+                  new android.app.AlertDialog.Builder(this).setTitle("ربط حساب Genshin")
+                      .setMessage("يجب تفعيل Show Character Details في ملفك داخل اللعبة حتى يمكن قراءة شخصيات المعرض. لا تدخل كلمة المرور أو ملفات تعريف الارتباط.")
+                      .setView(form)
+                      .setNegativeButton("إلغاء",null)
+                      .setPositiveButton("اتصال", (dialog,which)->{
+                          String uid=uidInput.getText().toString().trim();
+                          if(!uid.matches("\\d{9,11}")) { new android.app.AlertDialog.Builder(this).setMessage("UID غير صحيح. أدخل من 9 إلى 11 رقماً.").setPositiveButton("حسناً",null).show(); return; }
+                          prefs.edit().putString("game_uid",uid).apply();
+                          content.removeAllViews(); heading("جارٍ الاتصال...");
+                          line("نقرأ بيانات المعرض العام فقط. قد يستغرق ذلك بضع ثوانٍ.");
+                          new Thread(()->{
+                              try {
+                                  URL url=new URL("https://enka.network/api/uid/"+uid+"/");
+                                  HttpURLConnection conn=(HttpURLConnection)url.openConnection();
+                                  conn.setRequestMethod("GET"); conn.setConnectTimeout(15000); conn.setReadTimeout(15000);
+                                  conn.setRequestProperty("User-Agent","GenshinAssistant/4.0 (Android)");
+                                  int code=conn.getResponseCode();
+                                  if(code!=200) throw new Exception("HTTP "+code);
+                                  BufferedReader reader=new BufferedReader(new InputStreamReader(conn.getInputStream(),"UTF-8"));
+                                  StringBuilder body=new StringBuilder(); String line;
+                                  while((line=reader.readLine())!=null) body.append(line);
+                                  reader.close(); conn.disconnect();
+                                  JSONObject data=new JSONObject(body.toString());
+                                  JSONObject player=data.optJSONObject("playerInfo");
+                                  if(player==null) throw new Exception("لم يتم العثور على بيانات اللاعب.");
+                                  JSONArray avatars=data.optJSONArray("avatarInfoList");
+                                  int count=avatars==null?0:avatars.length();
+                                  String nickname=player.optString("nickname","لا يوجد اسم");
+                                  int world=player.optInt("worldLevel",-1);
+                                  int achievements=player.optInt("finishAchievementNum",-1);
+                                  runOnUiThread(()->{
+                                      content.removeAllViews(); heading("تم الاتصال بالحساب!");
+                                      line("UID: "+uid); line("اسم اللاعب: "+nickname);
+                                      if(world>=0) line("مستوى العالم: "+world);
+                                      if(achievements>=0) line("الإنجازات: "+achievements);
+                                      line("الشخصيات الظاهرة في المعرض: "+count);
+                                      if(count==0) line("لم تظهر شخصيات. فعّل Show Character Details في ملفك داخل اللعبة ثم أعد المحاولة.");
+                                      else {
+                                          line("معرّفات الشخصيات الظاهرة:");
+                                          for(int i=0;i<count;i++) {
+                                              JSONObject av=avatars.optJSONObject(i);
+                                              if(av!=null) line("• "+av.optInt("avatarId",0));
+                                          }
+                                      }
+                                      line("المصدر: Enka.Network — بيانات المعرض التي جعلتها عامة فقط.");
+                                      Button back=new Button(this); back.setText("العودة للرئيسية"); back.setOnClickListener(v->showHome()); content.addView(back);
+                                  });
+                              } catch(Exception e) {
+                                  runOnUiThread(()->{
+                                      content.removeAllViews(); heading("تعذر الاتصال");
+                                      line("تحقق من UID واتصال الإنترنت وإعدادات عرض الشخصيات في اللعبة.");
+                                      line("تفاصيل الخطأ: "+e.getMessage());
+                                      Button retry=new Button(this); retry.setText("إعادة المحاولة"); retry.setOnClickListener(v->connectAccount()); content.addView(retry);
+                                      Button back=new Button(this); back.setText("الرئيسية"); back.setOnClickListener(v->showHome()); content.addView(back);
+                                  });
+                              }
+                          }).start();
+                      }).show();
               }
               void showCharacters() {
                   content.removeAllViews();heading("قائمة الشخصيات");
