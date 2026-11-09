@@ -1,3 +1,4 @@
+
 name: Build Genshin Assistant APK
 
 on:
@@ -9,9 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout project
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Java
@@ -19,25 +19,12 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
 
       - name: Setup Android SDK
-        run: |
-          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
-          if [ ! -x "$SDKMANAGER" ]; then
-            SDKMANAGER="$(find "$ANDROID_HOME/cmdline-tools" -name sdkmanager -type f | head -n 1)"
-          fi
-          echo "$(dirname "$SDKMANAGER")" >> "$GITHUB_PATH"
-          yes | "$SDKMANAGER" --licenses
-          "$SDKMANAGER" "platform-tools" "platforms;android-35" "build-tools;35.0.0"
-      - name: Install Android packages
-        run: |
-          yes | sdkmanager --licenses
-          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+        uses: android-actions/setup-android@v3
+
+      - name: Install SDK
+        run: sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
@@ -81,13 +68,12 @@ jobs:
           android {
               namespace 'com.example.genshinassistant'
               compileSdk 35
-
               defaultConfig {
                   applicationId 'com.example.genshinassistant'
                   minSdk 23
                   targetSdk 35
-                  versionCode 1
-                  versionName '1.0'
+                  versionCode 2
+                  versionName '2.0'
               }
           }
           EOF
@@ -102,8 +88,8 @@ jobs:
                       android:name=".MainActivity"
                       android:exported="true">
                       <intent-filter>
-                          <action android:name="android.intent.action.MAIN" />
-                          <category android:name="android.intent.category.LAUNCHER" />
+                          <action android:name="android.intent.action.MAIN"/>
+                          <category android:name="android.intent.category.LAUNCHER"/>
                       </intent-filter>
                   </activity>
               </application>
@@ -116,47 +102,130 @@ jobs:
           import android.app.Activity;
           import android.os.Bundle;
           import android.graphics.Typeface;
+          import android.graphics.Color;
           import android.view.Gravity;
-          import android.widget.LinearLayout;
-          import android.widget.TextView;
-          import android.widget.ScrollView;
+          import android.widget.*;
+          import android.content.SharedPreferences;
 
           public class MainActivity extends Activity {
+              LinearLayout content;
+              SharedPreferences prefs;
+
               @Override
               protected void onCreate(Bundle savedInstanceState) {
                   super.onCreate(savedInstanceState);
+                  prefs = getSharedPreferences("progress", MODE_PRIVATE);
 
-                  LinearLayout layout = new LinearLayout(this);
-                  layout.setOrientation(LinearLayout.VERTICAL);
-                  layout.setPadding(28, 36, 28, 28);
-                  layout.setGravity(Gravity.CENTER_HORIZONTAL);
+                  LinearLayout root = new LinearLayout(this);
+                  root.setOrientation(LinearLayout.VERTICAL);
+                  root.setPadding(20, 24, 20, 20);
+                  root.setBackgroundColor(Color.rgb(245, 245, 250));
 
                   TextView title = new TextView(this);
                   title.setText("Genshin Assistant");
                   title.setTextSize(26);
                   title.setTypeface(null, Typeface.BOLD);
                   title.setGravity(Gravity.CENTER);
-                  layout.addView(title);
+                  root.addView(title);
 
-                  TextView content = new TextView(this);
-                  content.setText(
-                      "مساعدك الإرشادي للعبة Genshin Impact\n\n" +
-                      "مرحباً بك!\n\n" +
-                      "يمكنك استخدام هذا التطبيق لتنظيم تقدمك في اللعبة.\n\n" +
-                      "• خطط لمسارات جمع الموارد.\n\n" +
-                      "• راجع مواد تطوير الشخصيات والأسلحة.\n\n" +
-                      "• دوّن المهام والأهداف التي تريد إنجازها.\n\n" +
-                      "• تابع تقدمك في الاستكشاف والتجميع.\n\n" +
-                      "هذا التطبيق دليل مساعد مستقل، ولا يتحكم باللعبة أو يعدّل ملفاتها."
-                  );
-                  content.setTextSize(18);
-                  content.setGravity(Gravity.CENTER);
-                  content.setPadding(12, 36, 12, 20);
-                  layout.addView(content);
+                  LinearLayout menu = new LinearLayout(this);
+                  menu.setOrientation(LinearLayout.VERTICAL);
+
+                  addButton(menu, "الشخصيات", () -> showCharacters());
+                  addButton(menu, "التفريم", () -> showFarming());
+                  addButton(menu, "تقدم الحساب", () -> showProgress());
+
+                  root.addView(menu);
 
                   ScrollView scroll = new ScrollView(this);
-                  scroll.addView(layout);
-                  setContentView(scroll);
+                  content = new LinearLayout(this);
+                  content.setOrientation(LinearLayout.VERTICAL);
+                  content.setPadding(8, 20, 8, 20);
+                  scroll.addView(content);
+                  root.addView(scroll, new LinearLayout.LayoutParams(
+                      -1, 0, 1
+                  ));
+
+                  setContentView(root);
+                  showHome();
+              }
+
+              void addButton(LinearLayout parent, String label, Runnable action) {
+                  Button b = new Button(this);
+                  b.setText(label);
+                  b.setTextSize(17);
+                  b.setOnClickListener(v -> action.run());
+                  parent.addView(b);
+              }
+
+              void heading(String text) {
+                  TextView t = new TextView(this);
+                  t.setText(text);
+                  t.setTextSize(21);
+                  t.setTypeface(null, Typeface.BOLD);
+                  t.setPadding(8, 12, 8, 12);
+                  content.addView(t);
+              }
+
+              void line(String text) {
+                  TextView t = new TextView(this);
+                  t.setText(text);
+                  t.setTextSize(16);
+                  t.setPadding(8, 8, 8, 8);
+                  content.addView(t);
+              }
+
+              void check(String key, String label) {
+                  CheckBox c = new CheckBox(this);
+                  c.setText(label);
+                  c.setTextSize(16);
+                  c.setChecked(prefs.getBoolean(key, false));
+                  c.setOnCheckedChangeListener((v, checked) ->
+                      prefs.edit().putBoolean(key, checked).apply()
+                  );
+                  content.addView(c);
+              }
+
+              void showHome() {
+                  content.removeAllViews();
+                  heading("مرحباً بك!");
+                  line("مساعد مستقل لتنظيم تقدمك في Genshin Impact.");
+                  line("اختر أحد الأقسام من الأزرار أعلاه.");
+                  line("هذا التطبيق لا يتحكم باللعبة ولا يعدّل ملفاتها.");
+              }
+
+              void showCharacters() {
+                  content.removeAllViews();
+                  heading("الشخصيات");
+                  line("قائمة متابعة تطوير شخصياتك:");
+                  check("char1", "رفع مستوى الشخصية");
+                  check("char2", "جمع مواد الصعود");
+                  check("char3", "تطوير المواهب");
+                  check("char4", "تحسين القطع الأثرية");
+                  check("char5", "تطوير السلاح");
+              }
+
+              void showFarming() {
+                  content.removeAllViews();
+                  heading("التفريم");
+                  line("قائمة مهام جمع الموارد اليومية:");
+                  check("farm1", "جمع الزهور والموارد المحلية");
+                  check("farm2", "جمع مواد الوحوش");
+                  check("farm3", "جمع خامات تطوير الأسلحة");
+                  check("farm4", "إنجاز الزنزانات");
+                  check("farm5", "استخدام الراتنج الأصلي");
+                  line("حدد المهام التي أنجزتها لتُحفظ تلقائياً.");
+              }
+
+              void showProgress() {
+                  content.removeAllViews();
+                  heading("تقدم الحساب");
+                  line("تابع إنجازاتك:");
+                  check("prog1", "إنجاز المهام اليومية");
+                  check("prog2", "استكشاف المناطق");
+                  check("prog3", "فتح نقاط الانتقال");
+                  check("prog4", "تطوير الشخصيات");
+                  check("prog5", "جمع الأسلحة والموارد");
               }
           }
           EOF
