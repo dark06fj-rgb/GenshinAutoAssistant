@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Train a small Genshin resource detector from the public xhu dataset.
+"""Build and train a merged Genshin resource detector dataset.
 
-Only resource-like classes are retained. This first-stage dataset is small,
-so the resulting model is experimental and must be evaluated before app use.
+Datasets are supplied as semicolon-separated workspace/project/version entries
+in ROBOFLOW_DATASETS. Only datasets whose reuse license has been verified should
+be added. Map metadata and icon packs are intentionally not treated as gameplay
+object-detection images.
 """
 from __future__ import annotations
 
+import hashlib
 import os
+import re
 import shutil
 from pathlib import Path
 
@@ -14,28 +18,71 @@ import yaml
 from roboflow import Roboflow
 from ultralytics import YOLO
 
-WORKSPACE = "xhu"
-PROJECT = "genshin-guivb"
-VERSION = 2
+DEFAULT_DATASETS = "xhu/genshin-guivb/2"
+OUTPUT = Path("runs/detect/genshin_resources")
+MERGED = Path("resource_dataset_merged")
+
+# Canonical names and known spelling variants across community datasets.
 KEEP = {
     "mushroom": "mushroom",
     "berry": "berry",
+    "mushroomberry": "mushroom_berry",
     "crystalfly": "crystalfly",
     "dandelion": "dandelion",
     "mint": "mint",
     "sweet_flower": "sweet_flower",
-    "mushroomberry": "mushroom_berry",
+    "sweet_flowery": "sweet_flower",
+    "crystalchunk": "crystal_chunk",
+    "crystal_chunk": "crystal_chunk",
+    "whiteironchunk": "white_iron_chunk",
+    "white_iron_chunk": "white_iron_chunk",
+    "smalllampgrass": "small_lamp_grass",
+    "small_lamp_grass": "small_lamp_grass",
+    "sunsettia": "sunsettia",
+    "pinecone": "pinecone",
+    "iron": "iron_ore",
+    "iron_ore": "iron_ore",
 }
-OUTPUT = Path("runs/detect/genshin_resources")
 
 
-def find_image_dir(root: Path, names: tuple[str, ...]) -> Path:
-    for split in names:
-        candidates = list(root.rglob("images"))
-        for candidate in candidates:
+def parse_sources() -> list[tuple[str, str, int]]:
+    raw = os.environ.get("ROBOFLOW_DATASETS", DEFAULT_DATASETS)
+    sources = []
+    for item in raw.split(";"):
+        item = item.strip()
+        if not item:
+            continue
+        parts = item.split("/")
+        if len(parts) != 3 or not parts[2].isdigit():
+            raise ValueError(
+                "Each ROBOFLOW_DATASETS entry must be workspace/project/version, "
+                f"got: {item!r}"
+            )
+        sources.append((parts[0], parts[1], int(parts[2])))
+    if not sources:
+        raise RuntimeError("No Roboflow datasets were configured.")
+    return sources
+
+
+def find_split_dir(root: Path, split_names: tuple[str, ...], folder: str) -> Path:
+    for split in split_names:
+        for candidate in root.rglob(folder):
             if candidate.parent.name.lower() == split:
                 return candidate
-    raise RuntimeError(f"Could not find image folder for split: {names}")
+    raise RuntimeError(f"Could not find {folder} folder for split {split_names}")
+
+
+def class_list(data_file: Path) -> list[str]:
+    cfg = yaml.safe_load(data_file.read_text(encoding="utf-8"))
+    names = cfg.get("names", [])
+    if isinstance(names, dict):
+        return [str(names[k]) for k in sorted(names, key=lambda x: int(x))]
+    return [str(name) for name in names]
+
+
+def normalize_class(name: str) -> str:
+    normalized = re.sub(r"[^a-z0-9]+", "_", name.strip().lower()).strip("_")
+    return KEEP.get(normalized, "")
 
 
 def main() -> None:
@@ -43,103 +90,152 @@ def main() -> None:
     if not api_key:
         raise SystemExit(
             "Missing GitHub Actions secret ROBOFLOW_API_KEY. "
-            "Add it in Settings > Secrets and variables > Actions, then run this workflow again."
+            "Add it in Settings > Secrets and variables > Actions."
         )
 
-    print("Downloading public Genshin dataset xhu/genshin-guivb version 2...")
+    sources = parse_sources()
+    print("Configured dataset sources:", ", ".join(f"{w}/{p}/{v}" for w, p, v in sources))
     rf = Roboflow(api_key=api_key)
-    dataset = rf.workspace(WORKSPACE).project(PROJECT).version(VERSION).download("yolov8")
-    source = Path(dataset.location).resolve()
-    data_file = source / "data.yaml"
-    if not data_file.exists():
-        raise RuntimeError(f"Roboflow export did not contain data.yaml: {source}")
 
-    source_cfg = yaml.safe_load(data_file.read_text(encoding="utf-8"))
-    raw_names = source_cfg.get("names", [])
-    if isinstance(raw_names, dict):
-        class_names = [raw_names[k] for k in sorted(raw_names, key=lambda x: int(x))]
-    else:
-        class_names = list(raw_names)
+    if MERGED.exists():
+        shutil.rmtree(MERGED)
+    for split in ("train", "valid", "test"):
+        (MERGED / split / "images").mkdir(parents=True, exist_ok=True)
+        (MERGED / split / "labels").mkdir(parents=True, exist_ok=True)
 
-    kept_old_ids: dict[int, int] = {}
-    new_names: list[str] = []
-    for old_id, raw_name in enumerate(class_names):
-        normalized = str(raw_name).strip().lower().replace(" ", "_").replace("-", "_")
-        if normalized in KEEP:
-            kept_old_ids[old_id] = len(new_names)
-            new_names.append(KEEP[normalized])
+    class_names: list[str] = []
+    counts: dict[str, int] = {}
+    image_hashes: set[str] = set()
+    source_notes: list[str] = []
+    copied_images = 0
 
-    if not kept_old_ids:
-        raise RuntimeError(
-            "No target resource classes were found in this dataset export. "
-            f"Available classes: {class_names}"
+    for workspace, project_name, version_number in sources:
+        source_id = f"{workspace}/{project_name}/v{version_number}"
+        print(f"Downloading {source_id}...")
+        dataset = (
+            rf.workspace(workspace)
+            .project(project_name)
+            .version(version_number)
+            .download("yolov8")
+        )
+        root = Path(dataset.location).resolve()
+        data_file = root / "data.yaml"
+        if not data_file.exists():
+            raise RuntimeError(f"{source_id} export has no data.yaml")
+
+        names = class_list(data_file)
+        old_to_new: dict[int, int] = {}
+        for old_id, name in enumerate(names):
+            canonical = normalize_class(name)
+            if not canonical:
+                continue
+            if canonical not in class_names:
+                class_names.append(canonical)
+                counts[canonical] = 0
+            old_to_new[old_id] = class_names.index(canonical)
+
+        if not old_to_new:
+            print(f"Skipping {source_id}: no supported resource classes. Classes: {names}")
+            continue
+
+        source_notes.append(
+            f"{source_id}: retained {', '.join(sorted(set(class_names[i] for i in old_to_new.values())))}"
         )
 
-    print("Retained resource classes:", ", ".join(new_names))
-    filtered = Path("resource_dataset_filtered").resolve()
-    if filtered.exists():
-        shutil.rmtree(filtered)
-    shutil.copytree(source, filtered)
-
-    # Keep only selected class annotations and remap class IDs.
-    label_files = list(filtered.rglob("labels/*.txt"))
-    counts = {name: 0 for name in new_names}
-    for label_file in label_files:
-        kept_lines: list[str] = []
-        for line in label_file.read_text(encoding="utf-8").splitlines():
-            parts = line.split()
-            if len(parts) < 5:
-                continue
+        split_specs = [
+            (("train",), "train"),
+            (("valid", "val"), "valid"),
+            (("test",), "test"),
+        ]
+        for split_aliases, output_split in split_specs:
             try:
-                old_id = int(float(parts[0]))
-            except ValueError:
-                continue
-            if old_id not in kept_old_ids:
-                continue
-            new_id = kept_old_ids[old_id]
-            parts[0] = str(new_id)
-            kept_lines.append(" ".join(parts))
-            counts[new_names[new_id]] += 1
-        label_file.write_text("\n".join(kept_lines) + ("\n" if kept_lines else ""), encoding="utf-8")
+                images_dir = find_split_dir(root, split_aliases, "images")
+            except RuntimeError:
+                if output_split == "test":
+                    continue
+                raise
+            labels_dir = images_dir.parent / "labels"
+            if not labels_dir.exists():
+                raise RuntimeError(f"{source_id} is missing labels for {images_dir.parent.name}")
 
-    if sum(counts.values()) == 0:
-        raise RuntimeError("No bounding boxes remained after filtering resource classes.")
-    print("Bounding boxes by class:", counts)
+            for label_path in sorted(labels_dir.glob("*.txt")):
+                kept_lines = []
+                for line in label_path.read_text(encoding="utf-8").splitlines():
+                    parts = line.split()
+                    if len(parts) < 5:
+                        continue
+                    try:
+                        old_id = int(float(parts[0]))
+                    except ValueError:
+                        continue
+                    if old_id not in old_to_new:
+                        continue
+                    parts[0] = str(old_to_new[old_id])
+                    kept_lines.append(" ".join(parts))
+                if not kept_lines:
+                    continue
 
-    train_images = find_image_dir(filtered, ("train",))
-    val_images = find_image_dir(filtered, ("valid", "val"))
-    try:
-        test_images = find_image_dir(filtered, ("test",))
-    except RuntimeError:
-        test_images = None
+                image_path = next(
+                    (p for p in images_dir.glob(label_path.stem + ".*")
+                     if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}),
+                    None,
+                )
+                if image_path is None:
+                    continue
+
+                digest = hashlib.sha256(image_path.read_bytes()).hexdigest()
+                if digest in image_hashes:
+                    continue
+                image_hashes.add(digest)
+                safe_source = re.sub(r"[^a-zA-Z0-9]+", "_", f"{workspace}_{project_name}")
+                filename = f"{safe_source}_{digest[:12]}{image_path.suffix.lower()}"
+                shutil.copy2(image_path, MERGED / output_split / "images" / filename)
+                (MERGED / output_split / "labels" / f"{Path(filename).stem}.txt").write_text(
+                    "\n".join(kept_lines) + "\n", encoding="utf-8"
+                )
+                copied_images += 1
+                for line in kept_lines:
+                    counts[class_names[int(line.split()[0])]] += 1
+
+    if copied_images == 0 or not class_names:
+        raise RuntimeError("No labeled resource images were merged from the configured datasets.")
+
+    # Training requires train and validation images. Avoid silently using test data as validation.
+    if not any((MERGED / "train" / "images").iterdir()):
+        raise RuntimeError("Merged dataset has no training images.")
+    if not any((MERGED / "valid" / "images").iterdir()):
+        raise RuntimeError("Merged dataset has no validation images.")
 
     config = {
-        "path": str(filtered),
-        "train": str(train_images.relative_to(filtered)),
-        "val": str(val_images.relative_to(filtered)),
-        "names": new_names,
-        "nc": len(new_names),
+        "path": str(MERGED.resolve()),
+        "train": "train/images",
+        "val": "valid/images",
+        "names": class_names,
+        "nc": len(class_names),
     }
-    if test_images is not None:
-        config["test"] = str(test_images.relative_to(filtered))
-    filtered_yaml = filtered / "resource_data.yaml"
+    if any((MERGED / "test" / "images").iterdir()):
+        config["test"] = "test/images"
+    filtered_yaml = MERGED / "resource_data.yaml"
     filtered_yaml.write_text(yaml.safe_dump(config, sort_keys=False), encoding="utf-8")
 
-    attribution = (
-        "Dataset: Genshin Computer Vision Dataset (xhu/genshin-guivb), version 2\n"
-        "Author: xhu\n"
-        "License: Creative Commons Attribution 4.0 International (CC BY 4.0)\n"
-        "Source: https://universe.roboflow.com/xhu/genshin-guivb/dataset/2\n"
-        "This training run filters resource classes only; non-resource classes are excluded.\n"
-    )
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    (OUTPUT / "DATASET_ATTRIBUTION.txt").write_text(attribution, encoding="utf-8")
-    (OUTPUT / "class_counts.txt").write_text(
-        "\n".join(f"{name}: {count}" for name, count in counts.items()) + "\n",
+    (OUTPUT / "DATASET_ATTRIBUTION.txt").write_text(
+        "Merged Genshin resource dataset sources:\n"
+        + "\n".join(source_notes)
+        + "\n\nOnly sources with verified reuse permission should be configured. "
+          "Map-coordinate JSON and standalone icons are not used as gameplay training images.\n",
         encoding="utf-8",
     )
+    (OUTPUT / "class_counts.txt").write_text(
+        f"Unique labeled images: {copied_images}\n"
+        + "\n".join(f"{name}: {counts.get(name, 0)} boxes" for name in class_names)
+        + "\n",
+        encoding="utf-8",
+    )
+    print(f"Merged {copied_images} unique labeled images across {len(class_names)} resource classes.")
+    print("Bounding boxes by class:", counts, flush=True)
 
-    print("Starting lightweight CPU transfer-learning run with YOLO11n (20 epochs, 320px, batch 4)...", flush=True)
+    print("Starting lightweight CPU training (20 epochs, 320px, batch 4)...", flush=True)
     model = YOLO("yolo11n.pt")
     model.train(
         data=str(filtered_yaml),
@@ -163,7 +259,7 @@ def main() -> None:
     if not best.exists():
         raise RuntimeError("Training finished without producing weights/best.pt")
     print(f"TRAINING_COMPLETE best_model={best}")
-    print("This model is experimental; inspect validation metrics and test false positives before mobile integration.")
+    print("Experimental model only; inspect validation metrics and false positives before mobile integration.")
 
 
 if __name__ == "__main__":
