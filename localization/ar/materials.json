@@ -92,7 +92,7 @@
       "id": "material.acquaint_fate",
       "category": "material",
       "source_name": "Acquaint Fate",
-      "arabic_name": "القدر المألوف",
+      "arabic_name": "قدر التعارف",
       "source": [
         {
           "name": "genshin-db",
@@ -106,7 +106,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "review_notes": "تم توحيد الاسم مع مدخل Acquaint Fate في القاموس؛ ترجمة أولية غير رسمية وتحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي المتداول.",
       "item_type": "Wish Item"
     }
   ]
