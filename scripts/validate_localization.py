@@ -456,7 +456,7 @@ class Validator:
                         f"{label} quest_type {entry.get('quest_type')!r} "
                         f"does not match catalog type {expected_type!r}"
                     )
-                if node_type not in QUEST_NODE_TYPES[expected_type]:
+                if not isinstance(node_type, str) or node_type not in QUEST_NODE_TYPES[expected_type]:
                     self.error(
                         f"{label} has unsupported node_type {node_type!r} "
                         f"for {expected_type} catalog"
@@ -516,13 +516,15 @@ class Validator:
             for entity_id, entry in by_id.items():
                 label = f"ar/{filename}: {entity_id}"
                 parent_id = entry.get("parent_id")
-                if parent_id is not None and parent_id not in by_id:
+                if isinstance(parent_id, str) and parent_id not in by_id:
                     self.error(f"{label} references missing parent_id {parent_id!r}")
-                for prerequisite_id in entry.get("prerequisite_ids", []):
-                    if isinstance(prerequisite_id, str) and prerequisite_id not in by_id:
-                        self.error(
-                            f"{label} references missing prerequisite_id {prerequisite_id!r}"
-                        )
+                prerequisites = entry.get("prerequisite_ids", [])
+                if isinstance(prerequisites, list):
+                    for prerequisite_id in prerequisites:
+                        if isinstance(prerequisite_id, str) and prerequisite_id not in by_id:
+                            self.error(
+                                f"{label} references missing prerequisite_id {prerequisite_id!r}"
+                            )
 
             def has_cycle(graph: dict[str, list[str]]) -> bool:
                 state: dict[str, int] = {}
