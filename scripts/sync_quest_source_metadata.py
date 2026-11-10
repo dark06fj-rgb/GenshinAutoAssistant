@@ -386,7 +386,7 @@ def main() -> int:
             if key[0] != "quest":
                 continue
             source_meta = entry.get("source_main_quest_metadata")
-            if isinstance(source_meta, dict) and source_meta.get("showType") != "QUEST_SHOW":
+            if isinstance(source_meta, dict) and source_meta.get("showType") == "QUEST_HIDDEN":
                 existing_by_kind[kind].pop(key, None)
             elif is_internal_quest_title(entry.get("source_name", "")):
                 existing_by_kind[kind].pop(key, None)
