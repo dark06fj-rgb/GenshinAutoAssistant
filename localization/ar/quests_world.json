@@ -20356,7 +20356,7 @@
       "node_type": "quest",
       "source_quest_id": "71001",
       "source_name": "Treasures of Taishan Fill the Ship",
-      "arabic_name": "",
+      "arabic_name": "كنوز تايشان تملأ السفينة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -20373,7 +20373,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -20400,7 +20400,7 @@
       "node_type": "quest",
       "source_quest_id": "71002",
       "source_name": "Fly a Letter Towards the Sky",
-      "arabic_name": "",
+      "arabic_name": "أرسل رسالة نحو السماء",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -20417,7 +20417,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -24986,7 +24986,7 @@
       "node_type": "quest",
       "source_quest_id": "71544",
       "source_name": "The Chefs From a Foreign Land",
-      "arabic_name": "",
+      "arabic_name": "طهاة من أرض أجنبية",
       "description_ar": null,
       "chapter_id": "10287",
       "act_id": null,
@@ -25003,7 +25003,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10287,
@@ -25030,7 +25030,7 @@
       "node_type": "quest",
       "source_quest_id": "71545",
       "source_name": "Deliciousness Knows No Borders",
-      "arabic_name": "",
+      "arabic_name": "اللذة لا تعرف الحدود",
       "description_ar": null,
       "chapter_id": "10287",
       "act_id": null,
@@ -25047,7 +25047,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10287,
@@ -25074,7 +25074,7 @@
       "node_type": "quest",
       "source_quest_id": "71546",
       "source_name": "A Taste Beyond Time",
-      "arabic_name": "",
+      "arabic_name": "مذاق يتجاوز الزمن",
       "description_ar": null,
       "chapter_id": "10287",
       "act_id": null,
@@ -25091,7 +25091,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10287,
@@ -26210,7 +26210,7 @@
       "node_type": "quest",
       "source_quest_id": "71675",
       "source_name": "Little Figure Exorcism",
-      "arabic_name": "",
+      "arabic_name": "طقوس تطهير الدمى الصغيرة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -26227,7 +26227,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -26254,7 +26254,7 @@
       "node_type": "quest",
       "source_quest_id": "71676",
       "source_name": "Battle Beneath the Spirit-Quelling Banner",
-      "arabic_name": "",
+      "arabic_name": "معركة تحت راية قهر الأرواح",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -26271,7 +26271,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -26298,7 +26298,7 @@
       "node_type": "quest",
       "source_quest_id": "71677",
       "source_name": "Sigil Barrage Kaleidoscope",
-      "arabic_name": "",
+      "arabic_name": "مهرجان وابل الشارات",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -26315,7 +26315,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -32177,7 +32177,7 @@
       "node_type": "quest",
       "source_quest_id": "72243",
       "source_name": "Lotus Eater Epilogue: Marjorie",
-      "arabic_name": "",
+      "arabic_name": "آكل اللوتس: الخاتمة — مارجوري",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -32194,7 +32194,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -32278,7 +32278,7 @@
       "node_type": "quest",
       "source_quest_id": "72245",
       "source_name": "The Phaetons' Syrtos: Epilogue",
-      "arabic_name": "",
+      "arabic_name": "سيرتوس الفايتون: الخاتمة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -32295,7 +32295,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -34133,7 +34133,7 @@
       "node_type": "quest",
       "source_quest_id": "72669",
       "source_name": "Bait Resupply Plan",
-      "arabic_name": "",
+      "arabic_name": "خطة إعادة تزويد الطُعم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -34150,7 +34150,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -39872,7 +39872,7 @@
       "node_type": "quest",
       "source_quest_id": "73080",
       "source_name": "A Child From Beyond the Forest",
-      "arabic_name": "",
+      "arabic_name": "طفل من وراء الغابة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -39889,7 +39889,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -43645,7 +43645,7 @@
       "node_type": "quest",
       "source_quest_id": "73355",
       "source_name": "Reunite, My Shroom Buddies!",
-      "arabic_name": "",
+      "arabic_name": "اجتمعوا مجدداً يا أصدقائي الفطريون!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -43662,7 +43662,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -43689,7 +43689,7 @@
       "node_type": "quest",
       "source_quest_id": "73356",
       "source_name": "A Meeting of \"Puppets\"",
-      "arabic_name": "",
+      "arabic_name": "لقاء «الدمى»",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -43706,7 +43706,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -43733,7 +43733,7 @@
       "node_type": "quest",
       "source_quest_id": "73357",
       "source_name": "Tea Party Re-Invitation: Hat Guy",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: الفتى ذو القبعة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -43750,7 +43750,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47539,7 +47539,7 @@
       "node_type": "quest",
       "source_quest_id": "73708",
       "source_name": "Reunite, My Shroom Buddies!",
-      "arabic_name": "",
+      "arabic_name": "اجتمعوا مجدداً يا أصدقائي الفطريون!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47556,7 +47556,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47583,7 +47583,7 @@
       "node_type": "quest",
       "source_quest_id": "73709",
       "source_name": "Behold the Grandeur, Seize the Splendor",
-      "arabic_name": "",
+      "arabic_name": "انظروا إلى العظمة واغتنموا الروعة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47600,7 +47600,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47627,7 +47627,7 @@
       "node_type": "quest",
       "source_quest_id": "73710",
       "source_name": "A New Day at the Lil' Fungi Playground",
-      "arabic_name": "",
+      "arabic_name": "يوم جديد في ملعب الفطريات الصغير",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47644,7 +47644,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47671,7 +47671,7 @@
       "node_type": "quest",
       "source_quest_id": "73711",
       "source_name": "Sightseeing With Friends: A Trip to Fontaine",
-      "arabic_name": "",
+      "arabic_name": "جولة مع الأصدقاء: رحلة إلى فونتين",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47688,7 +47688,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47715,7 +47715,7 @@
       "node_type": "quest",
       "source_quest_id": "73712",
       "source_name": "Sightseeing With Friends: Back to Sumeru",
-      "arabic_name": "",
+      "arabic_name": "جولة مع الأصدقاء: العودة إلى سوميرو",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47732,7 +47732,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47759,7 +47759,7 @@
       "node_type": "quest",
       "source_quest_id": "73713",
       "source_name": "Sightseeing With Friends: Underwater Fun",
-      "arabic_name": "",
+      "arabic_name": "جولة مع الأصدقاء: متعة تحت الماء",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47776,7 +47776,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -47803,7 +47803,7 @@
       "node_type": "quest",
       "source_quest_id": "73714",
       "source_name": "Sightseeing With Friends: Scenic Highlights",
-      "arabic_name": "",
+      "arabic_name": "جولة مع الأصدقاء: أجمل المشاهد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -47820,7 +47820,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53648,7 +53648,7 @@
       "node_type": "quest",
       "source_quest_id": "74248",
       "source_name": "Stories Make the Best Pastries",
-      "arabic_name": "",
+      "arabic_name": "القصص تصنع أفضل المعجنات",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53665,7 +53665,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53692,7 +53692,7 @@
       "node_type": "quest",
       "source_quest_id": "74249",
       "source_name": "For Fontaine!",
-      "arabic_name": "",
+      "arabic_name": "من أجل فونتين!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53709,7 +53709,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53736,7 +53736,7 @@
       "node_type": "quest",
       "source_quest_id": "74250",
       "source_name": "Whispers by the Hearth",
-      "arabic_name": "",
+      "arabic_name": "همسات قرب الموقد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53753,7 +53753,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53780,7 +53780,7 @@
       "node_type": "quest",
       "source_quest_id": "74251",
       "source_name": "Stories of the Past",
-      "arabic_name": "",
+      "arabic_name": "حكايات من الماضي",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53797,7 +53797,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53824,7 +53824,7 @@
       "node_type": "quest",
       "source_quest_id": "74253",
       "source_name": "Ann, Mary-Ann, and Marionette",
-      "arabic_name": "",
+      "arabic_name": "آن وماري آن والماريونيت",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53841,7 +53841,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53868,7 +53868,7 @@
       "node_type": "quest",
       "source_quest_id": "74254",
       "source_name": "Narcissus's Waltz",
-      "arabic_name": "",
+      "arabic_name": "فالس نارسيس",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53885,7 +53885,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53912,7 +53912,7 @@
       "node_type": "quest",
       "source_quest_id": "74255",
       "source_name": "Tea Party Re-Invitation: Tabletop Troupe",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: فرقة المسرح المصغّرة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53929,7 +53929,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -53956,7 +53956,7 @@
       "node_type": "quest",
       "source_quest_id": "74256",
       "source_name": "Tea Party Re-Invitation: Furina",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: فورينا",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -53973,7 +53973,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -54000,7 +54000,7 @@
       "node_type": "quest",
       "source_quest_id": "74257",
       "source_name": "Tea Party Re-Invitation: House of the Hearth",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: دار الموقد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -54017,7 +54017,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -54044,7 +54044,7 @@
       "node_type": "quest",
       "source_quest_id": "74258",
       "source_name": "Tea Party Re-Invitation: Neuvillette",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: نيوفيليت",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -54061,7 +54061,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -54088,7 +54088,7 @@
       "node_type": "quest",
       "source_quest_id": "74259",
       "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -54105,7 +54105,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -54132,7 +54132,7 @@
       "node_type": "quest",
       "source_quest_id": "74260",
       "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -54149,7 +54149,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -54176,7 +54176,7 @@
       "node_type": "quest",
       "source_quest_id": "74261",
       "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
-      "arabic_name": "",
+      "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -54193,7 +54193,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -55060,7 +55060,7 @@
       "node_type": "quest",
       "source_quest_id": "74532",
       "source_name": "Popular Entertainment",
-      "arabic_name": "",
+      "arabic_name": "ترفيه شعبي",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -55077,7 +55077,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -56837,7 +56837,7 @@
       "node_type": "quest",
       "source_quest_id": "74690",
       "source_name": "A Robust Theoretical Discussion",
-      "arabic_name": "",
+      "arabic_name": "نقاش نظري متين",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -56854,7 +56854,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -56881,7 +56881,7 @@
       "node_type": "quest",
       "source_quest_id": "74691",
       "source_name": "Revelations by Chance",
-      "arabic_name": "",
+      "arabic_name": "انكشافات بمحض الصدفة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -56898,7 +56898,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -56925,7 +56925,7 @@
       "node_type": "quest",
       "source_quest_id": "74692",
       "source_name": "Witch's Revelation: Special Blend's Instruction",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات المزيج الخاص",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -56942,7 +56942,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -56969,7 +56969,7 @@
       "node_type": "quest",
       "source_quest_id": "74693",
       "source_name": "Witch's Revelation: Duty's Instruction",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات الواجب",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -56986,7 +56986,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57013,7 +57013,7 @@
       "node_type": "quest",
       "source_quest_id": "74694",
       "source_name": "Witch's Revelation: Voyaging Instruction",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات الرحلة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57030,7 +57030,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57057,7 +57057,7 @@
       "node_type": "quest",
       "source_quest_id": "74695",
       "source_name": "Witch's Revelation: Warden's Instruction",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات الحارس",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57074,7 +57074,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57101,7 +57101,7 @@
       "node_type": "quest",
       "source_quest_id": "74696",
       "source_name": "Witch's Revelation: Instruction of Curious Form",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات الشكل الغريب",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57118,7 +57118,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57145,7 +57145,7 @@
       "node_type": "quest",
       "source_quest_id": "74697",
       "source_name": "Witch's Revelation: Instruction Beyond Dreams",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات ما وراء الأحلام",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57162,7 +57162,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57189,7 +57189,7 @@
       "node_type": "quest",
       "source_quest_id": "74698",
       "source_name": "Witch's Revelation: Great Youkai's Instruction",
-      "arabic_name": "",
+      "arabic_name": "كشف الساحرة: تعليمات اليوكاي العظيم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57206,7 +57206,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57233,7 +57233,7 @@
       "node_type": "quest",
       "source_quest_id": "74700",
       "source_name": "Elegance? Safety First!",
-      "arabic_name": "",
+      "arabic_name": "الأناقة؟ السلامة أولاً!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57250,7 +57250,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57277,7 +57277,7 @@
       "node_type": "quest",
       "source_quest_id": "74701",
       "source_name": "Danger? Keep Away!",
-      "arabic_name": "",
+      "arabic_name": "الخطر؟ ابتعد!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57294,7 +57294,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57321,7 +57321,7 @@
       "node_type": "quest",
       "source_quest_id": "74702",
       "source_name": "Fisharium Open For Business!",
-      "arabic_name": "",
+      "arabic_name": "حوض الأسماك يفتح أبوابه!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57338,7 +57338,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -57365,7 +57365,7 @@
       "node_type": "quest",
       "source_quest_id": "74703",
       "source_name": "Just a 30% Cut!",
-      "arabic_name": "",
+      "arabic_name": "اقتطاع 30% فقط!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -57382,7 +57382,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
