@@ -6618,6 +6618,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.10000044.talent.normal",
+      "category": "term",
+      "character_id": "character.10000044",
+      "character_name": "Xinyan",
+      "character_name_ar": "شينيان",
+      "talent_type": "normal",
+      "source_name": "Dance on Fire",
+      "arabic_name": "رقصة النار",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالسيف العظيم، مع هجمات مشحونة دورانية وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xinyan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000044.talent.skill",
+      "category": "term",
+      "character_id": "character.10000044",
+      "character_name": "Xinyan",
+      "character_name_ar": "شينيان",
+      "talent_type": "skill",
+      "source_name": "Sweeping Fervor",
+      "arabic_name": "حماسة كاسحة",
+      "description_source": null,
+      "description_ar": "تضرب بآلتها الموسيقية وتسبب ضرر بايرو، ثم تنشئ درعاً تزداد قوته بحسب عدد الأعداء المصابين، وقد يلحق ضرر بايرو دورياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xinyan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000044.talent.burst",
+      "category": "term",
+      "character_id": "character.10000044",
+      "character_name": "Xinyan",
+      "character_name_ar": "شينيان",
+      "talent_type": "burst",
+      "source_name": "Riff Revolution",
+      "arabic_name": "ثورة الريف",
+      "description_source": null,
+      "description_ar": "تطلق موجة موسيقية تقذف الأعداء وتسبب ضرراً جسدياً، تتبعها انفجارات تلحق ضرر بايرو بالخصوم القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xinyan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000058.talent.normal",
+      "category": "term",
+      "character_id": "character.10000058",
+      "character_name": "Yae Miko",
+      "character_name_ar": "ياي ميكو",
+      "talent_type": "normal",
+      "source_name": "Spiritfox Sin-Eater",
+      "arabic_name": "ملتهمة أرواح الثعالب",
+      "description_source": null,
+      "description_ar": "تستدعي أرواح كيتسوني لتنفيذ هجمات كهربائية متتابعة، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yaemiko.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000058.talent.skill",
+      "category": "term",
+      "character_id": "character.10000058",
+      "character_name": "Yae Miko",
+      "character_name_ar": "ياي ميكو",
+      "talent_type": "skill",
+      "source_name": "Yakan Evocation: Sesshou Sakura",
+      "arabic_name": "استحضار ياكان: ساكورا سيسشو",
+      "description_source": null,
+      "description_ar": "تتحرك بسرعة وتترك خلفها ساكورا سيسشو تضرب عدواً قريباً بالبرق دورياً؛ ويزداد مستوى الضرر عند تقارب المنشآت، ويمكن وضع ثلاث منها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yaemiko.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000058.talent.burst",
+      "category": "term",
+      "character_id": "character.10000058",
+      "character_name": "Yae Miko",
+      "character_name_ar": "ياي ميكو",
+      "talent_type": "burst",
+      "source_name": "Great Secret Art: Tenko Kenshin",
+      "arabic_name": "الفن السري العظيم: تينكو كينشين",
+      "description_source": null,
+      "description_ar": "تستدعي صاعقة كهربائية واسعة، وتحول أشجار ساكورا سيسشو القريبة إلى صواعق تينكو إضافية تهبط على الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yaemiko.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000048.talent.normal",
+      "category": "term",
+      "character_id": "character.10000048",
+      "character_name": "Yanfei",
+      "character_name_ar": "يانفي",
+      "talent_type": "normal",
+      "source_name": "Seal of Approval",
+      "arabic_name": "ختم الموافقة",
+      "description_source": null,
+      "description_ar": "تطلق كرات نارية وتجمع أختاماً قرمزية تقلل استهلاك التحمل؛ وتستهلك الأختام في الهجوم المشحون لزيادة ضرره ونطاقه.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yanfei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000048.talent.skill",
+      "category": "term",
+      "character_id": "character.10000048",
+      "character_name": "Yanfei",
+      "character_name_ar": "يانفي",
+      "talent_type": "skill",
+      "source_name": "Signed Edict",
+      "arabic_name": "مرسوم موقّع",
+      "description_source": null,
+      "description_ar": "تستدعي ألسنة لهب تسبب ضرر بايرو واسعاً، وتمنحها عند إصابة الأعداء العدد الأقصى من الأختام القرمزية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yanfei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000048.talent.burst",
+      "category": "term",
+      "character_id": "character.10000048",
+      "character_name": "Yanfei",
+      "character_name_ar": "يانفي",
+      "talent_type": "burst",
+      "source_name": "Done Deal",
+      "arabic_name": "اتفاق نهائي",
+      "description_source": null,
+      "description_ar": "تطلق موجة نارية واسعة وتكتسب الأختام القرمزية وتأثير التألق، الذي يمنحها أختاماً دورياً ويزيد ضرر هجماتها المشحونة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yanfei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000077.talent.normal",
+      "category": "term",
+      "character_id": "character.10000077",
+      "character_name": "Yaoyao",
+      "character_name_ar": "ياوياو",
+      "talent_type": "normal",
+      "source_name": "Toss 'N' Turn Spear",
+      "arabic_name": "رمح الرمي والدوران",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون اندفاعي وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yaoyao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000077.talent.skill",
+      "category": "term",
+      "character_id": "character.10000077",
+      "character_name": "Yaoyao",
+      "character_name_ar": "ياوياو",
+      "talent_type": "skill",
+      "source_name": "Raphanus Sky Cluster",
+      "arabic_name": "عنقود الفجل السماوي",
+      "description_source": null,
+      "description_ar": "تستدعي يويغوي لرمي فجل اليشم الأبيض؛ ينفجر الفجل مسبباً ضرر ديندرو ويعالج الشخصيات القريبة وفقاً لصحة ياوياو، ويختار هدفه بحسب حالة الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yaoyao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000077.talent.burst",
+      "category": "term",
+      "character_id": "character.10000077",
+      "character_name": "Yaoyao",
+      "character_name_ar": "ياوياو",
+      "talent_type": "burst",
+      "source_name": "Moonjade Descent",
+      "arabic_name": "هبوط اليشم القمري",
+      "description_source": null,
+      "description_ar": "تطلق قوة يويغوي الكاملة، فتحسن الفجل العلاجي وتستدعي نسخاً إضافية منه، كما تزيد سرعة حركة ياوياو ومقاومتها لديندرو خلال الحالة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yaoyao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000049.talent.normal",
+      "category": "term",
+      "character_id": "character.10000049",
+      "character_name": "Yoimiya",
+      "character_name_ar": "يويميا",
+      "talent_type": "normal",
+      "source_name": "Firework Flare-Up",
+      "arabic_name": "اشتعال الألعاب النارية",
+      "description_source": null,
+      "description_ar": "تطلق سلسلة سهام بالقوس، ويمكنها شحن السهم لإطلاق سهم ناري أو أسهم إشعال موجهة نحو الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yoimiya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000049.talent.skill",
+      "category": "term",
+      "character_id": "character.10000049",
+      "character_name": "Yoimiya",
+      "character_name_ar": "يويميا",
+      "talent_type": "skill",
+      "source_name": "Niwabi Fire-Dance",
+      "arabic_name": "رقصة نار نِيوا‌بي",
+      "description_source": null,
+      "description_ar": "تحيط نفسها بحلقة من البارود وتحول سهامها العادية إلى سهام ملتهبة يزداد ضررها وتسبب ضرر بايرو؛ ينتهي التأثير عند مغادرتها الميدان.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yoimiya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000049.talent.burst",
+      "category": "term",
+      "character_id": "character.10000049",
+      "character_name": "Yoimiya",
+      "character_name_ar": "يويميا",
+      "talent_type": "burst",
+      "source_name": "Ryuukin Saxifrage",
+      "arabic_name": "ساكسيفراج ريوكين",
+      "description_source": null,
+      "description_ar": "تطلق صواريخ نارية واسعة وتضع علامة على أحد الأعداء؛ هجمات بقية أعضاء الفريق على الهدف تفجر العلامة، وقد تنتقل إلى عدو آخر عند هزيمته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yoimiya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000064.talent.normal",
+      "category": "term",
+      "character_id": "character.10000064",
+      "character_name": "Yun Jin",
+      "character_name_ar": "يون جين",
+      "talent_type": "normal",
+      "source_name": "Cloud-Grazing Strike",
+      "arabic_name": "ضربة ملامسة السحاب",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون اندفاعي وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yunjin.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000064.talent.skill",
+      "category": "term",
+      "character_id": "character.10000064",
+      "character_name": "Yun Jin",
+      "character_name_ar": "يون جين",
+      "talent_type": "skill",
+      "source_name": "Opening Flourish",
+      "arabic_name": "استعراض افتتاحي",
+      "description_source": null,
+      "description_ar": "تنفذ حركة بالرمح تسبب ضرر جيو؛ وعند الضغط المطول تنشئ درعاً ثم تطلق طاقة مشحونة بهجوم جيو يتحدد مستواه بمدة الشحن.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yunjin.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000064.talent.burst",
+      "category": "term",
+      "character_id": "character.10000064",
+      "character_name": "Yun Jin",
+      "character_name_ar": "يون جين",
+      "talent_type": "burst",
+      "source_name": "Cliffbreaker's Banner",
+      "arabic_name": "راية كاسرة الجرف",
+      "description_source": null,
+      "description_ar": "تسبب ضرر جيو واسعاً وتمنح أعضاء الفريق تشكيلاً قتالياً يزيد الضرر الإضافي لهجماتهم العادية وفق دفاع يون جين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yunjin.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000126.talent.normal",
+      "category": "term",
+      "character_id": "character.10000126",
+      "character_name": "Zibai",
+      "character_name_ar": "زيباي",
+      "talent_type": "normal",
+      "source_name": "Golden Blade's Petaled Touch",
+      "arabic_name": "لمسة نصل الذهب المزهرة",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات سريعة بالسيف، مع هجوم مشحون من ضربتين وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/zibai.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000126.talent.skill",
+      "category": "term",
+      "character_id": "character.10000126",
+      "character_name": "Zibai",
+      "character_name_ar": "زيباي",
+      "talent_type": "skill",
+      "source_name": "Heaven and Earth Made Manifest",
+      "arabic_name": "تجلّي السماء والأرض",
+      "description_source": null,
+      "description_ar": "تستحضر ظلاً من قوتها السابقة وتدخل حالة التحول القمري؛ تتحول هجماتها العادية والمشحونة إلى ضرر جيو، وتجمع طاقة خاصة لاستخدام مهارة روح الجواد.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/zibai.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000126.talent.burst",
+      "category": "term",
+      "character_id": "character.10000126",
+      "character_name": "Zibai",
+      "character_name_ar": "زيباي",
+      "talent_type": "burst",
+      "source_name": "Tri-Sphere Eminence",
+      "arabic_name": "سيادة الكرات الثلاث",
+      "description_source": null,
+      "description_ar": "تفعّل مظلة الضوء اليشمي لتسبب ضربتين من ضرر جيو، وتطيل مدة حالة التحول القمري إذا كانت فعالة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/zibai.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000133.talent.normal",
+      "category": "term",
+      "character_id": "character.10000133",
+      "character_name": "Sandrone",
+      "character_name_ar": "ساندروني",
+      "talent_type": "normal",
+      "source_name": "Formule Phenomenale: Self-Evident Proposition",
+      "arabic_name": "صيغة استثنائية: قضية بديهية",
+      "description_source": null,
+      "description_ar": "تتحكم بسلاحها عبر خيوط آلية لتنفيذ ضربات متتابعة؛ ويمكنها استدعاء فاجيو في وضع فك الشيفرة لإطلاق هجمات جليدية تتطور إلى وضع القوة المفرطة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sandrone.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000133.talent.skill",
+      "category": "term",
+      "character_id": "character.10000133",
+      "character_name": "Sandrone",
+      "character_name_ar": "ساندروني",
+      "talent_type": "skill",
+      "source_name": "Formule Phenomenale: Differential Analysis",
+      "arabic_name": "صيغة استثنائية: تحليل تفاضلي",
+      "description_source": null,
+      "description_ar": "تركب آلة التحليق التكتيكية وتتحرك بها في الهواء، مع إمكانية زيادة السرعة؛ كما تطلق مدفعاً منشورياً على الأعداء وتساعد على خفض طاقة فك الشيفرة لدى فاجيو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sandrone.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000133.talent.burst",
+      "category": "term",
+      "character_id": "character.10000133",
+      "character_name": "Sandrone",
+      "character_name_ar": "ساندروني",
+      "talent_type": "burst",
+      "source_name": "Formule Phenomenale: Q.E.D.",
+      "arabic_name": "صيغة استثنائية: وهذا ما كان مطلوباً إثباته",
+      "description_source": null,
+      "description_ar": "تستدعي مدافع رنين منشورية لقصف المنطقة أمامها، ثم تطلق شعاع تثبيط حملي يسبب ضرر جليد واسعاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sandrone.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
     }
   ]
 }
