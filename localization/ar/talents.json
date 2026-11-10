@@ -4098,6 +4098,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ifa.talent.normal",
+      "category": "term",
+      "character_id": "character.10000113",
+      "character_name": "Ifa",
+      "character_name_ar": "إيفا",
+      "talent_type": "normal",
+      "source_name": "Rite of Dispelling Winds",
+      "arabic_name": "طقس تبديد الرياح",
+      "description_source": null,
+      "description_ar": "تنفذ إيفا هجمات أنيمو متتابعة، ويمكنها إطلاق طلقة مشحونة أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ifa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ifa.talent.skill",
+      "category": "term",
+      "character_id": "character.10000113",
+      "character_name": "Ifa",
+      "character_name_ar": "إيفا",
+      "talent_type": "skill",
+      "source_name": "Airborne Disease Prevention",
+      "arabic_name": "الوقاية من الأمراض المحمولة جواً",
+      "description_source": null,
+      "description_ar": "تستدعي إيفا كاكوكو وتدخل حالة النعمة الليلية لتحوم في الهواء؛ وتطلق أثناء الهجمات دعماً علاجياً يساعد على استعادة صحة أعضاء الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ifa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ifa.talent.burst",
+      "category": "term",
+      "character_id": "character.10000113",
+      "character_name": "Ifa",
+      "character_name_ar": "إيفا",
+      "talent_type": "burst",
+      "source_name": "Compound Sedation Field",
+      "arabic_name": "مجال التهدئة المركّب",
+      "description_source": null,
+      "description_ar": "يطلق إيفا مهدئاً ينفجر عند إصابة الهدف، منشئاً تياراً هوائياً يجذب الأعداء والأشياء ويسبب ضرر أنيمو واسعاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ifa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.illuga.talent.normal",
+      "category": "term",
+      "character_id": "character.10000127",
+      "character_name": "Illuga",
+      "character_name_ar": "إيلوغا",
+      "talent_type": "normal",
+      "source_name": "Oathkeeper's Spear",
+      "arabic_name": "رمح حافظ العهد",
+      "description_source": null,
+      "description_ar": "ينفذ إيلوغا ضربات متتابعة بالرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/illuga.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.illuga.talent.skill",
+      "category": "term",
+      "character_id": "character.10000127",
+      "character_name": "Illuga",
+      "character_name_ar": "إيلوغا",
+      "talent_type": "skill",
+      "source_name": "Dawnbearing Songbird",
+      "arabic_name": "طائر أغنية الفجر",
+      "description_source": null,
+      "description_ar": "يستدعي إيلوغا الطائر الرسول إيدون ليرتطم بالأعداء ويسبب ضرر جيو؛ ويمكن توجيهه نحو هدف محدد بالضغط المطول.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/illuga.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.illuga.talent.burst",
+      "category": "term",
+      "character_id": "character.10000127",
+      "character_name": "Illuga",
+      "character_name_ar": "إيلوغا",
+      "talent_type": "burst",
+      "source_name": "Shadowless Reflection",
+      "arabic_name": "انعكاس بلا ظل",
+      "description_source": null,
+      "description_ar": "يشعل إيلوغا مصباحه مسبباً ضرر جيو، ثم يمنح ضربات جيو لأعضاء الفريق تعزيزاً يتدرج عبر تراكمات؛ وتزداد فاعلية التعزيز مع المنشآت الجغرافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/illuga.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ineffa.talent.normal",
+      "category": "term",
+      "character_id": "character.10000116",
+      "character_name": "Ineffa",
+      "character_name_ar": "إينيفا",
+      "talent_type": "normal",
+      "source_name": "Cyclonic Duster",
+      "arabic_name": "منفضة إعصارية",
+      "description_source": null,
+      "description_ar": "تنفذ إينيفا ضربات متتابعة بالرمح، مع هجوم مشحون دوار وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ineffa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ineffa.talent.skill",
+      "category": "term",
+      "character_id": "character.10000116",
+      "character_name": "Ineffa",
+      "character_name_ar": "إينيفا",
+      "talent_type": "skill",
+      "source_name": "Cleaning Mode: Carrier Frequency",
+      "arabic_name": "وضع التنظيف: تردد الحامل",
+      "description_source": null,
+      "description_ar": "تفعّل إينيفا وحدة التنظيف المحسّنة، مسببة ضرر إلكترو وتنشئ حاجزاً واقياً يستند امتصاصه إلى هجومها، كما تستدعي بيرغيتا.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ineffa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ineffa.talent.burst",
+      "category": "term",
+      "character_id": "character.10000116",
+      "character_name": "Ineffa",
+      "character_name_ar": "إينيفا",
+      "talent_type": "burst",
+      "source_name": "Supreme Instruction: Cyclonic Exterminator",
+      "arabic_name": "التوجيه الأعلى: المدمّر الإعصاري",
+      "description_source": null,
+      "description_ar": "تطلق إينيفا بيرغيتا نحو ساحة القتال بضربة صاروخية تسبب ضرر إلكترو واسعاً؛ وإذا كانت بيرغيتا موجودة بالفعل، يعاد استدعاؤها إلى موقع الهدف ويُجدّد بقاؤها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ineffa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.jahoda.talent.normal",
+      "category": "term",
+      "character_id": "character.10000124",
+      "character_name": "Jahoda",
+      "character_name_ar": "جاهودا",
+      "talent_type": "normal",
+      "source_name": "Strike While the Arrow's Hot",
+      "arabic_name": "اضرب والسهام في أوجها",
+      "description_source": null,
+      "description_ar": "تطلق جاهودا سهاماً متتابعة، ويمكنها شحن سهم أنيمو أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/jahoda.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.jahoda.talent.skill",
+      "category": "term",
+      "character_id": "character.10000124",
+      "character_name": "Jahoda",
+      "character_name_ar": "جاهودا",
+      "talent_type": "skill",
+      "source_name": "Savvy Strategy: Splitting the Spoils",
+      "arabic_name": "استراتيجية بارعة: اقتسام الغنائم",
+      "description_source": null,
+      "description_ar": "تندفع جاهودا نحو العدو وتجمع عنصراً من الأعداء القريبين داخل قارورتها؛ ثم تطلق الطاقة المخزنة كضرر أنيمو، أو تطلق مقذوفات عنصرية متتابعة عند اكتمال القارورة في تأثير ضوء القمر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/jahoda.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.jahoda.talent.burst",
+      "category": "term",
+      "character_id": "character.10000124",
+      "character_name": "Jahoda",
+      "character_name_ar": "جاهودا",
+      "talent_type": "burst",
+      "source_name": "Hidden Aces: Seven Tools of the Hunter",
+      "arabic_name": "أوراق خفية: أدوات الصياد السبع",
+      "description_source": null,
+      "description_ar": "تستدعي جاهودا روبوتين للمساعدة الشخصية وتسبب ضرر أنيمو للأعداء القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/jahoda.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kachina.talent.normal",
+      "category": "term",
+      "character_id": "character.10000100",
+      "character_name": "Kachina",
+      "character_name_ar": "كاتشينا",
+      "talent_type": "normal",
+      "source_name": "Cragbiter",
+      "arabic_name": "قاضمة الصخور",
+      "description_source": null,
+      "description_ar": "تنفذ كاتشينا ضربات متتابعة بالرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kachina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kachina.talent.skill",
+      "category": "term",
+      "character_id": "character.10000100",
+      "character_name": "Kachina",
+      "character_name_ar": "كاتشينا",
+      "talent_type": "skill",
+      "source_name": "Go, Go Turbo Twirly!",
+      "arabic_name": "هيا يا توربو تويـرلي!",
+      "description_source": null,
+      "description_ar": "تستدعي كاتشينا توربو تويـرلي؛ ويمكنها ركوبه للتحرك والتسلق بسرعة أو تركه يهاجم الأرض دورياً مسبباً ضرر جيو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kachina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kachina.talent.burst",
+      "category": "term",
+      "character_id": "character.10000100",
+      "character_name": "Kachina",
+      "character_name_ar": "كاتشينا",
+      "talent_type": "burst",
+      "source_name": "Time to Get Serious!",
+      "arabic_name": "حان وقت الجد!",
+      "description_source": null,
+      "description_ar": "تضرب كاتشينا الأرض مسببة ضرر جيو وتنشئ ميداناً يزيد مدى هجمات توربو تويـرلي وسرعته أثناء ركوبها له.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kachina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kaveh.talent.normal",
+      "category": "term",
+      "character_id": "character.10000081",
+      "character_name": "Kaveh",
+      "character_name_ar": "كافيه",
+      "talent_type": "normal",
+      "source_name": "Schematic Setup",
+      "arabic_name": "تنفيذ المخطط",
+      "description_source": null,
+      "description_ar": "يستخدم كافيه أداة مهرَك لتنفيذ ضربات متتابعة، مع هجوم مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaveh.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kaveh.talent.skill",
+      "category": "term",
+      "character_id": "character.10000081",
+      "character_name": "Kaveh",
+      "character_name_ar": "كافيه",
+      "talent_type": "skill",
+      "source_name": "Artistic Ingenuity",
+      "arabic_name": "براعة فنية",
+      "description_source": null,
+      "description_ar": "يستخدم كافيه قدرة مهرَك على المسح لإطلاق موجة ديندرو واسعة، فتفجّر نوى ديندرو الموجودة ضمن نطاقها فوراً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaveh.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kaveh.talent.burst",
+      "category": "term",
+      "character_id": "character.10000081",
+      "character_name": "Kaveh",
+      "character_name_ar": "كافيه",
+      "talent_type": "burst",
+      "source_name": "Painted Dome",
+      "arabic_name": "القبة المرسومة",
+      "description_source": null,
+      "description_ar": "يطلق كافيه طاقة مهرَك وينشئ مجالاً يمسح المنطقة ويسبب ضرر ديندرو، ويفجّر النوى ويعزز هجماته ومقاومته للمقاطعة مؤقتاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaveh.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kirara.talent.normal",
+      "category": "term",
+      "character_id": "character.10000061",
+      "character_name": "Kirara",
+      "character_name_ar": "كيرارا",
+      "talent_type": "normal",
+      "source_name": "Boxcutter",
+      "arabic_name": "قاطعة الصناديق",
+      "description_source": null,
+      "description_ar": "تنفذ كيرارا ضربات سريعة متتابعة، ويمكنها إطلاق ثلاث ضربات مخلبية مشحونة أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kirara.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kirara.talent.skill",
+      "category": "term",
+      "character_id": "character.10000061",
+      "character_name": "Kirara",
+      "character_name_ar": "كيرارا",
+      "talent_type": "skill",
+      "source_name": "Meow-teor Kick",
+      "arabic_name": "ركلة نيزك المواء",
+      "description_source": null,
+      "description_ar": "تقفز كيرارا وتوجه ركلة تسبب ضرر ديندرو وتنشئ درعاً؛ وبالضغط المطول تدخل صندوق توصيل خاصاً يزيد سرعة حركتها وتسلقها ويصدم الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kirara.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kirara.talent.burst",
+      "category": "term",
+      "character_id": "character.10000061",
+      "character_name": "Kirara",
+      "character_name_ar": "كيرارا",
+      "talent_type": "burst",
+      "source_name": "Secret Art: Surprise Dispatch",
+      "arabic_name": "الفن السري: توصيل مفاجئ",
+      "description_source": null,
+      "description_ar": "ترمي كيرارا طرداً خاصاً يسبب ضرر ديندرو واسعاً، ثم ينقسم بعد انفجاره إلى ثمار صغيرة تنفجر عند ملامسة الأعداء أو بعد مدة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kirara.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kukishinobu.talent.normal",
+      "category": "term",
+      "character_id": "character.10000065",
+      "character_name": "Kuki Shinobu",
+      "character_name_ar": "كوكي شينوبو",
+      "talent_type": "normal",
+      "source_name": "Shinobu's Shadowsword",
+      "arabic_name": "سيف شينوبو الظلي",
+      "description_source": null,
+      "description_ar": "تنفذ كوكي شينوبو ضربات سريعة متتابعة بالسيف، مع ضربتين مشحونتين وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kukishinobu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kukishinobu.talent.skill",
+      "category": "term",
+      "character_id": "character.10000065",
+      "character_name": "Kuki Shinobu",
+      "character_name_ar": "كوكي شينوبو",
+      "talent_type": "skill",
+      "source_name": "Sanctifying Ring",
+      "arabic_name": "حلقة التطهير",
+      "description_source": null,
+      "description_ar": "تستهلك كوكي جزءاً من صحتها لإنشاء حلقة عشبية تتبع الشخصية النشطة، وتسبب ضرر إلكترو دورياً وتعالج أعضاء الفريق القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kukishinobu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kukishinobu.talent.burst",
+      "category": "term",
+      "character_id": "character.10000065",
+      "character_name": "Kuki Shinobu",
+      "character_name_ar": "كوكي شينوبو",
+      "talent_type": "burst",
+      "source_name": "Gyoei Narukami Kariyama Rite",
+      "arabic_name": "طقس غيوئي ناروكامي كاريياما",
+      "description_source": null,
+      "description_ar": "تغرس كوكي نصلها في الأرض وتنشئ مجالاً يسبب ضرر إلكترو متواصلاً؛ وتدوم مدة أطول إذا كانت صحتها منخفضة عند التفعيل.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kukishinobu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
