@@ -1,0 +1,31 @@
+name: Localization catalog validation
+
+on:
+  push:
+    paths:
+      - "localization/**/*.json"
+      - "scripts/validate_localization.py"
+      - ".github/workflows/localization-validation.yml"
+  pull_request:
+    paths:
+      - "localization/**/*.json"
+      - "scripts/validate_localization.py"
+      - ".github/workflows/localization-validation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate localization JSON
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate catalog files
+        run: python scripts/validate_localization.py
