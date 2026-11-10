@@ -1175,20 +1175,34 @@ jobs:
       - name: Package and validate Arabic localization catalogs
         run: |
           mkdir -p app/src/main/assets/localization/ar
-          cp localization/ar/characters.json app/src/main/assets/localization/ar/characters.json
-          cp localization/ar/talents.json app/src/main/assets/localization/ar/talents.json
-          cp localization/ar/glossary.json app/src/main/assets/localization/ar/glossary.json
+          for file in characters talents glossary quests_archon quests_world weapons artifacts materials resources; do
+            cp "localization/ar/${file}.json" "app/src/main/assets/localization/ar/${file}.json"
+          done
           python3 - <<'PY'
           import json
           from pathlib import Path
           root = Path("app/src/main/assets/localization/ar")
-          expected = {"characters.json": 123, "talents.json": 387, "glossary.json": 54}
+          expected = {
+              "characters.json": 123,
+              "talents.json": 387,
+              "glossary.json": 54,
+              "quests_archon.json": 259,
+              "weapons.json": 253,
+              "artifacts.json": 6,
+              "materials.json": 5,
+              "resources.json": 8,
+          }
           for filename, minimum in expected.items():
               data = json.loads((root / filename).read_text(encoding="utf-8"))
               entries = data.get("entries", [])
               if len(entries) < minimum:
                   raise SystemExit(f"{filename}: expected at least {minimum} entries, got {len(entries)}")
               print(f"Validated {filename}: {len(entries)} entries")
+          world = json.loads((root / "quests_world.json").read_text(encoding="utf-8"))
+          world_entries = world.get("entries", [])
+          if len(world_entries) < 1200:
+              raise SystemExit(f"quests_world.json: expected at least 1200 entries, got {len(world_entries)}")
+          print(f"Validated quests_world.json: {len(world_entries)} entries")
           PY
 
       - name: Build APK
