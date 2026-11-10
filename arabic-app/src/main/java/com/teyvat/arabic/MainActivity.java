@@ -220,14 +220,14 @@ public class MainActivity extends Activity {
 
         String status = item.optString("translation_status", item.optString("status", "draft"));
         TextView state = new TextView(this);
-        state.setText("الحالة: " + status);
+        state.setText("الحالة: " + statusLabel(status));
         state.setTextColor(Color.rgb(180, 205, 190));
         state.setTextSize(10);
         state.setPadding(0, dp(6), 0, 0);
         card.addView(state);
     }
 
-    private String readAsset(String name) throws Exception {
+    private String statusLabel(String status) {\n        switch (status) {\n            case "approved": return "معتمد";\n            case "reviewed": return "مراجع";\n            case "draft": return "مسودة";\n            case "needs_context": return "بحاجة إلى سياق";\n            case "needs_translation": return "بانتظار الترجمة";\n            default: return status;\n        }\n    }\n\n    private String readAsset(String name) throws Exception {
         try (InputStream in = getAssets().open(name);
              ByteArrayOutputStream out = new ByteArrayOutputStream()) {
             byte[] buffer = new byte[8192];
