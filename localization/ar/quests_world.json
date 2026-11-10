@@ -3590,7 +3590,9 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [],
+      "subquest_count": 0
     },
     {
       "id": "quest.world.quest.71103",
@@ -3618,7 +3620,9 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [],
+      "subquest_count": 0
     },
     {
       "id": "quest.world.quest.73000",
@@ -3646,7 +3650,170 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7300001",
+          "sequence": 1,
+          "step_text_hash": 2642936717,
+          "guide_text_hash": 2136364662,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300002",
+          "sequence": 2,
+          "step_text_hash": 1253644837,
+          "guide_text_hash": 1414269166,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300003",
+          "sequence": 3,
+          "step_text_hash": 4009049501,
+          "guide_text_hash": 3403688750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300004",
+          "sequence": 4,
+          "step_text_hash": 1004843765,
+          "guide_text_hash": 3350532726,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300016",
+          "sequence": 5,
+          "step_text_hash": 1857502365,
+          "guide_text_hash": 1126933918,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300005",
+          "sequence": 6,
+          "step_text_hash": 3551342565,
+          "guide_text_hash": 3179399998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300017",
+          "sequence": 7,
+          "step_text_hash": 1317735277,
+          "guide_text_hash": 4288769758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300006",
+          "sequence": 8,
+          "step_text_hash": 355008733,
+          "guide_text_hash": 2366921798,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300007",
+          "sequence": 9,
+          "step_text_hash": 1072989725,
+          "guide_text_hash": 135143350,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300009",
+          "sequence": 10,
+          "step_text_hash": 252737901,
+          "guide_text_hash": 2503453534,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300010",
+          "sequence": 11,
+          "step_text_hash": 326443925,
+          "guide_text_hash": 1581140494,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300011",
+          "sequence": 12,
+          "step_text_hash": 2800968613,
+          "guide_text_hash": 3225213918,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300008",
+          "sequence": 13,
+          "step_text_hash": 92553653,
+          "guide_text_hash": 2183941510,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300020",
+          "sequence": 14,
+          "step_text_hash": 1109968325,
+          "guide_text_hash": 1483905862,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300012",
+          "sequence": 99,
+          "step_text_hash": 3800132973,
+          "guide_text_hash": 1407715470,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300013",
+          "sequence": 99,
+          "step_text_hash": 3172637109,
+          "guide_text_hash": 2194738622,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300014",
+          "sequence": 99,
+          "step_text_hash": 2245614469,
+          "guide_text_hash": 4135474390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300015",
+          "sequence": 99,
+          "step_text_hash": 3691039421,
+          "guide_text_hash": 569930374,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300018",
+          "sequence": 99,
+          "step_text_hash": 719770189,
+          "guide_text_hash": 1090425750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300019",
+          "sequence": 99,
+          "step_text_hash": 867734205,
+          "guide_text_hash": 1874009286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 20
     },
     {
       "id": "quest.world.quest.73001",
@@ -3674,7 +3841,194 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7300101",
+          "sequence": 1,
+          "step_text_hash": 3880645285,
+          "guide_text_hash": 1766467662,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300102",
+          "sequence": 2,
+          "step_text_hash": 1552110413,
+          "guide_text_hash": 866005382,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300103",
+          "sequence": 3,
+          "step_text_hash": 1861420709,
+          "guide_text_hash": 4224890254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300104",
+          "sequence": 4,
+          "step_text_hash": 4180018157,
+          "guide_text_hash": 3453446158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300105",
+          "sequence": 5,
+          "step_text_hash": 3256783701,
+          "guide_text_hash": 3479092974,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300106",
+          "sequence": 6,
+          "step_text_hash": 2083029133,
+          "guide_text_hash": 4146469182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300121",
+          "sequence": 7,
+          "step_text_hash": 2985001093,
+          "guide_text_hash": 1554784910,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300118",
+          "sequence": 8,
+          "step_text_hash": 2565764541,
+          "guide_text_hash": 3002506486,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300107",
+          "sequence": 9,
+          "step_text_hash": 2719469949,
+          "guide_text_hash": 3606905790,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300119",
+          "sequence": 10,
+          "step_text_hash": 658590709,
+          "guide_text_hash": 2796753038,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300120",
+          "sequence": 11,
+          "step_text_hash": 3467387957,
+          "guide_text_hash": 465584830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300108",
+          "sequence": 12,
+          "step_text_hash": 2284561957,
+          "guide_text_hash": 2897134814,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300109",
+          "sequence": 13,
+          "step_text_hash": 728953909,
+          "guide_text_hash": 3167885406,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300116",
+          "sequence": 14,
+          "step_text_hash": 4271915365,
+          "guide_text_hash": 1096473966,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300117",
+          "sequence": 15,
+          "step_text_hash": 1798273885,
+          "guide_text_hash": 837672102,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300110",
+          "sequence": 16,
+          "step_text_hash": 3175313229,
+          "guide_text_hash": 349183150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300111",
+          "sequence": 17,
+          "step_text_hash": 2262504165,
+          "guide_text_hash": 1159622366,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300112",
+          "sequence": 18,
+          "step_text_hash": 1328258677,
+          "guide_text_hash": 4281710710,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300113",
+          "sequence": 19,
+          "step_text_hash": 58590349,
+          "guide_text_hash": 222503998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300114",
+          "sequence": 20,
+          "step_text_hash": 3128542637,
+          "guide_text_hash": 2608132374,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300115",
+          "sequence": 21,
+          "step_text_hash": 696858781,
+          "guide_text_hash": 1046338246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300122",
+          "sequence": 22,
+          "step_text_hash": 841934365,
+          "guide_text_hash": 720627950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300123",
+          "sequence": 23,
+          "step_text_hash": 3664856437,
+          "guide_text_hash": 1754434702,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 23
     },
     {
       "id": "quest.world.quest.73002",
@@ -3702,7 +4056,282 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7300215",
+          "sequence": 1,
+          "step_text_hash": 1690976093,
+          "guide_text_hash": 2051952542,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300233",
+          "sequence": 2,
+          "step_text_hash": 3432858037,
+          "guide_text_hash": 675668798,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300201",
+          "sequence": 4,
+          "step_text_hash": 210585045,
+          "guide_text_hash": 4011419462,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300217",
+          "sequence": 5,
+          "step_text_hash": 4237364997,
+          "guide_text_hash": 1571009726,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300202",
+          "sequence": 6,
+          "step_text_hash": 4275190621,
+          "guide_text_hash": 2115397302,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300203",
+          "sequence": 7,
+          "step_text_hash": 3360339917,
+          "guide_text_hash": 1600861438,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300221",
+          "sequence": 8,
+          "step_text_hash": 3153541997,
+          "guide_text_hash": 773559046,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300230",
+          "sequence": 9,
+          "step_text_hash": 2765839397,
+          "guide_text_hash": 1583609182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300231",
+          "sequence": 10,
+          "step_text_hash": 3374533429,
+          "guide_text_hash": 3569291958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300204",
+          "sequence": 11,
+          "step_text_hash": 1739916253,
+          "guide_text_hash": 1423979246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300205",
+          "sequence": 12,
+          "step_text_hash": 2936951389,
+          "guide_text_hash": 2431476046,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300220",
+          "sequence": 13,
+          "step_text_hash": 1868937701,
+          "guide_text_hash": 469617710,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300222",
+          "sequence": 14,
+          "step_text_hash": 2144428997,
+          "guide_text_hash": 424225950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300223",
+          "sequence": 15,
+          "step_text_hash": 1397711957,
+          "guide_text_hash": 2050298390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300206",
+          "sequence": 16,
+          "step_text_hash": 1200863013,
+          "guide_text_hash": 2114711446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300207",
+          "sequence": 17,
+          "step_text_hash": 3789920757,
+          "guide_text_hash": 2229598310,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300219",
+          "sequence": 18,
+          "step_text_hash": 2194795237,
+          "guide_text_hash": 3100263246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300209",
+          "sequence": 19,
+          "step_text_hash": 4267143893,
+          "guide_text_hash": 174618710,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300210",
+          "sequence": 20,
+          "step_text_hash": 3308519141,
+          "guide_text_hash": 4065363238,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300208",
+          "sequence": 21,
+          "step_text_hash": 1415138565,
+          "guide_text_hash": 189118982,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300234",
+          "sequence": 22,
+          "step_text_hash": 1286978933,
+          "guide_text_hash": 1086282118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300218",
+          "sequence": 23,
+          "step_text_hash": 1589606645,
+          "guide_text_hash": 1852618446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300211",
+          "sequence": 24,
+          "step_text_hash": 1559480845,
+          "guide_text_hash": 985217974,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300212",
+          "sequence": 25,
+          "step_text_hash": 3148028197,
+          "guide_text_hash": 3518134534,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300213",
+          "sequence": 26,
+          "step_text_hash": 3033937221,
+          "guide_text_hash": 3214082270,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300214",
+          "sequence": 27,
+          "step_text_hash": 3652225501,
+          "guide_text_hash": 830978886,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300224",
+          "sequence": 28,
+          "step_text_hash": 3297969477,
+          "guide_text_hash": 4169668886,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300225",
+          "sequence": 29,
+          "step_text_hash": 1583419389,
+          "guide_text_hash": 696724750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300232",
+          "sequence": 30,
+          "step_text_hash": 39357693,
+          "guide_text_hash": 3746222750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300216",
+          "sequence": 31,
+          "step_text_hash": 4017385965,
+          "guide_text_hash": 620275950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300226",
+          "sequence": 32,
+          "step_text_hash": 2115764973,
+          "guide_text_hash": 162623294,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300227",
+          "sequence": 33,
+          "step_text_hash": 950031509,
+          "guide_text_hash": 3646174694,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300228",
+          "sequence": 34,
+          "step_text_hash": 2128071493,
+          "guide_text_hash": 3550159566,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300229",
+          "sequence": 35,
+          "step_text_hash": 1456768213,
+          "guide_text_hash": 3664166518,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 34
     },
     {
       "id": "quest.world.quest.73003",
@@ -3730,7 +4359,146 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7300301",
+          "sequence": 1,
+          "step_text_hash": 1563514157,
+          "guide_text_hash": 1249996006,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300302",
+          "sequence": 2,
+          "step_text_hash": 1903599941,
+          "guide_text_hash": 1877403438,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300303",
+          "sequence": 3,
+          "step_text_hash": 521423469,
+          "guide_text_hash": 2134605126,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300317",
+          "sequence": 4,
+          "step_text_hash": 316114165,
+          "guide_text_hash": 1035524854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300304",
+          "sequence": 5,
+          "step_text_hash": 1741961181,
+          "guide_text_hash": 2012974366,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300310",
+          "sequence": 6,
+          "step_text_hash": 1716916429,
+          "guide_text_hash": 2325016958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300311",
+          "sequence": 7,
+          "step_text_hash": 690720373,
+          "guide_text_hash": 2412819758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300315",
+          "sequence": 8,
+          "step_text_hash": 3960285605,
+          "guide_text_hash": 522767598,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300316",
+          "sequence": 9,
+          "step_text_hash": 3352067965,
+          "guide_text_hash": 3255736814,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300312",
+          "sequence": 10,
+          "step_text_hash": 677121341,
+          "guide_text_hash": 3747276078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300305",
+          "sequence": 11,
+          "step_text_hash": 4052832533,
+          "guide_text_hash": 2395617094,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300306",
+          "sequence": 12,
+          "step_text_hash": 874412157,
+          "guide_text_hash": 1093906070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300313",
+          "sequence": 13,
+          "step_text_hash": 2403835269,
+          "guide_text_hash": 448595966,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300314",
+          "sequence": 14,
+          "step_text_hash": 944258309,
+          "guide_text_hash": 3619994766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300307",
+          "sequence": 15,
+          "step_text_hash": 2859130621,
+          "guide_text_hash": 369147982,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300308",
+          "sequence": 16,
+          "step_text_hash": 1926794677,
+          "guide_text_hash": 152431190,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7300309",
+          "sequence": 17,
+          "step_text_hash": 2020145789,
+          "guide_text_hash": 1854090134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 17
     },
     {
       "id": "quest.world.quest.73013",
@@ -3758,7 +4526,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301301",
+          "sequence": 1,
+          "step_text_hash": 1757201869,
+          "guide_text_hash": 2219796302,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301302",
+          "sequence": 2,
+          "step_text_hash": 3754548757,
+          "guide_text_hash": 1193732550,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301303",
+          "sequence": 3,
+          "step_text_hash": 2833487869,
+          "guide_text_hash": 3929656462,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301304",
+          "sequence": 88,
+          "step_text_hash": 2518722349,
+          "guide_text_hash": 3325043446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301305",
+          "sequence": 99,
+          "step_text_hash": 2352044221,
+          "guide_text_hash": 307279542,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.world.quest.73014",
@@ -3786,7 +4597,154 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301401",
+          "sequence": 1,
+          "step_text_hash": 203297077,
+          "guide_text_hash": 2757528094,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301402",
+          "sequence": 2,
+          "step_text_hash": 1857463965,
+          "guide_text_hash": 2845505694,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301403",
+          "sequence": 3,
+          "step_text_hash": 2589731013,
+          "guide_text_hash": 3426769518,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301416",
+          "sequence": 4,
+          "step_text_hash": 2991558741,
+          "guide_text_hash": 2928446462,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301418",
+          "sequence": 5,
+          "step_text_hash": 3377262741,
+          "guide_text_hash": 454627670,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301417",
+          "sequence": 6,
+          "step_text_hash": 4292422829,
+          "guide_text_hash": 482328662,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301404",
+          "sequence": 7,
+          "step_text_hash": 865635885,
+          "guide_text_hash": 2711001662,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301405",
+          "sequence": 8,
+          "step_text_hash": 1378963893,
+          "guide_text_hash": 2758331102,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301407",
+          "sequence": 9,
+          "step_text_hash": 2477746813,
+          "guide_text_hash": 1096812502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301408",
+          "sequence": 10,
+          "step_text_hash": 4004561829,
+          "guide_text_hash": 1783102966,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301409",
+          "sequence": 11,
+          "step_text_hash": 2516137997,
+          "guide_text_hash": 2937399630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301410",
+          "sequence": 12,
+          "step_text_hash": 1970897573,
+          "guide_text_hash": 4103490102,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301411",
+          "sequence": 13,
+          "step_text_hash": 1780834213,
+          "guide_text_hash": 971274406,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301412",
+          "sequence": 14,
+          "step_text_hash": 4019232373,
+          "guide_text_hash": 2388070494,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301413",
+          "sequence": 15,
+          "step_text_hash": 4059431917,
+          "guide_text_hash": 3332041638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301415",
+          "sequence": 17,
+          "step_text_hash": 1091989949,
+          "guide_text_hash": 643069150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301414",
+          "sequence": 98,
+          "step_text_hash": 2387408117,
+          "guide_text_hash": 2596336822,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301406",
+          "sequence": 99,
+          "step_text_hash": 3693371133,
+          "guide_text_hash": 2371386830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 18
     },
     {
       "id": "quest.world.quest.73015",
@@ -3814,7 +4772,194 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301501",
+          "sequence": 1,
+          "step_text_hash": 3343047029,
+          "guide_text_hash": 3251612182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301502",
+          "sequence": 2,
+          "step_text_hash": 633378549,
+          "guide_text_hash": 695606398,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301503",
+          "sequence": 3,
+          "step_text_hash": 4161227877,
+          "guide_text_hash": 2682626846,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301523",
+          "sequence": 4,
+          "step_text_hash": 2385038565,
+          "guide_text_hash": 3222787886,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301504",
+          "sequence": 5,
+          "step_text_hash": 607298741,
+          "guide_text_hash": 1451801158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301521",
+          "sequence": 6,
+          "step_text_hash": 1280734061,
+          "guide_text_hash": 3993744398,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301515",
+          "sequence": 7,
+          "step_text_hash": 257238589,
+          "guide_text_hash": 3270881214,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301505",
+          "sequence": 8,
+          "step_text_hash": 3915892541,
+          "guide_text_hash": 619586750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301518",
+          "sequence": 9,
+          "step_text_hash": 3222740069,
+          "guide_text_hash": 4225758022,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301506",
+          "sequence": 10,
+          "step_text_hash": 2897971453,
+          "guide_text_hash": 1714587614,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301519",
+          "sequence": 11,
+          "step_text_hash": 1076202493,
+          "guide_text_hash": 4208428742,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301507",
+          "sequence": 12,
+          "step_text_hash": 4004186053,
+          "guide_text_hash": 1056804894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301520",
+          "sequence": 13,
+          "step_text_hash": 583635989,
+          "guide_text_hash": 4012907950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301508",
+          "sequence": 14,
+          "step_text_hash": 1836466005,
+          "guide_text_hash": 722201470,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301509",
+          "sequence": 15,
+          "step_text_hash": 1284789565,
+          "guide_text_hash": 2497849894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301510",
+          "sequence": 16,
+          "step_text_hash": 1867227653,
+          "guide_text_hash": 2865952982,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301522",
+          "sequence": 17,
+          "step_text_hash": 312497885,
+          "guide_text_hash": 1579088046,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301511",
+          "sequence": 18,
+          "step_text_hash": 3334312533,
+          "guide_text_hash": 2193401990,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301512",
+          "sequence": 19,
+          "step_text_hash": 2674011061,
+          "guide_text_hash": 1951108022,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301513",
+          "sequence": 20,
+          "step_text_hash": 3276484701,
+          "guide_text_hash": 1666893150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301514",
+          "sequence": 21,
+          "step_text_hash": 2429925541,
+          "guide_text_hash": 3986889606,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301516",
+          "sequence": 22,
+          "step_text_hash": 1422829589,
+          "guide_text_hash": 4020617854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301517",
+          "sequence": 23,
+          "step_text_hash": 3457974485,
+          "guide_text_hash": 3800831262,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 23
     },
     {
       "id": "quest.world.quest.73016",
@@ -3842,7 +4987,146 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301601",
+          "sequence": 1,
+          "step_text_hash": 1238622565,
+          "guide_text_hash": 1264805150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301602",
+          "sequence": 2,
+          "step_text_hash": 3709855317,
+          "guide_text_hash": 715521110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301603",
+          "sequence": 3,
+          "step_text_hash": 530180461,
+          "guide_text_hash": 830618206,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301604",
+          "sequence": 4,
+          "step_text_hash": 2950526181,
+          "guide_text_hash": 534985398,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301605",
+          "sequence": 5,
+          "step_text_hash": 4188916037,
+          "guide_text_hash": 4117089558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301606",
+          "sequence": 6,
+          "step_text_hash": 3386012997,
+          "guide_text_hash": 3161601422,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301616",
+          "sequence": 7,
+          "step_text_hash": 2277965933,
+          "guide_text_hash": 2061313334,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301607",
+          "sequence": 8,
+          "step_text_hash": 4294730477,
+          "guide_text_hash": 2048373878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301608",
+          "sequence": 9,
+          "step_text_hash": 4217165101,
+          "guide_text_hash": 3697249190,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301609",
+          "sequence": 10,
+          "step_text_hash": 1343462373,
+          "guide_text_hash": 2095054462,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301610",
+          "sequence": 11,
+          "step_text_hash": 605271597,
+          "guide_text_hash": 2452299302,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301613",
+          "sequence": 12,
+          "step_text_hash": 4006590077,
+          "guide_text_hash": 1576195118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301611",
+          "sequence": 13,
+          "step_text_hash": 2174576037,
+          "guide_text_hash": 2364091558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301615",
+          "sequence": 16,
+          "step_text_hash": 587778621,
+          "guide_text_hash": 1202072390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301617",
+          "sequence": 17,
+          "step_text_hash": 4029472101,
+          "guide_text_hash": 3408133118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301614",
+          "sequence": 98,
+          "step_text_hash": 2307075789,
+          "guide_text_hash": 3906987430,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301612",
+          "sequence": 99,
+          "step_text_hash": 3783669573,
+          "guide_text_hash": 1050359630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 17
     },
     {
       "id": "quest.world.quest.73017",
@@ -3870,7 +5154,138 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301701",
+          "sequence": 1,
+          "step_text_hash": 11245797,
+          "guide_text_hash": 1851520942,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301713",
+          "sequence": 2,
+          "step_text_hash": 4149881749,
+          "guide_text_hash": 37133582,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301702",
+          "sequence": 3,
+          "step_text_hash": 3810359549,
+          "guide_text_hash": 1046313478,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301703",
+          "sequence": 4,
+          "step_text_hash": 2015249813,
+          "guide_text_hash": 3244055942,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301704",
+          "sequence": 5,
+          "step_text_hash": 2853834525,
+          "guide_text_hash": 282839350,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301715",
+          "sequence": 11,
+          "step_text_hash": 1346559301,
+          "guide_text_hash": 3927665854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301710",
+          "sequence": 12,
+          "step_text_hash": 3554590125,
+          "guide_text_hash": 669741974,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301716",
+          "sequence": 13,
+          "step_text_hash": 1253639829,
+          "guide_text_hash": 2655143950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301712",
+          "sequence": 14,
+          "step_text_hash": 2797596149,
+          "guide_text_hash": 4127753926,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301714",
+          "sequence": 15,
+          "step_text_hash": 4253123973,
+          "guide_text_hash": 172342342,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301707",
+          "sequence": 94,
+          "step_text_hash": 1738236125,
+          "guide_text_hash": 2991016086,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301708",
+          "sequence": 95,
+          "step_text_hash": 3822348317,
+          "guide_text_hash": 1952069734,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301709",
+          "sequence": 96,
+          "step_text_hash": 4027713141,
+          "guide_text_hash": 589656062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301711",
+          "sequence": 97,
+          "step_text_hash": 492593445,
+          "guide_text_hash": 2751146590,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301706",
+          "sequence": 98,
+          "step_text_hash": 3991409741,
+          "guide_text_hash": 22673878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301705",
+          "sequence": 99,
+          "step_text_hash": 2567510061,
+          "guide_text_hash": 2786378854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 16
     },
     {
       "id": "quest.world.quest.73018",
@@ -3898,7 +5313,234 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301801",
+          "sequence": 1,
+          "step_text_hash": 1986849141,
+          "guide_text_hash": 1390011494,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301802",
+          "sequence": 2,
+          "step_text_hash": 1368190629,
+          "guide_text_hash": 3314188390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301806",
+          "sequence": 9,
+          "step_text_hash": 2123786917,
+          "guide_text_hash": 1171654782,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301807",
+          "sequence": 10,
+          "step_text_hash": 2832020525,
+          "guide_text_hash": 2867570830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301828",
+          "sequence": 11,
+          "step_text_hash": 585630021,
+          "guide_text_hash": 1619936430,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301808",
+          "sequence": 12,
+          "step_text_hash": 1427734149,
+          "guide_text_hash": 4247638094,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301823",
+          "sequence": 13,
+          "step_text_hash": 2764321437,
+          "guide_text_hash": 2397376958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301809",
+          "sequence": 14,
+          "step_text_hash": 2370564189,
+          "guide_text_hash": 1652533958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301810",
+          "sequence": 15,
+          "step_text_hash": 975279277,
+          "guide_text_hash": 3039208478,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301811",
+          "sequence": 16,
+          "step_text_hash": 2804214437,
+          "guide_text_hash": 1647903550,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301813",
+          "sequence": 17,
+          "step_text_hash": 2208136781,
+          "guide_text_hash": 3740099606,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301814",
+          "sequence": 18,
+          "step_text_hash": 2759599021,
+          "guide_text_hash": 2432682206,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301816",
+          "sequence": 20,
+          "step_text_hash": 3522135845,
+          "guide_text_hash": 4000793334,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301817",
+          "sequence": 21,
+          "step_text_hash": 3321937341,
+          "guide_text_hash": 75818158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301819",
+          "sequence": 23,
+          "step_text_hash": 3833924749,
+          "guide_text_hash": 1364743062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301820",
+          "sequence": 24,
+          "step_text_hash": 2993105573,
+          "guide_text_hash": 1744966958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301821",
+          "sequence": 25,
+          "step_text_hash": 1183859517,
+          "guide_text_hash": 1974394150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301827",
+          "sequence": 26,
+          "step_text_hash": 1133141533,
+          "guide_text_hash": 2143629110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301822",
+          "sequence": 27,
+          "step_text_hash": 3073818853,
+          "guide_text_hash": 2336375286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301826",
+          "sequence": 91,
+          "step_text_hash": 15611941,
+          "guide_text_hash": 566611878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301825",
+          "sequence": 92,
+          "step_text_hash": 2886627781,
+          "guide_text_hash": 1679363678,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301824",
+          "sequence": 93,
+          "step_text_hash": 1191785389,
+          "guide_text_hash": 3047170502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301818",
+          "sequence": 94,
+          "step_text_hash": 4024242629,
+          "guide_text_hash": 3792287878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301815",
+          "sequence": 95,
+          "step_text_hash": 977610701,
+          "guide_text_hash": 395901158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301812",
+          "sequence": 96,
+          "step_text_hash": 31885021,
+          "guide_text_hash": 1606315070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301805",
+          "sequence": 97,
+          "step_text_hash": 1446203821,
+          "guide_text_hash": 2056881110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301804",
+          "sequence": 98,
+          "step_text_hash": 57863093,
+          "guide_text_hash": 3901610142,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301803",
+          "sequence": 99,
+          "step_text_hash": 3753490197,
+          "guide_text_hash": 1861808606,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 28
     },
     {
       "id": "quest.world.quest.73019",
@@ -3926,7 +5568,58 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7301901",
+          "sequence": 1,
+          "step_text_hash": 2794603877,
+          "guide_text_hash": 4092274382,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301902",
+          "sequence": 2,
+          "step_text_hash": 1519595549,
+          "guide_text_hash": 2636759374,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301903",
+          "sequence": 3,
+          "step_text_hash": 3462789205,
+          "guide_text_hash": 4275021750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301904",
+          "sequence": 4,
+          "step_text_hash": 3013878885,
+          "guide_text_hash": 1057193814,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301905",
+          "sequence": 5,
+          "step_text_hash": 3146794829,
+          "guide_text_hash": 1773731342,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7301906",
+          "sequence": 6,
+          "step_text_hash": 1514204317,
+          "guide_text_hash": 441611686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 6
     },
     {
       "id": "quest.world.quest.73020",
@@ -3954,7 +5647,90 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302001",
+          "sequence": 1,
+          "step_text_hash": 2622175941,
+          "guide_text_hash": 4091765894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302002",
+          "sequence": 2,
+          "step_text_hash": 771494429,
+          "guide_text_hash": 3092015422,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302006",
+          "sequence": 3,
+          "step_text_hash": 2272822469,
+          "guide_text_hash": 1818262326,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302003",
+          "sequence": 4,
+          "step_text_hash": 2125096053,
+          "guide_text_hash": 3047418638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302009",
+          "sequence": 5,
+          "step_text_hash": 3264104357,
+          "guide_text_hash": 27179286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302008",
+          "sequence": 6,
+          "step_text_hash": 3854583517,
+          "guide_text_hash": 4003354694,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302004",
+          "sequence": 7,
+          "step_text_hash": 3880029813,
+          "guide_text_hash": 2942650998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302005",
+          "sequence": 8,
+          "step_text_hash": 127023453,
+          "guide_text_hash": 1498457614,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302007",
+          "sequence": 9,
+          "step_text_hash": 1162033613,
+          "guide_text_hash": 3933323446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302010",
+          "sequence": 10,
+          "step_text_hash": 3575496581,
+          "guide_text_hash": 2951145446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 10
     },
     {
       "id": "quest.world.quest.73021",
@@ -3982,7 +5758,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302101",
+          "sequence": 1,
+          "step_text_hash": 432589341,
+          "guide_text_hash": 3208203878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302102",
+          "sequence": 2,
+          "step_text_hash": 1881544453,
+          "guide_text_hash": 232880958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302104",
+          "sequence": 3,
+          "step_text_hash": 1451072901,
+          "guide_text_hash": 1818814086,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302105",
+          "sequence": 4,
+          "step_text_hash": 2107498709,
+          "guide_text_hash": 2677012230,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302103",
+          "sequence": 5,
+          "step_text_hash": 2934747845,
+          "guide_text_hash": 2275011502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.world.quest.73022",
@@ -4010,7 +5829,90 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302201",
+          "sequence": 1,
+          "step_text_hash": 3793783957,
+          "guide_text_hash": 3788991174,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302202",
+          "sequence": 2,
+          "step_text_hash": 2431018005,
+          "guide_text_hash": 2010632310,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302205",
+          "sequence": 3,
+          "step_text_hash": 158289277,
+          "guide_text_hash": 3886703838,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302206",
+          "sequence": 4,
+          "step_text_hash": 548632701,
+          "guide_text_hash": 2994314606,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302210",
+          "sequence": 5,
+          "step_text_hash": 3330209365,
+          "guide_text_hash": 915867366,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302207",
+          "sequence": 6,
+          "step_text_hash": 3362475629,
+          "guide_text_hash": 690738598,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302208",
+          "sequence": 7,
+          "step_text_hash": 3880800317,
+          "guide_text_hash": 3525929622,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302209",
+          "sequence": 8,
+          "step_text_hash": 3592457125,
+          "guide_text_hash": 3390402630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302203",
+          "sequence": 9,
+          "step_text_hash": 1550624645,
+          "guide_text_hash": 4108093390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302204",
+          "sequence": 10,
+          "step_text_hash": 4162301165,
+          "guide_text_hash": 866035766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 10
     },
     {
       "id": "quest.world.quest.73025",
@@ -4038,7 +5940,266 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302520",
+          "sequence": 1,
+          "step_text_hash": 1801976597,
+          "guide_text_hash": 4253474286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302521",
+          "sequence": 2,
+          "step_text_hash": 591646021,
+          "guide_text_hash": 3838684126,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302501",
+          "sequence": 3,
+          "step_text_hash": 1847187477,
+          "guide_text_hash": 3018199222,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302502",
+          "sequence": 4,
+          "step_text_hash": 685091821,
+          "guide_text_hash": 1065942158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302503",
+          "sequence": 5,
+          "step_text_hash": 3303910141,
+          "guide_text_hash": 4003641998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302522",
+          "sequence": 6,
+          "step_text_hash": 2635088125,
+          "guide_text_hash": 1410321646,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302523",
+          "sequence": 7,
+          "step_text_hash": 214072533,
+          "guide_text_hash": 2202762886,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302524",
+          "sequence": 8,
+          "step_text_hash": 606313677,
+          "guide_text_hash": 2634421534,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302512",
+          "sequence": 9,
+          "step_text_hash": 194238637,
+          "guide_text_hash": 1172572134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302504",
+          "sequence": 10,
+          "step_text_hash": 3835761309,
+          "guide_text_hash": 459930134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302516",
+          "sequence": 11,
+          "step_text_hash": 3799995573,
+          "guide_text_hash": 240154566,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302505",
+          "sequence": 15,
+          "step_text_hash": 1089167493,
+          "guide_text_hash": 3979285094,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302532",
+          "sequence": 16,
+          "step_text_hash": 2897577021,
+          "guide_text_hash": 4045520150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302517",
+          "sequence": 17,
+          "step_text_hash": 3141804877,
+          "guide_text_hash": 1362762918,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302525",
+          "sequence": 20,
+          "step_text_hash": 2490044157,
+          "guide_text_hash": 463487294,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302506",
+          "sequence": 21,
+          "step_text_hash": 1907129101,
+          "guide_text_hash": 3692994846,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302530",
+          "sequence": 22,
+          "step_text_hash": 2320359645,
+          "guide_text_hash": 1724604758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302513",
+          "sequence": 25,
+          "step_text_hash": 1083296437,
+          "guide_text_hash": 1932116126,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302518",
+          "sequence": 26,
+          "step_text_hash": 3033645629,
+          "guide_text_hash": 903788502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302507",
+          "sequence": 30,
+          "step_text_hash": 2497216117,
+          "guide_text_hash": 3808684414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302508",
+          "sequence": 31,
+          "step_text_hash": 3556813781,
+          "guide_text_hash": 2527200678,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302509",
+          "sequence": 32,
+          "step_text_hash": 526888501,
+          "guide_text_hash": 969086246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302531",
+          "sequence": 36,
+          "step_text_hash": 3979802949,
+          "guide_text_hash": 2362485070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302526",
+          "sequence": 40,
+          "step_text_hash": 1767898605,
+          "guide_text_hash": 2934265070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302510",
+          "sequence": 45,
+          "step_text_hash": 1788522157,
+          "guide_text_hash": 967790534,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302527",
+          "sequence": 46,
+          "step_text_hash": 1610495949,
+          "guide_text_hash": 3784053558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302528",
+          "sequence": 47,
+          "step_text_hash": 2365866645,
+          "guide_text_hash": 782711286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302529",
+          "sequence": 48,
+          "step_text_hash": 735414181,
+          "guide_text_hash": 1914843510,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302511",
+          "sequence": 50,
+          "step_text_hash": 2894994461,
+          "guide_text_hash": 1419034758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302514",
+          "sequence": 60,
+          "step_text_hash": 1062855109,
+          "guide_text_hash": 1516441830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302519",
+          "sequence": 70,
+          "step_text_hash": 3875351677,
+          "guide_text_hash": 3187221926,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302515",
+          "sequence": 80,
+          "step_text_hash": 4241154613,
+          "guide_text_hash": 3274812686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 32
     },
     {
       "id": "quest.world.quest.73026",
@@ -4066,7 +6227,138 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302604",
+          "sequence": 1,
+          "step_text_hash": 3191360453,
+          "guide_text_hash": 3138974894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302605",
+          "sequence": 2,
+          "step_text_hash": 1113478429,
+          "guide_text_hash": 3611100254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302606",
+          "sequence": 3,
+          "step_text_hash": 2903079285,
+          "guide_text_hash": 3935646454,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302603",
+          "sequence": 4,
+          "step_text_hash": 3322470381,
+          "guide_text_hash": 865684598,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302607",
+          "sequence": 5,
+          "step_text_hash": 3489027069,
+          "guide_text_hash": 555761142,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302616",
+          "sequence": 6,
+          "step_text_hash": 3952497589,
+          "guide_text_hash": 579337846,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302615",
+          "sequence": 7,
+          "step_text_hash": 2360331117,
+          "guide_text_hash": 2774334174,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302608",
+          "sequence": 8,
+          "step_text_hash": 1045198429,
+          "guide_text_hash": 979268526,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302609",
+          "sequence": 9,
+          "step_text_hash": 1225523741,
+          "guide_text_hash": 4024832158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302614",
+          "sequence": 10,
+          "step_text_hash": 2260412429,
+          "guide_text_hash": 3657434006,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302610",
+          "sequence": 11,
+          "step_text_hash": 2258236637,
+          "guide_text_hash": 1086903990,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302611",
+          "sequence": 12,
+          "step_text_hash": 3412344765,
+          "guide_text_hash": 2119397086,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302612",
+          "sequence": 13,
+          "step_text_hash": 1555665013,
+          "guide_text_hash": 570788006,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302613",
+          "sequence": 14,
+          "step_text_hash": 778201709,
+          "guide_text_hash": 1671998262,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302601",
+          "sequence": 99,
+          "step_text_hash": 58472485,
+          "guide_text_hash": 597860870,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302602",
+          "sequence": 99,
+          "step_text_hash": 4178041925,
+          "guide_text_hash": 3685177990,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 16
     },
     {
       "id": "quest.world.quest.73027",
@@ -4094,7 +6386,122 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302701",
+          "sequence": 1,
+          "step_text_hash": 4206578789,
+          "guide_text_hash": 4271059878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302702",
+          "sequence": 2,
+          "step_text_hash": 3738580621,
+          "guide_text_hash": 1588858622,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302703",
+          "sequence": 3,
+          "step_text_hash": 2967867157,
+          "guide_text_hash": 491203806,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302704",
+          "sequence": 4,
+          "step_text_hash": 128084965,
+          "guide_text_hash": 3608279254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302705",
+          "sequence": 5,
+          "step_text_hash": 2030424141,
+          "guide_text_hash": 1993418630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302706",
+          "sequence": 6,
+          "step_text_hash": 1066656477,
+          "guide_text_hash": 4289211502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302707",
+          "sequence": 7,
+          "step_text_hash": 1754175005,
+          "guide_text_hash": 3867893942,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302708",
+          "sequence": 8,
+          "step_text_hash": 1605896421,
+          "guide_text_hash": 638329030,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302710",
+          "sequence": 9,
+          "step_text_hash": 4105166245,
+          "guide_text_hash": 1174735710,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302711",
+          "sequence": 10,
+          "step_text_hash": 1916323453,
+          "guide_text_hash": 2407307070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302712",
+          "sequence": 11,
+          "step_text_hash": 73960357,
+          "guide_text_hash": 1304977278,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302713",
+          "sequence": 12,
+          "step_text_hash": 4269816477,
+          "guide_text_hash": 2202378318,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302714",
+          "sequence": 13,
+          "step_text_hash": 759329949,
+          "guide_text_hash": 1084609998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302709",
+          "sequence": 99,
+          "step_text_hash": 3703274477,
+          "guide_text_hash": 3961390686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 14
     },
     {
       "id": "quest.world.quest.73028",
@@ -4122,7 +6529,58 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302801",
+          "sequence": 1,
+          "step_text_hash": 3655963605,
+          "guide_text_hash": 2710487374,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302804",
+          "sequence": 2,
+          "step_text_hash": 1982712517,
+          "guide_text_hash": 852075990,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302802",
+          "sequence": 3,
+          "step_text_hash": 773786077,
+          "guide_text_hash": 1321891790,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302805",
+          "sequence": 4,
+          "step_text_hash": 2669932757,
+          "guide_text_hash": 407044222,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302803",
+          "sequence": 5,
+          "step_text_hash": 654061181,
+          "guide_text_hash": 2090746646,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302806",
+          "sequence": 6,
+          "step_text_hash": 2322296677,
+          "guide_text_hash": 4034794782,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 6
     },
     {
       "id": "quest.world.quest.73029",
@@ -4150,7 +6608,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7302905",
+          "sequence": 1,
+          "step_text_hash": 3298690293,
+          "guide_text_hash": 3511825822,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302901",
+          "sequence": 2,
+          "step_text_hash": 271400021,
+          "guide_text_hash": 123476326,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302903",
+          "sequence": 3,
+          "step_text_hash": 945330749,
+          "guide_text_hash": 2022549718,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302902",
+          "sequence": 4,
+          "step_text_hash": 3052408725,
+          "guide_text_hash": 1591692950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7302904",
+          "sequence": 5,
+          "step_text_hash": 1861804805,
+          "guide_text_hash": 3636443382,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.world.quest.73031",
@@ -4178,7 +6679,66 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303102",
+          "sequence": 1,
+          "step_text_hash": 21208253,
+          "guide_text_hash": 3924862758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303103",
+          "sequence": 2,
+          "step_text_hash": 2698638533,
+          "guide_text_hash": 3361321254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303106",
+          "sequence": 10,
+          "step_text_hash": 2049943013,
+          "guide_text_hash": 750261830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303104",
+          "sequence": 11,
+          "step_text_hash": 2587378525,
+          "guide_text_hash": 43630134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303105",
+          "sequence": 20,
+          "step_text_hash": 925674269,
+          "guide_text_hash": 3835296414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303101",
+          "sequence": 25,
+          "step_text_hash": 976990781,
+          "guide_text_hash": 1988004830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303107",
+          "sequence": 30,
+          "step_text_hash": 1757902341,
+          "guide_text_hash": 644432934,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 7
     },
     {
       "id": "quest.world.quest.73032",
@@ -4206,7 +6766,210 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303201",
+          "sequence": 1,
+          "step_text_hash": 4095543453,
+          "guide_text_hash": 2883099526,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303202",
+          "sequence": 2,
+          "step_text_hash": 3864670717,
+          "guide_text_hash": 3738734846,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303203",
+          "sequence": 3,
+          "step_text_hash": 3790094021,
+          "guide_text_hash": 2436188750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303212",
+          "sequence": 10,
+          "step_text_hash": 3965106661,
+          "guide_text_hash": 1055531694,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303213",
+          "sequence": 11,
+          "step_text_hash": 1272103285,
+          "guide_text_hash": 3968217030,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303214",
+          "sequence": 12,
+          "step_text_hash": 1320253829,
+          "guide_text_hash": 1987544230,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303215",
+          "sequence": 13,
+          "step_text_hash": 49687637,
+          "guide_text_hash": 100789590,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303216",
+          "sequence": 14,
+          "step_text_hash": 2727041685,
+          "guide_text_hash": 847202078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303217",
+          "sequence": 15,
+          "step_text_hash": 1260564637,
+          "guide_text_hash": 3118508774,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303218",
+          "sequence": 16,
+          "step_text_hash": 4006423989,
+          "guide_text_hash": 1477033950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303219",
+          "sequence": 17,
+          "step_text_hash": 3024872709,
+          "guide_text_hash": 1795792630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303220",
+          "sequence": 20,
+          "step_text_hash": 1763861989,
+          "guide_text_hash": 2826489766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303221",
+          "sequence": 21,
+          "step_text_hash": 3726408685,
+          "guide_text_hash": 1301177758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303211",
+          "sequence": 30,
+          "step_text_hash": 3875662573,
+          "guide_text_hash": 2173717430,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303225",
+          "sequence": 31,
+          "step_text_hash": 3786654589,
+          "guide_text_hash": 416223478,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303205",
+          "sequence": 40,
+          "step_text_hash": 838424381,
+          "guide_text_hash": 868562230,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303209",
+          "sequence": 50,
+          "step_text_hash": 3090928965,
+          "guide_text_hash": 3677990254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303210",
+          "sequence": 60,
+          "step_text_hash": 110822789,
+          "guide_text_hash": 1720912190,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303206",
+          "sequence": 70,
+          "step_text_hash": 1883368469,
+          "guide_text_hash": 708778326,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303224",
+          "sequence": 71,
+          "step_text_hash": 1889532021,
+          "guide_text_hash": 3277738046,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303207",
+          "sequence": 75,
+          "step_text_hash": 1045165885,
+          "guide_text_hash": 3488019558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303208",
+          "sequence": 80,
+          "step_text_hash": 1319789213,
+          "guide_text_hash": 1518847030,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303204",
+          "sequence": 99,
+          "step_text_hash": 1450717941,
+          "guide_text_hash": 2555944854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303222",
+          "sequence": 99,
+          "step_text_hash": 2225553517,
+          "guide_text_hash": 4145530814,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303223",
+          "sequence": 99,
+          "step_text_hash": 1233358389,
+          "guide_text_hash": 569787446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 25
     },
     {
       "id": "quest.world.quest.73033",
@@ -4234,7 +6997,26 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303302",
+          "sequence": 1,
+          "step_text_hash": 4272899437,
+          "guide_text_hash": 423736390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303301",
+          "sequence": 2,
+          "step_text_hash": 3045800925,
+          "guide_text_hash": 556814702,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 2
     },
     {
       "id": "quest.world.quest.73035",
@@ -4262,7 +7044,130 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303501",
+          "sequence": 1,
+          "step_text_hash": 1071830461,
+          "guide_text_hash": 2930537046,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303512",
+          "sequence": 2,
+          "step_text_hash": 3365039205,
+          "guide_text_hash": 2675474862,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303502",
+          "sequence": 3,
+          "step_text_hash": 1891720237,
+          "guide_text_hash": 933460406,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303509",
+          "sequence": 4,
+          "step_text_hash": 1989642725,
+          "guide_text_hash": 3644327654,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303504",
+          "sequence": 5,
+          "step_text_hash": 143033869,
+          "guide_text_hash": 3697135814,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303513",
+          "sequence": 6,
+          "step_text_hash": 1824551133,
+          "guide_text_hash": 3667602070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303505",
+          "sequence": 8,
+          "step_text_hash": 1525317789,
+          "guide_text_hash": 3659965454,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303506",
+          "sequence": 9,
+          "step_text_hash": 1587598637,
+          "guide_text_hash": 1149365286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303514",
+          "sequence": 10,
+          "step_text_hash": 2359705421,
+          "guide_text_hash": 3884695254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303507",
+          "sequence": 11,
+          "step_text_hash": 2988573269,
+          "guide_text_hash": 1455168478,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303515",
+          "sequence": 12,
+          "step_text_hash": 346020581,
+          "guide_text_hash": 3335239830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303511",
+          "sequence": 13,
+          "step_text_hash": 3631181965,
+          "guide_text_hash": 4282219734,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303508",
+          "sequence": 14,
+          "step_text_hash": 1224523757,
+          "guide_text_hash": 486280134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303510",
+          "sequence": 15,
+          "step_text_hash": 1191047141,
+          "guide_text_hash": 4258994870,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303503",
+          "sequence": 99,
+          "step_text_hash": 365809069,
+          "guide_text_hash": 376972974,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 15
     },
     {
       "id": "quest.world.quest.73036",
@@ -4290,7 +7195,394 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303601",
+          "sequence": 1,
+          "step_text_hash": 2876573909,
+          "guide_text_hash": 2095795262,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303602",
+          "sequence": 2,
+          "step_text_hash": 3958381965,
+          "guide_text_hash": 2288675566,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303621",
+          "sequence": 3,
+          "step_text_hash": 3697307533,
+          "guide_text_hash": 1671523390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303603",
+          "sequence": 4,
+          "step_text_hash": 223505669,
+          "guide_text_hash": 183434902,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303633",
+          "sequence": 5,
+          "step_text_hash": 1449768341,
+          "guide_text_hash": 1698365870,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303604",
+          "sequence": 6,
+          "step_text_hash": 2280828589,
+          "guide_text_hash": 1289732134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303634",
+          "sequence": 7,
+          "step_text_hash": 4064865301,
+          "guide_text_hash": 2723956798,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303605",
+          "sequence": 8,
+          "step_text_hash": 1112474933,
+          "guide_text_hash": 3488599838,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303635",
+          "sequence": 9,
+          "step_text_hash": 1695856581,
+          "guide_text_hash": 3786098470,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303606",
+          "sequence": 10,
+          "step_text_hash": 3223755149,
+          "guide_text_hash": 2947515614,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303636",
+          "sequence": 11,
+          "step_text_hash": 718847621,
+          "guide_text_hash": 4159526854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303607",
+          "sequence": 12,
+          "step_text_hash": 1821249733,
+          "guide_text_hash": 82099182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303609",
+          "sequence": 14,
+          "step_text_hash": 1375409869,
+          "guide_text_hash": 2918932694,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303610",
+          "sequence": 15,
+          "step_text_hash": 2186815285,
+          "guide_text_hash": 1252834574,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303612",
+          "sequence": 17,
+          "step_text_hash": 863639229,
+          "guide_text_hash": 2663548142,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303640",
+          "sequence": 18,
+          "step_text_hash": 1479832717,
+          "guide_text_hash": 2659879718,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303641",
+          "sequence": 19,
+          "step_text_hash": 4200242853,
+          "guide_text_hash": 3793169982,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303642",
+          "sequence": 20,
+          "step_text_hash": 74513589,
+          "guide_text_hash": 3079959286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303643",
+          "sequence": 21,
+          "step_text_hash": 1527192325,
+          "guide_text_hash": 844711894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303644",
+          "sequence": 22,
+          "step_text_hash": 3875196597,
+          "guide_text_hash": 904347494,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303645",
+          "sequence": 23,
+          "step_text_hash": 4205944693,
+          "guide_text_hash": 1847348822,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303647",
+          "sequence": 24,
+          "step_text_hash": 4047871629,
+          "guide_text_hash": 3431522734,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303648",
+          "sequence": 25,
+          "step_text_hash": 3469714189,
+          "guide_text_hash": 4127321238,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303613",
+          "sequence": 26,
+          "step_text_hash": 1951920645,
+          "guide_text_hash": 375367558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303614",
+          "sequence": 27,
+          "step_text_hash": 3328943109,
+          "guide_text_hash": 1861128678,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303615",
+          "sequence": 28,
+          "step_text_hash": 1980043549,
+          "guide_text_hash": 2469170062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303616",
+          "sequence": 29,
+          "step_text_hash": 130806277,
+          "guide_text_hash": 3230345878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303646",
+          "sequence": 30,
+          "step_text_hash": 3004583413,
+          "guide_text_hash": 1092633550,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303639",
+          "sequence": 31,
+          "step_text_hash": 4097706221,
+          "guide_text_hash": 2200638478,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303617",
+          "sequence": 32,
+          "step_text_hash": 4287328093,
+          "guide_text_hash": 1370543206,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303637",
+          "sequence": 33,
+          "step_text_hash": 627539901,
+          "guide_text_hash": 1700757830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303618",
+          "sequence": 34,
+          "step_text_hash": 3481119629,
+          "guide_text_hash": 52803158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303622",
+          "sequence": 35,
+          "step_text_hash": 1959331205,
+          "guide_text_hash": 3256416174,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303623",
+          "sequence": 36,
+          "step_text_hash": 1397062093,
+          "guide_text_hash": 4121182454,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303624",
+          "sequence": 37,
+          "step_text_hash": 11133149,
+          "guide_text_hash": 953021886,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303625",
+          "sequence": 38,
+          "step_text_hash": 901646109,
+          "guide_text_hash": 2956495150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303626",
+          "sequence": 39,
+          "step_text_hash": 2325180789,
+          "guide_text_hash": 252053398,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303627",
+          "sequence": 40,
+          "step_text_hash": 2286587277,
+          "guide_text_hash": 2558073510,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303628",
+          "sequence": 41,
+          "step_text_hash": 1735548261,
+          "guide_text_hash": 1031598606,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303629",
+          "sequence": 42,
+          "step_text_hash": 1932634373,
+          "guide_text_hash": 4172102150,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303630",
+          "sequence": 43,
+          "step_text_hash": 3823906461,
+          "guide_text_hash": 273752062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303631",
+          "sequence": 44,
+          "step_text_hash": 462186309,
+          "guide_text_hash": 26615686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303632",
+          "sequence": 45,
+          "step_text_hash": 906527605,
+          "guide_text_hash": 3133370878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303619",
+          "sequence": 85,
+          "step_text_hash": 1275222453,
+          "guide_text_hash": 1503174654,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303620",
+          "sequence": 88,
+          "step_text_hash": 961305597,
+          "guide_text_hash": 1866715678,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303638",
+          "sequence": 90,
+          "step_text_hash": 2858127589,
+          "guide_text_hash": 687896654,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303608",
+          "sequence": 99,
+          "step_text_hash": 236548405,
+          "guide_text_hash": 2442920670,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303611",
+          "sequence": 99,
+          "step_text_hash": 2821224645,
+          "guide_text_hash": 239105398,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 48
     },
     {
       "id": "quest.world.quest.73037",
@@ -4318,7 +7610,114 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303702",
+          "sequence": 2,
+          "step_text_hash": 406392045,
+          "guide_text_hash": 2213468878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303703",
+          "sequence": 3,
+          "step_text_hash": 202671917,
+          "guide_text_hash": 1985528566,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303704",
+          "sequence": 5,
+          "step_text_hash": 1071664165,
+          "guide_text_hash": 1168672638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303705",
+          "sequence": 6,
+          "step_text_hash": 3889599645,
+          "guide_text_hash": 2428523270,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303706",
+          "sequence": 7,
+          "step_text_hash": 3587285341,
+          "guide_text_hash": 2485549622,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303708",
+          "sequence": 9,
+          "step_text_hash": 719186037,
+          "guide_text_hash": 3631911118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303709",
+          "sequence": 10,
+          "step_text_hash": 405953973,
+          "guide_text_hash": 1902066310,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303712",
+          "sequence": 11,
+          "step_text_hash": 4176957493,
+          "guide_text_hash": 1604868486,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303710",
+          "sequence": 12,
+          "step_text_hash": 720254237,
+          "guide_text_hash": 2598893390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303711",
+          "sequence": 13,
+          "step_text_hash": 2276122421,
+          "guide_text_hash": 3200957446,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303701",
+          "sequence": 97,
+          "step_text_hash": 1297524285,
+          "guide_text_hash": 1554517742,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303707",
+          "sequence": 98,
+          "step_text_hash": 1095976941,
+          "guide_text_hash": 1839239510,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303713",
+          "sequence": 99,
+          "step_text_hash": 2784412565,
+          "guide_text_hash": 2582023686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 13
     },
     {
       "id": "quest.world.quest.73038",
@@ -4346,7 +7745,34 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303801",
+          "sequence": 1,
+          "step_text_hash": 1469449077,
+          "guide_text_hash": 1689998126,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303802",
+          "sequence": 2,
+          "step_text_hash": 1352321445,
+          "guide_text_hash": 2667800910,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303803",
+          "sequence": 3,
+          "step_text_hash": 2921976477,
+          "guide_text_hash": 1970695110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 3
     },
     {
       "id": "quest.world.quest.73039",
@@ -4374,7 +7800,106 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7303901",
+          "sequence": 1,
+          "step_text_hash": 3032155797,
+          "guide_text_hash": 3146208566,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303902",
+          "sequence": 10,
+          "step_text_hash": 1536798837,
+          "guide_text_hash": 1876728582,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303905",
+          "sequence": 20,
+          "step_text_hash": 4227022061,
+          "guide_text_hash": 3711727078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303904",
+          "sequence": 30,
+          "step_text_hash": 222332413,
+          "guide_text_hash": 418761182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303911",
+          "sequence": 31,
+          "step_text_hash": 3732606085,
+          "guide_text_hash": 4057309638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303903",
+          "sequence": 40,
+          "step_text_hash": 4200965181,
+          "guide_text_hash": 1844496030,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303909",
+          "sequence": 41,
+          "step_text_hash": 2487863621,
+          "guide_text_hash": 2878083158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303910",
+          "sequence": 42,
+          "step_text_hash": 3407625101,
+          "guide_text_hash": 1247597654,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303912",
+          "sequence": 48,
+          "step_text_hash": 1369526701,
+          "guide_text_hash": 2800763358,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303906",
+          "sequence": 50,
+          "step_text_hash": 3947368549,
+          "guide_text_hash": 2214535942,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303907",
+          "sequence": 60,
+          "step_text_hash": 3126392181,
+          "guide_text_hash": 4063622422,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7303908",
+          "sequence": 70,
+          "step_text_hash": 2475856957,
+          "guide_text_hash": 842832310,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 12
     },
     {
       "id": "quest.world.quest.73040",
@@ -4402,7 +7927,74 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7304001",
+          "sequence": 1,
+          "step_text_hash": 3367206973,
+          "guide_text_hash": 1661352422,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304002",
+          "sequence": 10,
+          "step_text_hash": 1025806781,
+          "guide_text_hash": 151668654,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304006",
+          "sequence": 11,
+          "step_text_hash": 3435921205,
+          "guide_text_hash": 1625681766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304003",
+          "sequence": 20,
+          "step_text_hash": 2249928941,
+          "guide_text_hash": 1722798070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304007",
+          "sequence": 21,
+          "step_text_hash": 425867165,
+          "guide_text_hash": 935165998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304004",
+          "sequence": 30,
+          "step_text_hash": 1685712957,
+          "guide_text_hash": 4029206646,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304008",
+          "sequence": 31,
+          "step_text_hash": 275167893,
+          "guide_text_hash": 1884586638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304005",
+          "sequence": 40,
+          "step_text_hash": 744874357,
+          "guide_text_hash": 3171535926,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 8
     },
     {
       "id": "quest.world.quest.73041",
@@ -4430,7 +8022,42 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7304101",
+          "sequence": 1,
+          "step_text_hash": 3562370357,
+          "guide_text_hash": 3089696854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304102",
+          "sequence": 2,
+          "step_text_hash": 3955199869,
+          "guide_text_hash": 1547921238,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304103",
+          "sequence": 3,
+          "step_text_hash": 4148513125,
+          "guide_text_hash": 3877412526,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304104",
+          "sequence": 4,
+          "step_text_hash": 1880691205,
+          "guide_text_hash": 1731338414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 4
     },
     {
       "id": "quest.world.quest.73042",
@@ -4458,7 +8085,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7304201",
+          "sequence": 1,
+          "step_text_hash": 2323899765,
+          "guide_text_hash": 1131073574,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304205",
+          "sequence": 5,
+          "step_text_hash": 4260066845,
+          "guide_text_hash": 1043691342,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304202",
+          "sequence": 10,
+          "step_text_hash": 3078108501,
+          "guide_text_hash": 1655246286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304203",
+          "sequence": 20,
+          "step_text_hash": 3737920837,
+          "guide_text_hash": 3779402030,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7304204",
+          "sequence": 30,
+          "step_text_hash": 2494919093,
+          "guide_text_hash": 1675217342,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.world.quest.73061",
@@ -4486,7 +8156,338 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7306101",
+          "sequence": 1,
+          "step_text_hash": 3800303317,
+          "guide_text_hash": 1466763166,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306102",
+          "sequence": 2,
+          "step_text_hash": 1896671613,
+          "guide_text_hash": 1529341790,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306103",
+          "sequence": 3,
+          "step_text_hash": 2371973973,
+          "guide_text_hash": 1110953318,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306104",
+          "sequence": 4,
+          "step_text_hash": 726863597,
+          "guide_text_hash": 612546078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306133",
+          "sequence": 5,
+          "step_text_hash": 927362309,
+          "guide_text_hash": 141927558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306105",
+          "sequence": 6,
+          "step_text_hash": 363616245,
+          "guide_text_hash": 1557470054,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306106",
+          "sequence": 7,
+          "step_text_hash": 674501053,
+          "guide_text_hash": 4288962166,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306108",
+          "sequence": 8,
+          "step_text_hash": 2161781725,
+          "guide_text_hash": 2134286430,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306134",
+          "sequence": 9,
+          "step_text_hash": 3829436981,
+          "guide_text_hash": 2419860230,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306132",
+          "sequence": 10,
+          "step_text_hash": 2775503581,
+          "guide_text_hash": 2372598262,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306109",
+          "sequence": 11,
+          "step_text_hash": 669288277,
+          "guide_text_hash": 1859105270,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306110",
+          "sequence": 12,
+          "step_text_hash": 2548368309,
+          "guide_text_hash": 1371175326,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306129",
+          "sequence": 13,
+          "step_text_hash": 3893957861,
+          "guide_text_hash": 1643702078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306128",
+          "sequence": 14,
+          "step_text_hash": 3948506757,
+          "guide_text_hash": 4241865758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306135",
+          "sequence": 15,
+          "step_text_hash": 3411609773,
+          "guide_text_hash": 4033507654,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306111",
+          "sequence": 16,
+          "step_text_hash": 3465101853,
+          "guide_text_hash": 1157013734,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306112",
+          "sequence": 17,
+          "step_text_hash": 2847562173,
+          "guide_text_hash": 1550468070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306113",
+          "sequence": 18,
+          "step_text_hash": 2974270069,
+          "guide_text_hash": 3825497798,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306114",
+          "sequence": 19,
+          "step_text_hash": 104575837,
+          "guide_text_hash": 2836203726,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306130",
+          "sequence": 20,
+          "step_text_hash": 15029285,
+          "guide_text_hash": 1502834230,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306116",
+          "sequence": 21,
+          "step_text_hash": 737839965,
+          "guide_text_hash": 1056783350,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306137",
+          "sequence": 22,
+          "step_text_hash": 3303895821,
+          "guide_text_hash": 3114374094,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306136",
+          "sequence": 23,
+          "step_text_hash": 2766488717,
+          "guide_text_hash": 903887910,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306115",
+          "sequence": 24,
+          "step_text_hash": 3756341549,
+          "guide_text_hash": 3363494678,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306117",
+          "sequence": 25,
+          "step_text_hash": 2261014981,
+          "guide_text_hash": 264030590,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306141",
+          "sequence": 26,
+          "step_text_hash": 1772218757,
+          "guide_text_hash": 2585023206,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306140",
+          "sequence": 27,
+          "step_text_hash": 38792565,
+          "guide_text_hash": 1090122070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306139",
+          "sequence": 28,
+          "step_text_hash": 3621420653,
+          "guide_text_hash": 1442185646,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306138",
+          "sequence": 29,
+          "step_text_hash": 1166142989,
+          "guide_text_hash": 3203385894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306118",
+          "sequence": 30,
+          "step_text_hash": 4263664533,
+          "guide_text_hash": 3256869422,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306119",
+          "sequence": 31,
+          "step_text_hash": 3377825117,
+          "guide_text_hash": 1533609030,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306120",
+          "sequence": 32,
+          "step_text_hash": 1206668301,
+          "guide_text_hash": 1825161902,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306131",
+          "sequence": 33,
+          "step_text_hash": 4287600309,
+          "guide_text_hash": 604612374,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306121",
+          "sequence": 34,
+          "step_text_hash": 383787325,
+          "guide_text_hash": 1756820846,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306122",
+          "sequence": 35,
+          "step_text_hash": 1299756773,
+          "guide_text_hash": 3330104486,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306123",
+          "sequence": 36,
+          "step_text_hash": 248073565,
+          "guide_text_hash": 740903854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306124",
+          "sequence": 37,
+          "step_text_hash": 1567763301,
+          "guide_text_hash": 1110676070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306107",
+          "sequence": 38,
+          "step_text_hash": 707918253,
+          "guide_text_hash": 2927356542,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306125",
+          "sequence": 39,
+          "step_text_hash": 1839950709,
+          "guide_text_hash": 1520170438,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306127",
+          "sequence": 39,
+          "step_text_hash": 1613054213,
+          "guide_text_hash": 1829561414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306126",
+          "sequence": 41,
+          "step_text_hash": 28211101,
+          "guide_text_hash": 1477333854,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 41
     },
     {
       "id": "quest.world.quest.73063",
@@ -4514,7 +8515,314 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7306301",
+          "sequence": 1,
+          "step_text_hash": 143776085,
+          "guide_text_hash": 4272457950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306302",
+          "sequence": 2,
+          "step_text_hash": 3039099005,
+          "guide_text_hash": 933800182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306303",
+          "sequence": 3,
+          "step_text_hash": 3771867645,
+          "guide_text_hash": 2960652582,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306304",
+          "sequence": 4,
+          "step_text_hash": 4223618309,
+          "guide_text_hash": 1132284558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306330",
+          "sequence": 5,
+          "step_text_hash": 2530629613,
+          "guide_text_hash": 3697148062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306305",
+          "sequence": 6,
+          "step_text_hash": 876422469,
+          "guide_text_hash": 4111029206,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306306",
+          "sequence": 7,
+          "step_text_hash": 2767620549,
+          "guide_text_hash": 3288246062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306307",
+          "sequence": 8,
+          "step_text_hash": 1280366685,
+          "guide_text_hash": 3399969062,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306308",
+          "sequence": 9,
+          "step_text_hash": 3447452349,
+          "guide_text_hash": 625028958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306309",
+          "sequence": 10,
+          "step_text_hash": 1337920917,
+          "guide_text_hash": 826748822,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306335",
+          "sequence": 11,
+          "step_text_hash": 1666531501,
+          "guide_text_hash": 4214524766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306310",
+          "sequence": 12,
+          "step_text_hash": 1763173029,
+          "guide_text_hash": 4212009222,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306311",
+          "sequence": 14,
+          "step_text_hash": 681097221,
+          "guide_text_hash": 3057889790,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306336",
+          "sequence": 15,
+          "step_text_hash": 1950325077,
+          "guide_text_hash": 3550072766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306312",
+          "sequence": 16,
+          "step_text_hash": 3608390893,
+          "guide_text_hash": 52722438,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306313",
+          "sequence": 17,
+          "step_text_hash": 1926841637,
+          "guide_text_hash": 1503396726,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306314",
+          "sequence": 18,
+          "step_text_hash": 1250250965,
+          "guide_text_hash": 3706101182,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306315",
+          "sequence": 19,
+          "step_text_hash": 2612352933,
+          "guide_text_hash": 4073198318,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306337",
+          "sequence": 20,
+          "step_text_hash": 3352031029,
+          "guide_text_hash": 2477892110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306316",
+          "sequence": 21,
+          "step_text_hash": 1657122573,
+          "guide_text_hash": 231373406,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306317",
+          "sequence": 22,
+          "step_text_hash": 1461235837,
+          "guide_text_hash": 2669609590,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306318",
+          "sequence": 23,
+          "step_text_hash": 951700333,
+          "guide_text_hash": 3087729934,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306319",
+          "sequence": 24,
+          "step_text_hash": 632511061,
+          "guide_text_hash": 1357737526,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306331",
+          "sequence": 25,
+          "step_text_hash": 1681266421,
+          "guide_text_hash": 2218995310,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306332",
+          "sequence": 26,
+          "step_text_hash": 3907563109,
+          "guide_text_hash": 2768582614,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306320",
+          "sequence": 27,
+          "step_text_hash": 2595072997,
+          "guide_text_hash": 2380040590,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306321",
+          "sequence": 28,
+          "step_text_hash": 756931101,
+          "guide_text_hash": 2245080998,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306322",
+          "sequence": 29,
+          "step_text_hash": 3267168949,
+          "guide_text_hash": 260580246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306323",
+          "sequence": 30,
+          "step_text_hash": 751930109,
+          "guide_text_hash": 4056719942,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306324",
+          "sequence": 31,
+          "step_text_hash": 1449089149,
+          "guide_text_hash": 3645491550,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306325",
+          "sequence": 32,
+          "step_text_hash": 1254708589,
+          "guide_text_hash": 4167775158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306326",
+          "sequence": 33,
+          "step_text_hash": 2558741341,
+          "guide_text_hash": 2619456614,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306327",
+          "sequence": 34,
+          "step_text_hash": 3890741029,
+          "guide_text_hash": 1689888902,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306338",
+          "sequence": 35,
+          "step_text_hash": 3498460093,
+          "guide_text_hash": 2695571494,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306328",
+          "sequence": 36,
+          "step_text_hash": 3780699173,
+          "guide_text_hash": 993898630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306329",
+          "sequence": 37,
+          "step_text_hash": 1456311917,
+          "guide_text_hash": 2372256910,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306333",
+          "sequence": 38,
+          "step_text_hash": 3022756549,
+          "guide_text_hash": 1517350118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306334",
+          "sequence": 39,
+          "step_text_hash": 1460965101,
+          "guide_text_hash": 3358114598,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 38
     },
     {
       "id": "quest.world.quest.73066",
@@ -4542,7 +8850,354 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7306601",
+          "sequence": 1,
+          "step_text_hash": 1616147109,
+          "guide_text_hash": 1366185350,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306602",
+          "sequence": 2,
+          "step_text_hash": 760809237,
+          "guide_text_hash": 1003402950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306603",
+          "sequence": 3,
+          "step_text_hash": 1434627845,
+          "guide_text_hash": 2627736014,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306604",
+          "sequence": 4,
+          "step_text_hash": 2560681853,
+          "guide_text_hash": 715307966,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306605",
+          "sequence": 5,
+          "step_text_hash": 1396884413,
+          "guide_text_hash": 3059172470,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306606",
+          "sequence": 6,
+          "step_text_hash": 1838933109,
+          "guide_text_hash": 2401661110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306608",
+          "sequence": 8,
+          "step_text_hash": 270278517,
+          "guide_text_hash": 578381310,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306610",
+          "sequence": 10,
+          "step_text_hash": 1257881461,
+          "guide_text_hash": 493050006,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306612",
+          "sequence": 12,
+          "step_text_hash": 4132688869,
+          "guide_text_hash": 4278088102,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306642",
+          "sequence": 13,
+          "step_text_hash": 2809629645,
+          "guide_text_hash": 426326750,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306613",
+          "sequence": 14,
+          "step_text_hash": 3445786429,
+          "guide_text_hash": 3875421638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306615",
+          "sequence": 15,
+          "step_text_hash": 2993571541,
+          "guide_text_hash": 2395844070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306616",
+          "sequence": 16,
+          "step_text_hash": 251650893,
+          "guide_text_hash": 3654572054,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306617",
+          "sequence": 17,
+          "step_text_hash": 2285151741,
+          "guide_text_hash": 3585556502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306618",
+          "sequence": 18,
+          "step_text_hash": 1487498693,
+          "guide_text_hash": 2554274286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306619",
+          "sequence": 19,
+          "step_text_hash": 431478613,
+          "guide_text_hash": 2332546894,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306633",
+          "sequence": 21,
+          "step_text_hash": 4240077773,
+          "guide_text_hash": 1230567254,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306620",
+          "sequence": 23,
+          "step_text_hash": 674732629,
+          "guide_text_hash": 2481307198,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306636",
+          "sequence": 24,
+          "step_text_hash": 3488090861,
+          "guide_text_hash": 2955549366,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306637",
+          "sequence": 25,
+          "step_text_hash": 1000184397,
+          "guide_text_hash": 438213582,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306638",
+          "sequence": 26,
+          "step_text_hash": 1358205773,
+          "guide_text_hash": 972053094,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306621",
+          "sequence": 28,
+          "step_text_hash": 1110177453,
+          "guide_text_hash": 3587902742,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306640",
+          "sequence": 29,
+          "step_text_hash": 330755629,
+          "guide_text_hash": 2826486934,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306639",
+          "sequence": 30,
+          "step_text_hash": 646311045,
+          "guide_text_hash": 462317630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306622",
+          "sequence": 31,
+          "step_text_hash": 1378864173,
+          "guide_text_hash": 3996518710,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306623",
+          "sequence": 32,
+          "step_text_hash": 4116225213,
+          "guide_text_hash": 1105758214,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306644",
+          "sequence": 33,
+          "step_text_hash": 1440323405,
+          "guide_text_hash": 3347655718,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306625",
+          "sequence": 34,
+          "step_text_hash": 979923893,
+          "guide_text_hash": 905285070,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306626",
+          "sequence": 35,
+          "step_text_hash": 2304945717,
+          "guide_text_hash": 850099862,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306627",
+          "sequence": 36,
+          "step_text_hash": 1782520213,
+          "guide_text_hash": 3406794086,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306628",
+          "sequence": 37,
+          "step_text_hash": 1172173941,
+          "guide_text_hash": 3762548134,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306643",
+          "sequence": 38,
+          "step_text_hash": 270265461,
+          "guide_text_hash": 1649335990,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306629",
+          "sequence": 39,
+          "step_text_hash": 901020629,
+          "guide_text_hash": 1783286126,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306630",
+          "sequence": 40,
+          "step_text_hash": 3335582917,
+          "guide_text_hash": 382773430,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306641",
+          "sequence": 41,
+          "step_text_hash": 949008845,
+          "guide_text_hash": 1586353414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306631",
+          "sequence": 42,
+          "step_text_hash": 2664567733,
+          "guide_text_hash": 163475950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306607",
+          "sequence": 99,
+          "step_text_hash": 2932050237,
+          "guide_text_hash": 3256552278,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306609",
+          "sequence": 99,
+          "step_text_hash": 3589186237,
+          "guide_text_hash": 2708304414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306611",
+          "sequence": 99,
+          "step_text_hash": 2117625429,
+          "guide_text_hash": 2974861782,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306614",
+          "sequence": 99,
+          "step_text_hash": 535110469,
+          "guide_text_hash": 361322822,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306624",
+          "sequence": 99,
+          "step_text_hash": 2802921749,
+          "guide_text_hash": 71027510,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306632",
+          "sequence": 99,
+          "step_text_hash": 3122023189,
+          "guide_text_hash": 3067492414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306634",
+          "sequence": 99,
+          "step_text_hash": 2030306541,
+          "guide_text_hash": 1003074022,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 43
     },
     {
       "id": "quest.world.quest.73069",
@@ -4570,7 +9225,146 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7306901",
+          "sequence": 2,
+          "step_text_hash": 4001588973,
+          "guide_text_hash": 2849334734,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306918",
+          "sequence": 3,
+          "step_text_hash": 886265717,
+          "guide_text_hash": 42379558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306903",
+          "sequence": 4,
+          "step_text_hash": 2572595349,
+          "guide_text_hash": 1199548798,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306904",
+          "sequence": 5,
+          "step_text_hash": 2548702589,
+          "guide_text_hash": 844464270,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306905",
+          "sequence": 6,
+          "step_text_hash": 2075821453,
+          "guide_text_hash": 1632649950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306906",
+          "sequence": 7,
+          "step_text_hash": 2904601517,
+          "guide_text_hash": 4210388686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306907",
+          "sequence": 8,
+          "step_text_hash": 1711725613,
+          "guide_text_hash": 2198002246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306908",
+          "sequence": 9,
+          "step_text_hash": 1859222109,
+          "guide_text_hash": 2857606638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306909",
+          "sequence": 10,
+          "step_text_hash": 1124549045,
+          "guide_text_hash": 3247712966,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306910",
+          "sequence": 11,
+          "step_text_hash": 4175399045,
+          "guide_text_hash": 2603713014,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306911",
+          "sequence": 12,
+          "step_text_hash": 1386024701,
+          "guide_text_hash": 118789414,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306912",
+          "sequence": 13,
+          "step_text_hash": 118702101,
+          "guide_text_hash": 3475997110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306916",
+          "sequence": 14,
+          "step_text_hash": 75681237,
+          "guide_text_hash": 314843790,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306917",
+          "sequence": 15,
+          "step_text_hash": 3048769989,
+          "guide_text_hash": 698511590,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306913",
+          "sequence": 16,
+          "step_text_hash": 3402848989,
+          "guide_text_hash": 1116727878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306914",
+          "sequence": 17,
+          "step_text_hash": 2781187381,
+          "guide_text_hash": 1308588958,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7306915",
+          "sequence": 18,
+          "step_text_hash": 3300175357,
+          "guide_text_hash": 3046846486,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 17
     },
     {
       "id": "quest.world.quest.73070",
@@ -4598,7 +9392,146 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7307002",
+          "sequence": 2,
+          "step_text_hash": 78851245,
+          "guide_text_hash": 2853099510,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307020",
+          "sequence": 3,
+          "step_text_hash": 4009353109,
+          "guide_text_hash": 3617261158,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307004",
+          "sequence": 4,
+          "step_text_hash": 2707568245,
+          "guide_text_hash": 2318371902,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307005",
+          "sequence": 5,
+          "step_text_hash": 1878703885,
+          "guide_text_hash": 4203015934,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307011",
+          "sequence": 6,
+          "step_text_hash": 2154950413,
+          "guide_text_hash": 33449502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307006",
+          "sequence": 7,
+          "step_text_hash": 2055064533,
+          "guide_text_hash": 2846514542,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307018",
+          "sequence": 8,
+          "step_text_hash": 606278789,
+          "guide_text_hash": 1266312766,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307007",
+          "sequence": 9,
+          "step_text_hash": 2540417117,
+          "guide_text_hash": 2518410206,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307010",
+          "sequence": 10,
+          "step_text_hash": 1890371925,
+          "guide_text_hash": 3565452518,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307001",
+          "sequence": 11,
+          "step_text_hash": 2010340141,
+          "guide_text_hash": 3228409118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307012",
+          "sequence": 12,
+          "step_text_hash": 3913482581,
+          "guide_text_hash": 833325918,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307013",
+          "sequence": 13,
+          "step_text_hash": 3252759173,
+          "guide_text_hash": 1344439086,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307017",
+          "sequence": 14,
+          "step_text_hash": 2243861357,
+          "guide_text_hash": 1560711806,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307019",
+          "sequence": 15,
+          "step_text_hash": 2324888893,
+          "guide_text_hash": 3511321558,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307014",
+          "sequence": 16,
+          "step_text_hash": 3175878933,
+          "guide_text_hash": 2006784286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307015",
+          "sequence": 17,
+          "step_text_hash": 3192496413,
+          "guide_text_hash": 372784926,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307016",
+          "sequence": 18,
+          "step_text_hash": 361334893,
+          "guide_text_hash": 45993758,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 17
     },
     {
       "id": "quest.world.quest.73073",
@@ -4626,7 +9559,122 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7307301",
+          "sequence": 1,
+          "step_text_hash": 1570678557,
+          "guide_text_hash": 1423298430,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307302",
+          "sequence": 2,
+          "step_text_hash": 798563765,
+          "guide_text_hash": 1060483078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307309",
+          "sequence": 3,
+          "step_text_hash": 4292559421,
+          "guide_text_hash": 3778505926,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307303",
+          "sequence": 4,
+          "step_text_hash": 4084925981,
+          "guide_text_hash": 2197719926,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307304",
+          "sequence": 5,
+          "step_text_hash": 2135971237,
+          "guide_text_hash": 3309408878,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307305",
+          "sequence": 6,
+          "step_text_hash": 3527718461,
+          "guide_text_hash": 731610398,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307306",
+          "sequence": 7,
+          "step_text_hash": 3448205445,
+          "guide_text_hash": 575852118,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307307",
+          "sequence": 8,
+          "step_text_hash": 3217075109,
+          "guide_text_hash": 2948380582,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307308",
+          "sequence": 9,
+          "step_text_hash": 3086937229,
+          "guide_text_hash": 3411526014,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307310",
+          "sequence": 10,
+          "step_text_hash": 3773145173,
+          "guide_text_hash": 3492980622,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307311",
+          "sequence": 11,
+          "step_text_hash": 2756189965,
+          "guide_text_hash": 1451629102,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307314",
+          "sequence": 12,
+          "step_text_hash": 3639907701,
+          "guide_text_hash": 437212334,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307312",
+          "sequence": 13,
+          "step_text_hash": 3057541781,
+          "guide_text_hash": 3155219470,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307313",
+          "sequence": 14,
+          "step_text_hash": 1429837813,
+          "guide_text_hash": 527631830,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 14
     },
     {
       "id": "quest.world.quest.73074",
@@ -4654,7 +9702,146 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7307405",
+          "sequence": 2,
+          "step_text_hash": 1949347461,
+          "guide_text_hash": 3350267230,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307418",
+          "sequence": 3,
+          "step_text_hash": 10924437,
+          "guide_text_hash": 154172286,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307401",
+          "sequence": 4,
+          "step_text_hash": 4089230365,
+          "guide_text_hash": 3604825742,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307402",
+          "sequence": 5,
+          "step_text_hash": 1626973645,
+          "guide_text_hash": 53167438,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307407",
+          "sequence": 6,
+          "step_text_hash": 750745405,
+          "guide_text_hash": 1968879950,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307403",
+          "sequence": 7,
+          "step_text_hash": 1555348797,
+          "guide_text_hash": 2786175630,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307416",
+          "sequence": 8,
+          "step_text_hash": 2701346661,
+          "guide_text_hash": 3680178342,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307404",
+          "sequence": 9,
+          "step_text_hash": 317378365,
+          "guide_text_hash": 2221832686,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307408",
+          "sequence": 10,
+          "step_text_hash": 2583019773,
+          "guide_text_hash": 2456641238,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307409",
+          "sequence": 11,
+          "step_text_hash": 2442661469,
+          "guide_text_hash": 3936136358,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307410",
+          "sequence": 12,
+          "step_text_hash": 1870314221,
+          "guide_text_hash": 2006275078,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307411",
+          "sequence": 13,
+          "step_text_hash": 997285437,
+          "guide_text_hash": 2068087502,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307415",
+          "sequence": 14,
+          "step_text_hash": 4165100245,
+          "guide_text_hash": 3234494270,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307417",
+          "sequence": 15,
+          "step_text_hash": 1466405517,
+          "guide_text_hash": 2983942326,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307412",
+          "sequence": 16,
+          "step_text_hash": 186603461,
+          "guide_text_hash": 3848327270,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307413",
+          "sequence": 17,
+          "step_text_hash": 728143829,
+          "guide_text_hash": 1736006126,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7307414",
+          "sequence": 18,
+          "step_text_hash": 2606122149,
+          "guide_text_hash": 2204600390,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 17
     },
     {
       "id": "quest.world.quest.73081",
@@ -4682,7 +9869,90 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [
+        {
+          "source_subquest_id": "7308102",
+          "sequence": 1,
+          "step_text_hash": 170401933,
+          "guide_text_hash": 2686070534,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308103",
+          "sequence": 2,
+          "step_text_hash": 1638207917,
+          "guide_text_hash": 1753604638,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308104",
+          "sequence": 3,
+          "step_text_hash": 685077725,
+          "guide_text_hash": 4198103462,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308107",
+          "sequence": 5,
+          "step_text_hash": 86445189,
+          "guide_text_hash": 3663850374,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308106",
+          "sequence": 6,
+          "step_text_hash": 146629517,
+          "guide_text_hash": 1797713974,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308105",
+          "sequence": 7,
+          "step_text_hash": 1770012109,
+          "guide_text_hash": 994342726,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308110",
+          "sequence": 8,
+          "step_text_hash": 683229021,
+          "guide_text_hash": 1013703910,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308101",
+          "sequence": 99,
+          "step_text_hash": 4191471149,
+          "guide_text_hash": 1004759798,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308108",
+          "sequence": 99,
+          "step_text_hash": 3683809997,
+          "guide_text_hash": 2641323246,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "7308109",
+          "sequence": 99,
+          "step_text_hash": 2252622717,
+          "guide_text_hash": 667254110,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 10
     },
     {
       "id": "quest.world.quest.74166",
@@ -4710,7 +9980,9 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [],
+      "subquest_count": 0
     },
     {
       "id": "quest.world.quest.75000",
@@ -4738,7 +10010,9 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [],
+      "subquest_count": 0
     },
     {
       "id": "quest.world.quest.77115",
@@ -4766,7 +10040,9 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين.",
+      "subquests": [],
+      "subquest_count": 0
     }
   ]
 }
