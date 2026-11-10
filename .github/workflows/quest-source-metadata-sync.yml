@@ -15,6 +15,7 @@ permissions:
 jobs:
   sync-quest-source-metadata:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Check out catalog branch
         uses: actions/checkout@v4
@@ -25,7 +26,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Resolve only requested quest IDs
+      - name: Expand and resolve the complete AQ/WQ source roster
         run: python scripts/sync_quest_source_metadata.py
       - name: Commit metadata when changed
         run: |
@@ -36,5 +37,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add localization/ar/quests_archon.json localization/ar/quests_world.json
-          git commit -m "Resolve quest source text hashes by ID"
+          git commit -m "Import complete AQ/WQ source roster and metadata"
           git push origin HEAD:arabic-localization-catalog
