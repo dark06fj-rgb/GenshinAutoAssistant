@@ -216,6 +216,24 @@ class Validator:
                         f"elemental term {term!r} in description_ar"
                     )
 
+    def check_talent_review_notes(self) -> None:
+        """Reject stale editorial notes that contradict populated Arabic summaries."""
+        talents = self.data.get("talents.json", {}).get("entries", [])
+        stale_marker = "الوصف لم يُترجم بعد"
+        for talent in talents:
+            if not isinstance(talent, dict):
+                continue
+            notes = talent.get("review_notes")
+            summary = talent.get("description_ar")
+            if (
+                isinstance(notes, str) and stale_marker in notes
+                and isinstance(summary, str) and summary.strip()
+            ):
+                self.error(
+                    f"talents.json: {talent.get('id', 'no id')} has a stale review note "
+                    "claiming its populated Arabic summary is not translated"
+                )
+
     def check_talent_references(self) -> None:
         characters = self.data.get("characters.json", {}).get("entries", [])
         talents = self.data.get("talents.json", {}).get("entries", [])
@@ -427,6 +445,7 @@ class Validator:
         if "characters.json" in self.data and "talents.json" in self.data:
             self.check_talent_references()
             self.check_talent_elemental_terminology()
+            self.check_talent_review_notes()
             self.check_traveler_talent_sets()
             self.check_character_talent_sets()
         self.check_global_ids()
