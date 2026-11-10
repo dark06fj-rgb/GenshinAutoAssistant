@@ -72,8 +72,12 @@ drafts or `needs_context`; they are not official translations.
 
 ## Scheduled DeepSeek quest-summary drafts
 
-The `.github/workflows/deepseek-quest-summary-drafts.yml` workflow can be started
-manually from the Actions tab and also runs daily at 03:15 UTC. It checks out
+The `.github/workflows/deepseek-quest-summary-drafts.yml` workflow is staged on
+`gemini-arabic-work`. GitHub activates scheduled and manual workflow triggers
+only after the workflow file is present on the repository's default branch; a
+one-file draft PR (`enable-deepseek-automation` to `main`) is provided for that
+purpose. Until that PR is merged, no background run is active. Once merged, it
+runs daily at 03:15 UTC and can be started manually from the Actions tab. It checks out
 only `gemini-arabic-work`, drafts at most 15 summaries per run, validates the
 catalog, and pushes changes only to that work branch.
 
