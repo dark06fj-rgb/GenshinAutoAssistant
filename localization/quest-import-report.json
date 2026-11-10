@@ -100,8 +100,9 @@
   "arabic_title_coverage": {
     "archon_act": 51,
     "archon_quest": 208,
+    "world_chapter": 67,
     "world_series": 90,
-    "world_quest": 1230
+    "world_quest": 1318
   },
   "cycle_prerequisite_edges_dropped": 4,
   "catalog_counts": {
