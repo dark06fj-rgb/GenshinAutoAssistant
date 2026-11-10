@@ -8,6 +8,10 @@ on:
       - main
       - arabic-localization-catalog
 
+concurrency:
+  group: genshin-apk-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -1290,7 +1294,7 @@ jobs:
           PY
 
       - name: Build APK
-        run: gradle --no-daemon assembleDebug --stacktrace
+        run: gradle --no-daemon assembleDebug --stacktrace --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
