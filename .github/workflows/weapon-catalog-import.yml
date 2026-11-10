@@ -1,0 +1,38 @@
+name: Import weapon catalog
+
+on:
+  push:
+    paths:
+      - "scripts/import_weapon_catalog.py"
+      - ".github/workflows/weapon-catalog-import.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-weapons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out catalog branch
+        uses: actions/checkout@v4
+        with:
+          ref: arabic-localization-catalog
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Import public weapon metadata
+        run: python scripts/import_weapon_catalog.py
+      - name: Commit catalog update when changed
+        run: |
+          if git diff --quiet -- localization/ar/weapons.json; then
+            echo "Weapon catalog is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add localization/ar/weapons.json
+          git commit -m "Sync public weapon metadata"
+          git push origin HEAD:arabic-localization-catalog
