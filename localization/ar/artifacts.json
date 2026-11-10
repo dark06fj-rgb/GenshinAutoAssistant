@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "catalog_type": "artifacts",
+  "game_version": null,
+  "entries": [
+    {
+      "id": "artifact.blizzard_strayer",
+      "category": "artifact",
+      "source_name": "Blizzard Strayer",
+      "arabic_name": "ظلّف الثلج",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+    },
+    {
+      "id": "artifact.bloodstained_chivalry",
+      "category": "artifact",
+      "source_name": "Bloodstained Chivalry",
+      "arabic_name": "فروسية الدم",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+    },
+    {
+      "id": "artifact.crimson_witch_of_flames",
+      "category": "artifact",
+      "source_name": "Crimson Witch of Flames",
+      "arabic_name": "ساحرة اللهب القرمزي",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+    },
+    {
+      "id": "artifact.gladiators_finale",
+      "category": "artifact",
+      "source_name": "Gladiator's Finale",
+      "arabic_name": "ختام المصارع",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+    },
+    {
+      "id": "artifact.noblesse_oblige",
+      "category": "artifact",
+      "source_name": "Noblesse Oblige",
+      "arabic_name": "واجب النبلاء",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+    },
+    {
+      "id": "artifact.wanderers_troupe",
+      "category": "artifact",
+      "source_name": "Wanderer's Troupe",
+      "arabic_name": "فرقة المتجولين",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+    }
+  ]
+}
