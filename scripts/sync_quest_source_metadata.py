@@ -67,6 +67,14 @@ def fetch_individual_quest(quest_id: str) -> dict:
     metadata_source = dict(raw)
     if isinstance(excel, dict):
         metadata_source.update(excel)
+    meta = payload.get("meta")
+    if not isinstance(meta, dict):
+        meta = {}
+    source_type = (
+        meta.get("questType")
+        or metadata_source.get("type")
+        or payload.get("type")
+    )
     metadata = {}
     for key in (
         "chapterId", "series", "type", "mainQuestTag",
@@ -75,7 +83,9 @@ def fetch_individual_quest(quest_id: str) -> dict:
         value = metadata_source.get(key)
         if value is not None and value != 0 and value != []:
             metadata[key] = value
-    quest_tag = str(metadata.get("mainQuestTag", metadata.get("type", "")))
+    if source_type:
+        metadata["questType"] = source_type
+    quest_tag = str(source_type or "")
     return {
         "title": title.strip(),
         "hashes": {"title": title_hash, "description": desc_hash},
@@ -198,6 +208,12 @@ def main() -> int:
                 )
                 continue
             if catalog_type == "world":
+                if source["quest_tag"] != "WQ":
+                    errors.append(
+                        f"World quest {quest_id}: source questType is not WQ "
+                        f"({source['quest_tag']!r})"
+                    )
+                    continue
                 old_id = entry.get("id")
                 entry["id"] = f"quest.world.quest.{quest_id}"
                 entry["node_type"] = "quest"
@@ -209,6 +225,12 @@ def main() -> int:
                 if series_id:
                     entry["series_id"] = str(series_id)
             else:
+                if source["quest_tag"] != "AQ":
+                    errors.append(
+                        f"Archon quest {quest_id}: source questType is not AQ "
+                        f"({source['quest_tag']!r})"
+                    )
+                    continue
                 old_id = entry.get("id")
             entry["source_text_map_hashes"] = source["hashes"]
             entry["source_main_quest_metadata"] = source["metadata"]
