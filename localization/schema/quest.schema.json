@@ -7,6 +7,8 @@
     "id",
     "category",
     "quest_type",
+    "node_type",
+    "source_quest_id",
     "source_name",
     "arabic_name",
     "translation_status",
@@ -25,6 +27,18 @@
         "archon",
         "world"
       ]
+    },
+    "node_type": {
+      "enum": [
+        "chapter",
+        "act",
+        "series",
+        "quest"
+      ]
+    },
+    "source_quest_id": {
+      "type": "string",
+      "minLength": 1
     },
     "source_name": {
       "type": "string",
