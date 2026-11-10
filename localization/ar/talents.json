@@ -14,7 +14,7 @@
       "source_name": "Favonius Bladework - Weiss",
       "arabic_name": "فن المبارزة الفافوني: فايس",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -140,7 +140,7 @@
       "source_name": "Whisper of Water",
       "arabic_name": "همس الماء",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة هجمات مائية، ويمكنها شحن هجوم مائي واسع أو تنفيذ ضربة غطس.",
+      "description_ar": "تنفذ سلسلة هجمات مائية، ويمكنها شحن هجوم مائي واسع أو تنفيذ هجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -203,7 +203,7 @@
       "source_name": "Tempered Sword",
       "arabic_name": "السيف المصقول",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات بالسيف العظيم، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات بالسيف العظيم، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -266,7 +266,7 @@
       "source_name": "Favonius Bladework",
       "arabic_name": "فن المبارزة الفافوني",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -329,7 +329,7 @@
       "source_name": "Yunlai Swordsmanship",
       "arabic_name": "فن مبارزة يونلاي",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -455,7 +455,7 @@
       "source_name": "Favonius Bladework - Maid",
       "arabic_name": "فن المبارزة الفافوني: الخادمة",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف العظيم، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف العظيم، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -518,7 +518,7 @@
       "source_name": "Ancient Sword Art",
       "arabic_name": "فن السيف القديم",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -581,7 +581,7 @@
       "source_name": "Dough-Fu",
       "arabic_name": "فن العجين القتالي",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -707,7 +707,7 @@
       "source_name": "Ceremonial Bladework",
       "arabic_name": "فن المبارزة الاحتفالي",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة من ضربات السيف، مع هجوم مشحون وضربة غطس من الجو.",
+      "description_ar": "ينفذ سلسلة من ضربات السيف، مع هجوم مشحون وهجوم غطس من الجو.",
       "source": [
         {
           "name": "genshin-db",
@@ -770,7 +770,7 @@
       "source_name": "Dawnstar Piercer",
       "arabic_name": "ثاقبة نجمة الفجر",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة من ضربات الرمح، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ سلسلة من ضربات الرمح، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1211,7 +1211,7 @@
       "source_name": "Akara",
       "arabic_name": "أكارا",
       "description_source": null,
-      "description_ar": "تنفذ هجمات نباتية متتابعة، مع هجوم مشحون وضربة غطس تسبب ضرراً من عنصر دندرو ضمن نطاق.",
+      "description_ar": "تنفذ هجمات نباتية متتابعة، مع هجوم مشحون وهجوم غطس تسبب ضرراً من عنصر دندرو ضمن نطاق.",
       "source": [
         {
           "name": "genshin-db",
@@ -1400,7 +1400,7 @@
       "source_name": "Origin",
       "arabic_name": "الأصل",
       "description_source": null,
-      "description_ar": "تنفذ ضربات متتابعة بالرمح، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ ضربات متتابعة بالرمح، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1484,7 +1484,7 @@
       "source_name": "Chihayaburu",
       "arabic_name": "تشيهايابورو",
       "description_source": null,
-      "description_ar": "يسحب الأعداء والأشياء نحوه ثم يقذفهم في الهواء، ويرتفع مع تيار هوائي يتيح تنفيذ ضربة غطس خاصة.",
+      "description_ar": "يسحب الأعداء والأشياء نحوه ثم يقذفهم في الهواء، ويرتفع مع تيار هوائي يتيح تنفيذ هجوم غطس خاصة.",
       "source": [
         {
           "name": "genshin-db",
@@ -1589,7 +1589,7 @@
       "source_name": "Secret Spear of Wangsheng",
       "arabic_name": "رمح سري: وانغشينغ",
       "description_source": null,
-      "description_ar": "تنفذ ضربات رمحية متتابعة، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ ضربات رمحية متتابعة، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1652,7 +1652,7 @@
       "source_name": "Whirlwind Thrust",
       "arabic_name": "دفع الرياح",
       "description_source": null,
-      "description_ar": "ينفذ ضربات رمحية سريعة وهجوماً مشحوناً وضربة غطس.",
+      "description_ar": "ينفذ ضربات رمحية سريعة وهجوماً مشحوناً وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1778,7 +1778,7 @@
       "source_name": "Kamisato Art: Kabuki",
       "arabic_name": "فن كاميساتو: نانامي",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون متعدد الضربات وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون متعدد الضربات وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1797,7 +1797,7 @@
       "character_name_ar": "كاميساتو أياكا",
       "talent_type": "skill",
       "source_name": "Kamisato Art: Hyouka",
-      "arabic_name": "فن كاميساتو: كيوكا",
+      "arabic_name": "فن كاميساتو: هيوكا",
       "description_source": null,
       "description_ar": "تستحضر زهرة جليدية حولها تقذف الأعداء وتسبب ضرراً من عنصر كرايو ضمن نطاق.",
       "source": [
@@ -1841,7 +1841,7 @@
       "source_name": "Kaboom!",
       "arabic_name": "تفجير-تفجير",
       "description_source": null,
-      "description_ar": "ترمي قنابل متفجرة تسبب ضرراً من عنصر بايرو، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ترمي قنابل متفجرة تسبب ضرراً من عنصر بايرو، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1967,7 +1967,7 @@
       "source_name": "Flames Weave Life",
       "arabic_name": "لهب الحياة",
       "description_source": null,
-      "description_ar": "تنفذ ضربات متتابعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ ضربات متتابعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -2030,7 +2030,7 @@
       "source_name": "Bish-Bash-Bosh Repair",
       "arabic_name": "تقنية المطرقة: الضربة المائية",
       "description_source": null,
-      "description_ar": "تستخدم مطرقتها في سلسلة ضربات، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تستخدم مطرقتها في سلسلة ضربات، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -2219,7 +2219,7 @@
       "source_name": "Skirmishing Spear",
       "arabic_name": "أسلوب الحارس",
       "description_source": null,
-      "description_ar": "ينفذ ضربات متتابعة بسلاحه، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ ضربات متتابعة بسلاحه، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -2345,7 +2345,7 @@
       "source_name": "The Classics of Acupuncture",
       "arabic_name": "الوخز الكلاسيكي الذهبي",
       "description_source": null,
-      "description_ar": "ينفذ ضربات متتابعة بمحفز، مع هجوم مشحون وضربة غطس تسبب ضرراً من عنصر دندرو.",
+      "description_ar": "ينفذ ضربات متتابعة بمحفز، مع هجوم مشحون وهجوم غطس تسبب ضرراً من عنصر دندرو.",
       "source": [
         {
           "name": "genshin-db",
@@ -2408,7 +2408,7 @@
       "source_name": "Oceanborne",
       "arabic_name": "مجد البحر",
       "description_source": null,
-      "description_ar": "تنفذ ضربات متتابعة بالسيف العظيم، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ ضربات متتابعة بالسيف العظيم، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -2471,7 +2471,7 @@
       "source_name": "Strike of Fortune",
       "arabic_name": "ضربة الحظ",
       "description_source": null,
-      "description_ar": "ينفذ ضربات متتابعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ ضربات متتابعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -2534,7 +2534,7 @@
       "source_name": "Gleaming Spear - Guardian Stance",
       "arabic_name": "رمح الحارس: الموقف المتلألئ",
       "description_source": null,
-      "description_ar": "تنفذ ضربات رمحية متتابعة، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تنفذ ضربات رمحية متتابعة، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -5684,7 +5684,7 @@
       "source_name": "Badaboom! Hexbuster Hammer",
       "arabic_name": "بادابوم! مطرقة صائدة الساحرات",
       "description_source": null,
-      "description_ar": "تضرب برون بمطرقة العهد ضربات هوائية متتابعة، مع ضربة مشحونة صاعدة وهجوم غطس.",
+      "description_ar": "تضرب برون بمطرقة العهد ضربات هوائية متتابعة، مع هجوم مشحون صاعدة وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -6629,7 +6629,7 @@
       "source_name": "Dance on Fire",
       "arabic_name": "رقصة النار",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف العظيم، مع هجمات مشحونة دورانية وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف العظيم، مع هجمات مشحونة دورانية وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -6692,7 +6692,7 @@
       "source_name": "Spiritfox Sin-Eater",
       "arabic_name": "ملتهمة أرواح الثعالب",
       "description_source": null,
-      "description_ar": "تستدعي أرواح كيتسوني لتنفيذ هجمات كهربائية متتابعة، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تستدعي أرواح كيتسوني لتنفيذ هجمات كهربائية متتابعة، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -6818,7 +6818,7 @@
       "source_name": "Toss 'N' Turn Spear",
       "arabic_name": "رمح الرمي والدوران",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون اندفاعي وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون اندفاعي وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -6944,7 +6944,7 @@
       "source_name": "Cloud-Grazing Strike",
       "arabic_name": "ضربة ملامسة السحاب",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون اندفاعي وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع هجوم مشحون اندفاعي وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7007,7 +7007,7 @@
       "source_name": "Golden Blade's Petaled Touch",
       "arabic_name": "لمسة نصل الذهب المزهرة",
       "description_source": null,
-      "description_ar": "تنفذ ضربات سريعة بالسيف، مع هجوم مشحون من ضربتين وضربة غطس.",
+      "description_ar": "تنفذ ضربات سريعة بالسيف، مع هجوم مشحون من ضربتين وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7133,7 +7133,7 @@
       "source_name": "Snow Swan Variation",
       "arabic_name": "تنويعة البجعة الثلجية",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع ضربة مشحونة وضربة غطس تسبب ضرراً عند الهبوط.",
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون وهجوم غطس تسبب ضرراً عند الهبوط.",
       "source": [
         {
           "name": "genshin-db",
@@ -7196,7 +7196,7 @@
       "source_name": "Vila Blade Dance",
       "arabic_name": "رقصة نصل الفيلا",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات متتابعة، مع هجوم مشحون يهاجم الخصوم أمامها وضربة غطس.",
+      "description_ar": "تنفذ سلسلة ضربات متتابعة، مع هجوم مشحون يهاجم الخصوم أمامها وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7259,7 +7259,7 @@
       "source_name": "Psyshkhwe Arietta",
       "arabic_name": "أرييتا بسيشخوي",
       "description_source": null,
-      "description_ar": "تؤدي أنشودة مائية قديمة عبر سلسلة هجمات تسبب ضرر هايدرو، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "تؤدي أنشودة مائية قديمة عبر سلسلة هجمات تسبب ضرر هايدرو، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7322,7 +7322,7 @@
       "source_name": "Pocztowy Demonspear",
       "arabic_name": "رمح الشيطان البريدي",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات بالرمح، مع هجوم مشحون يرمي الرمح إلى الأمام وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات بالرمح، مع هجوم مشحون يرمي الرمح إلى الأمام وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7385,7 +7385,7 @@
       "source_name": "Radiant Wingslash",
       "arabic_name": "ضربة الجناح المتألق",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7448,7 +7448,7 @@
       "source_name": "Favonius Bladework: Dancing Radiance",
       "arabic_name": "فن نصل فافونيوس: الإشراق الراقص",
       "description_source": null,
-      "description_ar": "يستخدم سيفين عظيمين لتنفيذ سلسلة ضربات مستوحاة من رقصة فرسان قديمة، مع اندفاع مشحون وضربة غطس.",
+      "description_ar": "يستخدم سيفين عظيمين لتنفيذ سلسلة ضربات مستوحاة من رقصة فرسان قديمة، مع اندفاع مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7511,7 +7511,7 @@
       "source_name": "Nightsun Style",
       "arabic_name": "أسلوب شمس الليل",
       "description_source": null,
-      "description_ar": "ينفذ ضربات سريعة، ويمكنه تنفيذ هجوم عادي في الهواء بعد التأرجح بمهارته؛ كما يملك هجوماً مشحوناً وضربة غطس.",
+      "description_ar": "ينفذ ضربات سريعة، ويمكنه تنفيذ هجوم عادي في الهواء بعد التأرجح بمهارته؛ كما يملك هجوماً مشحوناً وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7574,7 +7574,7 @@
       "source_name": "Targeted Treatment",
       "arabic_name": "علاج موجّه",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة هجمات، ويمكنها شحن سهم مائي لإطلاق فقاعات صغيرة بطيئة نحو الهدف، إضافة إلى ضربة غطس.",
+      "description_ar": "تنفذ سلسلة هجمات، ويمكنها شحن سهم مائي لإطلاق فقاعات صغيرة بطيئة نحو الهدف، إضافة إلى هجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7701,7 +7701,7 @@
       "source_name": "Foreign Ironwind",
       "arabic_name": "الريح الحديدية الغريبة",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7767,7 +7767,7 @@
       "source_name": "Foreign Rockblade",
       "arabic_name": "النصل الصخري الغريب",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7833,7 +7833,7 @@
       "source_name": "Foreign Thundershock",
       "arabic_name": "الصدمة الرعدية الغريبة",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7899,7 +7899,7 @@
       "source_name": "Foreign Fieldcleaver",
       "arabic_name": "قاطع الحقول الغريب",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -7965,7 +7965,7 @@
       "source_name": "Foreign Stream",
       "arabic_name": "التيار الغريب",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -8031,7 +8031,7 @@
       "source_name": "Foreign Blaze",
       "arabic_name": "اللهيب الغريب",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -8097,7 +8097,7 @@
       "source_name": "Foreign Frostglint",
       "arabic_name": "البريق الصقيعي الغريب",
       "description_source": null,
-      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وهجوم غطس.",
       "source": [
         {
           "name": "genshin-db",
