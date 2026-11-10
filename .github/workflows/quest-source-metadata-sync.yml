@@ -10,6 +10,10 @@ on:
       - "localization/quest-title-translations.json"
   workflow_dispatch:
 
+concurrency:
+  group: quest-source-sync-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
