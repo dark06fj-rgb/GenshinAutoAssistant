@@ -9,7 +9,6 @@
       "category": "weapon",
       "source_name": "Dull Blade",
       "arabic_name": "النصل الباهت",
-      "element": "Sword",
       "rarity": 1,
       "source": [
         {
@@ -24,14 +23,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "weapon_type": "Sword"
     },
     {
       "id": "weapon.silver_sword",
       "category": "weapon",
       "source_name": "Silver Sword",
       "arabic_name": "السيف الفضي",
-      "element": "Sword",
       "rarity": 2,
       "source": [
         {
@@ -46,14 +45,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "weapon_type": "Sword"
     },
     {
       "id": "weapon.cool_steel",
       "category": "weapon",
       "source_name": "Cool Steel",
       "arabic_name": "الفولاذ البارد",
-      "element": "Sword",
       "rarity": 3,
       "source": [
         {
@@ -68,14 +67,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "weapon_type": "Sword"
     },
     {
       "id": "weapon.harbringer_of_dawn",
       "category": "weapon",
       "source_name": "Harbinger of Dawn",
       "arabic_name": "نذير الفجر",
-      "element": "Sword",
       "rarity": 3,
       "source": [
         {
@@ -90,14 +89,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "weapon_type": "Sword"
     },
     {
       "id": "weapon.prototype_rancour",
       "category": "weapon",
       "source_name": "Prototype Rancour",
       "arabic_name": "نموذج الرعونة",
-      "element": "Sword",
       "rarity": 4,
       "source": [
         {
@@ -112,7 +111,8 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "weapon_type": "Sword"
     }
   ]
 }
