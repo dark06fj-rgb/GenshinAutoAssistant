@@ -8,6 +8,10 @@ on:
       - main
       - experiment/resource-detector-test
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -92,6 +96,7 @@ jobs:
           dependencies {
               implementation 'com.google.mlkit:text-recognition:16.0.1'
               implementation 'com.google.mlkit:translate:17.0.3'
+              implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.20.0'
           }
           EOF
 
@@ -148,6 +153,7 @@ jobs:
           import android.app.AlertDialog;
           import android.os.Bundle;
           import android.graphics.Color;
+          import android.graphics.Bitmap;
           import android.graphics.Typeface;
           import android.view.Gravity;
           import android.text.Editable;
@@ -194,6 +200,11 @@ jobs:
           import com.google.mlkit.vision.text.TextRecognition;
           import com.google.mlkit.vision.text.TextRecognizer;
           import com.google.mlkit.vision.text.latin.TextRecognizerOptions;
+          import ai.onnxruntime.*;
+          import java.nio.ByteBuffer;
+          import java.nio.ByteOrder;
+          import java.util.concurrent.ExecutorService;
+          import java.util.concurrent.Executors;
           
           public class MainActivity extends Activity {
               static final int PICK_ACHIEVEMENT_IMAGE=501;
@@ -235,6 +246,15 @@ jobs:
               long lastOcrUiUpdate=0;
               final LinkedHashSet<String> liveNames=new LinkedHashSet<>();
               final LinkedHashMap<String,TextView> resourceMarkers=new LinkedHashMap<>();
+              final LinkedHashMap<String,TextView> visualResourceMarkers=new LinkedHashMap<>();
+              OrtEnvironment detectorEnvironment; OrtSession detectorSession; ExecutorService detectorExecutor;
+              final AtomicBoolean detectorBusy=new AtomicBoolean(false); int visualFrameSkip=0;
+              static final int DETECTOR_SIZE=512;
+              static final String[] DETECTOR_CLASSES={"berry","crystalfly","dandelion","mint","mushroom","sweet_flower","crystal_chunk","small_lamp_grass","white_iron_chunk","iron_ore","pinecone","valberry","wolfhook"};
+              static class VisualDetection {
+                  String name; float confidence,x1,y1,x2,y2;
+                  VisualDetection(String n,float c,float a,float b,float d,float e){name=n;confidence=c;x1=a;y1=b;x2=d;y2=e;}
+              }
               LinearLayout root, content, nav;
               SharedPreferences prefs;
               final String[] characters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
@@ -781,6 +801,80 @@ jobs:
                   if(item.contains("flower") || item.contains("aster") || item.contains("cecilia") || item.contains("qingxin")) return "🌸";
                   return "🌿";
               }
+              void initializeVisualDetector() {
+                  try {
+                      File modelFile=new File(getCacheDir(),"genshin-resource-detector.onnx");
+                      try(InputStream in=getAssets().open("best.onnx");FileOutputStream out=new FileOutputStream(modelFile)){
+                          byte[] b=new byte[1024*1024];int n;while((n=in.read(b))!=-1)out.write(b,0,n);
+                      }
+                      detectorEnvironment=OrtEnvironment.getEnvironment();
+                      OrtSession.SessionOptions options=new OrtSession.SessionOptions();
+                      options.setOptimizationLevel(OrtSession.SessionOptions.OptLevel.ALL_OPT);
+                      options.setIntraOpNumThreads(2);
+                      detectorSession=detectorEnvironment.createSession(modelFile.getAbsolutePath(),options);options.close();
+                      detectorExecutor=Executors.newSingleThreadExecutor();
+                      updateOverlay("الكاشف البصري جاهز ✓");
+                  }catch(Exception e){android.util.Log.e("GenshinAssistant","Detector init failed",e);updateOverlay("تعذر تشغيل الكاشف البصري: "+e.getClass().getSimpleName());}
+              }
+              Bitmap imageToBitmap(Image image){
+                  Image.Plane p=image.getPlanes()[0];ByteBuffer b=p.getBuffer();int w=image.getWidth(),h=image.getHeight(),ps=p.getPixelStride(),rs=p.getRowStride();
+                  Bitmap bitmap=Bitmap.createBitmap(w,h,Bitmap.Config.ARGB_8888);int[] pixels=new int[w*h];
+                  for(int y=0;y<h;y++)for(int x=0;x<w;x++){int o=y*rs+x*ps;pixels[y*w+x]=Color.argb(b.get(o+3)&255,b.get(o)&255,b.get(o+1)&255,b.get(o+2)&255);}
+                  bitmap.setPixels(pixels,0,w,0,0,w,h);return bitmap;
+              }
+              void scheduleVisualDetection(Bitmap source){
+                  if(source==null)return;
+                  if(detectorSession==null||detectorExecutor==null||!detectorBusy.compareAndSet(false,true)){source.recycle();return;}
+                  detectorExecutor.execute(()->{try{List<VisualDetection> ds=runVisualInference(source);int w=source.getWidth(),h=source.getHeight();runOnUiThread(()->renderVisualDetections(ds,w,h));}
+                      catch(Exception e){android.util.Log.e("GenshinAssistant","Detector inference failed",e);runOnUiThread(()->{if(liveScanStatus!=null)liveScanStatus.setText("خطأ الكاشف: "+e.getClass().getSimpleName());});}
+                      finally{source.recycle();detectorBusy.set(false);}});
+              }
+              List<VisualDetection> runVisualInference(Bitmap source)throws Exception{
+                  int sw=source.getWidth(),sh=source.getHeight();float scale=Math.min(512f/sw,512f/sh);
+                  int rw=Math.round(sw*scale),rh=Math.round(sh*scale),px=(512-rw)/2,py=(512-rh)/2;
+                  Bitmap input=Bitmap.createBitmap(512,512,Bitmap.Config.ARGB_8888);android.graphics.Canvas canvas=new android.graphics.Canvas(input);
+                  canvas.drawColor(Color.rgb(114,114,114));canvas.drawBitmap(source,null,new android.graphics.Rect(px,py,px+rw,py+rh),new android.graphics.Paint(android.graphics.Paint.FILTER_BITMAP_FLAG));
+                  int[] pix=new int[512*512];input.getPixels(pix,0,512,0,0,512,512);input.recycle();
+                  ByteBuffer data=ByteBuffer.allocateDirect(3*512*512*4).order(ByteOrder.nativeOrder());int plane=512*512;
+                  for(int i=0;i<plane;i++){int v=pix[i];data.putFloat(i*4,((v>>16)&255)/255f);data.putFloat((plane+i)*4,((v>>8)&255)/255f);data.putFloat((2*plane+i)*4,(v&255)/255f);}data.rewind();
+                  String inputName=detectorSession.getInputNames().iterator().next();
+                  try(OnnxTensor tensor=OnnxTensor.createTensor(detectorEnvironment,data,new long[]{1,3,512,512});OrtSession.Result result=detectorSession.run(Collections.singletonMap(inputName,tensor))){
+                      float[][][] out=(float[][][])result.get(0).getValue();if(out.length==0||out[0].length<17)return Collections.emptyList();
+                      ArrayList<VisualDetection> raw=new ArrayList<>();
+                      for(int i=0;i<out[0][0].length;i++){
+                          int cls=-1;float conf=0;for(int k=0;k<13;k++)if(out[0][4+k][i]>conf){conf=out[0][4+k][i];cls=k;}
+                          if(cls<0||conf<0.40f)continue;float cx=out[0][0][i],cy=out[0][1][i],bw=out[0][2][i],bh=out[0][3][i];
+                          float x1=Math.max(0,Math.min(sw,(cx-bw/2-px)/scale)),y1=Math.max(0,Math.min(sh,(cy-bh/2-py)/scale));
+                          float x2=Math.max(0,Math.min(sw,(cx+bw/2-px)/scale)),y2=Math.max(0,Math.min(sh,(cy+bh/2-py)/scale));
+                          if(x2-x1>dp(12)&&y2-y1>dp(12))raw.add(new VisualDetection(DETECTOR_CLASSES[cls],conf,x1,y1,x2,y2));
+                      }
+                      raw.sort((a,b)->Float.compare(b.confidence,a.confidence));ArrayList<VisualDetection> kept=new ArrayList<>();
+                      for(VisualDetection d:raw){boolean dup=false;for(VisualDetection k:kept)if(d.name.equals(k.name)&&iou(d,k)>0.45f){dup=true;break;}if(!dup){kept.add(d);if(kept.size()>=18)break;}}
+                      return kept;
+                  }
+              }
+              float iou(VisualDetection a,VisualDetection b){float l=Math.max(a.x1,b.x1),t=Math.max(a.y1,b.y1),r=Math.min(a.x2,b.x2),bt=Math.min(a.y2,b.y2);
+                  float inter=Math.max(0,r-l)*Math.max(0,bt-t),aa=(a.x2-a.x1)*(a.y2-a.y1),ab=(b.x2-b.x1)*(b.y2-b.y1);return inter/Math.max(1,aa+ab-inter);}
+              String resourceArabic(String n){switch(n){case "mint":return "نعناع";case "sweet_flower":return "زهرة حلوة";case "small_lamp_grass":return "عشب المصباح";
+                  case "crystal_chunk":return "خام كريستالي";case "white_iron_chunk":return "حديد أبيض";case "valberry":return "فال بيري";case "wolfhook":return "وولف هوك";
+                  case "dandelion":return "بذور الهندباء";case "mushroom":return "فطر";case "berry":return "توت";case "crystalfly":return "ذبابة كريستالية";
+                  case "iron_ore":return "خام الحديد";case "pinecone":return "كوز الصنوبر";default:return n.replace('_',' ');}}
+              void renderVisualDetections(List<VisualDetection> ds,int sw,int sh){
+                  if(overlayManager==null||!resourceMarkersEnabled){clearVisualMarkers();return;}HashSet<String> visible=new HashSet<>();int count=0;
+                  for(VisualDetection d:ds){if(count++>=14)break;String key=d.name+"_"+Math.round(d.x1/48)+"_"+Math.round(d.y1/48);visible.add(key);
+                      TextView m=visualResourceMarkers.get(key);if(m==null){m=new TextView(this);m.setGravity(Gravity.CENTER);m.setTextColor(Color.WHITE);m.setTextSize(11);m.setPadding(dp(7),dp(4),dp(7),dp(4));
+                          GradientDrawable bg=new GradientDrawable();bg.setColor(0xE62B5C42);bg.setCornerRadius(dp(9));bg.setStroke(dp(1),0xFFFFD98A);m.setBackground(bg);
+                          int type=Build.VERSION.SDK_INT>=26?WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY:WindowManager.LayoutParams.TYPE_PHONE;
+                          WindowManager.LayoutParams p=new WindowManager.LayoutParams(-2,-2,type,WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE|WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE|WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,PixelFormat.TRANSLUCENT);
+                          p.gravity=Gravity.TOP|Gravity.LEFT;try{overlayManager.addView(m,p);visualResourceMarkers.put(key,m);}catch(Exception e){continue;}}
+                      m.setText("◆ "+resourceArabic(d.name)+" "+Math.round(d.confidence*100)+"%");
+                      try{WindowManager.LayoutParams p=(WindowManager.LayoutParams)m.getLayoutParams();p.x=Math.max(0,Math.min(sw-dp(90),(int)((d.x1+d.x2)/2)-dp(45)));
+                          p.y=Math.max(0,Math.min(sh-dp(45),(int)d.y1-dp(38)));overlayManager.updateViewLayout(m,p);}catch(Exception ignored){}
+                  }
+                  Iterator<Map.Entry<String,TextView>> it=visualResourceMarkers.entrySet().iterator();while(it.hasNext()){Map.Entry<String,TextView> e=it.next();if(!visible.contains(e.getKey())){try{overlayManager.removeView(e.getValue());}catch(Exception ignored){}it.remove();}}
+                  if(liveScanStatus!=null)liveScanStatus.setText("الكاشف البصري يعمل ✓ | موارد مرصودة: "+ds.size());
+              }
+              void clearVisualMarkers(){if(overlayManager!=null)for(TextView m:visualResourceMarkers.values()){try{overlayManager.removeView(m);}catch(Exception ignored){}}visualResourceMarkers.clear();}
               void updateResourceMarkers(List<Text.Line> lines) {
                   if(overlayManager==null) return;
                   if(!resourceMarkersEnabled) { clearResourceMarkers(); return; }
@@ -1011,6 +1105,7 @@ jobs:
                       imageReader=ImageReader.newInstance(width,height,PixelFormat.RGBA_8888,3);
                       liveRecognizer=TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS);
                       setupTranslationOverlay();
+                      initializeVisualDetector();
                       mediaProjection.registerCallback(new MediaProjection.Callback(){@Override public void onStop(){runOnUiThread(()->releaseCapture());}},new Handler(Looper.getMainLooper()));
                       virtualDisplay=mediaProjection.createVirtualDisplay("GenshinAchievementReader",width,height,density,DisplayManager.VIRTUAL_DISPLAY_FLAG_AUTO_MIRROR,imageReader.getSurface(),null,null);
                       imageReader.setOnImageAvailableListener(reader->{
@@ -1018,6 +1113,7 @@ jobs:
                           Image frame=reader.acquireLatestImage();
                           if(frame==null){processingFrame.set(false);return;}
                           try {
+                              if(detectorSession!=null && (++visualFrameSkip%2==0))scheduleVisualDetection(imageToBitmap(frame));
                               InputImage input=InputImage.fromMediaImage(frame,0);
                               liveRecognizer.process(input).addOnSuccessListener(result->{
                                   LinkedHashSet<String> found=new LinkedHashSet<>();
@@ -1090,7 +1186,10 @@ jobs:
                   if(overlayManager!=null) {
                       for(TextView marker:resourceMarkers.values()) { try { overlayManager.removeView(marker); } catch(Exception ignored) {} }
                   }
-                  resourceMarkers.clear(); overlayManager=null;
+                  resourceMarkers.clear();clearVisualMarkers();
+                  if(detectorExecutor!=null){detectorExecutor.shutdownNow();detectorExecutor=null;}
+                  if(detectorSession!=null){try{detectorSession.close();}catch(Exception ignored){}detectorSession=null;}
+                  detectorEnvironment=null;detectorBusy.set(false);visualFrameSkip=0;overlayManager=null;
                   mediaProjection=null;
                   stopProjectionForegroundService();
               }
@@ -1170,6 +1269,22 @@ jobs:
               @Override public IBinder onBind(Intent intent){return binder;}
           }
           EOF
+
+      - name: Download experimental ONNX detector
+        uses: actions/download-artifact@v4
+        with:
+          name: genshin-resource-detector-experimental
+          path: detector_artifact
+          repository: ${{ github.repository }}
+          run-id: 42770088097
+          github-token: ${{ github.token }}
+
+      - name: Install detector model into Android assets
+        run: |
+          mkdir -p app/src/main/assets
+          test -s detector_artifact/genshin_resources/weights/best.onnx
+          cp detector_artifact/genshin_resources/weights/best.onnx app/src/main/assets/best.onnx
+          ls -lh app/src/main/assets/best.onnx
 
       - name: Build APK
         run: gradle --no-daemon assembleDebug
