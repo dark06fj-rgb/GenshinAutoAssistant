@@ -1074,6 +1074,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.arlecchino.talent.normal",
+      "category": "term",
+      "character_id": "character.arlecchino",
+      "character_name": "Arlecchino",
+      "character_name_ar": "أركليكينو",
+      "talent_type": "normal",
+      "source_name": "Invitation to a Beheading",
+      "arabic_name": "دعوة إلى قطع الرأس",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، ويمكن أن تتحول هجماتها إلى ضرر ناري عند تحقق شرط عهد الحياة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/arlecchino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.arlecchino.talent.skill",
+      "category": "term",
+      "character_id": "character.arlecchino",
+      "character_name": "Arlecchino",
+      "character_name_ar": "أركليكينو",
+      "talent_type": "skill",
+      "source_name": "All Is Ash",
+      "arabic_name": "كل شيء رماد",
+      "description_source": null,
+      "description_ar": "تطلق هجوماً نارياً وتضع علامة دين الدم على الأعداء، ويمكن امتصاص العلامات للحصول على عهد الحياة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/arlecchino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.arlecchino.talent.burst",
+      "category": "term",
+      "character_id": "character.arlecchino",
+      "character_name": "Arlecchino",
+      "character_name_ar": "أركليكينو",
+      "talent_type": "burst",
+      "source_name": "Balemoon Rising",
+      "arabic_name": "نهوض القمر الدموي",
+      "description_source": null,
+      "description_ar": "تشن هجوماً نارياً واسعاً، وتمتص علامات دين الدم ثم تستعيد صحتها وتعيد تهيئة مهارتها العنصرية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/arlecchino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.furina.talent.normal",
+      "category": "term",
+      "character_id": "character.furina",
+      "character_name": "Furina",
+      "character_name_ar": "فورينا",
+      "talent_type": "normal",
+      "source_name": "Soloist's Solicitation",
+      "arabic_name": "استدعاء العازفة المنفردة",
+      "description_source": null,
+      "description_ar": "تؤدي ضربات بالسيف، وتبدّل هجماتها المشحونة هيئة الأركيه، مع تأثير مائي دوري وفق الهيئة الحالية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/furina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.furina.talent.skill",
+      "category": "term",
+      "character_id": "character.furina",
+      "character_name": "Furina",
+      "character_name_ar": "فورينا",
+      "talent_type": "skill",
+      "source_name": "Salon Solitaire",
+      "arabic_name": "صالون سوليتير",
+      "description_source": null,
+      "description_ar": "تستدعي أعضاء الصالون لمهاجمة الخصوم أو منشدة المياه لمعالجة الشخصية النشطة، وفق هيئة الأركيه.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/furina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.furina.talent.burst",
+      "category": "term",
+      "character_id": "character.furina",
+      "character_name": "Furina",
+      "character_name_ar": "فورينا",
+      "talent_type": "burst",
+      "source_name": "Let the People Rejoice",
+      "arabic_name": "فلنُبهج الناس",
+      "description_source": null,
+      "description_ar": "تنشئ ساحة احتفال مائية وتجمع نقاط الحماسة عند تغير صحة أعضاء الفريق، لتعزيز ضررهم ومكافأة علاجهم.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/furina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.nahida.talent.normal",
+      "category": "term",
+      "character_id": "character.nahida",
+      "character_name": "Nahida",
+      "character_name_ar": "ناهيدا",
+      "talent_type": "normal",
+      "source_name": "Akara",
+      "arabic_name": "أكارا",
+      "description_source": null,
+      "description_ar": "تنفذ هجمات نباتية متتابعة، مع هجوم مشحون وضربة غطس تسبب ضرراً نباتياً ضمن نطاق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nahida.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.nahida.talent.skill",
+      "category": "term",
+      "character_id": "character.nahida",
+      "character_name": "Nahida",
+      "character_name_ar": "ناهيدا",
+      "talent_type": "skill",
+      "source_name": "All Schemes to Know",
+      "arabic_name": "كل المخططات للمعرفة",
+      "description_source": null,
+      "description_ar": "تربط الأعداء ببذرة سكاندا، وتطلق تطهير التريكارما عليهم عند تحقق شروط التفاعلات أو ضرر النوى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nahida.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.nahida.talent.burst",
+      "category": "term",
+      "character_id": "character.nahida",
+      "character_name": "Nahida",
+      "character_name_ar": "ناهيدا",
+      "talent_type": "burst",
+      "source_name": "Illusory Heart",
+      "arabic_name": "القلب الوهمي",
+      "description_source": null,
+      "description_ar": "تنشئ ضريح مايا وتمنح تأثيرات داعمة لتطهير التريكارما بحسب العناصر الموجودة في الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nahida.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.neuvillette.talent.normal",
+      "category": "term",
+      "character_id": "character.neuvillette",
+      "character_name": "Neuvillette",
+      "character_name_ar": "نيوفيليت",
+      "talent_type": "normal",
+      "source_name": "As Water Seeks Equilibrium",
+      "arabic_name": "مثل الماء الهادئ",
+      "description_source": null,
+      "description_ar": "ينفذ هجمات مائية متتابعة، ويستطيع شحن هجومه لإطلاق شعاع مائي مستمر يستهلك صحته تدريجياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/neuvillette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.neuvillette.talent.skill",
+      "category": "term",
+      "character_id": "character.neuvillette",
+      "character_name": "Neuvillette",
+      "character_name_ar": "نيوفيليت",
+      "talent_type": "skill",
+      "source_name": "O Tears, I Shall Repay",
+      "arabic_name": "يا للدموع، سأردّ",
+      "description_source": null,
+      "description_ar": "ينشئ شلالاً أمامه يسبب ضرراً مائياً ضمن نطاق ويولد قطرات ماء المصدر التي تساعد على شحن هجومه.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/neuvillette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.neuvillette.talent.burst",
+      "category": "term",
+      "character_id": "character.neuvillette",
+      "character_name": "Neuvillette",
+      "character_name_ar": "نيوفيليت",
+      "talent_type": "burst",
+      "source_name": "O Tides, I Have Returned",
+      "arabic_name": "يا للمد والجزر، أعود",
+      "description_source": null,
+      "description_ar": "يطلق موجة مائية واسعة ثم شلالات إضافية، مسبباً ضرراً مائياً ومولداً قطرات ماء المصدر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/neuvillette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.zhongli.talent.normal",
+      "category": "term",
+      "character_id": "character.zhongli",
+      "character_name": "Zhongli",
+      "character_name_ar": "جونغلي",
+      "talent_type": "normal",
+      "source_name": "Rain of Stone",
+      "arabic_name": "مطر الحجر",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات بالرمح، ويمكنه استدعاء رماح حجرية عند الهجوم المشحون.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/zhongli.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.zhongli.talent.skill",
+      "category": "term",
+      "character_id": "character.zhongli",
+      "character_name": "Zhongli",
+      "character_name_ar": "جونغلي",
+      "talent_type": "skill",
+      "source_name": "Dominus Lapidis",
+      "arabic_name": "سيد الأرض",
+      "description_source": null,
+      "description_ar": "يضرب الأرض بطاقة الأرض لإنشاء عمود حجري، أو يشكل درعاً يمتص الضرر ويضعف مقاومة الأعداء القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/zhongli.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.zhongli.talent.burst",
+      "category": "term",
+      "character_id": "character.zhongli",
+      "character_name": "Zhongli",
+      "character_name_ar": "جونغلي",
+      "talent_type": "burst",
+      "source_name": "Planet Befall",
+      "arabic_name": "كوكب يسقط",
+      "description_source": null,
+      "description_ar": "يستدعي نيزكاً يسبب ضرراً جغرافياً واسعاً ويطبق حالة التحجر على الأعداء المصابين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/zhongli.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.raidenshogun.talent.normal",
+      "category": "term",
+      "character_id": "character.raidenshogun",
+      "character_name": "Raiden Shogun",
+      "character_name_ar": "رايدن شوغون",
+      "talent_type": "normal",
+      "source_name": "Origin",
+      "arabic_name": "الأصل",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات متتابعة بالرمح، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/raidenshogun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.raidenshogun.talent.skill",
+      "category": "term",
+      "character_id": "character.raidenshogun",
+      "character_name": "Raiden Shogun",
+      "character_name_ar": "رايدن شوغون",
+      "talent_type": "skill",
+      "source_name": "Transcendence: Baleful Omen",
+      "arabic_name": "التجاوز: النذير المشؤوم",
+      "description_source": null,
+      "description_ar": "تمنح أعضاء الفريق عين الحكم العاصف، التي تنفذ هجمات منسقة وتزيد ضرر انفجاراتهم العنصرية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/raidenshogun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.raidenshogun.talent.burst",
+      "category": "term",
+      "character_id": "character.raidenshogun",
+      "character_name": "Raiden Shogun",
+      "character_name_ar": "رايدن شوغون",
+      "talent_type": "burst",
+      "source_name": "Secret Art: Musou Shinsetsu",
+      "arabic_name": "الفن السري: موسو شينسيتسو",
+      "description_source": null,
+      "description_ar": "تطلق ضربة موسو نو هيتوتاتشي ثم تدخل حالة موسو إيشين، لتعزيز هجماتها واستعادة طاقة أعضاء الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/raidenshogun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.kaedeharakazuha.talent.normal",
+      "category": "term",
+      "character_id": "character.kaedeharakazuha",
+      "character_name": "Kaedehara Kazuha",
+      "character_name_ar": "كايدهارا كازوها",
+      "talent_type": "normal",
+      "source_name": "Garyuu Bladework",
+      "arabic_name": "فن غاريو في المبارزة",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات سريعة بالسيف، ويمكنه تحويل ضربة الغطس إلى ضربة رياح خاصة بعد استخدام مهارته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaedeharakazuha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.kaedeharakazuha.talent.skill",
+      "category": "term",
+      "character_id": "character.kaedeharakazuha",
+      "character_name": "Kaedehara Kazuha",
+      "character_name_ar": "كايدهارا كازوها",
+      "talent_type": "skill",
+      "source_name": "Chihayaburu",
+      "arabic_name": "تشيهايابورو",
+      "description_source": null,
+      "description_ar": "يسحب الأعداء والأشياء نحوه ثم يقذفهم في الهواء، ويرتفع مع تيار هوائي يتيح تنفيذ ضربة غطس خاصة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaedeharakazuha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.kaedeharakazuha.talent.burst",
+      "category": "term",
+      "character_id": "character.kaedeharakazuha",
+      "character_name": "Kaedehara Kazuha",
+      "character_name_ar": "كايدهارا كازوها",
+      "talent_type": "burst",
+      "source_name": "Kazuha Slash",
+      "arabic_name": "ضربة كازوها",
+      "description_source": null,
+      "description_ar": "ينفذ ضربة رياح واسعة ويترك دوامة خريفية تسبب ضرراً دورياً، مع إمكانية امتصاص عنصر مناسب.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaedeharakazuha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.yelan.talent.normal",
+      "category": "term",
+      "character_id": "character.yelan",
+      "character_name": "Yelan",
+      "character_name_ar": "ييلان",
+      "talent_type": "normal",
+      "source_name": "Stealthy Bowshot",
+      "arabic_name": "رماية خفية",
+      "description_source": null,
+      "description_ar": "تطلق سهاماً متتابعة، ويمكنها شحن سهم مائي أو إطلاق شوكة اختراق بعد الابتعاد عن القتال.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yelan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.yelan.talent.skill",
+      "category": "term",
+      "character_id": "character.yelan",
+      "character_name": "Yelan",
+      "character_name_ar": "ييلان",
+      "talent_type": "skill",
+      "source_name": "Lingering Lifeline",
+      "arabic_name": "خيط الحياة المتبقي",
+      "description_source": null,
+      "description_ar": "تتحرك بسرعة بخيط الحياة لتقييد الأعداء ووَسمهم، ثم ينفجر الخيط مسبباً ضرراً مائياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yelan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.yelan.talent.burst",
+      "category": "term",
+      "character_id": "character.yelan",
+      "character_name": "Yelan",
+      "character_name_ar": "ييلان",
+      "talent_type": "burst",
+      "source_name": "Depth-Clarion Dice",
+      "arabic_name": "نرد العمق الواضح",
+      "description_source": null,
+      "description_ar": "تسبب ضرراً مائياً واسعاً وتستدعي رمية فائقة تنفذ هجمات مائية منسقة مع الشخصية النشطة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yelan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
     }
   ]
 }
