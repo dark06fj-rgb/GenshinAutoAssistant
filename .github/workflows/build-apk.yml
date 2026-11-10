@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - arabic-localization-catalog
 
 jobs:
   build:
