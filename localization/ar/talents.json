@@ -1578,6 +1578,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.hutao.talent.normal",
+      "category": "term",
+      "character_id": "character.hutao",
+      "character_name": "Hu Tao",
+      "character_name_ar": "هو تاو",
+      "talent_type": "normal",
+      "source_name": "Secret Spear of Wangsheng",
+      "arabic_name": "رمح سري: وانغشينغ",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات رمحية متتابعة، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/hutao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.hutao.talent.skill",
+      "category": "term",
+      "character_id": "character.hutao",
+      "character_name": "Hu Tao",
+      "character_name_ar": "هو تاو",
+      "talent_type": "skill",
+      "source_name": "Guide to Afterlife",
+      "arabic_name": "دليل الحياة الآخرة",
+      "description_source": null,
+      "description_ar": "تستهلك جزءاً من صحتها للدخول في حالة تعزز هجماتها وتحول ضررها إلى ناري، وتضعف الأعداء بعلامة خاصة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/hutao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.hutao.talent.burst",
+      "category": "term",
+      "character_id": "character.hutao",
+      "character_name": "Hu Tao",
+      "character_name_ar": "هو تاو",
+      "talent_type": "burst",
+      "source_name": "Spirit Soother",
+      "arabic_name": "مهدئة الأرواح",
+      "description_source": null,
+      "description_ar": "تطلق لهباً روحياً ضمن نطاق، مسببة ضرراً نارياً وتستعيد صحتها بحسب عدد الأعداء المصابين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/hutao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.xiao.talent.normal",
+      "category": "term",
+      "character_id": "character.xiao",
+      "character_name": "Xiao",
+      "character_name_ar": "شياو",
+      "talent_type": "normal",
+      "source_name": "Whirlwind Thrust",
+      "arabic_name": "دفع الرياح",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات رمحية سريعة وهجوماً مشحوناً وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xiao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.xiao.talent.skill",
+      "category": "term",
+      "character_id": "character.xiao",
+      "character_name": "Xiao",
+      "character_name_ar": "شياو",
+      "talent_type": "skill",
+      "source_name": "Lemniscatic Wind Cycling",
+      "arabic_name": "دورة ليمانيك: راكب الرياح",
+      "description_source": null,
+      "description_ar": "يندفع إلى الأمام مسبباً ضرراً هوائياً، ويمكن استخدام الاندفاع في الجو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xiao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.xiao.talent.burst",
+      "category": "term",
+      "character_id": "character.xiao",
+      "character_name": "Xiao",
+      "character_name_ar": "شياو",
+      "talent_type": "burst",
+      "source_name": "Bane of All Evil",
+      "arabic_name": "بلاء كل الشرور",
+      "description_source": null,
+      "description_ar": "يرتدي قناع اليكشا لتعزيز قفزاته وهجمات الغطس وتحويل ضررها إلى هوائي، مقابل استنزاف صحته تدريجياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xiao.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.ganyu.talent.normal",
+      "category": "term",
+      "character_id": "character.ganyu",
+      "character_name": "Ganyu",
+      "character_name_ar": "غانيو",
+      "talent_type": "normal",
+      "source_name": "Liutian Archery",
+      "arabic_name": "رماية ليوي",
+      "description_source": null,
+      "description_ar": "تطلق سهاماً متتابعة، ويمكن شحن السهم لإحداث انفجار جليدي واسع.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ganyu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.ganyu.talent.skill",
+      "category": "term",
+      "character_id": "character.ganyu",
+      "character_name": "Ganyu",
+      "character_name_ar": "غانيو",
+      "talent_type": "skill",
+      "source_name": "Trail of the Qilin",
+      "arabic_name": "أثر كيلين",
+      "description_source": null,
+      "description_ar": "تتراجع تاركة زهرة جليدية تجذب الأعداء ثم تنفجر مسببة ضرراً جليدياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ganyu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.ganyu.talent.burst",
+      "category": "term",
+      "character_id": "character.ganyu",
+      "character_name": "Ganyu",
+      "character_name_ar": "غانيو",
+      "talent_type": "burst",
+      "source_name": "Celestial Shower",
+      "arabic_name": "دش سماوي",
+      "description_source": null,
+      "description_ar": "تستدعي لؤلؤة جليدية تمطر شظايا على الأعداء داخل نطاق واسع.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ganyu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.kamisatoayaka.talent.normal",
+      "category": "term",
+      "character_id": "character.kamisatoayaka",
+      "character_name": "Kamisato Ayaka",
+      "character_name_ar": "كاميساتو أياكا",
+      "talent_type": "normal",
+      "source_name": "Kamisato Art: Kabuki",
+      "arabic_name": "فن كاميساتو: نانامي",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع هجوم مشحون متعدد الضربات وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kamisatoayaka.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.kamisatoayaka.talent.skill",
+      "category": "term",
+      "character_id": "character.kamisatoayaka",
+      "character_name": "Kamisato Ayaka",
+      "character_name_ar": "كاميساتو أياكا",
+      "talent_type": "skill",
+      "source_name": "Kamisato Art: Hyouka",
+      "arabic_name": "فن كاميساتو: كيوكا",
+      "description_source": null,
+      "description_ar": "تستحضر زهرة جليدية حولها تقذف الأعداء وتسبب ضرراً جليدياً ضمن نطاق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kamisatoayaka.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.kamisatoayaka.talent.burst",
+      "category": "term",
+      "character_id": "character.kamisatoayaka",
+      "character_name": "Kamisato Ayaka",
+      "character_name_ar": "كاميساتو أياكا",
+      "talent_type": "burst",
+      "source_name": "Kamisato Art: Soumetsu",
+      "arabic_name": "فن كاميساتو: سووميتسو",
+      "description_source": null,
+      "description_ar": "تطلق عاصفة جليدية تتحرك إلى الأمام وتقطع الأعداء بشفرات جليدية قبل أن تنفجر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kamisatoayaka.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.klee.talent.normal",
+      "category": "term",
+      "character_id": "character.klee",
+      "character_name": "Klee",
+      "character_name_ar": "كلي",
+      "talent_type": "normal",
+      "source_name": "Kaboom!",
+      "arabic_name": "تفجير-تفجير",
+      "description_source": null,
+      "description_ar": "ترمي قنابل متفجرة تسبب ضرراً نارياً، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/klee.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.klee.talent.skill",
+      "category": "term",
+      "character_id": "character.klee",
+      "character_name": "Klee",
+      "character_name_ar": "كلي",
+      "talent_type": "skill",
+      "source_name": "Jumpy Dumpty",
+      "arabic_name": "دمية قافزة",
+      "description_source": null,
+      "description_ar": "ترمي دمية قافزة ترتد وتنفجر إلى ألغام صغيرة تشتعل عند ملامسة الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/klee.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.klee.talent.burst",
+      "category": "term",
+      "character_id": "character.klee",
+      "character_name": "Klee",
+      "character_name_ar": "كلي",
+      "talent_type": "burst",
+      "source_name": "Sparks 'n' Splash",
+      "arabic_name": "شرارات ورذاذ",
+      "description_source": null,
+      "description_ar": "تستدعي شرارات متفجرة تهاجم الأعداء القريبين تلقائياً خلال مدة المهارة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/klee.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.venti.talent.normal",
+      "category": "term",
+      "character_id": "character.venti",
+      "character_name": "Venti",
+      "character_name_ar": "فينتي",
+      "talent_type": "normal",
+      "source_name": "Divine Marksmanship",
+      "arabic_name": "الرماية الإلهية",
+      "description_source": null,
+      "description_ar": "يطلق سهاماً متتابعة، ويمكنه شحن سهم رياح يسبب ضرراً هوائياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/venti.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.venti.talent.skill",
+      "category": "term",
+      "character_id": "character.venti",
+      "character_name": "Venti",
+      "character_name_ar": "فينتي",
+      "talent_type": "skill",
+      "source_name": "Skyward Sonnet",
+      "arabic_name": "سونيت السماء",
+      "description_source": null,
+      "description_ar": "يستدعي مجالاً من الرياح يقذف الأعداء أو يرفع فينتي في الهواء بحسب طريقة الاستخدام.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/venti.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.venti.talent.burst",
+      "category": "term",
+      "character_id": "character.venti",
+      "character_name": "Venti",
+      "character_name_ar": "فينتي",
+      "talent_type": "burst",
+      "source_name": "Wind's Grand Ode",
+      "arabic_name": "قصيدة الرياح",
+      "description_source": null,
+      "description_ar": "يطلق سهماً رياحياً يمتص العناصر المناسبة ويسحب الأعداء باستمرار إلى دوامة واسعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/venti.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.mavuika.talent.normal",
+      "category": "term",
+      "character_id": "character.mavuika",
+      "character_name": "Mavuika",
+      "character_name_ar": "مافويكا",
+      "talent_type": "normal",
+      "source_name": "Flames Weave Life",
+      "arabic_name": "لهب الحياة",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات متتابعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mavuika.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.mavuika.talent.skill",
+      "category": "term",
+      "character_id": "character.mavuika",
+      "character_name": "Mavuika",
+      "character_name_ar": "مافويكا",
+      "talent_type": "skill",
+      "source_name": "The Named Moment",
+      "arabic_name": "اسمحوا للشمس أن تحترق",
+      "description_source": null,
+      "description_ar": "تستدعي قوة اللهب وتدخل وضعاً قتالياً يتيح هجمات نارية أو دعماً نارياً مستمراً للفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mavuika.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.mavuika.talent.burst",
+      "category": "term",
+      "character_id": "character.mavuika",
+      "character_name": "Mavuika",
+      "character_name_ar": "مافويكا",
+      "talent_type": "burst",
+      "source_name": "Hour of Burning Skies",
+      "arabic_name": "ساعة السماء المشتعلة",
+      "description_source": null,
+      "description_ar": "تطلق ضربة نارية قوية تعتمد على روح القتال، وتدخل حالة تعزز هجماتها وتمنحها مقاومة للمقاطعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mavuika.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aino.talent.normal",
+      "category": "term",
+      "character_id": "character.aino",
+      "character_name": "Aino",
+      "character_name_ar": "آينو",
+      "talent_type": "normal",
+      "source_name": "Bish-Bash-Bosh Repair",
+      "arabic_name": "تقنية المطرقة: الضربة المائية",
+      "description_source": null,
+      "description_ar": "تستخدم مطرقتها في سلسلة ضربات، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aino.talent.skill",
+      "category": "term",
+      "character_id": "character.aino",
+      "character_name": "Aino",
+      "character_name_ar": "آينو",
+      "talent_type": "skill",
+      "source_name": "Musecatcher",
+      "arabic_name": "تقنية المطرقة: التروس الدوارة",
+      "description_source": null,
+      "description_ar": "تنفذ ضربة مطرقة مائية وتستعين بآلية مائية لمهاجمة الخصوم.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aino.talent.burst",
+      "category": "term",
+      "character_id": "character.aino",
+      "character_name": "Aino",
+      "character_name_ar": "آينو",
+      "talent_type": "burst",
+      "source_name": "Precision Hydronic Cooler",
+      "arabic_name": "تقنية المطرقة: مطرقة الأعماق",
+      "description_source": null,
+      "description_ar": "تطلق هجوماً مائياً قوياً وتستدعي آلية مساعدة تهاجم الأعداء لفترة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
     }
   ]
 }
