@@ -3563,6 +3563,1210 @@
         }
       ],
       "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.quest.71100",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "71100",
+      "source_name": "An Ancient Sacrifice of Sacred Brocade",
+      "arabic_name": "مهمة ان انكيينت ساكريفيكي وف ساكريد بروكادي",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10168",
+      "chapter_id": "10168",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.71103",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "71103",
+      "source_name": "Floating Jade, Treasure of Chenyu",
+      "arabic_name": "مهمة فلواتينغ جادي, ترياسوري وف كهينيو",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10168",
+      "chapter_id": "10168",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73000",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73000",
+      "source_name": "Vimana Agama: First Chapter",
+      "arabic_name": "مهمة ڤيمانا اغاما: فيرست كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73001",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73001",
+      "source_name": "The Children of Vimara Village",
+      "arabic_name": "مهمة تهي كهيلدرين وف ڤيمارا ڤيللاغي",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10073",
+      "chapter_id": "10073",
+      "act_id": null,
+      "series_id": "73001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73002",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73002",
+      "source_name": "Into the Woods",
+      "arabic_name": "مهمة ينتو تهي ووودس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10073",
+      "chapter_id": "10073",
+      "act_id": null,
+      "series_id": "73001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73003",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73003",
+      "source_name": "The Lost Child",
+      "arabic_name": "مهمة تهي لوست كهيلد",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10073",
+      "chapter_id": "10073",
+      "act_id": null,
+      "series_id": "73009",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73013",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73013",
+      "source_name": "A Delicacy for Nara",
+      "arabic_name": "مهمة ا ديليكاكي فور نارا",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10069",
+      "chapter_id": "10069",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73014",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73014",
+      "source_name": "Varuna Gatha",
+      "arabic_name": "مهمة ڤارونا غاتها",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10072",
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": "73014",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73015",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73015",
+      "source_name": "Memory of Stone",
+      "arabic_name": "مهمة ميموري وف ستوني",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10072",
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": "73014",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73016",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73016",
+      "source_name": "Irate Iron Chunk",
+      "arabic_name": "مهمة يراتي يرون كهونك",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10072",
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": "73014",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73017",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73017",
+      "source_name": "Slumbering Roots",
+      "arabic_name": "مهمة سلومبيرينغ رووتس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10072",
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": "73014",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73018",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73018",
+      "source_name": "A Prayer for Rain on the Fecund Land",
+      "arabic_name": "مهمة ا برايير فور راين ون تهي فيكوند لاند",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10072",
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": "73014",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73019",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73019",
+      "source_name": "Cooking, a Pleasant Memory",
+      "arabic_name": "مهمة كووكينغ, ا بلياسانت ميموري",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10069",
+      "chapter_id": "10069",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73020",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73020",
+      "source_name": "Cooking, the Flavor of Nature",
+      "arabic_name": "مهمة كووكينغ, تهي فلاڤور وف ناتوري",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10069",
+      "chapter_id": "10069",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73021",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73021",
+      "source_name": "Cooking, the Aroma of Homecoming",
+      "arabic_name": "مهمة كووكينغ, تهي اروما وف هوميكومينغ",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10069",
+      "chapter_id": "10069",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73022",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73022",
+      "source_name": "Cooking, the Beauty of Sharing",
+      "arabic_name": "مهمة كووكينغ, تهي بياوتي وف سهارينغ",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10069",
+      "chapter_id": "10069",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73025",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73025",
+      "source_name": "The World of Aranara",
+      "arabic_name": "مهمة تهي وورلد وف ارانارا",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73026",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73026",
+      "source_name": "Vimana Agama: Jazari's Chapter",
+      "arabic_name": "مهمة ڤيمانا اغاما: جازاري'س كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": "73026",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73027",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73027",
+      "source_name": "Vimana Agama: Dev Delver Chapter",
+      "arabic_name": "مهمة ڤيمانا اغاما: ديڤ ديلڤير كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": "73026",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73028",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73028",
+      "source_name": "Royinjan's Chapter: Linga",
+      "arabic_name": "مهمة رويينجان'س كهابتير: لينغا",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73029",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73029",
+      "source_name": "Royinjan's Chapter: Yoni",
+      "arabic_name": "مهمة رويينجان'س كهابتير: يوني",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73031",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73031",
+      "source_name": "For A Better Reunion",
+      "arabic_name": "مهمة فور ا بيتتير ريونيون",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73032",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73032",
+      "source_name": "Festival Utsava",
+      "arabic_name": "مهمة فيستيڤال وتساڤا",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": "73032",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73033",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73033",
+      "source_name": "Children of the Forest",
+      "arabic_name": "مهمة كهيلدرين وف تهي فوريست",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73035",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73035",
+      "source_name": "For Fruits, Seeds, and Trees",
+      "arabic_name": "مهمة فور فرويتس, سييدس, اند ترييس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10079",
+      "chapter_id": "10079",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73036",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73036",
+      "source_name": "For the Children of the Past",
+      "arabic_name": "مهمة فور تهي كهيلدرين وف تهي باست",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10079",
+      "chapter_id": "10079",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73037",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73037",
+      "source_name": "For All Children Who Long for Life",
+      "arabic_name": "مهمة فور الل كهيلدرين وهو لونغ فور ليفي",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10079",
+      "chapter_id": "10079",
+      "act_id": null,
+      "series_id": "73037",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73038",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73038",
+      "source_name": "\"Hello,\" \"Thank You,\" and the Final \"Goodbye\"",
+      "arabic_name": "مهمة \"هيللو,\" \"تهانك يوو,\" اند تهي فينال \"غوودبيي\"",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10082",
+      "chapter_id": "10082",
+      "act_id": null,
+      "series_id": "73037",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73039",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73039",
+      "source_name": "Taste of Happiness",
+      "arabic_name": "مهمة تاستي وف هاببينيسس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": "73032",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73040",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73040",
+      "source_name": "Delicious Riddle",
+      "arabic_name": "مهمة ديليكيووس ريددلي",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": "73032",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73041",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73041",
+      "source_name": "Garden Fairies",
+      "arabic_name": "مهمة غاردين فايرييس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": "73032",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73042",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73042",
+      "source_name": "Rishboland Tiger, Roaaar",
+      "arabic_name": "مهمة ريسهبولاند تيغير, روااار",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": "73032",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73061",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73061",
+      "source_name": "Starry Night Chapter",
+      "arabic_name": "مهمة ستارري نيغهت كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10083",
+      "chapter_id": "10083",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73063",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73063",
+      "source_name": "Risen Moon Chapter",
+      "arabic_name": "مهمة ريسين موون كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10083",
+      "chapter_id": "10083",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73066",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73066",
+      "source_name": "The Final Chapter",
+      "arabic_name": "مهمة تهي فينال كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10083",
+      "chapter_id": "10083",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73069",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73069",
+      "source_name": "The Rhythm that Leads to the Gloomy Path",
+      "arabic_name": "مهمة تهي رهيتهم تهات ليادس تو تهي غلوومي باته",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73070",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73070",
+      "source_name": "The Rhythm that Nurtures the Sprout",
+      "arabic_name": "مهمة تهي رهيتهم تهات نورتوريس تهي سبرووت",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73073",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73073",
+      "source_name": "Vimana Agama: Royinjan's Chapter",
+      "arabic_name": "مهمة ڤيمانا اغاما: رويينجان'س كهابتير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73074",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73074",
+      "source_name": "The Rhythm that Reveals the Beastly Trail",
+      "arabic_name": "مهمة تهي رهيتهم تهات ريڤيالس تهي بياستلي ترايل",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.73081",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73081",
+      "source_name": "Encounter in the Woods",
+      "arabic_name": "مهمة ينكوونتير ين تهي ووودس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": "73081",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.74166",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "74166",
+      "source_name": "A Free Lunch",
+      "arabic_name": "مهمة ا فريي لونكه",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10160",
+      "chapter_id": "10160",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.75000",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "75000",
+      "source_name": "Lost in the Woods",
+      "arabic_name": "مهمة لوست ين تهي ووودس",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10203",
+      "chapter_id": "10203",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
+    },
+    {
+      "id": "quest.world.quest.77115",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "77115",
+      "source_name": "A Sprout Without a Gardener",
+      "arabic_name": "مهمة ا سبرووت ويتهووت ا غاردينير",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10255",
+      "chapter_id": "10255",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي مؤقت لعنوان المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، والوصف والحوارات غير مستوردين."
     }
   ]
 }
