@@ -5610,6 +5610,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ororon.talent.normal",
+      "category": "term",
+      "character_id": "character.10000105",
+      "character_name": "Ororon",
+      "character_name_ar": "أورورون",
+      "talent_type": "normal",
+      "source_name": "Spiritvessel Snapshot",
+      "arabic_name": "لقطة وعاء الروح",
+      "description_source": null,
+      "description_ar": "يطلق أورورون سهاماً متتابعة، ويمكنه التصويب المشحون لإطلاق سهم كهربائي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ororon.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ororon.talent.skill",
+      "category": "term",
+      "character_id": "character.10000105",
+      "character_name": "Ororon",
+      "character_name_ar": "أورورون",
+      "talent_type": "skill",
+      "source_name": "Night's Sling",
+      "arabic_name": "مقلاع الليل",
+      "description_source": null,
+      "description_ar": "يقذف أورورون كرة روح كهربائية ترتد بين الأعداء القريبين، ولا تصيب الهدف نفسه أكثر من مرة في الاستخدام الواحد.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ororon.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ororon.talent.burst",
+      "category": "term",
+      "character_id": "character.10000105",
+      "character_name": "Ororon",
+      "character_name_ar": "أورورون",
+      "talent_type": "burst",
+      "source_name": "Dark Voices Echo",
+      "arabic_name": "صدى الأصوات المظلمة",
+      "description_source": null,
+      "description_ar": "يستحضر أورورون عيناً صوتية فائقة تجذب انتباه الأعداء وتدور مطلقة موجات صوتية كهربائية باستمرار.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ororon.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.prune.talent.normal",
+      "category": "term",
+      "character_id": "character.10000132",
+      "character_name": "Prune",
+      "character_name_ar": "برون",
+      "talent_type": "normal",
+      "source_name": "Badaboom! Hexbuster Hammer",
+      "arabic_name": "بادابوم! مطرقة صائدة الساحرات",
+      "description_source": null,
+      "description_ar": "تضرب برون بمطرقة العهد ضربات هوائية متتابعة، مع ضربة مشحونة صاعدة وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/prune.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.prune.talent.skill",
+      "category": "term",
+      "character_id": "character.10000132",
+      "character_name": "Prune",
+      "character_name_ar": "برون",
+      "talent_type": "skill",
+      "source_name": "Ring-A-Ding-Ding! Hexhunter Chime",
+      "arabic_name": "رنغ-أ-دنغ-دنغ! رنين صائدة الساحرات",
+      "description_source": null,
+      "description_ar": "تضرب برون جرس الإغواء بمطرقتها لتسبب ضرر أنيمو؛ وبعد تفعيل تفاعل الدوامة المناسب، يتغير أسلوب المهارة مؤقتاً لتكسو المطرقة بعنصر التفاعل وتنفذ ركلة جوية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/prune.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.prune.talent.burst",
+      "category": "term",
+      "character_id": "character.10000132",
+      "character_name": "Prune",
+      "character_name_ar": "برون",
+      "talent_type": "burst",
+      "source_name": "The Bell Tolls! The Hunt Is On!",
+      "arabic_name": "يدق الجرس! بدأت المطاردة!",
+      "description_source": null,
+      "description_ar": "تطلق برون رنيناً يسبب ضرر أنيمو، ثم يدخل الجرس وضع الصياد المتعقب ليتبع الشخصية النشطة ويهاجم الأعداء المحيطين دورياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/prune.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.yumemizukimizuki.talent.normal",
+      "category": "term",
+      "character_id": "character.10000109",
+      "character_name": "Yumemizuki Mizuki",
+      "character_name_ar": "يوميميزوكي ميزوكي",
+      "talent_type": "normal",
+      "source_name": "Pure Heart, Pure Dreams",
+      "arabic_name": "قلب صافٍ وأحلام نقية",
+      "description_source": null,
+      "description_ar": "تنفذ يوميميزوكي ميزوكي هجمات أنيمو متتابعة، مع هجوم مشحون واسع وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yumemizukimizuki.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.yumemizukimizuki.talent.skill",
+      "category": "term",
+      "character_id": "character.10000109",
+      "character_name": "Yumemizuki Mizuki",
+      "character_name_ar": "يوميميزوكي ميزوكي",
+      "talent_type": "skill",
+      "source_name": "Aisa Utamakura Pilgrimage",
+      "arabic_name": "رحلة وسادة الأحلام آيسا",
+      "description_source": null,
+      "description_ar": "تدخل ميزوكي حالة الانجراف الحلمي وتحوم متقدمة، مسببة ضرر أنيمو دورياً؛ كما تعزز ضرر الدوامة لدى أعضاء الفريق القريبين وفق إتقانها العنصري.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yumemizukimizuki.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.yumemizukimizuki.talent.burst",
+      "category": "term",
+      "character_id": "character.10000109",
+      "character_name": "Yumemizuki Mizuki",
+      "character_name_ar": "يوميميزوكي ميزوكي",
+      "talent_type": "burst",
+      "source_name": "Anraku Secret Spring Therapy",
+      "arabic_name": "علاج الينبوع السري للسكينة",
+      "description_source": null,
+      "description_ar": "تستدعي ميزوكي باكو صغيراً يجمع الأغراض ويُنشئ وجبات خاصة؛ تمنح هذه الوجبات علاجاً عند انخفاض صحة ملتقطها، أو تنفجر بموجة ضرر أنيمو عندما تكون صحته مرتفعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/yumemizukimizuki.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.razor.talent.normal",
+      "category": "term",
+      "character_id": "character.10000020",
+      "character_name": "Razor",
+      "character_name_ar": "رايزر",
+      "talent_type": "normal",
+      "source_name": "Steel Fang",
+      "arabic_name": "الناب الفولاذي",
+      "description_source": null,
+      "description_ar": "ينفذ رايزر ضربات متتابعة بالسيف العظيم، مع هجوم مشحون دوار وضربة ختامية قوية وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/razor.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.razor.talent.skill",
+      "category": "term",
+      "character_id": "character.10000020",
+      "character_name": "Razor",
+      "character_name_ar": "رايزر",
+      "talent_type": "skill",
+      "source_name": "Claw and Thunder",
+      "arabic_name": "المخلب والرعد",
+      "description_source": null,
+      "description_ar": "يضرب رايزر بمخلب الذئب الكهربائي ليجمع أختاماً تعزز استعادة الطاقة؛ وعند الضغط المطول يطلق عاصفة كهربائية ويحوّل الأختام إلى طاقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/razor.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.razor.talent.burst",
+      "category": "term",
+      "character_id": "character.10000020",
+      "character_name": "Razor",
+      "character_name_ar": "رايزر",
+      "talent_type": "burst",
+      "source_name": "Lightning Fang",
+      "arabic_name": "الناب البرقي",
+      "description_source": null,
+      "description_ar": "يستدعي رايزر الذئب الداخلي ليقاتل إلى جانبه، مع تعزيز سرعة هجومه ومقاومته الكهربائية ومقاطعة الأعداء له.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/razor.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.rosaria.talent.normal",
+      "category": "term",
+      "character_id": "character.10000045",
+      "character_name": "Rosaria",
+      "character_name_ar": "روزاريا",
+      "talent_type": "normal",
+      "source_name": "Spear of the Church",
+      "arabic_name": "رمح الكنيسة",
+      "description_source": null,
+      "description_ar": "تنفذ روزاريا ضربات متتابعة بالرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/rosaria.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.rosaria.talent.skill",
+      "category": "term",
+      "character_id": "character.10000045",
+      "character_name": "Rosaria",
+      "character_name_ar": "روزاريا",
+      "talent_type": "skill",
+      "source_name": "Ravaging Confession",
+      "arabic_name": "اعتراف مدمّر",
+      "description_source": null,
+      "description_ar": "تتحرك روزاريا بسرعة إلى خلف خصمها ثم تطعنه وتضربه برمحها مسببة ضرر كرايو؛ ولا يمكنها الالتفاف خلف الخصوم ذوي الأحجام الكبيرة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/rosaria.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.rosaria.talent.burst",
+      "category": "term",
+      "character_id": "character.10000045",
+      "character_name": "Rosaria",
+      "character_name_ar": "روزاريا",
+      "talent_type": "burst",
+      "source_name": "Rites of Termination",
+      "arabic_name": "طقوس الختام",
+      "description_source": null,
+      "description_ar": "تضرب روزاريا الأعداء المحيطين ثم تستدعي رمحاً جليدياً يغرس في الأرض ويطلق دفعات من الهواء البارد تسبب ضرر كرايو دورياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/rosaria.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sayu.talent.normal",
+      "category": "term",
+      "character_id": "character.10000053",
+      "character_name": "Sayu",
+      "character_name_ar": "سايو",
+      "talent_type": "normal",
+      "source_name": "Shuumatsuban Ninja Blade",
+      "arabic_name": "نصل نينجا شووماتسوبان",
+      "description_source": null,
+      "description_ar": "تنفذ سايو ضربات متتابعة بالسيف العظيم، مع هجوم مشحون دوار وضربة ختامية قوية وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sayu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sayu.talent.skill",
+      "category": "term",
+      "character_id": "character.10000053",
+      "character_name": "Sayu",
+      "character_name_ar": "سايو",
+      "talent_type": "skill",
+      "source_name": "Yoohoo Art: Fuuin Dash",
+      "arabic_name": "فن يوهو: اندفاعة فوفو",
+      "description_source": null,
+      "description_ar": "تلتف سايو داخل عجلة رياح وتتدحرج بسرعة نحو الأعداء مسببة ضرر أنيمو، ثم تنهي الحركة بركلة دوامية؛ ويسمح الضغط المطول بتوجيه التدحرج وامتصاص عنصر عند التلامس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sayu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sayu.talent.burst",
+      "category": "term",
+      "character_id": "character.10000053",
+      "character_name": "Sayu",
+      "character_name_ar": "سايو",
+      "talent_type": "burst",
+      "source_name": "Yoohoo Art: Mujina Flurry",
+      "arabic_name": "فن يوهو: وابل موجينا",
+      "description_source": null,
+      "description_ar": "تسبب سايو ضرر أنيمو وتعالج أعضاء الفريق القريبين، ثم تستدعي داروما موجي-موجي الذي يهاجم الأعداء أو يعالج الشخصية النشطة بحسب حالة الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sayu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sangonomiyakokomi.talent.normal",
+      "category": "term",
+      "character_id": "character.10000054",
+      "character_name": "Sangonomiya Kokomi",
+      "character_name_ar": "سانغونوميا كوكومي",
+      "talent_type": "normal",
+      "source_name": "The Shape of Water",
+      "arabic_name": "هيئة الماء",
+      "description_source": null,
+      "description_ar": "تطلق كوكومي هجمات مائية متتابعة تشبه الأسماك، مع هجوم مشحون واسع وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sangonomiyakokomi.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sangonomiyakokomi.talent.skill",
+      "category": "term",
+      "character_id": "character.10000054",
+      "character_name": "Sangonomiya Kokomi",
+      "character_name_ar": "سانغونوميا كوكومي",
+      "talent_type": "skill",
+      "source_name": "Kurage's Oath",
+      "arabic_name": "عهد قنديل البحر",
+      "description_source": null,
+      "description_ar": "تستدعي كوكومي قنديل باكي-كوراغي الذي يسبب ضرر هيدرو للأعداء المحيطين ويعالج الشخصية النشطة على فترات وفق صحتها القصوى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sangonomiyakokomi.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sangonomiyakokomi.talent.burst",
+      "category": "term",
+      "character_id": "character.10000054",
+      "character_name": "Sangonomiya Kokomi",
+      "character_name_ar": "سانغونوميا كوكومي",
+      "talent_type": "burst",
+      "source_name": "Nereid's Ascension",
+      "arabic_name": "ارتقاء النيريد",
+      "description_source": null,
+      "description_ar": "تستحضر كوكومي قوة واتاتسومي وترتدي ثوباً احتفالياً يعزز هجماتها ومهارة قنديل البحر وفق صحتها القصوى، كما تعالج أعضاء الفريق عند إصابة الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sangonomiyakokomi.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sucrose.talent.normal",
+      "category": "term",
+      "character_id": "character.10000043",
+      "character_name": "Sucrose",
+      "character_name_ar": "سكروز",
+      "talent_type": "normal",
+      "source_name": "Wind Spirit Creation",
+      "arabic_name": "إنشاء روح الرياح",
+      "description_source": null,
+      "description_ar": "تطلق سكروز هجمات متتابعة بمساعدة أرواح الرياح، مع هجوم مشحون واسع وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sucrose.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sucrose.talent.skill",
+      "category": "term",
+      "character_id": "character.10000043",
+      "character_name": "Sucrose",
+      "character_name_ar": "سكروز",
+      "talent_type": "skill",
+      "source_name": "Astable Anemohypostasis Creation - 6308",
+      "arabic_name": "إنشاء أنيموهيبوستاسيس غير مستقر - 6308",
+      "description_source": null,
+      "description_ar": "تنشئ سكروز روح رياح صغيرة تسحب الأعداء والأغراض نحوها، ثم تقذف الأعداء وتسبب ضرر أنيمو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sucrose.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.sucrose.talent.burst",
+      "category": "term",
+      "character_id": "character.10000043",
+      "character_name": "Sucrose",
+      "character_name_ar": "سكروز",
+      "talent_type": "burst",
+      "source_name": "Forbidden Creation - Isomer 75 / Type II",
+      "arabic_name": "الإنشاء المحظور - أيزومر 75 / النوع الثاني",
+      "description_source": null,
+      "description_ar": "تقذف سكروز مزيجاً غير مستقر ينشئ روح رياح كبيرة تجذب الأعداء وتقذفهم وتسبب ضرر أنيمو؛ وقد تمتص الروح عنصراً لتضيف ضرره إلى هجماتها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sucrose.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
