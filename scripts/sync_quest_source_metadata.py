@@ -487,7 +487,7 @@ def main() -> int:
     }
     report_path = ROOT / "localization/quest-import-report.json"
     report_path.write_text(
-        json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     print(
