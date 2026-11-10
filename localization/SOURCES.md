@@ -3,7 +3,8 @@
 ## Reference datasets
 
 - [genshin-db](https://github.com/theBowja/genshin-db): structured reference data for characters, weapons, materials, artifacts, talents and other game categories. Its README states that it aggregates/parses data from GenshinData and the Fandom Wiki and supports the game's listed locales; Arabic is not among the listed locales. Check the upstream license and data provenance before redistributing any substantial copied dataset.
-- [GenshinData](https://github.com/Dimbreath/GenshinData): community-maintained extracted game data. Use as a technical reference only; do not redistribute proprietary game assets or bulk text without confirming rights.
+- [AnimeGameData](https://github.com/DimbreathBot/AnimeGameData): current GitHub mirror of Dimbreath's `animegamedata2` technical data. The 7.2.0 snapshot documented on 2026-11-04 is `d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1`. Quest references include `ExcelBinOutput/MainQuestExcelConfigData.json`, `ChapterExcelConfigData.json`, `QuestExcelConfigData.json`, and the English `TextMap` plus `TextMap_Medium` files. Use as technical metadata only; verify the snapshot before each import and do not redistribute dialogue or proprietary assets.
+- [Legacy GenshinData repository](https://github.com/Dimbreath/GenshinData): historical location; the maintained data moved to `AnimeGameData` as documented by the upstream data-source audit.
 - [gmh5225/Genshin-GenshinData](https://github.com/gmh5225/Genshin-GenshinData): a public GenshinData mirror/fork inspected for quest metadata. The quest foundation report pins the exact commit and source files used. Treat it as a technical reference; verify freshness, provenance, and redistribution permissions before importing substantial data.
 - [genshin.dev API source](https://github.com/genshindev/api): community static-data API; its documentation says it does not interact with the game and supports localized responses only where data exists.
 
@@ -18,7 +19,7 @@ The first batch contains a small starter sample of character names, weapon names
 
 ## Quest catalog sources and boundaries
 
-- [GenshinData](https://github.com/Dimbreath/GenshinData): primary technical reference for quest/chapter configuration identifiers and relationships when the relevant extracted tables are accessible. Treat extracted game data as reference material; do not redistribute dialogue or proprietary assets.
+- [AnimeGameData](https://github.com/DimbreathBot/AnimeGameData): primary technical reference for quest/chapter identifiers. `MainQuestExcelConfigData` supplies main quest IDs and title hashes; `ChapterExcelConfigData` supplies chapter grouping and identifies World Quest chapters with `questType: WQ`; `QuestExcelConfigData` contains sub-quest steps. The 7.2.0 source snapshot is pinned in the quest audit. Treat extracted data as reference material; do not redistribute dialogue or proprietary assets.
 - [GenshinScripts](https://github.com/ToaHartor/GenshinScripts): community parser documentation demonstrates extraction of World Quest records and Archon/Story/Event chapter structures from GenshinData, including lookup by `MainQuestExcelConfigData` IDs. Use as a parser/reference lead, not as an authority for Arabic wording.
 - [Genshin Impact Wiki – Quest Menu](https://genshin-impact.fandom.com/wiki/Quest/Menu): reference for in-game grouping and the Travel Log's prerequisite graph. Verify individual quest titles and unlock conditions against versioned sources before adding them.
 - [GenshinDialogueFetch](https://github.com/arrogant-R/GenshinDialogueFetch): documents separate Archon and World Quest indexes and hierarchy. This project will use index/hierarchy metadata only; it will not copy dialogue, voice files, or images.
