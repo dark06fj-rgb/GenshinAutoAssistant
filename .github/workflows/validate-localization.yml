@@ -1,0 +1,32 @@
+name: Validate Arabic localization catalog
+
+on:
+  push:
+    branches:
+      - arabic-localization-catalog
+    paths:
+      - "localization/**"
+      - "scripts/validate_localization.py"
+      - ".github/workflows/validate-localization.yml"
+  pull_request:
+    paths:
+      - "localization/**"
+      - "scripts/validate_localization.py"
+      - ".github/workflows/validate-localization.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate catalog JSON
+        run: python scripts/validate_localization.py
