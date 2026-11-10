@@ -58,6 +58,28 @@ def fixture_catalogs():
     }
 
 
+def add_traveler_talent_matrix(catalogs):
+    catalogs["characters.json"]["entries"].append(
+        entity("character.aether", "character", "Aether", "إيثر",
+               element=None, weapon_type="Sword")
+    )
+    for element in ("Anemo", "Geo", "Electro", "Dendro", "Hydro", "Pyro", "Cryo"):
+        for talent_type in ("normal", "skill", "burst"):
+            catalogs["talents.json"]["entries"].append(
+                entity(
+                    f"character.aether.talent.{element.lower()}.{talent_type}",
+                    "term",
+                    f"Aether {element} {talent_type}",
+                    "موهبة المسافر",
+                    character_id="character.aether",
+                    character_name_ar="إيثر (المسافر)",
+                    element=element,
+                    type=talent_type,
+                )
+            )
+    return catalogs
+
+
 class ValidatorRegressionTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -135,6 +157,62 @@ class ValidatorRegressionTests(unittest.TestCase):
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
         self.assertIn("Missing expected catalog", output)
+
+
+    def test_complete_traveler_seven_element_matrix_passes(self):
+        catalogs = add_traveler_talent_matrix(fixture_catalogs())
+        self.write_catalogs(catalogs)
+        exit_code, output, validator = self.run_validator()
+        self.assertEqual(exit_code, 0, output)
+        self.assertFalse(validator.errors)
+
+    def test_missing_traveler_talent_slot_fails(self):
+        catalogs = add_traveler_talent_matrix(fixture_catalogs())
+        catalogs["talents.json"]["entries"] = [
+            item for item in catalogs["talents.json"]["entries"]
+            if item.get("id") != "character.aether.talent.cryo.burst"
+        ]
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("Traveler is missing talent slot Cryo/burst", output)
+
+    def test_traveler_talent_must_reference_aether(self):
+        catalogs = add_traveler_talent_matrix(fixture_catalogs())
+        target = next(
+            item for item in catalogs["talents.json"]["entries"]
+            if item.get("id") == "character.aether.talent.anemo.skill"
+        )
+        target["character_id"] = "character.test"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("must reference character.aether", output)
+
+    def test_traveler_talent_rejects_unknown_element(self):
+        catalogs = add_traveler_talent_matrix(fixture_catalogs())
+        target = next(
+            item for item in catalogs["talents.json"]["entries"]
+            if item.get("id") == "character.aether.talent.anemo.normal"
+        )
+        target["element"] = "Quantum"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("unsupported element 'Quantum'", output)
+
+    def test_traveler_talent_rejects_duplicate_slot(self):
+        catalogs = add_traveler_talent_matrix(fixture_catalogs())
+        target = next(
+            item for item in catalogs["talents.json"]["entries"]
+            if item.get("id") == "character.aether.talent.cryo.burst"
+        )
+        target["element"] = "Anemo"
+        target["type"] = "normal"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("duplicate talent slot Anemo/normal", output)
 
     def test_malformed_json_fails(self):
         (self.catalog_dir / "resources.json").write_text("{broken", encoding="utf-8")
