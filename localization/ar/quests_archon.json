@@ -1518,7 +1518,58 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35200",
+          "sequence": 1,
+          "step_text_hash": 3039093607,
+          "guide_text_hash": 652782879,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35201",
+          "sequence": 2,
+          "step_text_hash": 425240695,
+          "guide_text_hash": 3514304543,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35202",
+          "sequence": 3,
+          "step_text_hash": 854883503,
+          "guide_text_hash": 1782398311,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35203",
+          "sequence": 4,
+          "step_text_hash": 871878751,
+          "guide_text_hash": 2954654159,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35204",
+          "sequence": 5,
+          "step_text_hash": 3700003871,
+          "guide_text_hash": 2795478599,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35205",
+          "sequence": 6,
+          "step_text_hash": 2367148151,
+          "guide_text_hash": 2766253919,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 6
     },
     {
       "id": "quest.archon.quest.353",
@@ -1546,7 +1597,74 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35301",
+          "sequence": 1,
+          "step_text_hash": 522058959,
+          "guide_text_hash": 1970326343,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35312",
+          "sequence": 2,
+          "step_text_hash": 1209885407,
+          "guide_text_hash": 429636799,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35302",
+          "sequence": 3,
+          "step_text_hash": 1345394303,
+          "guide_text_hash": 2571132935,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35309",
+          "sequence": 4,
+          "step_text_hash": 888211095,
+          "guide_text_hash": 3597594311,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35303",
+          "sequence": 5,
+          "step_text_hash": 568764831,
+          "guide_text_hash": 2158597807,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35310",
+          "sequence": 6,
+          "step_text_hash": 703980863,
+          "guide_text_hash": 528082551,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35304",
+          "sequence": 7,
+          "step_text_hash": 3829963775,
+          "guide_text_hash": 447101695,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35311",
+          "sequence": 8,
+          "step_text_hash": 4203242703,
+          "guide_text_hash": 1944077023,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 8
     },
     {
       "id": "quest.archon.quest.355",
@@ -1574,7 +1692,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35501",
+          "sequence": 1,
+          "step_text_hash": 2424771631,
+          "guide_text_hash": 2634426023,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35502",
+          "sequence": 2,
+          "step_text_hash": 3728775671,
+          "guide_text_hash": 1913042687,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35503",
+          "sequence": 3,
+          "step_text_hash": 3221389439,
+          "guide_text_hash": 4165242639,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35504",
+          "sequence": 4,
+          "step_text_hash": 970719231,
+          "guide_text_hash": 3578343911,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35505",
+          "sequence": 5,
+          "step_text_hash": 562150719,
+          "guide_text_hash": 3108721119,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.archon.quest.354",
@@ -1602,7 +1763,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35401",
+          "sequence": 1,
+          "step_text_hash": 3698597527,
+          "guide_text_hash": 1866524527,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35402",
+          "sequence": 2,
+          "step_text_hash": 197329423,
+          "guide_text_hash": 1396853199,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35404",
+          "sequence": 3,
+          "step_text_hash": 2035401839,
+          "guide_text_hash": 1722731951,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35405",
+          "sequence": 4,
+          "step_text_hash": 2963094631,
+          "guide_text_hash": 1877660351,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35403",
+          "sequence": 5,
+          "step_text_hash": 3129821959,
+          "guide_text_hash": 734830167,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.archon.quest.360",
@@ -1630,7 +1834,42 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "36001",
+          "sequence": 1,
+          "step_text_hash": 1983224463,
+          "guide_text_hash": 1324775839,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "36003",
+          "sequence": 3,
+          "step_text_hash": 304011719,
+          "guide_text_hash": 3589070511,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "36004",
+          "sequence": 4,
+          "step_text_hash": 3347616727,
+          "guide_text_hash": 374683311,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "36005",
+          "sequence": 5,
+          "step_text_hash": 2652920319,
+          "guide_text_hash": 1892391727,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 4
     },
     {
       "id": "quest.archon.quest.356",
@@ -1658,7 +1897,58 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35601",
+          "sequence": 1,
+          "step_text_hash": 83922367,
+          "guide_text_hash": 3955294615,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35602",
+          "sequence": 2,
+          "step_text_hash": 3840557735,
+          "guide_text_hash": 3897587799,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35603",
+          "sequence": 3,
+          "step_text_hash": 952134383,
+          "guide_text_hash": 1032095183,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35604",
+          "sequence": 4,
+          "step_text_hash": 344124359,
+          "guide_text_hash": 1931881583,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35605",
+          "sequence": 5,
+          "step_text_hash": 1236334815,
+          "guide_text_hash": 1036921023,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35606",
+          "sequence": 6,
+          "step_text_hash": 3020436831,
+          "guide_text_hash": 4013766447,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 6
     },
     {
       "id": "quest.archon.quest.357",
@@ -1686,7 +1976,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35721",
+          "sequence": 1,
+          "step_text_hash": 4027960391,
+          "guide_text_hash": 3780256071,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35722",
+          "sequence": 2,
+          "step_text_hash": 1531691471,
+          "guide_text_hash": 2325380591,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35725",
+          "sequence": 3,
+          "step_text_hash": 4178919431,
+          "guide_text_hash": 3644240199,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35723",
+          "sequence": 4,
+          "step_text_hash": 3832162319,
+          "guide_text_hash": 1757957511,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35724",
+          "sequence": 5,
+          "step_text_hash": 4222836527,
+          "guide_text_hash": 2382054999,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.archon.quest.358",
@@ -1714,7 +2047,34 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "35800",
+          "sequence": 1,
+          "step_text_hash": 1753072735,
+          "guide_text_hash": 2843679447,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35801",
+          "sequence": 2,
+          "step_text_hash": 3801445927,
+          "guide_text_hash": 2580225687,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "35802",
+          "sequence": 3,
+          "step_text_hash": 1679041023,
+          "guide_text_hash": 2145767751,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 3
     },
     {
       "id": "quest.archon.quest.306",
@@ -1742,7 +2102,98 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "30600",
+          "sequence": 1,
+          "step_text_hash": 320410031,
+          "guide_text_hash": 2905902919,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30601",
+          "sequence": 2,
+          "step_text_hash": 3601552671,
+          "guide_text_hash": 3793055783,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30602",
+          "sequence": 3,
+          "step_text_hash": 2009752799,
+          "guide_text_hash": 8751687,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30607",
+          "sequence": 4,
+          "step_text_hash": 3959486999,
+          "guide_text_hash": 4176549447,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30608",
+          "sequence": 5,
+          "step_text_hash": 1032410967,
+          "guide_text_hash": 1770836487,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30609",
+          "sequence": 6,
+          "step_text_hash": 1947841911,
+          "guide_text_hash": 3498390639,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30612",
+          "sequence": 7,
+          "step_text_hash": 1137282671,
+          "guide_text_hash": 2152758671,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30611",
+          "sequence": 8,
+          "step_text_hash": 808511383,
+          "guide_text_hash": 2131751927,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30603",
+          "sequence": 9,
+          "step_text_hash": 317748631,
+          "guide_text_hash": 1835500295,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30610",
+          "sequence": 10,
+          "step_text_hash": 2373355695,
+          "guide_text_hash": 3535572055,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30604",
+          "sequence": 11,
+          "step_text_hash": 1474587055,
+          "guide_text_hash": 4215123023,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 11
     },
     {
       "id": "quest.archon.quest.307",
@@ -1770,7 +2221,114 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "30700",
+          "sequence": 1,
+          "step_text_hash": 3472542223,
+          "guide_text_hash": 637749327,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30701",
+          "sequence": 2,
+          "step_text_hash": 2830841183,
+          "guide_text_hash": 3651743655,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30702",
+          "sequence": 3,
+          "step_text_hash": 2279910367,
+          "guide_text_hash": 1652349503,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30710",
+          "sequence": 4,
+          "step_text_hash": 1064668735,
+          "guide_text_hash": 3617242879,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30707",
+          "sequence": 5,
+          "step_text_hash": 3933684119,
+          "guide_text_hash": 4006891711,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30708",
+          "sequence": 6,
+          "step_text_hash": 852439151,
+          "guide_text_hash": 3525161151,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30709",
+          "sequence": 7,
+          "step_text_hash": 4160399367,
+          "guide_text_hash": 1198831735,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30712",
+          "sequence": 8,
+          "step_text_hash": 2362064823,
+          "guide_text_hash": 457396727,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30711",
+          "sequence": 9,
+          "step_text_hash": 1731567271,
+          "guide_text_hash": 1097628439,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30703",
+          "sequence": 10,
+          "step_text_hash": 2976213623,
+          "guide_text_hash": 194739199,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30715",
+          "sequence": 11,
+          "step_text_hash": 2642222599,
+          "guide_text_hash": 2509026447,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30713",
+          "sequence": 12,
+          "step_text_hash": 2095772839,
+          "guide_text_hash": 3537391415,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30704",
+          "sequence": 13,
+          "step_text_hash": 475293695,
+          "guide_text_hash": 2476855527,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 13
     },
     {
       "id": "quest.archon.quest.308",
@@ -1798,7 +2356,106 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "30800",
+          "sequence": 1,
+          "step_text_hash": 377381279,
+          "guide_text_hash": 3661940639,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30801",
+          "sequence": 2,
+          "step_text_hash": 848119559,
+          "guide_text_hash": 452219703,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30802",
+          "sequence": 3,
+          "step_text_hash": 3489821143,
+          "guide_text_hash": 4179380087,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30810",
+          "sequence": 4,
+          "step_text_hash": 495384727,
+          "guide_text_hash": 919782095,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30807",
+          "sequence": 5,
+          "step_text_hash": 900464991,
+          "guide_text_hash": 4146064559,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30808",
+          "sequence": 6,
+          "step_text_hash": 3293522607,
+          "guide_text_hash": 1582328263,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30809",
+          "sequence": 7,
+          "step_text_hash": 921275431,
+          "guide_text_hash": 2025281607,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30812",
+          "sequence": 8,
+          "step_text_hash": 32044375,
+          "guide_text_hash": 1956622343,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30811",
+          "sequence": 9,
+          "step_text_hash": 2855329415,
+          "guide_text_hash": 293297223,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30803",
+          "sequence": 10,
+          "step_text_hash": 417067959,
+          "guide_text_hash": 1490543295,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30814",
+          "sequence": 11,
+          "step_text_hash": 3239488175,
+          "guide_text_hash": 1333348303,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "30804",
+          "sequence": 12,
+          "step_text_hash": 3502193055,
+          "guide_text_hash": 311736247,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 12
     },
     {
       "id": "quest.archon.quest.370",
@@ -1826,7 +2483,50 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [
+        {
+          "source_subquest_id": "37001",
+          "sequence": 1,
+          "step_text_hash": 1218746199,
+          "guide_text_hash": 1063709055,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "37002",
+          "sequence": 2,
+          "step_text_hash": 1006737055,
+          "guide_text_hash": 3822075063,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "37004",
+          "sequence": 3,
+          "step_text_hash": 674473687,
+          "guide_text_hash": 2079599367,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "37005",
+          "sequence": 4,
+          "step_text_hash": 1832110071,
+          "guide_text_hash": 4131145159,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        },
+        {
+          "source_subquest_id": "37003",
+          "sequence": 5,
+          "step_text_hash": 2709865831,
+          "guide_text_hash": 1750884807,
+          "description_ar": null,
+          "translation_status": "needs_context"
+        }
+      ],
+      "subquest_count": 5
     },
     {
       "id": "quest.archon.quest.7012",
@@ -1854,7 +2554,9 @@
           "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
         }
       ],
-      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل.",
+      "subquests": [],
+      "subquest_count": 0
     }
   ]
 }
