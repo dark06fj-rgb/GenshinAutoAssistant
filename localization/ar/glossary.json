@@ -4,7 +4,7 @@
   "language_name": "العربية",
   "locale": "ar",
   "game": "Genshin Impact",
-  "game_version": null,
+  "game_version": "7.2",
   "disclaimer": "Community translation drafts; not official HoYoverse terminology.",
   "entries": [
     {
@@ -48,6 +48,160 @@
       "translation": "قدر التعارف",
       "status": "draft",
       "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
+    },
+    {
+      "id": "term.normal_attack",
+      "source_term": "Normal Attack",
+      "translation": "هجوم عادي",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.charged_attack",
+      "source_term": "Charged Attack",
+      "translation": "هجوم مشحون",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.plunging_attack",
+      "source_term": "Plunging Attack",
+      "translation": "هجوم غطس",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.elemental_skill",
+      "source_term": "Elemental Skill",
+      "translation": "المهارة العنصرية",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.elemental_burst",
+      "source_term": "Elemental Burst",
+      "translation": "الانفجار العنصري",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.cooldown",
+      "source_term": "Cooldown",
+      "translation": "وقت إعادة الاستخدام",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.area_of_effect",
+      "source_term": "AoE",
+      "translation": "نطاق التأثير",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.damage",
+      "source_term": "DMG",
+      "translation": "الضرر",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.elemental_mastery",
+      "source_term": "Elemental Mastery",
+      "translation": "إتقان العناصر",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.energy_recharge",
+      "source_term": "Energy Recharge",
+      "translation": "استعادة الطاقة",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.shield",
+      "source_term": "Shield",
+      "translation": "درع",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.interruption_resistance",
+      "source_term": "Interruption Resistance",
+      "translation": "مقاومة المقاطعة",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.physical_resistance",
+      "source_term": "Physical RES",
+      "translation": "مقاومة الضرر الفيزيائي",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.elemental_resistance",
+      "source_term": "Elemental RES",
+      "translation": "مقاومة الضرر العنصري",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.nightsoul",
+      "source_term": "Nightsoul",
+      "translation": "روح الليل",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.nightsouls_blessing",
+      "source_term": "Nightsoul's Blessing",
+      "translation": "بركة روح الليل",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.lunar_reaction",
+      "source_term": "Lunar Reaction",
+      "translation": "تفاعل قمري",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.stellar_conduct",
+      "source_term": "Stellar-Conduct",
+      "translation": "التوصيل النجمي",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.icy_quill",
+      "source_term": "Icy Quill",
+      "translation": "الريشة الجليدية",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.elemental_particle",
+      "source_term": "Elemental Particle",
+      "translation": "جسيم عنصري",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.active_character",
+      "source_term": "Active Character",
+      "translation": "الشخصية النشطة",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
+    },
+    {
+      "id": "term.normal_attack_damage",
+      "source_term": "Normal Attack DMG",
+      "translation": "ضرر الهجوم العادي",
+      "status": "draft",
+      "notes": "مصطلح موحّد مقترح للمشروع؛ يحتاج مراجعة ومقارنة بالسياق العربي الشائع داخل مجتمع اللعبة."
     }
   ]
 }
