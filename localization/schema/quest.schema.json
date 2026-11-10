@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/genshin-ar-localization/quest.schema.json",
+  "title": "Genshin Impact Quest Catalog Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "quest_type",
+    "source_name",
+    "arabic_name",
+    "translation_status",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^quest\\.(archon|world)\\.[a-z0-9][a-z0-9._-]*$"
+    },
+    "category": {
+      "const": "quest"
+    },
+    "quest_type": {
+      "enum": [
+        "archon",
+        "world"
+      ]
+    },
+    "source_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "arabic_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description_ar": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "node_type": {
+      "enum": [
+        "chapter",
+        "act",
+        "series",
+        "quest"
+      ]
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^quest\\.(archon|world)\\.[a-z0-9][a-z0-9._-]*$"
+    },
+    "chapter_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "act_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "series_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "region": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sequence": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "prerequisite_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^quest\\.(archon|world)\\.[a-z0-9][a-z0-9._-]*$"
+      }
+    },
+    "adventure_rank": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "version_added": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "translation_status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved",
+        "needs_context"
+      ]
+    },
+    "review_notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
