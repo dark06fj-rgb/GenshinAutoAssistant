@@ -304,13 +304,13 @@ def main() -> None:
         onnx_path = Path(onnx_path)
         if not onnx_path.exists():
             raise RuntimeError("ONNX export returned without creating a model file.")
-        export_status.write_text(f"ONNX export succeeded: {onnx_path}\\n", encoding="utf-8")
+        export_status.write_text(f"ONNX export succeeded: {onnx_path}\n", encoding="utf-8")
         if export_error.exists():
             export_error.unlink()
         print(f"ONNX_EXPORT_COMPLETE model={onnx_path}", flush=True)
     except Exception as exc:
-        export_status.write_text("ONNX export failed; trained weights and evaluation files are preserved.\\n", encoding="utf-8")
-        export_error.write_text(f"{type(exc).__name__}: {exc}\\n", encoding="utf-8")
+        export_status.write_text("ONNX export failed; trained weights and evaluation files are preserved.\n", encoding="utf-8")
+        export_error.write_text(f"{type(exc).__name__}: {exc}\n", encoding="utf-8")
         print(f"ONNX_EXPORT_FAILED: {type(exc).__name__}: {exc}", flush=True)
 
     print(f"TRAINING_COMPLETE best_model={best}", flush=True)
