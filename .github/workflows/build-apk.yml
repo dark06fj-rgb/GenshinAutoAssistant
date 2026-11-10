@@ -1,5 +1,5 @@
 
-name: Build Genshin Assistant APK
+name: Build Teyvat Companion APK
 
 on:
   workflow_dispatch:
@@ -62,7 +62,7 @@ jobs:
                   mavenCentral()
               }
           }
-          rootProject.name = "GenshinAssistant"
+          rootProject.name = "TeyvatCompanion"
           include(":app")
           EOF
 
@@ -128,7 +128,7 @@ jobs:
               </queries>
               <application
                   android:allowBackup="true"
-                  android:label="Genshin Assistant"
+                  android:label="Teyvat Companion"
                   android:icon="@drawable/ic_launcher"
                   android:theme="@android:style/Theme.Material.Light.NoActionBar">
                   <service
@@ -278,7 +278,7 @@ jobs:
                       }
                       if(!names.isEmpty()) characters=names.toArray(new String[0]);
                   } catch(Exception e) {
-                      android.util.Log.w("GenshinAssistant","Arabic character catalog unavailable; using fallback list",e);
+                      android.util.Log.w("TeyvatCompanion","Arabic character catalog unavailable; using fallback list",e);
                   }
               }
               String characterDisplayName(String sourceName) {
@@ -333,7 +333,7 @@ jobs:
                   loadCharacterCatalog();
                   root=new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL);
                   root.setPadding(16,18,16,12); root.setBackgroundColor(Color.rgb(247,246,250));
-                  TextView title=new TextView(this); title.setText("Genshin Assistant"); title.setTextSize(25);
+                  TextView title=new TextView(this); title.setText("Teyvat Companion"); title.setTextSize(25);
                   title.setTypeface(null,Typeface.BOLD); title.setTextColor(Color.rgb(65,48,91));
                   title.setGravity(Gravity.CENTER); title.setPadding(4,8,4,14); root.addView(title);
                   ScrollView scroll=new ScrollView(this);
@@ -1068,7 +1068,7 @@ jobs:
                                   if(screenText.length()>0) translateLiveText(screenText.toString().trim());
                                   else if(translatorReady && overlayText!=null) updateOverlay("المسح يعمل، لكن لم أتعرف على نص في هذه اللقطة. تأكد أن نص اللعبة ظاهر وواضح.");
                               }).addOnFailureListener(error->{
-                                  android.util.Log.e("GenshinAssistant","Live OCR failed",error);
+                                  android.util.Log.e("TeyvatCompanion","Live OCR failed",error);
                                   updateOverlay("تعذرت قراءة نص الشاشة: "+error.getClass().getSimpleName());
                               }).addOnCompleteListener(task->{frame.close();processingFrame.set(false);});
                           } catch(Exception e){frame.close();processingFrame.set(false);}
@@ -1126,7 +1126,7 @@ jobs:
                       JSONArray entries=catalog.optJSONArray("entries");
                       return entries==null?new JSONArray():entries;
                   } catch(Exception e) {
-                      android.util.Log.e("GenshinAssistant","Unable to read quest catalog "+filename,e);
+                      android.util.Log.e("TeyvatCompanion","Unable to read quest catalog "+filename,e);
                       return new JSONArray();
                   }
               }
@@ -1247,14 +1247,14 @@ jobs:
                   if(Build.VERSION.SDK_INT>=26){
                       notification=new Notification.Builder(this,CHANNEL_ID)
                           .setSmallIcon(android.R.drawable.ic_menu_view)
-                          .setContentTitle("Genshin Assistant")
+                          .setContentTitle("Teyvat Companion")
                           .setContentText("المسح المباشر للشاشة يعمل")
                           .setOngoing(true)
                           .build();
                   }else{
                       notification=new Notification.Builder(this)
                           .setSmallIcon(android.R.drawable.ic_menu_view)
-                          .setContentTitle("Genshin Assistant")
+                          .setContentTitle("Teyvat Companion")
                           .setContentText("المسح المباشر للشاشة يعمل")
                           .setOngoing(true)
                           .build();
@@ -1269,7 +1269,7 @@ jobs:
                   } catch(Exception e) {
                       foregroundReady=false;
                       String message=e.getClass().getSimpleName()+": "+String.valueOf(e.getMessage());
-                      android.util.Log.e("GenshinAssistant","Projection foreground service failed",e);
+                      android.util.Log.e("TeyvatCompanion","Projection foreground service failed",e);
                       Toast.makeText(this,"تعذر تشغيل خدمة مشاركة الشاشة: "+message,Toast.LENGTH_LONG).show();
                       stopSelf();
                   }
@@ -1318,5 +1318,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Genshin-Assistant-APK
+          name: Teyvat-Companion-APK
           path: app/build/outputs/apk/debug/app-debug.apk
