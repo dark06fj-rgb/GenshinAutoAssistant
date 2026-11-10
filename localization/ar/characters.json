@@ -503,6 +503,294 @@
       ],
       "translation_status": "draft",
       "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.aether",
+      "category": "character",
+      "source_name": "Aether",
+      "arabic_name": "إيثر",
+      "rarity": 5,
+      "element": null,
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/aether.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.aino",
+      "category": "character",
+      "source_name": "Aino",
+      "arabic_name": "آينو",
+      "rarity": 4,
+      "element": "Hydro",
+      "weapon_type": "Claymore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/aino.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.alhaitham",
+      "category": "character",
+      "source_name": "Alhaitham",
+      "arabic_name": "الحيثم",
+      "rarity": 5,
+      "element": "Dendro",
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/alhaitham.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.aloy",
+      "category": "character",
+      "source_name": "Aloy",
+      "arabic_name": "آلوي",
+      "rarity": 5,
+      "element": "Cryo",
+      "weapon_type": "Bow",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/aloy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.alyosha",
+      "category": "character",
+      "source_name": "Alyosha",
+      "arabic_name": "أليوشا",
+      "rarity": 4,
+      "element": "Electro",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/alyosha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.aratakiitto",
+      "category": "character",
+      "source_name": "Arataki Itto",
+      "arabic_name": "أراتاكي إيتو",
+      "rarity": 5,
+      "element": "Geo",
+      "weapon_type": "Claymore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/aratakiitto.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.baizhu",
+      "category": "character",
+      "source_name": "Baizhu",
+      "arabic_name": "بايتشو",
+      "rarity": 5,
+      "element": "Dendro",
+      "weapon_type": "Catalyst",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/baizhu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.beidou",
+      "category": "character",
+      "source_name": "Beidou",
+      "arabic_name": "بيدو",
+      "rarity": 4,
+      "element": "Electro",
+      "weapon_type": "Claymore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/beidou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.bennett",
+      "category": "character",
+      "source_name": "Bennett",
+      "arabic_name": "بينيت",
+      "rarity": 4,
+      "element": "Pyro",
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/bennett.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.candace",
+      "category": "character",
+      "source_name": "Candace",
+      "arabic_name": "كانديس",
+      "rarity": 4,
+      "element": "Hydro",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/candace.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.charlotte",
+      "category": "character",
+      "source_name": "Charlotte",
+      "arabic_name": "شارلوت",
+      "rarity": 4,
+      "element": "Cryo",
+      "weapon_type": "Catalyst",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/charlotte.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.chasca",
+      "category": "character",
+      "source_name": "Chasca",
+      "arabic_name": "تشاسكا",
+      "rarity": 5,
+      "element": "Anemo",
+      "weapon_type": "Bow",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/chasca.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.chevreuse",
+      "category": "character",
+      "source_name": "Chevreuse",
+      "arabic_name": "شيفروز",
+      "rarity": 4,
+      "element": "Pyro",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/chevreuse.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.chiori",
+      "category": "character",
+      "source_name": "Chiori",
+      "arabic_name": "شيوري",
+      "rarity": 5,
+      "element": "Geo",
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/chiori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.chongyun",
+      "category": "character",
+      "source_name": "Chongyun",
+      "arabic_name": "تشونغيون",
+      "rarity": 4,
+      "element": "Cryo",
+      "weapon_type": "Claymore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/chongyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.citlali",
+      "category": "character",
+      "source_name": "Citlali",
+      "arabic_name": "سيتلالي",
+      "rarity": 5,
+      "element": "Cryo",
+      "weapon_type": "Catalyst",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/citlali.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
     }
   ]
 }
