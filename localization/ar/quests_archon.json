@@ -20,7 +20,7 @@
       "parent_id": null,
       "chapter_id": null,
       "act_id": null,
-      "series_id": null,
+      "series_id": "1001",
       "region": "Mondstadt",
       "sequence": null,
       "prerequisite_ids": [],
@@ -33,13 +33,81 @@
           "version": "7.2 snapshot d54f6f0"
         },
         {
-          "name": "Archon quest chapter title reference",
+          "name": "Archon chapter title reference",
           "url": "https://github.com/FichteFoll/gacha-game-story-length-analysis/blob/4b15b28e9916a17dc7de1d307873e371dc716543/genshin-impact/00-prologue-mondstadt.md",
           "version": null
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل مستند إلى chapter id 1001 ووسم CHAPTER_STYLE_TYPE_AQ؛ لم تُضف بنية الفصول/الأفعال الفرعية بعد."
+      "review_notes": "سجل فصل مستند إلى chapter id 1001 ووسم CHAPTER_STYLE_TYPE_AQ؛ العنوان العربي مسودة."
+    },
+    {
+      "id": "quest.archon.quest.wanderers_trail",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "351",
+      "source_name": "Wanderer's Trail",
+      "arabic_name": "درب المتجول",
+      "description_ar": "اختطف الإله قريبك الوحيد، ثم خُتمتَ وأُلقيتَ في سبات عميق. وبعد استيقاظك، تجولت وحدك حتى التقيت رفيقة غريبة تُدعى بايمون، لتبدأ رحلتك عبر قارة تيفات.",
+      "parent_id": null,
+      "chapter_id": null,
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 351",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/351.json",
+          "version": "7.2 snapshot d54f6f0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary cross-reference",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/351.json",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المعرّف 351 ونوع AQ والعنوان والملخص مثبتة في مرجع البيانات؛ لا يحمل QuestBrief لهذا السجل chapterId، لذلك تُرك parent_id فارغاً."
+    },
+    {
+      "id": "quest.archon.quest.birds_eye_view",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "352",
+      "source_name": "Bird's Eye View",
+      "arabic_name": "منظور عين الطائر",
+      "description_ar": "تبدأ رحلتك في وادي ستارفيل، حيث تستكشف الأرض وتتأمل معالمها برفقة بايمون.",
+      "parent_id": "quest.archon.chapter.prologue",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": "Mondstadt",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.archon.quest.wanderers_trail"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 352",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/352.json",
+          "version": "7.2 snapshot d54f6f0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary cross-reference",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/352.json",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "العنوان والملخص ترجمة عربية أولية؛ يلزم تدقيق تحريري قبل الاعتماد."
     },
     {
       "id": "quest.archon.quest.unexpected_power",
@@ -49,14 +117,16 @@
       "source_quest_id": "353",
       "source_name": "Unexpected Power",
       "arabic_name": "قوة غير متوقعة",
-      "description_ar": null,
+      "description_ar": "أثناء تقدمك، يظهر تمثال السبعة في الأفق أمامك. وباقتراح من بايمون، تتوجه لاستكشافه.",
       "parent_id": "quest.archon.chapter.prologue",
       "chapter_id": "1001",
       "act_id": null,
       "series_id": "1001",
       "region": "Mondstadt",
       "sequence": null,
-      "prerequisite_ids": [],
+      "prerequisite_ids": [
+        "quest.archon.quest.birds_eye_view"
+      ],
       "adventure_rank": null,
       "version_added": null,
       "source": [
@@ -66,13 +136,13 @@
           "version": "7.2 snapshot d54f6f0"
         },
         {
-          "name": "English quest-title cross-reference",
-          "url": "https://github.com/Esposter/Esposter/blob/119a9c6be3a99a308d77d1e70232af22ec26613d/openspec/specs/genshin/archive/design.md",
+          "name": "GI-OnlineQuest English title and summary cross-reference",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/353.json",
           "version": null
         }
       ],
       "translation_status": "draft",
-      "review_notes": "العنوان الإنجليزي موثق للمعرّف 353؛ الوصف العربي ومتطلبات الفتح لم يُستوردا بعد. ربط الفصل مؤكد من chapterId=1001 في QuestBrief."
+      "review_notes": "العنوان والملخص ترجمة عربية أولية؛ يلزم تدقيق تحريري قبل الاعتماد."
     }
   ]
 }
