@@ -2586,6 +2586,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.charlotte.talent.normal",
+      "category": "term",
+      "character_id": "character.charlotte",
+      "character_name": "Charlotte",
+      "character_name_ar": "شارلوت",
+      "talent_type": "normal",
+      "source_name": "Cool-Color Capture",
+      "arabic_name": "التقاط بألوان باردة",
+      "description_source": null,
+      "description_ar": "تنفذ شارلوت هجمات كريو متتابعة؛ ويمكنها شحن هجوم يصيب مساحة، أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/charlotte.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.charlotte.talent.skill",
+      "category": "term",
+      "character_id": "character.charlotte",
+      "character_name": "Charlotte",
+      "character_name_ar": "شارلوت",
+      "talent_type": "skill",
+      "source_name": "Framing: Freezing Point Composition",
+      "arabic_name": "تأطير: تكوين نقطة التجمد",
+      "description_source": null,
+      "description_ar": "تلتقط صورة بكاميرتها لإلحاق ضرر كريو وتطبيق تأثير على الأعداء؛ ويتيح الضغط المطول تحديد أهداف أكثر وتأثيراً أقوى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/charlotte.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.charlotte.talent.burst",
+      "category": "term",
+      "character_id": "character.charlotte",
+      "character_name": "Charlotte",
+      "character_name_ar": "شارلوت",
+      "talent_type": "burst",
+      "source_name": "Still Photo: Comprehensive Confirmation",
+      "arabic_name": "صورة ثابتة: توثيق شامل",
+      "description_source": null,
+      "description_ar": "تنشئ شارلوت مجالاً إخبارياً يسبب ضرر كريو دورياً ويستعيد صحة أعضاء الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/charlotte.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chasca.talent.normal",
+      "category": "term",
+      "character_id": "character.chasca",
+      "character_name": "Chasca",
+      "character_name_ar": "تشاسكا",
+      "talent_type": "normal",
+      "source_name": "Phantom Feather Flurry",
+      "arabic_name": "وابل الريش الوهمي",
+      "description_source": null,
+      "description_ar": "تطلق سهاماً متتابعة، ويمكنها شحن سهم أنيمو دقيق أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chasca.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chasca.talent.skill",
+      "category": "term",
+      "character_id": "character.chasca",
+      "character_name": "Chasca",
+      "character_name_ar": "تشاسكا",
+      "talent_type": "skill",
+      "source_name": "Spirit Reins, Shadow Hunt",
+      "arabic_name": "زمام الروح، صيد الظلال",
+      "description_source": null,
+      "description_ar": "تدخل تشاسكا حالة نعمة ليلية وتحلّق على سلاحها، ثم تطلق قذائف متعددة يمكن أن تتغير عناصر بعضها بحسب عناصر أعضاء الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chasca.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chasca.talent.burst",
+      "category": "term",
+      "character_id": "character.chasca",
+      "character_name": "Chasca",
+      "character_name_ar": "تشاسكا",
+      "talent_type": "burst",
+      "source_name": "Soul Reaper's Fatal Round",
+      "arabic_name": "الطلقة القاتلة لحاصد الأرواح",
+      "description_source": null,
+      "description_ar": "تطلق قذيفة أنيمو تنقسم إلى قذائف أصغر تلاحق الأعداء، ويمكن أن تكتسب بعض القذائف عناصر أعضاء الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chasca.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chevreuse.talent.normal",
+      "category": "term",
+      "character_id": "character.chevreuse",
+      "character_name": "Chevreuse",
+      "character_name_ar": "شيفروز",
+      "talent_type": "normal",
+      "source_name": "Line Bayonet Thrust EX",
+      "arabic_name": "طعنة الحربة الخطية EX",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chevreuse.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chevreuse.talent.skill",
+      "category": "term",
+      "character_id": "character.chevreuse",
+      "character_name": "Chevreuse",
+      "character_name_ar": "شيفروز",
+      "talent_type": "skill",
+      "source_name": "Short-Range Rapid Interdiction Fire",
+      "arabic_name": "إطلاق اعتراض سريع قصير المدى",
+      "description_source": null,
+      "description_ar": "تطلق شيفروز طلقة بايرو تسبب ضرراً في مساحة وتستعيد صحة الشخصية النشطة؛ ويمكنها التصويب لاستخدام كرة مشحونة أقوى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chevreuse.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chevreuse.talent.burst",
+      "category": "term",
+      "character_id": "character.chevreuse",
+      "character_name": "Chevreuse",
+      "character_name_ar": "شيفروز",
+      "talent_type": "burst",
+      "source_name": "Ring of Bursting Grenades",
+      "arabic_name": "حلقة القنابل المتفجرة",
+      "description_source": null,
+      "description_ar": "تطلق قنبلة تنقسم بعد إصابة الهدف إلى قذائف صغيرة تنفجر وتسبب ضرر بايرو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chevreuse.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chiori.talent.normal",
+      "category": "term",
+      "character_id": "character.chiori",
+      "character_name": "Chiori",
+      "character_name_ar": "شيوري",
+      "talent_type": "normal",
+      "source_name": "Weaving Blade",
+      "arabic_name": "نصل النسج",
+      "description_source": null,
+      "description_ar": "تنفذ شيوري ضربات سريعة بالسيف، مع هجوم مشحون من ضربتين وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chiori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chiori.talent.skill",
+      "category": "term",
+      "character_id": "character.chiori",
+      "character_name": "Chiori",
+      "character_name_ar": "شيوري",
+      "talent_type": "skill",
+      "source_name": "Fluttering Hasode",
+      "arabic_name": "هاسودي الخفّاق",
+      "description_source": null,
+      "description_ar": "تندفع شيوري للأمام وتستدعي دمية تاموتو التي تضرب الأعداء بضرر جغرافي؛ وقد تستدعي دمية إضافية عند وجود إنشاءات جغرافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chiori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chiori.talent.burst",
+      "category": "term",
+      "character_id": "character.chiori",
+      "character_name": "Chiori",
+      "character_name_ar": "شيوري",
+      "talent_type": "burst",
+      "source_name": "Hiyoku: Twin Blades",
+      "arabic_name": "هييوكو: النصلان التوأمان",
+      "description_source": null,
+      "description_ar": "تسحب شيوري نصلين وتنفذ ضربة واسعة تسبب ضرراً جغرافياً يعتمد على الهجوم والدفاع.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chiori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chongyun.talent.normal",
+      "category": "term",
+      "character_id": "character.chongyun",
+      "character_name": "Chongyun",
+      "character_name_ar": "تشونغيون",
+      "talent_type": "normal",
+      "source_name": "Demonbane",
+      "arabic_name": "قاهر الشياطين",
+      "description_source": null,
+      "description_ar": "ينفذ تشونغيون ضربات متتابعة بسيف عظيم، ويمكنه مواصلة الدوران في هجوم مشحون.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chongyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chongyun.talent.skill",
+      "category": "term",
+      "character_id": "character.chongyun",
+      "character_name": "Chongyun",
+      "character_name_ar": "تشونغيون",
+      "talent_type": "skill",
+      "source_name": "Spirit Blade: Chonghua's Layered Frost",
+      "arabic_name": "نصل الروح: صقيع تشونغهوا المتراكم",
+      "description_source": null,
+      "description_ar": "يضرب الأرض لينشئ انفجار كريو ومجالاً يعزز أسلحة مستخدمي السيف والسيف العظيم والرمح بعنصر كريو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chongyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.chongyun.talent.burst",
+      "category": "term",
+      "character_id": "character.chongyun",
+      "character_name": "Chongyun",
+      "character_name_ar": "تشونغيون",
+      "talent_type": "burst",
+      "source_name": "Spirit Blade: Cloud-Parting Star",
+      "arabic_name": "نصل الروح: نجم شاقّ السحب",
+      "description_source": null,
+      "description_ar": "يستدعي ثلاثة أنصال روحية ضخمة تسقط تباعاً وتنفجر، مسببة ضرر كريو وقاذفة الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/chongyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.citlali.talent.normal",
+      "category": "term",
+      "character_id": "character.citlali",
+      "character_name": "Citlali",
+      "character_name_ar": "سيتلالي",
+      "talent_type": "normal",
+      "source_name": "Shadow-Stealing Spirit Vessel",
+      "arabic_name": "وعاء الروح سارق الظلال",
+      "description_source": null,
+      "description_ar": "تنفذ سيتلالي ضربات كريو متتابعة، ويمكنها إطلاق نجمة صقيع مشحونة أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/citlali.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.citlali.talent.skill",
+      "category": "term",
+      "character_id": "character.citlali",
+      "character_name": "Citlali",
+      "character_name_ar": "سيتلالي",
+      "talent_type": "skill",
+      "source_name": "Dawnfrost Darkstar",
+      "arabic_name": "نجمة الصقيع الداكنة",
+      "description_source": null,
+      "description_ar": "تنشئ درع أوبال وتستدعي إيتزبابا؛ وعند توفر نقاط كافية يطلق المرافق عاصفة صقيع تهاجم الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/citlali.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.citlali.talent.burst",
+      "category": "term",
+      "character_id": "character.citlali",
+      "character_name": "Citlali",
+      "character_name_ar": "سيتلالي",
+      "talent_type": "burst",
+      "source_name": "Edict of Entwined Splendor",
+      "arabic_name": "مرسوم الروعة المتشابكة",
+      "description_source": null,
+      "description_ar": "تستدعي عاصفة جليدية تصيب مساحة، وتستدعي جماجم وعاء الروح قرب الأعداء لتنفجر وتسبب ضرر كريو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/citlali.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.clorinde.talent.normal",
+      "category": "term",
+      "character_id": "character.clorinde",
+      "character_name": "Clorinde",
+      "character_name_ar": "كلوريند",
+      "talent_type": "normal",
+      "source_name": "Oath of Hunting Shadows",
+      "arabic_name": "عهد صيد الظلال",
+      "description_source": null,
+      "description_ar": "تنفذ كلوريند ضربات سريعة، ويمكنها إطلاق طلقات مسدس مشحونة أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/clorinde.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.clorinde.talent.skill",
+      "category": "term",
+      "character_id": "character.clorinde",
+      "character_name": "Clorinde",
+      "character_name_ar": "كلوريند",
+      "talent_type": "skill",
+      "source_name": "Hunter's Vigil",
+      "arabic_name": "يقظة الصيادة",
+      "description_source": null,
+      "description_ar": "تدخل حالة يقظة ليلية وتحوّل هجماتها إلى طلقات كهربائية وطعنات؛ وتتغير قوة الاندفاع والعلاج وفق قيمة رابطة الحياة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/clorinde.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.clorinde.talent.burst",
+      "category": "term",
+      "character_id": "character.clorinde",
+      "character_name": "Clorinde",
+      "character_name_ar": "كلوريند",
+      "talent_type": "burst",
+      "source_name": "Last Lightfall",
+      "arabic_name": "آخر هبوط للضوء",
+      "description_source": null,
+      "description_ar": "تمنح نفسها رابطة حياة ثم تراوغ وتهاجم بسيفها ومسدسها معاً، مسببة ضرر إلكترو واسعاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/clorinde.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.collei.talent.normal",
+      "category": "term",
+      "character_id": "character.collei",
+      "character_name": "Collei",
+      "character_name_ar": "كولي",
+      "talent_type": "normal",
+      "source_name": "Supplicant's Bowmanship",
+      "arabic_name": "مهارة الرماية المتضرعة",
+      "description_source": null,
+      "description_ar": "تطلق كولي سهاماً متتابعة، ويمكنها شحن سهم دندرو أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/collei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.collei.talent.skill",
+      "category": "term",
+      "character_id": "character.collei",
+      "character_name": "Collei",
+      "character_name_ar": "كولي",
+      "talent_type": "skill",
+      "source_name": "Floral Brush",
+      "arabic_name": "فرشاة زهرية",
+      "description_source": null,
+      "description_ar": "ترمي حلقة زهرية تسبب ضرر دندرو عند ملامسة الأعداء، ثم تعود لتلحق الضرر مرة أخرى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/collei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.collei.talent.burst",
+      "category": "term",
+      "character_id": "character.collei",
+      "character_name": "Collei",
+      "character_name_ar": "كولي",
+      "talent_type": "burst",
+      "source_name": "Trump-Card Kitty",
+      "arabic_name": "قطة الورقة الرابحة",
+      "description_source": null,
+      "description_ar": "ترمي كولي دمية كويلين-أنبار لتنفجر وتنشئ منطقة تقفز داخلها الدمية وتسبب ضرر دندرو متكرراً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/collei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
