@@ -1313,6 +1313,330 @@
       ],
       "translation_status": "draft",
       "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000108",
+      "category": "character",
+      "source_name": "Lan Yan",
+      "arabic_name": "لان يان",
+      "element": "Anemo",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000119",
+      "category": "character",
+      "source_name": "Lauma",
+      "arabic_name": "لاوما",
+      "element": "Dendro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000074",
+      "category": "character",
+      "source_name": "Layla",
+      "arabic_name": "ليلى",
+      "element": "Cryo",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000130",
+      "category": "character",
+      "source_name": "Linnea",
+      "arabic_name": "لينيا",
+      "element": "Geo",
+      "weapon_type": "Bow",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000129",
+      "category": "character",
+      "source_name": "Lohen",
+      "arabic_name": "لوهن",
+      "element": "Cryo",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000083",
+      "category": "character",
+      "source_name": "Lynette",
+      "arabic_name": "لينيت",
+      "element": "Anemo",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000084",
+      "category": "character",
+      "source_name": "Lyney",
+      "arabic_name": "ليني",
+      "element": "Pyro",
+      "weapon_type": "Bow",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000080",
+      "category": "character",
+      "source_name": "Mika",
+      "arabic_name": "ميكا",
+      "element": "Cryo",
+      "weapon_type": "Polearm",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000041",
+      "category": "character",
+      "source_name": "Mona",
+      "arabic_name": "مونا",
+      "element": "Hydro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000102",
+      "category": "character",
+      "source_name": "Mualani",
+      "arabic_name": "موألاني",
+      "element": "Hydro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000091",
+      "category": "character",
+      "source_name": "Navia",
+      "arabic_name": "نافيا",
+      "element": "Geo",
+      "weapon_type": "Claymore",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000122",
+      "category": "character",
+      "source_name": "Nefer",
+      "arabic_name": "نيفر",
+      "element": "Dendro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000131",
+      "category": "character",
+      "source_name": "Nicole",
+      "arabic_name": "نيكول",
+      "element": "Pyro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000070",
+      "category": "character",
+      "source_name": "Nilou",
+      "arabic_name": "نيلو",
+      "element": "Hydro",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000027",
+      "category": "character",
+      "source_name": "Ningguang",
+      "arabic_name": "نينغوانغ",
+      "element": "Geo",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000105",
+      "category": "character",
+      "source_name": "Ororon",
+      "arabic_name": "أورورون",
+      "element": "Electro",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000132",
+      "category": "character",
+      "source_name": "Prune",
+      "arabic_name": "برون",
+      "element": "Anemo",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000109",
+      "category": "character",
+      "source_name": "Yumemizuki Mizuki",
+      "arabic_name": "يوميميزوكي ميزوكي",
+      "element": "Anemo",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
     }
   ]
 }
