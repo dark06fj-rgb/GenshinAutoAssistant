@@ -1,1 +1,1 @@
-# GenshinAutoAssistant
+# Teyvat Companion
