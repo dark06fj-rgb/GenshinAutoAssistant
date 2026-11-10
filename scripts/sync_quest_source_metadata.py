@@ -168,6 +168,7 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
         "chapter_id": str(chapter_id) if chapter_id else None,
         "series_id": str(series_id) if series_id else None,
         "region": meta.get("cityName") or REGIONS.get(city_id),
+        "chapter_title": meta.get("chapterTitle") if isinstance(meta.get("chapterTitle"), str) else None,
         "city_id": city_id,
         "adventure_rank": need_level or recommend_level,
         "prerequisites": prerequisites,
@@ -315,7 +316,8 @@ def main() -> int:
     chapter_regions = {}
     for quest in fetched.values():
         if quest["chapter_id"]:
-            chapter_titles.setdefault(quest["chapter_id"], quest["title"])
+            if quest.get("chapter_title"):
+                chapter_titles.setdefault(quest["chapter_id"], quest["chapter_title"])
             if quest["region"]:
                 chapter_regions.setdefault(quest["chapter_id"], quest["region"])
 
