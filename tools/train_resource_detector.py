@@ -235,22 +235,50 @@ def main() -> None:
         + "\n",
         encoding="utf-8",
     )
+    split_image_counts = {
+        split: len(list((MERGED / split / "images").glob("*")))
+        for split in ("train", "valid", "test")
+    }
+    split_report = [
+        "Merged dataset split image counts:",
+        *(f"{split}: {amount}" for split, amount in split_image_counts.items()),
+        "",
+        "Bounding boxes by class:",
+        *(f"{name}: {counts.get(name, 0)}" for name in class_names),
+    ]
+    (OUTPUT / "dataset_quality_report.txt").write_text("\n".join(split_report) + "\n", encoding="utf-8")
     print(f"Merged {copied_images} unique labeled images across {len(class_names)} resource classes.")
+    print("Split image counts:", split_image_counts)
     print("Bounding boxes by class:", counts, flush=True)
+    rare = {name: amount for name, amount in counts.items() if amount < 10}
+    if rare:
+        print("DATASET_WARNING rare classes (<10 boxes):", rare, flush=True)
 
-    print("Starting lightweight CPU training (20 epochs, 320px, batch 4)...", flush=True)
-    model = YOLO("yolo11n.pt")
+    # Higher resolution and longer transfer learning help small/distant targets,
+    # but do not replace collecting more varied examples for rare classes.
+    print("Starting accuracy-focused CPU training (80 epochs, 512px, YOLO11s, batch 4)...", flush=True)
+    model = YOLO("yolo11s.pt")
     model.train(
         data=str(filtered_yaml),
-        epochs=20,
-        imgsz=320,
+        epochs=80,
+        imgsz=512,
         batch=4,
-        patience=8,
+        patience=20,
         workers=2,
         device="cpu",
         pretrained=True,
         cache=False,
         seed=42,
+        cos_lr=True,
+        close_mosaic=10,
+        degrees=5.0,
+        translate=0.10,
+        scale=0.50,
+        fliplr=0.5,
+        hsv_h=0.015,
+        hsv_s=0.65,
+        hsv_v=0.40,
+        mixup=0.05,
         project="runs/detect",
         name="genshin_resources",
         exist_ok=True,
@@ -280,14 +308,35 @@ def main() -> None:
             exist_ok=True,
         )
         box = test_metrics.box
-        metrics_path.write_text(
-            "Held-out test split metrics (not training/validation metrics):\n"
-            f"mAP50: {float(box.map50):.6f}\n"
-            f"mAP50-95: {float(box.map):.6f}\n"
-            f"precision: {float(box.mp):.6f}\n"
-            f"recall: {float(box.mr):.6f}\n",
-            encoding="utf-8",
+        metric_lines = [
+            "Held-out test split metrics (not training/validation metrics):",
+            f"test_images: {split_image_counts['test']}",
+            f"mAP50: {float(box.map50):.6f}",
+            f"mAP50-95: {float(box.map):.6f}",
+            f"precision: {float(box.mp):.6f}",
+            f"recall: {float(box.mr):.6f}",
+            "",
+            "Per-class AP50:",
+        ]
+        names_by_id = test_metrics.names
+        ap50 = getattr(box, "ap50", [])
+        ap = getattr(box, "ap", [])
+        class_ids = getattr(box, "ap_class_index", [])
+        for pos, class_id in enumerate(class_ids):
+            class_name = names_by_id.get(int(class_id), str(class_id)) if isinstance(names_by_id, dict) else names_by_id[int(class_id)]
+            ap50_value = float(ap50[pos]) if len(ap50) > pos else float("nan")
+            ap_value = float(ap[pos].mean()) if len(ap) > pos else float("nan")
+            metric_lines.append(f"{class_name}: AP50={ap50_value:.6f}, AP50-95={ap_value:.6f}")
+        metrics_path.write_text("\n".join(metric_lines) + "\n", encoding="utf-8")
+
+        quality_pass = float(box.map50) >= 0.60 and float(box.mr) >= 0.50 and split_image_counts["test"] >= 100
+        quality_text = (
+            "PASS: held-out accuracy and test coverage thresholds met.\n"
+            if quality_pass else
+            "NOT_READY: require mAP50 >= 0.60, recall >= 0.50, and at least 100 held-out test images.\n"
         )
+        (OUTPUT / "quality_gate.txt").write_text(quality_text, encoding="utf-8")
+        print("MODEL_QUALITY_GATE=" + ("PASS" if quality_pass else "NOT_READY"), flush=True)
     else:
         metrics_path.write_text(
             "No held-out test split was supplied by the configured datasets.\n",
@@ -300,7 +349,7 @@ def main() -> None:
     export_error = OUTPUT / "onnx_export_error.txt"
     print("Exporting experimental model to ONNX for a future Android test build...", flush=True)
     try:
-        onnx_path = trained.export(format="onnx", imgsz=320, simplify=False)
+        onnx_path = trained.export(format="onnx", imgsz=512, simplify=False)
         onnx_path = Path(onnx_path)
         if not onnx_path.exists():
             raise RuntimeError("ONNX export returned without creating a model file.")
@@ -315,7 +364,7 @@ def main() -> None:
 
     print(f"TRAINING_COMPLETE best_model={best}", flush=True)
     print(f"TEST_METRICS_FILE={metrics_path}", flush=True)
-    print("Experimental model only; do not integrate as production-ready until real gameplay false positives are reviewed.", flush=True)
+    print("Experimental model only; require quality_gate.txt PASS and real gameplay false-positive review before integration.", flush=True)
 
 
 if __name__ == "__main__":
