@@ -9,7 +9,7 @@
 7. Arabic title drafts now cover all 1,579 imported records: 51 Archon acts, 208 Archon quests, 90 World Quest series, and 1,230 World Quests. The current catalogs contain 62 Archon Quest summaries and 51 World Quest summaries, with additional original Arabic summaries being added in reviewable batches. Continue the remaining summary backlog, preserving existing editorial text; keep untranslated records as needs_translation until actual Arabic text is added, then draft pending human review.
 8. Cross-check quest region, Adventure Rank, chapter/series membership, and prerequisites against versioned source data and the in-game Travel Log; do not invent missing metadata or dialogue.
 9. Add source-roster coverage assertions and regression tests so future updates expose additions/removals instead of silently accepting partial imports.
-10. Build an offline searchable Arabic glossary/catalog viewer.
+10. Offline searchable Archon and World Quest progress lists are integrated into the Android assistant with local completion tracking and series grouping; continue the glossary and broader catalog viewer.
 11. Keep any future game integration separate; this catalog alone does not alter the game client.
 
 ## Quest scope (required)
