@@ -20,6 +20,7 @@
 - Enforce a complete three-slot talent matrix (`normal`, `skill`, `burst`) for every non-Traveler character; validate each talent ID's stable name-based slug and slot type, ensure each slug belongs to only one upstream character ID, and reject missing, duplicate, or unsupported slots.
 - Enforce the Traveler (Aether) talent matrix: all seven known elements (Anemo, Geo, Electro, Dendro, Hydro, Pyro, Cryo), each with exactly one normal, skill, and burst slot; validate slot IDs and require every Traveler talent to reference `character.aether`.
 - Report Arabic-script coverage and empty optional Arabic descriptions as warnings rather than silently rewriting content.
+- Regression tests also pin a small set of source-backed talent-summary corrections (Beidou, Hu Tao, Razor, Noelle, and explicit Geo/Dendro/Anemo labels); these protect known fixes but do not certify all summary semantics.
 
 ## Exit behavior
 
