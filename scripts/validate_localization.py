@@ -44,6 +44,15 @@ EXPECTED_CATALOGS = {
     "quests_archon.json", "quests_world.json", "glossary.json",
 }
 
+QUEST_CATALOG_TYPES = {
+    "quests_archon.json": "archon",
+    "quests_world.json": "world",
+}
+QUEST_NODE_TYPES = {
+    "archon": {"chapter", "act", "quest"},
+    "world": {"series", "quest"},
+}
+
 
 class Validator:
     def __init__(self) -> None:
@@ -423,6 +432,120 @@ class Validator:
                     f"Character {character_id} is missing talent slot {talent_type}"
                 )
 
+    def check_quest_catalogs(self) -> None:
+        """Validate quest-specific types, stable IDs, hierarchy, and prerequisites."""
+        for filename, expected_type in QUEST_CATALOG_TYPES.items():
+            entries = self.data.get(filename, {}).get("entries", [])
+            by_id: dict[str, dict] = {}
+            source_ids: dict[tuple[str, str], str] = {}
+            parent_graph: dict[str, list[str]] = {}
+            prerequisite_graph: dict[str, list[str]] = {}
+
+            for index, entry in enumerate(entries):
+                if not isinstance(entry, dict):
+                    continue
+                label = f"ar/{filename}: entry {index + 1}"
+                entity_id = entry.get("id")
+                node_type = entry.get("node_type")
+                source_id = entry.get("source_quest_id")
+
+                if entry.get("category") != "quest":
+                    self.error(f"{label} category must be 'quest'")
+                if entry.get("quest_type") != expected_type:
+                    self.error(
+                        f"{label} quest_type {entry.get('quest_type')!r} "
+                        f"does not match catalog type {expected_type!r}"
+                    )
+                if node_type not in QUEST_NODE_TYPES[expected_type]:
+                    self.error(
+                        f"{label} has unsupported node_type {node_type!r} "
+                        f"for {expected_type} catalog"
+                    )
+                if not isinstance(entity_id, str) or not re.fullmatch(
+                    rf"quest\.{expected_type}\.[a-z0-9][a-z0-9._-]*", entity_id
+                ):
+                    self.error(f"{label} has an invalid quest ID for {expected_type}")
+                else:
+                    by_id[entity_id] = entry
+
+                if not isinstance(source_id, str) or not source_id.strip():
+                    self.error(f"{label} has no source_quest_id")
+                elif isinstance(node_type, str):
+                    key = (node_type, source_id)
+                    if key in source_ids:
+                        self.error(
+                            f"{label} duplicates source_quest_id {source_id!r} "
+                            f"for node_type {node_type!r}"
+                        )
+                    elif isinstance(entity_id, str):
+                        source_ids[key] = entity_id
+
+                parent_id = entry.get("parent_id")
+                if parent_id is not None:
+                    if not isinstance(parent_id, str) or not parent_id:
+                        self.error(f"{label} parent_id must be a non-empty string or null")
+                    elif isinstance(entity_id, str):
+                        parent_graph[entity_id] = [parent_id]
+
+                prerequisites = entry.get("prerequisite_ids", [])
+                if not isinstance(prerequisites, list):
+                    self.error(f"{label} prerequisite_ids must be an array")
+                else:
+                    valid_prerequisites = [
+                        value for value in prerequisites
+                        if isinstance(value, str) and value
+                    ]
+                    if len(valid_prerequisites) != len(prerequisites):
+                        self.error(f"{label} prerequisite_ids contains an invalid ID")
+                    if len(set(valid_prerequisites)) != len(valid_prerequisites):
+                        self.error(f"{label} prerequisite_ids contains duplicates")
+                    if isinstance(entity_id, str):
+                        prerequisite_graph[entity_id] = valid_prerequisites
+
+                sequence = entry.get("sequence")
+                if sequence is not None and (
+                    isinstance(sequence, bool) or not isinstance(sequence, int) or sequence < 0
+                ):
+                    self.error(f"{label} sequence must be a non-negative integer or null")
+                rank = entry.get("adventure_rank")
+                if rank is not None and (
+                    isinstance(rank, bool) or not isinstance(rank, int) or rank < 1
+                ):
+                    self.error(f"{label} adventure_rank must be a positive integer or null")
+
+            for entity_id, entry in by_id.items():
+                label = f"ar/{filename}: {entity_id}"
+                parent_id = entry.get("parent_id")
+                if parent_id is not None and parent_id not in by_id:
+                    self.error(f"{label} references missing parent_id {parent_id!r}")
+                for prerequisite_id in entry.get("prerequisite_ids", []):
+                    if isinstance(prerequisite_id, str) and prerequisite_id not in by_id:
+                        self.error(
+                            f"{label} references missing prerequisite_id {prerequisite_id!r}"
+                        )
+
+            def has_cycle(graph: dict[str, list[str]]) -> bool:
+                state: dict[str, int] = {}
+
+                def visit(node: str) -> bool:
+                    if state.get(node) == 1:
+                        return True
+                    if state.get(node) == 2:
+                        return False
+                    state[node] = 1
+                    for neighbor in graph.get(node, []):
+                        if neighbor in by_id and visit(neighbor):
+                            return True
+                    state[node] = 2
+                    return False
+
+                return any(visit(node) for node in by_id if state.get(node, 0) == 0)
+
+            if has_cycle(parent_graph):
+                self.error(f"ar/{filename} contains a parent hierarchy cycle")
+            if has_cycle(prerequisite_graph):
+                self.error(f"ar/{filename} contains a prerequisite cycle")
+
     def check_global_ids(self) -> None:
         owners: dict[str, str] = {}
         for filename, data in self.data.items():
@@ -449,6 +572,7 @@ class Validator:
             self.check_talent_review_notes()
             self.check_traveler_talent_sets()
             self.check_character_talent_sets()
+        self.check_quest_catalogs()
         self.check_global_ids()
 
         print(
