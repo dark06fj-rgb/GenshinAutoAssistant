@@ -1,0 +1,638 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "catalog_type": "character_talents",
+  "game_version": null,
+  "entries": [
+    {
+      "id": "character.albedo.talent.normal",
+      "category": "term",
+      "character_id": "character.albedo",
+      "character_name": "Albedo",
+      "character_name_ar": "ألبيدو",
+      "talent_type": "normal",
+      "source_name": "Favonius Bladework - Weiss",
+      "arabic_name": "فن المبارزة الفافونية: فايس",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.albedo.talent.skill",
+      "category": "term",
+      "character_id": "character.albedo",
+      "character_name": "Albedo",
+      "character_name_ar": "ألبيدو",
+      "talent_type": "skill",
+      "source_name": "Abiogenesis: Solar Isotoma",
+      "arabic_name": "الخلق التلقائي: زهرة الشمس",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.albedo.talent.burst",
+      "category": "term",
+      "character_id": "character.albedo",
+      "character_name": "Albedo",
+      "character_name_ar": "ألبيدو",
+      "talent_type": "burst",
+      "source_name": "Rite of Progeniture: Tectonic Tide",
+      "arabic_name": "طقس النشأة: المدّ التكتوني",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.amber.talent.normal",
+      "category": "term",
+      "character_id": "character.amber",
+      "character_name": "Amber",
+      "character_name_ar": "آمبر",
+      "talent_type": "normal",
+      "source_name": "Sharpshooter",
+      "arabic_name": "القنّاصة",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.amber.talent.skill",
+      "category": "term",
+      "character_id": "character.amber",
+      "character_name": "Amber",
+      "character_name_ar": "آمبر",
+      "talent_type": "skill",
+      "source_name": "Explosive Puppet",
+      "arabic_name": "دمية متفجرة",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.amber.talent.burst",
+      "category": "term",
+      "character_id": "character.amber",
+      "character_name": "Amber",
+      "character_name_ar": "آمبر",
+      "talent_type": "burst",
+      "source_name": "Fiery Rain",
+      "arabic_name": "مطر ناري",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.barbara.talent.normal",
+      "category": "term",
+      "character_id": "character.barbara",
+      "character_name": "Barbara",
+      "character_name_ar": "باربرا",
+      "talent_type": "normal",
+      "source_name": "Whisper of Water",
+      "arabic_name": "همس الماء",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.barbara.talent.skill",
+      "category": "term",
+      "character_id": "character.barbara",
+      "character_name": "Barbara",
+      "character_name_ar": "باربرا",
+      "talent_type": "skill",
+      "source_name": "Let the Show Begin♪",
+      "arabic_name": "لتبدأ العروض♪",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.barbara.talent.burst",
+      "category": "term",
+      "character_id": "character.barbara",
+      "character_name": "Barbara",
+      "character_name_ar": "باربرا",
+      "talent_type": "burst",
+      "source_name": "Shining Miracle♪",
+      "arabic_name": "معجزة متألقة♪",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.diluc.talent.normal",
+      "category": "term",
+      "character_id": "character.diluc",
+      "character_name": "Diluc",
+      "character_name_ar": "ديلوك",
+      "talent_type": "normal",
+      "source_name": "Tempered Sword",
+      "arabic_name": "السيف المصقول",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.diluc.talent.skill",
+      "category": "term",
+      "character_id": "character.diluc",
+      "character_name": "Diluc",
+      "character_name_ar": "ديلوك",
+      "talent_type": "skill",
+      "source_name": "Searing Onslaught",
+      "arabic_name": "اندفاع حارق",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.diluc.talent.burst",
+      "category": "term",
+      "character_id": "character.diluc",
+      "character_name": "Diluc",
+      "character_name_ar": "ديلوك",
+      "talent_type": "burst",
+      "source_name": "Dawn",
+      "arabic_name": "الفجر",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.jean.talent.normal",
+      "category": "term",
+      "character_id": "character.jean",
+      "character_name": "Jean",
+      "character_name_ar": "جين",
+      "talent_type": "normal",
+      "source_name": "Favonius Bladework",
+      "arabic_name": "فن المبارزة الفافونية",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.jean.talent.skill",
+      "category": "term",
+      "character_id": "character.jean",
+      "character_name": "Jean",
+      "character_name_ar": "جين",
+      "talent_type": "skill",
+      "source_name": "Gale Blade",
+      "arabic_name": "نصل العاصفة",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.jean.talent.burst",
+      "category": "term",
+      "character_id": "character.jean",
+      "character_name": "Jean",
+      "character_name_ar": "جين",
+      "talent_type": "burst",
+      "source_name": "Dandelion Breeze",
+      "arabic_name": "نسيم الهندباء",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.keqing.talent.normal",
+      "category": "term",
+      "character_id": "character.keqing",
+      "character_name": "Keqing",
+      "character_name_ar": "كي تشينغ",
+      "talent_type": "normal",
+      "source_name": "Yunlai Swordsmanship",
+      "arabic_name": "فن المبارزة يونلاي",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.keqing.talent.skill",
+      "category": "term",
+      "character_id": "character.keqing",
+      "character_name": "Keqing",
+      "character_name_ar": "كي تشينغ",
+      "talent_type": "skill",
+      "source_name": "Stellar Restoration",
+      "arabic_name": "استعادة نجمية",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.keqing.talent.burst",
+      "category": "term",
+      "character_id": "character.keqing",
+      "character_name": "Keqing",
+      "character_name_ar": "كي تشينغ",
+      "talent_type": "burst",
+      "source_name": "Starward Sword",
+      "arabic_name": "سيف نحو النجوم",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.lisa.talent.normal",
+      "category": "term",
+      "character_id": "character.lisa",
+      "character_name": "Lisa",
+      "character_name_ar": "ليزا",
+      "talent_type": "normal",
+      "source_name": "Lightning Touch",
+      "arabic_name": "لمسة البرق",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.lisa.talent.skill",
+      "category": "term",
+      "character_id": "character.lisa",
+      "character_name": "Lisa",
+      "character_name_ar": "ليزا",
+      "talent_type": "skill",
+      "source_name": "Violet Arc",
+      "arabic_name": "قوس بنفسجي",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.lisa.talent.burst",
+      "category": "term",
+      "character_id": "character.lisa",
+      "character_name": "Lisa",
+      "character_name_ar": "ليزا",
+      "talent_type": "burst",
+      "source_name": "Lightning Rose",
+      "arabic_name": "وردة البرق",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.noelle.talent.normal",
+      "category": "term",
+      "character_id": "character.noelle",
+      "character_name": "Noelle",
+      "character_name_ar": "نويل",
+      "talent_type": "normal",
+      "source_name": "Favonius Bladework - Maid",
+      "arabic_name": "فن المبارزة الفافونية: الخادمة",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.noelle.talent.skill",
+      "category": "term",
+      "character_id": "character.noelle",
+      "character_name": "Noelle",
+      "character_name_ar": "نويل",
+      "talent_type": "skill",
+      "source_name": "Breastplate",
+      "arabic_name": "درع الصدر",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.noelle.talent.burst",
+      "category": "term",
+      "character_id": "character.noelle",
+      "character_name": "Noelle",
+      "character_name_ar": "نويل",
+      "talent_type": "burst",
+      "source_name": "Sweeping Time",
+      "arabic_name": "وقت الاجتياح",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.qiqi.talent.normal",
+      "category": "term",
+      "character_id": "character.qiqi",
+      "character_name": "Qiqi",
+      "character_name_ar": "تشي تشي",
+      "talent_type": "normal",
+      "source_name": "Ancient Sword Art",
+      "arabic_name": "فن السيف القديم",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.qiqi.talent.skill",
+      "category": "term",
+      "character_id": "character.qiqi",
+      "character_name": "Qiqi",
+      "character_name_ar": "تشي تشي",
+      "talent_type": "skill",
+      "source_name": "Adeptus Art: Herald of Frost",
+      "arabic_name": "فن الأديبتوس: مبشّر الصقيع",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.qiqi.talent.burst",
+      "category": "term",
+      "character_id": "character.qiqi",
+      "character_name": "Qiqi",
+      "character_name_ar": "تشي تشي",
+      "talent_type": "burst",
+      "source_name": "Adeptus Art: Preserver of Fortune",
+      "arabic_name": "فن الأديبتوس: حافظ الحظ",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.xiangling.talent.normal",
+      "category": "term",
+      "character_id": "character.xiangling",
+      "character_name": "Xiangling",
+      "character_name_ar": "شيانغلينغ",
+      "talent_type": "normal",
+      "source_name": "Dough-Fu",
+      "arabic_name": "فن العجين القتالي",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.xiangling.talent.skill",
+      "category": "term",
+      "character_id": "character.xiangling",
+      "character_name": "Xiangling",
+      "character_name_ar": "شيانغلينغ",
+      "talent_type": "skill",
+      "source_name": "Guoba Attack",
+      "arabic_name": "هجوم غووبا",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    },
+    {
+      "id": "character.xiangling.talent.burst",
+      "category": "term",
+      "character_id": "character.xiangling",
+      "character_name": "Xiangling",
+      "character_name_ar": "شيانغلينغ",
+      "talent_type": "burst",
+      "source_name": "Pyronado",
+      "arabic_name": "إعصار اللهب",
+      "description_source": null,
+      "description_ar": null,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+    }
+  ]
+}
