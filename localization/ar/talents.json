@@ -4602,6 +4602,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kujousara.talent.normal",
+      "category": "term",
+      "character_id": "character.10000056",
+      "character_name": "Kujou Sara",
+      "character_name_ar": "كوجو سارا",
+      "talent_type": "normal",
+      "source_name": "Tengu Bowmanship",
+      "arabic_name": "فنون رماية التينغو",
+      "description_source": null,
+      "description_ar": "تطلق كوجو سارا سهاماً متتابعة، ويمكنها شحن سهم كهربائي؛ ويترك السهم المشحون ريشة غراب عند إصابة الهدف أثناء تأثير الغطاء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kujousara.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kujousara.talent.skill",
+      "category": "term",
+      "character_id": "character.10000056",
+      "character_name": "Kujou Sara",
+      "character_name_ar": "كوجو سارا",
+      "talent_type": "skill",
+      "source_name": "Tengu Stormcall",
+      "arabic_name": "نداء عاصفة التينغو",
+      "description_source": null,
+      "description_ar": "تتراجع سارا بسرعة وتكتسب غطاء ريشة الغراب؛ وعند إطلاق سهم مشحون تترك ريشة تنفجر لاحقاً مسببة ضرر إلكترو وتمنح الشخصية النشطة تعزيزاً للهجوم.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kujousara.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.kujousara.talent.burst",
+      "category": "term",
+      "character_id": "character.10000056",
+      "character_name": "Kujou Sara",
+      "character_name_ar": "كوجو سارا",
+      "talent_type": "burst",
+      "source_name": "Subjugation: Koukou Sendou",
+      "arabic_name": "الإخضاع: كوكو سيندو",
+      "description_source": null,
+      "description_ar": "تستدعي سارا ضربة تيتان بريكر كهربائية واسعة تتفرع إلى أربع موجات عاصفة؛ وتمنح الضربات الشخصيات الواقعة ضمن نطاقها تعزيز الهجوم نفسه.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kujousara.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lanyan.talent.normal",
+      "category": "term",
+      "character_id": "character.10000108",
+      "character_name": "Lan Yan",
+      "character_name_ar": "لان يان",
+      "talent_type": "normal",
+      "source_name": "Black Pheasant Strides on Water",
+      "arabic_name": "خطوات التدرّج الأسود فوق الماء",
+      "description_source": null,
+      "description_ar": "تهاجم لان يان بحلقات ريش القمر مسببة ضرر أنيمو، ويمكنها رمي الحلقة بهجوم مشحون أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lanyan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lanyan.talent.skill",
+      "category": "term",
+      "character_id": "character.10000108",
+      "character_name": "Lan Yan",
+      "character_name_ar": "لان يان",
+      "talent_type": "skill",
+      "source_name": "Swallow-Wisp Pinion Dance",
+      "arabic_name": "رقصة ريشة السنونو",
+      "description_source": null,
+      "description_ar": "تندفع لان يان نحو الهدف وتعود إلى الهواء مع إنشاء درع يمتص الضرر، ثم يمكنها رمي حلقات ريش القمر لتصيب الأعداء القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lanyan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lanyan.talent.burst",
+      "category": "term",
+      "character_id": "character.10000108",
+      "character_name": "Lan Yan",
+      "character_name_ar": "لان يان",
+      "talent_type": "burst",
+      "source_name": "Lustrous Moonrise",
+      "arabic_name": "شروق القمر المتلألئ",
+      "description_source": null,
+      "description_ar": "تنشئ لان يان تشكيلاً من حلقات ريش القمر يجذب الأعداء والأشياء القريبة ويسبب ضرر أنيمو على دفعات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lanyan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lauma.talent.normal",
+      "category": "term",
+      "character_id": "character.10000119",
+      "character_name": "Lauma",
+      "character_name_ar": "لاوما",
+      "talent_type": "normal",
+      "source_name": "Peregrination of Linnunrata",
+      "arabic_name": "رحلة درب التبانة",
+      "description_source": null,
+      "description_ar": "تنفذ لاوما هجمات ديندرو متتابعة؛ ويمكنها التحول إلى مبعوثة الغابة والاندفاع والقفز، أو إطلاق صلاة روحية تسبب ضرراً واسعاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lauma.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lauma.talent.skill",
+      "category": "term",
+      "character_id": "character.10000119",
+      "character_name": "Lauma",
+      "character_name_ar": "لاوما",
+      "talent_type": "skill",
+      "source_name": "Runo: Dawnless Rest of Karsikko",
+      "arabic_name": "رونو: سكون كارسيكو الخالي من الفجر",
+      "description_source": null,
+      "description_ar": "تنشد لاوما ترنيمة تستدعي ملاذاً غابياً؛ والضغط المطول يستهلك قطرات الندى الخضراء لإطلاق ضرر ديندرو إضافي من نوع إزهار قمري ويقلل مقاومتي ديندرو وهيدرو لدى الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lauma.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lauma.talent.burst",
+      "category": "term",
+      "character_id": "character.10000119",
+      "character_name": "Lauma",
+      "character_name_ar": "لاوما",
+      "talent_type": "burst",
+      "source_name": "Runo: All Hearts Become the Beating Moon",
+      "arabic_name": "رونو: لتصبح كل القلوب قمراً نابضاً",
+      "description_source": null,
+      "description_ar": "تنشد لاوما أغنية مقدسة وتجمع تراكمات من الترنيمة الشاحبة؛ وتُستهلك هذه التراكمات لتعزيز ضرر تفاعلات الإزهار والتفرع والاشتعال والإزهار القمري للفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lauma.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.layla.talent.normal",
+      "category": "term",
+      "character_id": "character.10000074",
+      "character_name": "Layla",
+      "character_name_ar": "ليلى",
+      "talent_type": "normal",
+      "source_name": "Sword of the Radiant Path",
+      "arabic_name": "سيف الطريق المشرق",
+      "description_source": null,
+      "description_ar": "تنفذ ليلى ضربات سريعة متتابعة بالسيف، مع ضربتين مشحونتين وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/layla.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.layla.talent.skill",
+      "category": "term",
+      "character_id": "character.10000074",
+      "character_name": "Layla",
+      "character_name_ar": "ليلى",
+      "talent_type": "skill",
+      "source_name": "Nights of Formal Focus",
+      "arabic_name": "ليالي التركيز الرسمي",
+      "description_source": null,
+      "description_ar": "تنشئ ليلى درع ستار السبات الذي يمتص الضرر الكريو بفاعلية أكبر؛ وتتجمع حوله نجوم ليلية تتحول إلى نجوم ساقطة تطارد الأعداء وتسبب ضرر كريو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/layla.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.layla.talent.burst",
+      "category": "term",
+      "character_id": "character.10000074",
+      "character_name": "Layla",
+      "character_name_ar": "ليلى",
+      "talent_type": "burst",
+      "source_name": "Dream of the Star-Stream Shaker",
+      "arabic_name": "حلم محرّك تيار النجوم",
+      "description_source": null,
+      "description_ar": "تستدعي ليلى كرة أحلام سماوية تطلق مقذوفات نجمية على الأعداء داخل نطاقها، وتولد إصاباتها نجوماً ليلية إضافية للدروع القريبة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/layla.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.linnea.talent.normal",
+      "category": "term",
+      "character_id": "character.10000130",
+      "character_name": "Linnea",
+      "character_name_ar": "لينيا",
+      "talent_type": "normal",
+      "source_name": "Capture Protocol",
+      "arabic_name": "بروتوكول الالتقاط",
+      "description_source": null,
+      "description_ar": "تطلق لينيا سهاماً متتابعة، ويمكنها شحن سهم جغرافي أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/linnea.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.linnea.talent.skill",
+      "category": "term",
+      "character_id": "character.10000130",
+      "character_name": "Linnea",
+      "character_name_ar": "لينيا",
+      "talent_type": "skill",
+      "source_name": "Countermeasure: Lumi's Battle Cry!",
+      "arabic_name": "إجراء مضاد: صرخة لومي القتالية!",
+      "description_source": null,
+      "description_ar": "تأمر لينيا لومي بالهجوم؛ ويختلف أسلوبه بحسب الضغط، ومع تكرار التفعيل وإطعامه الجواهر ينفذ ضربة أقوى من نوع التبلور القمري.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/linnea.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.linnea.talent.burst",
+      "category": "term",
+      "character_id": "character.10000130",
+      "character_name": "Linnea",
+      "character_name_ar": "لينيا",
+      "talent_type": "burst",
+      "source_name": "Memo: Survival Guide in Extreme Conditions",
+      "arabic_name": "مذكرة: دليل النجاة في الظروف القاسية",
+      "description_source": null,
+      "description_ar": "تستدعي لينيا لومي ليضرب الأعداء ثم يعالج أعضاء الفريق القريبين بصورة متواصلة اعتماداً على دفاعها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/linnea.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lohen.talent.normal",
+      "category": "term",
+      "character_id": "character.10000129",
+      "character_name": "Lohen",
+      "character_name_ar": "لوهن",
+      "talent_type": "normal",
+      "source_name": "Spear of Favonius — Broken Oath",
+      "arabic_name": "رمح فافونيوس — العهد المكسور",
+      "description_source": null,
+      "description_ar": "ينفذ لوهن ضربات متتابعة، مع اندفاع رمحي مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lohen.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lohen.talent.skill",
+      "category": "term",
+      "character_id": "character.10000129",
+      "character_name": "Lohen",
+      "character_name_ar": "لوهن",
+      "talent_type": "skill",
+      "source_name": "Unforeseen Strike",
+      "arabic_name": "ضربة غير متوقعة",
+      "description_source": null,
+      "description_ar": "يدخل لوهن وضع الضربة الحاسمة، ويجمع البهجة لاستخدام مهارته الخاصة، بينما تساعد إرادة الفوز لدى أعضاء الفريق على زيادة ضررها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lohen.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lohen.talent.burst",
+      "category": "term",
+      "character_id": "character.10000129",
+      "character_name": "Lohen",
+      "character_name_ar": "لوهن",
+      "talent_type": "burst",
+      "source_name": "Manifest Judgment",
+      "arabic_name": "الحكم المتجلي",
+      "description_source": null,
+      "description_ar": "ينفذ لوهن سلسلة سريعة من الضربات الأمامية ويستهلك جميع تراكمات إرادة الفوز لزيادة ضرر كريو؛ ويطيل وضع الضربة الحاسمة إن كان نشطاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lohen.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lynette.talent.normal",
+      "category": "term",
+      "character_id": "character.10000083",
+      "character_name": "Lynette",
+      "character_name_ar": "لينيت",
+      "talent_type": "normal",
+      "source_name": "Rapid Ritesword",
+      "arabic_name": "سيف الطقوس السريع",
+      "description_source": null,
+      "description_ar": "تنفذ لينيت ضربات سريعة متتابعة بالسيف، مع ضربتين مشحونتين وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lynette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lynette.talent.skill",
+      "category": "term",
+      "character_id": "character.10000083",
+      "character_name": "Lynette",
+      "character_name_ar": "لينيت",
+      "talent_type": "skill",
+      "source_name": "Enigmatic Feint",
+      "arabic_name": "مراوغة غامضة",
+      "description_source": null,
+      "description_ar": "تطلق لينيت طعنة أنيمو تستعيد بها جزءاً من صحتها ثم تستهلك صحتها تدريجياً؛ والضغط المطول يجعلها تتحرك بسرعة وتحدد عدواً لتندفع نحوه.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lynette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lynette.talent.burst",
+      "category": "term",
+      "character_id": "character.10000083",
+      "character_name": "Lynette",
+      "character_name_ar": "لينيت",
+      "talent_type": "burst",
+      "source_name": "Magic Trick: Astonishing Shift",
+      "arabic_name": "خدعة سحرية: تحوّل مذهل",
+      "description_source": null,
+      "description_ar": "تنشئ لينيت صندوق القط المتحير الذي يجذب هجمات الأعداء ويسبب ضرر أنيمو دورياً، ويمكنه امتصاص عنصراً وتحويل طلقاته إلى ذلك العنصر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lynette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lyney.talent.normal",
+      "category": "term",
+      "character_id": "character.10000084",
+      "character_name": "Lyney",
+      "character_name_ar": "ليني",
+      "talent_type": "normal",
+      "source_name": "Card Force Translocation",
+      "arabic_name": "انتقال قوة البطاقات",
+      "description_source": null,
+      "description_ar": "يطلق ليني سهاماً متتابعة؛ ويؤدي شحن السهم إلى إطلاق سهم ناري أو سهم دعائي يستدعي قبعة غرين-مالكين، مع استهلاك جزء من صحته لاكتساب فائض دعائي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lyney.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lyney.talent.skill",
+      "category": "term",
+      "character_id": "character.10000084",
+      "character_name": "Lyney",
+      "character_name_ar": "ليني",
+      "talent_type": "skill",
+      "source_name": "Bewildering Lights",
+      "arabic_name": "أضواء محيّرة",
+      "description_source": null,
+      "description_ar": "يفجّر ليني تراكمات الفائض الدعائي ليطلق ضرر بايرو واسعاً ويستعيد صحته؛ كما يفجر القبعة التي استدعاها إن كانت موجودة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lyney.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.lyney.talent.burst",
+      "category": "term",
+      "character_id": "character.10000084",
+      "character_name": "Lyney",
+      "character_name_ar": "ليني",
+      "talent_type": "burst",
+      "source_name": "Wondrous Trick: Miracle Parade",
+      "arabic_name": "خدعة عجيبة: موكب المعجزة",
+      "description_source": null,
+      "description_ar": "يتحول ليني إلى قط غرين-مالكين سريع الحركة يطلق النيران على الأعداء، ثم ينفجر في نهاية المدة مسبباً ضرر بايرو ويستدعي قبعة إضافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/lyney.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
