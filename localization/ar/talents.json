@@ -3594,6 +3594,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.escoffier.talent.normal",
+      "category": "term",
+      "character_id": "character.escoffier",
+      "character_name": "Escoffier",
+      "character_name_ar": "إسكوفير",
+      "talent_type": "normal",
+      "source_name": "Kitchen Skills",
+      "arabic_name": "مهارات المطبخ",
+      "description_source": null,
+      "description_ar": "تنفذ إسكوفير ضربات متتابعة بالرمح، مع ضربة صاعدة مشحونة وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/escoffier.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.escoffier.talent.skill",
+      "category": "term",
+      "character_id": "character.escoffier",
+      "character_name": "Escoffier",
+      "character_name_ar": "إسكوفير",
+      "talent_type": "skill",
+      "source_name": "Low-Temperature Cooking",
+      "arabic_name": "الطهي بدرجة حرارة منخفضة",
+      "description_source": null,
+      "description_ar": "تفعّل آلة الطهي متعددة الاستخدامات لتتبع الشخصية النشطة وإطلاق حلوى مثلجة تسبب ضرر كريو؛ ويمكن للضغط المطول تفعيل نمط طهي آخر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/escoffier.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.escoffier.talent.burst",
+      "category": "term",
+      "character_id": "character.escoffier",
+      "character_name": "Escoffier",
+      "character_name_ar": "إسكوفير",
+      "talent_type": "burst",
+      "source_name": "Scoring Cuts",
+      "arabic_name": "تقطيعات دقيقة",
+      "description_source": null,
+      "description_ar": "تطلق إسكوفير ضربة كريو واسعة وتستعيد صحة أعضاء الفريق القريبين وفقاً لهجومها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/escoffier.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.faruzan.talent.normal",
+      "category": "term",
+      "character_id": "character.faruzan",
+      "character_name": "Faruzan",
+      "character_name_ar": "فاروزان",
+      "talent_type": "normal",
+      "source_name": "Parthian Shot",
+      "arabic_name": "الطلقة البارثية",
+      "description_source": null,
+      "description_ar": "تطلق فاروزان سهاماً متتابعة، ويمكنها شحن سهم أنيمو أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/faruzan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.faruzan.talent.skill",
+      "category": "term",
+      "character_id": "character.faruzan",
+      "character_name": "Faruzan",
+      "character_name_ar": "فاروزان",
+      "talent_type": "skill",
+      "source_name": "Wind Realm of Nasamjnin",
+      "arabic_name": "مملكة الرياح في ناسامجنين",
+      "description_source": null,
+      "description_ar": "تنشئ فاروزان شكلاً متعدد الأوجه وتدخل حالة الرياح الظاهرة؛ ثم تطلق سهماً إعصارياً ينشئ دوامة تجذب الأعداء والأشياء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/faruzan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.faruzan.talent.burst",
+      "category": "term",
+      "character_id": "character.faruzan",
+      "character_name": "Faruzan",
+      "character_name_ar": "فاروزان",
+      "talent_type": "burst",
+      "source_name": "The Wind's Secret Ways",
+      "arabic_name": "مسالك الرياح السرية",
+      "description_source": null,
+      "description_ar": "تطلق شكلاً متعدد الأوجه ينبض بالرياح على مسار مثلث، فيقلل مقاومة الأعداء للأنيمو ويمنح الفريق تعزيزاً لضرر أنيمو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/faruzan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.fischl.talent.normal",
+      "category": "term",
+      "character_id": "character.fischl",
+      "character_name": "Fischl",
+      "character_name_ar": "فيشل",
+      "talent_type": "normal",
+      "source_name": "Bolts of Downfall",
+      "arabic_name": "سهام الهلاك",
+      "description_source": null,
+      "description_ar": "تطلق فيشل سهاماً متتابعة، ويمكنها شحن سهم مشبع بطاقة إلكترو أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/fischl.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.fischl.talent.skill",
+      "category": "term",
+      "character_id": "character.fischl",
+      "character_name": "Fischl",
+      "character_name_ar": "فيشل",
+      "talent_type": "skill",
+      "source_name": "Nightrider",
+      "arabic_name": "فارس الليل",
+      "description_source": null,
+      "description_ar": "تستدعي فيشل أوز، الغراب الكهربائي، ليهاجم الأعداء القريبين باستمرار؛ ويمكن تعديل موضع استدعائه.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/fischl.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.fischl.talent.burst",
+      "category": "term",
+      "character_id": "character.fischl",
+      "character_name": "Fischl",
+      "character_name_ar": "فيشل",
+      "talent_type": "burst",
+      "source_name": "Midnight Phantasmagoria",
+      "arabic_name": "رؤى منتصف الليل الوهمية",
+      "description_source": null,
+      "description_ar": "تتخذ فيشل هيئة أوز وتندفع بسرعة، مصيبة الأعداء بصواعق إلكترو، ثم يبقى أوز في ساحة المعركة بعد انتهاء التأثير.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/fischl.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.freminet.talent.normal",
+      "category": "term",
+      "character_id": "character.freminet",
+      "character_name": "Freminet",
+      "character_name_ar": "فريمينيه",
+      "talent_type": "normal",
+      "source_name": "Flowing Eddies",
+      "arabic_name": "التيارات المتدفقة",
+      "description_source": null,
+      "description_ar": "ينفذ فريمينيه ضربات متتابعة بالسيف العظيم، مع هجوم مشحون دوار وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/freminet.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.freminet.talent.skill",
+      "category": "term",
+      "character_id": "character.freminet",
+      "character_name": "Freminet",
+      "character_name_ar": "فريمينيه",
+      "talent_type": "skill",
+      "source_name": "Pressurized Floe",
+      "arabic_name": "كتلة جليدية مضغوطة",
+      "description_source": null,
+      "description_ar": "يدخل فريمينيه حالة مؤقتة تتدرج فيها قوة الضغط؛ ويطلق بعدها ضربة كريو أو مزيجاً من الضرر الكريو والفيزيائي بحسب مستوى الضغط.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/freminet.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.freminet.talent.burst",
+      "category": "term",
+      "character_id": "character.freminet",
+      "character_name": "Freminet",
+      "character_name_ar": "فريمينيه",
+      "talent_type": "burst",
+      "source_name": "Shadowhunter's Ambush",
+      "arabic_name": "كمين صياد الظلال",
+      "description_source": null,
+      "description_ar": "يطلق موجة برد واسعة ويعيد ضبط مهارة العنصر، ثم يدخل نمط الصياد تحت الماء الذي يعزز المهارة ويزيد سرعة تراكم الضغط.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/freminet.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.gaming.talent.normal",
+      "category": "term",
+      "character_id": "character.10000092",
+      "character_name": "Gaming",
+      "character_name_ar": "غامِنغ",
+      "talent_type": "normal",
+      "source_name": "Stellar Rend",
+      "arabic_name": "شقّ النجوم",
+      "description_source": null,
+      "description_ar": "ينفذ غامِنغ ضربات متتابعة بالسيف العظيم، مع هجوم مشحون دوار وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/gaming.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.gaming.talent.skill",
+      "category": "term",
+      "character_id": "character.10000092",
+      "character_name": "Gaming",
+      "character_name_ar": "غامِنغ",
+      "talent_type": "skill",
+      "source_name": "Bestial Ascent",
+      "arabic_name": "الارتقاء الوحشي",
+      "description_source": null,
+      "description_ar": "يندفع غامِنغ إلى الأمام بأسلوب ووشو ويقفز عالياً؛ وإذا أعقب القفزة بهجوم غطس ينفذ ضربة خاصة نارية تستهلك جزءاً من صحته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/gaming.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.gaming.talent.burst",
+      "category": "term",
+      "character_id": "character.10000092",
+      "character_name": "Gaming",
+      "character_name_ar": "غامِنغ",
+      "talent_type": "burst",
+      "source_name": "Suanni's Gilded Dance",
+      "arabic_name": "رقصة السواني الذهبية",
+      "description_source": null,
+      "description_ar": "يدخل غامِنغ وضع ووشو ويستعيد جزءاً من صحته، ثم يستدعي رفيقه مان تشاي لضرب الأعداء وإعادة ضبط تبريد مهارته عند عودته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/gaming.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.gorou.talent.normal",
+      "category": "term",
+      "character_id": "character.10000055",
+      "character_name": "Gorou",
+      "character_name_ar": "غورو",
+      "talent_type": "normal",
+      "source_name": "Ripping Fang Fletching",
+      "arabic_name": "تجهيز ريشة الناب الممزق",
+      "description_source": null,
+      "description_ar": "يطلق غورو سهاماً متتابعة، ويمكنه شحن سهم جغرافي أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/gorou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.gorou.talent.skill",
+      "category": "term",
+      "character_id": "character.10000055",
+      "character_name": "Gorou",
+      "character_name_ar": "غورو",
+      "talent_type": "skill",
+      "source_name": "Inuzaka All-Round Defense",
+      "arabic_name": "دفاع إينوزاكا الشامل",
+      "description_source": null,
+      "description_ar": "ينشئ غورو راية الجنرال التي تمنح الشخصيات النشطة تعزيزات دفاعية ومقاومة للمقاطعة وضرر جغرافي بحسب عدد شخصيات جيو في الفريق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/gorou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.gorou.talent.burst",
+      "category": "term",
+      "character_id": "character.10000055",
+      "character_name": "Gorou",
+      "character_name_ar": "غورو",
+      "talent_type": "burst",
+      "source_name": "Juuga: Forward Unto Victory",
+      "arabic_name": "جوغا: تقدّم نحو النصر",
+      "description_source": null,
+      "description_ar": "ينشئ غورو مجال مجد الجنرال المتحرك الذي يمنح تعزيزات مشابهة للراية، ويسبب ضرراً جغرافياً دورياً ويجذب الشظايا العنصرية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/gorou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.shikanoinheizou.talent.normal",
+      "category": "term",
+      "character_id": "character.10000059",
+      "character_name": "Shikanoin Heizou",
+      "character_name_ar": "شيكانوين هيزو",
+      "talent_type": "normal",
+      "source_name": "Fudou Style Martial Arts",
+      "arabic_name": "فنون القتال بأسلوب فودو",
+      "description_source": null,
+      "description_ar": "يستخدم هيزو ضربات قبضته وركلاته المدعومة بالرياح لإحداث ضرر أنيمو، مع هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/shikanoinheizou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.shikanoinheizou.talent.skill",
+      "category": "term",
+      "character_id": "character.10000059",
+      "character_name": "Shikanoin Heizou",
+      "character_name_ar": "شيكانوين هيزو",
+      "talent_type": "skill",
+      "source_name": "Heartstopper Strike",
+      "arabic_name": "ضربة حابسة القلب",
+      "description_source": null,
+      "description_ar": "يطلق هيزو ضربة أنيمو تزداد قوتها عند شحنها وتكديس تأثير الانحسار، وتبلغ ذروتها عند اكتمال أربع تراكمات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/shikanoinheizou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.shikanoinheizou.talent.burst",
+      "category": "term",
+      "character_id": "character.10000059",
+      "character_name": "Shikanoin Heizou",
+      "character_name_ar": "شيكانوين هيزو",
+      "talent_type": "burst",
+      "source_name": "Windmuster Kick",
+      "arabic_name": "ركلة اندفاع الرياح",
+      "description_source": null,
+      "description_ar": "يقفز هيزو ويركل قذيفة فراغية تنفجر لتنشئ دوامة جاذبة؛ وقد تلحق بالأعداء المتأثرين بعناصر معينة ضرراً عنصرياً إضافياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/shikanoinheizou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.iansan.talent.normal",
+      "category": "term",
+      "character_id": "character.10000110",
+      "character_name": "Iansan",
+      "character_name_ar": "إيانسان",
+      "talent_type": "normal",
+      "source_name": "Weighted Spike",
+      "arabic_name": "رمح موزون",
+      "description_source": null,
+      "description_ar": "تنفذ إيانسان ضربات متتابعة بالرمح؛ وفي حالة النعمة الليلية يتحول هجومها المشحون إلى دوسة كهربائية قوية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/iansan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.iansan.talent.skill",
+      "category": "term",
+      "character_id": "character.10000110",
+      "character_name": "Iansan",
+      "character_name_ar": "إيانسان",
+      "talent_type": "skill",
+      "source_name": "Thunderbolt Rush",
+      "arabic_name": "اندفاع الصاعقة",
+      "description_source": null,
+      "description_ar": "تندفع إيانسان إلى الأمام مسببة ضرر إلكترو وتدخل حالة النعمة الليلية، التي تزيد سرعتها وتتيح اندفاعاً أسرع وقفزات حركية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/iansan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.iansan.talent.burst",
+      "category": "term",
+      "character_id": "character.10000110",
+      "character_name": "Iansan",
+      "character_name_ar": "إيانسان",
+      "talent_type": "burst",
+      "source_name": "The Three Principles of Power",
+      "arabic_name": "المبادئ الثلاثة للقوة",
+      "description_source": null,
+      "description_ar": "تضرب إيانسان الأرض بقدمها وتستدعي مقياس الطاقة الحركية الذي يتبع الشخصية النشطة ويعزز هجومها، كما يستعيد نقاطها الليلية وفق مسافة الحركة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/iansan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
