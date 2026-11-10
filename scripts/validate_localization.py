@@ -49,7 +49,7 @@ for path in files:
             errors.append(f"{label} is missing fields: {', '.join(sorted(missing))}")
             continue
 
-        if entry["translation_status"] not in allowed_statuses:
+        if not isinstance(entry["translation_status"], str) or entry["translation_status"] not in allowed_statuses:
             errors.append(f"{label} has unsupported translation_status")
         if not isinstance(entry["source"], list) or not entry["source"]:
             errors.append(f"{label} must include at least one source record")
@@ -57,7 +57,7 @@ for path in files:
             errors.append(f"{label} arabic_name must be a string")
 
 if errors:
-    print("\\n".join(errors))
+    print("\n".join(errors))
     sys.exit(1)
 
 print(f"Validated JSON syntax and catalog records in {checked} files.")
