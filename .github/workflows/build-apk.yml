@@ -223,6 +223,7 @@ jobs:
               TextView overlayPermissionStatus, liveScanStatus;
               Translator liveTranslator;
               boolean translatorReady=false;
+              boolean translatorDownloading=false;
               final AtomicBoolean translatingText=new AtomicBoolean(false);
               long lastTranslationAt=0;
               String lastLiveSource="";
@@ -580,9 +581,7 @@ jobs:
                       .setSourceLanguage(TranslateLanguage.ENGLISH)
                       .setTargetLanguage(TranslateLanguage.ARABIC).build();
                   liveTranslator=Translation.getClient(options);
-                  liveTranslator.downloadModelIfNeeded(new DownloadConditions.Builder().build())
-                      .addOnSuccessListener(v->{translatorReady=true;updateOverlay("الترجمة جاهزة\nافتح اللعبة لعرض الترجمة هنا.");})
-                      .addOnFailureListener(e->updateOverlay("تعذر تنزيل نموذج الترجمة: "+e.getClass().getSimpleName()+". اتصل بالإنترنت وأعد بدء المسح."));
+                  prepareTranslationModel();
               }
               void setupFloatingMenu() {
                   floatingMenu=new LinearLayout(this);
@@ -711,14 +710,48 @@ jobs:
                   }
                   resourceMarkers.clear();
               }
+              void prepareTranslationModel() {
+                  if(liveTranslator==null || translatorReady || translatorDownloading) return;
+                  translatorDownloading=true;
+                  updateOverlay("جارٍ تنزيل نموذج الترجمة الإنجليزية ← العربية...");
+                  liveTranslator.downloadModelIfNeeded(new DownloadConditions.Builder().build())
+                      .addOnSuccessListener(v->{
+                          translatorDownloading=false;
+                          translatorReady=true;
+                          lastLiveSource="";
+                          updateOverlay("نموذج الترجمة جاهز ✓\\nأقرأ النصوص الظاهرة في اللعبة...");
+                      })
+                      .addOnFailureListener(e->{
+                          translatorDownloading=false;
+                          translatorReady=false;
+                          android.util.Log.e("GenshinAssistant","Translation model download failed",e);
+                          updateOverlay("فشل تنزيل نموذج الترجمة: "+e.getClass().getSimpleName()
+                              +"\\nتحقق من الإنترنت ثم أعد بدء المسح.");
+                      });
+              }
               void translateLiveText(String source) {
+                  if(source==null || source.trim().length()<2) return;
                   long now=System.currentTimeMillis();
-                  if(!translatorReady || liveTranslator==null || translatingText.get() || now-lastTranslationAt<1400 || source.equals(lastLiveSource)) return;
+                  if(liveTranslator==null) return;
+                  if(!translatorReady) {
+                      if(!translatorDownloading) prepareTranslationModel();
+                      if(now-lastOcrUiUpdate>3500) updateOverlay("تمت قراءة النص، أنتظر تجهيز نموذج الترجمة...\\n"+source);
+                      return;
+                  }
+                  if(translatingText.get() || now-lastTranslationAt<1400 || source.equals(lastLiveSource)) return;
                   if(!translatingText.compareAndSet(false,true)) return;
-                  lastTranslationAt=now; lastLiveSource=source;
+                  lastTranslationAt=now;
                   liveTranslator.translate(source)
-                      .addOnSuccessListener(translated->updateOverlay(source+"\n\nالعربية:\n"+translated))
-                      .addOnFailureListener(e->updateOverlay("تعذرت ترجمة النص: "+e.getClass().getSimpleName()+"\n"+source))
+                      .addOnSuccessListener(translated->{
+                          lastLiveSource=source;
+                          updateOverlay("النص الأصلي:\\n"+source+"\\n\\nالعربية:\\n"+translated);
+                      })
+                      .addOnFailureListener(e->{
+                          lastLiveSource="";
+                          android.util.Log.e("GenshinAssistant","Live translation failed",e);
+                          updateOverlay("تعذرت ترجمة النص: "+e.getClass().getSimpleName()
+                              +"\\nسيحاول التطبيق مجدداً.\\n"+source);
+                      })
                       .addOnCompleteListener(task->translatingText.set(false));
               }
               String normalizeOcr(String raw) {
