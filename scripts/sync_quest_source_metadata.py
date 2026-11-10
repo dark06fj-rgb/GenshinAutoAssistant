@@ -427,6 +427,8 @@ def main() -> int:
     }
     applied_translations = {group: 0 for group in translation_targets}
     for group, mapping in translation_data.items():
+        if group in ("archon_summaries", "world_summaries"):
+            continue
         target = translation_targets.get(group)
         if target is None or not isinstance(mapping, dict):
             raise ValueError(f"Invalid quest title translation group: {group!r}")
@@ -455,6 +457,39 @@ def main() -> int:
                 )
                 applied_translations[group] += 1
 
+    summary_targets = {
+        "archon_summaries": ("archon", "quest"),
+        "world_summaries": ("world", "quest"),
+    }
+    applied_summaries = {group: 0 for group in summary_targets}
+    for group, mapping in translation_data.items():
+        if group not in summary_targets:
+            continue
+        if not isinstance(mapping, dict):
+            raise ValueError(f"Invalid quest summary translation group: {group!r}")
+        kind, node_type = summary_targets[group]
+        known_source_ids = {
+            source_id for (current_type, source_id) in existing_by_kind[kind]
+            if current_type == node_type
+        }
+        for source_id, arabic_summary in mapping.items():
+            if source_id not in known_source_ids:
+                raise ValueError(
+                    f"Summary map references unknown {kind}/{node_type} ID {source_id}"
+                )
+            if not isinstance(arabic_summary, str) or not arabic_summary.strip():
+                raise ValueError(f"Summary for {group} ID {source_id} is empty")
+            if not any("\\u0600" <= char <= "\\u06FF" for char in arabic_summary):
+                raise ValueError(f"Summary for {group} ID {source_id} contains no Arabic text")
+            entry = existing_by_kind[kind][(node_type, source_id)]
+            if not str(entry.get("description_ar") or "").strip():
+                entry["description_ar"] = arabic_summary.strip()
+                if entry.get("arabic_name"):
+                    entry["translation_status"] = "draft"
+                entry["review_notes"] = (
+                    "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية."
+                )
+                applied_summaries[group] += 1
     # Resolve only prerequisites that are present in the matching catalog.
     for kind in ("archon", "world"):
         source_to_catalog_id = {
@@ -573,6 +608,7 @@ def main() -> int:
         f"WQ series={applied_translations['world_series']}"
     )
     print(f"Prerequisite cycle edges safely omitted: {cycle_edges_dropped}")
+    print(f"Arabic original summaries applied: AQ={applied_summaries['archon_summaries']}, WQ={applied_summaries['world_summaries']}")
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
     print(
