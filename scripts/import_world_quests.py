@@ -41,10 +41,11 @@ def download_json(url: str):
         os.unlink(name)
 
 
-def text_for(text_map, value):
+def text_for(text_map, medium_text_map, value):
     if value is None:
         return ""
-    return str(text_map.get(str(value), "")).strip()
+    key = str(value)
+    return str(text_map.get(key) or medium_text_map.get(key) or "").strip()
 
 
 def main():
