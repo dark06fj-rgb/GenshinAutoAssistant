@@ -58,8 +58,39 @@ def fixture_catalogs():
         "artifacts.json": {"entries": [
             entity("artifact.test", "artifact", "Test Set", "مجموعة تجريبية")
         ]},
-        "quests_archon.json": {"entries": []},
-        "quests_world.json": {"entries": []},
+        "quests_archon.json": {"entries": [
+            entity(
+                "quest.archon.chapter.prologue", "quest", "Prologue",
+                "المقدمة", quest_type="archon", node_type="chapter",
+                source_quest_id="1001", parent_id=None, prerequisite_ids=[],
+            ),
+            entity(
+                "quest.archon.act.prologue.i", "quest", "Act I",
+                "الفصل الأول", quest_type="archon", node_type="act",
+                source_quest_id="1001-1", parent_id="quest.archon.chapter.prologue",
+                prerequisite_ids=[], sequence=1,
+            ),
+            entity(
+                "quest.archon.quest.wanderers_trail", "quest", "Wanderer's Trail",
+                "أثر المتجول", quest_type="archon", node_type="quest",
+                source_quest_id="100101", parent_id="quest.archon.act.prologue.i",
+                prerequisite_ids=[], sequence=1,
+            ),
+        ]},
+        "quests_world.json": {"entries": [
+            entity(
+                "quest.world.series.chi_of_yore", "quest", "The Chi of Yore",
+                "تشي العصور", quest_type="world", node_type="series",
+                source_quest_id="series-chi-of-yore", parent_id=None,
+                prerequisite_ids=[],
+            ),
+            entity(
+                "quest.world.quest.the_chi_of_yore", "quest", "The Chi of Yore",
+                "تشي العصور", quest_type="world", node_type="quest",
+                source_quest_id="quest-chi-of-yore", parent_id="quest.world.series.chi_of_yore",
+                prerequisite_ids=[], sequence=1,
+            ),
+        ]},
     }
 
 
@@ -162,6 +193,73 @@ class ValidatorRegressionTests(unittest.TestCase):
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
         self.assertIn("Missing expected catalog", output)
+
+    def test_quest_type_must_match_catalog(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_world.json"]["entries"][0]["quest_type"] = "archon"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("does not match catalog type", output)
+
+    def test_quest_parent_reference_must_exist(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_archon.json"]["entries"][2]["parent_id"] = "quest.archon.act.missing"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("references missing parent_id", output)
+
+    def test_quest_prerequisite_reference_must_exist(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_world.json"]["entries"][1]["prerequisite_ids"] = [
+            "quest.world.quest.missing"
+        ]
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("references missing prerequisite_id", output)
+
+    def test_quest_parent_cycle_fails(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_archon.json"]["entries"][0]["parent_id"] = (
+            "quest.archon.act.prologue.i"
+        )
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("parent hierarchy cycle", output)
+
+    def test_quest_prerequisite_cycle_fails(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_archon.json"]["entries"][1]["prerequisite_ids"] = [
+            "quest.archon.quest.wanderers_trail"
+        ]
+        catalogs["quests_archon.json"]["entries"][2]["prerequisite_ids"] = [
+            "quest.archon.act.prologue.i"
+        ]
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("prerequisite cycle", output)
+
+    def test_duplicate_quest_source_id_for_same_node_type_fails(self):
+        catalogs = fixture_catalogs()
+        duplicate = dict(catalogs["quests_archon.json"]["entries"][2])
+        duplicate["id"] = "quest.archon.quest.another"
+        catalogs["quests_archon.json"]["entries"].append(duplicate)
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("duplicates source_quest_id", output)
+
+    def test_quest_catalog_rejects_invalid_node_type(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_world.json"]["entries"][0]["node_type"] = "chapter"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("unsupported node_type", output)
 
 
     def test_complete_traveler_seven_element_matrix_passes(self):
