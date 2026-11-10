@@ -62151,7 +62151,7 @@
       "source_quest_id": "75676",
       "source_name": "Stress-B-Gone Gaming",
       "arabic_name": "ألعاب للتخلص من التوتر",
-      "description_ar": null,
+      "description_ar": "تسمع بوصول موظفين من حمّام آيسا إلى منتجع إيزي بريز للعطلات، فتتوجه لمعرفة ما الذي يفعلانه هناك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -62168,7 +62168,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -63844,7 +63844,7 @@
       "source_quest_id": "76062",
       "source_name": "Visitors From the Stars",
       "arabic_name": "زوار من النجوم",
-      "description_ar": null,
+      "description_ar": "تتعرف عبر جهاز المحطة في عين إبني-بيلوم على موقع كولومبينا، ويبدو أنها قد تكون في المنشأة التالية.",
       "chapter_id": "10199",
       "act_id": null,
       "series_id": null,
@@ -63861,7 +63861,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10199,
         "series": null,
@@ -63888,7 +63888,7 @@
       "source_quest_id": "76069",
       "source_name": "Nameless Bloodstained Monument",
       "arabic_name": "نصب تذكاري ملطخ بالدماء مجهول الاسم",
-      "description_ar": null,
+      "description_ar": "تكتشف نطاقاً أغلقته قوة ريح الشمال، وكان قديماً موضعاً قاتل فيه الفرسان الشياطين ودُفنوا فيه مع سيوفهم؛ وتخلّد نقوشه العدالة وذكرى أولئك الفرسان.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -63905,7 +63905,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -64288,7 +64288,7 @@
       "source_quest_id": "76089",
       "source_name": "Long Live Life",
       "arabic_name": "تحيا الحياة",
-      "description_ar": null,
+      "description_ar": "تتجول بقع حبر غريبة في أرجاء أكاديمية لويانغ، ويبدو أن وراءها أمراً غير مألوف.",
       "chapter_id": "10094",
       "act_id": null,
       "series_id": null,
@@ -64305,7 +64305,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10094,
         "series": null,
@@ -64428,7 +64428,7 @@
       "source_quest_id": "76095",
       "source_name": "A Day the Grand Temple Inscribed with Ages",
       "arabic_name": "يوم نقش فيه المعبد العظيم العصور",
-      "description_ar": null,
+      "description_ar": "يعدّ حراس قاعة الأعمدة محتويات حقيبة زايتليند آثاراً ثمينة، فيوزعونها داخل معبد الفضاء؛ وتكشف إستوريا أن كثيرين ما زالوا ينتظرون الإنقاذ في تلك المناطق.",
       "chapter_id": "10094",
       "act_id": null,
       "series_id": null,
@@ -64445,7 +64445,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10094,
         "series": null,
@@ -64472,7 +64472,7 @@
       "source_quest_id": "76096",
       "source_name": "The Final Judgment",
       "arabic_name": "الحُكم الأخير",
-      "description_ar": null,
+      "description_ar": "تعود أخيراً من الفاصل اللامبالي إلى قاعة الأعمدة، بعد رحلتك الطويلة.",
       "chapter_id": "10132",
       "act_id": null,
       "series_id": null,
@@ -64489,7 +64489,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10132,
         "series": null,
@@ -65282,7 +65282,7 @@
       "source_quest_id": "76127",
       "source_name": "Pioneers",
       "arabic_name": "الروّاد",
-      "description_ar": null,
+      "description_ar": "تلمح كولومبينا على جزيرة مهجورة شرق بيراميدا، فتسارع للحاق بها خشية أن تكون في ورطة، لتبدأ مغامرة مجهولة.",
       "chapter_id": "10199",
       "act_id": null,
       "series_id": null,
@@ -65299,7 +65299,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10199,
         "series": null,
@@ -65376,7 +65376,7 @@
       "source_quest_id": "76131",
       "source_name": "Project Moongazer",
       "arabic_name": "مشروع محدّق القمر",
-      "description_ar": null,
+      "description_ar": "بعد الأسرار التي كشفتها مغامراتك السابقة، لا تزال ألغاز مشروع مراقب القمر ونينين بلا حل؛ لذا تقرر زيارة المحطة الأخيرة في رحلتك.",
       "chapter_id": "10228",
       "act_id": null,
       "series_id": null,
@@ -65393,7 +65393,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10228,
         "series": null,
@@ -65420,7 +65420,7 @@
       "source_quest_id": "76132",
       "source_name": "Pioneers",
       "arabic_name": "الروّاد",
-      "description_ar": null,
+      "description_ar": "تلمح كولومبينا على جزيرة مهجورة شرق بيراميدا، فتسارع للحاق بها خشية أن تكون في ورطة، لتبدأ مغامرة مجهولة.",
       "chapter_id": "10197",
       "act_id": null,
       "series_id": null,
@@ -65437,7 +65437,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10197,
         "series": null,
@@ -65464,7 +65464,7 @@
       "source_quest_id": "76133",
       "source_name": "Visitors From the Stars",
       "arabic_name": "زوار من النجوم",
-      "description_ar": null,
+      "description_ar": "تتعرف عبر جهاز المحطة في عين إبني-بيلوم على موقع كولومبينا، ويبدو أنها قد تكون في المنشأة التالية.",
       "chapter_id": "10199",
       "act_id": null,
       "series_id": null,
@@ -65481,7 +65481,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10199,
         "series": null,
@@ -65598,7 +65598,7 @@
       "source_quest_id": "76141",
       "source_name": "A Window Into the World",
       "arabic_name": "نافذة على العالم",
-      "description_ar": null,
+      "description_ar": "يبدو أن غرفة جديدة قد انفتحت، لتكشف نافذة إضافية على العالم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -65615,7 +65615,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -65692,7 +65692,7 @@
       "source_quest_id": "76143",
       "source_name": "Project Moongazer",
       "arabic_name": "مشروع محدّق القمر",
-      "description_ar": null,
+      "description_ar": "بعد الأسرار التي كشفتها مغامراتك السابقة، لا تزال ألغاز مشروع مراقب القمر ونينين بلا حل؛ لذا تقرر زيارة المحطة الأخيرة في رحلتك.",
       "chapter_id": "10228",
       "act_id": null,
       "series_id": null,
@@ -65709,7 +65709,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10228,
         "series": null,
@@ -65736,7 +65736,7 @@
       "source_quest_id": "76147",
       "source_name": "Counterfeit Classics",
       "arabic_name": "كلاسيكيات مزيفة",
-      "description_ar": null,
+      "description_ar": "تكتشف في قاعة ماهافايبوليا أشخاصاً كثيرين سُجنوا داخل صفحات الكتب.",
       "chapter_id": "10094",
       "act_id": null,
       "series_id": null,
@@ -65753,7 +65753,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10094,
         "series": null,
@@ -65780,7 +65780,7 @@
       "source_quest_id": "76148",
       "source_name": "Lion's Celerity",
       "arabic_name": "سرعة الأسد",
-      "description_ar": null,
+      "description_ar": "استعدت متعلقات زايتليند المفقودة وحررت المناطق الثلاث، لكن المشكلة لم تُحل بعد.",
       "chapter_id": "10095",
       "act_id": null,
       "series_id": null,
@@ -65797,7 +65797,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10095,
         "series": null,
@@ -65824,7 +65824,7 @@
       "source_quest_id": "76152",
       "source_name": "Lion's Celerity",
       "arabic_name": "سرعة الأسد",
-      "description_ar": null,
+      "description_ar": "استعدت متعلقات زايتليند المفقودة وحررت المناطق الثلاث، لكن المشكلة لم تُحل بعد.",
       "chapter_id": "10095",
       "act_id": null,
       "series_id": null,
@@ -65841,7 +65841,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10095,
         "series": null,
@@ -65914,7 +65914,7 @@
       "source_quest_id": "76159",
       "source_name": "Witch's Homework: The Role of a Guide...?",
       "arabic_name": "واجب الساحرة: دور المرشد...؟",
-      "description_ar": null,
+      "description_ar": "في موقع حفلة شاي السحرة، تلتقي نيكول التي يبدو أنها تتحدث إلى شخص ما.",
       "chapter_id": "10239",
       "act_id": null,
       "series_id": null,
@@ -65931,7 +65931,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10239,
         "series": null,
@@ -66113,7 +66113,7 @@
       "source_quest_id": "76170",
       "source_name": "Flora Investigation Special Lecture",
       "arabic_name": "محاضرة خاصة في استكشاف النباتات",
-      "description_ar": null,
+      "description_ar": "يبدو أن فعالية للتحقيق في النباتات تُقام قرب سبيرانزا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66130,7 +66130,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66157,7 +66157,7 @@
       "source_quest_id": "76171",
       "source_name": "Mineral Investigation Special Lecture",
       "arabic_name": "محاضرة خاصة في استكشاف المعادن",
-      "description_ar": null,
+      "description_ar": "يبدو أن فعالية للتحقيق في المعادن تُقام قرب سبيرانزا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66174,7 +66174,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66201,7 +66201,7 @@
       "source_quest_id": "76172",
       "source_name": "Fauna Investigation Special Lecture",
       "arabic_name": "محاضرة خاصة في استكشاف الحيوانات",
-      "description_ar": null,
+      "description_ar": "يبدو أن فعالية للتحقيق في الحيوانات تُقام قرب سبيرانزا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66218,7 +66218,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66245,7 +66245,7 @@
       "source_quest_id": "76177",
       "source_name": "Beneath the Lunar Sea",
       "arabic_name": "تحت البحر القمري",
-      "description_ar": null,
+      "description_ar": "تتجمع مجموعة من قناديل البحر قرب كهف في البحر القمري، وربما ينتظرك شيء في الداخل.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66262,7 +66262,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66289,7 +66289,7 @@
       "source_quest_id": "76180",
       "source_name": "Where the White Dove Rests",
       "arabic_name": "حيث تستريح الحمامة البيضاء",
-      "description_ar": null,
+      "description_ar": "توجّه إلى قاعة القمر الفضي، وأعدّ طاولة الشاي لاستقبال ساندَروني وكولومبينا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66306,7 +66306,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66333,7 +66333,7 @@
       "source_quest_id": "76182",
       "source_name": "A Garden Gathering",
       "arabic_name": "لقاء في الحديقة",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني وكولومبينا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66350,7 +66350,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66377,7 +66377,7 @@
       "source_quest_id": "76183",
       "source_name": "Fire and Ice",
       "arabic_name": "النار والجليد",
-      "description_ar": null,
+      "description_ar": "توجّه إلى مكتب تصميم كوفاهكي التجريبي، وأعدّ طاولة الشاي لاستقبال ساندَروني وأركليكينو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66394,7 +66394,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66421,7 +66421,7 @@
       "source_quest_id": "76184",
       "source_name": "Just Like Old Times",
       "arabic_name": "كما في الأيام الخوالي",
-      "description_ar": null,
+      "description_ar": "توجّه إلى مكتب تصميم كوفاهكي التجريبي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف في لقاء يعيد ذكريات الماضي.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66438,7 +66438,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66465,7 +66465,7 @@
       "source_quest_id": "76185",
       "source_name": "Cat and Cog",
       "arabic_name": "قطة وتروس",
-      "description_ar": null,
+      "description_ar": "توجّه إلى معهد الأسرار، وأعدّ طاولة الشاي لاستقبال ساندَروني ونيفر.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66482,7 +66482,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66509,7 +66509,7 @@
       "source_quest_id": "76186",
       "source_name": "A Small Overture",
       "arabic_name": "افتتاحية قصيرة",
-      "description_ar": null,
+      "description_ar": "توجّه إلى معقل قمر الصقيع، وأعدّ طاولة الشاي لاستقبال ساندَروني ولاوما.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66526,7 +66526,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66553,7 +66553,7 @@
       "source_quest_id": "76187",
       "source_name": "Tea or Bulle Fruit?",
       "arabic_name": "شاي أم فاكهة بول؟",
-      "description_ar": null,
+      "description_ar": "توجّه إلى منصة المشاهدة في بلدة ناشا، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66570,7 +66570,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66597,7 +66597,7 @@
       "source_quest_id": "76189",
       "source_name": "Animal Research: Chic Badgers",
       "arabic_name": "أبحاث الحيوانات: الغرير الأنيق",
-      "description_ar": null,
+      "description_ar": "ترددت أنباء عن مشاهدة غرير شيك أرجواني اللون قرب شعاب الرعد، فتبدأ بالتحقق من الأمر.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66614,7 +66614,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66641,7 +66641,7 @@
       "source_quest_id": "76190",
       "source_name": "Animal Research: Golden Loaches",
       "arabic_name": "أبحاث الحيوانات: أسماك اللوش الذهبية",
-      "description_ar": null,
+      "description_ar": "تشير المعلومات إلى أن أسماك اللوتش الذهبية تعيش أيضاً في مطل بحر الفراغ.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66658,7 +66658,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66685,7 +66685,7 @@
       "source_quest_id": "76191",
       "source_name": "Animal Research: Capybaras",
       "arabic_name": "أبحاث الحيوانات: الكابيبارا",
-      "description_ar": null,
+      "description_ar": "تفيد معلومات السفينة الرئيسية بأن مجموعة من المهربين تصطاد الكابيبارا النادرة ذات الألوان المميزة في ناتلان.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66702,7 +66702,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
