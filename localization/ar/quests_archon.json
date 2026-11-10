@@ -2294,6 +2294,406 @@
         "number": 3938761864,
         "image_title": 2925022334
       }
+    },
+    {
+      "id": "quest.archon.quest.wanderers_trail",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "351",
+      "source_name": "Wanderer's Trail",
+      "arabic_name": "درب المتجول",
+      "description_ar": "اختطف الإله قريبك الوحيد، ثم خُتمتَ وأُلقيتَ في سبات عميق. وبعد استيقاظك، تجولت وحدك حتى التقيت رفيقة غريبة تُدعى بايمون، لتبدأ رحلتك عبر قارة تيفات.",
+      "parent_id": null,
+      "chapter_id": null,
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 351",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/351.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/351.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.archon.quest.birds_eye_view",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "352",
+      "source_name": "Bird's Eye View",
+      "arabic_name": "منظور عين الطائر",
+      "description_ar": "تبدأ رحلتك في وادي ستارفيل، حيث تستكشف الأرض وتتأمل معالمها برفقة بايمون.",
+      "parent_id": "quest.archon.act.1001",
+      "chapter_id": "1001",
+      "act_id": "1001",
+      "series_id": "1001",
+      "region": "Mondstadt",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.archon.quest.wanderers_trail"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 352",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/352.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/352.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.archon.quest.unexpected_power",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "353",
+      "source_name": "Unexpected Power",
+      "arabic_name": "قوة غير متوقعة",
+      "description_ar": "أثناء تقدمك، يظهر تمثال السبعة في الأفق أمامك. وباقتراح من بايمون، تتوجه لاستكشافه.",
+      "parent_id": "quest.archon.act.1001",
+      "chapter_id": "1001",
+      "act_id": "1001",
+      "series_id": "1001",
+      "region": "Mondstadt",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.archon.quest.birds_eye_view"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 353",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/353.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/353.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.archon.quest.reunion_with_the_dragon",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "384",
+      "source_name": "Reunion With the Dragon",
+      "arabic_name": "لقاء مجدد مع التنين",
+      "description_ar": "أعادت دموع دوالين القوة الكاملة إلى القيثارة المقدسة. والآن أصبحت مستعداً أخيراً لتطهير إرهاب العاصفة.",
+      "parent_id": "quest.archon.act.1002",
+      "chapter_id": "1001",
+      "act_id": "1002",
+      "series_id": "1002",
+      "region": "Mondstadt",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 384",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/384.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/384.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 383 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.ending_note",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "396",
+      "source_name": "Ending Note",
+      "arabic_name": "ملاحظة ختامية",
+      "description_ar": "تقول آمبر إن جين تنتظرك في الكاتدرائية، ويبدو أن الأمر يتعلق بالقيثارة المقدسة «دير هيمل».",
+      "parent_id": "quest.archon.act.1003",
+      "chapter_id": "1001",
+      "act_id": "1003",
+      "series_id": "1003",
+      "region": "Mondstadt",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 396",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/396.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/396.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 398 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.dust_to_dust",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "1018",
+      "source_name": "Dust to Dust",
+      "arabic_name": "من الغبار إلى الغبار",
+      "description_ar": "بعد البحث عن الحكماء وإتمام المهمة التي أوكلها إليك نحات القمر، تعود إلى ميناء ليوي للبحث عن تشايلد. ويخبرك أن رد فعل تشيسينغ على وفاة الأركون منحه الكثير للتفكير.",
+      "parent_id": "quest.archon.act.1101",
+      "chapter_id": "1101",
+      "act_id": "1101",
+      "series_id": "1101",
+      "region": "Liyue",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 1018",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/1018.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/1018.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "متطلبات الفتح 1003 و1008 و1009 غير مدرجة في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.zhonglis_treat",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "1016",
+      "source_name": "Zhongli's Treat",
+      "arabic_name": "ضيافة تشونغلي",
+      "description_ar": "تحولت رحلتك إلى صيدلية بوبو إلى مغامرة غير متوقعة، ثم عرض عليك تشونغلي دعوتك إلى العشاء.",
+      "parent_id": "quest.archon.act.1102",
+      "chapter_id": "1101",
+      "act_id": "1102",
+      "series_id": "1101",
+      "region": "Liyue",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 1016",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/1016.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/1016.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 1015 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.the_fond_farewell",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "1025",
+      "source_name": "The Fond Farewell",
+      "arabic_name": "الوداع الأخير",
+      "description_ar": "تم إخضاع الإله القديم مجدداً بعد معركة ضارية وتضحيات كبيرة. ومع هدوء الغبار، تقترب رحلتك في ليوي من نهايتها مع طقس الوداع، لكن لا تزال هناك أسرار حول أركون الجيو تحتاج إلى كشفها.",
+      "parent_id": "quest.archon.act.1103",
+      "chapter_id": "1101",
+      "act_id": "1103",
+      "series_id": "1101",
+      "region": "Liyue",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 1025",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/1025.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/1025.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 1024 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.follow_the_wind",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "2002",
+      "source_name": "Follow the Wind",
+      "arabic_name": "اتبع الريح",
+      "description_ar": "أوشك النهائي الكبير لمواجهة كروكس على البدء، وستلتقي خصمك قريباً. لم يعد النصر يفصلك عنه سوى خطوة.",
+      "parent_id": "quest.archon.act.1201",
+      "chapter_id": "1201",
+      "act_id": "1201",
+      "series_id": "1201",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 2002",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/2002.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/2002.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 2001 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.a_flower_blooms_in_a_prison",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "2007",
+      "source_name": "A Flower Blooms in a Prison",
+      "arabic_name": "زهرة تتفتح في سجن",
+      "description_ar": "بعد تحقيق الأمنيات الثلاث لكاميساتو أياكا، نجحت في كسب ثقتها. والآن، ما الخطوة التالية؟",
+      "parent_id": "quest.archon.act.1202",
+      "chapter_id": "1201",
+      "act_id": "1202",
+      "series_id": "1201",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 2007",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/2007.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/2007.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 2006 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.in_the_name_of_the_resistance",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "2009",
+      "source_name": "In the Name of the Resistance",
+      "arabic_name": "باسم المقاومة",
+      "description_ar": "يقودك لقاؤك الأول مع شوغون رايدن إلى مواجهة تفوق توقعاتك. وبعد صدور مذكرة بحقك، يصبح الانضمام إلى مقاومة سانغونوميا خيارك الوحيد لعكس الوضع.",
+      "parent_id": "quest.archon.act.1203",
+      "chapter_id": "1201",
+      "act_id": "1203",
+      "series_id": "1201",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 2009",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/2009.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/2009.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 2008 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.archon.quest.wishes",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "2021",
+      "source_name": "Wishes",
+      "arabic_name": "الأمنيات",
+      "description_ar": "لم تخن الطموحات التي وُضعت على عاتقك، وألغى شوغون رايدن مرسوم صيد الرؤى. هدأت الأمواج المضطربة مؤقتاً، وحان وقت زيارة ياي ميكو.",
+      "parent_id": "quest.archon.act.1204",
+      "chapter_id": "1201",
+      "act_id": "1204",
+      "series_id": "1210",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 2021",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/2021.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/2021.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 2020 غير مدرج في الكتالوج الحالي."
     }
   ]
 }
