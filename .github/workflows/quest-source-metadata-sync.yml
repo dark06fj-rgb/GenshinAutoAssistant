@@ -24,17 +24,6 @@ jobs:
           python-version: "3.x"
       - name: Resolve only requested quest IDs
         run: python scripts/sync_quest_source_metadata.py
-      - name: Extract English descriptions for retained legacy WQ backlog
-        run: python scripts/extract_legacy_world_quest_descriptions.py
-      - name: Upload legacy WQ source descriptions
-        uses: actions/upload-artifact@v4
-        with:
-          name: legacy-world-quest-source-descriptions-en
-          path: |
-            artifacts/world_quest_source_descriptions_en.json
-            artifacts/world_quest_source_description_report.json
-          if-no-files-found: error
-          retention-days: 7
       - name: Commit metadata when changed
         run: |
           if git diff --quiet -- localization/ar/quests_archon.json localization/ar/quests_world.json; then
