@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "catalog_type": "resources",
+  "game_version": null,
+  "entries": [
+    {
+      "id": "resource.sweet_flower",
+      "category": "resource",
+      "source_name": "Sweet Flower",
+      "arabic_name": "زهرة حلوة",
+      "item_type": "Gatherable plant",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.mint",
+      "category": "resource",
+      "source_name": "Mint",
+      "arabic_name": "نعناع",
+      "item_type": "Gatherable plant",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.berry",
+      "category": "resource",
+      "source_name": "Berry",
+      "arabic_name": "توت",
+      "item_type": "Gatherable plant",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.sunsettia",
+      "category": "resource",
+      "source_name": "Sunsettia",
+      "arabic_name": "فاكهة الغروب",
+      "item_type": "Gatherable fruit",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.apple",
+      "category": "resource",
+      "source_name": "Apple",
+      "arabic_name": "تفاحة",
+      "item_type": "Gatherable fruit",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.crystal_chunk",
+      "category": "resource",
+      "source_name": "Crystal Chunk",
+      "arabic_name": "قطعة كريستالية",
+      "item_type": "Ore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.iron_chunk",
+      "category": "resource",
+      "source_name": "Iron Chunk",
+      "arabic_name": "قطعة حديد",
+      "item_type": "Ore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    },
+    {
+      "id": "resource.white_iron_chunk",
+      "category": "resource",
+      "source_name": "White Iron Chunk",
+      "arabic_name": "قطعة حديد أبيض",
+      "item_type": "Ore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي أولي مقترح؛ يحتاج مراجعة قبل اعتماده."
+    }
+  ]
+}
