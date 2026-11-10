@@ -2695,6 +2695,769 @@
         "number": 2667488288,
         "image_title": 3500415414
       }
+    },
+    {
+      "id": "quest.world.quest.72106",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72106",
+      "source_name": "A Strange Story in Konda",
+      "arabic_name": "قصة غريبة في قرية كوندا",
+      "description_ar": "تقف كاهنة مقنّعة غامضة بجوار تمثال الثعلب الغريب، ويبدو أنها تريد منك شيئاً...",
+      "parent_id": "quest.world.series.10025",
+      "chapter_id": "10025",
+      "act_id": null,
+      "series_id": "72100",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72106",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72106.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72106.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.world.quest.72100",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72100",
+      "source_name": "Cleansing Defilement",
+      "arabic_name": "تطهير التلوث",
+      "description_ar": "توضح هاناشيروساتو أن إتمام طقس تطهير الساكورا المقدسة يتطلب كسر الحواجز في خمسة مواقع والقضاء على تجسيد التلوث الذي سيظهر. وتنتظرك عند جذر شجرة الساكورا الرعدية أسفل بئر قرية كوندا.",
+      "parent_id": "quest.world.series.10025",
+      "chapter_id": "10025",
+      "act_id": null,
+      "series_id": "72100",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72106"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72100",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72100.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72100.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72107",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72107",
+      "source_name": "Sacrificial Offering",
+      "arabic_name": "القربان",
+      "description_ar": "بحسب هاناشيروساتو، يجب كسر الحواجز لتطهير جذور شجرة الساكورا الرعدية. ويبدو أن الحاجز التالي يقع في الضريح المهجور شمال شرقي قرية كوندا.",
+      "parent_id": "quest.world.series.10025",
+      "chapter_id": "10025",
+      "act_id": null,
+      "series_id": "72100",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72100"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72107",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72107.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72107.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72108",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72108",
+      "source_name": "Tanuki-Bayashi in the Forest",
+      "arabic_name": "طقس التانوكي في الغابة",
+      "description_ar": "تتعلم أن صديقاً قديماً لهاناشيروساتو يوجد في غابة تشينجو، وربما يستطيع المساعدة في طقس تطهير الساكورا المقدسة. لكنك تسمع صرخة غريبة أثناء وجودك في الغابة.",
+      "parent_id": "quest.world.series.10025",
+      "chapter_id": "10025",
+      "act_id": null,
+      "series_id": "72100",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72100"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72108",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72108.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72108.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72105",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72105",
+      "source_name": "Yougou Cleansing",
+      "arabic_name": "تطهير يوغو",
+      "description_ar": "كُسرت الحواجز الخمسة وطُهّر الشر الكامن فيها. حان وقت العودة إلى هاناشيروساتو عند جذر شجرة الساكورا الرعدية أسفل بئر قرية كوندا.",
+      "parent_id": "quest.world.series.10025",
+      "chapter_id": "10025",
+      "act_id": null,
+      "series_id": "72100",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72100",
+        "quest.world.quest.72108"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72105",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72105.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72105.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72114",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72114",
+      "source_name": "Tatara Tales",
+      "arabic_name": "حكايات تاتارا",
+      "description_ar": "يبدو أن أمراً مريباً قد وقع في تاتاراسونا بإينازوما...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72114",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72114.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72114.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72115",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72115",
+      "source_name": "Tatara Tales: Priority Investigation",
+      "arabic_name": "حكايات تاتارا: التحقيق العاجل",
+      "description_ar": "يبدو أن كزافييه، الذي يبحث في فرن ميكاجي، توصّل إلى فكرة جديدة...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72114"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72115",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72115.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72115.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72116",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72116",
+      "source_name": "Tatara Tales: Purification Device",
+      "arabic_name": "حكايات تاتارا: جهاز التطهير",
+      "description_ar": "يبدو أن كزافييه، الذي يبحث في فرن ميكاجي، توصّل إلى فكرة جديدة...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72115"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72116",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72116.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72116.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72117",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72117",
+      "source_name": "Tatara Tales: Data Collection",
+      "arabic_name": "حكايات تاتارا: جمع البيانات",
+      "description_ar": "يبدو أن كزافييه، الذي يبحث في فرن ميكاجي، توصّل إلى فكرة جديدة...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72116"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72117",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72117.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72117.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72118",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72118",
+      "source_name": "Tatara Tales: Process Is Everything",
+      "arabic_name": "حكايات تاتارا: العملية هي الأساس",
+      "description_ar": "يبدو أن كزافييه، الذي يبحث في فرن ميكاجي، توصّل إلى فكرة جديدة...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72117"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72118",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72118.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72118.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72119",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72119",
+      "source_name": "Tatara Tales: Functional Test",
+      "arabic_name": "حكايات تاتارا: الاختبار العملي",
+      "description_ar": "يبدو أن كزافييه، الذي يبحث في فرن ميكاجي، توصّل إلى فكرة جديدة...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72118"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72119",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72119.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72119.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72120",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72120",
+      "source_name": "Tatara Tales: Final Preparations",
+      "arabic_name": "حكايات تاتارا: الاستعدادات النهائية",
+      "description_ar": "يبدو أن كزافييه، الذي يبحث في فرن ميكاجي، توصّل إلى فكرة جديدة...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72119"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72120",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72120.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72120.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72122",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72122",
+      "source_name": "Tatara Tales: The Last Act",
+      "arabic_name": "حكايات تاتارا: الفصل الأخير",
+      "description_ar": "اكتملت الاستعدادات، ويمكن لكزافييه الآن البدء في معالجة المشكلة المتعلقة بفرن ميكاجي...",
+      "parent_id": "quest.world.series.10036",
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": "10036",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72120"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72122",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72122.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72122.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72123",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72123",
+      "source_name": "Sakura Arborism",
+      "arabic_name": "أشجار الساكورا",
+      "description_ar": "تعاني الكاهنة ميوكي من مشكلة كبيرة بسبب الحالة غير الطبيعية لأشجار الساكورا الرعدية في كانازوكا...",
+      "parent_id": null,
+      "chapter_id": null,
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72122"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72123",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72123.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72123.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72124",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72124",
+      "source_name": "Dreams of Sword Art",
+      "arabic_name": "أحلام فن السيف",
+      "description_ar": "يقف ساموراي مجهول الاسم على قمم المنحدرات البحرية العاصفة، ويبدو أنه يبحث عن شيء ما...",
+      "parent_id": null,
+      "chapter_id": null,
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72124",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72124.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72124.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72154",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72154",
+      "source_name": "The Seventh Samurai",
+      "arabic_name": "الساموراي السابع",
+      "description_ar": "يبدو أن كزافييه منشغل بأمرٍ ما...",
+      "parent_id": null,
+      "chapter_id": null,
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72122"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72154",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72154.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72154.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72133",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72133",
+      "source_name": "Orobashi's Legacy: Prologue",
+      "arabic_name": "إرث أوروباشي: المقدمة",
+      "description_ar": "تعاني جزيرة ياشيوري بشدة من آثار تاتاريغامي. ومع ذلك، لا يزال عامل منجم يُدعى كاجي في الجزيرة، ويبحث عن طريقة لمنع انتشار الفساد.",
+      "parent_id": "quest.world.series.10037",
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": "10037",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72133",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72133.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72133.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.world.quest.72129",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72129",
+      "source_name": "Orobashi's Legacy: Part I",
+      "arabic_name": "إرث أوروباشي: الجزء الأول",
+      "description_ar": "يقف عمود حجري حارساً في مضيق موسوجين، منتظراً بصمت من يأتي لإصلاحه.",
+      "parent_id": "quest.world.series.10037",
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": "10037",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72129",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72129.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72129.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.world.quest.72130",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72130",
+      "source_name": "Orobashi's Legacy: Part II",
+      "arabic_name": "إرث أوروباشي: الجزء الثاني",
+      "description_ar": "يقف عمود حجري حارساً عند رأس الأفعى، منتظراً بصمت من يأتي لإصلاحه.",
+      "parent_id": "quest.world.series.10037",
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": "10037",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72129"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72130",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72130.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72130.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "يوجد متطلب إضافي 1025 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.world.quest.72131",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72131",
+      "source_name": "Orobashi's Legacy: Part III",
+      "arabic_name": "إرث أوروباشي: الجزء الثالث",
+      "description_ar": "تضرر الحاجز في منجم جاكوتسو، وينتظر إصلاحه على وجه السرعة.",
+      "parent_id": "quest.world.series.10037",
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": "10037",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72129"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72131",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72131.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72131.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "يوجد متطلب إضافي 1025 غير مدرج في الكتالوج الحالي."
+    },
+    {
+      "id": "quest.world.quest.72134",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72134",
+      "source_name": "Orobashi's Legacy: Part IV",
+      "arabic_name": "إرث أوروباشي: الجزء الرابع",
+      "description_ar": "توجه إلى الموقع المتفق عليه وأبلغ كاجي.",
+      "parent_id": "quest.world.series.10037",
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": "10037",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72129",
+        "quest.world.quest.72130",
+        "quest.world.quest.72131"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72134",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72134.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72134.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+    },
+    {
+      "id": "quest.world.quest.72132",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72132",
+      "source_name": "Orobashi's Legacy: Part V",
+      "arabic_name": "إرث أوروباشي: الجزء الخامس",
+      "description_ar": "ترتفع ببطء من تحت الأمواج أطلال قديمة تُعرف الآن باسم حصن موميئي. وبين صرخات الحيتان والأمواج، تسمع ضغينة قديمة مخفية.",
+      "parent_id": "quest.world.series.10037",
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": "10037",
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [
+        "quest.world.quest.72134"
+      ],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72132",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72132.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72132.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     }
   ]
 }
