@@ -1,0 +1,38 @@
+name: Sync quest source metadata by ID
+
+on:
+  push:
+    paths:
+      - "scripts/sync_quest_source_metadata.py"
+      - ".github/workflows/quest-source-metadata-sync.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-quest-source-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out catalog branch
+        uses: actions/checkout@v4
+        with:
+          ref: arabic-localization-catalog
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Resolve only requested quest IDs
+        run: python scripts/sync_quest_source_metadata.py
+      - name: Commit metadata when changed
+        run: |
+          if git diff --quiet -- localization/ar/quests_archon.json localization/ar/quests_world.json; then
+            echo "Quest source metadata is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add localization/ar/quests_archon.json localization/ar/quests_world.json
+          git commit -m "Resolve quest source text hashes by ID"
+          git push origin HEAD:arabic-localization-catalog
