@@ -16,7 +16,7 @@
       "source_quest_id": "72154",
       "source_name": "The Seventh Samurai",
       "arabic_name": "الساموراي السابع",
-      "description_ar": null,
+      "description_ar": "يبدو أن كزافييه منشغل بأمرٍ ما...",
       "parent_id": null,
       "chapter_id": null,
       "act_id": null,
@@ -38,13 +38,18 @@
           "version": "7.2 snapshot d54f6f0"
         },
         {
-          "name": "English quest-title and type cross-reference",
+          "name": "GI-OnlineQuest English title, type and summary",
           "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72154.json",
+          "version": null
+        },
+        {
+          "name": "Quest location and context reference",
+          "url": "https://genshin-impact.fandom.com/wiki/%22The_Seventh_Samurai%22",
           "version": null
         }
       ],
       "translation_status": "draft",
-      "review_notes": "النوع WQ والمعرّف 72154 مثبتان في QuestBrief؛ لا ينتمي إلى سلسلة فصول (series=0). لم تُسجل المتطلبات لأن حقلها غير متاح في QuestBrief."
+      "review_notes": "المعرّف 72154 والنوع WQ مثبتان في QuestBrief؛ السلسلة 0. يشير مرجع EN إلى متطلب سابق 72122، لكنه غير مدرج بعد في هذا الكتالوج لذلك لم يُربط بمعرّف غير موجود."
     }
   ]
 }
