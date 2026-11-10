@@ -46,7 +46,7 @@ All catalog IDs are unique. Parent references and the retained prerequisite grap
 
 ## Arabic editorial status
 
-All 259 Archon nodes have Arabic draft titles. In the World Quest catalog, all 67 chapter nodes and all 90 series nodes have Arabic draft titles. Of 1,544 individual World Quest nodes, 1,526 have Arabic draft titles; the remaining 18 are internal/test/hidden source placeholders and remain untranslated. Across the Archon and World Quest catalogs, every player-facing quest and grouping title currently has an Arabic draft. This is title coverage only: 1,493 individual World Quest entries still lack an Arabic summary (`description_ar`), so narrative summaries and editorial review remain outstanding.
+All 259 Archon nodes have Arabic draft titles. In the World Quest catalog, all 67 chapter nodes and all 90 series nodes have Arabic draft titles. Of 1,544 individual World Quest nodes, 1,526 have Arabic draft titles; the remaining 18 are internal/test/hidden source placeholders and remain untranslated. Across the Archon and World Quest catalogs, every player-facing quest and grouping title currently has an Arabic draft. This is title coverage only: 1,490 individual World Quest entries still lack an Arabic summary (`description_ar`), so narrative summaries and editorial review remain outstanding.
 
 The quest schema and validator now permit an empty Arabic name **only** when `translation_status` is `needs_translation`. Any other status still requires a non-empty Arabic name. No imported English title is presented as an Arabic translation, and no record is marked reviewed or approved automatically.
 
@@ -63,7 +63,7 @@ The quest schema and validator now permit an empty Arabic name **only** when `tr
 
 1. Revisit the single unresolved source ID `74173` only if a later source snapshot provides a real title; the other 78 IDs have been correctly classified as internal/unreleased placeholders.
 2. Continue resolving chapter/series source metadata gaps (2 Archon act titles and 31 World Quest series titles) where a verified English source title becomes available; do not invent nodes or labels.
-3. Translate the 1,493 missing World Quest Arabic summaries in reviewable batches, using verified English source descriptions and preserving null when a source description is unavailable. Review all Arabic draft titles for terminology and in-game context.
+3. Translate the 1,490 missing World Quest Arabic summaries in reviewable batches, using verified English source descriptions and preserving null when a source description is unavailable. Review all Arabic draft titles for terminology and in-game context.
 4. Review the four omitted prerequisite edges against the in-game quest log and versioned source tables.
 5. Cross-check region, Adventure Rank, chapter membership, and prerequisites against the Travel Log and current game data.
 6. Add coverage assertions for the full source roster so future source updates reveal additions/removals without silently accepting partial imports.
