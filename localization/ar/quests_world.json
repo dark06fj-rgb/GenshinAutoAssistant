@@ -2739,7 +2739,8 @@
         "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
         "suggestTrackMainQuestList": [
           72107
-        ]
+        ],
+        "questType": "WQ"
       }
     },
     {
@@ -2787,7 +2788,8 @@
         "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
         "suggestTrackMainQuestList": [
           72105
-        ]
+        ],
+        "questType": "WQ"
       }
     },
     {
@@ -2835,7 +2837,8 @@
         "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
         "suggestTrackMainQuestList": [
           72100
-        ]
+        ],
+        "questType": "WQ"
       }
     },
     {
@@ -2883,7 +2886,8 @@
         "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
         "suggestTrackMainQuestList": [
           72100
-        ]
+        ],
+        "questType": "WQ"
       }
     },
     {
@@ -2929,7 +2933,8 @@
         "chapterId": 10025,
         "series": 72100,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -2971,7 +2976,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3015,7 +3021,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3059,7 +3066,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3103,7 +3111,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3147,7 +3156,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3191,7 +3201,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3235,7 +3246,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3279,7 +3291,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10036,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
       }
     },
     {
@@ -3322,7 +3335,8 @@
       },
       "source_main_quest_metadata": {
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3363,7 +3377,8 @@
       },
       "source_main_quest_metadata": {
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3406,7 +3421,8 @@
       },
       "source_main_quest_metadata": {
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3448,7 +3464,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10037,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3490,7 +3507,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10037,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3534,7 +3552,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10037,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3578,7 +3597,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10037,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3624,7 +3644,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10037,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     },
     {
@@ -3668,7 +3689,8 @@
       "source_main_quest_metadata": {
         "chapterId": 10037,
         "type": "WQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "WQ"
       }
     }
   ]

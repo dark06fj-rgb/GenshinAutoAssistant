@@ -2337,7 +2337,8 @@
         "mainQuestTag": "MAINQUEST_TAG_NONE",
         "suggestTrackMainQuestList": [
           352
-        ]
+        ],
+        "questType": "AQ"
       }
     },
     {
@@ -2385,7 +2386,8 @@
         "mainQuestTag": "MAINQUEST_TAG_NONE",
         "suggestTrackMainQuestList": [
           353
-        ]
+        ],
+        "questType": "AQ"
       }
     },
     {
@@ -2433,7 +2435,8 @@
         "mainQuestTag": "MAINQUEST_TAG_NONE",
         "suggestTrackMainQuestList": [
           355
-        ]
+        ],
+        "questType": "AQ"
       }
     },
     {
@@ -2479,7 +2482,8 @@
         "mainQuestTag": "MAINQUEST_TAG_NONE",
         "suggestTrackMainQuestList": [
           397
-        ]
+        ],
+        "questType": "AQ"
       }
     },
     {
@@ -2522,7 +2526,8 @@
         "chapterId": 1003,
         "series": 1003,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2565,7 +2570,8 @@
         "chapterId": 1101,
         "series": 1101,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2608,7 +2614,8 @@
         "chapterId": 1102,
         "series": 1101,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2651,7 +2658,8 @@
         "chapterId": 1103,
         "series": 1101,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2694,7 +2702,8 @@
         "chapterId": 1201,
         "series": 1201,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2737,7 +2746,8 @@
         "chapterId": 1202,
         "series": 1201,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2780,7 +2790,8 @@
         "chapterId": 1203,
         "series": 1201,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     },
     {
@@ -2823,7 +2834,8 @@
         "chapterId": 1204,
         "series": 1210,
         "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE"
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
       }
     }
   ]
