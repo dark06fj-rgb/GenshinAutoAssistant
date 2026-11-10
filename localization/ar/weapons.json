@@ -5,48 +5,718 @@
   "game_version": null,
   "entries": [
     {
-      "id": "weapon.dull_blade",
+      "id": "weapon.the_catch",
       "category": "weapon",
-      "source_name": "Dull Blade",
-      "arabic_name": "النصل الباهت",
+      "source_name": "\"The Catch\"",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.ultimate_overlord_s_mega_magic_sword",
+      "category": "weapon",
+      "source_name": "\"Ultimate Overlord's Mega Magic Sword\"",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.a_teaspoon_of_transcendence",
+      "category": "weapon",
+      "source_name": "A Teaspoon of Transcendence",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.a_thousand_blazing_suns",
+      "category": "weapon",
+      "source_name": "A Thousand Blazing Suns",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.a_thousand_floating_dreams",
+      "category": "weapon",
+      "source_name": "A Thousand Floating Dreams",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.absolution",
+      "category": "weapon",
+      "source_name": "Absolution",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.akuoumaru",
+      "category": "weapon",
+      "source_name": "Akuoumaru",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.alley_hunter",
+      "category": "weapon",
+      "source_name": "Alley Hunter",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.amenoma_kageuchi",
+      "category": "weapon",
+      "source_name": "Amenoma Kageuchi",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.amos_bow",
+      "category": "weapon",
+      "source_name": "Amos' Bow",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.angelos_heptades",
+      "category": "weapon",
+      "source_name": "Angelos' Heptades",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.apprentice_s_notes",
+      "category": "weapon",
+      "source_name": "Apprentice's Notes",
+      "arabic_name": "",
       "rarity": 1,
       "source": [
         {
           "name": "genshin-db",
           "url": "https://github.com/theBowja/genshin-db",
-          "version": "7.2"
-        },
-        {
-          "name": "GenshinData",
-          "url": "https://github.com/Dimbreath/GenshinData",
-          "version": null
+          "version": "live API"
         }
       ],
-      "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
-      "weapon_type": "Sword"
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
     },
     {
-      "id": "weapon.silver_sword",
+      "id": "weapon.aqua_simulacra",
       "category": "weapon",
-      "source_name": "Silver Sword",
-      "arabic_name": "السيف الفضي",
-      "rarity": 2,
+      "source_name": "Aqua Simulacra",
+      "arabic_name": "",
+      "rarity": 5,
       "source": [
         {
           "name": "genshin-db",
           "url": "https://github.com/theBowja/genshin-db",
-          "version": "7.2"
-        },
-        {
-          "name": "GenshinData",
-          "url": "https://github.com/Dimbreath/GenshinData",
-          "version": null
+          "version": "live API"
         }
       ],
-      "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
-      "weapon_type": "Sword"
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.aquila_favonia",
+      "category": "weapon",
+      "source_name": "Aquila Favonia",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.ash_graven_drinking_horn",
+      "category": "weapon",
+      "source_name": "Ash-Graven Drinking Horn",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.astral_vulture_s_crimson_plumage",
+      "category": "weapon",
+      "source_name": "Astral Vulture's Crimson Plumage",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.athame_artis",
+      "category": "weapon",
+      "source_name": "Athame Artis",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.azurelight",
+      "category": "weapon",
+      "source_name": "Azurelight",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.ballad_of_the_boundless_blue",
+      "category": "weapon",
+      "source_name": "Ballad of the Boundless Blue",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.ballad_of_the_fjords",
+      "category": "weapon",
+      "source_name": "Ballad of the Fjords",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.beacon_of_the_reed_sea",
+      "category": "weapon",
+      "source_name": "Beacon of the Reed Sea",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.beginner_s_protector",
+      "category": "weapon",
+      "source_name": "Beginner's Protector",
+      "arabic_name": "",
+      "rarity": 1,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.beyond_the_chrysalis",
+      "category": "weapon",
+      "source_name": "Beyond the Chrysalis",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.black_tassel",
+      "category": "weapon",
+      "source_name": "Black Tassel",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.blackcliff_agate",
+      "category": "weapon",
+      "source_name": "Blackcliff Agate",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.blackcliff_longsword",
+      "category": "weapon",
+      "source_name": "Blackcliff Longsword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.blackcliff_pole",
+      "category": "weapon",
+      "source_name": "Blackcliff Pole",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.blackcliff_slasher",
+      "category": "weapon",
+      "source_name": "Blackcliff Slasher",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.blackcliff_warbow",
+      "category": "weapon",
+      "source_name": "Blackcliff Warbow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.blackmarrow_lantern",
+      "category": "weapon",
+      "source_name": "Blackmarrow Lantern",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.blade_of_atonement",
+      "category": "weapon",
+      "source_name": "Blade of Atonement",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.bloodsoaked_ruins",
+      "category": "weapon",
+      "source_name": "Bloodsoaked Ruins",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.bloodtainted_greatsword",
+      "category": "weapon",
+      "source_name": "Bloodtainted Greatsword",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.breezeborne_refrain",
+      "category": "weapon",
+      "source_name": "Breezeborne Refrain",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.calamity_of_eshu",
+      "category": "weapon",
+      "source_name": "Calamity of Eshu",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.calamity_queller",
+      "category": "weapon",
+      "source_name": "Calamity Queller",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.cashflow_supervision",
+      "category": "weapon",
+      "source_name": "Cashflow Supervision",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.chain_breaker",
+      "category": "weapon",
+      "source_name": "Chain Breaker",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.cinnabar_spindle",
+      "category": "weapon",
+      "source_name": "Cinnabar Spindle",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.clash_of_kings",
+      "category": "weapon",
+      "source_name": "Clash of Kings",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.cloudforged",
+      "category": "weapon",
+      "source_name": "Cloudforged",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.compound_bow",
+      "category": "weapon",
+      "source_name": "Compound Bow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.cool_steel",
@@ -58,39 +728,1933 @@
         {
           "name": "genshin-db",
           "url": "https://github.com/theBowja/genshin-db",
-          "version": "7.2"
-        },
-        {
-          "name": "GenshinData",
-          "url": "https://github.com/Dimbreath/GenshinData",
-          "version": null
+          "version": "live API"
         }
       ],
       "translation_status": "draft",
       "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
-      "weapon_type": "Sword"
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
-      "id": "weapon.harbringer_of_dawn",
+      "id": "weapon.covenant_of_frost_and_snow",
       "category": "weapon",
-      "source_name": "Harbinger of Dawn",
-      "arabic_name": "نذير الفجر",
+      "source_name": "Covenant of Frost and Snow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.crane_s_echoing_call",
+      "category": "weapon",
+      "source_name": "Crane's Echoing Call",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.crescent_pike",
+      "category": "weapon",
+      "source_name": "Crescent Pike",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.crimson_moon_s_semblance",
+      "category": "weapon",
+      "source_name": "Crimson Moon's Semblance",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.dark_iron_sword",
+      "category": "weapon",
+      "source_name": "Dark Iron Sword",
+      "arabic_name": "",
       "rarity": 3,
       "source": [
         {
           "name": "genshin-db",
           "url": "https://github.com/theBowja/genshin-db",
-          "version": "7.2"
-        },
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.dawning_frost",
+      "category": "weapon",
+      "source_name": "Dawning Frost",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
         {
-          "name": "GenshinData",
-          "url": "https://github.com/Dimbreath/GenshinData",
-          "version": null
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.deathmatch",
+      "category": "weapon",
+      "source_name": "Deathmatch",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.debate_club",
+      "category": "weapon",
+      "source_name": "Debate Club",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.dialogues_of_the_desert_sages",
+      "category": "weapon",
+      "source_name": "Dialogues of the Desert Sages",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.disaster_and_remorse",
+      "category": "weapon",
+      "source_name": "Disaster and Remorse",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.dodoco_tales",
+      "category": "weapon",
+      "source_name": "Dodoco Tales",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.dragon_s_bane",
+      "category": "weapon",
+      "source_name": "Dragon's Bane",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.dragonspine_spear",
+      "category": "weapon",
+      "source_name": "Dragonspine Spear",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.dull_blade",
+      "category": "weapon",
+      "source_name": "Dull Blade",
+      "arabic_name": "النصل الباهت",
+      "rarity": 1,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
         }
       ],
       "translation_status": "draft",
       "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
-      "weapon_type": "Sword"
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.earth_shaker",
+      "category": "weapon",
+      "source_name": "Earth Shaker",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.echoes_of_the_heart",
+      "category": "weapon",
+      "source_name": "Echoes of the Heart",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.elegy_for_the_end",
+      "category": "weapon",
+      "source_name": "Elegy for the End",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.emberwell",
+      "category": "weapon",
+      "source_name": "Emberwell",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.emerald_orb",
+      "category": "weapon",
+      "source_name": "Emerald Orb",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.end_of_the_line",
+      "category": "weapon",
+      "source_name": "End of the Line",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.engulfing_lightning",
+      "category": "weapon",
+      "source_name": "Engulfing Lightning",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.etherlight_spindlelute",
+      "category": "weapon",
+      "source_name": "Etherlight Spindlelute",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.everlasting_moonglow",
+      "category": "weapon",
+      "source_name": "Everlasting Moonglow",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.exaiphanes_blade",
+      "category": "weapon",
+      "source_name": "Exaiphanes Blade",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.eye_of_perception",
+      "category": "weapon",
+      "source_name": "Eye of Perception",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.fading_twilight",
+      "category": "weapon",
+      "source_name": "Fading Twilight",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.fang_of_the_mountain_king",
+      "category": "weapon",
+      "source_name": "Fang of the Mountain King",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.favonius_codex",
+      "category": "weapon",
+      "source_name": "Favonius Codex",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.favonius_greatsword",
+      "category": "weapon",
+      "source_name": "Favonius Greatsword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.favonius_lance",
+      "category": "weapon",
+      "source_name": "Favonius Lance",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.favonius_sword",
+      "category": "weapon",
+      "source_name": "Favonius Sword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.favonius_warbow",
+      "category": "weapon",
+      "source_name": "Favonius Warbow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.ferrous_shadow",
+      "category": "weapon",
+      "source_name": "Ferrous Shadow",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.festering_desire",
+      "category": "weapon",
+      "source_name": "Festering Desire",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.fillet_blade",
+      "category": "weapon",
+      "source_name": "Fillet Blade",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.finale_of_the_deep",
+      "category": "weapon",
+      "source_name": "Finale of the Deep",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.flame_forged_insight",
+      "category": "weapon",
+      "source_name": "Flame-Forged Insight",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.fleuve_cendre_ferryman",
+      "category": "weapon",
+      "source_name": "Fleuve Cendre Ferryman",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.flower_wreathed_feathers",
+      "category": "weapon",
+      "source_name": "Flower-Wreathed Feathers",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.flowing_purity",
+      "category": "weapon",
+      "source_name": "Flowing Purity",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.flute_of_ezpitzal",
+      "category": "weapon",
+      "source_name": "Flute of Ezpitzal",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.footprint_of_the_rainbow",
+      "category": "weapon",
+      "source_name": "Footprint of the Rainbow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.forest_regalia",
+      "category": "weapon",
+      "source_name": "Forest Regalia",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.forged_by_the_golden_melody",
+      "category": "weapon",
+      "source_name": "Forged by the Golden Melody",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.fractured_halo",
+      "category": "weapon",
+      "source_name": "Fractured Halo",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.freedom_sworn",
+      "category": "weapon",
+      "source_name": "Freedom-Sworn",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.frostbearer",
+      "category": "weapon",
+      "source_name": "Frostbearer",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.frostbreath",
+      "category": "weapon",
+      "source_name": "Frostbreath",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.fruit_of_fulfillment",
+      "category": "weapon",
+      "source_name": "Fruit of Fulfillment",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.fruitful_hook",
+      "category": "weapon",
+      "source_name": "Fruitful Hook",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.gest_of_the_mighty_wolf",
+      "category": "weapon",
+      "source_name": "Gest of the Mighty Wolf",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.golden_frostbound_oath",
+      "category": "weapon",
+      "source_name": "Golden Frostbound Oath",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.hakushin_ring",
+      "category": "weapon",
+      "source_name": "Hakushin Ring",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.halberd",
+      "category": "weapon",
+      "source_name": "Halberd",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.hamayumi",
+      "category": "weapon",
+      "source_name": "Hamayumi",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.haran_geppaku_futsu",
+      "category": "weapon",
+      "source_name": "Haran Geppaku Futsu",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.harbinger_of_dawn",
+      "category": "weapon",
+      "source_name": "Harbinger of Dawn",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.heretic_s_molten_blade",
+      "category": "weapon",
+      "source_name": "Heretic's Molten Blade",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.hunter_s_bow",
+      "category": "weapon",
+      "source_name": "Hunter's Bow",
+      "arabic_name": "",
+      "rarity": 1,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.hunter_s_path",
+      "category": "weapon",
+      "source_name": "Hunter's Path",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.hymn_of_the_maelstrom",
+      "category": "weapon",
+      "source_name": "Hymn of the Maelstrom",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.ibis_piercer",
+      "category": "weapon",
+      "source_name": "Ibis Piercer",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.iron_point",
+      "category": "weapon",
+      "source_name": "Iron Point",
+      "arabic_name": "",
+      "rarity": 2,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.iron_sting",
+      "category": "weapon",
+      "source_name": "Iron Sting",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.jade_vista",
+      "category": "weapon",
+      "source_name": "Jade Vista",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.jadefall_s_splendor",
+      "category": "weapon",
+      "source_name": "Jadefall's Splendor",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.kagotsurube_isshin",
+      "category": "weapon",
+      "source_name": "Kagotsurube Isshin",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.kagura_s_verity",
+      "category": "weapon",
+      "source_name": "Kagura's Verity",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.katsuragikiri_nagamasa",
+      "category": "weapon",
+      "source_name": "Katsuragikiri Nagamasa",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.key_of_khaj_nisut",
+      "category": "weapon",
+      "source_name": "Key of Khaj-Nisut",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.king_s_squire",
+      "category": "weapon",
+      "source_name": "King's Squire",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.kitain_cross_spear",
+      "category": "weapon",
+      "source_name": "Kitain Cross Spear",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.light_of_foliar_incision",
+      "category": "weapon",
+      "source_name": "Light of Foliar Incision",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.lightbearing_moonshard",
+      "category": "weapon",
+      "source_name": "Lightbearing Moonshard",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.lion_s_roar",
+      "category": "weapon",
+      "source_name": "Lion's Roar",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.lithic_blade",
+      "category": "weapon",
+      "source_name": "Lithic Blade",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.lithic_spear",
+      "category": "weapon",
+      "source_name": "Lithic Spear",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.lost_prayer_to_the_sacred_winds",
+      "category": "weapon",
+      "source_name": "Lost Prayer to the Sacred Winds",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.lumidouce_elegy",
+      "category": "weapon",
+      "source_name": "Lumidouce Elegy",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.luxurious_sea_lord",
+      "category": "weapon",
+      "source_name": "Luxurious Sea-Lord",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.magic_guide",
+      "category": "weapon",
+      "source_name": "Magic Guide",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.mailed_flower",
+      "category": "weapon",
+      "source_name": "Mailed Flower",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.makhaira_aquamarine",
+      "category": "weapon",
+      "source_name": "Makhaira Aquamarine",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.mappa_mare",
+      "category": "weapon",
+      "source_name": "Mappa Mare",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.master_key",
+      "category": "weapon",
+      "source_name": "Master Key",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.memory_of_dust",
+      "category": "weapon",
+      "source_name": "Memory of Dust",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.messenger",
+      "category": "weapon",
+      "source_name": "Messenger",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.missive_windspear",
+      "category": "weapon",
+      "source_name": "Missive Windspear",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.mistsplitter_reforged",
+      "category": "weapon",
+      "source_name": "Mistsplitter Reforged",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.mitternachts_waltz",
+      "category": "weapon",
+      "source_name": "Mitternachts Waltz",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.moonpiercer",
+      "category": "weapon",
+      "source_name": "Moonpiercer",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.moonweaver_s_dawn",
+      "category": "weapon",
+      "source_name": "Moonweaver's Dawn",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.mountain_bracing_bolt",
+      "category": "weapon",
+      "source_name": "Mountain-Bracing Bolt",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.mouun_s_moon",
+      "category": "weapon",
+      "source_name": "Mouun's Moon",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.new_bough",
+      "category": "weapon",
+      "source_name": "New Bough",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.nightweaver_s_looking_glass",
+      "category": "weapon",
+      "source_name": "Nightweaver's Looking Glass",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.nocturne_s_curtain_call",
+      "category": "weapon",
+      "source_name": "Nocturne's Curtain Call",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.oathsworn_eye",
+      "category": "weapon",
+      "source_name": "Oathsworn Eye",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.old_merc_s_pal",
+      "category": "weapon",
+      "source_name": "Old Merc's Pal",
+      "arabic_name": "",
+      "rarity": 2,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.otherworldly_story",
+      "category": "weapon",
+      "source_name": "Otherworldly Story",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.peak_patrol_song",
+      "category": "weapon",
+      "source_name": "Peak Patrol Song",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.pocket_grimoire",
+      "category": "weapon",
+      "source_name": "Pocket Grimoire",
+      "arabic_name": "",
+      "rarity": 2,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.polar_star",
+      "category": "weapon",
+      "source_name": "Polar Star",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.portable_power_saw",
+      "category": "weapon",
+      "source_name": "Portable Power Saw",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.predator",
+      "category": "weapon",
+      "source_name": "Predator",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.primordial_jade_cutter",
+      "category": "weapon",
+      "source_name": "Primordial Jade Cutter",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.primordial_jade_winged_spear",
+      "category": "weapon",
+      "source_name": "Primordial Jade Winged-Spear",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.prized_isshin_blade",
+      "category": "weapon",
+      "source_name": "Prized Isshin Blade",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.prospector_s_drill",
+      "category": "weapon",
+      "source_name": "Prospector's Drill",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.prospector_s_shovel",
+      "category": "weapon",
+      "source_name": "Prospector's Shovel",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.prototype_amber",
+      "category": "weapon",
+      "source_name": "Prototype Amber",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.prototype_archaic",
+      "category": "weapon",
+      "source_name": "Prototype Archaic",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.prototype_crescent",
+      "category": "weapon",
+      "source_name": "Prototype Crescent",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.prototype_rancour",
@@ -102,17 +2666,1652 @@
         {
           "name": "genshin-db",
           "url": "https://github.com/theBowja/genshin-db",
-          "version": "7.2"
-        },
-        {
-          "name": "GenshinData",
-          "url": "https://github.com/Dimbreath/GenshinData",
-          "version": null
+          "version": "live API"
         }
       ],
       "translation_status": "draft",
       "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
-      "weapon_type": "Sword"
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.prototype_starglitter",
+      "category": "weapon",
+      "source_name": "Prototype Starglitter",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.rainbow_serpent_s_rain_bow",
+      "category": "weapon",
+      "source_name": "Rainbow Serpent's Rain Bow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.rainslasher",
+      "category": "weapon",
+      "source_name": "Rainslasher",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.range_gauge",
+      "category": "weapon",
+      "source_name": "Range Gauge",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.raven_bow",
+      "category": "weapon",
+      "source_name": "Raven Bow",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.recurve_bow",
+      "category": "weapon",
+      "source_name": "Recurve Bow",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.redhorn_stonethresher",
+      "category": "weapon",
+      "source_name": "Redhorn Stonethresher",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.reliquary_of_truth",
+      "category": "weapon",
+      "source_name": "Reliquary of Truth",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.rightful_reward",
+      "category": "weapon",
+      "source_name": "Rightful Reward",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.ring_of_yaxche",
+      "category": "weapon",
+      "source_name": "Ring of Yaxche",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.royal_bow",
+      "category": "weapon",
+      "source_name": "Royal Bow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.royal_greatsword",
+      "category": "weapon",
+      "source_name": "Royal Greatsword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.royal_grimoire",
+      "category": "weapon",
+      "source_name": "Royal Grimoire",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.royal_longsword",
+      "category": "weapon",
+      "source_name": "Royal Longsword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.royal_spear",
+      "category": "weapon",
+      "source_name": "Royal Spear",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.rust",
+      "category": "weapon",
+      "source_name": "Rust",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.sacrificer_s_staff",
+      "category": "weapon",
+      "source_name": "Sacrificer's Staff",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.sacrificial_bow",
+      "category": "weapon",
+      "source_name": "Sacrificial Bow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.sacrificial_fragments",
+      "category": "weapon",
+      "source_name": "Sacrificial Fragments",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.sacrificial_greatsword",
+      "category": "weapon",
+      "source_name": "Sacrificial Greatsword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.sacrificial_jade",
+      "category": "weapon",
+      "source_name": "Sacrificial Jade",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.sacrificial_sword",
+      "category": "weapon",
+      "source_name": "Sacrificial Sword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.sapwood_blade",
+      "category": "weapon",
+      "source_name": "Sapwood Blade",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.scion_of_the_blazing_sun",
+      "category": "weapon",
+      "source_name": "Scion of the Blazing Sun",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.seasoned_hunter_s_bow",
+      "category": "weapon",
+      "source_name": "Seasoned Hunter's Bow",
+      "arabic_name": "",
+      "rarity": 2,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.sequence_of_solitude",
+      "category": "weapon",
+      "source_name": "Sequence of Solitude",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.serenity_s_call",
+      "category": "weapon",
+      "source_name": "Serenity's Call",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.serpent_spine",
+      "category": "weapon",
+      "source_name": "Serpent Spine",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.sharpshooter_s_oath",
+      "category": "weapon",
+      "source_name": "Sharpshooter's Oath",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.silver_light",
+      "category": "weapon",
+      "source_name": "Silver Light",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.silver_sword",
+      "category": "weapon",
+      "source_name": "Silver Sword",
+      "arabic_name": "السيف الفضي",
+      "rarity": 2,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.silvershower_heartstrings",
+      "category": "weapon",
+      "source_name": "Silvershower Heartstrings",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.skyrider_greatsword",
+      "category": "weapon",
+      "source_name": "Skyrider Greatsword",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.skyrider_sword",
+      "category": "weapon",
+      "source_name": "Skyrider Sword",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.skyward_atlas",
+      "category": "weapon",
+      "source_name": "Skyward Atlas",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.skyward_blade",
+      "category": "weapon",
+      "source_name": "Skyward Blade",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.skyward_harp",
+      "category": "weapon",
+      "source_name": "Skyward Harp",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.skyward_pride",
+      "category": "weapon",
+      "source_name": "Skyward Pride",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.skyward_spine",
+      "category": "weapon",
+      "source_name": "Skyward Spine",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.slingshot",
+      "category": "weapon",
+      "source_name": "Slingshot",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.snare_hook",
+      "category": "weapon",
+      "source_name": "Snare Hook",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.snow_tombed_starsilver",
+      "category": "weapon",
+      "source_name": "Snow-Tombed Starsilver",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.solar_pearl",
+      "category": "weapon",
+      "source_name": "Solar Pearl",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.song_of_broken_pines",
+      "category": "weapon",
+      "source_name": "Song of Broken Pines",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.song_of_stillness",
+      "category": "weapon",
+      "source_name": "Song of Stillness",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.song_of_the_vigil",
+      "category": "weapon",
+      "source_name": "Song of the Vigil",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.splendor_of_tranquil_waters",
+      "category": "weapon",
+      "source_name": "Splendor of Tranquil Waters",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.staff_of_homa",
+      "category": "weapon",
+      "source_name": "Staff of Homa",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.staff_of_the_scarlet_sands",
+      "category": "weapon",
+      "source_name": "Staff of the Scarlet Sands",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.starcaller_s_watch",
+      "category": "weapon",
+      "source_name": "Starcaller's Watch",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.sturdy_bone",
+      "category": "weapon",
+      "source_name": "Sturdy Bone",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.summit_shaper",
+      "category": "weapon",
+      "source_name": "Summit Shaper",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.sunny_morning_sleep_in",
+      "category": "weapon",
+      "source_name": "Sunny Morning Sleep-In",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.surf_s_up",
+      "category": "weapon",
+      "source_name": "Surf's Up",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.sword_of_descension",
+      "category": "weapon",
+      "source_name": "Sword of Descension",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.sword_of_narzissenkreuz",
+      "category": "weapon",
+      "source_name": "Sword of Narzissenkreuz",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.symphonist_of_scents",
+      "category": "weapon",
+      "source_name": "Symphonist of Scents",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.talking_stick",
+      "category": "weapon",
+      "source_name": "Talking Stick",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.tamayuratei_no_ohanashi",
+      "category": "weapon",
+      "source_name": "Tamayuratei no Ohanashi",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.the_alley_flash",
+      "category": "weapon",
+      "source_name": "The Alley Flash",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.the_bell",
+      "category": "weapon",
+      "source_name": "The Bell",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.the_black_sword",
+      "category": "weapon",
+      "source_name": "The Black Sword",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.the_daybreak_chronicles",
+      "category": "weapon",
+      "source_name": "The Daybreak Chronicles",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.the_dockhand_s_assistant",
+      "category": "weapon",
+      "source_name": "The Dockhand's Assistant",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.the_first_great_magic",
+      "category": "weapon",
+      "source_name": "The First Great Magic",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.the_flute",
+      "category": "weapon",
+      "source_name": "The Flute",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.the_stringless",
+      "category": "weapon",
+      "source_name": "The Stringless",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.the_unforged",
+      "category": "weapon",
+      "source_name": "The Unforged",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.the_viridescent_hunt",
+      "category": "weapon",
+      "source_name": "The Viridescent Hunt",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.the_widsith",
+      "category": "weapon",
+      "source_name": "The Widsith",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.thrilling_tales_of_dragon_slayers",
+      "category": "weapon",
+      "source_name": "Thrilling Tales of Dragon Slayers",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.thundering_pulse",
+      "category": "weapon",
+      "source_name": "Thundering Pulse",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.tidal_shadow",
+      "category": "weapon",
+      "source_name": "Tidal Shadow",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.tome_of_the_eternal_flow",
+      "category": "weapon",
+      "source_name": "Tome of the Eternal Flow",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.toukabou_shigure",
+      "category": "weapon",
+      "source_name": "Toukabou Shigure",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.traveler_s_handy_sword",
+      "category": "weapon",
+      "source_name": "Traveler's Handy Sword",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.tulaytullah_s_remembrance",
+      "category": "weapon",
+      "source_name": "Tulaytullah's Remembrance",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.twin_nephrite",
+      "category": "weapon",
+      "source_name": "Twin Nephrite",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.uraku_misugiri",
+      "category": "weapon",
+      "source_name": "Uraku Misugiri",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.verdict",
+      "category": "weapon",
+      "source_name": "Verdict",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.vivid_notions",
+      "category": "weapon",
+      "source_name": "Vivid Notions",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.vortex_vanquisher",
+      "category": "weapon",
+      "source_name": "Vortex Vanquisher",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.wandering_evenstar",
+      "category": "weapon",
+      "source_name": "Wandering Evenstar",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.waster_greatsword",
+      "category": "weapon",
+      "source_name": "Waster Greatsword",
+      "arabic_name": "",
+      "rarity": 1,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.wavebreaker_s_fin",
+      "category": "weapon",
+      "source_name": "Wavebreaker's Fin",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.waveriding_whirl",
+      "category": "weapon",
+      "source_name": "Waveriding Whirl",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.white_iron_greatsword",
+      "category": "weapon",
+      "source_name": "White Iron Greatsword",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.white_tassel",
+      "category": "weapon",
+      "source_name": "White Tassel",
+      "arabic_name": "",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_POLE"
+    },
+    {
+      "id": "weapon.whiteblind",
+      "category": "weapon",
+      "source_name": "Whiteblind",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.whitelake_frostfeather",
+      "category": "weapon",
+      "source_name": "Whitelake Frostfeather",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.windblume_ode",
+      "category": "weapon",
+      "source_name": "Windblume Ode",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_BOW"
+    },
+    {
+      "id": "weapon.wine_and_song",
+      "category": "weapon",
+      "source_name": "Wine and Song",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.winter_s_heavy_heart",
+      "category": "weapon",
+      "source_name": "Winter's Heavy Heart",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CATALYST"
+    },
+    {
+      "id": "weapon.wolf_s_gravestone",
+      "category": "weapon",
+      "source_name": "Wolf's Gravestone",
+      "arabic_name": "",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_CLAYMORE"
+    },
+    {
+      "id": "weapon.wolf_fang",
+      "category": "weapon",
+      "source_name": "Wolf-Fang",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
+    },
+    {
+      "id": "weapon.xiphos_moonlight",
+      "category": "weapon",
+      "source_name": "Xiphos' Moonlight",
+      "arabic_name": "",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "live API"
+        }
+      ],
+      "translation_status": "needs_context",
+      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "weapon_type": "WEAPON_SWORD_ONE_HAND"
     }
-  ]
+  ],
+  "source_sync": {
+    "provider": "genshin-db",
+    "endpoint": "https://genshin-db-api.vercel.app/api/v5/weapons",
+    "synced_on": "2026-11-10",
+    "records_imported": 253,
+    "records_skipped": 0,
+    "note": "Names and compact metadata only; long descriptions are not copied."
+  }
 }
