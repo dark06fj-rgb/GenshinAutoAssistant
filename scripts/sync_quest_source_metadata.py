@@ -462,6 +462,34 @@ def main() -> int:
         for entry in data["entries"]:
             key = f"{kind}_{entry.get('node_type')}"
             counts[key] = counts.get(key, 0) + 1
+    selected_counts = {
+        kind: sum(1 for value in selected.values() if value == kind)
+        for kind in ("AQ", "WQ")
+    }
+    fetched_counts = {
+        kind: sum(1 for value in fetched.values() if value["type"] == kind)
+        for kind in ("AQ", "WQ")
+    }
+    report = {
+        "animegamedata_commit": ANIME_COMMIT,
+        "gi_onlinequest_commit": GI_COMMIT,
+        "main_quest_rows": len(main_rows),
+        "english_quest_files": len(available_ids),
+        "selected_candidates": selected_counts,
+        "player_facing_imported": fetched_counts,
+        "skipped_hidden_or_repeatable": skipped_hidden_or_repeatable,
+        "held_back_unresolved_title_count": skipped_unresolved_title,
+        "catalog_counts": counts,
+        "unresolved_title_source_ids": sorted(
+            quest_id for quest_id, kind in selected.items()
+            if quest_id not in fetched and kind in ("AQ", "WQ")
+        ),
+    }
+    report_path = ROOT / "localization/quest-import-report.json"
+    report_path.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\\n",
+        encoding="utf-8",
+    )
     print(
         f"Source roster: {len(main_rows)} MainQuest rows, "
         f"{len(available_ids)} English quest files, {len(selected)} AQ/WQ candidates, "
@@ -469,6 +497,8 @@ def main() -> int:
         f"{skipped_hidden_or_repeatable} hidden/repeatable records skipped, "
         f"{skipped_unresolved_title} records held back because their English title is unresolved."
     )
+    print(f"Candidate types: AQ={selected_counts['AQ']}, WQ={selected_counts['WQ']}")
+    print(f"Imported displayable types: AQ={fetched_counts['AQ']}, WQ={fetched_counts['WQ']}")
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
     print(
