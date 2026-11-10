@@ -50,7 +50,7 @@ QUEST_CATALOG_TYPES = {
 }
 QUEST_NODE_TYPES = {
     "archon": {"chapter", "act", "quest"},
-    "world": {"series", "quest"},
+    "world": {"chapter", "series", "quest"},
 }
 
 
