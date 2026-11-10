@@ -42,7 +42,9 @@ The following names were retained. The current Version 7.2 playable-character li
 
 ## Traveler handling
 
-The catalog retains the existing Aether record as the Traveler's catalog identity. Lumine is the alternate selectable protagonist identity, not an additional independent character entry in this catalog. Elemental alignments/forms (including the Cryo form listed for Version 7.0) are treated as Traveler variants, not separate character records. This avoids multiplying one character into multiple catalog entities.
+The character roster retains one Traveler identity (`character.aether`), with Lumine treated as the alternate selectable protagonist identity rather than a separate roster entry. The talent catalog now models the Traveler's seven element-specific combat kits separately under that single identity: Anemo, Geo, Electro, Dendro, Hydro, Pyro, and Cryo. Each element has three combat talent records (Normal Attack, Elemental Skill, and Elemental Burst), for 21 Traveler talent records total. Their IDs include the element to prevent collisions, and each record links to its corresponding `genshin-db` source file. This preserves the distinction between one roster character and seven mechanically distinct talent kits.
+
+All 21 Arabic talent names and summaries are `draft` proposals, not official translations. The summaries are concise original descriptions rather than copied full in-game text. Passive talents are not included in this combat-talent count.
 
 ## Not added
 
