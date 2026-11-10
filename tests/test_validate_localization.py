@@ -273,7 +273,7 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.write_catalogs(catalogs)
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
-        self.assertIn("ID does not match character/talent slot", output)
+        self.assertIn("ID does not match a supported character/talent slot", output)
 
     def test_malformed_json_fails(self):
         (self.catalog_dir / "resources.json").write_text("{broken", encoding="utf-8")
