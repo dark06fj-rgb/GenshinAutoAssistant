@@ -1,5 +1,7 @@
 # World Quest Import Report
 
+> **Historical snapshot:** This report records the initial import by `import_world_quests.py`; its counts and translation statuses below are not the current merged catalog state. For authoritative current totals and Arabic coverage, see `QUEST_CATALOG_AUDIT.md` and `quest-import-report.json`.
+
 - Source snapshot: `DimbreathBot/AnimeGameData@d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1` (7.2.0)
 - Source WQ records: 3225
 - Imported quest records with resolved English title: 1544
@@ -9,7 +11,7 @@
 - Unresolved title hashes after TextMapEN + TextMap_MediumEN: 1681
 - Translation statuses: {'needs_translation': 381, 'draft': 1230}
 
-Arabic translations are intentionally left empty and marked `needs_translation`; no machine-generated or guessed Arabic labels are presented as completed work.
+At the time of this initial import, newly imported Arabic labels were left empty and marked `needs_translation`; later source synchronization and editorial batches have changed the merged catalog. The historical counts above should not be used as current translation totals.
 The source type `WQ` is retained verbatim in metadata. Some records are internal/hidden quest nodes, so the app should label visibility from source metadata rather than imply every record is a player-facing quest.
 
 ## Unresolved source titles
