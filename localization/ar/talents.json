@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "language": "ar",
   "catalog_type": "character_talents",
-  "game_version": null,
+  "game_version": "7.2",
   "entries": [
     {
       "id": "character.albedo.talent.normal",
@@ -633,6 +633,447 @@
       ],
       "translation_status": "draft",
       "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
+    },
+    {
+      "id": "character.10000066.talent.normal",
+      "category": "term",
+      "character_id": "character.10000066",
+      "character_name": "Kamisato Ayato",
+      "character_name_ar": "كاميساتو أياتو",
+      "talent_type": "normal",
+      "source_name": "Kamisato Art: Marobashi",
+      "arabic_name": "فن كاميساتو: ماروباشي",
+      "description_source": null,
+      "description_ar": "تنفيذ سلسلة من ضربات السيف، مع هجوم مشحون واندفاع هجومي من الجو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kamisatoayato.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000066.talent.skill",
+      "category": "term",
+      "character_id": "character.10000066",
+      "character_name": "Kamisato Ayato",
+      "character_name_ar": "كاميساتو أياتو",
+      "talent_type": "skill",
+      "source_name": "Kamisato Art: Kyouka",
+      "arabic_name": "فن كاميساتو: كيوكا",
+      "description_source": null,
+      "description_ar": "ينتقل أياتو إلى وضع تاكيميغوري كانكا، فتتحول ضرباته العادية إلى هجمات مائية سريعة، ويترك وهماً مائياً ينفجر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kamisatoayato.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000066.talent.burst",
+      "category": "term",
+      "character_id": "character.10000066",
+      "character_name": "Kamisato Ayato",
+      "character_name_ar": "كاميساتو أياتو",
+      "talent_type": "burst",
+      "source_name": "Kamisato Art: Suiyuu",
+      "arabic_name": "فن كاميساتو: سويو",
+      "description_source": null,
+      "description_ar": "ينشئ مجالاً مائياً تمطر داخله شفرات مائية على الأعداء، ويعزز ضرر الهجمات العادية للشخصيات داخله.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kamisatoayato.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000015.talent.normal",
+      "category": "term",
+      "character_id": "character.10000015",
+      "character_name": "Kaeya",
+      "character_name_ar": "كايا",
+      "talent_type": "normal",
+      "source_name": "Ceremonial Bladework",
+      "arabic_name": "فن المبارزة الاحتفالي",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة من ضربات السيف، مع هجوم مشحون وضربة غطس من الجو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaeya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000015.talent.skill",
+      "category": "term",
+      "character_id": "character.10000015",
+      "character_name": "Kaeya",
+      "character_name_ar": "كايا",
+      "talent_type": "skill",
+      "source_name": "Frostgnaw",
+      "arabic_name": "قاضم الصقيع",
+      "description_source": null,
+      "description_ar": "يطلق موجة جليدية أمام كايا تلحق ضرر كرايو بالأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaeya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000015.talent.burst",
+      "category": "term",
+      "character_id": "character.10000015",
+      "character_name": "Kaeya",
+      "character_name_ar": "كايا",
+      "talent_type": "burst",
+      "source_name": "Glacial Waltz",
+      "arabic_name": "رقصة جليدية",
+      "description_source": null,
+      "description_ar": "يستدعي ثلاث رقاقات جليدية تدور حول الشخصية النشطة وتلحق ضرر كرايو بالأعداء في طريقها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kaeya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000063.talent.normal",
+      "category": "term",
+      "character_id": "character.10000063",
+      "character_name": "Shenhe",
+      "character_name_ar": "شينهي",
+      "talent_type": "normal",
+      "source_name": "Dawnstar Piercer",
+      "arabic_name": "ثاقبة نجمة الفجر",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة من ضربات الرمح، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/shenhe.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000063.talent.skill",
+      "category": "term",
+      "character_id": "character.10000063",
+      "character_name": "Shenhe",
+      "character_name_ar": "شينهي",
+      "talent_type": "skill",
+      "source_name": "Spring Spirit Summoning",
+      "arabic_name": "استدعاء روح الربيع",
+      "description_source": null,
+      "description_ar": "يمنح أعضاء الفريق القريبين تأثير الريشة الجليدية، ويطلق هجوماً كرايو يختلف بحسب الضغط أو الاستمرار بالضغط.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/shenhe.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000063.talent.burst",
+      "category": "term",
+      "character_id": "character.10000063",
+      "character_name": "Shenhe",
+      "character_name_ar": "شينهي",
+      "talent_type": "burst",
+      "source_name": "Divine Maiden's Deliverance",
+      "arabic_name": "خلاص العذراء الإلهية",
+      "description_source": null,
+      "description_ar": "يطلق روح التعويذة في مجال يسبب ضرر كرايو دورياً ويخفض مقاومة الأعداء لضرر كرايو والضرر الفيزيائي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/shenhe.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000114.talent.normal",
+      "category": "term",
+      "character_id": "character.10000114",
+      "character_name": "Skirk",
+      "character_name_ar": "سكيرك",
+      "talent_type": "normal",
+      "source_name": "Havoc: Sunder",
+      "arabic_name": "الفتك: تمزيق",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة هجمات، ويمكنها رمي رمح بلوري دوار في الهجوم المشحون.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/skirk.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000114.talent.skill",
+      "category": "term",
+      "character_id": "character.10000114",
+      "character_name": "Skirk",
+      "character_name_ar": "سكيرك",
+      "talent_type": "skill",
+      "source_name": "Havoc: Warp",
+      "arabic_name": "الفتك: انتقال",
+      "description_source": null,
+      "description_ar": "يمنح سكيرك خفة الأفعى ويتيح لها التحول إلى وضع الوميض السباعي أو الحركة السريعة بحسب طريقة الاستخدام.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/skirk.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000114.talent.burst",
+      "category": "term",
+      "character_id": "character.10000114",
+      "character_name": "Skirk",
+      "character_name_ar": "سكيرك",
+      "talent_type": "burst",
+      "source_name": "Havoc: Ruin",
+      "arabic_name": "الفتك: خراب",
+      "description_source": null,
+      "description_ar": "يستهلك خفة الأفعى لإطلاق سلسلة ضربات كرايو واسعة؛ ويتغير إلى مهارة خاصة عند تفعيل وضع الوميض السباعي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/skirk.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000111.talent.normal",
+      "category": "term",
+      "character_id": "character.10000111",
+      "character_name": "Varesa",
+      "character_name_ar": "فاريسا",
+      "talent_type": "normal",
+      "source_name": "By the Horns",
+      "arabic_name": "مواجهة مباشرة",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات متتابعة ونطحات وهجمات غطس كهربائية، وتتعزز هجماتها في حالة الشغف المتقد.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/varesa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000111.talent.skill",
+      "category": "term",
+      "character_id": "character.10000111",
+      "character_name": "Varesa",
+      "character_name_ar": "فاريسا",
+      "talent_type": "skill",
+      "source_name": "Riding the Night-Rainbow",
+      "arabic_name": "امتطاء قوس قزح الليلي",
+      "description_source": null,
+      "description_ar": "تندفع فاريسا للأمام وتكتسب نقاط روح الليل، ويمكنها الانتقال إلى وضع الاندفاع المفاجئ.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/varesa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.10000111.talent.burst",
+      "category": "term",
+      "character_id": "character.10000111",
+      "character_name": "Varesa",
+      "character_name_ar": "فاريسا",
+      "talent_type": "burst",
+      "source_name": "Guardian Vent!",
+      "arabic_name": "اندفاعة الحارس!",
+      "description_source": null,
+      "description_ar": "تقفز ثم تنفذ ركلة جوية كهربائية قوية، وتستعيد نقاط روح الليل وتدخل حالة الشغف المتقد.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/varesa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.mitya.talent.normal",
+      "category": "term",
+      "character_id": "character.mitya",
+      "character_name": "Mitya",
+      "character_name_ar": "ميتيّا",
+      "talent_type": "normal",
+      "source_name": "Chain Reaction",
+      "arabic_name": "تفاعل متسلسل",
+      "description_source": null,
+      "description_ar": "ينفذ هجمات كهربائية، ويمكنه إطلاق تفجير متدرج خاص يستهلك منارات التدرج لإحداث ضرر تفاعل التوصيل النجمي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mitya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.mitya.talent.skill",
+      "category": "term",
+      "character_id": "character.mitya",
+      "character_name": "Mitya",
+      "character_name_ar": "ميتيّا",
+      "talent_type": "skill",
+      "source_name": "Principle: Variable Detection",
+      "arabic_name": "المبدأ: الكشف المتغير",
+      "description_source": null,
+      "description_ar": "يجري تجربة كهربائية وينشئ نواة كشف؛ وتتغير حالتها عند إعادة استخدام المهارة ضمن فترة محددة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mitya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.mitya.talent.burst",
+      "category": "term",
+      "character_id": "character.mitya",
+      "character_name": "Mitya",
+      "character_name_ar": "ميتيّا",
+      "talent_type": "burst",
+      "source_name": "Analysis: Gradient Theory",
+      "arabic_name": "التحليل: نظرية التدرج",
+      "description_source": null,
+      "description_ar": "يطلق ضرراً كهربائياً واسع النطاق وينشئ ثلاث منارات تدرج.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mitya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.valeriy.talent.normal",
+      "category": "term",
+      "character_id": "character.valeriy",
+      "character_name": "Valeriy",
+      "character_name_ar": "فاليري",
+      "talent_type": "normal",
+      "source_name": "Guard Tactics: Sword and Shield",
+      "arabic_name": "تكتيكات الحراسة: السيف والدرع",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات بالسيف، ويمكنه استهلاك زخم الاصطدام لتنفيذ قصف مباشر خاص.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/valeriy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.valeriy.talent.skill",
+      "category": "term",
+      "character_id": "character.valeriy",
+      "character_name": "Valeriy",
+      "character_name_ar": "فاليري",
+      "talent_type": "skill",
+      "source_name": "Active Defense: Bastion Charge",
+      "arabic_name": "دفاع نشط: اندفاعة الحصن",
+      "description_source": null,
+      "description_ar": "يندفع للأمام بمدفع الدرع، ويسبب ضرراً كهربائياً ويكتسب زخم الاصطدام وينشر درعاً فائق الشحن.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/valeriy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
+    },
+    {
+      "id": "character.valeriy.talent.burst",
+      "category": "term",
+      "character_id": "character.valeriy",
+      "character_name": "Valeriy",
+      "character_name_ar": "فاليري",
+      "talent_type": "burst",
+      "source_name": "Focused Fire: Lightning Salvo",
+      "arabic_name": "نيران مركزة: وابل البرق",
+      "description_source": null,
+      "description_ar": "يطلق قذيفة رعدية تتفرق إلى وابل مقذوفات يسبب ضرراً كهربائياً في المنطقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/valeriy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم الموهبة وملخص الوصف العربي صياغة مجتمعية أولية استناداً إلى بيانات الموهبة؛ ليست ترجمة رسمية وتحتاج مراجعة لغوية ولعبية."
     }
   ]
 }
