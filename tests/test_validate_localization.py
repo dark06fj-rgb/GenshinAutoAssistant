@@ -477,7 +477,7 @@ class ValidatorRegressionTests(unittest.TestCase):
                 (),
             ),
             "character.noelle.talent.burst": (
-                ("يزيد هجومها بحسب دفاعها",),
+                ("تزيد هجومها بحسب دفاعها",),
                 (),
             ),
             "character.ganyu.talent.normal": (
