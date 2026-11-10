@@ -202,6 +202,26 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.assertEqual(exit_code, 1)
         self.assertIn("does not match catalog type", output)
 
+    def test_needs_translation_allows_blank_arabic_name(self):
+        catalogs = fixture_catalogs()
+        entry = catalogs["quests_world.json"]["entries"][0]
+        entry["arabic_name"] = ""
+        entry["translation_status"] = "needs_translation"
+        self.write_catalogs(catalogs)
+        exit_code, output, validator = self.run_validator()
+        self.assertEqual(exit_code, 0, output)
+        self.assertFalse(validator.errors)
+
+    def test_blank_arabic_name_requires_needs_translation_status(self):
+        catalogs = fixture_catalogs()
+        entry = catalogs["quests_world.json"]["entries"][0]
+        entry["arabic_name"] = ""
+        entry["translation_status"] = "draft"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("empty/invalid arabic_name", output)
+
     def test_quest_parent_reference_must_exist(self):
         catalogs = fixture_catalogs()
         catalogs["quests_archon.json"]["entries"][2]["parent_id"] = "quest.archon.act.missing"
