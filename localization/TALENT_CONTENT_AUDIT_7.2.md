@@ -144,3 +144,16 @@ Several summaries still use descriptive forms such as `كهربائي`, `مائ�
 ### Limits
 
 This is a source-backed automated/editorial review, not a human linguistic or gameplay certification. The upstream comparison used genshin-db's English talent files; no independent line-by-line comparison against a second GenshinData snapshot or live in-game capture was completed. Every summary remains an original concise proposal and may omit secondary mechanics by design. Ambiguous wording remains unchanged pending contextual human review.
+
+
+### CI verification
+
+On commit `e1eb298e7a4f8c98b7c23a3ef897b1be1e418c17`, GitHub Actions workflow
+[Localization validator tests #42877444585](https://github.com/dark06fj-rgb/GenshinAutoAssistant/actions/runs/42877444585)
+completed successfully:
+
+- Regression suite: **33 tests passed**.
+- Catalog validator: **9 Arabic JSON catalogs, 2,418 records checked**.
+- Result: **PASS** for JSON structure, IDs, source metadata, glossary links, and talent references.
+
+The first run of the new regression test exposed one assertion-wording mismatch (`يزيد` versus the catalog's correct `تزيد`); the test assertion was corrected before the successful run above. No catalog translation status was changed.
