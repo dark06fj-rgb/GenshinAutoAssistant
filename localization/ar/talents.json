@@ -7626,6 +7626,69 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000097.talent.normal",
+      "category": "term",
+      "character_id": "character.10000097",
+      "character_name": "Sethos",
+      "character_name_ar": "سيتوس",
+      "talent_type": "normal",
+      "source_name": "Royal Reed Archery",
+      "arabic_name": "رماية القصب الملكي",
+      "description_source": null,
+      "description_ar": "يطلق سلسلة سهام بالقوس. ويمكنه شحن السهم لإطلاق ضربة كهربائية، أو شحنة كاملة تطلق سهماً نافذاً يخترق الأعداء؛ لكنه لا يستطيع الحركة أثناء اكتمال شحن الضربة النافذة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sethos.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000097.talent.skill",
+      "category": "term",
+      "character_id": "character.10000097",
+      "character_name": "Sethos",
+      "character_name_ar": "سيتوس",
+      "talent_type": "skill",
+      "source_name": "Ancient Rite: The Thundering Sands",
+      "arabic_name": "الطقس القديم: رمال الرعد",
+      "description_source": null,
+      "description_ar": "يجمع قوة الرعد ليطلق هجوماً كهربائياً واسعاً ثم يتراجع بسرعة. وعند تفعيل تفاعلات عنصرية محددة بالكهرباء يستعيد جزءاً من طاقته العنصرية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sethos.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000097.talent.burst",
+      "category": "term",
+      "character_id": "character.10000097",
+      "character_name": "Sethos",
+      "character_name_ar": "سيتوس",
+      "talent_type": "burst",
+      "source_name": "Secret Rite: Twilight Shadowpiercer",
+      "arabic_name": "الطقس السري: مخترق الظلال عند الغسق",
+      "description_source": null,
+      "description_ar": "يدخل حالة تأمل الغسق، فتتحول هجماته العادية إلى سهام شفق نافذة تخترق الأعداء وتسبب ضرر كهرباء يزداد بحسب إتقانه للعناصر. تنتهي الحالة عند مغادرته ساحة القتال.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sethos.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
     }
   ]
 }
