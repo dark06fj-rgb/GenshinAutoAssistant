@@ -66729,7 +66729,7 @@
       "source_quest_id": "76192",
       "source_name": "Animal Research: Frostfin Whales",
       "arabic_name": "أبحاث الحيوانات: حيتان الزعانف الجليدية",
-      "description_ar": null,
+      "description_ar": "ترددت شائعة عن مشاهدة حوت زعنفته صقيعية وردية اللون في المياه شمال غرب جزيرة ليمبو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66746,7 +66746,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66773,7 +66773,7 @@
       "source_quest_id": "76193",
       "source_name": "Special Research: Melusine?",
       "arabic_name": "بحث خاص: ميلوزين؟",
-      "description_ar": null,
+      "description_ar": "شوهدت ميلوزين استثنائية تسافر برفقة كلب آلي، فتبدأ بالتحقق من هذه الحالة الغريبة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66790,7 +66790,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66817,7 +66817,7 @@
       "source_quest_id": "76194",
       "source_name": "Mineral Research: Rainbowdrop Crystals",
       "arabic_name": "أبحاث المعادن: بلورات قطرات قوس قزح",
-      "description_ar": null,
+      "description_ar": "اكتُشفت بلورات قطرات قوس قزح عند الطرف الشرقي من جزيرة هيسي.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66834,7 +66834,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66861,7 +66861,7 @@
       "source_quest_id": "76195",
       "source_name": "Mineral Research: Pine Amber",
       "arabic_name": "أبحاث المعادن: كهرمان الصنوبر",
-      "description_ar": null,
+      "description_ar": "اكتُشف موقع غني بالخامات في مستنقع دريدشيد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66878,7 +66878,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66905,7 +66905,7 @@
       "source_quest_id": "76196",
       "source_name": "Mineral Research: Moonfall Silver",
       "arabic_name": "أبحاث المعادن: فضة سقوط القمر",
-      "description_ar": null,
+      "description_ar": "يبدو أن فعالية ما تُقام في ساحة بلدة ناشا، بالتزامن مع العثور على فضة سقوط القمر.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66922,7 +66922,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66949,7 +66949,7 @@
       "source_quest_id": "76197",
       "source_name": "Mineral Research: Icy Pebbles",
       "arabic_name": "أبحاث المعادن: حصى جليدية",
-      "description_ar": null,
+      "description_ar": "تنتشر أعداد كبيرة من الحصى الجليدي على الساحل الغربي لجزيرة هيسي.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -66966,7 +66966,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -66993,7 +66993,7 @@
       "source_quest_id": "76198",
       "source_name": "Plant Research: Winter Icelea",
       "arabic_name": "أبحاث النباتات: نبات آيسليا الشتوي",
-      "description_ar": null,
+      "description_ar": "رُصد نبات آيسليا الشتوي غرب بيراميدا، فتبدأ بالتحقق من موقعه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67010,7 +67010,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67037,7 +67037,7 @@
       "source_quest_id": "76199",
       "source_name": "Plant Research: Frostlamp Flowers",
       "arabic_name": "أبحاث النباتات: أزهار المصابيح الصقيعية",
-      "description_ar": null,
+      "description_ar": "عُثر على مجموعات من أزهار مصباح الصقيع غرب معقل قمر الصقيع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67054,7 +67054,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67081,7 +67081,7 @@
       "source_quest_id": "76200",
       "source_name": "Plant Research: Twinleaf Pitcher Plants",
       "arabic_name": "أبحاث النباتات: نباتات الإبريق ثنائية الأوراق",
-      "description_ar": null,
+      "description_ar": "ظهرت فجأة رقعة واسعة من نباتات الإبريق ثنائية الأوراق في مكان ما من جزيرة ليمبو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67098,7 +67098,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67125,7 +67125,7 @@
       "source_quest_id": "76201",
       "source_name": "Plant Research: Nocturnal Blossoms",
       "arabic_name": "أبحاث النباتات: أزهار ليلية",
-      "description_ar": null,
+      "description_ar": "تنمو الأزهار الليلية أيضاً شمال بلدة ناشا، في مناطق تنخفض فيها مستويات كوفاهكي.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67142,7 +67142,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67169,7 +67169,7 @@
       "source_quest_id": "76202",
       "source_name": "The Joyous Floating Island",
       "arabic_name": "الجزيرة العائمة المبهجة",
-      "description_ar": null,
+      "description_ar": "يدعوك صوت غامض ذات يوم إلى زيارة نُزل الساحرات العائم فوق جزيرة مبهجة.",
       "chapter_id": "10242",
       "act_id": null,
       "series_id": null,
@@ -67186,7 +67186,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10242,
         "series": null,
@@ -67213,7 +67213,7 @@
       "source_quest_id": "76203",
       "source_name": "The Silent Theater",
       "arabic_name": "المسرح الصامت",
-      "description_ar": null,
+      "description_ar": "تُفتح غرفة جديدة في المسرح الصامت، كاشفةً مساحة إضافية لاستكشافها.",
       "chapter_id": "10242",
       "act_id": null,
       "series_id": null,
@@ -67230,7 +67230,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10242,
         "series": null,
@@ -67257,7 +67257,7 @@
       "source_quest_id": "76204",
       "source_name": "The Lost Palace",
       "arabic_name": "القصر الضائع",
-      "description_ar": null,
+      "description_ar": "تُفتح غرفة جديدة في القصر المفقود، كاشفةً مساحة إضافية لاستكشافها.",
       "chapter_id": "10242",
       "act_id": null,
       "series_id": null,
@@ -67274,7 +67274,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10242,
         "series": null,
@@ -67301,7 +67301,7 @@
       "source_quest_id": "76205",
       "source_name": "The Forgotten Lighthouse",
       "arabic_name": "المنارة المنسية",
-      "description_ar": null,
+      "description_ar": "تُفتح غرفة جديدة في المنارة المنسية، كاشفةً مساحة إضافية لاستكشافها.",
       "chapter_id": "10242",
       "act_id": null,
       "series_id": null,
@@ -67318,7 +67318,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10242,
         "series": null,
@@ -67345,7 +67345,7 @@
       "source_quest_id": "76210",
       "source_name": "Submerged Dragon, Soaring Phoenix",
       "arabic_name": "تنين غارق وعنقاء محلّقة",
-      "description_ar": null,
+      "description_ar": "تلتقي في أكاديمية لويانغ ممارساً لفنون سيف غووا، وهو يصقل مهاراته القتالية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67362,7 +67362,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67389,7 +67389,7 @@
       "source_quest_id": "76218",
       "source_name": "A Lady's Invitation",
       "arabic_name": "دعوة سيدة",
-      "description_ar": null,
+      "description_ar": "تصلك رسالة دعوة من ساندَروني لحضور حفلة شاي؛ ويُنصح بإكمال «صيف فونتيناليا المشمس» للاستمتاع بالأحداث على أفضل وجه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67406,7 +67406,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67433,7 +67433,7 @@
       "source_quest_id": "76220",
       "source_name": "Tea Party Re-Invitation: Arlecchino",
       "arabic_name": "دعوة شاي ثانية: أرليكينو",
-      "description_ar": null,
+      "description_ar": "توجّه إلى مكتب تصميم كوفاهكي التجريبي، وأعدّ طاولة الشاي لاستقبال ساندَروني وأركليكينو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67450,7 +67450,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67477,7 +67477,7 @@
       "source_quest_id": "76221",
       "source_name": "Tea Party Re-Invitation: Tartaglia",
       "arabic_name": "دعوة شاي ثانية: تارتاليا",
-      "description_ar": null,
+      "description_ar": "توجّه إلى مكتب تصميم كوفاهكي التجريبي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67494,7 +67494,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67521,7 +67521,7 @@
       "source_quest_id": "76222",
       "source_name": "Tea Party Re-Invitation: Nefer",
       "arabic_name": "دعوة شاي ثانية: نيفر",
-      "description_ar": null,
+      "description_ar": "توجّه إلى معهد الأسرار، وأعدّ طاولة الشاي لاستقبال ساندَروني ونيفر.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67538,7 +67538,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67565,7 +67565,7 @@
       "source_quest_id": "76223",
       "source_name": "Tea Party Re-Invitation: Lauma",
       "arabic_name": "دعوة شاي ثانية: لوما",
-      "description_ar": null,
+      "description_ar": "توجّه إلى معقل قمر الصقيع، وأعدّ طاولة الشاي لاستقبال ساندَروني ولاوما.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67582,7 +67582,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67609,7 +67609,7 @@
       "source_quest_id": "76225",
       "source_name": "Tea Party Re-Invitation: Columbina",
       "arabic_name": "دعوة شاي ثانية: كولومبينا",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني وكولومبينا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67626,7 +67626,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67887,7 +67887,7 @@
       "source_quest_id": "76511",
       "source_name": "Technical Martial Challenge",
       "arabic_name": "تحدي الفنون القتالية التقني",
-      "description_ar": null,
+      "description_ar": "تصل بطولة الفنون القتالية الفريدة في نود-كراي إلى أكثر مراحلها إثارة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67904,7 +67904,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -67931,7 +67931,7 @@
       "source_quest_id": "76512",
       "source_name": "Final Match Concludes, Champion Decided",
       "arabic_name": "تنتهي المباراة النهائية ويُحسم أمر البطل",
-      "description_ar": null,
+      "description_ar": "تنتهي منافسات تحدي الفنون القتالية، ويحين وقت تحديد البطل والفائز بالبطولة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -67948,7 +67948,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -68905,7 +68905,7 @@
       "source_quest_id": "76680",
       "source_name": "Stronghold Guard: Hoard Guard Unit!",
       "arabic_name": "حارس المعقل: وحدة حراس الكنوز!",
-      "description_ar": null,
+      "description_ar": "تلتقي في نود-كراي رسولاً يُدعى الصاعقة الزرقاء، ويبدو أنه يختبر وحدة دفاع آلية معينة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -68922,7 +68922,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -68949,7 +68949,7 @@
       "source_quest_id": "76681",
       "source_name": "Origin of the Sequence",
       "arabic_name": "أصل التسلسل",
-      "description_ar": null,
+      "description_ar": "تعثر على برج غريب يبدو مألوفاً على نحو يثير التساؤلات حول أصله.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -68966,7 +68966,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -68993,7 +68993,7 @@
       "source_quest_id": "76683",
       "source_name": "Sightlines and Camera Tricks",
       "arabic_name": "خطوط الرؤية وخدع الكاميرا",
-      "description_ar": null,
+      "description_ar": "أُنشئت ساحة تدريب خاصة في القسم الجنوبي من ميناء لوميدوس في فونتين، للتدرب على زوايا الرؤية وخدع الكاميرا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -69010,7 +69010,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -69037,7 +69037,7 @@
       "source_quest_id": "76684",
       "source_name": "Flower, Feathers, and Bullets",
       "arabic_name": "زهور وريش ورصاص",
-      "description_ar": null,
+      "description_ar": "مع اقتراب تدريب الاستنتاج الباليستي من نهايته، يبدو أن شيفروز وتشاسكا توصلتا إلى اتفاق ما.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -69054,7 +69054,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -69081,7 +69081,7 @@
       "source_quest_id": "77000",
       "source_name": "Variations on Belyi and Chernyi",
       "arabic_name": "تنويعات بيلي وتشيرني",
-      "description_ar": null,
+      "description_ar": "تتصدر باليه «بجعة الثلج السوداء» الاهتمام، لكن أصوات محادثات غريبة تتسرب عبر جدران مسرح كوروليفسكي.",
       "chapter_id": "10284",
       "act_id": null,
       "series_id": null,
@@ -69098,7 +69098,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10284,
         "series": null,
@@ -69125,7 +69125,7 @@
       "source_quest_id": "77001",
       "source_name": "Variations on Belyi and Chernyi: Schedule",
       "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
-      "description_ar": null,
+      "description_ar": "تتواصل أحداث «تنويعات بيلي وتشرني» وفق جدول أوديت المحدد.",
       "chapter_id": "10284",
       "act_id": null,
       "series_id": null,
@@ -69142,7 +69142,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10284,
         "series": null,
@@ -69169,7 +69169,7 @@
       "source_quest_id": "77002",
       "source_name": "Variations on Belyi and Chernyi: Schedule",
       "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
-      "description_ar": null,
+      "description_ar": "تتواصل أحداث «تنويعات بيلي وتشرني» وفق جدول أوديت المحدد.",
       "chapter_id": "10284",
       "act_id": null,
       "series_id": null,
@@ -69186,7 +69186,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10284,
         "series": null,
