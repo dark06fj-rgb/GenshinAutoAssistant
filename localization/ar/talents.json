@@ -12,7 +12,7 @@
       "character_name_ar": "ألبيدو",
       "talent_type": "normal",
       "source_name": "Favonius Bladework - Weiss",
-      "arabic_name": "فن المبارزة الفافونية: فايس",
+      "arabic_name": "فن المبارزة الفافوني: فايس",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -23,7 +23,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.albedo.talent.skill",
@@ -33,7 +33,7 @@
       "character_name_ar": "ألبيدو",
       "talent_type": "skill",
       "source_name": "Abiogenesis: Solar Isotoma",
-      "arabic_name": "الخلق التلقائي: زهرة الشمس",
+      "arabic_name": "التكوين التلقائي: سولار إيزوتوما",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -44,7 +44,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.albedo.talent.burst",
@@ -65,7 +65,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.amber.talent.normal",
@@ -75,7 +75,7 @@
       "character_name_ar": "آمبر",
       "talent_type": "normal",
       "source_name": "Sharpshooter",
-      "arabic_name": "القنّاصة",
+      "arabic_name": "رامية ماهرة",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -86,7 +86,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.amber.talent.skill",
@@ -107,7 +107,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.amber.talent.burst",
@@ -128,7 +128,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.barbara.talent.normal",
@@ -149,7 +149,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.barbara.talent.skill",
@@ -170,7 +170,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.barbara.talent.burst",
@@ -191,7 +191,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.diluc.talent.normal",
@@ -212,7 +212,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.diluc.talent.skill",
@@ -233,7 +233,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.diluc.talent.burst",
@@ -254,7 +254,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.jean.talent.normal",
@@ -264,7 +264,7 @@
       "character_name_ar": "جين",
       "talent_type": "normal",
       "source_name": "Favonius Bladework",
-      "arabic_name": "فن المبارزة الفافونية",
+      "arabic_name": "فن المبارزة الفافوني",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -275,7 +275,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.jean.talent.skill",
@@ -296,7 +296,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.jean.talent.burst",
@@ -317,7 +317,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.keqing.talent.normal",
@@ -327,7 +327,7 @@
       "character_name_ar": "كي تشينغ",
       "talent_type": "normal",
       "source_name": "Yunlai Swordsmanship",
-      "arabic_name": "فن المبارزة يونلاي",
+      "arabic_name": "فن مبارزة يونلاي",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -338,7 +338,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.keqing.talent.skill",
@@ -359,7 +359,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.keqing.talent.burst",
@@ -380,7 +380,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.lisa.talent.normal",
@@ -401,7 +401,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.lisa.talent.skill",
@@ -422,7 +422,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.lisa.talent.burst",
@@ -443,7 +443,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.noelle.talent.normal",
@@ -453,7 +453,7 @@
       "character_name_ar": "نويل",
       "talent_type": "normal",
       "source_name": "Favonius Bladework - Maid",
-      "arabic_name": "فن المبارزة الفافونية: الخادمة",
+      "arabic_name": "فن المبارزة الفافوني: الخادمة",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -464,7 +464,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.noelle.talent.skill",
@@ -474,7 +474,7 @@
       "character_name_ar": "نويل",
       "talent_type": "skill",
       "source_name": "Breastplate",
-      "arabic_name": "درع الصدر",
+      "arabic_name": "الدرع الواقي",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -485,7 +485,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.noelle.talent.burst",
@@ -495,7 +495,7 @@
       "character_name_ar": "نويل",
       "talent_type": "burst",
       "source_name": "Sweeping Time",
-      "arabic_name": "وقت الاجتياح",
+      "arabic_name": "زمن الاجتياح",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -506,7 +506,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.qiqi.talent.normal",
@@ -527,7 +527,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.qiqi.talent.skill",
@@ -548,7 +548,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.qiqi.talent.burst",
@@ -558,7 +558,7 @@
       "character_name_ar": "تشي تشي",
       "talent_type": "burst",
       "source_name": "Adeptus Art: Preserver of Fortune",
-      "arabic_name": "فن الأديبتوس: حافظ الحظ",
+      "arabic_name": "فن الأديبتوس: حافظة الحظ",
       "description_source": null,
       "description_ar": null,
       "source": [
@@ -569,7 +569,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.xiangling.talent.normal",
@@ -590,7 +590,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.xiangling.talent.skill",
@@ -611,7 +611,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     },
     {
       "id": "character.xiangling.talent.burst",
@@ -632,7 +632,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم أولية مقترحة؛ لم تُراجع مقابل النص العربي الرسمي. الوصف مؤجل إلى دفعة لاحقة."
+      "review_notes": "مراجعة لغوية أولية لاسم الموهبة مع توحيد المصطلحات؛ الترجمة مقترح مجتمعي غير رسمي، والوصف لم يُترجم بعد."
     }
   ]
 }
