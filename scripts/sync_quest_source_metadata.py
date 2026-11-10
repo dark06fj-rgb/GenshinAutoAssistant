@@ -321,6 +321,7 @@ def main() -> int:
     unresolved_title_ids = []
     excluded_internal_ids = []
     excluded_internal_by_kind = {"AQ": [], "WQ": []}
+    excluded_hidden_by_kind = {"AQ": [], "WQ": []}
     excluded_no_source_title_ids = []
     candidate_type_counts = {"AQ": 0, "WQ": 0}
     errors = []
@@ -340,6 +341,8 @@ def main() -> int:
                         candidate_type_counts[result["type"]] += 1
                     if result.get("_skip_reason") == "hidden_or_repeatable":
                         skipped_hidden_or_repeatable += 1
+                        if result.get("type") in excluded_hidden_by_kind:
+                            excluded_hidden_by_kind[result["type"]].append(quest_id)
                     elif result.get("_skip_reason") in ("unreleased_or_internal", "internal_test"):
                         skipped_internal_or_unreleased += 1
                         excluded_internal_ids.append(quest_id)
@@ -373,9 +376,9 @@ def main() -> int:
         existing_by_kind[kind] = existing_index(data, kind)
 
     # Remove previously imported test/hidden placeholders from player-facing catalogs.
-    for source_id in excluded_internal_by_kind["AQ"]:
+    for source_id in excluded_internal_by_kind["AQ"] + excluded_hidden_by_kind["AQ"]:
         existing_by_kind["archon"].pop(("quest", source_id), None)
-    for source_id in excluded_internal_by_kind["WQ"]:
+    for source_id in excluded_internal_by_kind["WQ"] + excluded_hidden_by_kind["WQ"]:
         existing_by_kind["world"].pop(("quest", source_id), None)
 
     # Create/update chapter and series nodes using verified chapter IDs.
