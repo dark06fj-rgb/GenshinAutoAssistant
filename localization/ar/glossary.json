@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "language_name": "العربية",
+  "locale": "ar",
+  "game": "Genshin Impact",
+  "game_version": null,
+  "disclaimer": "Community translation drafts; not official HoYoverse terminology.",
+  "entries": [
+    {
+      "id": "term.primogem",
+      "source_term": "Primogem",
+      "translation": "الجوهرة الأولية",
+      "status": "draft",
+      "notes": "اقتراح ترجمة؛ يحتاج مراجعة واتساقاً مع بقية المصطلحات."
+    },
+    {
+      "id": "term.mora",
+      "source_term": "Mora",
+      "translation": "مورا",
+      "status": "draft",
+      "notes": "اسم عملة؛ يمكن إبقاؤه منقولاً صوتياً."
+    },
+    {
+      "id": "term.adventure_rank",
+      "source_term": "Adventure Rank",
+      "translation": "رتبة المغامرة",
+      "status": "draft"
+    },
+    {
+      "id": "term.original_resin",
+      "source_term": "Original Resin",
+      "translation": "الريزن الأصلي",
+      "status": "draft"
+    },
+    {
+      "id": "term.intertwined_fate",
+      "source_term": "Intertwined Fate",
+      "translation": "القدر المتشابك",
+      "status": "draft"
+    },
+    {
+      "id": "term.acquaint_fate",
+      "source_term": "Acquaint Fate",
+      "translation": "القدر المألوف",
+      "status": "draft"
+    }
+  ]
+}
