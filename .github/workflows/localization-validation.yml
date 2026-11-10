@@ -5,6 +5,7 @@ on:
     paths:
       - "localization/**/*.json"
       - "scripts/validate_localization.py"
+      - "scripts/sync_quest_source_metadata.py"
       - ".github/workflows/localization-validation.yml"
   pull_request:
     paths:
