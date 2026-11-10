@@ -275,6 +275,16 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.assertEqual(exit_code, 1)
         self.assertIn("ID does not match a supported character/talent slot", output)
 
+    def test_stale_review_note_conflicts_with_populated_summary(self):
+        catalogs = fixture_catalogs()
+        catalogs["talents.json"]["entries"][0]["review_notes"] = (
+            "الوصف لم يُترجم بعد."
+        )
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("stale review note", output)
+
     def test_malformed_json_fails(self):
         (self.catalog_dir / "resources.json").write_text("{broken", encoding="utf-8")
         exit_code, output, _ = self.run_validator()
