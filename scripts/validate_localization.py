@@ -174,6 +174,8 @@ class Validator:
                 ("weapon_type", CHARACTER_WEAPON_TERMS),
             ):
                 value = entry.get(field)
+                if not value:
+                    continue
                 source_term = mapping.get(value)
                 if source_term and source_term not in terms:
                     self.error(f"characters.json: missing glossary term {source_term!r} for {field}")
@@ -201,10 +203,17 @@ class Validator:
             if character is None:
                 self.error(f"{label} references unknown character_id {character_id!r}")
                 continue
-            if talent.get("character_name_ar") != character.get("arabic_name"):
+            expected_name = character.get("arabic_name")
+            actual_name = talent.get("character_name_ar")
+            # Traveler talent records carry a display suffix not present on the
+            # identity record; retain that explicit, documented presentation.
+            allowed_names = {expected_name}
+            if character_id in {"character.aether", "character.lumine"} and expected_name:
+                allowed_names.add(f"{expected_name} (المسافر)")
+            if actual_name not in allowed_names:
                 self.error(
                     f"{label} character_name_ar does not match characters.json "
-                    f"for {character_id}"
+                    f"for {character_id}: {actual_name!r}"
                 )
 
     def check_global_ids(self) -> None:
