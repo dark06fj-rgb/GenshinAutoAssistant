@@ -479,7 +479,7 @@ def main() -> int:
                 )
             if not isinstance(arabic_summary, str) or not arabic_summary.strip():
                 raise ValueError(f"Summary for {group} ID {source_id} is empty")
-            if not any("\\u0600" <= char <= "\\u06FF" for char in arabic_summary):
+            if not any("\u0600" <= char <= "\u06FF" for char in arabic_summary):
                 raise ValueError(f"Summary for {group} ID {source_id} contains no Arabic text")
             entry = existing_by_kind[kind][(node_type, source_id)]
             if not str(entry.get("description_ar") or "").strip():
