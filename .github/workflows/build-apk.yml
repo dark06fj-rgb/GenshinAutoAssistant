@@ -1132,16 +1132,18 @@ jobs:
                       for(int i=0;i<entries.length();i++) {
                           JSONObject entry=entries.optJSONObject(i); if(entry==null) continue;
                           String node=entry.optString("node_type","");
-                          if(!world && "act".equalsIgnoreCase(node)) {
+                          boolean groupNode=(!world && "act".equalsIgnoreCase(node)) || (world && "series".equalsIgnoreCase(node));
+                          if(groupNode) {
                               if(query.isEmpty()) {
                                   TextView chapter=new TextView(this);
-                                  chapter.setText("◆ "+questDisplayName(entry));
+                                  chapter.setText((world?"◇ ":"◆ ")+questDisplayName(entry));
                                   chapter.setTextSize(16); chapter.setTypeface(null,Typeface.BOLD);
                                   chapter.setTextColor(Color.rgb(65,48,91));
                                   chapter.setPadding(dp(5),dp(13),dp(5),dp(7)); list.addView(chapter);
                               }
                               continue;
                           }
+                          if(!"quest".equalsIgnoreCase(node)) continue;
                           String title=questDisplayName(entry);
                           String source=entry.optString("source_name","").toLowerCase(Locale.ROOT);
                           String arabic=entry.optString("arabic_name","").toLowerCase(Locale.ROOT);
