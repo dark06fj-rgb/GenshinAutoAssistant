@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1] / "localization"
 AR_DIR = ROOT / "ar"
-ALLOWED_STATUSES = {"draft", "reviewed", "approved", "needs_context"}
+ALLOWED_STATUSES = {"draft", "reviewed", "approved", "needs_context", "needs_translation"}
 ALLOWED_CATEGORIES = {"character", "weapon", "artifact", "material", "resource", "region", "enemy", "food", "quest", "term"}
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 ENTITY_REQUIRED = {"id", "category", "source_name", "arabic_name", "translation_status", "source"}
@@ -136,12 +136,18 @@ class Validator:
                     self.error(f"{label} has unsupported glossary status")
                 continue
 
-            for field in ("source_name", "arabic_name"):
-                if not isinstance(entry.get(field), str) or not entry[field].strip():
-                    self.error(f"{label} has an empty/invalid {field}")
+            if not isinstance(entry.get("source_name"), str) or not entry["source_name"].strip():
+                self.error(f"{label} has an empty/invalid source_name")
+            status = entry.get("translation_status")
+            arabic_name = entry.get("arabic_name")
+            if status == "needs_translation":
+                if not isinstance(arabic_name, str) or arabic_name.strip():
+                    self.error(f"{label} needs_translation entries must have an empty arabic_name")
+            elif not isinstance(arabic_name, str) or not arabic_name.strip():
+                self.error(f"{label} has an empty/invalid arabic_name")
             if entry.get("category") not in ALLOWED_CATEGORIES:
                 self.error(f"{label} has an unsupported category")
-            if entry.get("translation_status") not in ALLOWED_STATUSES:
+            if status not in ALLOWED_STATUSES:
                 self.error(f"{label} has unsupported translation_status")
             self.validate_source(label, entry.get("source"))
             if isinstance(entry.get("arabic_name"), str) and entry["arabic_name"].strip():
