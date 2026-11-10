@@ -45,9 +45,12 @@ jobs:
           ids=[x['id'] for x in d['entries']]
           assert len(ids)==len(set(ids)), 'duplicate quest IDs'
           assert all(x['quest_type']=='world' for x in d['entries'])
-          assert all(x['arabic_name']=='' and x['translation_status']=='needs_translation'
-                     for x in d['entries']), 'untranslated records must be explicitly marked'
-          print('Validated',len(ids),'world quest/chapter records')
+          assert all(
+              (x['translation_status'] == 'needs_translation' and x['arabic_name'] == '')
+              or (x['translation_status'] != 'needs_translation' and bool(x['arabic_name']))
+              for x in d['entries']
+          ), 'translation status and Arabic label must agree'
+          print('Validated',len(ids),'world quest/chapter records; unresolved translations:',sum(x['translation_status']=='needs_translation' for x in d['entries']))
           PY
 
       - name: Commit imported catalog
