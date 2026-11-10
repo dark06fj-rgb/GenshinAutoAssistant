@@ -1,0 +1,19 @@
+{
+  "backlog_target_count": 276,
+  "source_descriptions_extracted": 274,
+  "description_hashes_unresolved": 2,
+  "unresolved": [
+    {
+      "id": "quest.world.quest.77115",
+      "source_quest_id": "77115",
+      "hash": "2625786622",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.77307",
+      "source_quest_id": "77307",
+      "hash": "3439185798",
+      "reason": "hash_not_found"
+    }
+  ]
+}

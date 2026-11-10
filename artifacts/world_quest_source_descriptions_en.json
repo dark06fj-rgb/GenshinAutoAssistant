@@ -1,0 +1,2215 @@
+{
+  "source_snapshot": "DimbreathBot/AnimeGameData@d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1",
+  "backlog_commit": "3faf9c1916e2c672593a7e1ee5709b04f314eb7a",
+  "target_count": 276,
+  "extracted_count": 274,
+  "missing_count": 2,
+  "entries": [
+    {
+      "id": "quest.world.quest.40239",
+      "source_quest_id": "40239",
+      "source_name": "Return Home, Children of the Desert",
+      "arabic_name": "عودوا إلى دياركم يا أبناء الصحراء",
+      "description_hash": "2013538830",
+      "description_en": "The case has finally been resolved. However, when the question of how to deal with Ashvapati arises, everyone appears to have a different opinion..."
+    },
+    {
+      "id": "quest.world.quest.70061",
+      "source_quest_id": "70061",
+      "source_name": "Forest Boar Pauses for the Bloom",
+      "arabic_name": "الخنزير البري للغابة يتوقف ليتأمل الزهرة",
+      "description_hash": "1102744150",
+      "description_en": "...Near the flower field of Millhaven, now left in disarray, you notice a woman sighing in frustration. A brief exchange reveals the cause of the chaos — a forest boar has been trampling the flowers..."
+    },
+    {
+      "id": "quest.world.quest.70065",
+      "source_quest_id": "70065",
+      "source_name": "The Wind Has Ceased",
+      "arabic_name": "سكنت الرياح",
+      "description_hash": "3501881870",
+      "description_en": "There's an abandoned sanatorium on Windrest Peak..."
+    },
+    {
+      "id": "quest.world.quest.70067",
+      "source_quest_id": "70067",
+      "source_name": "Unofficial Chronicle of the Desert Pavilion",
+      "arabic_name": "سجل غير رسمي لجناح الصحراء",
+      "description_hash": "737414094",
+      "description_en": "There appears to be a survivor who's escaped punishment at the Desert Pavilion..."
+    },
+    {
+      "id": "quest.world.quest.70074",
+      "source_quest_id": "70074",
+      "source_name": "Stories to Sate the Glass and Scroll",
+      "arabic_name": "حكايات تروي ظمأ الزجاج واللفائف",
+      "description_hash": "1862920718",
+      "description_en": "Witch's Homework was born from discussions between Varka and the witches. The task assigned to Varka himself appears to be..."
+    },
+    {
+      "id": "quest.world.quest.70078",
+      "source_quest_id": "70078",
+      "source_name": "Winds Beneath the Tower of Silence",
+      "arabic_name": "رياح تحت برج الصمت",
+      "description_hash": "2792962022",
+      "description_en": "You learned in the tavern that the alarm at Dornman Port's old lighthouse seems to be malfunctioning. Rumors say that it's caused by ghosts beneath the lighthouse..."
+    },
+    {
+      "id": "quest.world.quest.70090",
+      "source_quest_id": "70090",
+      "source_name": "Tea Party Re-Invitation: Albedo",
+      "arabic_name": "دعوة شاي ثانية: ألبيدو",
+      "description_hash": "2629783142",
+      "description_en": "Go to Dragonspine, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Albedo..."
+    },
+    {
+      "id": "quest.world.quest.70092",
+      "source_quest_id": "70092",
+      "source_name": "A Proposition Beyond Refutation",
+      "arabic_name": "اقتراح لا يقبل الدحض",
+      "description_hash": "557926334",
+      "description_en": "Inside the witch's dictionary, you discover a rather infantile \"declaration of war\"..."
+    },
+    {
+      "id": "quest.world.quest.70096",
+      "source_quest_id": "70096",
+      "source_name": "Proof of Strength",
+      "arabic_name": "إثبات القوة",
+      "description_hash": "30236470",
+      "description_en": "What can serve as a symbol of one's power...?"
+    },
+    {
+      "id": "quest.world.quest.70098",
+      "source_quest_id": "70098",
+      "source_name": "Banners of the Northwind",
+      "arabic_name": "رايات ريح الشمال",
+      "description_hash": "479770606",
+      "description_en": "When the Holy Soil phenomenon first emerged, a tide of monsters surges forward, bearing down upon Mondstadt's gates.\\nYet with the triumphant return of the expedition, Mondstadt's military forces stands before the city gates once more, reunited at full strength after so long..."
+    },
+    {
+      "id": "quest.world.quest.70099",
+      "source_quest_id": "70099",
+      "source_name": "The Wind Has Ceased",
+      "arabic_name": "سكنت الرياح",
+      "description_hash": "4009714366",
+      "description_en": "There's an abandoned sanatorium on Windrest Peak..."
+    },
+    {
+      "id": "quest.world.quest.70100",
+      "source_quest_id": "70100",
+      "source_name": "Swords and Secrets",
+      "arabic_name": "السيوف والأسرار",
+      "description_hash": "499312198",
+      "description_en": "A flying sword is still a sword, and the Vila know their swords. Things shouldn't be this hard or inconvenient..."
+    },
+    {
+      "id": "quest.world.quest.70114",
+      "source_quest_id": "70114",
+      "source_name": "A Chat in the Snowy Mountains",
+      "arabic_name": "حديث في الجبال الثلجية",
+      "description_hash": "3184356278",
+      "description_en": "Go to Dragonspine, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Albedo..."
+    },
+    {
+      "id": "quest.world.quest.70131",
+      "source_quest_id": "70131",
+      "source_name": "Firm as the Bedrock",
+      "arabic_name": "ثابت كالصخر",
+      "description_hash": "1937660454",
+      "description_en": "Not long after the meeting in the land of snow concluded, ships crowded the waters beyond Liyue Harbor, while the Millelith, the Qixing, and the adepti joined forces to bring the initial chaos under control.\\nWith order restored, Liyue did not stop at defending itself, but turned to dispatch manpower and supplies to more distant front lines..."
+    },
+    {
+      "id": "quest.world.quest.70132",
+      "source_quest_id": "70132",
+      "source_name": "A Toast to Tomorrow",
+      "arabic_name": "نخب الغد",
+      "description_hash": "2363892478",
+      "description_en": "On the deck of the Alcor, people from different nations raise their cups together, toasting to a tomorrow yet to come.\\nThis celebration is not the end, but a chance to remind one another: Hope remains, and our companions are still by our side."
+    },
+    {
+      "id": "quest.world.quest.70133",
+      "source_quest_id": "70133",
+      "source_name": "Thunder Purges All Spite",
+      "arabic_name": "الرعد يطرد كل ضغينة",
+      "description_hash": "3618406166",
+      "description_en": "Under the blight of the \"Holy Soil phenomenon,\" ancient seals have loosened, and filth from the Ley Lines has surfaced once more.\\nSheltered by the Narukami and united in the purification ritual, people call upon lightning to clear the filth and shared wishes to quell disaster, driving back the recurring evil time and time again."
+    },
+    {
+      "id": "quest.world.quest.70134",
+      "source_quest_id": "70134",
+      "source_name": "From Trees to a Forest",
+      "arabic_name": "من الأشجار إلى الغابة",
+      "description_hash": "4062681046",
+      "description_en": "Within the House of Daena, research, logistics, rescue missions, and combat operations are underway all at once, while the forces of the rainforest and the desert unite along the same front.\\nFacing chaotic Ley Lines and an expanding crisis, Sumeru relies on knowledge to coordinate the battle, and decisive action to answer the danger."
+    },
+    {
+      "id": "quest.world.quest.70135",
+      "source_quest_id": "70135",
+      "source_name": "A Wall of Ships",
+      "arabic_name": "جدار من السفن",
+      "description_hash": "836501110",
+      "description_en": "Before the calamity struck head-on, Fontaine became a crucial hub for transit and shelter across the lands.\\nVessels, medics, and rear bases came together to form a floating defensive line, turning this nation of water still spared a moment to breathe into a haven bearing the wounds and hopes of all nations."
+    },
+    {
+      "id": "quest.world.quest.70136",
+      "source_quest_id": "70136",
+      "source_name": "Embers Never Fade",
+      "arabic_name": "الجمر لا ينطفئ أبداً",
+      "description_hash": "3183745726",
+      "description_en": "When the calamity erupted on a massive scale, Natlan found itself on the fiercest front of the disaster, where ruins, casualties, and sacrifice had become all too familiar...\\nAfter bidding farewell to the fallen, the living step onto the battlefield once more. So long as the spark remains, this land will never stop fighting back."
+    },
+    {
+      "id": "quest.world.quest.70137",
+      "source_quest_id": "70137",
+      "source_name": "Born Toward the Flame",
+      "arabic_name": "وُلد متجهاً نحو اللهب",
+      "description_hash": "2815499846",
+      "description_en": "Mourning did not slow their steps. Instead, it made every survivor see clearly what they are fighting for.\\nMarching on in the name of the fallen, they let the still-burning flames light the way to a tomorrow yet to come."
+    },
+    {
+      "id": "quest.world.quest.70138",
+      "source_quest_id": "70138",
+      "source_name": "Companions on the Frost Road",
+      "arabic_name": "رفاق على طريق الصقيع",
+      "description_hash": "2530157198",
+      "description_en": "Facing the expanding threat of the \"Holy Soil phenomenon,\" everyone has had to change.\\nPast stances have not truly vanished, but differences must ultimately yield to a more realistic choice: Friend and foe are decided by circumstance in the end, and at this moment, they must march side by side."
+    },
+    {
+      "id": "quest.world.quest.70554",
+      "source_quest_id": "70554",
+      "source_name": "Honorary Knight's Notes on Mixology",
+      "arabic_name": "ملاحظات الفارس الفخري حول فن المزج",
+      "description_hash": "1168159526",
+      "description_en": "The Knights of Favonius are about to open their drinks stand. Hertha from the Logistics Company is looking for help..."
+    },
+    {
+      "id": "quest.world.quest.70555",
+      "source_quest_id": "70555",
+      "source_name": "A Special Blend, A Timeless Masterpiece",
+      "arabic_name": "مزيج استثنائي، تحفة خالدة",
+      "description_hash": "2762487718",
+      "description_en": "After running the drinks stand for a while, your creations have received widespread acclaim and are about to become new classics..."
+    },
+    {
+      "id": "quest.world.quest.70556",
+      "source_quest_id": "70556",
+      "source_name": "Gliding Challenge: New Heights",
+      "arabic_name": "تحدي التحليق: آفاق جديدة",
+      "description_hash": "1707025966",
+      "description_en": "During the special welcome ceremony, Amber and her juniors have prepared a brand-new flying and shooting challenge, waiting for people to come and experience it..."
+    },
+    {
+      "id": "quest.world.quest.70558",
+      "source_quest_id": "70558",
+      "source_name": "A Knight's Guide to Surveying",
+      "arabic_name": "دليل الفارس للمسح الميداني",
+      "description_hash": "2109087406",
+      "description_en": "A few knights seem to be exchanging information on surveying techniques..."
+    },
+    {
+      "id": "quest.world.quest.70559",
+      "source_quest_id": "70559",
+      "source_name": "A \"Battlefield\" Feast After Work",
+      "arabic_name": "وليمة «ساحة المعركة» بعد العمل",
+      "description_hash": "3317429214",
+      "description_en": "After several days of intense and well-organized surveying drills, the time to part ways quietly arrives..."
+    },
+    {
+      "id": "quest.world.quest.71544",
+      "source_quest_id": "71544",
+      "source_name": "The Chefs From a Foreign Land",
+      "arabic_name": "طهاة من أرض أجنبية",
+      "description_hash": "2999676550",
+      "description_en": "You run into several familiar faces at the food street. Something interesting seems to be happening between the chefs of Fontaine and Liyue..."
+    },
+    {
+      "id": "quest.world.quest.71545",
+      "source_quest_id": "71545",
+      "source_name": "Deliciousness Knows No Borders",
+      "arabic_name": "اللذة لا تعرف الحدود",
+      "description_hash": "2517976014",
+      "description_en": "To make Wangxiao Cakes that can win over the Guildmaster and save the food street, everyone pitches in to help..."
+    },
+    {
+      "id": "quest.world.quest.71546",
+      "source_quest_id": "71546",
+      "source_name": "A Taste Beyond Time",
+      "arabic_name": "مذاق يتجاوز الزمن",
+      "description_hash": "3851909062",
+      "description_en": "Just what do \"authentic\" Wangxiao Cakes taste like? Oddly enough, the answer to this question does not appear to lie in the cakes themselves..."
+    },
+    {
+      "id": "quest.world.quest.71675",
+      "source_quest_id": "71675",
+      "source_name": "Little Figure Exorcism",
+      "arabic_name": "طقوس تطهير الدمى الصغيرة",
+      "description_hash": "100710142",
+      "description_en": "A girl who calls Lan Yan \"big sister\" created an unusual rattan figure and is promoting it on the food street..."
+    },
+    {
+      "id": "quest.world.quest.71676",
+      "source_quest_id": "71676",
+      "source_name": "Battle Beneath the Spirit-Quelling Banner",
+      "arabic_name": "معركة تحت راية قهر الأرواح",
+      "description_hash": "1723480782",
+      "description_en": "Storyteller Jiewu and Paper Theater expert Baofei are discussing their latest creation..."
+    },
+    {
+      "id": "quest.world.quest.71677",
+      "source_quest_id": "71677",
+      "source_name": "Sigil Barrage Kaleidoscope",
+      "arabic_name": "مهرجان وابل الشارات",
+      "description_hash": "1371802510",
+      "description_en": "On the food street, a thaumaturge's assistant is promoting a new toy they created..."
+    },
+    {
+      "id": "quest.world.quest.73355",
+      "source_quest_id": "73355",
+      "source_name": "Reunite, My Shroom Buddies!",
+      "arabic_name": "اجتمعوا مجدداً يا أصدقائي الفطريون!",
+      "description_hash": "3054575470",
+      "description_en": "You and Paimon run into some old friends and incredible companions at Bayda Harbor..."
+    },
+    {
+      "id": "quest.world.quest.73356",
+      "source_quest_id": "73356",
+      "source_name": "A Meeting of \"Puppets\"",
+      "arabic_name": "لقاء «الدمى»",
+      "description_hash": "3769512870",
+      "description_en": "Go to Lambad's Tavern, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Hat Guy..."
+    },
+    {
+      "id": "quest.world.quest.73357",
+      "source_quest_id": "73357",
+      "source_name": "Tea Party Re-Invitation: Hat Guy",
+      "arabic_name": "دعوة شاي ثانية: الفتى ذو القبعة",
+      "description_hash": "361408310",
+      "description_en": "Go to Lambad's Tavern, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Hat Guy..."
+    },
+    {
+      "id": "quest.world.quest.73708",
+      "source_quest_id": "73708",
+      "source_name": "Reunite, My Shroom Buddies!",
+      "arabic_name": "اجتمعوا مجدداً يا أصدقائي الفطريون!",
+      "description_hash": "606416454",
+      "description_en": "A friend has left a message at the Adventurers' Guild, inviting you and Paimon to visit her new shop in Bayda Harbor..."
+    },
+    {
+      "id": "quest.world.quest.73709",
+      "source_quest_id": "73709",
+      "source_name": "Behold the Grandeur, Seize the Splendor",
+      "arabic_name": "انظروا إلى العظمة واغتنموا الروعة",
+      "description_hash": "3157475934",
+      "description_en": "After a long trek, you and your Fungi companions arrive at the first scenic spot. After confirming their points of interest, you begin your special tour..."
+    },
+    {
+      "id": "quest.world.quest.73710",
+      "source_quest_id": "73710",
+      "source_name": "A New Day at the Lil' Fungi Playground",
+      "arabic_name": "يوم جديد في ملعب الفطريات الصغير",
+      "description_hash": "3082248022",
+      "description_en": "After several days of travel and fun, you return to the Lil' Fungi Playground at Bayda Harbor, accompanied by your Fungi friends..."
+    },
+    {
+      "id": "quest.world.quest.73711",
+      "source_quest_id": "73711",
+      "source_name": "Sightseeing With Friends: A Trip to Fontaine",
+      "arabic_name": "جولة مع الأصدقاء: رحلة إلى فونتين",
+      "description_hash": "4166788958",
+      "description_en": "After wrapping up your trip through Natlan, you and your Fungi friends are off to the next destination on Paimon's list..."
+    },
+    {
+      "id": "quest.world.quest.73712",
+      "source_quest_id": "73712",
+      "source_name": "Sightseeing With Friends: Back to Sumeru",
+      "arabic_name": "جولة مع الأصدقاء: العودة إلى سوميرو",
+      "description_hash": "10685398",
+      "description_en": "After traveling for some time, Paimon has a new plan..."
+    },
+    {
+      "id": "quest.world.quest.73713",
+      "source_quest_id": "73713",
+      "source_name": "Sightseeing With Friends: Underwater Fun",
+      "arabic_name": "جولة مع الأصدقاء: متعة تحت الماء",
+      "description_hash": "2269188750",
+      "description_en": "Besides the iconic photo spot right outside the Court of Fontaine, Paimon seems to have an underwater tour planned as well..."
+    },
+    {
+      "id": "quest.world.quest.73714",
+      "source_quest_id": "73714",
+      "source_name": "Sightseeing With Friends: Scenic Highlights",
+      "arabic_name": "جولة مع الأصدقاء: أجمل المشاهد",
+      "description_hash": "2604720870",
+      "description_en": "Paimon seems to have her own thoughts about sightseeing and photo spots in Sumeru..."
+    },
+    {
+      "id": "quest.world.quest.74248",
+      "source_quest_id": "74248",
+      "source_name": "Stories Make the Best Pastries",
+      "arabic_name": "القصص تصنع أفضل المعجنات",
+      "description_hash": "3186665470",
+      "description_en": "Go to Chioriya Boutique, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74249",
+      "source_quest_id": "74249",
+      "source_name": "For Fontaine!",
+      "arabic_name": "من أجل فونتين!",
+      "description_hash": "2858713638",
+      "description_en": "Go to the Opera Epiclese, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Furina..."
+    },
+    {
+      "id": "quest.world.quest.74250",
+      "source_quest_id": "74250",
+      "source_name": "Whispers by the Hearth",
+      "arabic_name": "همسات قرب الموقد",
+      "description_hash": "3450850126",
+      "description_en": "Go to Hotel Bouffes d'ete, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74251",
+      "source_quest_id": "74251",
+      "source_name": "Stories of the Past",
+      "arabic_name": "حكايات من الماضي",
+      "description_hash": "160217918",
+      "description_en": "Go to Palais Mermonia, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Neuvillette..."
+    },
+    {
+      "id": "quest.world.quest.74253",
+      "source_quest_id": "74253",
+      "source_name": "Ann, Mary-Ann, and Marionette",
+      "arabic_name": "آن وماري آن والماريونيت",
+      "description_hash": "1440949942",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74254",
+      "source_quest_id": "74254",
+      "source_name": "Narcissus's Waltz",
+      "arabic_name": "فالس نارسيس",
+      "description_hash": "3461852830",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74255",
+      "source_quest_id": "74255",
+      "source_name": "Tea Party Re-Invitation: Tabletop Troupe",
+      "arabic_name": "دعوة شاي ثانية: فرقة المسرح المصغّرة",
+      "description_hash": "4089216830",
+      "description_en": "Go to Chioriya Boutique, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74256",
+      "source_quest_id": "74256",
+      "source_name": "Tea Party Re-Invitation: Furina",
+      "arabic_name": "دعوة شاي ثانية: فورينا",
+      "description_hash": "146134550",
+      "description_en": "Go to the Opera Epiclese, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Furina..."
+    },
+    {
+      "id": "quest.world.quest.74257",
+      "source_quest_id": "74257",
+      "source_name": "Tea Party Re-Invitation: House of the Hearth",
+      "arabic_name": "دعوة شاي ثانية: دار الموقد",
+      "description_hash": "3005908734",
+      "description_en": "Go to Hotel Bouffes d'ete, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74258",
+      "source_quest_id": "74258",
+      "source_name": "Tea Party Re-Invitation: Neuvillette",
+      "arabic_name": "دعوة شاي ثانية: نيوفيليت",
+      "description_hash": "3657987678",
+      "description_en": "Go to Palais Mermonia, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Neuvillette..."
+    },
+    {
+      "id": "quest.world.quest.74259",
+      "source_quest_id": "74259",
+      "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
+      "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
+      "description_hash": "499824510",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74260",
+      "source_quest_id": "74260",
+      "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
+      "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
+      "description_hash": "4259526390",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74261",
+      "source_quest_id": "74261",
+      "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
+      "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
+      "description_hash": "258069294",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.74532",
+      "source_quest_id": "74532",
+      "source_name": "Popular Entertainment",
+      "arabic_name": "ترفيه شعبي",
+      "description_hash": "4097076798",
+      "description_en": "Petit Lumiere seems to have read something about Flash Cuts in The Steambird..."
+    },
+    {
+      "id": "quest.world.quest.74690",
+      "source_quest_id": "74690",
+      "source_name": "A Robust Theoretical Discussion",
+      "arabic_name": "نقاش نظري متين",
+      "description_hash": "4208293686",
+      "description_en": "Near the Fountain of Lucine, you and Paimon seem to hear someone arguing..."
+    },
+    {
+      "id": "quest.world.quest.74691",
+      "source_quest_id": "74691",
+      "source_name": "Revelations by Chance",
+      "arabic_name": "انكشافات بمحض الصدفة",
+      "description_hash": "3298408270",
+      "description_en": "You discover a strange fortune-telling booth outside the city of Fontaine..."
+    },
+    {
+      "id": "quest.world.quest.74692",
+      "source_quest_id": "74692",
+      "source_name": "Witch's Revelation: Special Blend's Instruction",
+      "arabic_name": "كشف الساحرة: تعليمات المزيج الخاص",
+      "description_hash": "2368146030",
+      "description_en": "You encounter Diona at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74693",
+      "source_quest_id": "74693",
+      "source_name": "Witch's Revelation: Duty's Instruction",
+      "arabic_name": "كشف الساحرة: تعليمات الواجب",
+      "description_hash": "2939031054",
+      "description_en": "You encounter Cyno at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74694",
+      "source_quest_id": "74694",
+      "source_name": "Witch's Revelation: Voyaging Instruction",
+      "arabic_name": "كشف الساحرة: تعليمات الرحلة",
+      "description_hash": "2977165150",
+      "description_en": "You encounter Beidou at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74695",
+      "source_quest_id": "74695",
+      "source_name": "Witch's Revelation: Warden's Instruction",
+      "arabic_name": "كشف الساحرة: تعليمات الحارس",
+      "description_hash": "1815241462",
+      "description_en": "You encounter Wriothesley at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74696",
+      "source_quest_id": "74696",
+      "source_name": "Witch's Revelation: Instruction of Curious Form",
+      "arabic_name": "كشف الساحرة: تعليمات الشكل الغريب",
+      "description_hash": "4193507302",
+      "description_en": "You encounter Qiqi at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74697",
+      "source_quest_id": "74697",
+      "source_name": "Witch's Revelation: Instruction Beyond Dreams",
+      "arabic_name": "كشف الساحرة: تعليمات ما وراء الأحلام",
+      "description_hash": "1825985222",
+      "description_en": "You encounter Yumemizuki Mizuki at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74698",
+      "source_quest_id": "74698",
+      "source_name": "Witch's Revelation: Great Youkai's Instruction",
+      "arabic_name": "كشف الساحرة: تعليمات اليوكاي العظيم",
+      "description_hash": "1070163510",
+      "description_en": "You encounter Yae Miko at Barbeloth's fortune-telling booth..."
+    },
+    {
+      "id": "quest.world.quest.74700",
+      "source_quest_id": "74700",
+      "source_name": "Elegance? Safety First!",
+      "arabic_name": "الأناقة؟ السلامة أولاً!",
+      "description_hash": "2650996670",
+      "description_en": "Sandrone seems to be looking for us..."
+    },
+    {
+      "id": "quest.world.quest.74701",
+      "source_quest_id": "74701",
+      "source_name": "Danger? Keep Away!",
+      "arabic_name": "الخطر؟ ابتعد!",
+      "description_hash": "1383257742",
+      "description_en": "Sandrone seems to be looking for us..."
+    },
+    {
+      "id": "quest.world.quest.74702",
+      "source_quest_id": "74702",
+      "source_name": "Fisharium Open For Business!",
+      "arabic_name": "حوض الأسماك يفتح أبوابه!",
+      "description_hash": "3280167470",
+      "description_en": "Sandrone seems to be looking for us..."
+    },
+    {
+      "id": "quest.world.quest.74703",
+      "source_quest_id": "74703",
+      "source_name": "Just a 30% Cut!",
+      "arabic_name": "اقتطاع 30% فقط!",
+      "description_hash": "4196793142",
+      "description_en": "Sandrone seems to be looking for us..."
+    },
+    {
+      "id": "quest.world.quest.74704",
+      "source_quest_id": "74704",
+      "source_name": "Friends... In the Aquarium?",
+      "arabic_name": "أصدقاء... في حوض الأسماك؟",
+      "description_hash": "1854877662",
+      "description_en": "Columbina seems to be admiring the aquarium..."
+    },
+    {
+      "id": "quest.world.quest.74705",
+      "source_quest_id": "74705",
+      "source_name": "Us... In the Aquarium?",
+      "arabic_name": "نحن... في حوض الأسماك؟",
+      "description_hash": "3686375254",
+      "description_en": "Your friends seem to be admiring the aquarium..."
+    },
+    {
+      "id": "quest.world.quest.74706",
+      "source_quest_id": "74706",
+      "source_name": "A Superstar... In the Aquarium?",
+      "arabic_name": "نجمة لامعة... في حوض الأسماك؟",
+      "description_hash": "2903219830",
+      "description_en": "Furina seems to be admiring the aquarium..."
+    },
+    {
+      "id": "quest.world.quest.74707",
+      "source_quest_id": "74707",
+      "source_name": "An Actor... In the Aquarium?",
+      "arabic_name": "ممثل... في حوض الأسماك؟",
+      "description_hash": "4122147790",
+      "description_en": "Your friends seem to be admiring the aquarium..."
+    },
+    {
+      "id": "quest.world.quest.74708",
+      "source_quest_id": "74708",
+      "source_name": "The Emergence of Irate Fish?",
+      "arabic_name": "ظهور الأسماك الغاضبة؟",
+      "description_hash": "257853046",
+      "description_en": "Sigewinne seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74709",
+      "source_quest_id": "74709",
+      "source_name": "The Cantankerous Fish Have Their Circumstances?",
+      "arabic_name": "للأسماك الناقمة أسبابها؟",
+      "description_hash": "3548764814",
+      "description_en": "Sigewinne seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74710",
+      "source_quest_id": "74710",
+      "source_name": "Tons of Tons of Furious Fish...",
+      "arabic_name": "أطنان من الأسماك الهائجة...",
+      "description_hash": "335024966",
+      "description_en": "Sigewinne seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74711",
+      "source_quest_id": "74711",
+      "source_name": "Rapid Restitution to the Raging Fish...",
+      "arabic_name": "تعويض سريع للأسماك الثائرة...",
+      "description_hash": "28367606",
+      "description_en": "Sigewinne seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74712",
+      "source_quest_id": "74712",
+      "source_name": "A Warning From the Wrathful Fish!",
+      "arabic_name": "تحذير من الأسماك الساخطة!",
+      "description_hash": "3512502134",
+      "description_en": "Sigewinne seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74713",
+      "source_quest_id": "74713",
+      "source_name": "Something's Wrong With the Water",
+      "arabic_name": "هناك خطب ما في الماء",
+      "description_hash": "717240030",
+      "description_en": "Freminet seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74714",
+      "source_quest_id": "74714",
+      "source_name": "Underwater Restoration in Progress...",
+      "arabic_name": "أعمال ترميم تحت الماء جارية...",
+      "description_hash": "2833207846",
+      "description_en": "Freminet seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74715",
+      "source_quest_id": "74715",
+      "source_name": "The Underwater Salvage Commandments",
+      "arabic_name": "وصايا الإنقاذ تحت الماء",
+      "description_hash": "2586526342",
+      "description_en": "Freminet seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.74716",
+      "source_quest_id": "74716",
+      "source_name": "Betterments in Aquatic Circumstances...",
+      "arabic_name": "تحسينات في الأوضاع المائية...",
+      "description_hash": "157329038",
+      "description_en": "Freminet seems to have something to tell us..."
+    },
+    {
+      "id": "quest.world.quest.75238",
+      "source_quest_id": "75238",
+      "source_name": "A Small Token",
+      "arabic_name": "تذكار صغير",
+      "description_hash": "3928876774",
+      "description_en": "Go to the Masters of the Night-Wind, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Citlali..."
+    },
+    {
+      "id": "quest.world.quest.75266",
+      "source_quest_id": "75266",
+      "source_name": "Tea Party Re-Invitation: Citlali",
+      "arabic_name": "دعوة شاي ثانية: سيتلالي",
+      "description_hash": "2649502398",
+      "description_en": "Go to the Masters of the Night-Wind, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Citlali..."
+    },
+    {
+      "id": "quest.world.quest.75304",
+      "source_quest_id": "75304",
+      "source_name": "Unpredictable, Unrepeatable!",
+      "arabic_name": "لا يمكن التنبؤ ولا التكرار!",
+      "description_hash": "4244691470",
+      "description_en": "In the territory of Natlan's Children of Echoes, the Interactive Woven Scroll expert Vigee, elite warrior Liliuo, and Fatui operative Wislawa are struggling with a certain \"Combat Simulator\"..."
+    },
+    {
+      "id": "quest.world.quest.75305",
+      "source_quest_id": "75305",
+      "source_name": "Predict Again, Repeat Again!",
+      "arabic_name": "تنبأ مجدداً، وكرّر مجدداً!",
+      "description_hash": "2348537718",
+      "description_en": "Thanks to the information you've provided, the Combat Simulator is more or less ready for use..."
+    },
+    {
+      "id": "quest.world.quest.75672",
+      "source_quest_id": "75672",
+      "source_name": "Don't Let the Colors Escape!",
+      "arabic_name": "لا تدع الألوان تفلت!",
+      "description_hash": "3565617070",
+      "description_en": "You return to the Easybreeze Holiday Resort, where you run into an old friend together with some rather special Ashas..."
+    },
+    {
+      "id": "quest.world.quest.75673",
+      "source_quest_id": "75673",
+      "source_name": "A Splash of Color on the Plate!",
+      "arabic_name": "رشة ألوان على الطبق!",
+      "description_hash": "2358258662",
+      "description_en": "You have finished collecting the free-roaming color paints. The colorist Ashas are very pleased with the haul..."
+    },
+    {
+      "id": "quest.world.quest.75674",
+      "source_quest_id": "75674",
+      "source_name": "Disco in Motion, Holiday Emotion!",
+      "arabic_name": "ديسكو بالحركة، ومشاعر العطلة!",
+      "description_hash": "1703612118",
+      "description_en": "A courier from Natlan brings word inviting you and Paimon back to the Easybreeze Holiday Resort to take part in a one-of-a-kind \"Dance Party\"..."
+    },
+    {
+      "id": "quest.world.quest.75675",
+      "source_quest_id": "75675",
+      "source_name": "A Lighthearted Feast of Magic!",
+      "arabic_name": "وليمة سحرية مرحة!",
+      "description_hash": "3675403870",
+      "description_en": "As another dance party draws to a close, everyone seems to have gained something wonderful..."
+    },
+    {
+      "id": "quest.world.quest.75676",
+      "source_quest_id": "75676",
+      "source_name": "Stress-B-Gone Gaming",
+      "arabic_name": "ألعاب للتخلص من التوتر",
+      "description_hash": "2288958118",
+      "description_en": "You hear that two employees of the Aisa Bathhouse have shown up at the Easybreeze Holiday Resort. Time to see what they're up to..."
+    },
+    {
+      "id": "quest.world.quest.76062",
+      "source_quest_id": "76062",
+      "source_name": "Visitors From the Stars",
+      "arabic_name": "زوار من النجوم",
+      "description_hash": "91305742",
+      "description_en": "You learn Columbina's location through the terminal at The Eye of Ibni-Belum. She might be at the next facility..."
+    },
+    {
+      "id": "quest.world.quest.76069",
+      "source_quest_id": "76069",
+      "source_name": "Nameless Bloodstained Monument",
+      "arabic_name": "نصب تذكاري ملطخ بالدماء مجهول الاسم",
+      "description_hash": "1977083838",
+      "description_en": "A Domain sealed by the power of the North Wind. Once a place where knights stained the earth with demon blood, it was also where they laid their swords and bones to rest.\\n\"A knight hath no need of graven stone, for justice itself shall be his memorial.\"\\n\"A knight hath no need of bonds, for justice itself doth walk beside him.\"\\n\"A knight hath no need of triumph, for a biting wind shall bear him home.\""
+    },
+    {
+      "id": "quest.world.quest.76089",
+      "source_quest_id": "76089",
+      "source_name": "Long Live Life",
+      "arabic_name": "تحيا الحياة",
+      "description_hash": "1321365126",
+      "description_en": "Strange ink blots wander around the Luyang Academy..."
+    },
+    {
+      "id": "quest.world.quest.76095",
+      "source_quest_id": "76095",
+      "source_name": "A Day the Grand Temple Inscribed with Ages",
+      "arabic_name": "يوم نقش فيه المعبد العظيم العصور",
+      "description_hash": "2403569318",
+      "description_en": "The Keepers of the Pillar Hall consider the contents of Zeitlind's suitcase to be relics, and have placed them throughout the Temple of Space. Istoria says that many people are still waiting for rescue in those same areas..."
+    },
+    {
+      "id": "quest.world.quest.76096",
+      "source_quest_id": "76096",
+      "source_name": "The Final Judgment",
+      "arabic_name": "الحُكم الأخير",
+      "description_hash": "1040021014",
+      "description_en": "You finally make your way back to the Pillar Hall from the Apathic Interval..."
+    },
+    {
+      "id": "quest.world.quest.76127",
+      "source_quest_id": "76127",
+      "source_name": "Pioneers",
+      "arabic_name": "الروّاد",
+      "description_hash": "3237888774",
+      "description_en": "You catch sight of Columbina in the distance on a deserted island on the east side of Piramida. Worried that your friend has encountered trouble, you chase after her, and in so doing, embark on an adventure into the unknown..."
+    },
+    {
+      "id": "quest.world.quest.76131",
+      "source_quest_id": "76131",
+      "source_name": "Project Moongazer",
+      "arabic_name": "مشروع محدّق القمر",
+      "description_hash": "755461822",
+      "description_en": "During your previous adventures, you have learned some very important secrets indeed. Yet the mysteries surrounding Project Moongazer and Ninnin have not yet come undone, and so, you decide to check out the final stop on this trip..."
+    },
+    {
+      "id": "quest.world.quest.76132",
+      "source_quest_id": "76132",
+      "source_name": "Pioneers",
+      "arabic_name": "الروّاد",
+      "description_hash": "1073765990",
+      "description_en": "You catch sight of Columbina in the distance on a deserted island on the east side of Piramida. Worried that your friend has encountered trouble, you chase after her, and in so doing, embark on an adventure into the unknown..."
+    },
+    {
+      "id": "quest.world.quest.76133",
+      "source_quest_id": "76133",
+      "source_name": "Visitors From the Stars",
+      "arabic_name": "زوار من النجوم",
+      "description_hash": "3557785406",
+      "description_en": "You learn Columbina's location through the terminal at The Eye of Ibni-Belum. She might be at the next facility..."
+    },
+    {
+      "id": "quest.world.quest.76141",
+      "source_quest_id": "76141",
+      "source_name": "A Window Into the World",
+      "arabic_name": "نافذة على العالم",
+      "description_hash": "1039329798",
+      "description_en": "A new room... has opened?"
+    },
+    {
+      "id": "quest.world.quest.76143",
+      "source_quest_id": "76143",
+      "source_name": "Project Moongazer",
+      "arabic_name": "مشروع محدّق القمر",
+      "description_hash": "3882490478",
+      "description_en": "During your previous adventures, you have learned some very important secrets indeed. Yet the mysteries surrounding Project Moongazer and Ninnin have not yet come undone, and so, you decide to check out the final stop on this trip..."
+    },
+    {
+      "id": "quest.world.quest.76147",
+      "source_quest_id": "76147",
+      "source_name": "Counterfeit Classics",
+      "arabic_name": "كلاسيكيات مزيفة",
+      "description_hash": "1132708830",
+      "description_en": "In the Mahavaipulya Chamber, many are those who have been imprisoned within the pages..."
+    },
+    {
+      "id": "quest.world.quest.76148",
+      "source_quest_id": "76148",
+      "source_name": "Lion's Celerity",
+      "arabic_name": "سرعة الأسد",
+      "description_hash": "2428862254",
+      "description_en": "You've recovered Zeitlind's lost belongings and liberated the three areas, but the problem is far from resolved..."
+    },
+    {
+      "id": "quest.world.quest.76152",
+      "source_quest_id": "76152",
+      "source_name": "Lion's Celerity",
+      "arabic_name": "سرعة الأسد",
+      "description_hash": "1237809990",
+      "description_en": "You've recovered Zeitlind's lost belongings and liberated the three areas, but the problem is far from resolved..."
+    },
+    {
+      "id": "quest.world.quest.76159",
+      "source_quest_id": "76159",
+      "source_name": "Witch's Homework: The Role of a Guide...?",
+      "arabic_name": "واجب الساحرة: دور المرشد...؟",
+      "description_hash": "3661143038",
+      "description_en": "At the site of the mages' tea party, you meet Nicole, who seems to be talking to someone..."
+    },
+    {
+      "id": "quest.world.quest.76170",
+      "source_quest_id": "76170",
+      "source_name": "Flora Investigation Special Lecture",
+      "arabic_name": "محاضرة خاصة في استكشاف النباتات",
+      "description_hash": "3081782238",
+      "description_en": "There seems to be an event underway near Speranza..."
+    },
+    {
+      "id": "quest.world.quest.76171",
+      "source_quest_id": "76171",
+      "source_name": "Mineral Investigation Special Lecture",
+      "arabic_name": "محاضرة خاصة في استكشاف المعادن",
+      "description_hash": "904446718",
+      "description_en": "There seems to be an event underway near Speranza..."
+    },
+    {
+      "id": "quest.world.quest.76172",
+      "source_quest_id": "76172",
+      "source_name": "Fauna Investigation Special Lecture",
+      "arabic_name": "محاضرة خاصة في استكشاف الحيوانات",
+      "description_hash": "3053982326",
+      "description_en": "There seems to be an event underway near Speranza..."
+    },
+    {
+      "id": "quest.world.quest.76177",
+      "source_quest_id": "76177",
+      "source_name": "Beneath the Lunar Sea",
+      "arabic_name": "تحت البحر القمري",
+      "description_hash": "2065259254",
+      "description_en": "In the lunar sea, a group of jellyfish gathers near a cave. Perhaps something waits for you there..."
+    },
+    {
+      "id": "quest.world.quest.76180",
+      "source_quest_id": "76180",
+      "source_name": "Where the White Dove Rests",
+      "arabic_name": "حيث تستريح الحمامة البيضاء",
+      "description_hash": "242544478",
+      "description_en": "Go to Silvermoon Hall, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Columbina..."
+    },
+    {
+      "id": "quest.world.quest.76182",
+      "source_quest_id": "76182",
+      "source_name": "A Garden Gathering",
+      "arabic_name": "لقاء في الحديقة",
+      "description_hash": "2877212574",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Columbina..."
+    },
+    {
+      "id": "quest.world.quest.76183",
+      "source_quest_id": "76183",
+      "source_name": "Fire and Ice",
+      "arabic_name": "النار والجليد",
+      "description_hash": "92834678",
+      "description_en": "Go to the Kuuvahki Experimental Design Bureau, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Arlecchino..."
+    },
+    {
+      "id": "quest.world.quest.76184",
+      "source_quest_id": "76184",
+      "source_name": "Just Like Old Times",
+      "arabic_name": "كما في الأيام الخوالي",
+      "description_hash": "432531302",
+      "description_en": "Go to the Kuuvahki Experimental Design Bureau, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.76185",
+      "source_quest_id": "76185",
+      "source_name": "Cat and Cog",
+      "arabic_name": "قطة وتروس",
+      "description_hash": "3115642614",
+      "description_en": "Go to the Curatorium of Secrets, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Nefer..."
+    },
+    {
+      "id": "quest.world.quest.76186",
+      "source_quest_id": "76186",
+      "source_name": "A Small Overture",
+      "arabic_name": "افتتاحية قصيرة",
+      "description_hash": "245740446",
+      "description_en": "Go to the Frostmoon Enclave, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Lauma..."
+    },
+    {
+      "id": "quest.world.quest.76187",
+      "source_quest_id": "76187",
+      "source_name": "Tea or Bulle Fruit?",
+      "arabic_name": "شاي أم فاكهة بول؟",
+      "description_hash": "1580704526",
+      "description_en": "Go to the viewing deck in Nasha Town, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.76189",
+      "source_quest_id": "76189",
+      "source_name": "Animal Research: Chic Badgers",
+      "arabic_name": "أبحاث الحيوانات: الغرير الأنيق",
+      "description_hash": "3475950246",
+      "description_en": "There have been rumored sightings of a purple Chic Badger around Thunderclap Reef..."
+    },
+    {
+      "id": "quest.world.quest.76190",
+      "source_quest_id": "76190",
+      "source_name": "Animal Research: Golden Loaches",
+      "arabic_name": "أبحاث الحيوانات: أسماك اللوش الذهبية",
+      "description_hash": "3867488886",
+      "description_en": "Golden Loaches appear to inhabit Voidsea Outlook as well..."
+    },
+    {
+      "id": "quest.world.quest.76191",
+      "source_quest_id": "76191",
+      "source_name": "Animal Research: Capybaras",
+      "arabic_name": "أبحاث الحيوانات: الكابيبارا",
+      "description_hash": "484456086",
+      "description_en": "According to intel from The Flagship, a group of smugglers has been poaching rare-colored Capybaras in Natlan..."
+    },
+    {
+      "id": "quest.world.quest.76192",
+      "source_quest_id": "76192",
+      "source_name": "Animal Research: Frostfin Whales",
+      "arabic_name": "أبحاث الحيوانات: حيتان الزعانف الجليدية",
+      "description_hash": "1367721686",
+      "description_en": "It is said that a pink Frostfin Whale has been spotted in the waters northwest of Lempo Isle..."
+    },
+    {
+      "id": "quest.world.quest.76193",
+      "source_quest_id": "76193",
+      "source_name": "Special Research: Melusine?",
+      "arabic_name": "بحث خاص: ميلوزين؟",
+      "description_hash": "3158267630",
+      "description_en": "An extraordinary Melusine was spotted traveling with a mechanical dog..."
+    },
+    {
+      "id": "quest.world.quest.76194",
+      "source_quest_id": "76194",
+      "source_name": "Mineral Research: Rainbowdrop Crystals",
+      "arabic_name": "أبحاث المعادن: بلورات قطرات قوس قزح",
+      "description_hash": "295671566",
+      "description_en": "Rainbowdrop Crystals have been discovered at the eastern tip of Hiisi Island..."
+    },
+    {
+      "id": "quest.world.quest.76195",
+      "source_quest_id": "76195",
+      "source_name": "Mineral Research: Pine Amber",
+      "arabic_name": "أبحاث المعادن: كهرمان الصنوبر",
+      "description_hash": "3774761566",
+      "description_en": "An ore-rich site has been discovered at Dreadshade Mire..."
+    },
+    {
+      "id": "quest.world.quest.76196",
+      "source_quest_id": "76196",
+      "source_name": "Mineral Research: Moonfall Silver",
+      "arabic_name": "أبحاث المعادن: فضة سقوط القمر",
+      "description_hash": "1743280822",
+      "description_en": "There appears to be some kind of event taking place in the plaza of Nasha Town..."
+    },
+    {
+      "id": "quest.world.quest.76197",
+      "source_quest_id": "76197",
+      "source_name": "Mineral Research: Icy Pebbles",
+      "arabic_name": "أبحاث المعادن: حصى جليدية",
+      "description_hash": "4270032502",
+      "description_en": "A large number of Icy Pebbles are scattered along the western coast of Hiisi Island..."
+    },
+    {
+      "id": "quest.world.quest.76198",
+      "source_quest_id": "76198",
+      "source_name": "Plant Research: Winter Icelea",
+      "arabic_name": "أبحاث النباتات: نبات آيسليا الشتوي",
+      "description_hash": "3411225270",
+      "description_en": "Winter Icelea has been spotted west of Piramida..."
+    },
+    {
+      "id": "quest.world.quest.76199",
+      "source_quest_id": "76199",
+      "source_name": "Plant Research: Frostlamp Flowers",
+      "arabic_name": "أبحاث النباتات: أزهار المصابيح الصقيعية",
+      "description_hash": "515180150",
+      "description_en": "Clusters of Frostlamp Flowers have been found west of Frostmoon Enclave..."
+    },
+    {
+      "id": "quest.world.quest.76200",
+      "source_quest_id": "76200",
+      "source_name": "Plant Research: Twinleaf Pitcher Plants",
+      "arabic_name": "أبحاث النباتات: نباتات الإبريق ثنائية الأوراق",
+      "description_hash": "1700168382",
+      "description_en": "A large patch of Twinleaf Pitcher Plants has suddenly appeared somewhere on Lempo Isle..."
+    },
+    {
+      "id": "quest.world.quest.76201",
+      "source_quest_id": "76201",
+      "source_name": "Plant Research: Nocturnal Blossoms",
+      "arabic_name": "أبحاث النباتات: أزهار ليلية",
+      "description_hash": "2968639150",
+      "description_en": "Nocturnal Blossoms are also growing north of Nasha Town, in areas where kuuvahki levels are lower..."
+    },
+    {
+      "id": "quest.world.quest.76202",
+      "source_quest_id": "76202",
+      "source_name": "The Joyous Floating Island",
+      "arabic_name": "الجزيرة العائمة المبهجة",
+      "description_hash": "258519974",
+      "description_en": "One day, a mysterious voice invites you to visit her witch's lodge..."
+    },
+    {
+      "id": "quest.world.quest.76203",
+      "source_quest_id": "76203",
+      "source_name": "The Silent Theater",
+      "arabic_name": "المسرح الصامت",
+      "description_hash": "3641658974",
+      "description_en": "A new room has opened..."
+    },
+    {
+      "id": "quest.world.quest.76204",
+      "source_quest_id": "76204",
+      "source_name": "The Lost Palace",
+      "arabic_name": "القصر الضائع",
+      "description_hash": "2682012638",
+      "description_en": "A new room has opened..."
+    },
+    {
+      "id": "quest.world.quest.76205",
+      "source_quest_id": "76205",
+      "source_name": "The Forgotten Lighthouse",
+      "arabic_name": "المنارة المنسية",
+      "description_hash": "968902206",
+      "description_en": "A new room has opened..."
+    },
+    {
+      "id": "quest.world.quest.76210",
+      "source_quest_id": "76210",
+      "source_name": "Submerged Dragon, Soaring Phoenix",
+      "arabic_name": "تنين غارق وعنقاء محلّقة",
+      "description_hash": "641470158",
+      "description_en": "At Luyang Academy, you encounter a Guhua sword practitioner honing their skills..."
+    },
+    {
+      "id": "quest.world.quest.76218",
+      "source_quest_id": "76218",
+      "source_name": "A Lady's Invitation",
+      "arabic_name": "دعوة سيدة",
+      "description_hash": "2369191662",
+      "description_en": "You receive a tea party invitation letter from Sandrone...\\nNote: <color=#FFE14BFF>It is recommended that you complete</color> \"Sunny Summer Fontinalia\" for the best experience."
+    },
+    {
+      "id": "quest.world.quest.76220",
+      "source_quest_id": "76220",
+      "source_name": "Tea Party Re-Invitation: Arlecchino",
+      "arabic_name": "دعوة شاي ثانية: أرليكينو",
+      "description_hash": "2877797214",
+      "description_en": "Go to the Kuuvahki Experimental Design Bureau, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Arlecchino..."
+    },
+    {
+      "id": "quest.world.quest.76221",
+      "source_quest_id": "76221",
+      "source_name": "Tea Party Re-Invitation: Tartaglia",
+      "arabic_name": "دعوة شاي ثانية: تارتاليا",
+      "description_hash": "1923702342",
+      "description_en": "Go to the Kuuvahki Experimental Design Bureau, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with the guests..."
+    },
+    {
+      "id": "quest.world.quest.76222",
+      "source_quest_id": "76222",
+      "source_name": "Tea Party Re-Invitation: Nefer",
+      "arabic_name": "دعوة شاي ثانية: نيفر",
+      "description_hash": "1392026238",
+      "description_en": "Go to the Curatorium of Secrets, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Nefer..."
+    },
+    {
+      "id": "quest.world.quest.76223",
+      "source_quest_id": "76223",
+      "source_name": "Tea Party Re-Invitation: Lauma",
+      "arabic_name": "دعوة شاي ثانية: لوما",
+      "description_hash": "3781235478",
+      "description_en": "Go to the Frostmoon Enclave, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Lauma..."
+    },
+    {
+      "id": "quest.world.quest.76225",
+      "source_quest_id": "76225",
+      "source_name": "Tea Party Re-Invitation: Columbina",
+      "arabic_name": "دعوة شاي ثانية: كولومبينا",
+      "description_hash": "3652515806",
+      "description_en": "Go to the hidden dwelling, place your tea table, and have Sandrone take a seat. Then, prepare to enjoy some tea with Columbina..."
+    },
+    {
+      "id": "quest.world.quest.76511",
+      "source_quest_id": "76511",
+      "source_name": "Technical Martial Challenge",
+      "arabic_name": "تحدي الفنون القتالية التقني",
+      "description_hash": "2831270518",
+      "description_en": "In Nod-Krai, a unique martial arts tournament has now reached its most thrilling moment..."
+    },
+    {
+      "id": "quest.world.quest.76512",
+      "source_quest_id": "76512",
+      "source_name": "Final Match Concludes, Champion Decided",
+      "arabic_name": "تنتهي المباراة النهائية ويُحسم أمر البطل",
+      "description_hash": "3615721470",
+      "description_en": "The martial arts challenge has come to an end. It is time to decide on the champion..."
+    },
+    {
+      "id": "quest.world.quest.76680",
+      "source_quest_id": "76680",
+      "source_name": "Stronghold Guard: Hoard Guard Unit!",
+      "arabic_name": "حارس المعقل: وحدة حراس الكنوز!",
+      "description_hash": "3462906518",
+      "description_en": "In Nod-Krai, you encounter a messenger named Blue Bolt, who seems to be testing a certain mechanical defense unit..."
+    },
+    {
+      "id": "quest.world.quest.76681",
+      "source_quest_id": "76681",
+      "source_name": "Origin of the Sequence",
+      "arabic_name": "أصل التسلسل",
+      "description_hash": "3207700094",
+      "description_en": "You discover a strangely familiar tower..."
+    },
+    {
+      "id": "quest.world.quest.76683",
+      "source_quest_id": "76683",
+      "source_name": "Sightlines and Camera Tricks",
+      "arabic_name": "خطوط الرؤية وخدع الكاميرا",
+      "description_hash": "172876758",
+      "description_en": "A special training ground has been set up in the southern section of Lumidouce Harbor in Fontaine..."
+    },
+    {
+      "id": "quest.world.quest.76684",
+      "source_quest_id": "76684",
+      "source_name": "Flower, Feathers, and Bullets",
+      "arabic_name": "زهور وريش ورصاص",
+      "description_hash": "4195098526",
+      "description_en": "As the Ballistic Deduction drill nears its end, Chevreuse and Chasca seem to have reached some sort of consensus..."
+    },
+    {
+      "id": "quest.world.quest.77000",
+      "source_quest_id": "77000",
+      "source_name": "Variations on Belyi and Chernyi",
+      "arabic_name": "تنويعات بيلي وتشيرني",
+      "description_hash": "2468067118",
+      "description_en": "A ballet named \"The Black Snow Swan\" is becoming the center of attention. Yet, strange sounds of conversation drift through The Korolevskiy Theater's walls..."
+    },
+    {
+      "id": "quest.world.quest.77001",
+      "source_quest_id": "77001",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "518158310",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77002",
+      "source_quest_id": "77002",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "3955872350",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77003",
+      "source_quest_id": "77003",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "1463958446",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77004",
+      "source_quest_id": "77004",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "4074506182",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77005",
+      "source_quest_id": "77005",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "2421520382",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77006",
+      "source_quest_id": "77006",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "3107875438",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77007",
+      "source_quest_id": "77007",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "3087642510",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77008",
+      "source_quest_id": "77008",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "1818072774",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77009",
+      "source_quest_id": "77009",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "3795017702",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77010",
+      "source_quest_id": "77010",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "4170232774",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77011",
+      "source_quest_id": "77011",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "440711046",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77012",
+      "source_quest_id": "77012",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "4103202622",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77013",
+      "source_quest_id": "77013",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "287876654",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77014",
+      "source_quest_id": "77014",
+      "source_name": "Upstream Variations",
+      "arabic_name": "تنويعات المنبع",
+      "description_hash": "1972453974",
+      "description_en": "In Snezhnograd, you meet Vodyanitsa, Prima Soprano of the Korolevskiy Troupe. She..."
+    },
+    {
+      "id": "quest.world.quest.77100",
+      "source_quest_id": "77100",
+      "source_name": "To Gaze Upon the Dreaming Pale Crown",
+      "arabic_name": "التطلع إلى التاج الشاحب الحالم",
+      "description_hash": "4214381366",
+      "description_en": "According to the directions from the Eye of Graeae, one of the fragments of his power is located behind Zapolyarny Palace, where the Tsar's White Birch grows..."
+    },
+    {
+      "id": "quest.world.quest.77101",
+      "source_quest_id": "77101",
+      "source_name": "The Stone Beasts, Like Ghouls Seated",
+      "arabic_name": "الوحوش الحجرية، كأنها غيلان جالسة",
+      "description_hash": "1892518414",
+      "description_en": "Find a way to track down the fragment of the Eye of Graeae's power inside the mausoleum that was once the Belyi Tsar's itinerant court..."
+    },
+    {
+      "id": "quest.world.quest.77102",
+      "source_quest_id": "77102",
+      "source_name": "Forbidding Doors of Melancholy",
+      "arabic_name": "أبواب الكآبة المحرّمة",
+      "description_hash": "4113683158",
+      "description_en": "You've taken the elevator up. Now, the assembly hall is right in front of you..."
+    },
+    {
+      "id": "quest.world.quest.77103",
+      "source_quest_id": "77103",
+      "source_name": "Down in the Dumps",
+      "arabic_name": "في قاع البؤس",
+      "description_hash": "2817887830",
+      "description_en": "You fall into a mysterious sewer. Now, you have to find a way to get back up as quickly as possible..."
+    },
+    {
+      "id": "quest.world.quest.77104",
+      "source_quest_id": "77104",
+      "source_name": "Through the Gates of Ivory",
+      "arabic_name": "عبر بوابات العاج",
+      "description_hash": "3071138606",
+      "description_en": "A lone lamp shines in the snowstorm..."
+    },
+    {
+      "id": "quest.world.quest.77105",
+      "source_quest_id": "77105",
+      "source_name": "The Sun's Gilded Apple",
+      "arabic_name": "تفاحة الشمس المذهّبة",
+      "description_hash": "4165472934",
+      "description_en": "To recover all of the Eye of Graeae's power, you and Paimon will have to collect the various fragments scattered all over..."
+    },
+    {
+      "id": "quest.world.quest.77107",
+      "source_quest_id": "77107",
+      "source_name": "Bell Ringing at Dusk",
+      "arabic_name": "قرع الأجراس عند الغسق",
+      "description_hash": "1388037782",
+      "description_en": "The ritual is not yet complete. Better stop Pavlina before that happens..."
+    },
+    {
+      "id": "quest.world.quest.77110",
+      "source_quest_id": "77110",
+      "source_name": "Back on One's Feet",
+      "arabic_name": "استعادة العافية",
+      "description_hash": "79539846",
+      "description_en": "You've made it out of the sewer. Now, go look for Nastya at the \"town entrance\" she told you about earlier."
+    },
+    {
+      "id": "quest.world.quest.77111",
+      "source_quest_id": "77111",
+      "source_name": "To Rest in a Forgotten Field",
+      "arabic_name": "للراحة في حقل منسي",
+      "description_hash": "2282552278",
+      "description_en": "Follow Nastya \"home\"..."
+    },
+    {
+      "id": "quest.world.quest.77112",
+      "source_quest_id": "77112",
+      "source_name": "Chorus of Solace",
+      "arabic_name": "نشيد العزاء",
+      "description_hash": "3140447078",
+      "description_en": "You have defeated Zhara. Go look for Nastya now..."
+    },
+    {
+      "id": "quest.world.quest.77113",
+      "source_quest_id": "77113",
+      "source_name": "Awake and Sing, Ye Sleepers in the Dust",
+      "arabic_name": "استيقظوا وغنّوا، يا راقدين في التراب",
+      "description_hash": "2269500166",
+      "description_en": "The mines in Novokitezhgrad appears to have suffered a cave-in following the earthquake. Koshkin rushes over to investigate, but it sounds dangerous. Perhaps you should head to the mine and see if you can help."
+    },
+    {
+      "id": "quest.world.quest.77114",
+      "source_quest_id": "77114",
+      "source_name": "Hatred, and the Throne of Those Who Hate",
+      "arabic_name": "الكراهية وعرش الكارهين",
+      "description_hash": "3029952390",
+      "description_en": "You destroy the \"passage\" created by the crystal monster, only to inadvertently enter the mysterious space they had been trying to reach..."
+    },
+    {
+      "id": "quest.world.quest.77116",
+      "source_quest_id": "77116",
+      "source_name": "Transplanted From \"Yesterday\" to \"Tomorrow\"",
+      "arabic_name": "من «الأمس» إلى «الغد»",
+      "description_hash": "4272219910",
+      "description_en": "The \"home\" Nastya keeps speaking of is right inside that assembly hall looming in the distance..."
+    },
+    {
+      "id": "quest.world.quest.77118",
+      "source_quest_id": "77118",
+      "source_name": "Borrowing a Gold Coin From a Portrait",
+      "arabic_name": "استعارة قطعة ذهبية من لوحة",
+      "description_hash": "2853813982",
+      "description_en": "On the road to Port Belovodye, you meet a detective who volunteers himself as your \"guide\"..."
+    },
+    {
+      "id": "quest.world.quest.77125",
+      "source_quest_id": "77125",
+      "source_name": "Small Jack Frost, Big Problems",
+      "arabic_name": "صقيع صغير ومشكلات كبيرة",
+      "description_hash": "1222535974",
+      "description_en": "While exploring Snezhnaya, you stumble upon a strange settlement of Jack Frosts. They seem to be in the midst of some terrible trouble..."
+    },
+    {
+      "id": "quest.world.quest.77128",
+      "source_quest_id": "77128",
+      "source_name": "Procrustes' Iron Bed",
+      "arabic_name": "سرير بروكروست الحديدي",
+      "description_hash": "2619160278",
+      "description_en": "The so-called wedding at the House of Hesperides turns out to be less delightful than expected. Pavlina tries to sacrifice Ikhor for her wish, though she is fortunately thwarted by Aksinya in the end. Pavlina is also thrown into the Shadow Realm, where she will continue to face off with Aksinya..."
+    },
+    {
+      "id": "quest.world.quest.77129",
+      "source_quest_id": "77129",
+      "source_name": "A Great Heart Fettered by Slender Chains",
+      "arabic_name": "قلب عظيم تكبّله قيود واهنة",
+      "description_hash": "4006220598",
+      "description_en": "Deep amidst the permafrost's howling blizzards, a towering silhouette suddenly catches your eye... Why is it bound to these icy plains by chains forged from pure snow and ice?"
+    },
+    {
+      "id": "quest.world.quest.77130",
+      "source_quest_id": "77130",
+      "source_name": "Like a Labyrinth Imprisons Her Servants",
+      "arabic_name": "كما تحبس المتاهة خدمها",
+      "description_hash": "4251545358",
+      "description_en": "The giant once bound by chains upon the tundra has appeared by the sea... Where does he intend to go?"
+    },
+    {
+      "id": "quest.world.quest.77131",
+      "source_quest_id": "77131",
+      "source_name": "House of the Soulless",
+      "arabic_name": "دار عديمي الأرواح",
+      "description_hash": "2060753854",
+      "description_en": "To recover all of the Eye of Graeae's power, you and Paimon will have to collect the various fragments scattered all over..."
+    },
+    {
+      "id": "quest.world.quest.77132",
+      "source_quest_id": "77132",
+      "source_name": "The Soft Song She Sang",
+      "arabic_name": "الأغنية الرقيقة التي غنّتها",
+      "description_hash": "1919587886",
+      "description_en": "The giant of ice and snow seems to want to light up the lighthouse appearing in the Shadow Realm with the flame in his breast. It seems that you'll have to melt the snow around the lighthouse first..."
+    },
+    {
+      "id": "quest.world.quest.77134",
+      "source_quest_id": "77134",
+      "source_name": "To the Kristall City",
+      "arabic_name": "إلى مدينة كريستال",
+      "description_hash": "3310990910",
+      "description_en": "Perhaps it is time to explore the city of Kresnik Kristall mining and refining, Novokitezhgrad..."
+    },
+    {
+      "id": "quest.world.quest.77135",
+      "source_quest_id": "77135",
+      "source_name": "Where Scales and Calamitous Crystals Remain",
+      "arabic_name": "حيث تبقى الحراشف والبلورات الكارثية",
+      "description_hash": "1851495166",
+      "description_en": "You've made it to Old Kitezhgrad. Sadunova's base may be just up ahead. You still don't know why she kidnapped Thrud, but if you can track her down, you may finally get some answers."
+    },
+    {
+      "id": "quest.world.quest.77136",
+      "source_quest_id": "77136",
+      "source_name": "Let Not All Rivers Run Dry",
+      "arabic_name": "لا تدع الأنهار تجفّ كلها",
+      "description_hash": "2011485774",
+      "description_en": "The huge earthquake caused the underground waterfall in Novokitezhgrad to stop flowing. Glinin immediately heads down to the underground river's mouth to investigate. Perhaps you can ask him about the river's current state."
+    },
+    {
+      "id": "quest.world.quest.77137",
+      "source_quest_id": "77137",
+      "source_name": "Like a Land Where the Tide’s Song Whispers",
+      "arabic_name": "كأرض تهمس فيها أغنية المدّ",
+      "description_hash": "3836943342",
+      "description_en": "Beyond Snezhnograd's city walls, you suddenly hear the strange sound of someone singing...?"
+    },
+    {
+      "id": "quest.world.quest.77140",
+      "source_quest_id": "77140",
+      "source_name": "Walls That Once Withstood Darkness",
+      "arabic_name": "جدران صمدت أمام الظلام ذات يوم",
+      "description_hash": "2839353038",
+      "description_en": "You need to direct the beams of light from both sides of the ancient city onto the titanic gates of Old Kitezhgrad to open them. Head to the high wall on the left, and you may find clues on how to accomplish this."
+    },
+    {
+      "id": "quest.world.quest.77141",
+      "source_quest_id": "77141",
+      "source_name": "A Tower That Once Surveyed Battlefields",
+      "arabic_name": "برج أشرف ذات يوم على ساحات القتال",
+      "description_hash": "2237516310",
+      "description_en": "You need to direct the beams of light from both sides of the ancient city onto the titanic gates of Old Kitezhgrad to open them. Head to the high tower on the right, and you may find clues on how to accomplish this."
+    },
+    {
+      "id": "quest.world.quest.77142",
+      "source_quest_id": "77142",
+      "source_name": "Burn the Storehouses and the Stables",
+      "arabic_name": "أحرقوا المخازن والإسطبلات",
+      "description_hash": "1200561118",
+      "description_en": "While on the road, you witness members of a Snezhnayan gang oppressing members of its citizenry. You step in and resolve the problem, but a far more complex situation lies behind this seemingly tiny conflict."
+    },
+    {
+      "id": "quest.world.quest.77143",
+      "source_quest_id": "77143",
+      "source_name": "Disputes Without Honor and Humanity",
+      "arabic_name": "نزاعات بلا شرف ولا إنسانية",
+      "description_hash": "1950841558",
+      "description_en": "Return to the Luchkin stronghold and speak with Zmei for an update on the situation..."
+    },
+    {
+      "id": "quest.world.quest.77144",
+      "source_quest_id": "77144",
+      "source_name": "Awaiting the Dawn",
+      "arabic_name": "في انتظار الفجر",
+      "description_hash": "3677394726",
+      "description_en": "Vodyanitsa seems to have headed to Rankova Zorya. There seems to be something she needs to do there..."
+    },
+    {
+      "id": "quest.world.quest.77145",
+      "source_quest_id": "77145",
+      "source_name": "Through the Star-Piercing Valley",
+      "arabic_name": "عبر وادي اختراق النجوم",
+      "description_hash": "380288710",
+      "description_en": "Traversing the tundra, you are one step closer to Old Kitezhgrad... Perhaps both Her Highness Thrud and Sadunova are just up ahead?"
+    },
+    {
+      "id": "quest.world.quest.77146",
+      "source_quest_id": "77146",
+      "source_name": "The Days of Old Were Days of Snow",
+      "arabic_name": "كانت الأيام الخوالي أيام ثلج",
+      "description_hash": "3092417446",
+      "description_en": "The waterfall in the underground river has returned to the way it always looked. The mine will take a while to recover fully, but the good news is that nobody was seriously hurt. Perhaps everything can get back on track now. Or perhaps...?"
+    },
+    {
+      "id": "quest.world.quest.77148",
+      "source_quest_id": "77148",
+      "source_name": "Forested Snowfield",
+      "arabic_name": "حقل ثلجي غابي",
+      "description_hash": "1189071814",
+      "description_en": "While passing a lumberyard south of Morepesok, you unexpectedly ran into some Volkodlaks harassing the local workers... Looks like it's trouble stirred up by gang members again? Seems like it's time for you to step in."
+    },
+    {
+      "id": "quest.world.quest.77155",
+      "source_quest_id": "77155",
+      "source_name": "Penumbral Escape",
+      "arabic_name": "فرار في الظلال",
+      "description_hash": "3335727974",
+      "description_en": "Sadunova, Captain of the Guard, expands the Shadow Realm. Evidently, she is linked to the earthquakes Novokitezhgrad has been experiencing... but for now, the important thing is to figure out how to escape the Realm."
+    },
+    {
+      "id": "quest.world.quest.77160",
+      "source_quest_id": "77160",
+      "source_name": "An Ark That Used to Be a Soul",
+      "arabic_name": "تابوت كان روحاً ذات يوم",
+      "description_hash": "3594292062",
+      "description_en": "You must obtain the power that was separated from the Eye of Graeae so that the Eye can return and regain its body..."
+    },
+    {
+      "id": "quest.world.quest.77163",
+      "source_quest_id": "77163",
+      "source_name": "The Tides Echo Themselves",
+      "arabic_name": "الأمواج تردّد صداها",
+      "description_hash": "971276894",
+      "description_en": "There seems to be something new and strange within the Tidesong Cavern..."
+    },
+    {
+      "id": "quest.world.quest.77176",
+      "source_quest_id": "77176",
+      "source_name": "Restoring the Severed Lifeline",
+      "arabic_name": "إعادة وصل شريان الحياة المقطوع",
+      "description_hash": "1333559854",
+      "description_en": "You have arrived at the central Kresnik Kristall mine... The situation is critical. You must save the miners trapped in Mine No. 1."
+    },
+    {
+      "id": "quest.world.quest.77177",
+      "source_quest_id": "77177",
+      "source_name": "A Path Beyond the Fallen Rocks",
+      "arabic_name": "طريق وراء الصخور المنهارة",
+      "description_hash": "174854838",
+      "description_en": "You have arrived at the central Kresnik Kristall mine... Miners in Mine No. 3 are trapped, and you have to find a way to use the cutting machine to create an escape route for them..."
+    },
+    {
+      "id": "quest.world.quest.77178",
+      "source_quest_id": "77178",
+      "source_name": "Premature Burial",
+      "arabic_name": "دفن سابق لأوانه",
+      "description_hash": "498293670",
+      "description_en": "Rescue the miner trapped under the pile of rocks."
+    },
+    {
+      "id": "quest.world.quest.77179",
+      "source_quest_id": "77179",
+      "source_name": "Let There Be Light in the Depths",
+      "arabic_name": "ليكن نور في الأعماق",
+      "description_hash": "3264621358",
+      "description_en": "Save the miners trapped in the mine cavern."
+    },
+    {
+      "id": "quest.world.quest.77180",
+      "source_quest_id": "77180",
+      "source_name": "A Precarious Perch",
+      "arabic_name": "موضع مرتفع محفوف بالمخاطر",
+      "description_hash": "1678188326",
+      "description_en": "Save the miner trapped high up on the minecart tracks."
+    },
+    {
+      "id": "quest.world.quest.77185",
+      "source_quest_id": "77185",
+      "source_name": "Just Like a Snowball",
+      "arabic_name": "تماماً ككرة الثلج",
+      "description_hash": "734074638",
+      "description_en": "Help the children produce a snowball of the perfect size."
+    },
+    {
+      "id": "quest.world.quest.77187",
+      "source_quest_id": "77187",
+      "source_name": "Like a Land Where the Tide's Song Surrounds",
+      "arabic_name": "كأرض تحيط بها أغنية المدّ",
+      "description_hash": "2433412822",
+      "description_en": "Thanks to your hard work, the Tidesong Cavern has finally taken a shape more to Vodyanitsa's liking..."
+    },
+    {
+      "id": "quest.world.quest.77188",
+      "source_quest_id": "77188",
+      "source_name": "To \"Convey\" Cinema",
+      "arabic_name": "لـ«نقل» السينما",
+      "description_hash": "4175856382",
+      "description_en": "The sample work you've done for Esfir is up to par. It's time to head back and meet up with her..."
+    },
+    {
+      "id": "quest.world.quest.77192",
+      "source_quest_id": "77192",
+      "source_name": "Into the Tower's Shadow",
+      "arabic_name": "إلى ظلال البرج",
+      "description_hash": "3223492534",
+      "description_en": "Based on the search team's clues, traces of the Shadow Realm remain. A Blightkristall Core is almost certainly present. You must find a way to locate and neutralize it."
+    },
+    {
+      "id": "quest.world.quest.77195",
+      "source_quest_id": "77195",
+      "source_name": "The Shooting Range and the Deep Shadow Realm",
+      "arabic_name": "ميدان الرماية وعالم الظلال العميق",
+      "description_hash": "1771836318",
+      "description_en": "After a battle in the Shadow Realm, the Eye of Graeae informs you that a new function has been unlocked for the shooting range accessible via the train."
+    },
+    {
+      "id": "quest.world.quest.77202",
+      "source_quest_id": "77202",
+      "source_name": "For an Ice Mirror Fragment",
+      "arabic_name": "بحثاً عن شظية مرآة جليدية",
+      "description_hash": "2151875294",
+      "description_en": "You find notes left behind by someone who was lost in the snowy mountains... Is he still alive? Is there still time for you to save his life...?"
+    },
+    {
+      "id": "quest.world.quest.77204",
+      "source_quest_id": "77204",
+      "source_name": "Atop the Floating Snow",
+      "arabic_name": "على قمة الثلج العائم",
+      "description_hash": "326096846",
+      "description_en": "Odette arrives at Rankova Zorya..."
+    },
+    {
+      "id": "quest.world.quest.77205",
+      "source_quest_id": "77205",
+      "source_name": "Into the Valley's Shadow",
+      "arabic_name": "إلى ظلال الوادي",
+      "description_hash": "1411794782",
+      "description_en": "Based on the search team's clues, traces of the Shadow Realm have been detected here, too. A remnant Blightkristall Core is almost certainly present. You must find a way to locate and neutralize it, which will rid the snow-clad plains of most Blightkristall."
+    },
+    {
+      "id": "quest.world.quest.77209",
+      "source_quest_id": "77209",
+      "source_name": "Ever Beneath the Waves",
+      "arabic_name": "تحت الأمواج أبداً",
+      "description_hash": "1902586382",
+      "description_en": "A strange block of ice floats upon the water. A mysterious voice comes to you over a pipe system, claiming that there is a wooden cabin hanging upside down beneath the ice. Clear the brash ice nearby, and you might cause the cabin to show its true form..."
+    },
+    {
+      "id": "quest.world.quest.77210",
+      "source_quest_id": "77210",
+      "source_name": "The Sunken Ship Sailed Past, Ringing No Bells",
+      "arabic_name": "أبحرت السفينة الغارقة دون أن تقرع جرساً",
+      "description_hash": "245301998",
+      "description_en": "A wooden cabin has come to a stop above the water. This rather familiar house may currently play host to a certain old acquaintance. Is he in trouble again? Head over to ascertain the situation..."
+    },
+    {
+      "id": "quest.world.quest.77211",
+      "source_quest_id": "77211",
+      "source_name": "In the Tranquility of Cycles",
+      "arabic_name": "في سكينة الدورات",
+      "description_hash": "1711162278",
+      "description_en": "The cabin on the ice seems but a hair's breadth from sinking into the sea. What happened while you were gone? Is the owner of the house, who refused to get ashore, still in there? Approach the cabin to check it out."
+    },
+    {
+      "id": "quest.world.quest.77226",
+      "source_quest_id": "77226",
+      "source_name": "Beasts in a Cage",
+      "arabic_name": "وحوش في قفص",
+      "description_hash": "4102435406",
+      "description_en": "Some time later, the investigation made a breakthrough..."
+    },
+    {
+      "id": "quest.world.quest.77227",
+      "source_quest_id": "77227",
+      "source_name": "Dark Clouds in a Wine Bottle",
+      "arabic_name": "غيوم داكنة في زجاجة نبيذ",
+      "description_hash": "3771081558",
+      "description_en": "Mitya appears to have something on his mind..."
+    },
+    {
+      "id": "quest.world.quest.77229",
+      "source_quest_id": "77229",
+      "source_name": "Curious Lights",
+      "arabic_name": "أضواء غريبة",
+      "description_hash": "2157581118",
+      "description_en": "Miners have noticed that the lights in one area seem to flicker in a pattern. Could this also be connected to the recent Kresnik Kristall heist...?"
+    },
+    {
+      "id": "quest.world.quest.77233",
+      "source_quest_id": "77233",
+      "source_name": "Simple Chores",
+      "arabic_name": "أعمال بسيطة",
+      "description_hash": "1051174886",
+      "description_en": "The engineering supervisor, Sobolev, seems to need help..."
+    },
+    {
+      "id": "quest.world.quest.77235",
+      "source_quest_id": "77235",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "3219036758",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77236",
+      "source_quest_id": "77236",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "862869222",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77237",
+      "source_quest_id": "77237",
+      "source_name": "Variations on Belyi and Chernyi: Schedule",
+      "arabic_name": "تنويعات بيلي وتشيرني: الجدول",
+      "description_hash": "957621158",
+      "description_en": "Odette's schedule proceeds..."
+    },
+    {
+      "id": "quest.world.quest.77241",
+      "source_quest_id": "77241",
+      "source_name": "Beneath Dust and Snow",
+      "arabic_name": "تحت الغبار والثلج",
+      "description_hash": "4189767190",
+      "description_en": "Over the years, the Transport Bureau's authority has expanded time and again. Like a giant behemoth, there is always tissue dying off. And like a grand palace, there is always dust accumulating... Now, at last, it is in dire need of a thorough \"cleaning.\""
+    },
+    {
+      "id": "quest.world.quest.77248",
+      "source_quest_id": "77248",
+      "source_name": "Citadel of the Ancient Fae",
+      "arabic_name": "قلعة الجنيات العتيقة",
+      "description_hash": "1478861798",
+      "description_en": "The unexpected incident has been resolved. Now, you can finally enter Novokitezhgrad trouble-free."
+    },
+    {
+      "id": "quest.world.quest.77250",
+      "source_quest_id": "77250",
+      "source_name": "Kristall-Blight Echoes",
+      "arabic_name": "أصداء آفة كريستال",
+      "description_hash": "755057406",
+      "description_en": "The Blightkristall disaster has abated, and you have witnessed Thrud's final fate... Perhaps you should tell Glinin and Koshkin all that has transpired."
+    },
+    {
+      "id": "quest.world.quest.77251",
+      "source_quest_id": "77251",
+      "source_name": "Where Dawn and Light Remain",
+      "arabic_name": "حيث يبقى الفجر والنور",
+      "description_hash": "428920430",
+      "description_en": "The old case may be closed, but the scars left by the storm remain, both within the Rail Transport Bureau and beyond its walls.\\nThe storm has yet to pass, but some still tend the lights of dawn, holding out hope that order, long buried in dust, will one day be restored."
+    },
+    {
+      "id": "quest.world.quest.77278",
+      "source_quest_id": "77278",
+      "source_name": "Winner Takes All",
+      "arabic_name": "الفائز يحصد كل شيء",
+      "description_hash": "2972293054",
+      "description_en": "Two fae are arguing on the bridge, and if they're left to their own devices, things could quickly spiral out of hand. Perhaps it's time to step in and smooth things over..."
+    },
+    {
+      "id": "quest.world.quest.77304",
+      "source_quest_id": "77304",
+      "source_name": "Better a Finch in the Hand",
+      "arabic_name": "عصفور في اليد خير من عشرة على الشجرة",
+      "description_hash": "3640238614",
+      "description_en": "A businessman earnestly invites you to try his game, claiming that many have already amassed a fortune through it. Perhaps only by experiencing it firsthand can one discover the secrets hidden within..."
+    },
+    {
+      "id": "quest.world.quest.77321",
+      "source_quest_id": "77321",
+      "source_name": "The Kind Soul Who Brings Bread",
+      "arabic_name": "الروح الطيبة التي تجلب الخبز",
+      "description_hash": "712480374",
+      "description_en": "A fishy merchant stops you at the train station..."
+    },
+    {
+      "id": "quest.world.quest.77500",
+      "source_quest_id": "77500",
+      "source_name": "Childhood Happiness",
+      "arabic_name": "سعادة الطفولة",
+      "description_hash": "3318760982",
+      "description_en": "You hear a joyful voice coming from outside the shelter on the snowy plains..."
+    },
+    {
+      "id": "quest.world.quest.77501",
+      "source_quest_id": "77501",
+      "source_name": "Adventurers of Teyvat: Grand Showdown!",
+      "arabic_name": "مغامرو تيفات: المواجهة الكبرى!",
+      "description_hash": "2404946486",
+      "description_en": "While heading to the Snezhnaya Adventurers' Guild Headquarters, you and Paimon are stopped in your tracks by two \"S-rank\" adventurers..."
+    },
+    {
+      "id": "quest.world.quest.77502",
+      "source_quest_id": "77502",
+      "source_name": "Anomaly: Snezhnaya",
+      "arabic_name": "ظاهرة شاذة: سنِزنايا",
+      "description_hash": "193394358",
+      "description_en": "Something strange appears to be happening with the Nail of Retribution all across Teyvat. Go check out what's going on."
+    },
+    {
+      "id": "quest.world.quest.77504",
+      "source_quest_id": "77504",
+      "source_name": "The Way of Mutual Aid and Advancement?",
+      "arabic_name": "نهج التعاون والتقدم المتبادل؟",
+      "description_hash": "386055926",
+      "description_en": "Having finally made it to Snezhnaya, you and Paimon decide to stop by Morepesok when you have the chance..."
+    },
+    {
+      "id": "quest.world.quest.77505",
+      "source_quest_id": "77505",
+      "source_name": "A Promise to Share Our Tips...",
+      "arabic_name": "وعد بمشاركة نصائحنا...",
+      "description_hash": "3165951958",
+      "description_en": "The exploration plan is nearly complete after some easygoing teamwork with the children of the Mutual Aid Advancement Network. Chichikova seems to have come away with a few new discoveries of her own..."
+    },
+    {
+      "id": "quest.world.quest.77506",
+      "source_quest_id": "77506",
+      "source_name": "Anomaly: Mondstadt",
+      "arabic_name": "ظاهرة شاذة: موندشتات",
+      "description_hash": "1322271598",
+      "description_en": "Something strange appears to be happening with the Nail of Retribution all across Teyvat. Go check out what's going on."
+    },
+    {
+      "id": "quest.world.quest.77507",
+      "source_quest_id": "77507",
+      "source_name": "Anomaly: Liyue",
+      "arabic_name": "ظاهرة شاذة: ليويه",
+      "description_hash": "2751271822",
+      "description_en": "Something strange appears to be happening with the Nail of Retribution all across Teyvat. Go check out what's going on."
+    },
+    {
+      "id": "quest.world.quest.77508",
+      "source_quest_id": "77508",
+      "source_name": "Anomaly: Inazuma",
+      "arabic_name": "ظاهرة شاذة: إينازوما",
+      "description_hash": "2600647566",
+      "description_en": "Something strange appears to be happening with the Nail of Retribution all across Teyvat. Go check out what's going on."
+    },
+    {
+      "id": "quest.world.quest.77509",
+      "source_quest_id": "77509",
+      "source_name": "Anomaly: Sumeru",
+      "arabic_name": "ظاهرة شاذة: سوميرو",
+      "description_hash": "2289575678",
+      "description_en": "Something strange appears to be happening with the Nail of Retribution all across Teyvat. Go check out what's going on."
+    },
+    {
+      "id": "quest.world.quest.77510",
+      "source_quest_id": "77510",
+      "source_name": "Anomaly: Natlan",
+      "arabic_name": "ظاهرة شاذة: ناتلان",
+      "description_hash": "3922634502",
+      "description_en": "Something strange appears to be happening with the Nail of Retribution all across Teyvat. Go check out what's going on."
+    },
+    {
+      "id": "quest.world.quest.77511",
+      "source_quest_id": "77511",
+      "source_name": "Paimon's \"Driyosh\" Way of Solving Problems",
+      "arabic_name": "طريقة بايمون «دريوش» لحل المشكلات",
+      "description_hash": "3433493494",
+      "description_en": "You and Paimon have won the first Adventurers' Tournament. Rewards from Snezhnaya Headquarters should be on the way, along with a few rather unusual questions..."
+    },
+    {
+      "id": "quest.world.quest.77650",
+      "source_quest_id": "77650",
+      "source_name": "Hunter on the Snowfields",
+      "arabic_name": "صياد في الحقول الثلجية",
+      "description_hash": "1650700862",
+      "description_en": "While strolling across the snowy fields, you have a chance encounter with Alyosha, who was hidden behind a pile of snow. According to him, this is normal behavior for a hunter, but soon, you realize that he has chosen somewhat special \"prey\" this time around..."
+    },
+    {
+      "id": "quest.world.quest.77651",
+      "source_quest_id": "77651",
+      "source_name": "A Thread of Dawn-Light",
+      "arabic_name": "خيط من ضوء الفجر",
+      "description_hash": "3788270550",
+      "description_en": "You bump into Alyosha near a station. He wants to do something for this particular station..."
+    },
+    {
+      "id": "quest.world.quest.77652",
+      "source_quest_id": "77652",
+      "source_name": "Many Hands Make Light Work",
+      "arabic_name": "الأيدي الكثيرة تجعل العمل يسيراً",
+      "description_hash": "1108446086",
+      "description_en": "The furnace grows hotter and stronger, and life at the shelter has finally stabilized..."
+    },
+    {
+      "id": "quest.world.quest.77653",
+      "source_quest_id": "77653",
+      "source_name": "Remnants of the Shadow Realm",
+      "arabic_name": "بقايا عالم الظلال",
+      "description_hash": "3913710478",
+      "description_en": "You recall the pedestal that you and Alyosha found earlier. It seems to have something to do with the Shadow Realm..."
+    },
+    {
+      "id": "quest.world.quest.77654",
+      "source_quest_id": "77654",
+      "source_name": "Remnants of the Shadow Realm",
+      "arabic_name": "بقايا عالم الظلال",
+      "description_hash": "2892866110",
+      "description_en": "As you continue upgrading your access card, you activate a hidden space..."
+    },
+    {
+      "id": "quest.world.quest.77655",
+      "source_quest_id": "77655",
+      "source_name": "Remnants of the Shadow Realm",
+      "arabic_name": "بقايا عالم الظلال",
+      "description_hash": "647317070",
+      "description_en": "You have finally finished your excavation of the relics within the ruins"
+    },
+    {
+      "id": "quest.world.quest.77656",
+      "source_quest_id": "77656",
+      "source_name": "Daybreak After the Snow",
+      "arabic_name": "انبلاج الفجر بعد الثلج",
+      "description_hash": "3193446366",
+      "description_en": "It seems like there's something awaiting everyone's involvement to take care of..."
+    },
+    {
+      "id": "quest.world.quest.77657",
+      "source_quest_id": "77657",
+      "source_name": "A Special Selection",
+      "arabic_name": "اختيار خاص",
+      "description_hash": "3784223390",
+      "description_en": "As you pass by the Druzhna HQ, you notice a very special selection process underway..."
+    },
+    {
+      "id": "quest.world.quest.77658",
+      "source_quest_id": "77658",
+      "source_name": "Looming Shadows: Part I",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الأول",
+      "description_hash": "897889990",
+      "description_en": "Of all known \"disasters,\" Yarovaya suspects the Shadow Realm may be the most unstable. Whatever dangers lie hidden within must be dealt with before they can worsen..."
+    },
+    {
+      "id": "quest.world.quest.77659",
+      "source_quest_id": "77659",
+      "source_name": "Looming Shadows: Part II",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الثاني",
+      "description_hash": "1308943982",
+      "description_en": "Of all known \"disasters,\" Yarovaya suspects the Shadow Realm may be the most unstable. Whatever dangers lie hidden within must be dealt with before they can worsen..."
+    },
+    {
+      "id": "quest.world.quest.77660",
+      "source_quest_id": "77660",
+      "source_name": "Looming Shadows: Part III",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الثالث",
+      "description_hash": "2306872878",
+      "description_en": "Of all known \"disasters,\" Yarovaya suspects the Shadow Realm may be the most unstable. Whatever dangers lie hidden within must be dealt with before they can worsen..."
+    },
+    {
+      "id": "quest.world.quest.77661",
+      "source_quest_id": "77661",
+      "source_name": "Looming Shadows: Part IV",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الرابع",
+      "description_hash": "1305153166",
+      "description_en": "Of all known \"disasters,\" Yarovaya suspects the Shadow Realm may be the most unstable. Whatever dangers lie hidden within must be dealt with before they can worsen..."
+    },
+    {
+      "id": "quest.world.quest.77662",
+      "source_quest_id": "77662",
+      "source_name": "Looming Shadows: Part V",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الخامس",
+      "description_hash": "3360351886",
+      "description_en": "Of all known \"disasters,\" Yarovaya suspects the Shadow Realm may be the most unstable. Whatever dangers lie hidden within must be dealt with before they can worsen..."
+    },
+    {
+      "id": "quest.world.quest.77663",
+      "source_quest_id": "77663",
+      "source_name": "Looming Shadows: Part VI",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء السادس",
+      "description_hash": "1337782182",
+      "description_en": "Of all known \"disasters,\" Yarovaya suspects the Shadow Realm may be the most unstable. Whatever dangers lie hidden within must be dealt with before they can worsen..."
+    },
+    {
+      "id": "quest.world.quest.77664",
+      "source_quest_id": "77664",
+      "source_name": "A Letter From Zapolyarny Palace",
+      "arabic_name": "رسالة من قصر زابوليارني",
+      "description_hash": "1465396094",
+      "description_en": "The two of you receive a letter from Vesna out of the blue: you've been invited to claim a \"prize.\" But as to just what this \"prize\" is, she did not say..."
+    },
+    {
+      "id": "quest.world.quest.77665",
+      "source_quest_id": "77665",
+      "source_name": "The Tsaritsa's New Portrait",
+      "arabic_name": "الصورة الجديدة للتساريتسا",
+      "description_hash": "4216636358",
+      "description_en": "The Tsaritsa agrees to sit for a new portrait at the urging of her retainers. But it seems that she has some concerns that may not be confined to the painter's easel alone..."
+    },
+    {
+      "id": "quest.world.quest.77666",
+      "source_quest_id": "77666",
+      "source_name": "Just the One Court Assembly",
+      "arabic_name": "مجلس البلاط المعتاد",
+      "description_hash": "1730613782",
+      "description_en": "The Tsaritsa invites you to attend an assembly of the court. According to Vesna, you have a special job at the assembly, and you'll have to do your best..."
+    },
+    {
+      "id": "quest.world.quest.77667",
+      "source_quest_id": "77667",
+      "source_name": "A Gift for the Children",
+      "arabic_name": "هدية للأطفال",
+      "description_hash": "3654499134",
+      "description_en": "What kind of gifts do the children of Snezhnaya like? This is a question that even the Tsaritsa is pondering and needs your help with..."
+    },
+    {
+      "id": "quest.world.quest.77668",
+      "source_quest_id": "77668",
+      "source_name": "A Winter's Night. Proper Ladies. Tea Party.",
+      "arabic_name": "ليلة شتوية. سيدات محترمات. حفلة شاي.",
+      "description_hash": "2323123062",
+      "description_en": "For Paimon, the tea party is a great way to catch up with friends over tea and snacks. However, this seems to be an experience that is utterly foreign to the Tsaritsa..."
+    },
+    {
+      "id": "quest.world.quest.77669",
+      "source_quest_id": "77669",
+      "source_name": "The Tsaritsa's Chess Game (I)",
+      "arabic_name": "لعبة شطرنج التساريتسا (1)",
+      "description_hash": "3089985382",
+      "description_en": "The Tsaritsa invites you to a battle of wits as a way to better understand how you approach problems. However, one could also see this not just as a battle, but a long heart-to-heart talk..."
+    },
+    {
+      "id": "quest.world.quest.77670",
+      "source_quest_id": "77670",
+      "source_name": "Newcomers in the Snow",
+      "arabic_name": "وافدون جدد في الثلج",
+      "description_hash": "4116852518",
+      "description_en": "You wonder how things are going at Rankova Zorya. Might as well head over and have a look..."
+    },
+    {
+      "id": "quest.world.quest.77671",
+      "source_quest_id": "77671",
+      "source_name": "One Yet to Take a Bow",
+      "arabic_name": "من لم ينحنِ بعد",
+      "description_hash": "2558040062",
+      "description_en": "You hear rumors that eerie music sometimes echoes from the Korolevskiy Theater around midnight, and that people have even seen shadows dancing on the walls..."
+    },
+    {
+      "id": "quest.world.quest.77672",
+      "source_quest_id": "77672",
+      "source_name": "The Unbowed One's Gratitude",
+      "arabic_name": "امتنان من لا ينحني",
+      "description_hash": "3827223342",
+      "description_en": "With these materials in hand, Odette should be able to repair her music box..."
+    },
+    {
+      "id": "quest.world.quest.77674",
+      "source_quest_id": "77674",
+      "source_name": "A Grueling Combat Simulation",
+      "arabic_name": "محاكاة قتالية شاقة",
+      "description_hash": "1287324486",
+      "description_en": "Talalikhin, an adventurer devoted to researching dangerous phenomena, is conducting some form of simulation training near the Adventurers' Guild Headquarters..."
+    },
+    {
+      "id": "quest.world.quest.77676",
+      "source_quest_id": "77676",
+      "source_name": "Another Horizon of Adventure",
+      "arabic_name": "أفق آخر للمغامرة",
+      "description_hash": "92531526",
+      "description_en": "In Snezhnaya, the two of you spot the rather familiar Adventurers' Guild..."
+    },
+    {
+      "id": "quest.world.quest.77677",
+      "source_quest_id": "77677",
+      "source_name": "A Lovely Oasis Holiday",
+      "arabic_name": "عطلة في واحة جميلة",
+      "description_hash": "3862424574",
+      "description_en": "Most people associate Teplo Oasis with its beautiful scenery and bountiful crops. Few know that it is also home to the finest brewery in the area. Stop by sometime. You might just run into a friend."
+    },
+    {
+      "id": "quest.world.quest.77678",
+      "source_quest_id": "77678",
+      "source_name": "The Afterglow of a Holiday",
+      "arabic_name": "وهج ما بعد العطلة",
+      "description_hash": "1446077158",
+      "description_en": "Holidays must eventually come to an end, but the friends you meet along the way can remain a part of your life for a long time to come."
+    },
+    {
+      "id": "quest.world.quest.77681",
+      "source_quest_id": "77681",
+      "source_name": "Potatoes, Hot Soup, and Snowfields...",
+      "arabic_name": "بطاطا وحساء ساخن وحقول ثلجية...",
+      "description_hash": "2660043670",
+      "description_en": "The Tsaritsa has a new assignment for you, one that seems to have something to do with the eating habits of Snezhnaya's people..."
+    },
+    {
+      "id": "quest.world.quest.77682",
+      "source_quest_id": "77682",
+      "source_name": "The Army That Stares Down Winter",
+      "arabic_name": "الجيش الذي يواجه الشتاء",
+      "description_hash": "3553387502",
+      "description_en": "This assignment seems to have something to do with Vesna. You and Paimon both suspect it might be a prank..."
+    },
+    {
+      "id": "quest.world.quest.77683",
+      "source_quest_id": "77683",
+      "source_name": "Arms and Seals",
+      "arabic_name": "الأسلحة والأختام",
+      "description_hash": "1240209262",
+      "description_en": "Over the course of your journey, you've seen plenty of the weaponry and technology used by the Fatui. As it turns out, they're also related to your latest assignment..."
+    },
+    {
+      "id": "quest.world.quest.77684",
+      "source_quest_id": "77684",
+      "source_name": "Financial Plans",
+      "arabic_name": "الخطط المالية",
+      "description_hash": "4277191638",
+      "description_en": "When it comes to finances, Paimon's idea of a financial plan is secretly stashing Mora away in a piggy bank..."
+    },
+    {
+      "id": "quest.world.quest.77685",
+      "source_quest_id": "77685",
+      "source_name": "Life on the Platform",
+      "arabic_name": "الحياة على المنصة",
+      "description_hash": "1578073774",
+      "description_en": "The Tsaritsa has a habit of making regular inspection tours by train, and it seems she has something a little different in mind this time..."
+    },
+    {
+      "id": "quest.world.quest.77686",
+      "source_quest_id": "77686",
+      "source_name": "The Tsaritsa's Chess Game (II)",
+      "arabic_name": "لعبة شطرنج التساريتسا (2)",
+      "description_hash": "3020891910",
+      "description_en": "The Tsaritsa has once again invited you to help her analyze an endgame..."
+    },
+    {
+      "id": "quest.world.quest.77688",
+      "source_quest_id": "77688",
+      "source_name": "Carefree Snowball Fight",
+      "arabic_name": "معركة كرات ثلج بلا هموم",
+      "description_hash": "1902631454",
+      "description_en": "While passing southwest of Morepesok, you unexpectedly encounter a Frost Operative playing with a group of children..."
+    },
+    {
+      "id": "quest.world.quest.77697",
+      "source_quest_id": "77697",
+      "source_name": "A Product to Remember",
+      "arabic_name": "منتج لا يُنسى",
+      "description_hash": "1774994126",
+      "description_en": "Some time has passed since your meeting with Regrator. As you happen to pass by the Northland Bank, you decide to check how sales are going for that matryoshka doll..."
+    },
+    {
+      "id": "quest.world.quest.77699",
+      "source_quest_id": "77699",
+      "source_name": "Forceful Freeze Frames",
+      "arabic_name": "لقطات تجميد حاسمة",
+      "description_hash": "4255382526",
+      "description_en": "You encounter a film enthusiast devoted to studying cinematography in Snezhnograd..."
+    }
+  ],
+  "missing": [
+    {
+      "id": "quest.world.quest.77115",
+      "source_quest_id": "77115",
+      "hash": "2625786622",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.77307",
+      "source_quest_id": "77307",
+      "hash": "3439185798",
+      "reason": "hash_not_found"
+    }
+  ]
+}
