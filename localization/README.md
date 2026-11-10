@@ -14,6 +14,10 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `WEAPON_TERMINOLOGY_AUDIT.md`: weapon-name structure and terminology audit.
 - `scripts/import_weapon_catalog.py`: imports the public weapon roster from genshin-db while preserving existing Arabic translations.
 - `ar/artifacts.json`: artifact set name records.
+- `ar/quests_archon.json`: Archon Quest chapter/act/quest catalog (structure initialized; entries not yet imported).
+- `ar/quests_world.json`: World Quest series/quest catalog (structure initialized; entries not yet imported).
+- `schema/quest.schema.json`: quest-specific metadata and hierarchy contract.
+- `QUEST_CATALOG_AUDIT.md`: quest source assessment, scope, and completeness status.
 - `ARTIFACT_TERMINOLOGY_AUDIT.md`: artifact-set name and terminology audit.
 - `MATERIALS_RESOURCES_AUDIT.md`: materials and gatherable-resource terminology audit.
 - `ar/materials.json`: common currencies and wish items.
@@ -26,7 +30,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 
 ## Validation
 
-Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, talent-to-character references, a complete normal/skill/burst talent matrix for every non-Traveler character, and the complete seven-element Traveler talent matrix (normal, skill, and burst for each element). Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator and its regression tests when relevant files change.
+Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, talent-to-character references, a complete normal/skill/burst talent matrix for every non-Traveler character, and the complete seven-element Traveler talent matrix (normal, skill, and burst for each element); required quest catalogs are also checked for presence and valid entity records. Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator and its regression tests when relevant files change.
 
 ## Scope and limitations
 
