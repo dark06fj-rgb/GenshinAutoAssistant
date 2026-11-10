@@ -74236,7 +74236,7 @@
       "node_type": "quest",
       "source_quest_id": "77304",
       "source_name": "Better a Finch in the Hand",
-      "arabic_name": "",
+      "arabic_name": "عصفور في اليد خير من عشرة على الشجرة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74253,7 +74253,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74280,7 +74280,7 @@
       "node_type": "quest",
       "source_quest_id": "77307",
       "source_name": "For a Sweeter Future",
-      "arabic_name": "",
+      "arabic_name": "من أجل مستقبل أحلى",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74297,7 +74297,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74324,7 +74324,7 @@
       "node_type": "quest",
       "source_quest_id": "77321",
       "source_name": "The Kind Soul Who Brings Bread",
-      "arabic_name": "",
+      "arabic_name": "الروح الطيبة التي تجلب الخبز",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74341,7 +74341,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74368,7 +74368,7 @@
       "node_type": "quest",
       "source_quest_id": "77500",
       "source_name": "Childhood Happiness",
-      "arabic_name": "",
+      "arabic_name": "سعادة الطفولة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74385,7 +74385,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74412,7 +74412,7 @@
       "node_type": "quest",
       "source_quest_id": "77501",
       "source_name": "Adventurers of Teyvat: Grand Showdown!",
-      "arabic_name": "",
+      "arabic_name": "مغامرو تيفات: المواجهة الكبرى!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74429,7 +74429,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74456,7 +74456,7 @@
       "node_type": "quest",
       "source_quest_id": "77502",
       "source_name": "Anomaly: Snezhnaya",
-      "arabic_name": "",
+      "arabic_name": "ظاهرة شاذة: سنِزنايا",
       "description_ar": null,
       "chapter_id": "10288",
       "act_id": null,
@@ -74473,7 +74473,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10288,
@@ -74500,7 +74500,7 @@
       "node_type": "quest",
       "source_quest_id": "77504",
       "source_name": "The Way of Mutual Aid and Advancement?",
-      "arabic_name": "",
+      "arabic_name": "نهج التعاون والتقدم المتبادل؟",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74517,7 +74517,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74544,7 +74544,7 @@
       "node_type": "quest",
       "source_quest_id": "77505",
       "source_name": "A Promise to Share Our Tips...",
-      "arabic_name": "",
+      "arabic_name": "وعد بمشاركة نصائحنا...",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74561,7 +74561,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74588,7 +74588,7 @@
       "node_type": "quest",
       "source_quest_id": "77506",
       "source_name": "Anomaly: Mondstadt",
-      "arabic_name": "",
+      "arabic_name": "ظاهرة شاذة: موندشتات",
       "description_ar": null,
       "chapter_id": "10288",
       "act_id": null,
@@ -74605,7 +74605,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10288,
@@ -74632,7 +74632,7 @@
       "node_type": "quest",
       "source_quest_id": "77507",
       "source_name": "Anomaly: Liyue",
-      "arabic_name": "",
+      "arabic_name": "ظاهرة شاذة: ليويه",
       "description_ar": null,
       "chapter_id": "10288",
       "act_id": null,
@@ -74649,7 +74649,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10288,
@@ -74676,7 +74676,7 @@
       "node_type": "quest",
       "source_quest_id": "77508",
       "source_name": "Anomaly: Inazuma",
-      "arabic_name": "",
+      "arabic_name": "ظاهرة شاذة: إينازوما",
       "description_ar": null,
       "chapter_id": "10288",
       "act_id": null,
@@ -74693,7 +74693,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10288,
@@ -74720,7 +74720,7 @@
       "node_type": "quest",
       "source_quest_id": "77509",
       "source_name": "Anomaly: Sumeru",
-      "arabic_name": "",
+      "arabic_name": "ظاهرة شاذة: سوميرو",
       "description_ar": null,
       "chapter_id": "10288",
       "act_id": null,
@@ -74737,7 +74737,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10288,
@@ -74764,7 +74764,7 @@
       "node_type": "quest",
       "source_quest_id": "77510",
       "source_name": "Anomaly: Natlan",
-      "arabic_name": "",
+      "arabic_name": "ظاهرة شاذة: ناتلان",
       "description_ar": null,
       "chapter_id": "10288",
       "act_id": null,
@@ -74781,7 +74781,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": 10288,
@@ -74808,7 +74808,7 @@
       "node_type": "quest",
       "source_quest_id": "77511",
       "source_name": "Paimon's \"Driyosh\" Way of Solving Problems",
-      "arabic_name": "",
+      "arabic_name": "طريقة بايمون «دريوش» لحل المشكلات",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74825,7 +74825,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74852,7 +74852,7 @@
       "node_type": "quest",
       "source_quest_id": "77650",
       "source_name": "Hunter on the Snowfields",
-      "arabic_name": "",
+      "arabic_name": "صياد في الحقول الثلجية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74869,7 +74869,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74896,7 +74896,7 @@
       "node_type": "quest",
       "source_quest_id": "77651",
       "source_name": "A Thread of Dawn-Light",
-      "arabic_name": "",
+      "arabic_name": "خيط من ضوء الفجر",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74913,7 +74913,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74940,7 +74940,7 @@
       "node_type": "quest",
       "source_quest_id": "77652",
       "source_name": "Many Hands Make Light Work",
-      "arabic_name": "",
+      "arabic_name": "الأيدي الكثيرة تجعل العمل يسيراً",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -74957,7 +74957,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -74984,7 +74984,7 @@
       "node_type": "quest",
       "source_quest_id": "77653",
       "source_name": "Remnants of the Shadow Realm",
-      "arabic_name": "",
+      "arabic_name": "بقايا عالم الظلال",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75001,7 +75001,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75028,7 +75028,7 @@
       "node_type": "quest",
       "source_quest_id": "77654",
       "source_name": "Remnants of the Shadow Realm",
-      "arabic_name": "",
+      "arabic_name": "بقايا عالم الظلال",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75045,7 +75045,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75072,7 +75072,7 @@
       "node_type": "quest",
       "source_quest_id": "77655",
       "source_name": "Remnants of the Shadow Realm",
-      "arabic_name": "",
+      "arabic_name": "بقايا عالم الظلال",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75089,7 +75089,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75116,7 +75116,7 @@
       "node_type": "quest",
       "source_quest_id": "77656",
       "source_name": "Daybreak After the Snow",
-      "arabic_name": "",
+      "arabic_name": "انبلاج الفجر بعد الثلج",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75133,7 +75133,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75160,7 +75160,7 @@
       "node_type": "quest",
       "source_quest_id": "77657",
       "source_name": "A Special Selection",
-      "arabic_name": "",
+      "arabic_name": "اختيار خاص",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75177,7 +75177,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75204,7 +75204,7 @@
       "node_type": "quest",
       "source_quest_id": "77658",
       "source_name": "Looming Shadows: Part I",
-      "arabic_name": "",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الأول",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75221,7 +75221,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75248,7 +75248,7 @@
       "node_type": "quest",
       "source_quest_id": "77659",
       "source_name": "Looming Shadows: Part II",
-      "arabic_name": "",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الثاني",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75265,7 +75265,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75292,7 +75292,7 @@
       "node_type": "quest",
       "source_quest_id": "77660",
       "source_name": "Looming Shadows: Part III",
-      "arabic_name": "",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الثالث",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75309,7 +75309,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75336,7 +75336,7 @@
       "node_type": "quest",
       "source_quest_id": "77661",
       "source_name": "Looming Shadows: Part IV",
-      "arabic_name": "",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الرابع",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75353,7 +75353,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75380,7 +75380,7 @@
       "node_type": "quest",
       "source_quest_id": "77662",
       "source_name": "Looming Shadows: Part V",
-      "arabic_name": "",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء الخامس",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75397,7 +75397,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75424,7 +75424,7 @@
       "node_type": "quest",
       "source_quest_id": "77663",
       "source_name": "Looming Shadows: Part VI",
-      "arabic_name": "",
+      "arabic_name": "ظلال تلوح في الأفق: الجزء السادس",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75441,7 +75441,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75468,7 +75468,7 @@
       "node_type": "quest",
       "source_quest_id": "77664",
       "source_name": "A Letter From Zapolyarny Palace",
-      "arabic_name": "",
+      "arabic_name": "رسالة من قصر زابوليارني",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75485,7 +75485,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75512,7 +75512,7 @@
       "node_type": "quest",
       "source_quest_id": "77665",
       "source_name": "The Tsaritsa's New Portrait",
-      "arabic_name": "",
+      "arabic_name": "الصورة الجديدة للتساريتسا",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75529,7 +75529,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75556,7 +75556,7 @@
       "node_type": "quest",
       "source_quest_id": "77666",
       "source_name": "Just the One Court Assembly",
-      "arabic_name": "",
+      "arabic_name": "مجلس البلاط المعتاد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75573,7 +75573,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75600,7 +75600,7 @@
       "node_type": "quest",
       "source_quest_id": "77667",
       "source_name": "A Gift for the Children",
-      "arabic_name": "",
+      "arabic_name": "هدية للأطفال",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75617,7 +75617,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75644,7 +75644,7 @@
       "node_type": "quest",
       "source_quest_id": "77668",
       "source_name": "A Winter's Night. Proper Ladies. Tea Party.",
-      "arabic_name": "",
+      "arabic_name": "ليلة شتوية. سيدات محترمات. حفلة شاي.",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75661,7 +75661,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75688,7 +75688,7 @@
       "node_type": "quest",
       "source_quest_id": "77669",
       "source_name": "The Tsaritsa's Chess Game (I)",
-      "arabic_name": "",
+      "arabic_name": "لعبة شطرنج التساريتسا (1)",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75705,7 +75705,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75732,7 +75732,7 @@
       "node_type": "quest",
       "source_quest_id": "77670",
       "source_name": "Newcomers in the Snow",
-      "arabic_name": "",
+      "arabic_name": "وافدون جدد في الثلج",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75749,7 +75749,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75776,7 +75776,7 @@
       "node_type": "quest",
       "source_quest_id": "77671",
       "source_name": "One Yet to Take a Bow",
-      "arabic_name": "",
+      "arabic_name": "من لم ينحنِ بعد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75793,7 +75793,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75820,7 +75820,7 @@
       "node_type": "quest",
       "source_quest_id": "77672",
       "source_name": "The Unbowed One's Gratitude",
-      "arabic_name": "",
+      "arabic_name": "امتنان من لا ينحني",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75837,7 +75837,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75864,7 +75864,7 @@
       "node_type": "quest",
       "source_quest_id": "77674",
       "source_name": "A Grueling Combat Simulation",
-      "arabic_name": "",
+      "arabic_name": "محاكاة قتالية شاقة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75881,7 +75881,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75908,7 +75908,7 @@
       "node_type": "quest",
       "source_quest_id": "77676",
       "source_name": "Another Horizon of Adventure",
-      "arabic_name": "",
+      "arabic_name": "أفق آخر للمغامرة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75925,7 +75925,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75952,7 +75952,7 @@
       "node_type": "quest",
       "source_quest_id": "77677",
       "source_name": "A Lovely Oasis Holiday",
-      "arabic_name": "",
+      "arabic_name": "عطلة في واحة جميلة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -75969,7 +75969,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -75996,7 +75996,7 @@
       "node_type": "quest",
       "source_quest_id": "77678",
       "source_name": "The Afterglow of a Holiday",
-      "arabic_name": "",
+      "arabic_name": "وهج ما بعد العطلة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76013,7 +76013,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76040,7 +76040,7 @@
       "node_type": "quest",
       "source_quest_id": "77681",
       "source_name": "Potatoes, Hot Soup, and Snowfields...",
-      "arabic_name": "",
+      "arabic_name": "بطاطا وحساء ساخن وحقول ثلجية...",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76057,7 +76057,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76084,7 +76084,7 @@
       "node_type": "quest",
       "source_quest_id": "77682",
       "source_name": "The Army That Stares Down Winter",
-      "arabic_name": "",
+      "arabic_name": "الجيش الذي يواجه الشتاء",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76101,7 +76101,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76128,7 +76128,7 @@
       "node_type": "quest",
       "source_quest_id": "77683",
       "source_name": "Arms and Seals",
-      "arabic_name": "",
+      "arabic_name": "الأسلحة والأختام",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76145,7 +76145,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76172,7 +76172,7 @@
       "node_type": "quest",
       "source_quest_id": "77684",
       "source_name": "Financial Plans",
-      "arabic_name": "",
+      "arabic_name": "الخطط المالية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76189,7 +76189,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76216,7 +76216,7 @@
       "node_type": "quest",
       "source_quest_id": "77685",
       "source_name": "Life on the Platform",
-      "arabic_name": "",
+      "arabic_name": "الحياة على المنصة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76233,7 +76233,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76260,7 +76260,7 @@
       "node_type": "quest",
       "source_quest_id": "77686",
       "source_name": "The Tsaritsa's Chess Game (II)",
-      "arabic_name": "",
+      "arabic_name": "لعبة شطرنج التساريتسا (2)",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76277,7 +76277,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76304,7 +76304,7 @@
       "node_type": "quest",
       "source_quest_id": "77688",
       "source_name": "Carefree Snowball Fight",
-      "arabic_name": "",
+      "arabic_name": "معركة كرات ثلج بلا هموم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76321,7 +76321,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76348,7 +76348,7 @@
       "node_type": "quest",
       "source_quest_id": "77697",
       "source_name": "A Product to Remember",
-      "arabic_name": "",
+      "arabic_name": "منتج لا يُنسى",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76365,7 +76365,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
@@ -76392,7 +76392,7 @@
       "node_type": "quest",
       "source_quest_id": "77699",
       "source_name": "Forceful Freeze Frames",
-      "arabic_name": "",
+      "arabic_name": "لقطات تجميد حاسمة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -76409,7 +76409,7 @@
           "version": "7.2.0"
         }
       ],
-      "translation_status": "needs_translation",
+      "translation_status": "draft",
       "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
       "source_main_quest_metadata": {
         "chapterId": null,
