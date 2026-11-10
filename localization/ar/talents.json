@@ -5106,6 +5106,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mika.talent.normal",
+      "category": "term",
+      "character_id": "character.10000080",
+      "character_name": "Mika",
+      "character_name_ar": "ميكا",
+      "talent_type": "normal",
+      "source_name": "Spear of Favonius - Arrow's Passage",
+      "arabic_name": "رمح فافونيوس: مسار السهم",
+      "description_source": null,
+      "description_ar": "ينفذ ميكا ضربات متتابعة بالقوس والنشاب والرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mika.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mika.talent.skill",
+      "category": "term",
+      "character_id": "character.10000080",
+      "character_name": "Mika",
+      "character_name_ar": "ميكا",
+      "talent_type": "skill",
+      "source_name": "Starfrost Swirl",
+      "arabic_name": "دوامة الصقيع النجمي",
+      "description_source": null,
+      "description_ar": "يطلق ميكا سهماً جليدياً يمنح أعضاء الفريق القريبين تأثير نسيم الروح الذي يزيد سرعة هجومهم؛ ويختلف إطلاقه بحسب الضغط أو التصويب المطول.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mika.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mika.talent.burst",
+      "category": "term",
+      "character_id": "character.10000080",
+      "character_name": "Mika",
+      "character_name_ar": "ميكا",
+      "talent_type": "burst",
+      "source_name": "Skyfeather Song",
+      "arabic_name": "أنشودة ريش السماء",
+      "description_source": null,
+      "description_ar": "يعالج ميكا أعضاء الفريق القريبين ويمنحهم حالة ريشة النسر، التي تتيح استعادة الصحة عند إصابة الأعداء بالهجمات العادية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mika.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mona.talent.normal",
+      "category": "term",
+      "character_id": "character.10000041",
+      "character_name": "Mona",
+      "character_name_ar": "مونا",
+      "talent_type": "normal",
+      "source_name": "Ripple of Fate",
+      "arabic_name": "تموّج القدر",
+      "description_source": null,
+      "description_ar": "تطلق مونا دفعات مائية متتابعة، مع هجوم مشحون واسع وهجوم غطس يسبب ضرر هيدرو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mona.talent.skill",
+      "category": "term",
+      "character_id": "character.10000041",
+      "character_name": "Mona",
+      "character_name_ar": "مونا",
+      "talent_type": "skill",
+      "source_name": "Mirror Reflection of Doom",
+      "arabic_name": "انعكاس المرآة للمصير",
+      "description_source": null,
+      "description_ar": "تنشئ مونا شبحاً مائياً يجذب هجمات الأعداء ويسبب ضرر هيدرو دورياً، ثم ينفجر عند انتهاء مدته؛ ويمكنها التراجع سريعاً عند الضغط المطول.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mona.talent.burst",
+      "category": "term",
+      "character_id": "character.10000041",
+      "character_name": "Mona",
+      "character_name_ar": "مونا",
+      "talent_type": "burst",
+      "source_name": "Stellaris Phantasm",
+      "arabic_name": "وهم النجوم",
+      "description_source": null,
+      "description_ar": "تغمر مونا الأعداء بفقاعة وهمية تقيد الضعفاء وتطبق عليهم نذير الشؤم؛ وعند إصابتهم تنفجر الفقاعة وتزيد الأضرار التي يتلقونها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mualani.talent.normal",
+      "category": "term",
+      "character_id": "character.10000102",
+      "character_name": "Mualani",
+      "character_name_ar": "موألاني",
+      "talent_type": "normal",
+      "source_name": "Cooling Treatment",
+      "arabic_name": "معالجة التبريد",
+      "description_source": null,
+      "description_ar": "تطلق موألاني هجمات مائية متتابعة، ويمكنها قذف كرة منتفخة بهجوم مشحون أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mualani.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mualani.talent.skill",
+      "category": "term",
+      "character_id": "character.10000102",
+      "character_name": "Mualani",
+      "character_name_ar": "موألاني",
+      "talent_type": "skill",
+      "source_name": "Surfshark Wavebreaker",
+      "arabic_name": "راكبة أمواج القرش",
+      "description_source": null,
+      "description_ar": "تركب موألاني لوح القرش وتدخل حالة النعمة الليلية، فتزداد سرعتها ومقاومتها للمقاطعة وتستطيع التحرك فوق الماء؛ وتتحول هجماتها إلى عضّات مائية تزداد قوتها بتراكم الزخم.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mualani.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.mualani.talent.burst",
+      "category": "term",
+      "character_id": "character.10000102",
+      "character_name": "Mualani",
+      "character_name_ar": "موألاني",
+      "talent_type": "burst",
+      "source_name": "Boomsharka-laka",
+      "arabic_name": "بووم شاركا لاكا",
+      "description_source": null,
+      "description_ar": "تطلق موألاني صاروخ قرش فائقاً يتعقب الأعداء ويسبب ضرر هيدرو واسعاً يتناسب مع صحتها القصوى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/mualani.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.navia.talent.normal",
+      "category": "term",
+      "character_id": "character.10000091",
+      "character_name": "Navia",
+      "character_name_ar": "نافيا",
+      "talent_type": "normal",
+      "source_name": "Blunt Refusal",
+      "arabic_name": "رفض قاطع",
+      "description_source": null,
+      "description_ar": "تنفذ نافيا ضربات متتابعة بالسيف العظيم، مع هجوم مشحون دوار وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/navia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.navia.talent.skill",
+      "category": "term",
+      "character_id": "character.10000091",
+      "character_name": "Navia",
+      "character_name_ar": "نافيا",
+      "talent_type": "skill",
+      "source_name": "Ceremonial Crystalshot",
+      "arabic_name": "طلقة الكريستال الاحتفالية",
+      "description_source": null,
+      "description_ar": "تجمع نافيا شظايا الكريستال الناتجة عن التبلور، ثم تستهلكها لإطلاق طلقات روسولا الجغرافية من مظلتها المسلحة؛ ويزداد عدد الطلقات وقوتها مع التراكمات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/navia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.navia.talent.burst",
+      "category": "term",
+      "character_id": "character.10000091",
+      "character_name": "Navia",
+      "character_name_ar": "نافيا",
+      "talent_type": "burst",
+      "source_name": "As the Sunlit Sky's Singing Salute",
+      "arabic_name": "تحية غنائية كسماء مشمسة",
+      "description_source": null,
+      "description_ar": "تستدعي نافيا قصفاً مدفعياً جغرافياً واسعاً، ثم يتواصل دعم المدافع لفترة ويمنحها شظايا كريستال عند إصابة الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/navia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nefer.talent.normal",
+      "category": "term",
+      "character_id": "character.10000122",
+      "character_name": "Nefer",
+      "character_name_ar": "نيفر",
+      "talent_type": "normal",
+      "source_name": "Striking Serpent",
+      "arabic_name": "الأفعى الضاربة",
+      "description_source": null,
+      "description_ar": "توجه نيفر ركلات ديندرو متتابعة؛ ويمكنها الانزلاق بسرعة في حالة خاصة ثم تنفيذ ضربة ديندرو عند إنهائها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nefer.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nefer.talent.skill",
+      "category": "term",
+      "character_id": "character.10000122",
+      "character_name": "Nefer",
+      "character_name_ar": "نيفر",
+      "talent_type": "skill",
+      "source_name": "Senet Strategy: Dance of a Thousand Nights",
+      "arabic_name": "استراتيجية سينيت: رقصة ألف ليلة",
+      "description_source": null,
+      "description_ar": "تندفع نيفر مسببة ضرر ديندرو وتدخل حالة رقصة الظلال؛ وخلالها تتحول هجماتها المشحونة إلى أداء خاص لا يستهلك القدرة على التحمل عند توفر الندى الأخضر.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nefer.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nefer.talent.burst",
+      "category": "term",
+      "character_id": "character.10000122",
+      "character_name": "Nefer",
+      "character_name_ar": "نيفر",
+      "talent_type": "burst",
+      "source_name": "Sacred Vow: True Eye's Phantasm",
+      "arabic_name": "العهد المقدس: وهم العين الحقيقية",
+      "description_source": null,
+      "description_ar": "تطلق نيفر ضرر ديندرو واسعاً أمامها وتستهلك أغطية الوهم لزيادة ضرر هذه الضربة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nefer.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nicole.talent.normal",
+      "category": "term",
+      "character_id": "character.10000131",
+      "character_name": "Nicole",
+      "character_name_ar": "نيكول",
+      "talent_type": "normal",
+      "source_name": "Allegoria",
+      "arabic_name": "أليغوريا",
+      "description_source": null,
+      "description_ar": "تنفذ نيكول هجمات بايرو متتابعة، مع هجوم مشحون واسع وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nicole.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nicole.talent.skill",
+      "category": "term",
+      "character_id": "character.10000131",
+      "character_name": "Nicole",
+      "character_name_ar": "نيكول",
+      "talent_type": "skill",
+      "source_name": "Revelation: Uncreated Light",
+      "arabic_name": "الكشف: النور غير المخلوق",
+      "description_source": null,
+      "description_ar": "تستحضر نيكول أثراً من عصر قديم، فتمنح أعضاء الفريق القريبين تعزيزاً للهجوم وتنشئ درع النور المتوهج الذي يمتص الضرر وفق هجومها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nicole.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nicole.talent.burst",
+      "category": "term",
+      "character_id": "character.10000131",
+      "character_name": "Nicole",
+      "character_name_ar": "نيكول",
+      "talent_type": "burst",
+      "source_name": "Revelation: Ladder of Divine Ascent",
+      "arabic_name": "الكشف: سلّم الصعود الإلهي",
+      "description_source": null,
+      "description_ar": "تطلق نيكول ضرر بايرو وتدخل وضع التأمل الصامت؛ وعندما تصيب الشخصيات النشطة الأعداء تستدعي إسقاطات سحرية لهجمات منسقة تتبع عناصرهم.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nicole.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nilou.talent.normal",
+      "category": "term",
+      "character_id": "character.10000070",
+      "character_name": "Nilou",
+      "character_name_ar": "نيلو",
+      "talent_type": "normal",
+      "source_name": "Dance of Samser",
+      "arabic_name": "رقصة سامسر",
+      "description_source": null,
+      "description_ar": "تنفذ نيلو ضربات سريعة متتابعة بالسيف، مع ضربة دائرية مشحونة وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nilou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nilou.talent.skill",
+      "category": "term",
+      "character_id": "character.10000070",
+      "character_name": "Nilou",
+      "character_name_ar": "نيلو",
+      "talent_type": "skill",
+      "source_name": "Dance of Haftkarsvar",
+      "arabic_name": "رقصة هافتكارسفار",
+      "description_source": null,
+      "description_ar": "تدخل نيلو حالة الدوران وتحوّل خطوات رقصها إلى ضرر هيدرو؛ ويمكنها إنهاء التسلسل برقصة السيف لإطلاق وهم مائي أو بخطوات دوارة لإنشاء عجلة ماء تتبع الشخصية النشطة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nilou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.nilou.talent.burst",
+      "category": "term",
+      "character_id": "character.10000070",
+      "character_name": "Nilou",
+      "character_name_ar": "نيلو",
+      "talent_type": "burst",
+      "source_name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+      "arabic_name": "رقصة أبزندغي: أحلام بعيدة وينبوع مُصغٍ",
+      "description_source": null,
+      "description_ar": "تطلق نيلو زهرة مياه بعيدة تسبب ضرر هيدرو واسعاً، ثم يتلقى الأعداء المتأثرون ضرراً مائياً إضافياً بعد فترة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/nilou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ningguang.talent.normal",
+      "category": "term",
+      "character_id": "character.10000027",
+      "character_name": "Ningguang",
+      "character_name_ar": "نينغوانغ",
+      "talent_type": "normal",
+      "source_name": "Sparkling Scatter",
+      "arabic_name": "تناثر متلألئ",
+      "description_source": null,
+      "description_ar": "تطلق نينغوانغ جواهر تسبب ضرر جيو وتجمع يَشميات نجمية؛ ويستهلك الهجوم المشحون هذه التراكمات لإطلاق مقذوفات إضافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ningguang.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ningguang.talent.skill",
+      "category": "term",
+      "character_id": "character.10000027",
+      "character_name": "Ningguang",
+      "character_name_ar": "نينغوانغ",
+      "talent_type": "skill",
+      "source_name": "Jade Screen",
+      "arabic_name": "ستار اليشم",
+      "description_source": null,
+      "description_ar": "تنشئ نينغوانغ ستاراً من اليشم يسبب ضرر جيو ويحجب مقذوفات الأعداء، وتتحمل بنيته الضرر وفق صحتها القصوى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ningguang.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.ningguang.talent.burst",
+      "category": "term",
+      "character_id": "character.10000027",
+      "character_name": "Ningguang",
+      "character_name_ar": "نينغوانغ",
+      "talent_type": "burst",
+      "source_name": "Starshatter",
+      "arabic_name": "تحطيم النجوم",
+      "description_source": null,
+      "description_ar": "تطلق نينغوانغ عدداً كبيراً من الجواهر الموجهة نحو الأعداء مسببة ضرر جيو هائلاً؛ ويطلق ستار اليشم القريب مقذوفات إضافية معها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/ningguang.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
