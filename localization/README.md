@@ -68,3 +68,21 @@ the Actions tab, and commits an updated weapon catalog to
 `arabic-localization-catalog` when the imported data changes. The importer
 requires network access to the upstream public API. Imported Arabic names remain
 drafts or `needs_context`; they are not official translations.
+
+
+## Scheduled DeepSeek quest-summary drafts
+
+The `.github/workflows/deepseek-quest-summary-drafts.yml` workflow can be started
+manually from the Actions tab and also runs daily at 03:15 UTC. It checks out
+only `gemini-arabic-work`, drafts at most 15 summaries per run, validates the
+catalog, and pushes changes only to that work branch.
+
+Configure the repository Actions secret `DEEPSEEK_API_KEY` with a DeepSeek API
+key before enabling translation. The key is read only by the workflow and is
+never written into the repository. The worker translates only when a record
+contains an explicit English source-description field
+(`source_description_en`, `description_en`, `source_description`, or
+`description_source`). It skips records without source text rather than
+inventing a summary from a title or metadata. Machine-generated summaries stay
+at `draft` status and require human review. The daily run is capped at 15
+records to limit API usage.
