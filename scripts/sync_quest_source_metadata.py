@@ -528,7 +528,12 @@ def main() -> int:
         kind: sum(1 for value in fetched.values() if value["type"] == kind)
         for kind in ("AQ", "WQ")
     }
-
+    arabic_title_coverage = {}
+    for kind, data in data_by_kind.items():
+        for entry in data["entries"]:
+            if isinstance(entry.get("arabic_name"), str) and entry["arabic_name"].strip():
+                key = f"{kind}_{entry.get('node_type')}"
+                arabic_title_coverage[key] = arabic_title_coverage.get(key, 0) + 1
 
     report = {
         "animegamedata_commit": ANIME_COMMIT,
@@ -540,7 +545,7 @@ def main() -> int:
         "skipped_non_target": skipped_non_target,
         "skipped_hidden_or_repeatable": skipped_hidden_or_repeatable,
         "held_back_unresolved_title_count": skipped_unresolved_title,
-        "manual_arabic_titles_applied": applied_translations,
+        "arabic_title_coverage": arabic_title_coverage,
         "cycle_prerequisite_edges_dropped": cycle_edges_dropped,
         "catalog_counts": counts,
         "unresolved_title_source_ids": unresolved_title_ids,
