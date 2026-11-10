@@ -1491,6 +1491,370 @@
         }
       ],
       "review_notes": "ترجمة عربية أولية لعنوان الفصل؛ تحتاج مراجعة تحريرية."
+    },
+    {
+      "id": "quest.archon.quest.352",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "352",
+      "source_name": "Bird's Eye View",
+      "arabic_name": "نظرة من عين الطائر",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.353",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "353",
+      "source_name": "Unexpected Power",
+      "arabic_name": "قوة غير متوقعة",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.355",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "355",
+      "source_name": "Forest Rendezvous",
+      "arabic_name": "موعد في الغابة",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.354",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "354",
+      "source_name": "Wind-Riding Knight",
+      "arabic_name": "فارس يمتطي الرياح",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.360",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "360",
+      "source_name": "Going Upon the Breeze",
+      "arabic_name": "الانطلاق مع النسيم",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.356",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "356",
+      "source_name": "City of Freedom",
+      "arabic_name": "مدينة الحرية",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.357",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "357",
+      "source_name": "Dragon Storm",
+      "arabic_name": "عاصفة التنين",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.358",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "358",
+      "source_name": "Knights of Favonius",
+      "arabic_name": "فرسان فافونيوس",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.306",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "306",
+      "source_name": "Winds of the Past",
+      "arabic_name": "رياح الماضي",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.307",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "307",
+      "source_name": "Crash Course",
+      "arabic_name": "دورة مكثفة",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.308",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "308",
+      "source_name": "Sparks Amongst the Pages",
+      "arabic_name": "شرارات بين الصفحات",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1001",
+      "chapter_id": "1001",
+      "act_id": null,
+      "series_id": "1001",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.370",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "370",
+      "source_name": "Shadow Over Mondstadt",
+      "arabic_name": "ظل فوق موندشتات",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1002",
+      "chapter_id": "1002",
+      "act_id": null,
+      "series_id": "1002",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
+    },
+    {
+      "id": "quest.archon.quest.7012",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "7012",
+      "source_name": "Gunfire in the Silent Lands",
+      "arabic_name": "إطلاق نار في الأراضي الصامتة",
+      "description_ar": null,
+      "parent_id": "quest.archon.chapter.1700",
+      "chapter_id": "1700",
+      "act_id": null,
+      "series_id": "7011",
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "draft",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "ترجمة أولية لعنوان المهمة؛ الوصف والحوارات خارج نطاق هذا السجل."
     }
   ]
 }
