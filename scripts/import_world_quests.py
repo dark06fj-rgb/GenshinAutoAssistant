@@ -19,6 +19,7 @@ BASE = f"https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/{SNAPSHOT}
 MAIN_URL = f"{BASE}/ExcelBinOutput/MainQuestExcelConfigData.json"
 CHAPTER_URL = f"{BASE}/ExcelBinOutput/ChapterExcelConfigData.json"
 TEXT_URL = f"{BASE}/TextMap/TextMapEN.json"
+MEDIUM_TEXT_URL = f"{BASE}/TextMap/TextMap_MediumEN.json"
 OUT = Path("localization/ar/quests_world.json")
 REPORT = Path("localization/WORLD_QUEST_IMPORT_REPORT.md")
 
@@ -47,12 +48,14 @@ def text_for(text_map, value):
 
 
 def main():
-    old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    old_text = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
+    old = json.loads(old_text) if old_text.strip() else {}
     old_by_id = {item["id"]: item for item in old.get("entries", [])}
 
     main_quests = download_json(MAIN_URL)
     chapters = download_json(CHAPTER_URL)
     text_map = download_json(TEXT_URL)
+    medium_text_map = download_json(MEDIUM_TEXT_URL)
 
     world_chapters = {
         int(ch["id"]): ch for ch in chapters
@@ -66,7 +69,7 @@ def main():
     chapter_linked = 0
     hidden_count = 0
     for ch_id, ch in sorted(world_chapters.items()):
-        title = text_for(text_map, ch.get("chapterTitleTextMapHash"))
+        title = text_for(text_map, medium_text_map, ch.get("chapterTitleTextMapHash"))
         if not title:
             unresolved_titles.append(f"chapter:{ch_id}")
             continue
@@ -113,7 +116,7 @@ def main():
     quest_records = []
     for q in source_world:
         qid = int(q["id"])
-        title = text_for(text_map, q.get("titleTextMapHash"))
+        title = text_for(text_map, medium_text_map, q.get("titleTextMapHash"))
         if not title:
             unresolved_titles.append(f"quest:{qid}")
             continue
@@ -212,7 +215,7 @@ def main():
         f"- Imported world-quest chapter groups: {len([e for e in entries if e['node_type'] == 'chapter'])}",
         f"- Quest records linked to an imported chapter: {chapter_linked}",
         f"- Source records flagged hidden: {hidden_count}",
-        f"- Unresolved title hashes: {len(unresolved_titles)}",
+        f"- Unresolved title hashes after TextMapEN + TextMap_MediumEN: {len(unresolved_titles)}",
         f"- Translation statuses: {dict(status_counts)}",
         "",
         "Arabic translations are intentionally left empty and marked `needs_translation`; no machine-generated or guessed Arabic labels are presented as completed work.",
