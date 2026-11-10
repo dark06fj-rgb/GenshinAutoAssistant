@@ -4,6 +4,7 @@
 
 - [genshin-db](https://github.com/theBowja/genshin-db): structured reference data for characters, weapons, materials, artifacts, talents and other game categories. Its README states that it aggregates/parses data from GenshinData and the Fandom Wiki and supports the game's listed locales; Arabic is not among the listed locales. Check the upstream license and data provenance before redistributing any substantial copied dataset.
 - [GenshinData](https://github.com/Dimbreath/GenshinData): community-maintained extracted game data. Use as a technical reference only; do not redistribute proprietary game assets or bulk text without confirming rights.
+- [gmh5225/Genshin-GenshinData](https://github.com/gmh5225/Genshin-GenshinData): a public GenshinData mirror/fork inspected for quest metadata. The quest foundation report pins the exact commit and source files used. Treat it as a technical reference; verify freshness, provenance, and redistribution permissions before importing substantial data.
 - [genshin.dev API source](https://github.com/genshindev/api): community static-data API; its documentation says it does not interact with the game and supports localized responses only where data exists.
 
 ## Project policy
