@@ -2069,6 +2069,114 @@
       ],
       "translation_status": "draft",
       "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000120",
+      "category": "character",
+      "source_name": "Flins",
+      "arabic_name": "فلينز",
+      "element": "Electro",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000123",
+      "category": "character",
+      "source_name": "Durin",
+      "arabic_name": "دورين",
+      "element": "Pyro",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000128",
+      "category": "character",
+      "source_name": "Varka",
+      "arabic_name": "فاركا",
+      "element": "Anemo",
+      "weapon_type": "Claymore",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000101",
+      "category": "character",
+      "source_name": "Kinich",
+      "arabic_name": "كينيش",
+      "element": "Dendro",
+      "weapon_type": "Claymore",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000095",
+      "category": "character",
+      "source_name": "Sigewinne",
+      "arabic_name": "سيغوين",
+      "element": "Hydro",
+      "weapon_type": "Bow",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000097",
+      "category": "character",
+      "source_name": "Sethos",
+      "arabic_name": "سيتوس",
+      "element": "Electro",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
     }
   ]
 }
