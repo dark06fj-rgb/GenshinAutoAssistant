@@ -5,6 +5,7 @@ on:
     branches: [arabic-localization-catalog]
     paths:
       - "scripts/validate_localization.py"
+      - "scripts/sync_quest_source_metadata.py"
       - "tests/**"
       - "localization/ar/**"
       - ".github/workflows/localization-validator-tests.yml"
