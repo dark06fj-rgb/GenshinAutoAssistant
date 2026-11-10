@@ -25,7 +25,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 
 ## Validation
 
-Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, and talent-to-character references, and the complete seven-element Traveler talent matrix (normal, skill, and burst for each element). Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator and its regression tests when relevant files change.
+Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, talent-to-character references, a complete normal/skill/burst talent matrix for every non-Traveler character, and the complete seven-element Traveler talent matrix (normal, skill, and burst for each element). Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator and its regression tests when relevant files change.
 
 ## Scope and limitations
 
