@@ -23,6 +23,17 @@
 - Exit code `1`: one or more errors were found.
 - Warnings are visible but do not fail the run.
 
+## Regression tests
+
+Run the regression suite before changing validator behavior:
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/validate_localization.py
+```
+
+The suite covers a valid fixture and deliberate failures for duplicate cross-catalog IDs, glossary mismatches, dangling talent references, unsafe source URLs, unsupported categories, missing catalogs, and malformed JSON. GitHub Actions runs both the tests and the live-catalog validator on relevant changes.
+
 ## Run locally
 
 ```bash
