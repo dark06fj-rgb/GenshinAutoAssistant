@@ -3360,7 +3360,7 @@
       "source_quest_id": "379",
       "source_name": "State of the Holy Lyre der Himmel",
       "arabic_name": "حال القيثارة السماوية المقدسة",
-      "description_ar": null,
+      "description_ar": "تستعيد القيثارة السماوية المقدسة من أيدي الفاتوي بعد مواجهة صعبة، لكن حنين فنتي الواضح إلى القيثارة يثير تساؤلاتك.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3379,7 +3379,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 248114793,
         "description": 3192957559
@@ -3411,7 +3411,7 @@
       "source_quest_id": "380",
       "source_name": "Fallen Tears",
       "arabic_name": "دموع ساقطة",
-      "description_ar": null,
+      "description_ar": "تنجح في إعادة جزء من قوة الأنيمو إلى القيثارة باستخدام دموع ديفالين، إلا أن استعادة قوتها كاملة تتطلب العثور على مزيد من الدموع.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3430,7 +3430,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2383852777,
         "description": 2705724775
@@ -3460,7 +3460,7 @@
       "source_quest_id": "381",
       "source_name": "Hidden Tears",
       "arabic_name": "دموع خفية",
-      "description_ar": null,
+      "description_ar": "تقودك آثار ديفالين في أنحاء موندشتات إلى دمعة سقطت بين أطلال عميقة داخل الغابة.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3479,7 +3479,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 396979777,
         "description": 3173561207
@@ -3509,7 +3509,7 @@
       "source_quest_id": "382",
       "source_name": "Stolen Tears",
       "arabic_name": "دموع مسروقة",
-      "description_ar": null,
+      "description_ar": "تجذب دمعة التنين الفاسدة جماعات الهيليتشيرلز، فتسعى إلى استعادتها منهم.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3528,7 +3528,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2040928209,
         "description": 3392246311
@@ -3558,7 +3558,7 @@
       "source_quest_id": "383",
       "source_name": "Crystal Tears",
       "arabic_name": "دموع بلورية",
-      "description_ar": null,
+      "description_ar": "بعد إتمام مهمة جمع الدموع، تعود للقاء بقية المجموعة ومتابعة الاستعداد لإنقاذ ديفالين.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3579,7 +3579,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3395488209,
         "description": 4282875479
@@ -3677,7 +3677,7 @@
       "source_quest_id": "388",
       "source_name": "Hurdle",
       "arabic_name": "عقبة",
-      "description_ar": null,
+      "description_ar": "تصل إلى عرين إرهاب العاصفة لمحاولة إنقاذ ديفالين مجدداً، لكن حواجز الرياح والقوى المعادية تعرقل تقدمك نحو الداخل.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -3696,7 +3696,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 974487489,
         "description": 4065576655
@@ -3726,7 +3726,7 @@
       "source_quest_id": "389",
       "source_name": "Empty Abode",
       "arabic_name": "مسكن خالٍ",
-      "description_ar": null,
+      "description_ar": "تواجه أعداءً كثيرين في الطريق إلى عرين إرهاب العاصفة، فتشق طريقك بحذر عبر الجدران المهدمة والعقبات المحيطة.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -3745,7 +3745,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 879821785,
         "description": 3634655287
@@ -3775,7 +3775,7 @@
       "source_quest_id": "390",
       "source_name": "Light Guiding Ceremony",
       "arabic_name": "مراسم إرشاد الضوء",
-      "description_ar": null,
+      "description_ar": "تعترض أختام الضوء مدخل عرين إرهاب العاصفة، ولذلك تخوض اختباراً جديداً لكسرها وفتح الطريق.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -3794,7 +3794,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1941522521,
         "description": 1103883431
@@ -3824,7 +3824,7 @@
       "source_quest_id": "393",
       "source_name": "Calm Before the Storm",
       "arabic_name": "الهدوء الذي يسبق العاصفة",
-      "description_ar": null,
+      "description_ar": "بعد تحطيم أختام الضوء الثلاثة، ينفتح الطريق إلى المواجهة الحاسمة، فتعود إلى مدخل العرين لوضع حد للأحداث.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -3843,7 +3843,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1520658585,
         "description": 3601198255
@@ -3873,7 +3873,7 @@
       "source_quest_id": "394",
       "source_name": "A Long Shot",
       "arabic_name": "محاولة بعيدة",
-      "description_ar": null,
+      "description_ar": "بعد مطاردة طويلة لديفالين الذي ضلّلته جماعة الهاوية، تقترب أخيراً من مواجهته وجهاً لوجه.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -3892,7 +3892,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1906853201,
         "description": 3794442479
@@ -4036,7 +4036,7 @@
       "source_quest_id": "397",
       "source_name": "Abyss Mage",
       "arabic_name": "ساحر الهاوية",
-      "description_ar": null,
+      "description_ar": "تفشل محاولة إنقاذ إرهاب العاصفة بعد أن تعرقل جماعة الهاوية استدعاءه بالقيثارة المقدسة، لكن ديلوك يعثر على خيط جديد يتيح مواصلة البحث عن حل.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -4055,7 +4055,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2779564865,
         "description": 3837585879
@@ -4085,7 +4085,7 @@
       "source_quest_id": "398",
       "source_name": "When the Wind Dies Down",
       "arabic_name": "حين تهدأ الرياح",
-      "description_ar": null,
+      "description_ar": "تنجح أخيراً في إنقاذ ديفالين، وتصل حكاية الرياح في موندشتات إلى خاتمتها.",
       "chapter_id": "1003",
       "act_id": "1003",
       "series_id": "1003",
@@ -4104,7 +4104,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2024054705,
         "description": 502268359
