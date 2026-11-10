@@ -5679,7 +5679,7 @@
       "source_quest_id": "22016",
       "source_name": "The Gourmet Supremos: The Importance of Eating Well",
       "arabic_name": "نخبة الذوّاقة: أهمية تناول الطعام جيداً",
-      "description_ar": null,
+      "description_ar": "تبدو بارفانه من مجموعة الذوّاقة في حيرة من أمرها، فتتوجه لمساعدتها في حل المشكلة التي تشغلها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5696,7 +5696,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4097676679,
         "description": 3373886846
@@ -5718,7 +5718,7 @@
       "source_quest_id": "22050",
       "source_name": "The Narukami Trail",
       "arabic_name": "درب ناروكامي",
-      "description_ar": null,
+      "description_ar": "تبدو نيكو، الكاهنة المؤقتة لضريح أَساسي، وكأن لديها أمراً ترغب في إنجازه، فتستمع إلى طلبها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5735,7 +5735,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2461389815,
         "description": 929343878
@@ -5757,7 +5757,7 @@
       "source_quest_id": "22111",
       "source_name": "New Horizons of Adventure",
       "arabic_name": "آفاق جديدة للمغامرة",
-      "description_ar": null,
+      "description_ar": "تلوح لكاثرين من نقابة المغامرين أخبار جديدة، فتتوجه إليها لمعرفة ما تريد إخبارك به.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5774,7 +5774,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3910839937,
         "description": 62084359
@@ -5798,7 +5798,7 @@
       "source_quest_id": "23035",
       "source_name": "Next Time, On King of Invokations...",
       "arabic_name": "في المرة القادمة، في ملك الاستدعاءات...",
-      "description_ar": null,
+      "description_ar": "يبدو أن الكاتب فوكوموتو يواجه مشكلة تتعلق بروايته «ملك الاستدعاءات»، فتسعى لمعرفة ما يزعجه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5815,7 +5815,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 438014359,
         "description": 3742687318
@@ -6201,7 +6201,7 @@
       "source_quest_id": "40031",
       "source_name": "Bantan Sango Case File: Mystery of the Black Shadow",
       "arabic_name": "ملف قضية بانتان سانغو: سر الظل الأسود",
-      "description_ar": null,
+      "description_ar": "تصل إلى وكالة بانتان سانغو للتحقيق في قضية غامضة ظهرت في إينازوما، وتبدأ بجمع خيوطها الأولى.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6218,7 +6218,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1008905071,
         "description": 171869670
@@ -6243,7 +6243,7 @@
       "source_quest_id": "40032",
       "source_name": "Bantan Sango Case File: Stealthy Trail",
       "arabic_name": "ملف قضية بانتان سانغو: أثر متخفٍ",
-      "description_ar": null,
+      "description_ar": "يحصل ريوجي على معلومات جديدة بشأن القضية، ويحتاج إلى متابعة التحقيق في الآثار التي ظهرت.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6262,7 +6262,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1642579199,
         "description": 3142907582
@@ -6288,7 +6288,7 @@
       "source_quest_id": "40033",
       "source_name": "Bantan Sango Case File: The Truth (Just About) Comes to Light",
       "arabic_name": "الحقيقة تكاد تظهر",
-      "description_ar": null,
+      "description_ar": "تقود المعلومات الإضافية ريوجي إلى مواصلة البحث، فتقترب خيوط القضية من كشف الحقيقة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6307,7 +6307,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 113427391,
         "description": 503723374
@@ -6333,7 +6333,7 @@
       "source_quest_id": "40034",
       "source_name": "Bantan Sango Case File: Recognition",
       "arabic_name": "التعرّف",
-      "description_ar": null,
+      "description_ar": "تصل القضية إلى مراحلها الأخيرة، وتصبح الحقيقة أقرب إلى الظهور مع اكتمال التحقيق.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6352,7 +6352,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 14335399,
         "description": 269634566
@@ -6417,7 +6417,7 @@
       "source_quest_id": "40061",
       "source_name": "That Which Our Ancestors Entrusted",
       "arabic_name": "ما ائتمننا عليه أسلافنا",
-      "description_ar": null,
+      "description_ar": "تقلق بشأن سير مهرجان غوريّو في واتاتسومي، فتقرر زيارة ضريح سانغونوميا للاطلاع على مستجداته.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6436,7 +6436,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4268921311,
         "description": 3454661918
