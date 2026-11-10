@@ -251,6 +251,41 @@
       "translation": "كرايو",
       "status": "draft",
       "notes": "المقابل العربي الموحد لاسم العنصر في هذا الكتالوج (عنصر الجليد). يستخدم اسم العنصر المنقول صوتياً عند وصف نوع الضرر أو العنصر؛ المصطلح مقترح غير رسمي."
+    },
+    {
+      "id": "term.weapon_type.sword",
+      "source_term": "Sword",
+      "translation": "سيف",
+      "status": "draft",
+      "notes": "اسم تصنيفي مقترح لنوع السلاح؛ لا يمثل ترجمة رسمية."
+    },
+    {
+      "id": "term.weapon_type.claymore",
+      "source_term": "Claymore",
+      "translation": "سيف عظيم",
+      "status": "draft",
+      "notes": "اسم تصنيفي مقترح للسلاح الثقيل ذي النصل العريض؛ لا يمثل ترجمة رسمية."
+    },
+    {
+      "id": "term.weapon_type.polearm",
+      "source_term": "Polearm",
+      "translation": "رمح",
+      "status": "draft",
+      "notes": "اسم تصنيفي مقترح للأسلحة ذات المقبض الطويل؛ لا يمثل ترجمة رسمية."
+    },
+    {
+      "id": "term.weapon_type.bow",
+      "source_term": "Bow",
+      "translation": "قوس",
+      "status": "draft",
+      "notes": "اسم تصنيفي مقترح لنوع السلاح؛ لا يمثل ترجمة رسمية."
+    },
+    {
+      "id": "term.weapon_type.catalyst",
+      "source_term": "Catalyst",
+      "translation": "محفّز",
+      "status": "draft",
+      "notes": "اسم تصنيفي مقترح لنوع السلاح السحري؛ لا يمثل ترجمة رسمية."
     }
   ]
 }
