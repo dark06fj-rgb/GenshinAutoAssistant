@@ -31942,8 +31942,7 @@
       "region": "Sumeru",
       "sequence": null,
       "prerequisite_ids": [
-        "quest.world.quest.73025",
-        "quest.world.quest.73061"
+        "quest.world.quest.73025"
       ],
       "adventure_rank": null,
       "version_added": null,
@@ -35330,9 +35329,7 @@
       "series_id": null,
       "region": null,
       "sequence": null,
-      "prerequisite_ids": [
-        "quest.world.quest.73285"
-      ],
+      "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
@@ -49218,9 +49215,7 @@
       "series_id": null,
       "region": null,
       "sequence": null,
-      "prerequisite_ids": [
-        "quest.world.quest.75149"
-      ],
+      "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
@@ -55668,9 +55663,7 @@
       "series_id": "79022",
       "region": null,
       "sequence": null,
-      "prerequisite_ids": [
-        "quest.world.quest.79022"
-      ],
+      "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
