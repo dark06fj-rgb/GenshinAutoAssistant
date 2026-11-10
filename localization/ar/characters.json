@@ -791,6 +791,150 @@
       ],
       "translation_status": "draft",
       "review_notes": "نقل صوتي عربي أولي غير رسمي؛ بيانات العنصر ونوع السلاح والندرة من سجل genshin-db، ويجب مراجعة الاسم العربي قبل اعتماده."
+    },
+    {
+      "id": "character.clorinde",
+      "category": "character",
+      "source_name": "Clorinde",
+      "arabic_name": "كلوريند",
+      "element": "Electro",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/clorinde.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.collei",
+      "category": "character",
+      "source_name": "Collei",
+      "arabic_name": "كولي",
+      "element": "Dendro",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/collei.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.columbina",
+      "category": "character",
+      "source_name": "Columbina",
+      "arabic_name": "كولومبينا",
+      "element": "Hydro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/columbina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.cyno",
+      "category": "character",
+      "source_name": "Cyno",
+      "arabic_name": "ساينو",
+      "element": "Electro",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/cyno.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.dahlia",
+      "category": "character",
+      "source_name": "Dahlia",
+      "arabic_name": "داليا",
+      "element": "Hydro",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/dahlia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.dehya",
+      "category": "character",
+      "source_name": "Dehya",
+      "arabic_name": "ديهيا",
+      "element": "Pyro",
+      "weapon_type": "Claymore",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/dehya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.diona",
+      "category": "character",
+      "source_name": "Diona",
+      "arabic_name": "ديونا",
+      "element": "Cryo",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/diona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.dori",
+      "category": "character",
+      "source_name": "Dori",
+      "arabic_name": "دوري",
+      "element": "Electro",
+      "weapon_type": "Claymore",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/dori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
     }
   ]
 }
