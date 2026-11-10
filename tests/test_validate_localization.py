@@ -245,7 +245,7 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.write_catalogs(catalogs)
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
-        self.assertIn("ID does not match character/talent slot", output)
+        self.assertIn("talent ID prefix 'character.test' is already assigned", output)
         self.assertIn("Character character.test is missing talent slot normal", output)
         self.assertIn("Character character.other is missing talent slot", output)
 
