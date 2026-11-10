@@ -13,7 +13,7 @@ import urllib.request
 from pathlib import Path
 
 ANIME_COMMIT = "d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
-BACKLOG_COMMIT = "3faf9c1916e2c672593a7e1ee5709b04f314eb7a"
+BACKLOG_COMMIT = "3faf9c1916e2c672593a7e1ee5709b04f314eb7a"\nGI_COMMIT = "9651f89b8b4af8815cb193e147c84e3fb43ede63"
 BASE = f"https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/{ANIME_COMMIT}/TextMap"
 BACKLOG_URL = (
     "https://raw.githubusercontent.com/dark06fj-rgb/GenshinAutoAssistant/"
@@ -89,7 +89,7 @@ def main() -> int:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "source_snapshot": f"DimbreathBot/AnimeGameData@{ANIME_COMMIT}",
-        "backlog_commit": BACKLOG_COMMIT,
+        "backlog_commit": BACKLOG_COMMIT,\n        "gi_onlinequest_commit": GI_COMMIT,
         "target_count": len(targets),
         "extracted_count": len(extracted),
         "missing_count": len(missing),
