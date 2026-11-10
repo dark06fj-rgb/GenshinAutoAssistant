@@ -3090,6 +3090,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.columbina.talent.normal",
+      "category": "term",
+      "character_id": "character.columbina",
+      "character_name": "Columbina",
+      "character_name_ar": "كولومبينا",
+      "talent_type": "normal",
+      "source_name": "Moondew Cascade",
+      "arabic_name": "شلال ندى القمر",
+      "description_source": null,
+      "description_ar": "تنفذ هجمات مائية متتابعة، ويمكنها إطلاق هجوم مشحون واسع؛ وعند توفر الندى الأخضر تستخدم ضربة خاصة تسبب ضرر دندرو قمرياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/columbina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.columbina.talent.skill",
+      "category": "term",
+      "character_id": "character.columbina",
+      "character_name": "Columbina",
+      "character_name_ar": "كولومبينا",
+      "talent_type": "skill",
+      "source_name": "Eternal Tides",
+      "arabic_name": "المدود الأبدية",
+      "description_source": null,
+      "description_ar": "تستدعي تموج الجاذبية الذي يتبع الشخصية النشطة ويسبب ضرر هيدرو دورياً، ويتفاعل مع تفاعلات القمر المتنوعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/columbina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.columbina.talent.burst",
+      "category": "term",
+      "character_id": "character.columbina",
+      "character_name": "Columbina",
+      "character_name_ar": "كولومبينا",
+      "talent_type": "burst",
+      "source_name": "Moonlit Melancholy",
+      "arabic_name": "كآبة ضوء القمر",
+      "description_source": null,
+      "description_ar": "تحوّل المنطقة المحيطة مؤقتاً إلى نطاق قمري وتسبب ضرر هيدرو واسعاً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/columbina.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.cyno.talent.normal",
+      "category": "term",
+      "character_id": "character.cyno",
+      "character_name": "Cyno",
+      "character_name_ar": "ساينو",
+      "talent_type": "normal",
+      "source_name": "Invoker's Spear",
+      "arabic_name": "رمح المستدعي",
+      "description_source": null,
+      "description_ar": "ينفذ ساينو ضربات متتابعة بالرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/cyno.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.cyno.talent.skill",
+      "category": "term",
+      "character_id": "character.cyno",
+      "character_name": "Cyno",
+      "character_name_ar": "ساينو",
+      "talent_type": "skill",
+      "source_name": "Secret Rite: Chasmic Soulfarer",
+      "arabic_name": "الطقس السري: عابر هوة الأرواح",
+      "description_source": null,
+      "description_ar": "يندفع ساينو بطعنة كهربائية؛ وأثناء حالة مستكشف المسار يؤدي طقساً جنائزياً أقوى ويمدد مدة الحالة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/cyno.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.cyno.talent.burst",
+      "category": "term",
+      "character_id": "character.cyno",
+      "character_name": "Cyno",
+      "character_name_ar": "ساينو",
+      "talent_type": "burst",
+      "source_name": "Sacred Rite: Wolf's Swiftness",
+      "arabic_name": "الطقس المقدس: سرعة الذئب",
+      "description_source": null,
+      "description_ar": "يدخل ساينو حالة مستكشف المسار، فتتحول هجماته إلى ضرر إلكترو وتزداد إتقانيته ومقاومته للمقاطعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/cyno.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dahlia.talent.normal",
+      "category": "term",
+      "character_id": "character.dahlia",
+      "character_name": "Dahlia",
+      "character_name_ar": "داليا",
+      "talent_type": "normal",
+      "source_name": "Favonius Bladework - Ritual",
+      "arabic_name": "فن المبارزة الفافوني: الطقس",
+      "description_source": null,
+      "description_ar": "ينفذ داليا ضربات سريعة بالسيف، مع هجوم مشحون من ضربتين وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dahlia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dahlia.talent.skill",
+      "category": "term",
+      "character_id": "character.dahlia",
+      "character_name": "Dahlia",
+      "character_name_ar": "داليا",
+      "talent_type": "skill",
+      "source_name": "Immersive Ordinance",
+      "arabic_name": "ترتيب غامر",
+      "description_source": null,
+      "description_ar": "يستدعي داليا دشاً طقسياً في موضع يحدده؛ انفجاره عند ملامسة العدو يسبب ضرر هيدرو، بينما يقذف الحليف الذي يلامسه إلى الأعلى.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dahlia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dahlia.talent.burst",
+      "category": "term",
+      "character_id": "character.dahlia",
+      "character_name": "Dahlia",
+      "character_name_ar": "داليا",
+      "talent_type": "burst",
+      "source_name": "Radiant Psalter",
+      "arabic_name": "كتاب التراتيل المشع",
+      "description_source": null,
+      "description_ar": "يسبب ضرر هيدرو في المنطقة ويمنح الفريق درعاً يتناسب امتصاصه مع صحة داليا القصوى، مع إمكانية تجديده عبر تراكمات البركة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dahlia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dehya.talent.normal",
+      "category": "term",
+      "character_id": "character.dehya",
+      "character_name": "Dehya",
+      "character_name_ar": "ديهيا",
+      "talent_type": "normal",
+      "source_name": "Sandstorm Assault",
+      "arabic_name": "هجوم العاصفة الرملية",
+      "description_source": null,
+      "description_ar": "تنفذ ديهيا ضربات متتابعة بالسيف العظيم وفنونها القتالية، مع هجوم مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dehya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dehya.talent.skill",
+      "category": "term",
+      "character_id": "character.dehya",
+      "character_name": "Dehya",
+      "character_name_ar": "ديهيا",
+      "talent_type": "skill",
+      "source_name": "Molten Inferno",
+      "arabic_name": "الجحيم المنصهر",
+      "description_source": null,
+      "description_ar": "تنشئ ديهيا مجال الملاذ الناري أو تنقل موضعه؛ يهاجم المجال الأعداء بالتنسيق ويخفف جزءاً من الضرر الواقع على الشخصية النشطة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dehya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dehya.talent.burst",
+      "category": "term",
+      "character_id": "character.dehya",
+      "character_name": "Dehya",
+      "character_name_ar": "ديهيا",
+      "talent_type": "burst",
+      "source_name": "Leonine Bite",
+      "arabic_name": "عضّة اللبؤة",
+      "description_source": null,
+      "description_ar": "تدخل ديهيا حالة اللبؤة المتوهجة وتطلق سلسلة لكمات نارية تلقائية، تنتهي بضربة انفجارية واسعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dehya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.diona.talent.normal",
+      "category": "term",
+      "character_id": "character.diona",
+      "character_name": "Diona",
+      "character_name_ar": "ديونا",
+      "talent_type": "normal",
+      "source_name": "Kätzlein Style",
+      "arabic_name": "أسلوب كاتزلين",
+      "description_source": null,
+      "description_ar": "تطلق ديونا سلسلة سهام، ويمكنها شحن سهم جليدي أو تنفيذ هجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/diona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.diona.talent.skill",
+      "category": "term",
+      "character_id": "character.diona",
+      "character_name": "Diona",
+      "character_name_ar": "ديونا",
+      "talent_type": "skill",
+      "source_name": "Icy Paws",
+      "arabic_name": "الكفوف الجليدية",
+      "description_source": null,
+      "description_ar": "تطلق ديونا كفوفاً جليدية تسبب ضرر كريو وتنشئ درعاً؛ ويمنح الضغط المطول درعاً أقوى عند إصابة عدة أهداف.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/diona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.diona.talent.burst",
+      "category": "term",
+      "character_id": "character.diona",
+      "character_name": "Diona",
+      "character_name_ar": "ديونا",
+      "talent_type": "burst",
+      "source_name": "Signature Mix",
+      "arabic_name": "المزيج الخاص",
+      "description_source": null,
+      "description_ar": "ترمي ديونا شراباً بارداً ينشئ ضباباً يسبب ضرر كريو للأعداء ويستعيد صحة الشخصيات داخله.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/diona.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dori.talent.normal",
+      "category": "term",
+      "character_id": "character.dori",
+      "character_name": "Dori",
+      "character_name_ar": "دوري",
+      "talent_type": "normal",
+      "source_name": "Marvelous Sword-Dance (Modified)",
+      "arabic_name": "رقصة السيف العجيبة (معدّلة)",
+      "description_source": null,
+      "description_ar": "تنفذ دوري ضربات متتابعة بالسيف العظيم، مع هجوم مشحون دوار وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dori.talent.skill",
+      "category": "term",
+      "character_id": "character.dori",
+      "character_name": "Dori",
+      "character_name_ar": "دوري",
+      "talent_type": "skill",
+      "source_name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+      "arabic_name": "مصباح حراسة الأرواح: مدفع حلّال المشكلات",
+      "description_source": null,
+      "description_ar": "توجه دوري مصباحها لإطلاق قذيفة إلكترو، ثم تنشأ طلقتان لاحقتان تتعقبان الأعداء القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.dori.talent.burst",
+      "category": "term",
+      "character_id": "character.dori",
+      "character_name": "Dori",
+      "character_name_ar": "دوري",
+      "talent_type": "burst",
+      "source_name": "Alcazarzaray's Exactitude",
+      "arabic_name": "دقة قصر الزرزراي",
+      "description_source": null,
+      "description_ar": "تستدعي الجني ليرتبط بشخصية قريبة، فيستعيد صحتها وطاقتها باستمرار ويُلحق ضرر إلكترو بالأعداء الذين يلامسهم الرابط.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/dori.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.eula.talent.normal",
+      "category": "term",
+      "character_id": "character.eula",
+      "character_name": "Eula",
+      "character_name_ar": "يولا",
+      "talent_type": "normal",
+      "source_name": "Favonius Bladework - Edel",
+      "arabic_name": "فن المبارزة الفافوني: إيدل",
+      "description_source": null,
+      "description_ar": "تنفذ يولا ضربات متتابعة بالسيف العظيم، مع هجوم مشحون مستمر وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/eula.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.eula.talent.skill",
+      "category": "term",
+      "character_id": "character.eula",
+      "character_name": "Eula",
+      "character_name_ar": "يولا",
+      "talent_type": "skill",
+      "source_name": "Icetide Vortex",
+      "arabic_name": "دوامة المد الجليدي",
+      "description_source": null,
+      "description_ar": "تضرب يولا بضرر كريو وتجمع تراكمات القلب القاتم؛ ويمكنها استهلاكها بهجوم واسع يقلل مقاومة الأعداء للضرر الفيزيائي والكريو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/eula.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.eula.talent.burst",
+      "category": "term",
+      "character_id": "character.eula",
+      "character_name": "Eula",
+      "character_name_ar": "يولا",
+      "talent_type": "burst",
+      "source_name": "Glacial Illumination",
+      "arabic_name": "إشراق جليدي",
+      "description_source": null,
+      "description_ar": "تسبب ضرر كريو وتستدعي سيف سقوط الضوء الذي يشحن مع هجماتها قبل أن ينفجر مسبباً ضرراً فيزيائياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/eula.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.emilie.talent.normal",
+      "category": "term",
+      "character_id": "character.emilie",
+      "character_name": "Emilie",
+      "character_name_ar": "إيميلي",
+      "talent_type": "normal",
+      "source_name": "Shadow-Hunting Spear (Custom)",
+      "arabic_name": "رمح صيد الظلال (مخصص)",
+      "description_source": null,
+      "description_ar": "تنفذ إيميلي ضربات متتابعة بالرمح، مع ضربة صاعدة مشحونة وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/emilie.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.emilie.talent.skill",
+      "category": "term",
+      "character_id": "character.emilie",
+      "character_name": "Emilie",
+      "character_name_ar": "إيميلي",
+      "talent_type": "skill",
+      "source_name": "Fragrance Extraction",
+      "arabic_name": "استخلاص العطر",
+      "description_source": null,
+      "description_ar": "تنشئ إيميلي صندوق العطر الذي يطلق نفثات دندرو ويجمع الروائح من الأعداء المحترقين لزيادة مستواه وقوة هجماته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/emilie.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.emilie.talent.burst",
+      "category": "term",
+      "character_id": "character.emilie",
+      "character_name": "Emilie",
+      "character_name_ar": "إيميلي",
+      "talent_type": "burst",
+      "source_name": "Aromatic Explication",
+      "arabic_name": "تفسير عطري",
+      "description_source": null,
+      "description_ar": "تحوّل إيميلي الروائح المجمعة إلى صندوق عطر من المستوى الثالث يطلق قطرات عطرية تسبب ضرر دندرو متكرراً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/emilie.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
