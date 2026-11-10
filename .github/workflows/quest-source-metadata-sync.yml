@@ -28,14 +28,18 @@ jobs:
           python-version: "3.x"
       - name: Expand and resolve the complete AQ/WQ source roster
         run: python scripts/sync_quest_source_metadata.py
+      - name: Run localization regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate expanded quest catalogs
+        run: python scripts/validate_localization.py
       - name: Commit metadata when changed
         run: |
-          if git diff --quiet -- localization/ar/quests_archon.json localization/ar/quests_world.json; then
+          if git diff --quiet -- localization/ar/quests_archon.json localization/ar/quests_world.json localization/quest-import-report.json; then
             echo "Quest source metadata is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add localization/ar/quests_archon.json localization/ar/quests_world.json
+          git add localization/ar/quests_archon.json localization/ar/quests_world.json localization/quest-import-report.json
           git commit -m "Import complete AQ/WQ source roster and metadata"
           git push origin HEAD:arabic-localization-catalog
