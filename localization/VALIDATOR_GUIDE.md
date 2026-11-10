@@ -15,7 +15,7 @@
 - Require canonical glossary entries for the seven elements and five character weapon classes used by the character catalog.
 - Map upstream weapon type identifiers to the corresponding shared glossary terms.
 - Verify every talent's `character_id` exists and its Arabic character label matches the character catalog.
-- Enforce a complete three-slot talent matrix (`normal`, `skill`, `burst`) for every non-Traveler character; verify each talent ID matches its `character_id` and `talent_type`, and reject missing, duplicate, or unsupported slots.
+- Enforce a complete three-slot talent matrix (`normal`, `skill`, `burst`) for every non-Traveler character; validate each talent ID's stable name-based slug and slot type, ensure each slug belongs to only one upstream character ID, and reject missing, duplicate, or unsupported slots.
 - Enforce the Traveler (Aether) talent matrix: all seven known elements (Anemo, Geo, Electro, Dendro, Hydro, Pyro, Cryo), each with exactly one normal, skill, and burst slot; validate slot IDs and require every Traveler talent to reference `character.aether`.
 - Report Arabic-script coverage and empty optional Arabic descriptions as warnings rather than silently rewriting content.
 
