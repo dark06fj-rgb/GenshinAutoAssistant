@@ -55642,7 +55642,7 @@
       "source_quest_id": "74694",
       "source_name": "Witch's Revelation: Voyaging Instruction",
       "arabic_name": "كشف الساحرة: تعليمات الرحلة",
-      "description_ar": null,
+      "description_ar": "تصادف بيدو في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55659,7 +55659,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55686,7 +55686,7 @@
       "source_quest_id": "74695",
       "source_name": "Witch's Revelation: Warden's Instruction",
       "arabic_name": "كشف الساحرة: تعليمات الحارس",
-      "description_ar": null,
+      "description_ar": "تصادف ريوثسلي في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55703,7 +55703,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55730,7 +55730,7 @@
       "source_quest_id": "74696",
       "source_name": "Witch's Revelation: Instruction of Curious Form",
       "arabic_name": "كشف الساحرة: تعليمات الشكل الغريب",
-      "description_ar": null,
+      "description_ar": "تصادف تشيتشي في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55747,7 +55747,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55774,7 +55774,7 @@
       "source_quest_id": "74697",
       "source_name": "Witch's Revelation: Instruction Beyond Dreams",
       "arabic_name": "كشف الساحرة: تعليمات ما وراء الأحلام",
-      "description_ar": null,
+      "description_ar": "تصادف يوميميزوكي ميزوكي في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55791,7 +55791,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55818,7 +55818,7 @@
       "source_quest_id": "74698",
       "source_name": "Witch's Revelation: Great Youkai's Instruction",
       "arabic_name": "كشف الساحرة: تعليمات اليوكاي العظيم",
-      "description_ar": null,
+      "description_ar": "تصادف ياي ميكو في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55835,7 +55835,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55862,7 +55862,7 @@
       "source_quest_id": "74700",
       "source_name": "Elegance? Safety First!",
       "arabic_name": "الأناقة؟ السلامة أولاً!",
-      "description_ar": null,
+      "description_ar": "تبدو ساندَروني وكأنها تبحث عنك، وربما تحمل لك أمراً يتعلق بالأناقة والسلامة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55879,7 +55879,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55906,7 +55906,7 @@
       "source_quest_id": "74701",
       "source_name": "Danger? Keep Away!",
       "arabic_name": "الخطر؟ ابتعد!",
-      "description_ar": null,
+      "description_ar": "تبدو ساندَروني وكأنها تبحث عنك، ويحمل الأمر تحذيراً من خطر ينبغي تجنبه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55923,7 +55923,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55950,7 +55950,7 @@
       "source_quest_id": "74702",
       "source_name": "Fisharium Open For Business!",
       "arabic_name": "حوض الأسماك يفتح أبوابه!",
-      "description_ar": null,
+      "description_ar": "تبدو ساندَروني وكأنها تبحث عنك مع اقتراب افتتاح حوض الأسماك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55967,7 +55967,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55994,7 +55994,7 @@
       "source_quest_id": "74703",
       "source_name": "Just a 30% Cut!",
       "arabic_name": "اقتطاع 30% فقط!",
-      "description_ar": null,
+      "description_ar": "تبدو ساندَروني وكأنها تبحث عنك، وتدور المسألة حول اقتطاع نسبة محددة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56011,7 +56011,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56038,7 +56038,7 @@
       "source_quest_id": "74704",
       "source_name": "Friends... In the Aquarium?",
       "arabic_name": "أصدقاء... في حوض الأسماك؟",
-      "description_ar": null,
+      "description_ar": "تبدو كولومبينا منشغلة بالإعجاب بحوض الأسماك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56055,7 +56055,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56082,7 +56082,7 @@
       "source_quest_id": "74705",
       "source_name": "Us... In the Aquarium?",
       "arabic_name": "نحن... في حوض الأسماك؟",
-      "description_ar": null,
+      "description_ar": "يبدو أن أصدقاءك منشغلون بمشاهدة حوض الأسماك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56099,7 +56099,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56126,7 +56126,7 @@
       "source_quest_id": "74706",
       "source_name": "A Superstar... In the Aquarium?",
       "arabic_name": "نجمة لامعة... في حوض الأسماك؟",
-      "description_ar": null,
+      "description_ar": "تبدو فورينا منشغلة بالإعجاب بحوض الأسماك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56143,7 +56143,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56170,7 +56170,7 @@
       "source_quest_id": "74707",
       "source_name": "An Actor... In the Aquarium?",
       "arabic_name": "ممثل... في حوض الأسماك؟",
-      "description_ar": null,
+      "description_ar": "يبدو أن أصدقاءك، ومن بينهم ممثل، منشغلون بمشاهدة حوض الأسماك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56187,7 +56187,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56214,7 +56214,7 @@
       "source_quest_id": "74708",
       "source_name": "The Emergence of Irate Fish?",
       "arabic_name": "ظهور الأسماك الغاضبة؟",
-      "description_ar": null,
+      "description_ar": "يبدو أن سيجوين لديها ما تخبرك به بشأن ظهور أسماك غاضبة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56231,7 +56231,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56258,7 +56258,7 @@
       "source_quest_id": "74709",
       "source_name": "The Cantankerous Fish Have Their Circumstances?",
       "arabic_name": "للأسماك الناقمة أسبابها؟",
-      "description_ar": null,
+      "description_ar": "تريد سيجوين إخبارك بأن للأسماك المشاكسة ظروفاً وأسباباً وراء سلوكها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56275,7 +56275,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56302,7 +56302,7 @@
       "source_quest_id": "74710",
       "source_name": "Tons of Tons of Furious Fish...",
       "arabic_name": "أطنان من الأسماك الهائجة...",
-      "description_ar": null,
+      "description_ar": "تخبرك سيجوين بأمر يتعلق بأعداد كبيرة من الأسماك الهائجة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56319,7 +56319,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56346,7 +56346,7 @@
       "source_quest_id": "74711",
       "source_name": "Rapid Restitution to the Raging Fish...",
       "arabic_name": "تعويض سريع للأسماك الثائرة...",
-      "description_ar": null,
+      "description_ar": "تطلب سيجوين المساعدة في تهدئة الأسماك الغاضبة وتعويضها بسرعة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56363,7 +56363,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56390,7 +56390,7 @@
       "source_quest_id": "74712",
       "source_name": "A Warning From the Wrathful Fish!",
       "arabic_name": "تحذير من الأسماك الساخطة!",
-      "description_ar": null,
+      "description_ar": "تنقل سيجوين تحذيراً من الأسماك الغاضبة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56407,7 +56407,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56434,7 +56434,7 @@
       "source_quest_id": "74713",
       "source_name": "Something's Wrong With the Water",
       "arabic_name": "هناك خطب ما في الماء",
-      "description_ar": null,
+      "description_ar": "يبدو أن فريمينيه لديه ما يخبرك به بشأن مشكلة في المياه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56451,7 +56451,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56478,7 +56478,7 @@
       "source_quest_id": "74714",
       "source_name": "Underwater Restoration in Progress...",
       "arabic_name": "أعمال ترميم تحت الماء جارية...",
-      "description_ar": null,
+      "description_ar": "يخبرك فريمينيه بأن أعمال الإصلاح تحت الماء جارية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56495,7 +56495,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56522,7 +56522,7 @@
       "source_quest_id": "74715",
       "source_name": "The Underwater Salvage Commandments",
       "arabic_name": "وصايا الإنقاذ تحت الماء",
-      "description_ar": null,
+      "description_ar": "يشاركك فريمينيه مجموعة من القواعد المتعلقة بعمليات الإنقاذ تحت الماء.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56539,7 +56539,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -56566,7 +56566,7 @@
       "source_quest_id": "74716",
       "source_name": "Betterments in Aquatic Circumstances...",
       "arabic_name": "تحسينات في الأوضاع المائية...",
-      "description_ar": null,
+      "description_ar": "يبدو أن فريمينيه يعمل على تحسين الظروف في البيئة المائية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -56583,7 +56583,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -60666,7 +60666,7 @@
       "source_quest_id": "75238",
       "source_name": "A Small Token",
       "arabic_name": "تذكار صغير",
-      "description_ar": null,
+      "description_ar": "توجّه إلى سادة الرياح الليلية، وأعدّ طاولة الشاي لاستقبال سيتلالي والاستمتاع بالجلسة معها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -60683,7 +60683,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -60901,7 +60901,7 @@
       "source_quest_id": "75266",
       "source_name": "Tea Party Re-Invitation: Citlali",
       "arabic_name": "دعوة شاي ثانية: سيتلالي",
-      "description_ar": null,
+      "description_ar": "توجّه إلى سادة الرياح الليلية، وأعدّ طاولة الشاي لاستقبال سيتلالي والاستمتاع بالجلسة معها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -60918,7 +60918,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -60945,7 +60945,7 @@
       "source_quest_id": "75304",
       "source_name": "Unpredictable, Unrepeatable!",
       "arabic_name": "لا يمكن التنبؤ ولا التكرار!",
-      "description_ar": null,
+      "description_ar": "يواجه فيجي والمحاربة النخبة ليليوو وعميلة فاتوي فيسلافا مشكلةً في جهاز محاكاة القتال داخل أراضي أبناء الأصداء في ناتلان.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -60962,7 +60962,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -60989,7 +60989,7 @@
       "source_quest_id": "75305",
       "source_name": "Predict Again, Repeat Again!",
       "arabic_name": "تنبأ مجدداً، وكرّر مجدداً!",
-      "description_ar": null,
+      "description_ar": "بفضل المعلومات التي قدمتها، أصبح جهاز محاكاة القتال جاهزاً للاستخدام إلى حد كبير.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -61006,7 +61006,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -61975,7 +61975,7 @@
       "source_quest_id": "75672",
       "source_name": "Don't Let the Colors Escape!",
       "arabic_name": "لا تدع الألوان تفلت!",
-      "description_ar": null,
+      "description_ar": "تعود إلى منتجع إيزي بريز للعطلات، حيث تلتقي صديقاً قديماً برفقة أشا مميزة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -61992,7 +61992,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -62019,7 +62019,7 @@
       "source_quest_id": "75673",
       "source_name": "A Splash of Color on the Plate!",
       "arabic_name": "رشة ألوان على الطبق!",
-      "description_ar": null,
+      "description_ar": "تنتهي من جمع أصباغ الألوان المتناثرة، ويسعد أشا الملوّنون بما جمعته.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -62036,7 +62036,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -62063,7 +62063,7 @@
       "source_quest_id": "75674",
       "source_name": "Disco in Motion, Holiday Emotion!",
       "arabic_name": "ديسكو بالحركة، ومشاعر العطلة!",
-      "description_ar": null,
+      "description_ar": "يدعوك رسول من ناتلان، أنت وبايمون، للعودة إلى منتجع إيزي بريز للمشاركة في حفلة رقص فريدة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -62080,7 +62080,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -62107,7 +62107,7 @@
       "source_quest_id": "75675",
       "source_name": "A Lighthearted Feast of Magic!",
       "arabic_name": "وليمة سحرية مرحة!",
-      "description_ar": null,
+      "description_ar": "مع اختتام حفلة الرقص، يبدو أن الجميع خرجوا منها بشيء جميل ومميز.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -62124,7 +62124,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
