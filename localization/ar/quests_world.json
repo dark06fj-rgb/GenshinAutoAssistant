@@ -10133,7 +10133,7 @@
       "source_quest_id": "40239",
       "source_name": "Return Home, Children of the Desert",
       "arabic_name": "عودوا إلى دياركم يا أبناء الصحراء",
-      "description_ar": null,
+      "description_ar": "حُسمت القضية أخيراً، لكن الآراء تتباين بين الحاضرين حول كيفية التعامل مع أشڤاباتي.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -10150,7 +10150,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -12968,7 +12968,7 @@
       "source_quest_id": "70061",
       "source_name": "Forest Boar Pauses for the Bloom",
       "arabic_name": "الخنزير البري للغابة يتوقف ليتأمل الزهرة",
-      "description_ar": null,
+      "description_ar": "بالقرب من حقل الزهور في ميلهافن، تلاحظ امرأةً مستاءة بعدما عبث خنزير بري بالزهور وداستها أقدامه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -12985,7 +12985,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -13012,7 +13012,7 @@
       "source_quest_id": "70065",
       "source_name": "The Wind Has Ceased",
       "arabic_name": "سكنت الرياح",
-      "description_ar": null,
+      "description_ar": "يوجد مصحّ مهجور على قمة ويندريست، وتلوح حوله أمور تستحق الاستقصاء.",
       "chapter_id": "10086",
       "act_id": null,
       "series_id": "70065",
@@ -13029,7 +13029,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10086,
         "series": 70065,
@@ -13104,7 +13104,7 @@
       "source_quest_id": "70067",
       "source_name": "Unofficial Chronicle of the Desert Pavilion",
       "arabic_name": "سجل غير رسمي لجناح الصحراء",
-      "description_ar": null,
+      "description_ar": "تشير الأحداث إلى وجود ناجٍ أفلت من العقاب في جناح الصحراء.",
       "chapter_id": "10094",
       "act_id": null,
       "series_id": null,
@@ -13121,7 +13121,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10094,
         "series": null,
@@ -13196,7 +13196,7 @@
       "source_quest_id": "70074",
       "source_name": "Stories to Sate the Glass and Scroll",
       "arabic_name": "حكايات تروي ظمأ الزجاج واللفائف",
-      "description_ar": null,
+      "description_ar": "نشأ «واجب الساحرات» من نقاشات فاركا والساحرات، ويبدو أن المهمة التي كُلّف بها فاركا نفسه تقود إلى أمر جديد.",
       "chapter_id": "10189",
       "act_id": null,
       "series_id": null,
@@ -13213,7 +13213,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10189,
         "series": null,
@@ -13240,7 +13240,7 @@
       "source_quest_id": "70078",
       "source_name": "Winds Beneath the Tower of Silence",
       "arabic_name": "رياح تحت برج الصمت",
-      "description_ar": null,
+      "description_ar": "تسمع في الحانة أن إنذار المنارة القديمة في ميناء دورنمان لا يعمل كما ينبغي، وتشير الشائعات إلى أشباح تحت المنارة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -13257,7 +13257,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -13284,7 +13284,7 @@
       "source_quest_id": "70090",
       "source_name": "Tea Party Re-Invitation: Albedo",
       "arabic_name": "دعوة شاي ثانية: ألبيدو",
-      "description_ar": null,
+      "description_ar": "توجّه إلى دراغونسباين، وضع طاولة الشاي وادعُ ساندَروني للجلوس، ثم استمتع بجلسة شاي مع ألبيدو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -13301,7 +13301,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -13328,7 +13328,7 @@
       "source_quest_id": "70092",
       "source_name": "A Proposition Beyond Refutation",
       "arabic_name": "اقتراح لا يقبل الدحض",
-      "description_ar": null,
+      "description_ar": "تعثر داخل قاموس الساحرات على ما يشبه إعلان حرب طفوليّاً.",
       "chapter_id": "10252",
       "act_id": null,
       "series_id": null,
@@ -13345,7 +13345,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10252,
         "series": null,
@@ -13372,7 +13372,7 @@
       "source_quest_id": "70096",
       "source_name": "Proof of Strength",
       "arabic_name": "إثبات القوة",
-      "description_ar": null,
+      "description_ar": "تطرح الأحداث سؤالاً عمّا يمكن أن يكون رمزاً حقيقياً لقوة المرء.",
       "chapter_id": "10253",
       "act_id": null,
       "series_id": null,
@@ -13389,7 +13389,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10253,
         "series": null,
@@ -13416,7 +13416,7 @@
       "source_quest_id": "70098",
       "source_name": "Banners of the Northwind",
       "arabic_name": "رايات ريح الشمال",
-      "description_ar": null,
+      "description_ar": "مع ظهور ظاهرة التربة المقدسة، اندفعت الوحوش نحو بوابات موندشتات؛ لكن عودة البعثة المظفّرة أعادت قوات المدينة إلى قوتها واجتماعها من جديد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -13433,7 +13433,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -13460,7 +13460,7 @@
       "source_quest_id": "70099",
       "source_name": "The Wind Has Ceased",
       "arabic_name": "سكنت الرياح",
-      "description_ar": null,
+      "description_ar": "يوجد مصحّ مهجور على قمة ويندريست، وتلوح حوله أمور تستحق الاستقصاء.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "70065",
@@ -13477,7 +13477,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": 70065,
@@ -13504,7 +13504,7 @@
       "source_quest_id": "70100",
       "source_name": "Swords and Secrets",
       "arabic_name": "السيوف والأسرار",
-      "description_ar": null,
+      "description_ar": "يُقال إن السيف الطائر يظل سيفاً، وأهل الفيلا يعرفون سيوفهم جيداً؛ ومع ذلك تبدو الأمور أعقد مما ينبغي.",
       "chapter_id": "10285",
       "act_id": null,
       "series_id": null,
@@ -13521,7 +13521,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10285,
         "series": null,
@@ -13789,7 +13789,7 @@
       "source_quest_id": "70114",
       "source_name": "A Chat in the Snowy Mountains",
       "arabic_name": "حديث في الجبال الثلجية",
-      "description_ar": null,
+      "description_ar": "توجّه إلى دراغونسباين، وضع طاولة الشاي وادعُ ساندَروني للجلوس، ثم استمتع بجلسة شاي مع ألبيدو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -13806,7 +13806,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -13925,7 +13925,7 @@
       "source_quest_id": "70131",
       "source_name": "Firm as the Bedrock",
       "arabic_name": "ثابت كالصخر",
-      "description_ar": null,
+      "description_ar": "بعد انتهاء الاجتماع في أرض الثلوج، ازدحمت المياه قبالة ميناء ليويه بالسفن، وتعاون الميلليث والقيشين والأديبتي لاحتواء الفوضى. وبعد استعادة النظام، أرسلت ليويه أفراداً وإمدادات إلى جبهات أبعد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -13942,7 +13942,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -13969,7 +13969,7 @@
       "source_quest_id": "70132",
       "source_name": "A Toast to Tomorrow",
       "arabic_name": "نخب الغد",
-      "description_ar": null,
+      "description_ar": "على متن ألكور، يرفع أشخاص من أمم مختلفة كؤوسهم احتفاءً بالغد؛ فالاحتفال ليس نهاية الطريق، بل تذكير ببقاء الأمل والرفاق إلى جانبهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -13986,7 +13986,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -14013,7 +14013,7 @@
       "source_quest_id": "70133",
       "source_name": "Thunder Purges All Spite",
       "arabic_name": "الرعد يطرد كل ضغينة",
-      "description_ar": null,
+      "description_ar": "أضعفت ظاهرة التربة المقدسة الأختام القديمة وأعادت تلوث خطوط اللي إلى الظهور؛ فتتحد قوى ناروكامي في طقوس تطهير تستعين بالبرق والآمال المشتركة لصد الشر المتجدد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -14030,7 +14030,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -14057,7 +14057,7 @@
       "source_quest_id": "70134",
       "source_name": "From Trees to a Forest",
       "arabic_name": "من الأشجار إلى الغابة",
-      "description_ar": null,
+      "description_ar": "تتزامن في دار داينا أعمال البحث والإمداد والإنقاذ والقتال، وتتحد قوات الغابة والصحراء في جبهة واحدة لمواجهة اضطراب خطوط اللي واتساع الأزمة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -14074,7 +14074,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -14101,7 +14101,7 @@
       "source_quest_id": "70135",
       "source_name": "A Wall of Ships",
       "arabic_name": "جدار من السفن",
-      "description_ar": null,
+      "description_ar": "تحولت فونتين إلى مركز لعبور المسافرين وإيوائهم؛ إذ اجتمعت السفن والفرق الطبية والقواعد الخلفية لتشكّل خط دفاع عائماً وملاذاً يحمل آلام الأمم وآمالها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -14118,7 +14118,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -14145,7 +14145,7 @@
       "source_quest_id": "70136",
       "source_name": "Embers Never Fade",
       "arabic_name": "الجمر لا ينطفئ أبداً",
-      "description_ar": null,
+      "description_ar": "وجدت ناتلان نفسها في أشد جبهات الكارثة، حيث الخراب والخسائر والتضحيات؛ وبعد وداع الراحلين، يعود الأحياء إلى القتال ما دامت جذوة المقاومة مشتعلة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -14162,7 +14162,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -14189,7 +14189,7 @@
       "source_quest_id": "70137",
       "source_name": "Born Toward the Flame",
       "arabic_name": "وُلد متجهاً نحو اللهب",
-      "description_ar": null,
+      "description_ar": "لم يوقف الحزن الناجين، بل أوضح لهم ما يقاتلون من أجله؛ فيواصلون المسير باسم الراحلين، مستنيرين باللهب الذي يقودهم نحو الغد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -14206,7 +14206,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -14233,7 +14233,7 @@
       "source_quest_id": "70138",
       "source_name": "Companions on the Frost Road",
       "arabic_name": "رفاق على طريق الصقيع",
-      "description_ar": null,
+      "description_ar": "مع اتساع تهديد ظاهرة التربة المقدسة، يضطر الجميع إلى التغيّر؛ فمهما بقيت خلافات الماضي، تفرض الظروف على الخصوم السابقين السير جنباً إلى جنب.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -14250,7 +14250,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -16039,7 +16039,7 @@
       "source_quest_id": "70554",
       "source_name": "Honorary Knight's Notes on Mixology",
       "arabic_name": "ملاحظات الفارس الفخري حول فن المزج",
-      "description_ar": null,
+      "description_ar": "تستعد فرسان فافونيوس لافتتاح كشك للمشروبات، وتبحث هيرتا من شركة الخدمات اللوجستية عمّن يساعدها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -16056,7 +16056,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -16083,7 +16083,7 @@
       "source_quest_id": "70555",
       "source_name": "A Special Blend, A Timeless Masterpiece",
       "arabic_name": "مزيج استثنائي، تحفة خالدة",
-      "description_ar": null,
+      "description_ar": "بعد إدارة كشك المشروبات مدةً من الزمن، تحظى ابتكاراتك بإعجاب واسع وتوشك أن تصبح وصفات كلاسيكية جديدة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -16100,7 +16100,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -16127,7 +16127,7 @@
       "source_quest_id": "70556",
       "source_name": "Gliding Challenge: New Heights",
       "arabic_name": "تحدي التحليق: آفاق جديدة",
-      "description_ar": null,
+      "description_ar": "أعدّت آمبر والمتدربون معها تحدياً جديداً للتحليق وإطلاق النار ضمن مراسم الترحيب الخاصة، وينتظرون المشاركين لتجربته.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -16144,7 +16144,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -16171,7 +16171,7 @@
       "source_quest_id": "70558",
       "source_name": "A Knight's Guide to Surveying",
       "arabic_name": "دليل الفارس للمسح الميداني",
-      "description_ar": null,
+      "description_ar": "يبدو أن بعض الفرسان يتبادلون المعلومات حول أساليب المسح والاستطلاع الميداني.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -16188,7 +16188,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -16215,7 +16215,7 @@
       "source_quest_id": "70559",
       "source_name": "A \"Battlefield\" Feast After Work",
       "arabic_name": "وليمة «ساحة المعركة» بعد العمل",
-      "description_ar": null,
+      "description_ar": "بعد أيام من تدريبات المسح المكثفة والمنظمة، يحين وقت الوداع بهدوء.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -16232,7 +16232,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -23791,7 +23791,7 @@
       "source_quest_id": "71544",
       "source_name": "The Chefs From a Foreign Land",
       "arabic_name": "طهاة من أرض أجنبية",
-      "description_ar": null,
+      "description_ar": "تصادف وجوهاً مألوفة في شارع الطعام، وتلاحظ أمراً مثيراً يجري بين طهاة فونتين وليويه.",
       "chapter_id": "10287",
       "act_id": null,
       "series_id": "71544",
@@ -23808,7 +23808,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10287,
         "series": 71544,
@@ -23835,7 +23835,7 @@
       "source_quest_id": "71545",
       "source_name": "Deliciousness Knows No Borders",
       "arabic_name": "اللذة لا تعرف الحدود",
-      "description_ar": null,
+      "description_ar": "يتعاون الجميع لإعداد كعكات وانغشياو التي ترضي رئيس النقابة وتنقذ شارع الطعام.",
       "chapter_id": "10287",
       "act_id": null,
       "series_id": "71544",
@@ -23852,7 +23852,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10287,
         "series": 71544,
@@ -23879,7 +23879,7 @@
       "source_quest_id": "71546",
       "source_name": "A Taste Beyond Time",
       "arabic_name": "مذاق يتجاوز الزمن",
-      "description_ar": null,
+      "description_ar": "ما الطعم الأصيل لكعكات وانغشياو؟ يبدو أن الإجابة لا تكمن في الكعكات نفسها.",
       "chapter_id": "10287",
       "act_id": null,
       "series_id": "71544",
@@ -23896,7 +23896,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": 10287,
         "series": 71544,
@@ -25015,7 +25015,7 @@
       "source_quest_id": "71675",
       "source_name": "Little Figure Exorcism",
       "arabic_name": "طقوس تطهير الدمى الصغيرة",
-      "description_ar": null,
+      "description_ar": "تصنع فتاة تنادي لان يان بـ«الأخت الكبرى» دميةً غير مألوفة من الخيزران، ثم تشرع في الترويج لها في شارع الطعام.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -25032,7 +25032,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
