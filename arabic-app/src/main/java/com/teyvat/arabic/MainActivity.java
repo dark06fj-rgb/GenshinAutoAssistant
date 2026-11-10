@@ -227,7 +227,18 @@ public class MainActivity extends Activity {
         card.addView(state);
     }
 
-    private String statusLabel(String status) {\n        switch (status) {\n            case "approved": return "معتمد";\n            case "reviewed": return "مراجع";\n            case "draft": return "مسودة";\n            case "needs_context": return "بحاجة إلى سياق";\n            case "needs_translation": return "بانتظار الترجمة";\n            default: return status;\n        }\n    }\n\n    private String readAsset(String name) throws Exception {
+    private String statusLabel(String status) {
+        switch (status) {
+            case "approved": return "معتمد";
+            case "reviewed": return "مراجع";
+            case "draft": return "مسودة";
+            case "needs_context": return "بحاجة إلى سياق";
+            case "needs_translation": return "بانتظار الترجمة";
+            default: return status;
+        }
+    }
+
+    private String readAsset(String name) throws Exception {
         try (InputStream in = getAssets().open(name);
              ByteArrayOutputStream out = new ByteArrayOutputStream()) {
             byte[] buffer = new byte[8192];
