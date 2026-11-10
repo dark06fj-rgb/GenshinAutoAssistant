@@ -328,6 +328,62 @@
       "translation": "خام",
       "status": "draft",
       "notes": "تصنيف للموارد المعدنية الخام؛ مقابل عربي مقترح وغير رسمي."
+    },
+    {
+      "id": "term.archon_quest",
+      "source_term": "Archon Quest",
+      "translation": "مهمة الأركون",
+      "status": "draft",
+      "notes": "تصنيف مستقل لمهام القصة الرئيسية المرتبطة بالأركونات؛ يحتاج تدقيقاً تحريرياً."
+    },
+    {
+      "id": "term.world_quest",
+      "source_term": "World Quest",
+      "translation": "مهمة عالمية",
+      "status": "draft",
+      "notes": "مصطلح موحّد لمهام العالم خارج مسار مهام الأركون؛ يحتاج تدقيقاً تحريرياً."
+    },
+    {
+      "id": "term.story_quest",
+      "source_term": "Story Quest",
+      "translation": "مهمة قصصية",
+      "status": "draft",
+      "notes": "يُستخدم لمهام قصص الشخصيات، ولا يُخلط بمهام الأركون أو مهام العالم."
+    },
+    {
+      "id": "term.hangout_event",
+      "source_term": "Hangout Event",
+      "translation": "فعالية لقاء",
+      "status": "draft",
+      "notes": "تصنيف مستقل لفعاليات اللقاء مع الشخصيات."
+    },
+    {
+      "id": "term.quest_series",
+      "source_term": "Quest Series",
+      "translation": "سلسلة مهام",
+      "status": "draft",
+      "notes": "مجموعة مهام مترابطة ضمن سلسلة واحدة."
+    },
+    {
+      "id": "term.main_quest",
+      "source_term": "Main Quest",
+      "translation": "مهمة رئيسية",
+      "status": "draft",
+      "notes": "السجل الأساسي للمهمة المعروضة للاعب؛ لا يشمل كل خطوة أو هدف فرعي كسجل مستقل."
+    },
+    {
+      "id": "term.quest_prerequisite",
+      "source_term": "Quest Prerequisite",
+      "translation": "متطلب سابق للمهمة",
+      "status": "draft",
+      "notes": "مهمة أو شرط يجب استيفاؤه قبل إتاحة المهمة المرتبطة."
+    },
+    {
+      "id": "term.quest_objective",
+      "source_term": "Quest Objective",
+      "translation": "هدف المهمة",
+      "status": "draft",
+      "notes": "خطوة أو غاية ضمن المهمة؛ لا تُعامل تلقائياً كمهمة مستقلة في الفهرس."
     }
   ]
 }
