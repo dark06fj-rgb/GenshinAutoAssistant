@@ -15,6 +15,7 @@
 - Require canonical glossary entries for the seven elements and five character weapon classes used by the character catalog.
 - Map upstream weapon type identifiers to the corresponding shared glossary terms.
 - Verify every talent's `character_id` exists and its Arabic character label matches the character catalog.
+- Enforce the Traveler (Aether) talent matrix: all seven known elements (Anemo, Geo, Electro, Dendro, Hydro, Pyro, Cryo), each with exactly one normal, skill, and burst slot; validate slot IDs and require every Traveler talent to reference `character.aether`.
 - Report Arabic-script coverage and empty optional Arabic descriptions as warnings rather than silently rewriting content.
 
 ## Exit behavior
@@ -32,7 +33,7 @@ python -m unittest discover -s tests -v
 python scripts/validate_localization.py
 ```
 
-The suite covers a valid fixture and deliberate failures for duplicate cross-catalog IDs, glossary mismatches, dangling talent references, unsafe source URLs, unsupported categories, missing catalogs, and malformed JSON. GitHub Actions runs both the tests and the live-catalog validator on relevant changes.
+The suite covers a valid fixture and deliberate failures for duplicate cross-catalog IDs, glossary mismatches, dangling talent references, unsafe source URLs, unsupported categories, missing catalogs, malformed JSON, incomplete Traveler element kits, incorrect Traveler character links, unsupported Traveler elements, and duplicate Traveler talent slots. It also verifies that a complete seven-element/21-slot Traveler fixture passes. GitHub Actions runs both the tests and the live-catalog validator on relevant changes.
 
 ## Run locally
 
