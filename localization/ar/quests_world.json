@@ -5124,7 +5124,7 @@
       "source_quest_id": "21003",
       "source_name": "Overstretched",
       "arabic_name": "فوق طاقته",
-      "description_ar": null,
+      "description_ar": "يجد الحارس تشياوشي من الميليليث أن مسؤولية حماية الطريق المؤدي إلى مستنقع ديهوا أكبر من أن يتولاها بمفرده، فتساعده في أداء مهمته.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5141,7 +5141,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 763782097,
         "description": 1094677055
@@ -5163,7 +5163,7 @@
       "source_quest_id": "21004",
       "source_name": "Treasure Lost, Treasure Found",
       "arabic_name": "كنز ضائع، كنز عُثر عليه",
-      "description_ar": null,
+      "description_ar": "تقودك مجموعة من الإرشادات القديمة إلى البحث عن سرّ مخفي، وتحاول فهم ما تخفيه تلك التحذيرات المنقوشة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5182,7 +5182,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2148453177,
         "description": 2735147799
@@ -5206,7 +5206,7 @@
       "source_quest_id": "21007",
       "source_name": "The Tree who Stands Alone",
       "arabic_name": "الشجرة التي تقف وحدها",
-      "description_ar": null,
+      "description_ar": "تصادف رجلاً مسناً غريب الأطوار في قرية مينغيون، ويقودك لقاؤه إلى كشف أمر غير مألوف يتعلق بالمكان.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5223,7 +5223,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 478882705,
         "description": 787513455
@@ -5245,7 +5245,7 @@
       "source_quest_id": "21008",
       "source_name": "Three Flames Light the Way",
       "arabic_name": "ثلاث لهبات تنير الطريق",
-      "description_ar": null,
+      "description_ar": "تساعد شينغهوا على إشعال المشاعل الثلاثة في سهول غويلي، لتبقى شعلة برج المراقبة دليلاً للمسافرين.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5262,7 +5262,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4032629841,
         "description": 2617443015
@@ -5284,7 +5284,7 @@
       "source_quest_id": "21009",
       "source_name": "Old Tastes Die Hard",
       "arabic_name": "الأذواق القديمة لا تموت بسهولة",
-      "description_ar": null,
+      "description_ar": "يحنّ السيد تشو في القيقب الزمردي إلى مذاق طبق قديم، فتتولى مساعدته في استعادة نكهته التي يفتقدها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5301,7 +5301,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2412848369,
         "description": 604011607
@@ -5323,7 +5323,7 @@
       "source_quest_id": "21012",
       "source_name": "Sweeping Down",
       "arabic_name": "اكتساح",
-      "description_ar": null,
+      "description_ar": "تلاحظ أن تراكم الأوراق على درجات السلم يزعج دَندي، فتساعدها على تنظيف المكان.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5340,7 +5340,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3245878929,
         "description": 3210767871
@@ -5362,7 +5362,7 @@
       "source_quest_id": "21015",
       "source_name": "Book in the Woods",
       "arabic_name": "كتاب في الغابة",
-      "description_ar": null,
+      "description_ar": "تلتقي فتاة صغيرة ترغب في أن تشاركها لعبة، فتقبل دعوتها لمعرفة ما أعدّته لك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5379,7 +5379,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 479159745,
         "description": 586205935
@@ -5401,7 +5401,7 @@
       "source_quest_id": "21019",
       "source_name": "Hidden Treasure of Qingce",
       "arabic_name": "كنز تشينغتشه المخفي",
-      "description_ar": null,
+      "description_ar": "تبدأ البحث في جبل تشينغتشه بعدما تشير الدلائل إلى أن المنطقة تخفي أسراراً لم تُكشف بعد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5418,7 +5418,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2425065921,
         "description": 3754816807
@@ -5440,7 +5440,7 @@
       "source_quest_id": "21020",
       "source_name": "Share Not Your Treasures",
       "arabic_name": "لا تشارك كنوزك",
-      "description_ar": null,
+      "description_ar": "تعثر على رسالة بالية في قبو يحرسه حارس أطلال؛ كتبها صياد كنوز يعتقد أن سهول غويلي تضم ناراً تحقق الأمنيات، فتتبع أثر ما تركه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5457,7 +5457,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 735059929,
         "description": 447935015
@@ -5479,7 +5479,7 @@
       "source_quest_id": "21021",
       "source_name": "The Chi of Yore",
       "arabic_name": "تشي العصور",
-      "description_ar": null,
+      "description_ar": "تعود إلى جبل تشينغتشه لمتابعة البحث عن السر الذي تخفيه المنطقة، ومحاولة فهم ما بقي من آثاره.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5496,7 +5496,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3161260833,
         "description": 468734239
@@ -5521,7 +5521,7 @@
       "source_quest_id": "21022",
       "source_name": "Treasure Lost, Treasure Found",
       "arabic_name": "كنز ضائع، كنز عُثر عليه",
-      "description_ar": null,
+      "description_ar": "تتجه إلى تجمع غويلي بعدما تلمح الدلائل إلى أن أطلاله تخفي سراً يستحق الكشف.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5538,7 +5538,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2756013817,
         "description": 1237539695
@@ -5562,7 +5562,7 @@
       "source_quest_id": "21023",
       "source_name": "A Provisional Arrangement",
       "arabic_name": "ترتيب مؤقت",
-      "description_ar": null,
+      "description_ar": "تتعطل السلالم في نُزل وانغشو بسبب أعمال الإصلاح، فتساعد في معالجة المشكلة التي تعيق الوصول إلى الطوابق العليا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5579,7 +5579,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2031304369,
         "description": 1125471351
@@ -5601,7 +5601,7 @@
       "source_quest_id": "21024",
       "source_name": "Big Business",
       "arabic_name": "عمل كبير",
-      "description_ar": null,
+      "description_ar": "يفقد لاندا فواتير صفقة تجارية كبيرة ويغمره القلق، فتساعده في البحث عن المستندات المفقودة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5618,7 +5618,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2089426073,
         "description": 819005351
@@ -5640,7 +5640,7 @@
       "source_quest_id": "21025",
       "source_name": "The Yaksha's Wish",
       "arabic_name": "أمنية الياكشا",
-      "description_ar": null,
+      "description_ar": "تعثر على لوح حجري يحمل كلمات تركها ياشا، وتحاول استكشاف الأمنية التي بقيت مرتبطة بها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -5657,7 +5657,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2443962145,
         "description": 2405730647
