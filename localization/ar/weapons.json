@@ -8,7 +8,7 @@
       "id": "weapon.the_catch",
       "category": "weapon",
       "source_name": "\"The Catch\"",
-      "arabic_name": "",
+      "arabic_name": "الصيد",
       "rarity": 4,
       "source": [
         {
@@ -17,15 +17,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.ultimate_overlord_s_mega_magic_sword",
       "category": "weapon",
       "source_name": "\"Ultimate Overlord's Mega Magic Sword\"",
-      "arabic_name": "",
+      "arabic_name": "سيف الساحر العملاق للحاكم المطلق",
       "rarity": 4,
       "source": [
         {
@@ -34,15 +34,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.a_teaspoon_of_transcendence",
       "category": "weapon",
       "source_name": "A Teaspoon of Transcendence",
-      "arabic_name": "",
+      "arabic_name": "ملعقة صغيرة من السمو",
       "rarity": 5,
       "source": [
         {
@@ -51,15 +51,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.a_thousand_blazing_suns",
       "category": "weapon",
       "source_name": "A Thousand Blazing Suns",
-      "arabic_name": "",
+      "arabic_name": "ألف شمس متّقدة",
       "rarity": 5,
       "source": [
         {
@@ -68,15 +68,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.a_thousand_floating_dreams",
       "category": "weapon",
       "source_name": "A Thousand Floating Dreams",
-      "arabic_name": "",
+      "arabic_name": "ألف حلم عائم",
       "rarity": 5,
       "source": [
         {
@@ -85,15 +85,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.absolution",
       "category": "weapon",
       "source_name": "Absolution",
-      "arabic_name": "",
+      "arabic_name": "الغفران",
       "rarity": 5,
       "source": [
         {
@@ -102,15 +102,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.akuoumaru",
       "category": "weapon",
       "source_name": "Akuoumaru",
-      "arabic_name": "",
+      "arabic_name": "أكوومارو",
       "rarity": 4,
       "source": [
         {
@@ -119,15 +119,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.alley_hunter",
       "category": "weapon",
       "source_name": "Alley Hunter",
-      "arabic_name": "",
+      "arabic_name": "صياد الأزقة",
       "rarity": 4,
       "source": [
         {
@@ -136,15 +136,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.amenoma_kageuchi",
       "category": "weapon",
       "source_name": "Amenoma Kageuchi",
-      "arabic_name": "",
+      "arabic_name": "أمينوما كاغيوتشي",
       "rarity": 4,
       "source": [
         {
@@ -153,15 +153,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.amos_bow",
       "category": "weapon",
       "source_name": "Amos' Bow",
-      "arabic_name": "",
+      "arabic_name": "قوس آموس",
       "rarity": 5,
       "source": [
         {
@@ -170,15 +170,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.angelos_heptades",
       "category": "weapon",
       "source_name": "Angelos' Heptades",
-      "arabic_name": "",
+      "arabic_name": "انجيلوس هيبتاديس",
       "rarity": 5,
       "source": [
         {
@@ -187,15 +187,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.apprentice_s_notes",
       "category": "weapon",
       "source_name": "Apprentice's Notes",
-      "arabic_name": "",
+      "arabic_name": "ملاحظات المتدرّب",
       "rarity": 1,
       "source": [
         {
@@ -204,15 +204,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.aqua_simulacra",
       "category": "weapon",
       "source_name": "Aqua Simulacra",
-      "arabic_name": "",
+      "arabic_name": "أكوا سيمولاكرا",
       "rarity": 5,
       "source": [
         {
@@ -221,15 +221,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.aquila_favonia",
       "category": "weapon",
       "source_name": "Aquila Favonia",
-      "arabic_name": "",
+      "arabic_name": "أكيلا فافونيا",
       "rarity": 5,
       "source": [
         {
@@ -238,15 +238,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.ash_graven_drinking_horn",
       "category": "weapon",
       "source_name": "Ash-Graven Drinking Horn",
-      "arabic_name": "",
+      "arabic_name": "اش غرافين درينكينغ هورن",
       "rarity": 4,
       "source": [
         {
@@ -255,15 +255,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.astral_vulture_s_crimson_plumage",
       "category": "weapon",
       "source_name": "Astral Vulture's Crimson Plumage",
-      "arabic_name": "",
+      "arabic_name": "استرال فولتوريس كريمسون بلوماجي",
       "rarity": 5,
       "source": [
         {
@@ -272,15 +272,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.athame_artis",
       "category": "weapon",
       "source_name": "Athame Artis",
-      "arabic_name": "",
+      "arabic_name": "اثامي ارتيس",
       "rarity": 5,
       "source": [
         {
@@ -289,15 +289,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.azurelight",
       "category": "weapon",
       "source_name": "Azurelight",
-      "arabic_name": "",
+      "arabic_name": "ازوريليغت",
       "rarity": 5,
       "source": [
         {
@@ -306,15 +306,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.ballad_of_the_boundless_blue",
       "category": "weapon",
       "source_name": "Ballad of the Boundless Blue",
-      "arabic_name": "",
+      "arabic_name": "باللاد وف ثي بوندليسس بلوي",
       "rarity": 4,
       "source": [
         {
@@ -323,15 +323,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.ballad_of_the_fjords",
       "category": "weapon",
       "source_name": "Ballad of the Fjords",
-      "arabic_name": "",
+      "arabic_name": "باللاد وف ثي فجوردس",
       "rarity": 4,
       "source": [
         {
@@ -340,15 +340,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.beacon_of_the_reed_sea",
       "category": "weapon",
       "source_name": "Beacon of the Reed Sea",
-      "arabic_name": "",
+      "arabic_name": "بيكون وف ثي ريد سي",
       "rarity": 5,
       "source": [
         {
@@ -357,15 +357,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.beginner_s_protector",
       "category": "weapon",
       "source_name": "Beginner's Protector",
-      "arabic_name": "",
+      "arabic_name": "بيجيننيرس بروتيكتور",
       "rarity": 1,
       "source": [
         {
@@ -374,15 +374,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.beyond_the_chrysalis",
       "category": "weapon",
       "source_name": "Beyond the Chrysalis",
-      "arabic_name": "",
+      "arabic_name": "بييوند ثي تشريساليس",
       "rarity": 5,
       "source": [
         {
@@ -391,15 +391,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.black_tassel",
       "category": "weapon",
       "source_name": "Black Tassel",
-      "arabic_name": "",
+      "arabic_name": "الشرّابة السوداء",
       "rarity": 3,
       "source": [
         {
@@ -408,15 +408,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.blackcliff_agate",
       "category": "weapon",
       "source_name": "Blackcliff Agate",
-      "arabic_name": "",
+      "arabic_name": "عقيق الجرف الأسود",
       "rarity": 4,
       "source": [
         {
@@ -425,15 +425,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.blackcliff_longsword",
       "category": "weapon",
       "source_name": "Blackcliff Longsword",
-      "arabic_name": "",
+      "arabic_name": "سيف الجرف الأسود الطويل",
       "rarity": 4,
       "source": [
         {
@@ -442,15 +442,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.blackcliff_pole",
       "category": "weapon",
       "source_name": "Blackcliff Pole",
-      "arabic_name": "",
+      "arabic_name": "رمح الجرف الأسود",
       "rarity": 4,
       "source": [
         {
@@ -459,15 +459,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.blackcliff_slasher",
       "category": "weapon",
       "source_name": "Blackcliff Slasher",
-      "arabic_name": "",
+      "arabic_name": "قاطع الجرف الأسود",
       "rarity": 4,
       "source": [
         {
@@ -476,15 +476,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.blackcliff_warbow",
       "category": "weapon",
       "source_name": "Blackcliff Warbow",
-      "arabic_name": "",
+      "arabic_name": "قوس حرب الجرف الأسود",
       "rarity": 4,
       "source": [
         {
@@ -493,15 +493,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.blackmarrow_lantern",
       "category": "weapon",
       "source_name": "Blackmarrow Lantern",
-      "arabic_name": "",
+      "arabic_name": "بلاكمارراو لانتيرن",
       "rarity": 4,
       "source": [
         {
@@ -510,15 +510,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.blade_of_atonement",
       "category": "weapon",
       "source_name": "Blade of Atonement",
-      "arabic_name": "",
+      "arabic_name": "بلادي وف اتونيمينت",
       "rarity": 4,
       "source": [
         {
@@ -527,15 +527,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.bloodsoaked_ruins",
       "category": "weapon",
       "source_name": "Bloodsoaked Ruins",
-      "arabic_name": "",
+      "arabic_name": "بلودسواكيد روينس",
       "rarity": 5,
       "source": [
         {
@@ -544,15 +544,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.bloodtainted_greatsword",
       "category": "weapon",
       "source_name": "Bloodtainted Greatsword",
-      "arabic_name": "",
+      "arabic_name": "بلودتاينتيد غريتسوورد",
       "rarity": 3,
       "source": [
         {
@@ -561,15 +561,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.breezeborne_refrain",
       "category": "weapon",
       "source_name": "Breezeborne Refrain",
-      "arabic_name": "",
+      "arabic_name": "بريزيبورني ريفراين",
       "rarity": 4,
       "source": [
         {
@@ -578,15 +578,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.calamity_of_eshu",
       "category": "weapon",
       "source_name": "Calamity of Eshu",
-      "arabic_name": "",
+      "arabic_name": "كالاميتي وف يشو",
       "rarity": 4,
       "source": [
         {
@@ -595,15 +595,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.calamity_queller",
       "category": "weapon",
       "source_name": "Calamity Queller",
-      "arabic_name": "",
+      "arabic_name": "كالاميتي كيللير",
       "rarity": 5,
       "source": [
         {
@@ -612,15 +612,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.cashflow_supervision",
       "category": "weapon",
       "source_name": "Cashflow Supervision",
-      "arabic_name": "",
+      "arabic_name": "كاشفلاو سوبيرفيسيون",
       "rarity": 5,
       "source": [
         {
@@ -629,15 +629,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.chain_breaker",
       "category": "weapon",
       "source_name": "Chain Breaker",
-      "arabic_name": "",
+      "arabic_name": "تشاين بريكير",
       "rarity": 4,
       "source": [
         {
@@ -646,15 +646,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.cinnabar_spindle",
       "category": "weapon",
       "source_name": "Cinnabar Spindle",
-      "arabic_name": "",
+      "arabic_name": "سيننابار سبيندلي",
       "rarity": 4,
       "source": [
         {
@@ -663,15 +663,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.clash_of_kings",
       "category": "weapon",
       "source_name": "Clash of Kings",
-      "arabic_name": "",
+      "arabic_name": "كلاش وف كينغس",
       "rarity": 4,
       "source": [
         {
@@ -680,15 +680,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.cloudforged",
       "category": "weapon",
       "source_name": "Cloudforged",
-      "arabic_name": "",
+      "arabic_name": "كلودفورجيد",
       "rarity": 4,
       "source": [
         {
@@ -697,15 +697,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.compound_bow",
       "category": "weapon",
       "source_name": "Compound Bow",
-      "arabic_name": "",
+      "arabic_name": "القوس المركّب",
       "rarity": 4,
       "source": [
         {
@@ -714,8 +714,8 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
@@ -732,14 +732,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.covenant_of_frost_and_snow",
       "category": "weapon",
       "source_name": "Covenant of Frost and Snow",
-      "arabic_name": "",
+      "arabic_name": "كوفينانت وف فروست اند سناو",
       "rarity": 4,
       "source": [
         {
@@ -748,15 +748,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.crane_s_echoing_call",
       "category": "weapon",
       "source_name": "Crane's Echoing Call",
-      "arabic_name": "",
+      "arabic_name": "كرانيس يتشوينغ كالل",
       "rarity": 5,
       "source": [
         {
@@ -765,15 +765,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.crescent_pike",
       "category": "weapon",
       "source_name": "Crescent Pike",
-      "arabic_name": "",
+      "arabic_name": "رمح الهلال",
       "rarity": 4,
       "source": [
         {
@@ -782,15 +782,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.crimson_moon_s_semblance",
       "category": "weapon",
       "source_name": "Crimson Moon's Semblance",
-      "arabic_name": "",
+      "arabic_name": "كريمسون مونس سيمبلانسي",
       "rarity": 5,
       "source": [
         {
@@ -799,15 +799,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.dark_iron_sword",
       "category": "weapon",
       "source_name": "Dark Iron Sword",
-      "arabic_name": "",
+      "arabic_name": "سيف الحديد الداكن",
       "rarity": 3,
       "source": [
         {
@@ -816,15 +816,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.dawning_frost",
       "category": "weapon",
       "source_name": "Dawning Frost",
-      "arabic_name": "",
+      "arabic_name": "داونينغ فروست",
       "rarity": 4,
       "source": [
         {
@@ -833,15 +833,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.deathmatch",
       "category": "weapon",
       "source_name": "Deathmatch",
-      "arabic_name": "",
+      "arabic_name": "مبارزة حتى الموت",
       "rarity": 4,
       "source": [
         {
@@ -850,15 +850,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.debate_club",
       "category": "weapon",
       "source_name": "Debate Club",
-      "arabic_name": "",
+      "arabic_name": "نادي المناظرة",
       "rarity": 3,
       "source": [
         {
@@ -867,15 +867,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.dialogues_of_the_desert_sages",
       "category": "weapon",
       "source_name": "Dialogues of the Desert Sages",
-      "arabic_name": "",
+      "arabic_name": "ديالوغويس وف ثي ديسيرت ساجيس",
       "rarity": 4,
       "source": [
         {
@@ -884,15 +884,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.disaster_and_remorse",
       "category": "weapon",
       "source_name": "Disaster and Remorse",
-      "arabic_name": "",
+      "arabic_name": "ديساستير اند ريمورسي",
       "rarity": 5,
       "source": [
         {
@@ -901,15 +901,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.dodoco_tales",
       "category": "weapon",
       "source_name": "Dodoco Tales",
-      "arabic_name": "",
+      "arabic_name": "حكايات دودوكو",
       "rarity": 4,
       "source": [
         {
@@ -918,15 +918,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.dragon_s_bane",
       "category": "weapon",
       "source_name": "Dragon's Bane",
-      "arabic_name": "",
+      "arabic_name": "هلاك التنين",
       "rarity": 4,
       "source": [
         {
@@ -935,15 +935,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.dragonspine_spear",
       "category": "weapon",
       "source_name": "Dragonspine Spear",
-      "arabic_name": "",
+      "arabic_name": "رمح العمود الفقري للتنين",
       "rarity": 4,
       "source": [
         {
@@ -952,8 +952,8 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
@@ -970,14 +970,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.earth_shaker",
       "category": "weapon",
       "source_name": "Earth Shaker",
-      "arabic_name": "",
+      "arabic_name": "يرث شاكير",
       "rarity": 4,
       "source": [
         {
@@ -986,15 +986,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.echoes_of_the_heart",
       "category": "weapon",
       "source_name": "Echoes of the Heart",
-      "arabic_name": "",
+      "arabic_name": "يتشويس وف ثي هيرت",
       "rarity": 4,
       "source": [
         {
@@ -1003,15 +1003,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.elegy_for_the_end",
       "category": "weapon",
       "source_name": "Elegy for the End",
-      "arabic_name": "",
+      "arabic_name": "مرثية النهاية",
       "rarity": 5,
       "source": [
         {
@@ -1020,15 +1020,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.emberwell",
       "category": "weapon",
       "source_name": "Emberwell",
-      "arabic_name": "",
+      "arabic_name": "يمبيرويلل",
       "rarity": 4,
       "source": [
         {
@@ -1037,15 +1037,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.emerald_orb",
       "category": "weapon",
       "source_name": "Emerald Orb",
-      "arabic_name": "",
+      "arabic_name": "الكرة الزمرّدية",
       "rarity": 3,
       "source": [
         {
@@ -1054,15 +1054,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.end_of_the_line",
       "category": "weapon",
       "source_name": "End of the Line",
-      "arabic_name": "",
+      "arabic_name": "نهاية الخط",
       "rarity": 4,
       "source": [
         {
@@ -1071,15 +1071,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.engulfing_lightning",
       "category": "weapon",
       "source_name": "Engulfing Lightning",
-      "arabic_name": "",
+      "arabic_name": "البرق الملتهم",
       "rarity": 5,
       "source": [
         {
@@ -1088,15 +1088,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.etherlight_spindlelute",
       "category": "weapon",
       "source_name": "Etherlight Spindlelute",
-      "arabic_name": "",
+      "arabic_name": "يثيرليغت سبيندليلوتي",
       "rarity": 4,
       "source": [
         {
@@ -1105,15 +1105,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.everlasting_moonglow",
       "category": "weapon",
       "source_name": "Everlasting Moonglow",
-      "arabic_name": "",
+      "arabic_name": "يفيرلاستينغ مونغلاو",
       "rarity": 5,
       "source": [
         {
@@ -1122,15 +1122,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.exaiphanes_blade",
       "category": "weapon",
       "source_name": "Exaiphanes Blade",
-      "arabic_name": "",
+      "arabic_name": "يكسايفانيس بلادي",
       "rarity": 5,
       "source": [
         {
@@ -1139,15 +1139,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.eye_of_perception",
       "category": "weapon",
       "source_name": "Eye of Perception",
-      "arabic_name": "",
+      "arabic_name": "عين الإدراك",
       "rarity": 4,
       "source": [
         {
@@ -1156,15 +1156,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.fading_twilight",
       "category": "weapon",
       "source_name": "Fading Twilight",
-      "arabic_name": "",
+      "arabic_name": "فادينغ تويليغت",
       "rarity": 4,
       "source": [
         {
@@ -1173,15 +1173,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.fang_of_the_mountain_king",
       "category": "weapon",
       "source_name": "Fang of the Mountain King",
-      "arabic_name": "",
+      "arabic_name": "فانغ وف ثي مونتاين كينغ",
       "rarity": 5,
       "source": [
         {
@@ -1190,15 +1190,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.favonius_codex",
       "category": "weapon",
       "source_name": "Favonius Codex",
-      "arabic_name": "",
+      "arabic_name": "مجلد فافونيوس",
       "rarity": 4,
       "source": [
         {
@@ -1207,15 +1207,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.favonius_greatsword",
       "category": "weapon",
       "source_name": "Favonius Greatsword",
-      "arabic_name": "",
+      "arabic_name": "سيف فافونيوس العظيم",
       "rarity": 4,
       "source": [
         {
@@ -1224,15 +1224,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.favonius_lance",
       "category": "weapon",
       "source_name": "Favonius Lance",
-      "arabic_name": "",
+      "arabic_name": "رمح فافونيوس",
       "rarity": 4,
       "source": [
         {
@@ -1241,15 +1241,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.favonius_sword",
       "category": "weapon",
       "source_name": "Favonius Sword",
-      "arabic_name": "",
+      "arabic_name": "سيف فافونيوس",
       "rarity": 4,
       "source": [
         {
@@ -1258,15 +1258,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.favonius_warbow",
       "category": "weapon",
       "source_name": "Favonius Warbow",
-      "arabic_name": "",
+      "arabic_name": "قوس فافونيوس الحربي",
       "rarity": 4,
       "source": [
         {
@@ -1275,15 +1275,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.ferrous_shadow",
       "category": "weapon",
       "source_name": "Ferrous Shadow",
-      "arabic_name": "",
+      "arabic_name": "الظل الحديدي",
       "rarity": 3,
       "source": [
         {
@@ -1292,15 +1292,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.festering_desire",
       "category": "weapon",
       "source_name": "Festering Desire",
-      "arabic_name": "",
+      "arabic_name": "الرغبة المتقيّحة",
       "rarity": 4,
       "source": [
         {
@@ -1309,15 +1309,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.fillet_blade",
       "category": "weapon",
       "source_name": "Fillet Blade",
-      "arabic_name": "",
+      "arabic_name": "نصل الشرائح",
       "rarity": 3,
       "source": [
         {
@@ -1326,15 +1326,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.finale_of_the_deep",
       "category": "weapon",
       "source_name": "Finale of the Deep",
-      "arabic_name": "",
+      "arabic_name": "فينالي وف ثي ديب",
       "rarity": 4,
       "source": [
         {
@@ -1343,15 +1343,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.flame_forged_insight",
       "category": "weapon",
       "source_name": "Flame-Forged Insight",
-      "arabic_name": "",
+      "arabic_name": "فلامي فورجيد ينسيغت",
       "rarity": 4,
       "source": [
         {
@@ -1360,15 +1360,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.fleuve_cendre_ferryman",
       "category": "weapon",
       "source_name": "Fleuve Cendre Ferryman",
-      "arabic_name": "",
+      "arabic_name": "فليوفي سيندري فيرريمان",
       "rarity": 4,
       "source": [
         {
@@ -1377,15 +1377,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.flower_wreathed_feathers",
       "category": "weapon",
       "source_name": "Flower-Wreathed Feathers",
-      "arabic_name": "",
+      "arabic_name": "فلاوير وريثيد فيثيرس",
       "rarity": 4,
       "source": [
         {
@@ -1394,15 +1394,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.flowing_purity",
       "category": "weapon",
       "source_name": "Flowing Purity",
-      "arabic_name": "",
+      "arabic_name": "فلاوينغ بوريتي",
       "rarity": 4,
       "source": [
         {
@@ -1411,15 +1411,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.flute_of_ezpitzal",
       "category": "weapon",
       "source_name": "Flute of Ezpitzal",
-      "arabic_name": "",
+      "arabic_name": "فلوتي وف يزبيتزال",
       "rarity": 4,
       "source": [
         {
@@ -1428,15 +1428,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.footprint_of_the_rainbow",
       "category": "weapon",
       "source_name": "Footprint of the Rainbow",
-      "arabic_name": "",
+      "arabic_name": "فوتبرينت وف ثي راينباو",
       "rarity": 4,
       "source": [
         {
@@ -1445,15 +1445,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.forest_regalia",
       "category": "weapon",
       "source_name": "Forest Regalia",
-      "arabic_name": "",
+      "arabic_name": "فوريست ريغاليا",
       "rarity": 4,
       "source": [
         {
@@ -1462,15 +1462,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.forged_by_the_golden_melody",
       "category": "weapon",
       "source_name": "Forged by the Golden Melody",
-      "arabic_name": "",
+      "arabic_name": "فورجيد بي ثي غولدين ميلودي",
       "rarity": 4,
       "source": [
         {
@@ -1479,15 +1479,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.fractured_halo",
       "category": "weapon",
       "source_name": "Fractured Halo",
-      "arabic_name": "",
+      "arabic_name": "فراكتوريد هالو",
       "rarity": 5,
       "source": [
         {
@@ -1496,15 +1496,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.freedom_sworn",
       "category": "weapon",
       "source_name": "Freedom-Sworn",
-      "arabic_name": "",
+      "arabic_name": "قسم الحرية",
       "rarity": 5,
       "source": [
         {
@@ -1513,15 +1513,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.frostbearer",
       "category": "weapon",
       "source_name": "Frostbearer",
-      "arabic_name": "",
+      "arabic_name": "حامل الصقيع",
       "rarity": 4,
       "source": [
         {
@@ -1530,15 +1530,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.frostbreath",
       "category": "weapon",
       "source_name": "Frostbreath",
-      "arabic_name": "",
+      "arabic_name": "فروستبريث",
       "rarity": 4,
       "source": [
         {
@@ -1547,15 +1547,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.fruit_of_fulfillment",
       "category": "weapon",
       "source_name": "Fruit of Fulfillment",
-      "arabic_name": "",
+      "arabic_name": "فرويت وف فولفيللمينت",
       "rarity": 4,
       "source": [
         {
@@ -1564,15 +1564,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.fruitful_hook",
       "category": "weapon",
       "source_name": "Fruitful Hook",
-      "arabic_name": "",
+      "arabic_name": "فرويتفول هوك",
       "rarity": 4,
       "source": [
         {
@@ -1581,15 +1581,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.gest_of_the_mighty_wolf",
       "category": "weapon",
       "source_name": "Gest of the Mighty Wolf",
-      "arabic_name": "",
+      "arabic_name": "جيست وف ثي ميغتي وولف",
       "rarity": 5,
       "source": [
         {
@@ -1598,15 +1598,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.golden_frostbound_oath",
       "category": "weapon",
       "source_name": "Golden Frostbound Oath",
-      "arabic_name": "",
+      "arabic_name": "غولدين فروستبوند واث",
       "rarity": 5,
       "source": [
         {
@@ -1615,15 +1615,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.hakushin_ring",
       "category": "weapon",
       "source_name": "Hakushin Ring",
-      "arabic_name": "",
+      "arabic_name": "هاكوشين رينغ",
       "rarity": 4,
       "source": [
         {
@@ -1632,15 +1632,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.halberd",
       "category": "weapon",
       "source_name": "Halberd",
-      "arabic_name": "",
+      "arabic_name": "المطرد",
       "rarity": 3,
       "source": [
         {
@@ -1649,15 +1649,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.hamayumi",
       "category": "weapon",
       "source_name": "Hamayumi",
-      "arabic_name": "",
+      "arabic_name": "هامايومي",
       "rarity": 4,
       "source": [
         {
@@ -1666,15 +1666,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.haran_geppaku_futsu",
       "category": "weapon",
       "source_name": "Haran Geppaku Futsu",
-      "arabic_name": "",
+      "arabic_name": "هاران جيبباكو فوتسو",
       "rarity": 5,
       "source": [
         {
@@ -1683,15 +1683,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.harbinger_of_dawn",
       "category": "weapon",
       "source_name": "Harbinger of Dawn",
-      "arabic_name": "",
+      "arabic_name": "بشير الفجر",
       "rarity": 3,
       "source": [
         {
@@ -1700,15 +1700,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.heretic_s_molten_blade",
       "category": "weapon",
       "source_name": "Heretic's Molten Blade",
-      "arabic_name": "",
+      "arabic_name": "هيريتيكس مولتين بلادي",
       "rarity": 4,
       "source": [
         {
@@ -1717,15 +1717,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.hunter_s_bow",
       "category": "weapon",
       "source_name": "Hunter's Bow",
-      "arabic_name": "",
+      "arabic_name": "قوس الصياد",
       "rarity": 1,
       "source": [
         {
@@ -1734,15 +1734,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.hunter_s_path",
       "category": "weapon",
       "source_name": "Hunter's Path",
-      "arabic_name": "",
+      "arabic_name": "هونتيرس باث",
       "rarity": 5,
       "source": [
         {
@@ -1751,15 +1751,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.hymn_of_the_maelstrom",
       "category": "weapon",
       "source_name": "Hymn of the Maelstrom",
-      "arabic_name": "",
+      "arabic_name": "هيمن وف ثي مايلستروم",
       "rarity": 5,
       "source": [
         {
@@ -1768,15 +1768,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.ibis_piercer",
       "category": "weapon",
       "source_name": "Ibis Piercer",
-      "arabic_name": "",
+      "arabic_name": "يبيس بييرسير",
       "rarity": 4,
       "source": [
         {
@@ -1785,15 +1785,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.iron_point",
       "category": "weapon",
       "source_name": "Iron Point",
-      "arabic_name": "",
+      "arabic_name": "رأس حديدي",
       "rarity": 2,
       "source": [
         {
@@ -1802,15 +1802,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.iron_sting",
       "category": "weapon",
       "source_name": "Iron Sting",
-      "arabic_name": "",
+      "arabic_name": "اللدغة الحديدية",
       "rarity": 4,
       "source": [
         {
@@ -1819,15 +1819,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.jade_vista",
       "category": "weapon",
       "source_name": "Jade Vista",
-      "arabic_name": "",
+      "arabic_name": "جادي فيستا",
       "rarity": 4,
       "source": [
         {
@@ -1836,15 +1836,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.jadefall_s_splendor",
       "category": "weapon",
       "source_name": "Jadefall's Splendor",
-      "arabic_name": "",
+      "arabic_name": "جاديفاللس سبليندور",
       "rarity": 5,
       "source": [
         {
@@ -1853,15 +1853,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.kagotsurube_isshin",
       "category": "weapon",
       "source_name": "Kagotsurube Isshin",
-      "arabic_name": "",
+      "arabic_name": "كاغوتسوروبي يسشين",
       "rarity": 4,
       "source": [
         {
@@ -1870,15 +1870,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.kagura_s_verity",
       "category": "weapon",
       "source_name": "Kagura's Verity",
-      "arabic_name": "",
+      "arabic_name": "كاغوراس فيريتي",
       "rarity": 5,
       "source": [
         {
@@ -1887,15 +1887,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.katsuragikiri_nagamasa",
       "category": "weapon",
       "source_name": "Katsuragikiri Nagamasa",
-      "arabic_name": "",
+      "arabic_name": "كاتسوراجيكيري ناغاماسا",
       "rarity": 4,
       "source": [
         {
@@ -1904,15 +1904,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.key_of_khaj_nisut",
       "category": "weapon",
       "source_name": "Key of Khaj-Nisut",
-      "arabic_name": "",
+      "arabic_name": "كيي وف خاج نيسوت",
       "rarity": 5,
       "source": [
         {
@@ -1921,15 +1921,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.king_s_squire",
       "category": "weapon",
       "source_name": "King's Squire",
-      "arabic_name": "",
+      "arabic_name": "كينغس سكيري",
       "rarity": 4,
       "source": [
         {
@@ -1938,15 +1938,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.kitain_cross_spear",
       "category": "weapon",
       "source_name": "Kitain Cross Spear",
-      "arabic_name": "",
+      "arabic_name": "كيتاين كروسس سبير",
       "rarity": 4,
       "source": [
         {
@@ -1955,15 +1955,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.light_of_foliar_incision",
       "category": "weapon",
       "source_name": "Light of Foliar Incision",
-      "arabic_name": "",
+      "arabic_name": "ليغت وف فوليار ينسيسيون",
       "rarity": 5,
       "source": [
         {
@@ -1972,15 +1972,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.lightbearing_moonshard",
       "category": "weapon",
       "source_name": "Lightbearing Moonshard",
-      "arabic_name": "",
+      "arabic_name": "ليغتبيرينغ مونشارد",
       "rarity": 5,
       "source": [
         {
@@ -1989,15 +1989,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.lion_s_roar",
       "category": "weapon",
       "source_name": "Lion's Roar",
-      "arabic_name": "",
+      "arabic_name": "زئير الأسد",
       "rarity": 4,
       "source": [
         {
@@ -2006,15 +2006,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.lithic_blade",
       "category": "weapon",
       "source_name": "Lithic Blade",
-      "arabic_name": "",
+      "arabic_name": "ليثيك بلادي",
       "rarity": 4,
       "source": [
         {
@@ -2023,15 +2023,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.lithic_spear",
       "category": "weapon",
       "source_name": "Lithic Spear",
-      "arabic_name": "",
+      "arabic_name": "ليثيك سبير",
       "rarity": 4,
       "source": [
         {
@@ -2040,15 +2040,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.lost_prayer_to_the_sacred_winds",
       "category": "weapon",
       "source_name": "Lost Prayer to the Sacred Winds",
-      "arabic_name": "",
+      "arabic_name": "لوست برايير تو ثي ساكريد ويندس",
       "rarity": 5,
       "source": [
         {
@@ -2057,15 +2057,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.lumidouce_elegy",
       "category": "weapon",
       "source_name": "Lumidouce Elegy",
-      "arabic_name": "",
+      "arabic_name": "لوميدوسي يليجي",
       "rarity": 5,
       "source": [
         {
@@ -2074,15 +2074,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.luxurious_sea_lord",
       "category": "weapon",
       "source_name": "Luxurious Sea-Lord",
-      "arabic_name": "",
+      "arabic_name": "لوكسوريوس سي لورد",
       "rarity": 4,
       "source": [
         {
@@ -2091,15 +2091,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.magic_guide",
       "category": "weapon",
       "source_name": "Magic Guide",
-      "arabic_name": "",
+      "arabic_name": "دليل السحر",
       "rarity": 3,
       "source": [
         {
@@ -2108,15 +2108,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.mailed_flower",
       "category": "weapon",
       "source_name": "Mailed Flower",
-      "arabic_name": "",
+      "arabic_name": "مايليد فلاوير",
       "rarity": 4,
       "source": [
         {
@@ -2125,15 +2125,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.makhaira_aquamarine",
       "category": "weapon",
       "source_name": "Makhaira Aquamarine",
-      "arabic_name": "",
+      "arabic_name": "ماخايرا اكاماريني",
       "rarity": 4,
       "source": [
         {
@@ -2142,15 +2142,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.mappa_mare",
       "category": "weapon",
       "source_name": "Mappa Mare",
-      "arabic_name": "",
+      "arabic_name": "خريطة البحار",
       "rarity": 4,
       "source": [
         {
@@ -2159,15 +2159,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.master_key",
       "category": "weapon",
       "source_name": "Master Key",
-      "arabic_name": "",
+      "arabic_name": "ماستير كيي",
       "rarity": 4,
       "source": [
         {
@@ -2176,15 +2176,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.memory_of_dust",
       "category": "weapon",
       "source_name": "Memory of Dust",
-      "arabic_name": "",
+      "arabic_name": "ذكرى الغبار",
       "rarity": 5,
       "source": [
         {
@@ -2193,15 +2193,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.messenger",
       "category": "weapon",
       "source_name": "Messenger",
-      "arabic_name": "",
+      "arabic_name": "الرسول",
       "rarity": 3,
       "source": [
         {
@@ -2210,15 +2210,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.missive_windspear",
       "category": "weapon",
       "source_name": "Missive Windspear",
-      "arabic_name": "",
+      "arabic_name": "ميسسيفي ويندسبير",
       "rarity": 4,
       "source": [
         {
@@ -2227,15 +2227,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.mistsplitter_reforged",
       "category": "weapon",
       "source_name": "Mistsplitter Reforged",
-      "arabic_name": "",
+      "arabic_name": "قاطع الضباب المعاد تشكيله",
       "rarity": 5,
       "source": [
         {
@@ -2244,15 +2244,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.mitternachts_waltz",
       "category": "weapon",
       "source_name": "Mitternachts Waltz",
-      "arabic_name": "",
+      "arabic_name": "ميتتيرناتشتس والتز",
       "rarity": 4,
       "source": [
         {
@@ -2261,15 +2261,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.moonpiercer",
       "category": "weapon",
       "source_name": "Moonpiercer",
-      "arabic_name": "",
+      "arabic_name": "مونبييرسير",
       "rarity": 4,
       "source": [
         {
@@ -2278,15 +2278,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.moonweaver_s_dawn",
       "category": "weapon",
       "source_name": "Moonweaver's Dawn",
-      "arabic_name": "",
+      "arabic_name": "مونويفيرس داون",
       "rarity": 4,
       "source": [
         {
@@ -2295,15 +2295,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.mountain_bracing_bolt",
       "category": "weapon",
       "source_name": "Mountain-Bracing Bolt",
-      "arabic_name": "",
+      "arabic_name": "مونتاين براسينغ بولت",
       "rarity": 4,
       "source": [
         {
@@ -2312,15 +2312,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.mouun_s_moon",
       "category": "weapon",
       "source_name": "Mouun's Moon",
-      "arabic_name": "",
+      "arabic_name": "موونس مون",
       "rarity": 4,
       "source": [
         {
@@ -2329,15 +2329,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.new_bough",
       "category": "weapon",
       "source_name": "New Bough",
-      "arabic_name": "",
+      "arabic_name": "نيو بوغ",
       "rarity": 4,
       "source": [
         {
@@ -2346,15 +2346,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.nightweaver_s_looking_glass",
       "category": "weapon",
       "source_name": "Nightweaver's Looking Glass",
-      "arabic_name": "",
+      "arabic_name": "نيغتويفيرس لوكينغ غلاسس",
       "rarity": 5,
       "source": [
         {
@@ -2363,15 +2363,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.nocturne_s_curtain_call",
       "category": "weapon",
       "source_name": "Nocturne's Curtain Call",
-      "arabic_name": "",
+      "arabic_name": "نوكتورنيس كورتاين كالل",
       "rarity": 5,
       "source": [
         {
@@ -2380,15 +2380,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.oathsworn_eye",
       "category": "weapon",
       "source_name": "Oathsworn Eye",
-      "arabic_name": "",
+      "arabic_name": "عين العهد",
       "rarity": 4,
       "source": [
         {
@@ -2397,15 +2397,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.old_merc_s_pal",
       "category": "weapon",
       "source_name": "Old Merc's Pal",
-      "arabic_name": "",
+      "arabic_name": "رفيق المرتزق العجوز",
       "rarity": 2,
       "source": [
         {
@@ -2414,15 +2414,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.otherworldly_story",
       "category": "weapon",
       "source_name": "Otherworldly Story",
-      "arabic_name": "",
+      "arabic_name": "حكاية من عالم آخر",
       "rarity": 3,
       "source": [
         {
@@ -2431,15 +2431,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.peak_patrol_song",
       "category": "weapon",
       "source_name": "Peak Patrol Song",
-      "arabic_name": "",
+      "arabic_name": "بيك باترول سونغ",
       "rarity": 5,
       "source": [
         {
@@ -2448,15 +2448,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.pocket_grimoire",
       "category": "weapon",
       "source_name": "Pocket Grimoire",
-      "arabic_name": "",
+      "arabic_name": "كتاب تعاويذ جيبي",
       "rarity": 2,
       "source": [
         {
@@ -2465,15 +2465,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.polar_star",
       "category": "weapon",
       "source_name": "Polar Star",
-      "arabic_name": "",
+      "arabic_name": "النجم القطبي",
       "rarity": 5,
       "source": [
         {
@@ -2482,15 +2482,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.portable_power_saw",
       "category": "weapon",
       "source_name": "Portable Power Saw",
-      "arabic_name": "",
+      "arabic_name": "منشار الطاقة المحمول",
       "rarity": 4,
       "source": [
         {
@@ -2499,15 +2499,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.predator",
       "category": "weapon",
       "source_name": "Predator",
-      "arabic_name": "",
+      "arabic_name": "المفترس",
       "rarity": 4,
       "source": [
         {
@@ -2516,15 +2516,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.primordial_jade_cutter",
       "category": "weapon",
       "source_name": "Primordial Jade Cutter",
-      "arabic_name": "",
+      "arabic_name": "بريمورديال جادي كوتتير",
       "rarity": 5,
       "source": [
         {
@@ -2533,15 +2533,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.primordial_jade_winged_spear",
       "category": "weapon",
       "source_name": "Primordial Jade Winged-Spear",
-      "arabic_name": "",
+      "arabic_name": "بريمورديال جادي وينجيد سبير",
       "rarity": 5,
       "source": [
         {
@@ -2550,15 +2550,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.prized_isshin_blade",
       "category": "weapon",
       "source_name": "Prized Isshin Blade",
-      "arabic_name": "",
+      "arabic_name": "بريزيد يسشين بلادي",
       "rarity": 4,
       "source": [
         {
@@ -2567,15 +2567,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.prospector_s_drill",
       "category": "weapon",
       "source_name": "Prospector's Drill",
-      "arabic_name": "",
+      "arabic_name": "بروسبيكتورس دريلل",
       "rarity": 4,
       "source": [
         {
@@ -2584,15 +2584,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.prospector_s_shovel",
       "category": "weapon",
       "source_name": "Prospector's Shovel",
-      "arabic_name": "",
+      "arabic_name": "بروسبيكتورس شوفيل",
       "rarity": 4,
       "source": [
         {
@@ -2601,15 +2601,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.prototype_amber",
       "category": "weapon",
       "source_name": "Prototype Amber",
-      "arabic_name": "",
+      "arabic_name": "كهرمان النموذج الأولي",
       "rarity": 4,
       "source": [
         {
@@ -2618,15 +2618,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.prototype_archaic",
       "category": "weapon",
       "source_name": "Prototype Archaic",
-      "arabic_name": "",
+      "arabic_name": "النموذج الأولي العتيق",
       "rarity": 4,
       "source": [
         {
@@ -2635,15 +2635,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.prototype_crescent",
       "category": "weapon",
       "source_name": "Prototype Crescent",
-      "arabic_name": "",
+      "arabic_name": "هلال النموذج الأولي",
       "rarity": 4,
       "source": [
         {
@@ -2652,8 +2652,8 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
@@ -2670,14 +2670,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.prototype_starglitter",
       "category": "weapon",
       "source_name": "Prototype Starglitter",
-      "arabic_name": "",
+      "arabic_name": "بريق النجوم النموذجي",
       "rarity": 4,
       "source": [
         {
@@ -2686,15 +2686,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.rainbow_serpent_s_rain_bow",
       "category": "weapon",
       "source_name": "Rainbow Serpent's Rain Bow",
-      "arabic_name": "",
+      "arabic_name": "راينباو سيربينتس راين باو",
       "rarity": 4,
       "source": [
         {
@@ -2703,15 +2703,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.rainslasher",
       "category": "weapon",
       "source_name": "Rainslasher",
-      "arabic_name": "",
+      "arabic_name": "قاطع المطر",
       "rarity": 4,
       "source": [
         {
@@ -2720,15 +2720,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.range_gauge",
       "category": "weapon",
       "source_name": "Range Gauge",
-      "arabic_name": "",
+      "arabic_name": "رانجي غاوجي",
       "rarity": 4,
       "source": [
         {
@@ -2737,15 +2737,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.raven_bow",
       "category": "weapon",
       "source_name": "Raven Bow",
-      "arabic_name": "",
+      "arabic_name": "قوس الغراب",
       "rarity": 3,
       "source": [
         {
@@ -2754,15 +2754,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.recurve_bow",
       "category": "weapon",
       "source_name": "Recurve Bow",
-      "arabic_name": "",
+      "arabic_name": "القوس المنحني",
       "rarity": 3,
       "source": [
         {
@@ -2771,15 +2771,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.redhorn_stonethresher",
       "category": "weapon",
       "source_name": "Redhorn Stonethresher",
-      "arabic_name": "",
+      "arabic_name": "ريدهورن ستونيثريشير",
       "rarity": 5,
       "source": [
         {
@@ -2788,15 +2788,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.reliquary_of_truth",
       "category": "weapon",
       "source_name": "Reliquary of Truth",
-      "arabic_name": "",
+      "arabic_name": "ريليكاري وف تروث",
       "rarity": 5,
       "source": [
         {
@@ -2805,15 +2805,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.rightful_reward",
       "category": "weapon",
       "source_name": "Rightful Reward",
-      "arabic_name": "",
+      "arabic_name": "ريغتفول ريوارد",
       "rarity": 4,
       "source": [
         {
@@ -2822,15 +2822,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.ring_of_yaxche",
       "category": "weapon",
       "source_name": "Ring of Yaxche",
-      "arabic_name": "",
+      "arabic_name": "رينغ وف ياكستشي",
       "rarity": 4,
       "source": [
         {
@@ -2839,15 +2839,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.royal_bow",
       "category": "weapon",
       "source_name": "Royal Bow",
-      "arabic_name": "",
+      "arabic_name": "القوس الملكي",
       "rarity": 4,
       "source": [
         {
@@ -2856,15 +2856,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.royal_greatsword",
       "category": "weapon",
       "source_name": "Royal Greatsword",
-      "arabic_name": "",
+      "arabic_name": "السيف الملكي العظيم",
       "rarity": 4,
       "source": [
         {
@@ -2873,15 +2873,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.royal_grimoire",
       "category": "weapon",
       "source_name": "Royal Grimoire",
-      "arabic_name": "",
+      "arabic_name": "كتاب التعاويذ الملكي",
       "rarity": 4,
       "source": [
         {
@@ -2890,15 +2890,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.royal_longsword",
       "category": "weapon",
       "source_name": "Royal Longsword",
-      "arabic_name": "",
+      "arabic_name": "السيف الملكي الطويل",
       "rarity": 4,
       "source": [
         {
@@ -2907,15 +2907,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.royal_spear",
       "category": "weapon",
       "source_name": "Royal Spear",
-      "arabic_name": "",
+      "arabic_name": "الرمح الملكي",
       "rarity": 4,
       "source": [
         {
@@ -2924,15 +2924,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.rust",
       "category": "weapon",
       "source_name": "Rust",
-      "arabic_name": "",
+      "arabic_name": "الصدأ",
       "rarity": 4,
       "source": [
         {
@@ -2941,15 +2941,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.sacrificer_s_staff",
       "category": "weapon",
       "source_name": "Sacrificer's Staff",
-      "arabic_name": "",
+      "arabic_name": "ساكريفيسيرس ستافف",
       "rarity": 4,
       "source": [
         {
@@ -2958,15 +2958,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.sacrificial_bow",
       "category": "weapon",
       "source_name": "Sacrificial Bow",
-      "arabic_name": "",
+      "arabic_name": "قوس التضحية",
       "rarity": 4,
       "source": [
         {
@@ -2975,15 +2975,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.sacrificial_fragments",
       "category": "weapon",
       "source_name": "Sacrificial Fragments",
-      "arabic_name": "",
+      "arabic_name": "شظايا التضحية",
       "rarity": 4,
       "source": [
         {
@@ -2992,15 +2992,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.sacrificial_greatsword",
       "category": "weapon",
       "source_name": "Sacrificial Greatsword",
-      "arabic_name": "",
+      "arabic_name": "سيف التضحية العظيم",
       "rarity": 4,
       "source": [
         {
@@ -3009,15 +3009,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.sacrificial_jade",
       "category": "weapon",
       "source_name": "Sacrificial Jade",
-      "arabic_name": "",
+      "arabic_name": "ساكريفيسيال جادي",
       "rarity": 4,
       "source": [
         {
@@ -3026,15 +3026,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.sacrificial_sword",
       "category": "weapon",
       "source_name": "Sacrificial Sword",
-      "arabic_name": "",
+      "arabic_name": "سيف التضحية",
       "rarity": 4,
       "source": [
         {
@@ -3043,15 +3043,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.sapwood_blade",
       "category": "weapon",
       "source_name": "Sapwood Blade",
-      "arabic_name": "",
+      "arabic_name": "سابوود بلادي",
       "rarity": 4,
       "source": [
         {
@@ -3060,15 +3060,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.scion_of_the_blazing_sun",
       "category": "weapon",
       "source_name": "Scion of the Blazing Sun",
-      "arabic_name": "",
+      "arabic_name": "سسيون وف ثي بلازينغ سون",
       "rarity": 4,
       "source": [
         {
@@ -3077,15 +3077,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.seasoned_hunter_s_bow",
       "category": "weapon",
       "source_name": "Seasoned Hunter's Bow",
-      "arabic_name": "",
+      "arabic_name": "سيسونيد هونتيرس باو",
       "rarity": 2,
       "source": [
         {
@@ -3094,15 +3094,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.sequence_of_solitude",
       "category": "weapon",
       "source_name": "Sequence of Solitude",
-      "arabic_name": "",
+      "arabic_name": "سيكينسي وف سوليتودي",
       "rarity": 4,
       "source": [
         {
@@ -3111,15 +3111,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.serenity_s_call",
       "category": "weapon",
       "source_name": "Serenity's Call",
-      "arabic_name": "",
+      "arabic_name": "سيرينيتيس كالل",
       "rarity": 4,
       "source": [
         {
@@ -3128,15 +3128,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.serpent_spine",
       "category": "weapon",
       "source_name": "Serpent Spine",
-      "arabic_name": "",
+      "arabic_name": "عمود الثعبان الفقري",
       "rarity": 4,
       "source": [
         {
@@ -3145,15 +3145,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.sharpshooter_s_oath",
       "category": "weapon",
       "source_name": "Sharpshooter's Oath",
-      "arabic_name": "",
+      "arabic_name": "عهد القنّاص",
       "rarity": 3,
       "source": [
         {
@@ -3162,15 +3162,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.silver_light",
       "category": "weapon",
       "source_name": "Silver Light",
-      "arabic_name": "",
+      "arabic_name": "سيلفير ليغت",
       "rarity": 4,
       "source": [
         {
@@ -3179,8 +3179,8 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
@@ -3197,14 +3197,14 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة.",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.silvershower_heartstrings",
       "category": "weapon",
       "source_name": "Silvershower Heartstrings",
-      "arabic_name": "",
+      "arabic_name": "سيلفيرشاوير هيرتسترينغس",
       "rarity": 5,
       "source": [
         {
@@ -3213,15 +3213,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.skyrider_greatsword",
       "category": "weapon",
       "source_name": "Skyrider Greatsword",
-      "arabic_name": "",
+      "arabic_name": "سيف راكب السماء العظيم",
       "rarity": 3,
       "source": [
         {
@@ -3230,15 +3230,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.skyrider_sword",
       "category": "weapon",
       "source_name": "Skyrider Sword",
-      "arabic_name": "",
+      "arabic_name": "سيف راكب السماء",
       "rarity": 3,
       "source": [
         {
@@ -3247,15 +3247,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.skyward_atlas",
       "category": "weapon",
       "source_name": "Skyward Atlas",
-      "arabic_name": "",
+      "arabic_name": "أطلس السماء",
       "rarity": 5,
       "source": [
         {
@@ -3264,15 +3264,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.skyward_blade",
       "category": "weapon",
       "source_name": "Skyward Blade",
-      "arabic_name": "",
+      "arabic_name": "نصل السماء",
       "rarity": 5,
       "source": [
         {
@@ -3281,15 +3281,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.skyward_harp",
       "category": "weapon",
       "source_name": "Skyward Harp",
-      "arabic_name": "",
+      "arabic_name": "قيثارة السماء",
       "rarity": 5,
       "source": [
         {
@@ -3298,15 +3298,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.skyward_pride",
       "category": "weapon",
       "source_name": "Skyward Pride",
-      "arabic_name": "",
+      "arabic_name": "فخر السماء",
       "rarity": 5,
       "source": [
         {
@@ -3315,15 +3315,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.skyward_spine",
       "category": "weapon",
       "source_name": "Skyward Spine",
-      "arabic_name": "",
+      "arabic_name": "رمح السماء",
       "rarity": 5,
       "source": [
         {
@@ -3332,15 +3332,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.slingshot",
       "category": "weapon",
       "source_name": "Slingshot",
-      "arabic_name": "",
+      "arabic_name": "مقلاع",
       "rarity": 3,
       "source": [
         {
@@ -3349,15 +3349,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.snare_hook",
       "category": "weapon",
       "source_name": "Snare Hook",
-      "arabic_name": "",
+      "arabic_name": "سناري هوك",
       "rarity": 4,
       "source": [
         {
@@ -3366,15 +3366,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.snow_tombed_starsilver",
       "category": "weapon",
       "source_name": "Snow-Tombed Starsilver",
-      "arabic_name": "",
+      "arabic_name": "فضة النجوم المدفونة في الثلج",
       "rarity": 4,
       "source": [
         {
@@ -3383,15 +3383,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.solar_pearl",
       "category": "weapon",
       "source_name": "Solar Pearl",
-      "arabic_name": "",
+      "arabic_name": "اللؤلؤة الشمسية",
       "rarity": 4,
       "source": [
         {
@@ -3400,15 +3400,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.song_of_broken_pines",
       "category": "weapon",
       "source_name": "Song of Broken Pines",
-      "arabic_name": "",
+      "arabic_name": "سونغ وف بروكين بينيس",
       "rarity": 5,
       "source": [
         {
@@ -3417,15 +3417,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.song_of_stillness",
       "category": "weapon",
       "source_name": "Song of Stillness",
-      "arabic_name": "",
+      "arabic_name": "سونغ وف ستيللنيسس",
       "rarity": 4,
       "source": [
         {
@@ -3434,15 +3434,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.song_of_the_vigil",
       "category": "weapon",
       "source_name": "Song of the Vigil",
-      "arabic_name": "",
+      "arabic_name": "سونغ وف ثي فيجيل",
       "rarity": 4,
       "source": [
         {
@@ -3451,15 +3451,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.splendor_of_tranquil_waters",
       "category": "weapon",
       "source_name": "Splendor of Tranquil Waters",
-      "arabic_name": "",
+      "arabic_name": "سبليندور وف ترانكيل واتيرس",
       "rarity": 5,
       "source": [
         {
@@ -3468,15 +3468,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.staff_of_homa",
       "category": "weapon",
       "source_name": "Staff of Homa",
-      "arabic_name": "",
+      "arabic_name": "عصا هوما",
       "rarity": 5,
       "source": [
         {
@@ -3485,15 +3485,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.staff_of_the_scarlet_sands",
       "category": "weapon",
       "source_name": "Staff of the Scarlet Sands",
-      "arabic_name": "",
+      "arabic_name": "ستافف وف ثي سكارليت ساندس",
       "rarity": 5,
       "source": [
         {
@@ -3502,15 +3502,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.starcaller_s_watch",
       "category": "weapon",
       "source_name": "Starcaller's Watch",
-      "arabic_name": "",
+      "arabic_name": "ستاركالليرس واتتش",
       "rarity": 5,
       "source": [
         {
@@ -3519,15 +3519,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.sturdy_bone",
       "category": "weapon",
       "source_name": "Sturdy Bone",
-      "arabic_name": "",
+      "arabic_name": "ستوردي بوني",
       "rarity": 4,
       "source": [
         {
@@ -3536,15 +3536,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.summit_shaper",
       "category": "weapon",
       "source_name": "Summit Shaper",
-      "arabic_name": "",
+      "arabic_name": "سومميت شابير",
       "rarity": 5,
       "source": [
         {
@@ -3553,15 +3553,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.sunny_morning_sleep_in",
       "category": "weapon",
       "source_name": "Sunny Morning Sleep-In",
-      "arabic_name": "",
+      "arabic_name": "سونني مورنينغ سليب ين",
       "rarity": 5,
       "source": [
         {
@@ -3570,15 +3570,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.surf_s_up",
       "category": "weapon",
       "source_name": "Surf's Up",
-      "arabic_name": "",
+      "arabic_name": "سورفس وب",
       "rarity": 5,
       "source": [
         {
@@ -3587,15 +3587,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.sword_of_descension",
       "category": "weapon",
       "source_name": "Sword of Descension",
-      "arabic_name": "",
+      "arabic_name": "سوورد وف ديسسينسيون",
       "rarity": 4,
       "source": [
         {
@@ -3604,15 +3604,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.sword_of_narzissenkreuz",
       "category": "weapon",
       "source_name": "Sword of Narzissenkreuz",
-      "arabic_name": "",
+      "arabic_name": "سوورد وف نارزيسسينكريوز",
       "rarity": 4,
       "source": [
         {
@@ -3621,15 +3621,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.symphonist_of_scents",
       "category": "weapon",
       "source_name": "Symphonist of Scents",
-      "arabic_name": "",
+      "arabic_name": "سيمفونيست وف سسينتس",
       "rarity": 5,
       "source": [
         {
@@ -3638,15 +3638,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.talking_stick",
       "category": "weapon",
       "source_name": "Talking Stick",
-      "arabic_name": "",
+      "arabic_name": "تالكينغ ستيك",
       "rarity": 4,
       "source": [
         {
@@ -3655,15 +3655,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.tamayuratei_no_ohanashi",
       "category": "weapon",
       "source_name": "Tamayuratei no Ohanashi",
-      "arabic_name": "",
+      "arabic_name": "تامايوراتيي نو وهاناشي",
       "rarity": 4,
       "source": [
         {
@@ -3672,15 +3672,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.the_alley_flash",
       "category": "weapon",
       "source_name": "The Alley Flash",
-      "arabic_name": "",
+      "arabic_name": "ثي الليي فلاش",
       "rarity": 4,
       "source": [
         {
@@ -3689,15 +3689,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.the_bell",
       "category": "weapon",
       "source_name": "The Bell",
-      "arabic_name": "",
+      "arabic_name": "الجرس",
       "rarity": 4,
       "source": [
         {
@@ -3706,15 +3706,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.the_black_sword",
       "category": "weapon",
       "source_name": "The Black Sword",
-      "arabic_name": "",
+      "arabic_name": "السيف الأسود",
       "rarity": 4,
       "source": [
         {
@@ -3723,15 +3723,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.the_daybreak_chronicles",
       "category": "weapon",
       "source_name": "The Daybreak Chronicles",
-      "arabic_name": "",
+      "arabic_name": "ثي دايبريك تشرونيكليس",
       "rarity": 5,
       "source": [
         {
@@ -3740,15 +3740,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.the_dockhand_s_assistant",
       "category": "weapon",
       "source_name": "The Dockhand's Assistant",
-      "arabic_name": "",
+      "arabic_name": "ثي دوكهاندس اسسيستانت",
       "rarity": 4,
       "source": [
         {
@@ -3757,15 +3757,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.the_first_great_magic",
       "category": "weapon",
       "source_name": "The First Great Magic",
-      "arabic_name": "",
+      "arabic_name": "ثي فيرست غريت ماجيك",
       "rarity": 5,
       "source": [
         {
@@ -3774,15 +3774,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.the_flute",
       "category": "weapon",
       "source_name": "The Flute",
-      "arabic_name": "",
+      "arabic_name": "الناي",
       "rarity": 4,
       "source": [
         {
@@ -3791,15 +3791,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.the_stringless",
       "category": "weapon",
       "source_name": "The Stringless",
-      "arabic_name": "",
+      "arabic_name": "بلا أوتار",
       "rarity": 4,
       "source": [
         {
@@ -3808,15 +3808,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.the_unforged",
       "category": "weapon",
       "source_name": "The Unforged",
-      "arabic_name": "",
+      "arabic_name": "غير المصقول",
       "rarity": 5,
       "source": [
         {
@@ -3825,15 +3825,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.the_viridescent_hunt",
       "category": "weapon",
       "source_name": "The Viridescent Hunt",
-      "arabic_name": "",
+      "arabic_name": "الصيد الزمردي",
       "rarity": 4,
       "source": [
         {
@@ -3842,15 +3842,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.the_widsith",
       "category": "weapon",
       "source_name": "The Widsith",
-      "arabic_name": "",
+      "arabic_name": "الويدسِث",
       "rarity": 4,
       "source": [
         {
@@ -3859,15 +3859,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.thrilling_tales_of_dragon_slayers",
       "category": "weapon",
       "source_name": "Thrilling Tales of Dragon Slayers",
-      "arabic_name": "",
+      "arabic_name": "حكايات مثيرة لقاتلي التنانين",
       "rarity": 3,
       "source": [
         {
@@ -3876,15 +3876,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.thundering_pulse",
       "category": "weapon",
       "source_name": "Thundering Pulse",
-      "arabic_name": "",
+      "arabic_name": "النبض الرعدي",
       "rarity": 5,
       "source": [
         {
@@ -3893,15 +3893,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.tidal_shadow",
       "category": "weapon",
       "source_name": "Tidal Shadow",
-      "arabic_name": "",
+      "arabic_name": "تيدال شاداو",
       "rarity": 4,
       "source": [
         {
@@ -3910,15 +3910,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.tome_of_the_eternal_flow",
       "category": "weapon",
       "source_name": "Tome of the Eternal Flow",
-      "arabic_name": "",
+      "arabic_name": "مجلد التدفق الأبدي",
       "rarity": 5,
       "source": [
         {
@@ -3927,15 +3927,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.toukabou_shigure",
       "category": "weapon",
       "source_name": "Toukabou Shigure",
-      "arabic_name": "",
+      "arabic_name": "توكابو شيغوري",
       "rarity": 4,
       "source": [
         {
@@ -3944,15 +3944,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.traveler_s_handy_sword",
       "category": "weapon",
       "source_name": "Traveler's Handy Sword",
-      "arabic_name": "",
+      "arabic_name": "سيف المسافر العملي",
       "rarity": 3,
       "source": [
         {
@@ -3961,15 +3961,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.tulaytullah_s_remembrance",
       "category": "weapon",
       "source_name": "Tulaytullah's Remembrance",
-      "arabic_name": "",
+      "arabic_name": "تولايتوللاهس ريميمبرانسي",
       "rarity": 5,
       "source": [
         {
@@ -3978,15 +3978,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.twin_nephrite",
       "category": "weapon",
       "source_name": "Twin Nephrite",
-      "arabic_name": "",
+      "arabic_name": "نفريت مزدوج",
       "rarity": 3,
       "source": [
         {
@@ -3995,15 +3995,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.uraku_misugiri",
       "category": "weapon",
       "source_name": "Uraku Misugiri",
-      "arabic_name": "",
+      "arabic_name": "وراكو ميسوجيري",
       "rarity": 5,
       "source": [
         {
@@ -4012,15 +4012,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.verdict",
       "category": "weapon",
       "source_name": "Verdict",
-      "arabic_name": "",
+      "arabic_name": "فيرديكت",
       "rarity": 5,
       "source": [
         {
@@ -4029,15 +4029,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.vivid_notions",
       "category": "weapon",
       "source_name": "Vivid Notions",
-      "arabic_name": "",
+      "arabic_name": "فيفيد نوشنس",
       "rarity": 5,
       "source": [
         {
@@ -4046,15 +4046,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.vortex_vanquisher",
       "category": "weapon",
       "source_name": "Vortex Vanquisher",
-      "arabic_name": "",
+      "arabic_name": "قاهر الدوامة",
       "rarity": 5,
       "source": [
         {
@@ -4063,15 +4063,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.wandering_evenstar",
       "category": "weapon",
       "source_name": "Wandering Evenstar",
-      "arabic_name": "",
+      "arabic_name": "وانديرينغ يفينستار",
       "rarity": 4,
       "source": [
         {
@@ -4080,15 +4080,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.waster_greatsword",
       "category": "weapon",
       "source_name": "Waster Greatsword",
-      "arabic_name": "",
+      "arabic_name": "السيف العظيم المهمل",
       "rarity": 1,
       "source": [
         {
@@ -4097,15 +4097,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.wavebreaker_s_fin",
       "category": "weapon",
       "source_name": "Wavebreaker's Fin",
-      "arabic_name": "",
+      "arabic_name": "وافيبريكيرس فين",
       "rarity": 4,
       "source": [
         {
@@ -4114,15 +4114,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.waveriding_whirl",
       "category": "weapon",
       "source_name": "Waveriding Whirl",
-      "arabic_name": "",
+      "arabic_name": "وافيريدينغ وهيرل",
       "rarity": 4,
       "source": [
         {
@@ -4131,15 +4131,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.white_iron_greatsword",
       "category": "weapon",
       "source_name": "White Iron Greatsword",
-      "arabic_name": "",
+      "arabic_name": "السيف العظيم من الحديد الأبيض",
       "rarity": 3,
       "source": [
         {
@@ -4148,15 +4148,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.white_tassel",
       "category": "weapon",
       "source_name": "White Tassel",
-      "arabic_name": "",
+      "arabic_name": "الشرّابة البيضاء",
       "rarity": 3,
       "source": [
         {
@@ -4165,15 +4165,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_POLE"
     },
     {
       "id": "weapon.whiteblind",
       "category": "weapon",
       "source_name": "Whiteblind",
-      "arabic_name": "",
+      "arabic_name": "العمى الأبيض",
       "rarity": 4,
       "source": [
         {
@@ -4182,15 +4182,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.whitelake_frostfeather",
       "category": "weapon",
       "source_name": "Whitelake Frostfeather",
-      "arabic_name": "",
+      "arabic_name": "وهيتيلاكي فروستفيثير",
       "rarity": 5,
       "source": [
         {
@@ -4199,15 +4199,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.windblume_ode",
       "category": "weapon",
       "source_name": "Windblume Ode",
-      "arabic_name": "",
+      "arabic_name": "أنشودة زهور الرياح",
       "rarity": 4,
       "source": [
         {
@@ -4216,15 +4216,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_BOW"
     },
     {
       "id": "weapon.wine_and_song",
       "category": "weapon",
       "source_name": "Wine and Song",
-      "arabic_name": "",
+      "arabic_name": "ويني اند سونغ",
       "rarity": 4,
       "source": [
         {
@@ -4233,15 +4233,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.winter_s_heavy_heart",
       "category": "weapon",
       "source_name": "Winter's Heavy Heart",
-      "arabic_name": "",
+      "arabic_name": "وينتيرس هيفي هيرت",
       "rarity": 4,
       "source": [
         {
@@ -4250,15 +4250,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CATALYST"
     },
     {
       "id": "weapon.wolf_s_gravestone",
       "category": "weapon",
       "source_name": "Wolf's Gravestone",
-      "arabic_name": "",
+      "arabic_name": "شاهدة قبر الذئب",
       "rarity": 5,
       "source": [
         {
@@ -4267,15 +4267,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_CLAYMORE"
     },
     {
       "id": "weapon.wolf_fang",
       "category": "weapon",
       "source_name": "Wolf-Fang",
-      "arabic_name": "",
+      "arabic_name": "ناب الذئب",
       "rarity": 4,
       "source": [
         {
@@ -4284,15 +4284,15 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     },
     {
       "id": "weapon.xiphos_moonlight",
       "category": "weapon",
       "source_name": "Xiphos' Moonlight",
-      "arabic_name": "",
+      "arabic_name": "كسيفوس مونليغت",
       "rarity": 4,
       "source": [
         {
@@ -4301,8 +4301,8 @@
           "version": "live API"
         }
       ],
-      "translation_status": "needs_context",
-      "review_notes": "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً.",
+      "translation_status": "draft",
+      "review_notes": "مقترح تعريب أولي غير رسمي؛ الاسم المترجم صوتياً أو دلالياً ويحتاج مراجعة لغوية ومقارنة مع الاستعمال العربي للمجتمع.",
       "weapon_type": "WEAPON_SWORD_ONE_HAND"
     }
   ],
