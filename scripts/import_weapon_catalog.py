@@ -100,7 +100,7 @@ def main():
             "source": [{
                 "name": "genshin-db",
                 "url": "https://github.com/theBowja/genshin-db",
-                "version": "API v5; version reported by upstream package",
+                "version": "live API",
             }],
             "translation_status": previous.get("translation_status", "needs_context" if not previous.get("arabic_name") else "draft"),
             "review_notes": previous.get("review_notes", "الاسم العربي يحتاج مراجعة؛ البيانات الوصفية مستوردة آلياً."),
