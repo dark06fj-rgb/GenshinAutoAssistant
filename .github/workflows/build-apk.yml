@@ -253,6 +253,7 @@ jobs:
               final String[] fallbackCharacters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
               String[] characters=fallbackCharacters;
               final LinkedHashMap<String,String> characterArabicNames=new LinkedHashMap<>();
+              final LinkedHashMap<String,String> characterIds=new LinkedHashMap<>();
               void loadCharacterCatalog() {
                   try {
                       InputStream input=getAssets().open("localization/ar/characters.json");
@@ -272,6 +273,8 @@ jobs:
                           if(source.isEmpty()) continue;
                           if(!names.contains(source)) names.add(source);
                           if(!arabic.isEmpty()) characterArabicNames.put(source,arabic);
+                          String characterId=entry.optString("id","").trim();
+                          if(!characterId.isEmpty()) characterIds.put(source,characterId);
                       }
                       if(!names.isEmpty()) characters=names.toArray(new String[0]);
                   } catch(Exception e) {
@@ -531,6 +534,22 @@ jobs:
                   content.removeAllViews();Button back=new Button(this);back.setText("رجوع إلى الشخصيات");
                   back.setOnClickListener(v->showCharacters());content.addView(back);heading(name);
                   line("علّم على ما أنجزته؛ سيُحفظ التقدم تلقائياً.");
+                  heading("المواهب");
+                  line("الأسماء والملخصات التالية مسودات عربية مجتمعية غير رسمية وتحتاج مراجعة.");
+                  JSONArray talentEntries=readQuestCatalog("talents.json");
+                  String selectedCharacterId=characterIds.get(name);
+                  int shownTalents=0;
+                  for(int i=0;i<talentEntries.length();i++) {
+                      JSONObject talent=talentEntries.optJSONObject(i); if(talent==null) continue;
+                      if(selectedCharacterId==null || !selectedCharacterId.equals(talent.optString("character_id",""))) continue;
+                      String arabicTalent=talent.optString("arabic_name","").trim();
+                      String sourceTalent=talent.optString("source_name","").trim();
+                      String description=talent.optString("description_ar","").trim();
+                      line("✦ "+(arabicTalent.isEmpty()?sourceTalent:arabicTalent+(sourceTalent.isEmpty()?"":" · "+sourceTalent)));
+                      if(!description.isEmpty()) line(description);
+                      shownTalents++;
+                  }
+                  if(shownTalents==0) line("لا توجد سجلات مواهب مرتبطة بهذه الشخصية في الفهرس الحالي.");
                   check(key("task1",name),"رفع المستوى");check(key("task2",name),"جمع مواد الصعود");
                   check(key("task3",name),"تطوير المواهب");check(key("task4",name),"تحسين القطع الأثرية");
                   check(key("task5",name),"تطوير السلاح");
