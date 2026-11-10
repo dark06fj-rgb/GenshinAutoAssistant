@@ -207,6 +207,14 @@ jobs:
               final ServiceConnection projectionServiceConnection=new ServiceConnection(){
                   @Override public void onServiceConnected(ComponentName name,IBinder binder){
                       projectionServiceBound=true;
+                      ProjectionCaptureService service=((ProjectionCaptureService.LocalBinder)binder).getService();
+                      if(!service.isForegroundReady()){
+                          pendingProjectionData=null;
+                          if(liveScanStatus!=null) liveScanStatus.setText("فشل تشغيل خدمة مشاركة الشاشة. راجع إشعار النظام ثم أعد المحاولة.");
+                          Toast.makeText(MainActivity.this,"لم تتمكن خدمة مشاركة الشاشة من بدء التشغيل.",Toast.LENGTH_LONG).show();
+                          stopProjectionForegroundService();
+                          return;
+                      }
                       if(pendingProjectionData!=null){
                           Intent data=pendingProjectionData; int code=pendingProjectionResultCode;
                           pendingProjectionData=null;
@@ -959,7 +967,9 @@ jobs:
               void beginLiveScan(int resultCode,Intent data) {
                   try {
                       MediaProjectionManager manager=(MediaProjectionManager)getSystemService(MEDIA_PROJECTION_SERVICE);
+                      if(manager==null) throw new IllegalStateException("خدمة مشاركة الشاشة غير متاحة");
                       mediaProjection=manager.getMediaProjection(resultCode,data);
+                      if(mediaProjection==null) throw new IllegalStateException("تعذر إنشاء جلسة مشاركة الشاشة");
                       WindowManager wm=(WindowManager)getSystemService(WINDOW_SERVICE);
                       DisplayMetrics metrics=new DisplayMetrics(); wm.getDefaultDisplay().getRealMetrics(metrics);
                       int width=metrics.widthPixels,height=metrics.heightPixels,density=metrics.densityDpi;
@@ -1079,9 +1089,11 @@ jobs:
           public class ProjectionCaptureService extends Service {
               static final String CHANNEL_ID="genshin_screen_capture";
               final android.os.Binder binder=new LocalBinder();
+              boolean foregroundReady=false;
               class LocalBinder extends android.os.Binder {
                   ProjectionCaptureService getService(){return ProjectionCaptureService.this;}
               }
+              boolean isForegroundReady(){return foregroundReady;}
               @Override public void onCreate(){
                   super.onCreate();
                   if(Build.VERSION.SDK_INT>=26){
@@ -1114,7 +1126,9 @@ jobs:
                       }else{
                           startForeground(1001,notification);
                       }
+                      foregroundReady=true;
                   } catch(Exception e) {
+                      foregroundReady=false;
                       String message=e.getClass().getSimpleName()+": "+String.valueOf(e.getMessage());
                       android.util.Log.e("GenshinAssistant","Projection foreground service failed",e);
                       Toast.makeText(this,"تعذر تشغيل خدمة مشاركة الشاشة: "+message,Toast.LENGTH_LONG).show();
