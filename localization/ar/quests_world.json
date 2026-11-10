@@ -35137,7 +35137,7 @@
       "node_type": "quest",
       "source_quest_id": "73317",
       "source_name": "Awaken the Residual Pari in the Fravashi Trees",
-      "arabic_name": "",
+      "arabic_name": "أيقظ الباري المتبقي في أشجار فراواشي",
       "description_ar": null,
       "chapter_id": "10126",
       "act_id": null,
@@ -35157,8 +35157,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 628069967,
         "description": 1075929830
@@ -35184,7 +35184,7 @@
       "node_type": "quest",
       "source_quest_id": "73318",
       "source_name": "Awaken the Residual Pari in the Fravashi Trees",
-      "arabic_name": "",
+      "arabic_name": "أيقظ الباري المتبقي في أشجار فراواشي",
       "description_ar": null,
       "chapter_id": "10126",
       "act_id": null,
@@ -35204,8 +35204,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1982724503,
         "description": 1727026054
@@ -35231,7 +35231,7 @@
       "node_type": "quest",
       "source_quest_id": "73319",
       "source_name": "Lightcall Resonance",
-      "arabic_name": "",
+      "arabic_name": "رنين نداء الضوء",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35250,8 +35250,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2089034215,
         "description": 1073168166
@@ -35274,7 +35274,7 @@
       "node_type": "quest",
       "source_quest_id": "73329",
       "source_name": "Search for the Lost Monument Fragments",
-      "arabic_name": "",
+      "arabic_name": "ابحث عن شظايا النصب المفقودة",
       "description_ar": null,
       "chapter_id": "10125",
       "act_id": null,
@@ -35294,8 +35294,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2159899639,
         "description": 2598205526
@@ -35322,7 +35322,7 @@
       "node_type": "quest",
       "source_quest_id": "73330",
       "source_name": "Investigate the Fatui Camps Marked by Sosi",
-      "arabic_name": "",
+      "arabic_name": "حقق في معسكرات الفاتوي التي حددتها سوسي",
       "description_ar": null,
       "chapter_id": "10125",
       "act_id": null,
@@ -35339,8 +35339,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 959894671,
         "description": 2986864150
@@ -35366,7 +35366,7 @@
       "node_type": "quest",
       "source_quest_id": "73332",
       "source_name": "Awaken the Residual Pari in the Fravashi Trees",
-      "arabic_name": "",
+      "arabic_name": "أيقظ الباري المتبقي في أشجار فراواشي",
       "description_ar": null,
       "chapter_id": "10126",
       "act_id": null,
@@ -35386,8 +35386,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3522820071,
         "description": 834398462
@@ -35413,7 +35413,7 @@
       "node_type": "quest",
       "source_quest_id": "73334",
       "source_name": "Awaken the Residual Pari in the Fravashi Trees",
-      "arabic_name": "",
+      "arabic_name": "أيقظ الباري المتبقي في أشجار فراواشي",
       "description_ar": null,
       "chapter_id": "10126",
       "act_id": null,
@@ -35433,8 +35433,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2136539967,
         "description": 2610159286
@@ -35460,7 +35460,7 @@
       "node_type": "quest",
       "source_quest_id": "73341",
       "source_name": "Heart of Amrita",
-      "arabic_name": "",
+      "arabic_name": "قلب أمريتا",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35479,8 +35479,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 147620983,
         "description": 2976689518
@@ -35503,7 +35503,7 @@
       "node_type": "quest",
       "source_quest_id": "73348",
       "source_name": "Purbiruni's Commandment",
-      "arabic_name": "",
+      "arabic_name": "وصية بوربيروني",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35522,8 +35522,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 890796999,
         "description": 3643838422
@@ -35547,7 +35547,7 @@
       "node_type": "quest",
       "source_quest_id": "73350",
       "source_name": "Recollections of a Fontainian",
-      "arabic_name": "",
+      "arabic_name": "ذكريات أحد سكان فونتين",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35564,8 +35564,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4236405839,
         "description": 3454689670
@@ -35588,7 +35588,7 @@
       "node_type": "quest",
       "source_quest_id": "73352",
       "source_name": "Rocking Carriage",
-      "arabic_name": "",
+      "arabic_name": "عربة متأرجحة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35605,8 +35605,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 740471991,
         "description": 2070145054
@@ -35627,7 +35627,7 @@
       "node_type": "quest",
       "source_quest_id": "73353",
       "source_name": "Mapping Dreams and Reality",
-      "arabic_name": "",
+      "arabic_name": "رسم خرائط الأحلام والواقع",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35644,8 +35644,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1787358775,
         "description": 1143299246
@@ -35666,7 +35666,7 @@
       "node_type": "quest",
       "source_quest_id": "73354",
       "source_name": "Shadow of the Knight's Blade",
-      "arabic_name": "",
+      "arabic_name": "ظل نصل الفارس",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35683,8 +35683,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 666007671,
         "description": 835320902
@@ -35705,7 +35705,7 @@
       "node_type": "quest",
       "source_quest_id": "73500",
       "source_name": "The Unappreciated Carving",
-      "arabic_name": "",
+      "arabic_name": "المنحوتة غير المقدّرة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35722,8 +35722,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4230495007,
         "description": 3212220430
@@ -35748,7 +35748,7 @@
       "node_type": "quest",
       "source_quest_id": "73501",
       "source_name": "Selling Like Hot Carvings",
-      "arabic_name": "",
+      "arabic_name": "بيع المنحوتات الرائجة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35767,8 +35767,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1178031559,
         "description": 4148328422
@@ -35793,7 +35793,7 @@
       "node_type": "quest",
       "source_quest_id": "73503",
       "source_name": "Treasure of Wisdom: A New Plan",
-      "arabic_name": "",
+      "arabic_name": "كنز الحكمة: خطة جديدة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35810,8 +35810,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3062583023,
         "description": 1201788078
@@ -35836,7 +35836,7 @@
       "node_type": "quest",
       "source_quest_id": "73506",
       "source_name": "A Librarian's Long and Carefree Vacation",
-      "arabic_name": "",
+      "arabic_name": "عطلة أمين مكتبة طويلة وخالية من الهموم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35853,8 +35853,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1029199495,
         "description": 545422422
@@ -35875,7 +35875,7 @@
       "node_type": "quest",
       "source_quest_id": "73507",
       "source_name": "Old Friends, New Game",
-      "arabic_name": "",
+      "arabic_name": "أصدقاء قدامى، لعبة جديدة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35892,8 +35892,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1159810967,
         "description": 248538550
@@ -35914,7 +35914,7 @@
       "node_type": "quest",
       "source_quest_id": "73508",
       "source_name": "Parting Arrangement",
-      "arabic_name": "",
+      "arabic_name": "ترتيب الوداع",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35931,8 +35931,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4115886423,
         "description": 2331045286
@@ -35953,7 +35953,7 @@
       "node_type": "quest",
       "source_quest_id": "73509",
       "source_name": "Boiling Over!",
-      "arabic_name": "",
+      "arabic_name": "على وشك الغليان!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -35970,8 +35970,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1544732607,
         "description": 3491513494
@@ -35993,7 +35993,7 @@
       "node_type": "quest",
       "source_quest_id": "73510",
       "source_name": "An Abundant Estimation",
-      "arabic_name": "",
+      "arabic_name": "تقدير وفير",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36010,8 +36010,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1556703527,
         "description": 3480068302
@@ -36033,7 +36033,7 @@
       "node_type": "quest",
       "source_quest_id": "73511",
       "source_name": "The Culling of the Worms: Proposal",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: المقترح",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36050,8 +36050,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3628907599,
         "description": 2195586150
@@ -36072,7 +36072,7 @@
       "node_type": "quest",
       "source_quest_id": "73512",
       "source_name": "The Culling of the Worms: Gathering",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: التجميع",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36089,8 +36089,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1896377671,
         "description": 3753878366
@@ -36111,7 +36111,7 @@
       "node_type": "quest",
       "source_quest_id": "73513",
       "source_name": "The Culling of the Worms: Introduction",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: المقدمة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36128,8 +36128,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1331501231,
         "description": 2992557334
@@ -36150,7 +36150,7 @@
       "node_type": "quest",
       "source_quest_id": "73514",
       "source_name": "The Culling of the Worms: Testing",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: الاختبار",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36167,8 +36167,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3231777087,
         "description": 410403566
@@ -36189,7 +36189,7 @@
       "node_type": "quest",
       "source_quest_id": "73515",
       "source_name": "The Culling of the Worms: Body",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: الجسم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36206,8 +36206,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1043316295,
         "description": 442303550
@@ -36228,7 +36228,7 @@
       "node_type": "quest",
       "source_quest_id": "73516",
       "source_name": "The Culling of the Worms: Demonstration",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: العرض",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36245,8 +36245,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3007435511,
         "description": 2975905358
@@ -36267,7 +36267,7 @@
       "node_type": "quest",
       "source_quest_id": "73517",
       "source_name": "The Culling of the Worms: Conclusion",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: الخاتمة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36284,8 +36284,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4138030311,
         "description": 878525902
@@ -36306,7 +36306,7 @@
       "node_type": "quest",
       "source_quest_id": "73518",
       "source_name": "The Culling of the Worms: Presentation",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: التقديم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36323,8 +36323,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 240175263,
         "description": 1755825726
@@ -36345,7 +36345,7 @@
       "node_type": "quest",
       "source_quest_id": "73519",
       "source_name": "The Culling of the Worms: Ending",
-      "arabic_name": "",
+      "arabic_name": "إبادة الديدان: النهاية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36362,8 +36362,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2483822703,
         "description": 211792862
@@ -36384,7 +36384,7 @@
       "node_type": "quest",
       "source_quest_id": "73520",
       "source_name": "\"That Incident From Twenty Years Ago\"",
-      "arabic_name": "",
+      "arabic_name": "«تلك الحادثة قبل عشرين عاماً»",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36401,8 +36401,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3021423519,
         "description": 3043547926
@@ -36426,7 +36426,7 @@
       "node_type": "quest",
       "source_quest_id": "73521",
       "source_name": "Sachin's Article",
-      "arabic_name": "",
+      "arabic_name": "مقالة ساتشين",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36443,8 +36443,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1187804703,
         "description": 1427870478
@@ -36466,7 +36466,7 @@
       "node_type": "quest",
       "source_quest_id": "73522",
       "source_name": "The Contestant",
-      "arabic_name": "",
+      "arabic_name": "المتسابق",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36483,8 +36483,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 436099943,
         "description": 19967806
@@ -36506,7 +36506,7 @@
       "node_type": "quest",
       "source_quest_id": "73524",
       "source_name": "When the Curtains Close",
-      "arabic_name": "",
+      "arabic_name": "عندما تُسدل الستائر",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36523,8 +36523,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 805590159,
         "description": 4238776118
@@ -36545,7 +36545,7 @@
       "node_type": "quest",
       "source_quest_id": "73525",
       "source_name": "Complex Cartography",
-      "arabic_name": "",
+      "arabic_name": "رسم خرائط معقد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36562,8 +36562,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4005974791,
         "description": 2671608358
@@ -36584,7 +36584,7 @@
       "node_type": "quest",
       "source_quest_id": "73526",
       "source_name": "The Phantom Toy Master and the Barking Fox",
-      "arabic_name": "",
+      "arabic_name": "سيد الألعاب الشبح والثعلب النابح",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36601,8 +36601,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1390448423,
         "description": 3220365142
@@ -36623,7 +36623,7 @@
       "node_type": "quest",
       "source_quest_id": "73527",
       "source_name": "Crocs? Water Cannons? It's War!",
-      "arabic_name": "",
+      "arabic_name": "تماسيح؟ مدافع مائية؟ إنها الحرب!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36640,8 +36640,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3195157311,
         "description": 2776351038
@@ -36662,7 +36662,7 @@
       "node_type": "quest",
       "source_quest_id": "73528",
       "source_name": "Aren't Finches the Cutest?",
-      "arabic_name": "",
+      "arabic_name": "أليست العصافير هي الألطف؟",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36679,8 +36679,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 185511983,
         "description": 589882150
@@ -36701,7 +36701,7 @@
       "node_type": "quest",
       "source_quest_id": "73529",
       "source_name": "Determined and Elegant Battle Dance?",
-      "arabic_name": "",
+      "arabic_name": "رقصة معركة أنيقة وحازمة؟",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36718,8 +36718,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 739231271,
         "description": 2984557598
@@ -36740,7 +36740,7 @@
       "node_type": "quest",
       "source_quest_id": "73530",
       "source_name": "Fight for Academic Reputation!",
-      "arabic_name": "",
+      "arabic_name": "قاتل من أجل السمعة الأكاديمية!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36757,8 +36757,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2317760647,
         "description": 1984789078
@@ -36779,7 +36779,7 @@
       "node_type": "quest",
       "source_quest_id": "73531",
       "source_name": "Report the Experimental Data",
-      "arabic_name": "",
+      "arabic_name": "أبلغ عن البيانات التجريبية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36796,8 +36796,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2742003879,
         "description": 2053838238
@@ -36818,7 +36818,7 @@
       "node_type": "quest",
       "source_quest_id": "73532",
       "source_name": "An Odd Textual Mystery",
-      "arabic_name": "",
+      "arabic_name": "لغز نصي غريب",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36835,8 +36835,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1365130327,
         "description": 508952614
@@ -36859,7 +36859,7 @@
       "node_type": "quest",
       "source_quest_id": "73650",
       "source_name": "Thesis Proposal: He Shall not Pass",
-      "arabic_name": "",
+      "arabic_name": "مقترح أطروحة: لن يمر",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36876,8 +36876,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1153369135,
         "description": 3771824502
@@ -36898,7 +36898,7 @@
       "node_type": "quest",
       "source_quest_id": "73651",
       "source_name": "The Cliffside Weirdo and a Risky Study?",
-      "arabic_name": "",
+      "arabic_name": "غريب الجرف ودراسة محفوفة بالمخاطر؟",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36915,8 +36915,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 646461503,
         "description": 2139817382
@@ -36938,7 +36938,7 @@
       "node_type": "quest",
       "source_quest_id": "73652",
       "source_name": "Controllable Explosion",
-      "arabic_name": "",
+      "arabic_name": "انفجار يمكن التحكم به",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36955,8 +36955,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 675979351,
         "description": 3261056198
@@ -36978,7 +36978,7 @@
       "node_type": "quest",
       "source_quest_id": "73653",
       "source_name": "Amir's Raw Meat Commission",
-      "arabic_name": "",
+      "arabic_name": "تكليف أمير باللحم النيء",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -36995,8 +36995,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2470517719,
         "description": 2085600814
@@ -37017,7 +37017,7 @@
       "node_type": "quest",
       "source_quest_id": "73654",
       "source_name": "Peseng's Zaytun Peaches",
-      "arabic_name": "",
+      "arabic_name": "خوخ زيتون بيسينغ",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37034,8 +37034,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1556064359,
         "description": 1493077214
@@ -37056,7 +37056,7 @@
       "node_type": "quest",
       "source_quest_id": "73655",
       "source_name": "Kamla's Berries",
-      "arabic_name": "",
+      "arabic_name": "توت كاملا",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37073,8 +37073,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1863907759,
         "description": 1701449014
@@ -37095,7 +37095,7 @@
       "node_type": "quest",
       "source_quest_id": "73656",
       "source_name": "Housein's Harra Fruits",
-      "arabic_name": "",
+      "arabic_name": "ثمار حارة حسين",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37112,8 +37112,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3845956239,
         "description": 2212186206
@@ -37134,7 +37134,7 @@
       "node_type": "quest",
       "source_quest_id": "73657",
       "source_name": "Dwarkanath's White Iron Chunks",
-      "arabic_name": "",
+      "arabic_name": "قطع الحديد الأبيض لدواركاناث",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37151,8 +37151,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3572887367,
         "description": 4122690022
@@ -37173,7 +37173,7 @@
       "node_type": "quest",
       "source_quest_id": "73658",
       "source_name": "Kourosh's Sumeru Roses",
-      "arabic_name": "",
+      "arabic_name": "ورود سوميرو لكوروش",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37190,8 +37190,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3606811367,
         "description": 805538102
@@ -37212,7 +37212,7 @@
       "node_type": "quest",
       "source_quest_id": "73659",
       "source_name": "Yavanani's Apples",
-      "arabic_name": "",
+      "arabic_name": "تفاح يافاناني",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37229,8 +37229,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3981399223,
         "description": 2073784494
@@ -37251,7 +37251,7 @@
       "node_type": "quest",
       "source_quest_id": "73660",
       "source_name": "Arina's Nilotpala Lotuses",
-      "arabic_name": "",
+      "arabic_name": "زنابق نيلوتبالا لأرينا",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37268,8 +37268,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3448307791,
         "description": 1195212446
@@ -37290,7 +37290,7 @@
       "node_type": "quest",
       "source_quest_id": "73661",
       "source_name": "Jahan's Sugar",
-      "arabic_name": "",
+      "arabic_name": "سكر جهان",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37307,8 +37307,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 161850487,
         "description": 3322222622
@@ -37329,7 +37329,7 @@
       "node_type": "quest",
       "source_quest_id": "73662",
       "source_name": "Arayesh's Jam",
-      "arabic_name": "",
+      "arabic_name": "مربى أرايش",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37346,8 +37346,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 125132599,
         "description": 2043499574
@@ -37368,7 +37368,7 @@
       "node_type": "quest",
       "source_quest_id": "73663",
       "source_name": "Eremite Mayhem",
-      "arabic_name": "",
+      "arabic_name": "فوضى المرتزقة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37385,8 +37385,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1865128663,
         "description": 4075144238
@@ -37407,7 +37407,7 @@
       "node_type": "quest",
       "source_quest_id": "73664",
       "source_name": "Fatuous Farce",
-      "arabic_name": "",
+      "arabic_name": "مهزلة حمقاء",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37424,8 +37424,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3527349063,
         "description": 4191083318
@@ -37446,7 +37446,7 @@
       "node_type": "quest",
       "source_quest_id": "73665",
       "source_name": "Eremite Mayhem",
-      "arabic_name": "",
+      "arabic_name": "فوضى المرتزقة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37463,8 +37463,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2417145447,
         "description": 1837674566
@@ -37485,7 +37485,7 @@
       "node_type": "quest",
       "source_quest_id": "73666",
       "source_name": "Fungal Fracas",
-      "arabic_name": "",
+      "arabic_name": "فوضى الفطريات",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37502,8 +37502,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 501820783,
         "description": 523583294
@@ -37524,7 +37524,7 @@
       "node_type": "quest",
       "source_quest_id": "73667",
       "source_name": "Fungal Fracas",
-      "arabic_name": "",
+      "arabic_name": "فوضى الفطريات",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37541,8 +37541,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 33934039,
         "description": 3722312438
@@ -37563,7 +37563,7 @@
       "node_type": "quest",
       "source_quest_id": "73668",
       "source_name": "Hilichurl Hullaballoo",
-      "arabic_name": "",
+      "arabic_name": "جلبة الهيليتشور",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37580,8 +37580,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2250356575,
         "description": 3418201310
@@ -37602,7 +37602,7 @@
       "node_type": "quest",
       "source_quest_id": "73669",
       "source_name": "Ruin Drake Maelstrom",
-      "arabic_name": "",
+      "arabic_name": "دوامة تنين الخراب",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37619,8 +37619,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 760342607,
         "description": 1470994038
@@ -37641,7 +37641,7 @@
       "node_type": "quest",
       "source_quest_id": "73670",
       "source_name": "Eremite Mayhem",
-      "arabic_name": "",
+      "arabic_name": "فوضى المرتزقة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37658,8 +37658,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4285205543,
         "description": 1524613462
@@ -37680,7 +37680,7 @@
       "node_type": "quest",
       "source_quest_id": "73671",
       "source_name": "Ruin Drake Maelstrom",
-      "arabic_name": "",
+      "arabic_name": "دوامة تنين الخراب",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37697,8 +37697,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3349237503,
         "description": 1370849702
@@ -37719,7 +37719,7 @@
       "node_type": "quest",
       "source_quest_id": "73672",
       "source_name": "Fungal Fracas",
-      "arabic_name": "",
+      "arabic_name": "فوضى الفطريات",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37736,8 +37736,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4092768871,
         "description": 2318635990
@@ -37758,7 +37758,7 @@
       "node_type": "quest",
       "source_quest_id": "73673",
       "source_name": "Corps of Thirty Recruitment",
-      "arabic_name": "",
+      "arabic_name": "تجنيد في فيلق الثلاثين",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37775,8 +37775,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 643681247,
         "description": 4073812534
@@ -37799,7 +37799,7 @@
       "node_type": "quest",
       "source_quest_id": "73674",
       "source_name": "Treasures Beneath the Vines",
-      "arabic_name": "",
+      "arabic_name": "كنوز تحت الكروم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37816,8 +37816,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 542885727,
         "description": 4050113054
@@ -37838,7 +37838,7 @@
       "node_type": "quest",
       "source_quest_id": "73675",
       "source_name": "Where the Future Stars Fall",
-      "arabic_name": "",
+      "arabic_name": "حيث تسقط نجوم المستقبل",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37855,8 +37855,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2971963783,
         "description": 3587681558
@@ -37879,7 +37879,7 @@
       "node_type": "quest",
       "source_quest_id": "73676",
       "source_name": "Great Future Star",
-      "arabic_name": "",
+      "arabic_name": "نجم المستقبل العظيم",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37896,8 +37896,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2465126263,
         "description": 4025937270
@@ -37918,7 +37918,7 @@
       "node_type": "quest",
       "source_quest_id": "73677",
       "source_name": "Secret Forest Shadow",
-      "arabic_name": "",
+      "arabic_name": "ظل الغابة السرية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37935,8 +37935,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4222536143,
         "description": 3043168718
@@ -37961,7 +37961,7 @@
       "node_type": "quest",
       "source_quest_id": "73678",
       "source_name": "Farmland Fugitives",
-      "arabic_name": "",
+      "arabic_name": "هاربون من الأراضي الزراعية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -37980,8 +37980,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 2202833311,
         "description": 3823068038
@@ -38006,7 +38006,7 @@
       "node_type": "quest",
       "source_quest_id": "73679",
       "source_name": "Target: Master of the Snowy Peaks!",
-      "arabic_name": "",
+      "arabic_name": "الهدف: سيد القمم الثلجية!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38025,8 +38025,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3458246055,
         "description": 240383918
@@ -38049,7 +38049,7 @@
       "node_type": "quest",
       "source_quest_id": "73680",
       "source_name": "Fecund Hamper",
-      "arabic_name": "",
+      "arabic_name": "سلة وافرة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38066,8 +38066,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 883468615,
         "description": 679517590
@@ -38090,7 +38090,7 @@
       "node_type": "quest",
       "source_quest_id": "73681",
       "source_name": "Good as New",
-      "arabic_name": "",
+      "arabic_name": "كأنه جديد",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38109,8 +38109,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 26717511,
         "description": 2668732542
@@ -38133,7 +38133,7 @@
       "node_type": "quest",
       "source_quest_id": "73682",
       "source_name": "Exemplary Adventurer!",
-      "arabic_name": "",
+      "arabic_name": "مغامر مثالي!",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38150,8 +38150,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3748224599,
         "description": 2702372174
@@ -38174,7 +38174,7 @@
       "node_type": "quest",
       "source_quest_id": "73684",
       "source_name": "Across the Wilderness",
-      "arabic_name": "",
+      "arabic_name": "عبر البرية",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38191,8 +38191,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1723623135,
         "description": 2180053046
@@ -38213,7 +38213,7 @@
       "node_type": "quest",
       "source_quest_id": "73686",
       "source_name": "Unexpected Battle",
-      "arabic_name": "",
+      "arabic_name": "معركة غير متوقعة",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38230,8 +38230,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 4006995807,
         "description": 1654500270
@@ -38252,7 +38252,7 @@
       "node_type": "quest",
       "source_quest_id": "73687",
       "source_name": "The Sight of the Divine Emissary",
-      "arabic_name": "",
+      "arabic_name": "رؤية المبعوث الإلهي",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38269,8 +38269,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 1344538527,
         "description": 1957650438
@@ -38291,7 +38291,7 @@
       "node_type": "quest",
       "source_quest_id": "73688",
       "source_name": "Warrior's Spirit",
-      "arabic_name": "",
+      "arabic_name": "روح المحارب",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38308,8 +38308,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 643567919,
         "description": 2493813286
@@ -38330,7 +38330,7 @@
       "node_type": "quest",
       "source_quest_id": "73689",
       "source_name": "Vibro-Crystal Reharmonization",
-      "arabic_name": "",
+      "arabic_name": "إعادة تناغم بلورات الاهتزاز",
       "description_ar": null,
       "chapter_id": null,
       "act_id": null,
@@ -38347,8 +38347,8 @@
           "version": "7.2.0 / pinned English index"
         }
       ],
-      "translation_status": "needs_translation",
-      "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+      "translation_status": "draft",
+      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
       "source_text_map_hashes": {
         "title": 3784296343,
         "description": 3292390326
