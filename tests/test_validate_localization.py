@@ -277,6 +277,9 @@ class ValidatorRegressionTests(unittest.TestCase):
 
     def test_stale_review_note_conflicts_with_populated_summary(self):
         catalogs = fixture_catalogs()
+        catalogs["talents.json"]["entries"][0]["description_ar"] = (
+            "ملخص عربي موجود."
+        )
         catalogs["talents.json"]["entries"][0]["review_notes"] = (
             "الوصف لم يُترجم بعد."
         )
