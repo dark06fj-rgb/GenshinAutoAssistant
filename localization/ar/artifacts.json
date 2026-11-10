@@ -23,7 +23,7 @@
       "id": "artifact.bloodstained_chivalry",
       "category": "artifact",
       "source_name": "Bloodstained Chivalry",
-      "arabic_name": "فروسية الدم",
+      "arabic_name": "الفروسية الملطخة بالدم",
       "source": [
         {
           "name": "genshin-db",
@@ -32,7 +32,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+      "review_notes": "صياغة أدق لمعنى Bloodstained؛ مقترح غير رسمي ويبقى draft إلى حين مراجعة الاستعمال العربي لدى المجتمع."
     },
     {
       "id": "artifact.crimson_witch_of_flames",
