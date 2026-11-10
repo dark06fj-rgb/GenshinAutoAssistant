@@ -1,0 +1,25 @@
+{
+  "source_snapshot": "DimbreathBot/AnimeGameData@d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1",
+  "backlog_commit": "3faf9c1916e2c672593a7e1ee5709b04f314eb7a",
+  "original_needs_translation_count": 314,
+  "retained_in_current_catalog": 276,
+  "excluded_or_absent_from_current_roster": 38,
+  "source_descriptions_extracted": 274,
+  "arabic_summaries_written": 274,
+  "unresolved_count": 2,
+  "unresolved": [
+    {
+      "id": "quest.world.quest.77115",
+      "source_quest_id": "77115",
+      "hash": "2625786622",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.77307",
+      "source_quest_id": "77307",
+      "hash": "3439185798",
+      "reason": "hash_not_found"
+    }
+  ],
+  "summary_target_validation": "All 274 extracted source descriptions are represented by non-empty description_ar values in localization/ar/quests_world.json."
+}
