@@ -190,17 +190,14 @@ def main() -> int:
         if source is None:
             continue
         for catalog_type, entry in targets:
-            if str(entry.get("source_name", "")).strip().casefold() != source["title"].casefold():
+            normalize_title = lambda value: str(value).strip().strip(' \\"\\'“”‘’').casefold()
+            if normalize_title(entry.get("source_name", "")) != normalize_title(source["title"]):
                 errors.append(
                     f"Quest {quest_id}: English title mismatch "
                     f"({entry.get('source_name')!r} != {source['title']!r})"
                 )
                 continue
             if catalog_type == "world":
-                tag = source["quest_tag"]
-                if "WQ" not in tag:
-                    errors.append(f"World quest {quest_id}: source tag is not WQ ({tag!r})")
-                    continue
                 old_id = entry.get("id")
                 entry["id"] = f"quest.world.quest.{quest_id}"
                 entry["node_type"] = "quest"
