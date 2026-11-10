@@ -124,7 +124,7 @@ These edits correct Beidou's counter-scaling and Burst effects, Hu Tao's Blood B
 
 - Exact duplicate Arabic talent names: **0**.
 - Exact duplicate summary groups: **4**; these are generic Normal Attack patterns shared by characters with the same basic attack sequence, including the Traveler's seven Normal Attack kits. They are not duplicate IDs.
-- A same-talent-type character-bigram similarity scan found **169 pairs at or above 0.68**. The highest-scoring pairs are largely generic sword, claymore, and polearm Normal Attack templates. This heuristic is a review aid, not evidence of an error.
+- A same-talent-type character-bigram similarity scan found **172 pairs at or above 0.68**. The highest-scoring pairs are largely generic sword, claymore, and polearm Normal Attack templates. This heuristic is a review aid, not evidence of an error.
 - Five near-similar talent-name pairs were detected. They correspond to shared technique-name stems or distinct named variants (including the Kamisato Kyouka/Hyouka pair); no exact duplicate label was found.
 
 ### Potential inconsistencies left unresolved
