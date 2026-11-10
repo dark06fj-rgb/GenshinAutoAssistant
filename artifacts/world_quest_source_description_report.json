@@ -1,8 +1,3026 @@
 {
-  "backlog_target_count": 276,
-  "source_descriptions_extracted": 274,
-  "description_hashes_unresolved": 2,
+  "untranslated_summary_targets": 1014,
+  "source_descriptions_extracted": 486,
+  "description_hashes_unresolved": 528,
   "unresolved": [
+    {
+      "id": "quest.world.quest.310",
+      "source_quest_id": "310",
+      "hash": "3718491943",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.426",
+      "source_quest_id": "426",
+      "hash": "163527175",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.429",
+      "source_quest_id": "429",
+      "hash": "334106039",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.40060",
+      "source_quest_id": "40060",
+      "hash": "523050302",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70054",
+      "source_quest_id": "70054",
+      "hash": "3306702918",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70056",
+      "source_quest_id": "70056",
+      "hash": "231748718",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70057",
+      "source_quest_id": "70057",
+      "hash": "2489072030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70526",
+      "source_quest_id": "70526",
+      "hash": "3124819014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70668",
+      "source_quest_id": "70668",
+      "hash": "1570955414",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70672",
+      "source_quest_id": "70672",
+      "hash": "2171664574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70674",
+      "source_quest_id": "70674",
+      "hash": "663224662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70675",
+      "source_quest_id": "70675",
+      "hash": "3034913038",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70676",
+      "source_quest_id": "70676",
+      "hash": "4073489574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70684",
+      "source_quest_id": "70684",
+      "hash": "1358592406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70690",
+      "source_quest_id": "70690",
+      "hash": "243227774",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70694",
+      "source_quest_id": "70694",
+      "hash": "2550209862",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70696",
+      "source_quest_id": "70696",
+      "hash": "3221592350",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70699",
+      "source_quest_id": "70699",
+      "hash": "3847751686",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70701",
+      "source_quest_id": "70701",
+      "hash": "3226701254",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70707",
+      "source_quest_id": "70707",
+      "hash": "3131864206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70710",
+      "source_quest_id": "70710",
+      "hash": "3856998486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70711",
+      "source_quest_id": "70711",
+      "hash": "2789618046",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70712",
+      "source_quest_id": "70712",
+      "hash": "334497230",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70800",
+      "source_quest_id": "70800",
+      "hash": "4006725862",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70803",
+      "source_quest_id": "70803",
+      "hash": "2953401558",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70812",
+      "source_quest_id": "70812",
+      "hash": "538396038",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70814",
+      "source_quest_id": "70814",
+      "hash": "479157670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70815",
+      "source_quest_id": "70815",
+      "hash": "1486290046",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70821",
+      "source_quest_id": "70821",
+      "hash": "608028734",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70823",
+      "source_quest_id": "70823",
+      "hash": "4065754614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70824",
+      "source_quest_id": "70824",
+      "hash": "2475577430",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.70825",
+      "source_quest_id": "70825",
+      "hash": "1729876278",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71006",
+      "source_quest_id": "71006",
+      "hash": "344295454",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71014",
+      "source_quest_id": "71014",
+      "hash": "778588646",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71018",
+      "source_quest_id": "71018",
+      "hash": "3077157054",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71035",
+      "source_quest_id": "71035",
+      "hash": "3837795126",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71038",
+      "source_quest_id": "71038",
+      "hash": "818519070",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71042",
+      "source_quest_id": "71042",
+      "hash": "2542270518",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71044",
+      "source_quest_id": "71044",
+      "hash": "3555232854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71045",
+      "source_quest_id": "71045",
+      "hash": "3901548646",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71048",
+      "source_quest_id": "71048",
+      "hash": "1613635822",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71049",
+      "source_quest_id": "71049",
+      "hash": "3793208814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71050",
+      "source_quest_id": "71050",
+      "hash": "3157677118",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71051",
+      "source_quest_id": "71051",
+      "hash": "4093805998",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71055",
+      "source_quest_id": "71055",
+      "hash": "2954278254",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71057",
+      "source_quest_id": "71057",
+      "hash": "886641846",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71061",
+      "source_quest_id": "71061",
+      "hash": "2169648422",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71062",
+      "source_quest_id": "71062",
+      "hash": "1658403134",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71064",
+      "source_quest_id": "71064",
+      "hash": "3246446894",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71074",
+      "source_quest_id": "71074",
+      "hash": "1859576030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71077",
+      "source_quest_id": "71077",
+      "hash": "779632046",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71099",
+      "source_quest_id": "71099",
+      "hash": "765722878",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71100",
+      "source_quest_id": "71100",
+      "hash": "53479014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71101",
+      "source_quest_id": "71101",
+      "hash": "2824415470",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71107",
+      "source_quest_id": "71107",
+      "hash": "1063132246",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71108",
+      "source_quest_id": "71108",
+      "hash": "1697427662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71109",
+      "source_quest_id": "71109",
+      "hash": "2566793606",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71111",
+      "source_quest_id": "71111",
+      "hash": "3453031750",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71114",
+      "source_quest_id": "71114",
+      "hash": "45379486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71115",
+      "source_quest_id": "71115",
+      "hash": "3328943142",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71116",
+      "source_quest_id": "71116",
+      "hash": "3000754382",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71125",
+      "source_quest_id": "71125",
+      "hash": "3954802782",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71149",
+      "source_quest_id": "71149",
+      "hash": "2852219342",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71163",
+      "source_quest_id": "71163",
+      "hash": "323828758",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71502",
+      "source_quest_id": "71502",
+      "hash": "14348422",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71504",
+      "source_quest_id": "71504",
+      "hash": "1613349126",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71505",
+      "source_quest_id": "71505",
+      "hash": "206113910",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71508",
+      "source_quest_id": "71508",
+      "hash": "3638429854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71509",
+      "source_quest_id": "71509",
+      "hash": "2526668982",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71520",
+      "source_quest_id": "71520",
+      "hash": "3799290982",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71521",
+      "source_quest_id": "71521",
+      "hash": "2921717054",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71522",
+      "source_quest_id": "71522",
+      "hash": "567973198",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71523",
+      "source_quest_id": "71523",
+      "hash": "306613574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71531",
+      "source_quest_id": "71531",
+      "hash": "2120929662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71537",
+      "source_quest_id": "71537",
+      "hash": "4061543630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71555",
+      "source_quest_id": "71555",
+      "hash": "3883445463",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71650",
+      "source_quest_id": "71650",
+      "hash": "1933777158",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71653",
+      "source_quest_id": "71653",
+      "hash": "3333683550",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71654",
+      "source_quest_id": "71654",
+      "hash": "1942506974",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71655",
+      "source_quest_id": "71655",
+      "hash": "3842354342",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71656",
+      "source_quest_id": "71656",
+      "hash": "770689318",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71657",
+      "source_quest_id": "71657",
+      "hash": "2167116286",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71659",
+      "source_quest_id": "71659",
+      "hash": "896707910",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71668",
+      "source_quest_id": "71668",
+      "hash": "3712912526",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71700",
+      "source_quest_id": "71700",
+      "hash": "3952379118",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71703",
+      "source_quest_id": "71703",
+      "hash": "1535746222",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71704",
+      "source_quest_id": "71704",
+      "hash": "677890294",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71705",
+      "source_quest_id": "71705",
+      "hash": "4190143814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71707",
+      "source_quest_id": "71707",
+      "hash": "3971322166",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71709",
+      "source_quest_id": "71709",
+      "hash": "3596964222",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71710",
+      "source_quest_id": "71710",
+      "hash": "1858185286",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71711",
+      "source_quest_id": "71711",
+      "hash": "4151031062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71712",
+      "source_quest_id": "71712",
+      "hash": "971279590",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71713",
+      "source_quest_id": "71713",
+      "hash": "2017587350",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71802",
+      "source_quest_id": "71802",
+      "hash": "1426964662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71804",
+      "source_quest_id": "71804",
+      "hash": "1041800494",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71808",
+      "source_quest_id": "71808",
+      "hash": "1123494926",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71809",
+      "source_quest_id": "71809",
+      "hash": "3176758670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71820",
+      "source_quest_id": "71820",
+      "hash": "1036975198",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71824",
+      "source_quest_id": "71824",
+      "hash": "2190757998",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71829",
+      "source_quest_id": "71829",
+      "hash": "3665288574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.71831",
+      "source_quest_id": "71831",
+      "hash": "2825952814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72100",
+      "source_quest_id": "72100",
+      "hash": "3046670766",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72105",
+      "source_quest_id": "72105",
+      "hash": "3984731318",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72108",
+      "source_quest_id": "72108",
+      "hash": "2749779366",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72114",
+      "source_quest_id": "72114",
+      "hash": "2299722238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72116",
+      "source_quest_id": "72116",
+      "hash": "1994194190",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72118",
+      "source_quest_id": "72118",
+      "hash": "3209733238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72123",
+      "source_quest_id": "72123",
+      "hash": "318970126",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72129",
+      "source_quest_id": "72129",
+      "hash": "1412778310",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72133",
+      "source_quest_id": "72133",
+      "hash": "3266313670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72134",
+      "source_quest_id": "72134",
+      "hash": "1530289486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72138",
+      "source_quest_id": "72138",
+      "hash": "3550259550",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72141",
+      "source_quest_id": "72141",
+      "hash": "2284075734",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72145",
+      "source_quest_id": "72145",
+      "hash": "3641746358",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72146",
+      "source_quest_id": "72146",
+      "hash": "2615032598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72147",
+      "source_quest_id": "72147",
+      "hash": "3460882342",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72148",
+      "source_quest_id": "72148",
+      "hash": "373889150",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72149",
+      "source_quest_id": "72149",
+      "hash": "1969220382",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72150",
+      "source_quest_id": "72150",
+      "hash": "4198997318",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72153",
+      "source_quest_id": "72153",
+      "hash": "3052739062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72156",
+      "source_quest_id": "72156",
+      "hash": "3854021702",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72162",
+      "source_quest_id": "72162",
+      "hash": "2390557894",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72163",
+      "source_quest_id": "72163",
+      "hash": "2334057478",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72164",
+      "source_quest_id": "72164",
+      "hash": "2765617214",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72169",
+      "source_quest_id": "72169",
+      "hash": "136066502",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72171",
+      "source_quest_id": "72171",
+      "hash": "1422575630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72172",
+      "source_quest_id": "72172",
+      "hash": "3449712862",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72173",
+      "source_quest_id": "72173",
+      "hash": "588224798",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72176",
+      "source_quest_id": "72176",
+      "hash": "718255526",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72183",
+      "source_quest_id": "72183",
+      "hash": "2885578206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72184",
+      "source_quest_id": "72184",
+      "hash": "2227717342",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72190",
+      "source_quest_id": "72190",
+      "hash": "1724173390",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72191",
+      "source_quest_id": "72191",
+      "hash": "1861934254",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72192",
+      "source_quest_id": "72192",
+      "hash": "234119190",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72196",
+      "source_quest_id": "72196",
+      "hash": "2828612174",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72197",
+      "source_quest_id": "72197",
+      "hash": "2764967006",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72199",
+      "source_quest_id": "72199",
+      "hash": "3056388518",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72210",
+      "source_quest_id": "72210",
+      "hash": "242969766",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72211",
+      "source_quest_id": "72211",
+      "hash": "3699053734",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72213",
+      "source_quest_id": "72213",
+      "hash": "588893406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72214",
+      "source_quest_id": "72214",
+      "hash": "757238158",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72215",
+      "source_quest_id": "72215",
+      "hash": "3926553926",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72232",
+      "source_quest_id": "72232",
+      "hash": "3719326166",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72233",
+      "source_quest_id": "72233",
+      "hash": "1617119734",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72236",
+      "source_quest_id": "72236",
+      "hash": "2224735590",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72238",
+      "source_quest_id": "72238",
+      "hash": "3249368278",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72239",
+      "source_quest_id": "72239",
+      "hash": "1525878062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72240",
+      "source_quest_id": "72240",
+      "hash": "2330480014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72241",
+      "source_quest_id": "72241",
+      "hash": "318086590",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72261",
+      "source_quest_id": "72261",
+      "hash": "4141498694",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72262",
+      "source_quest_id": "72262",
+      "hash": "1321525614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72263",
+      "source_quest_id": "72263",
+      "hash": "1308000182",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72264",
+      "source_quest_id": "72264",
+      "hash": "2897948814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72265",
+      "source_quest_id": "72265",
+      "hash": "3182793390",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72266",
+      "source_quest_id": "72266",
+      "hash": "1894607838",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72268",
+      "source_quest_id": "72268",
+      "hash": "2022677726",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72269",
+      "source_quest_id": "72269",
+      "hash": "4032838038",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72270",
+      "source_quest_id": "72270",
+      "hash": "1936298430",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72275",
+      "source_quest_id": "72275",
+      "hash": "534744278",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72276",
+      "source_quest_id": "72276",
+      "hash": "1096322230",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72278",
+      "source_quest_id": "72278",
+      "hash": "4213937174",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72280",
+      "source_quest_id": "72280",
+      "hash": "1743042774",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72281",
+      "source_quest_id": "72281",
+      "hash": "2462512614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72286",
+      "source_quest_id": "72286",
+      "hash": "508157958",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72287",
+      "source_quest_id": "72287",
+      "hash": "959986878",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72500",
+      "source_quest_id": "72500",
+      "hash": "1876225478",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72501",
+      "source_quest_id": "72501",
+      "hash": "3696807094",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72657",
+      "source_quest_id": "72657",
+      "hash": "939094334",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72661",
+      "source_quest_id": "72661",
+      "hash": "233968710",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72663",
+      "source_quest_id": "72663",
+      "hash": "2682271222",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72664",
+      "source_quest_id": "72664",
+      "hash": "3481020606",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72670",
+      "source_quest_id": "72670",
+      "hash": "3764260878",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72674",
+      "source_quest_id": "72674",
+      "hash": "3030334742",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72676",
+      "source_quest_id": "72676",
+      "hash": "3424725414",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72678",
+      "source_quest_id": "72678",
+      "hash": "4176557542",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72682",
+      "source_quest_id": "72682",
+      "hash": "97046654",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72683",
+      "source_quest_id": "72683",
+      "hash": "2060608622",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72684",
+      "source_quest_id": "72684",
+      "hash": "143967398",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72687",
+      "source_quest_id": "72687",
+      "hash": "3874649598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72690",
+      "source_quest_id": "72690",
+      "hash": "698343638",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72692",
+      "source_quest_id": "72692",
+      "hash": "2367027414",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72694",
+      "source_quest_id": "72694",
+      "hash": "210390462",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72695",
+      "source_quest_id": "72695",
+      "hash": "456556694",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72696",
+      "source_quest_id": "72696",
+      "hash": "3945064534",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72697",
+      "source_quest_id": "72697",
+      "hash": "2880960998",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72698",
+      "source_quest_id": "72698",
+      "hash": "1975190718",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72699",
+      "source_quest_id": "72699",
+      "hash": "2947966110",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72702",
+      "source_quest_id": "72702",
+      "hash": "1087264046",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72706",
+      "source_quest_id": "72706",
+      "hash": "3597692046",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72707",
+      "source_quest_id": "72707",
+      "hash": "3811767646",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72708",
+      "source_quest_id": "72708",
+      "hash": "254494838",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72710",
+      "source_quest_id": "72710",
+      "hash": "2773984486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72714",
+      "source_quest_id": "72714",
+      "hash": "1744920062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72715",
+      "source_quest_id": "72715",
+      "hash": "1411714070",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72716",
+      "source_quest_id": "72716",
+      "hash": "2446776502",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72717",
+      "source_quest_id": "72717",
+      "hash": "3486778678",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72719",
+      "source_quest_id": "72719",
+      "hash": "1779381710",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72720",
+      "source_quest_id": "72720",
+      "hash": "4167974118",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72727",
+      "source_quest_id": "72727",
+      "hash": "3672285454",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72730",
+      "source_quest_id": "72730",
+      "hash": "1982180446",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72731",
+      "source_quest_id": "72731",
+      "hash": "1102256302",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72800",
+      "source_quest_id": "72800",
+      "hash": "1835120662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72806",
+      "source_quest_id": "72806",
+      "hash": "3511415902",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72809",
+      "source_quest_id": "72809",
+      "hash": "1234327766",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72812",
+      "source_quest_id": "72812",
+      "hash": "2138586510",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.72813",
+      "source_quest_id": "72813",
+      "hash": "109993358",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73000",
+      "source_quest_id": "73000",
+      "hash": "4122341006",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73001",
+      "source_quest_id": "73001",
+      "hash": "3022354430",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73014",
+      "source_quest_id": "73014",
+      "hash": "1343943238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73017",
+      "source_quest_id": "73017",
+      "hash": "422012862",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73018",
+      "source_quest_id": "73018",
+      "hash": "1553717086",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73019",
+      "source_quest_id": "73019",
+      "hash": "3109093190",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73020",
+      "source_quest_id": "73020",
+      "hash": "908215030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73021",
+      "source_quest_id": "73021",
+      "hash": "2098715374",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73022",
+      "source_quest_id": "73022",
+      "hash": "1868653070",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73024",
+      "source_quest_id": "73024",
+      "hash": "2642635270",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73025",
+      "source_quest_id": "73025",
+      "hash": "577527430",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73026",
+      "source_quest_id": "73026",
+      "hash": "2369664814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73028",
+      "source_quest_id": "73028",
+      "hash": "3025927886",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73029",
+      "source_quest_id": "73029",
+      "hash": "2888254094",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73033",
+      "source_quest_id": "73033",
+      "hash": "1698222646",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73035",
+      "source_quest_id": "73035",
+      "hash": "3102830542",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73039",
+      "source_quest_id": "73039",
+      "hash": "3449150006",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73041",
+      "source_quest_id": "73041",
+      "hash": "1202911054",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73053",
+      "source_quest_id": "73053",
+      "hash": "626853366",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73055",
+      "source_quest_id": "73055",
+      "hash": "2387183654",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73061",
+      "source_quest_id": "73061",
+      "hash": "1771092582",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73063",
+      "source_quest_id": "73063",
+      "hash": "94625062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73066",
+      "source_quest_id": "73066",
+      "hash": "4293246534",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73069",
+      "source_quest_id": "73069",
+      "hash": "3368480166",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73070",
+      "source_quest_id": "73070",
+      "hash": "4123511350",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73073",
+      "source_quest_id": "73073",
+      "hash": "1380863598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73074",
+      "source_quest_id": "73074",
+      "hash": "4105494614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73077",
+      "source_quest_id": "73077",
+      "hash": "2969690118",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73081",
+      "source_quest_id": "73081",
+      "hash": "947046254",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73083",
+      "source_quest_id": "73083",
+      "hash": "42032406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73099",
+      "source_quest_id": "73099",
+      "hash": "1519044206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73109",
+      "source_quest_id": "73109",
+      "hash": "1161650302",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73186",
+      "source_quest_id": "73186",
+      "hash": "948641014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73187",
+      "source_quest_id": "73187",
+      "hash": "1430540358",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73190",
+      "source_quest_id": "73190",
+      "hash": "2570363078",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73193",
+      "source_quest_id": "73193",
+      "hash": "2860638326",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73203",
+      "source_quest_id": "73203",
+      "hash": "1169081406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73204",
+      "source_quest_id": "73204",
+      "hash": "2720038382",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73205",
+      "source_quest_id": "73205",
+      "hash": "720870886",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73207",
+      "source_quest_id": "73207",
+      "hash": "1296052534",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73219",
+      "source_quest_id": "73219",
+      "hash": "1750418574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73233",
+      "source_quest_id": "73233",
+      "hash": "759422982",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73238",
+      "source_quest_id": "73238",
+      "hash": "1976355238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73239",
+      "source_quest_id": "73239",
+      "hash": "2221341086",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73248",
+      "source_quest_id": "73248",
+      "hash": "3475916102",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73253",
+      "source_quest_id": "73253",
+      "hash": "4182890918",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73256",
+      "source_quest_id": "73256",
+      "hash": "1872665086",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73257",
+      "source_quest_id": "73257",
+      "hash": "2463020206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73282",
+      "source_quest_id": "73282",
+      "hash": "292964534",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73285",
+      "source_quest_id": "73285",
+      "hash": "441600198",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73287",
+      "source_quest_id": "73287",
+      "hash": "3717606726",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73296",
+      "source_quest_id": "73296",
+      "hash": "2375123350",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73307",
+      "source_quest_id": "73307",
+      "hash": "2579157270",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73309",
+      "source_quest_id": "73309",
+      "hash": "2309824870",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73310",
+      "source_quest_id": "73310",
+      "hash": "2657434982",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73316",
+      "source_quest_id": "73316",
+      "hash": "476999014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73329",
+      "source_quest_id": "73329",
+      "hash": "2598205526",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73332",
+      "source_quest_id": "73332",
+      "hash": "834398462",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73341",
+      "source_quest_id": "73341",
+      "hash": "2976689518",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73350",
+      "source_quest_id": "73350",
+      "hash": "3454689670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73352",
+      "source_quest_id": "73352",
+      "hash": "2070145054",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73353",
+      "source_quest_id": "73353",
+      "hash": "1143299246",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73354",
+      "source_quest_id": "73354",
+      "hash": "835320902",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73500",
+      "source_quest_id": "73500",
+      "hash": "3212220430",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73503",
+      "source_quest_id": "73503",
+      "hash": "1201788078",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73506",
+      "source_quest_id": "73506",
+      "hash": "545422422",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73507",
+      "source_quest_id": "73507",
+      "hash": "248538550",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73508",
+      "source_quest_id": "73508",
+      "hash": "2331045286",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73509",
+      "source_quest_id": "73509",
+      "hash": "3491513494",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73510",
+      "source_quest_id": "73510",
+      "hash": "3480068302",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73511",
+      "source_quest_id": "73511",
+      "hash": "2195586150",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73513",
+      "source_quest_id": "73513",
+      "hash": "2992557334",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73515",
+      "source_quest_id": "73515",
+      "hash": "442303550",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73517",
+      "source_quest_id": "73517",
+      "hash": "878525902",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73527",
+      "source_quest_id": "73527",
+      "hash": "2776351038",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73529",
+      "source_quest_id": "73529",
+      "hash": "2984557598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73531",
+      "source_quest_id": "73531",
+      "hash": "2053838238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73532",
+      "source_quest_id": "73532",
+      "hash": "508952614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73650",
+      "source_quest_id": "73650",
+      "hash": "3771824502",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73651",
+      "source_quest_id": "73651",
+      "hash": "2139817382",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73652",
+      "source_quest_id": "73652",
+      "hash": "3261056198",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73654",
+      "source_quest_id": "73654",
+      "hash": "1493077214",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73655",
+      "source_quest_id": "73655",
+      "hash": "1701449014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73656",
+      "source_quest_id": "73656",
+      "hash": "2212186206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73657",
+      "source_quest_id": "73657",
+      "hash": "4122690022",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73658",
+      "source_quest_id": "73658",
+      "hash": "805538102",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73659",
+      "source_quest_id": "73659",
+      "hash": "2073784494",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73661",
+      "source_quest_id": "73661",
+      "hash": "3322222622",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73662",
+      "source_quest_id": "73662",
+      "hash": "2043499574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73663",
+      "source_quest_id": "73663",
+      "hash": "4075144238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73665",
+      "source_quest_id": "73665",
+      "hash": "1837674566",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73668",
+      "source_quest_id": "73668",
+      "hash": "3418201310",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73670",
+      "source_quest_id": "73670",
+      "hash": "1524613462",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73671",
+      "source_quest_id": "73671",
+      "hash": "1370849702",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73675",
+      "source_quest_id": "73675",
+      "hash": "3587681558",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73676",
+      "source_quest_id": "73676",
+      "hash": "4025937270",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73677",
+      "source_quest_id": "73677",
+      "hash": "3043168718",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73680",
+      "source_quest_id": "73680",
+      "hash": "679517590",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73681",
+      "source_quest_id": "73681",
+      "hash": "2668732542",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73682",
+      "source_quest_id": "73682",
+      "hash": "2702372174",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73684",
+      "source_quest_id": "73684",
+      "hash": "2180053046",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73687",
+      "source_quest_id": "73687",
+      "hash": "1957650438",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73692",
+      "source_quest_id": "73692",
+      "hash": "2002494558",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73695",
+      "source_quest_id": "73695",
+      "hash": "1808605214",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73697",
+      "source_quest_id": "73697",
+      "hash": "2262716454",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73698",
+      "source_quest_id": "73698",
+      "hash": "1888522494",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73699",
+      "source_quest_id": "73699",
+      "hash": "75551950",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73702",
+      "source_quest_id": "73702",
+      "hash": "4271491078",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73705",
+      "source_quest_id": "73705",
+      "hash": "2705272294",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73800",
+      "source_quest_id": "73800",
+      "hash": "2894604550",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73801",
+      "source_quest_id": "73801",
+      "hash": "3124063486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.73805",
+      "source_quest_id": "73805",
+      "hash": "4038589630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74001",
+      "source_quest_id": "74001",
+      "hash": "3032362406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74004",
+      "source_quest_id": "74004",
+      "hash": "8507814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74007",
+      "source_quest_id": "74007",
+      "hash": "3429257542",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74008",
+      "source_quest_id": "74008",
+      "hash": "85269614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74012",
+      "source_quest_id": "74012",
+      "hash": "57184574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74014",
+      "source_quest_id": "74014",
+      "hash": "658084998",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74015",
+      "source_quest_id": "74015",
+      "hash": "3431615998",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74025",
+      "source_quest_id": "74025",
+      "hash": "3545507390",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74026",
+      "source_quest_id": "74026",
+      "hash": "3928567670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74028",
+      "source_quest_id": "74028",
+      "hash": "4150012486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74030",
+      "source_quest_id": "74030",
+      "hash": "3594487134",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74032",
+      "source_quest_id": "74032",
+      "hash": "1454278854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74034",
+      "source_quest_id": "74034",
+      "hash": "146463830",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74036",
+      "source_quest_id": "74036",
+      "hash": "143426870",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74040",
+      "source_quest_id": "74040",
+      "hash": "2827817118",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74041",
+      "source_quest_id": "74041",
+      "hash": "2028423438",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74053",
+      "source_quest_id": "74053",
+      "hash": "2744420838",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74058",
+      "source_quest_id": "74058",
+      "hash": "2464962814",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74060",
+      "source_quest_id": "74060",
+      "hash": "1831657854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74061",
+      "source_quest_id": "74061",
+      "hash": "1884611926",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74063",
+      "source_quest_id": "74063",
+      "hash": "1527250062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74064",
+      "source_quest_id": "74064",
+      "hash": "1345096150",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74066",
+      "source_quest_id": "74066",
+      "hash": "2907391030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74067",
+      "source_quest_id": "74067",
+      "hash": "1417626718",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74068",
+      "source_quest_id": "74068",
+      "hash": "4077318486",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74072",
+      "source_quest_id": "74072",
+      "hash": "265469342",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74074",
+      "source_quest_id": "74074",
+      "hash": "3423438142",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74076",
+      "source_quest_id": "74076",
+      "hash": "1529006198",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74077",
+      "source_quest_id": "74077",
+      "hash": "3259130910",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74078",
+      "source_quest_id": "74078",
+      "hash": "1583923694",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74082",
+      "source_quest_id": "74082",
+      "hash": "953592878",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74088",
+      "source_quest_id": "74088",
+      "hash": "2651593086",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74116",
+      "source_quest_id": "74116",
+      "hash": "451840030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74135",
+      "source_quest_id": "74135",
+      "hash": "1882272854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74136",
+      "source_quest_id": "74136",
+      "hash": "1976095750",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74140",
+      "source_quest_id": "74140",
+      "hash": "480034630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74141",
+      "source_quest_id": "74141",
+      "hash": "3554274230",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74142",
+      "source_quest_id": "74142",
+      "hash": "1242645598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74143",
+      "source_quest_id": "74143",
+      "hash": "847730886",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74144",
+      "source_quest_id": "74144",
+      "hash": "2001468438",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74153",
+      "source_quest_id": "74153",
+      "hash": "586018854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74156",
+      "source_quest_id": "74156",
+      "hash": "2111810038",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74157",
+      "source_quest_id": "74157",
+      "hash": "818917734",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74164",
+      "source_quest_id": "74164",
+      "hash": "3767578670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74166",
+      "source_quest_id": "74166",
+      "hash": "763821910",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74183",
+      "source_quest_id": "74183",
+      "hash": "1981927718",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74185",
+      "source_quest_id": "74185",
+      "hash": "735565158",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74194",
+      "source_quest_id": "74194",
+      "hash": "313186406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74216",
+      "source_quest_id": "74216",
+      "hash": "409270606",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74217",
+      "source_quest_id": "74217",
+      "hash": "3044792334",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74500",
+      "source_quest_id": "74500",
+      "hash": "3845302462",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74501",
+      "source_quest_id": "74501",
+      "hash": "2581993918",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74503",
+      "source_quest_id": "74503",
+      "hash": "4161804310",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74506",
+      "source_quest_id": "74506",
+      "hash": "586130374",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74507",
+      "source_quest_id": "74507",
+      "hash": "210854206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74510",
+      "source_quest_id": "74510",
+      "hash": "2152881558",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74514",
+      "source_quest_id": "74514",
+      "hash": "1418570974",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74518",
+      "source_quest_id": "74518",
+      "hash": "2960078294",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74531",
+      "source_quest_id": "74531",
+      "hash": "2341100974",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74650",
+      "source_quest_id": "74650",
+      "hash": "2435536158",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74651",
+      "source_quest_id": "74651",
+      "hash": "2666825822",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74653",
+      "source_quest_id": "74653",
+      "hash": "1419209206",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74657",
+      "source_quest_id": "74657",
+      "hash": "263785782",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74661",
+      "source_quest_id": "74661",
+      "hash": "2877416830",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74662",
+      "source_quest_id": "74662",
+      "hash": "15971638",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74663",
+      "source_quest_id": "74663",
+      "hash": "1752042678",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74664",
+      "source_quest_id": "74664",
+      "hash": "1937853750",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74672",
+      "source_quest_id": "74672",
+      "hash": "2688100574",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74673",
+      "source_quest_id": "74673",
+      "hash": "1673988590",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74674",
+      "source_quest_id": "74674",
+      "hash": "1054548110",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74676",
+      "source_quest_id": "74676",
+      "hash": "3492331990",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74679",
+      "source_quest_id": "74679",
+      "hash": "2268063006",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74680",
+      "source_quest_id": "74680",
+      "hash": "615266334",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74681",
+      "source_quest_id": "74681",
+      "hash": "2096236702",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74684",
+      "source_quest_id": "74684",
+      "hash": "4262555726",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74687",
+      "source_quest_id": "74687",
+      "hash": "1819328902",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74688",
+      "source_quest_id": "74688",
+      "hash": "2281319854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74689",
+      "source_quest_id": "74689",
+      "hash": "3088390454",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.74800",
+      "source_quest_id": "74800",
+      "hash": "777729126",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75002",
+      "source_quest_id": "75002",
+      "hash": "4253066262",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75008",
+      "source_quest_id": "75008",
+      "hash": "494172630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75009",
+      "source_quest_id": "75009",
+      "hash": "618303766",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75011",
+      "source_quest_id": "75011",
+      "hash": "3700763934",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75014",
+      "source_quest_id": "75014",
+      "hash": "3325790630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75017",
+      "source_quest_id": "75017",
+      "hash": "879850742",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75018",
+      "source_quest_id": "75018",
+      "hash": "57703854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75022",
+      "source_quest_id": "75022",
+      "hash": "3793262726",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75029",
+      "source_quest_id": "75029",
+      "hash": "524093534",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75032",
+      "source_quest_id": "75032",
+      "hash": "4145862886",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75048",
+      "source_quest_id": "75048",
+      "hash": "4108096598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75064",
+      "source_quest_id": "75064",
+      "hash": "3201375630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75069",
+      "source_quest_id": "75069",
+      "hash": "2871507766",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75070",
+      "source_quest_id": "75070",
+      "hash": "2941526238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75079",
+      "source_quest_id": "75079",
+      "hash": "1520843166",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75086",
+      "source_quest_id": "75086",
+      "hash": "619197566",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75087",
+      "source_quest_id": "75087",
+      "hash": "1962153390",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75104",
+      "source_quest_id": "75104",
+      "hash": "3377351166",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75107",
+      "source_quest_id": "75107",
+      "hash": "3741662526",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75108",
+      "source_quest_id": "75108",
+      "hash": "1902907454",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75133",
+      "source_quest_id": "75133",
+      "hash": "1530692894",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75135",
+      "source_quest_id": "75135",
+      "hash": "3546350718",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75137",
+      "source_quest_id": "75137",
+      "hash": "1192650030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75146",
+      "source_quest_id": "75146",
+      "hash": "3566180798",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75147",
+      "source_quest_id": "75147",
+      "hash": "3219562982",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75148",
+      "source_quest_id": "75148",
+      "hash": "2589541846",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75149",
+      "source_quest_id": "75149",
+      "hash": "2877223342",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75150",
+      "source_quest_id": "75150",
+      "hash": "4193913926",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75165",
+      "source_quest_id": "75165",
+      "hash": "3818316878",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75169",
+      "source_quest_id": "75169",
+      "hash": "1967472006",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75170",
+      "source_quest_id": "75170",
+      "hash": "1678173630",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75171",
+      "source_quest_id": "75171",
+      "hash": "2035599390",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75175",
+      "source_quest_id": "75175",
+      "hash": "1228369254",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75177",
+      "source_quest_id": "75177",
+      "hash": "2179003894",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75181",
+      "source_quest_id": "75181",
+      "hash": "2064715854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75189",
+      "source_quest_id": "75189",
+      "hash": "1913114654",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75197",
+      "source_quest_id": "75197",
+      "hash": "886226014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75200",
+      "source_quest_id": "75200",
+      "hash": "254858478",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75202",
+      "source_quest_id": "75202",
+      "hash": "67772926",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75209",
+      "source_quest_id": "75209",
+      "hash": "1432743022",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75210",
+      "source_quest_id": "75210",
+      "hash": "3202904566",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75211",
+      "source_quest_id": "75211",
+      "hash": "1913864230",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75212",
+      "source_quest_id": "75212",
+      "hash": "1607679150",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75242",
+      "source_quest_id": "75242",
+      "hash": "380183654",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75246",
+      "source_quest_id": "75246",
+      "hash": "2357504310",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75247",
+      "source_quest_id": "75247",
+      "hash": "3253842062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75504",
+      "source_quest_id": "75504",
+      "hash": "2031533374",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75505",
+      "source_quest_id": "75505",
+      "hash": "1763287550",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75507",
+      "source_quest_id": "75507",
+      "hash": "57032710",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75509",
+      "source_quest_id": "75509",
+      "hash": "4005680446",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75651",
+      "source_quest_id": "75651",
+      "hash": "1450265606",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75658",
+      "source_quest_id": "75658",
+      "hash": "3965045790",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75659",
+      "source_quest_id": "75659",
+      "hash": "2351189110",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75663",
+      "source_quest_id": "75663",
+      "hash": "229462406",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75664",
+      "source_quest_id": "75664",
+      "hash": "1209192950",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75665",
+      "source_quest_id": "75665",
+      "hash": "3110054318",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75666",
+      "source_quest_id": "75666",
+      "hash": "2696665174",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.75670",
+      "source_quest_id": "75670",
+      "hash": "3760646310",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76000",
+      "source_quest_id": "76000",
+      "hash": "3420301438",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76001",
+      "source_quest_id": "76001",
+      "hash": "1598817470",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76004",
+      "source_quest_id": "76004",
+      "hash": "3831543894",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76009",
+      "source_quest_id": "76009",
+      "hash": "3571344854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76011",
+      "source_quest_id": "76011",
+      "hash": "1210165662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76014",
+      "source_quest_id": "76014",
+      "hash": "472631510",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76016",
+      "source_quest_id": "76016",
+      "hash": "3430890790",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76018",
+      "source_quest_id": "76018",
+      "hash": "238885286",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76027",
+      "source_quest_id": "76027",
+      "hash": "859942038",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76033",
+      "source_quest_id": "76033",
+      "hash": "3104430310",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76043",
+      "source_quest_id": "76043",
+      "hash": "1625780238",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76044",
+      "source_quest_id": "76044",
+      "hash": "2177681598",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76047",
+      "source_quest_id": "76047",
+      "hash": "1454659606",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76049",
+      "source_quest_id": "76049",
+      "hash": "141599750",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76052",
+      "source_quest_id": "76052",
+      "hash": "1190247510",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76060",
+      "source_quest_id": "76060",
+      "hash": "1634286974",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76076",
+      "source_quest_id": "76076",
+      "hash": "3843255606",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76077",
+      "source_quest_id": "76077",
+      "hash": "715919662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76083",
+      "source_quest_id": "76083",
+      "hash": "1233621414",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76085",
+      "source_quest_id": "76085",
+      "hash": "1921124614",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76087",
+      "source_quest_id": "76087",
+      "hash": "720658518",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76090",
+      "source_quest_id": "76090",
+      "hash": "1282345398",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76093",
+      "source_quest_id": "76093",
+      "hash": "1104821702",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76099",
+      "source_quest_id": "76099",
+      "hash": "2717101078",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76114",
+      "source_quest_id": "76114",
+      "hash": "3022631014",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76115",
+      "source_quest_id": "76115",
+      "hash": "2881711134",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76118",
+      "source_quest_id": "76118",
+      "hash": "2105340214",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76119",
+      "source_quest_id": "76119",
+      "hash": "2190573990",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76122",
+      "source_quest_id": "76122",
+      "hash": "3554037934",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76126",
+      "source_quest_id": "76126",
+      "hash": "1465830662",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76129",
+      "source_quest_id": "76129",
+      "hash": "1679167974",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76160",
+      "source_quest_id": "76160",
+      "hash": "3677388062",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76161",
+      "source_quest_id": "76161",
+      "hash": "3331205462",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76162",
+      "source_quest_id": "76162",
+      "hash": "28376302",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76500",
+      "source_quest_id": "76500",
+      "hash": "1463769230",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76508",
+      "source_quest_id": "76508",
+      "hash": "1305911790",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76650",
+      "source_quest_id": "76650",
+      "hash": "643353078",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76651",
+      "source_quest_id": "76651",
+      "hash": "3563225182",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76652",
+      "source_quest_id": "76652",
+      "hash": "2159647926",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76653",
+      "source_quest_id": "76653",
+      "hash": "3790439462",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76654",
+      "source_quest_id": "76654",
+      "hash": "3093260558",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76656",
+      "source_quest_id": "76656",
+      "hash": "69043390",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76659",
+      "source_quest_id": "76659",
+      "hash": "456356254",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76672",
+      "source_quest_id": "76672",
+      "hash": "4242675942",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76673",
+      "source_quest_id": "76673",
+      "hash": "3659104638",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76677",
+      "source_quest_id": "76677",
+      "hash": "1421392102",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.76678",
+      "source_quest_id": "76678",
+      "hash": "254176318",
+      "reason": "hash_not_found"
+    },
     {
       "id": "quest.world.quest.77115",
       "source_quest_id": "77115",
@@ -13,6 +3031,144 @@
       "id": "quest.world.quest.77307",
       "source_quest_id": "77307",
       "hash": "3439185798",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79001",
+      "source_quest_id": "79001",
+      "hash": "115832134",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79005",
+      "source_quest_id": "79005",
+      "hash": "2915536942",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79007",
+      "source_quest_id": "79007",
+      "hash": "3478331894",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79013",
+      "source_quest_id": "79013",
+      "hash": "3919585670",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79020",
+      "source_quest_id": "79020",
+      "hash": "1941295294",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79021",
+      "source_quest_id": "79021",
+      "hash": "2006345094",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79022",
+      "source_quest_id": "79022",
+      "hash": "1550586950",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79023",
+      "source_quest_id": "79023",
+      "hash": "4080095246",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79028",
+      "source_quest_id": "79028",
+      "hash": "3184854174",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79029",
+      "source_quest_id": "79029",
+      "hash": "2386208966",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79031",
+      "source_quest_id": "79031",
+      "hash": "2880373998",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79041",
+      "source_quest_id": "79041",
+      "hash": "901953846",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79044",
+      "source_quest_id": "79044",
+      "hash": "3740901782",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79045",
+      "source_quest_id": "79045",
+      "hash": "2065309854",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79060",
+      "source_quest_id": "79060",
+      "hash": "1978695958",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79062",
+      "source_quest_id": "79062",
+      "hash": "1275004302",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79066",
+      "source_quest_id": "79066",
+      "hash": "934088110",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79067",
+      "source_quest_id": "79067",
+      "hash": "2367119366",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79071",
+      "source_quest_id": "79071",
+      "hash": "1031507350",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79073",
+      "source_quest_id": "79073",
+      "hash": "1602089030",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79074",
+      "source_quest_id": "79074",
+      "hash": "1990336934",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79079",
+      "source_quest_id": "79079",
+      "hash": "1811130710",
+      "reason": "hash_not_found"
+    },
+    {
+      "id": "quest.world.quest.79081",
+      "source_quest_id": "79081",
+      "hash": "3697313934",
       "reason": "hash_not_found"
     }
   ]
