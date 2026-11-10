@@ -5,7 +5,6 @@ from __future__ import annotations
 import json
 import re
 import sys
-from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -32,7 +31,7 @@ WEAPON_TYPE_TERMS = {
 }
 EXPECTED_CATALOGS = {
     "characters.json", "talents.json", "weapons.json",
-    "materials.json", "resources.json", "artifacts.json",
+    "materials.json", "resources.json", "artifacts.json", "glossary.json",
 }
 
 
