@@ -275,11 +275,23 @@ class ValidatorRegressionTests(unittest.TestCase):
 
     def test_quest_catalog_rejects_invalid_node_type(self):
         catalogs = fixture_catalogs()
-        catalogs["quests_world.json"]["entries"][0]["node_type"] = "chapter"
+        catalogs["quests_world.json"]["entries"][0]["node_type"] = "not-a-node"
         self.write_catalogs(catalogs)
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
         self.assertIn("unsupported node_type", output)
+
+    def test_world_quest_chapter_node_is_valid(self):
+        catalogs = fixture_catalogs()
+        chapter = dict(catalogs["quests_world.json"]["entries"][0])
+        chapter["id"] = "quest.world.chapter.1"
+        chapter["source_quest_id"] = "1"
+        chapter["node_type"] = "chapter"
+        chapter["parent_id"] = None
+        catalogs["quests_world.json"]["entries"].append(chapter)
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 0, output)
 
     def test_quest_validator_handles_malformed_hierarchy_values(self):
         catalogs = fixture_catalogs()
