@@ -14,8 +14,8 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `WEAPON_TERMINOLOGY_AUDIT.md`: weapon-name structure and terminology audit.
 - `scripts/import_weapon_catalog.py`: imports the public weapon roster from genshin-db while preserving existing Arabic translations.
 - `ar/artifacts.json`: artifact set name records.
-- `ar/quests_archon.json`: Archon Quest chapter/act/quest catalog (structure initialized; entries not yet imported).
-- `ar/quests_world.json`: World Quest series/quest catalog (structure initialized; entries not yet imported).
+- `ar/quests_archon.json`: imported Archon Quest act and individual-quest records, with Arabic draft titles and source metadata.
+- `ar/quests_world.json`: imported World Quest chapter, series, and individual-quest records, with Arabic draft titles and source metadata.
 - `schema/quest.schema.json`: quest-specific metadata and hierarchy contract.
 - `QUEST_CATALOG_AUDIT.md`: quest source assessment, scope, and completeness status.
 - `ARTIFACT_TERMINOLOGY_AUDIT.md`: artifact-set name and terminology audit.
@@ -26,7 +26,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `VALIDATOR_GUIDE.md`: automated validator and regression-test documentation.
 - `SOURCES.md`: data provenance and attribution.
 - `CONTRIBUTING.md`: translation contribution rules.
-- `ROADMAP.md`: project stages.
+- `ROADMAP.md`: project stages and current quest-localization backlog.
 
 ## Validation
 
