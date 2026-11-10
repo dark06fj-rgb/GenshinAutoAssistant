@@ -26,9 +26,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -50,7 +50,8 @@
         "title": 4069653889,
         "number": 988250,
         "image_title": 3052926405
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1002",
@@ -70,9 +71,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -95,7 +96,8 @@
         "title": 3129506201,
         "number": 1710050402,
         "image_title": 446548101
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1003",
@@ -115,9 +117,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -140,7 +142,53 @@
         "title": 44670081,
         "number": 1351210426,
         "image_title": 1181818933
-      }
+      },
+      "sequence": null
+    },
+    {
+      "id": "quest.archon.act.1004",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1004",
+      "source_name": "Paralogism",
+      "arabic_name": "مغالطة",
+      "description_ar": null,
+      "chapter_id": null,
+      "act_id": null,
+      "series_id": null,
+      "region": "Mondstadt",
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / pinned English index"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1004",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1004,
+        "beginQuestId": 60002,
+        "endQuestId": 60210,
+        "cityId": 1,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 1196880306,
+        "number": 184770864,
+        "image_title": 2203220110
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1101",
@@ -160,9 +208,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -185,7 +233,8 @@
         "title": 67026961,
         "number": 3223313530,
         "image_title": 225146909
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1102",
@@ -205,9 +254,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -230,7 +279,8 @@
         "title": 4011294841,
         "number": 1139438706,
         "image_title": 2853826621
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1103",
@@ -250,9 +300,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -275,7 +325,8 @@
         "title": 2560407913,
         "number": 4237881826,
         "image_title": 2343126293
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1104",
@@ -289,15 +340,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Traveler",
+      "region": "Mondstadt",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -320,7 +371,8 @@
         "title": 376022177,
         "number": 2982267122,
         "image_title": 1643924781
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1201",
@@ -340,9 +392,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -365,7 +417,8 @@
         "title": 2886286777,
         "number": 1576758474,
         "image_title": 139804829
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1202",
@@ -385,9 +438,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -410,7 +463,8 @@
         "title": 2635576673,
         "number": 1822948722,
         "image_title": 3865951405
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1203",
@@ -430,9 +484,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -455,7 +509,8 @@
         "title": 1090804777,
         "number": 2951618746,
         "image_title": 2608688605
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1204",
@@ -475,9 +530,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -500,7 +555,8 @@
         "title": 1668153345,
         "number": 963369066,
         "image_title": 3117817925
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1205",
@@ -514,15 +570,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Interlude",
+      "region": "Liyue",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -545,7 +601,8 @@
         "title": 3568228361,
         "number": 2563504330,
         "image_title": 3761394981
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1206",
@@ -559,15 +616,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Traveler",
+      "region": "Liyue",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -590,7 +647,8 @@
         "title": 904042809,
         "number": 1431852242,
         "image_title": 1157401661
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1207",
@@ -604,15 +662,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Interlude",
+      "region": "Liyue",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -635,51 +693,8 @@
         "title": 654650721,
         "number": 3428830426,
         "image_title": 2110774781
-      }
-    },
-    {
-      "id": "quest.archon.act.1004",
-      "category": "quest",
-      "quest_type": "archon",
-      "node_type": "act",
-      "source_quest_id": "1004",
-      "source_name": "Paralogism",
-      "arabic_name": "مغالطة",
-      "description_ar": null,
-      "chapter_id": null,
-      "act_id": null,
-      "series_id": null,
-      "region": "Interlude",
-      "prerequisite_ids": [],
-      "adventure_rank": null,
-      "version_added": null,
-      "source": [
-        {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
-          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
-        },
-        {
-          "name": "Ghost — Genshin Impact Story Chapters (English index)",
-          "url": "https://ghost.mwb.moe/en/genshin/chapter/1004",
-          "version": "current index"
-        }
-      ],
-      "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
-      "source_chapter_metadata": {
-        "id": 1004,
-        "beginQuestId": 60002,
-        "endQuestId": 60210,
-        "cityId": 1,
-        "needPlayerLevel": 40,
-        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
       },
-      "source_text_map_hashes": {
-        "title": 1196880306,
-        "number": 184770864,
-        "image_title": 2203220110
-      }
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1301",
@@ -699,9 +714,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -724,7 +739,8 @@
         "title": 676607441,
         "number": 4153381122,
         "image_title": 508055693
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1302",
@@ -744,9 +760,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -769,7 +785,8 @@
         "title": 3965683105,
         "number": 1163496690,
         "image_title": 2410205581
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1303",
@@ -789,9 +806,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -814,7 +831,8 @@
         "title": 2200974649,
         "number": 392465610,
         "image_title": 1071846517
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1304",
@@ -834,9 +852,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -859,7 +877,8 @@
         "title": 4223961545,
         "number": 889251842,
         "image_title": 3410463941
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1305",
@@ -879,9 +898,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -904,7 +923,8 @@
         "title": 3145045481,
         "number": 1040367634,
         "image_title": 1228754189
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1306",
@@ -924,9 +944,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -947,7 +967,8 @@
         "title": 458848681,
         "number": 3813909530,
         "image_title": 1503909077
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1307",
@@ -961,15 +982,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Interlude",
+      "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -991,7 +1012,8 @@
         "title": 2100565426,
         "number": 1944121712,
         "image_title": 463639862
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1308",
@@ -1005,15 +1027,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Traveler",
+      "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1035,7 +1057,8 @@
         "title": 3989534090,
         "number": 695824688,
         "image_title": 607151614
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1401",
@@ -1055,9 +1078,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1080,7 +1103,8 @@
         "title": 456482290,
         "number": 2479357240,
         "image_title": 2442141014
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1402",
@@ -1100,9 +1124,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1125,7 +1149,8 @@
         "title": 3413587354,
         "number": 1302118664,
         "image_title": 3167487446
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1403",
@@ -1145,9 +1170,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1170,7 +1195,8 @@
         "title": 2071857626,
         "number": 3911815504,
         "image_title": 2254759974
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1404",
@@ -1190,9 +1216,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1215,7 +1241,8 @@
         "title": 1402363962,
         "number": 1276769776,
         "image_title": 334558486
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1405",
@@ -1235,9 +1262,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1260,7 +1287,8 @@
         "title": 664914,
         "number": 2052338136,
         "image_title": 4249494582
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1406",
@@ -1274,15 +1302,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Traveler",
+      "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1304,7 +1332,8 @@
         "title": 3215090698,
         "number": 730947704,
         "image_title": 3186599318
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1500",
@@ -1324,9 +1353,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1349,7 +1378,8 @@
         "title": 2074693786,
         "number": 3544535192,
         "image_title": 992644406
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1501",
@@ -1369,9 +1399,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1394,7 +1424,8 @@
         "title": 1650496554,
         "number": 3171878184,
         "image_title": 3779032118
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1502",
@@ -1414,9 +1445,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1439,7 +1470,8 @@
         "title": 2776962218,
         "number": 38296816,
         "image_title": 1901643238
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1503",
@@ -1459,9 +1491,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1484,7 +1516,8 @@
         "title": 2487173354,
         "number": 1071926760,
         "image_title": 1677557766
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1504",
@@ -1504,9 +1537,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1529,7 +1562,8 @@
         "title": 433195202,
         "number": 3962470448,
         "image_title": 2921288774
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1505",
@@ -1549,9 +1583,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1574,7 +1608,8 @@
         "title": 2835644562,
         "number": 3986112760,
         "image_title": 177860670
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1506",
@@ -1588,15 +1623,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Traveler",
+      "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1618,7 +1653,8 @@
         "title": 2772865210,
         "number": 1173797184,
         "image_title": 1670941086
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1600",
@@ -1638,9 +1674,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1663,7 +1699,8 @@
         "title": 4050995626,
         "number": 3290512496,
         "image_title": 1364037054
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1601",
@@ -1683,9 +1720,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1708,7 +1745,8 @@
         "title": 1075406162,
         "number": 805568760,
         "image_title": 2686786622
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1602",
@@ -1728,9 +1766,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1753,7 +1791,8 @@
         "title": 1928922530,
         "number": 1821080736,
         "image_title": 3708622854
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1603",
@@ -1773,9 +1812,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1798,7 +1837,8 @@
         "title": 373682538,
         "number": 3985278096,
         "image_title": 2879894
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1604",
@@ -1818,9 +1858,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1843,7 +1883,8 @@
         "title": 4001352810,
         "number": 1271167328,
         "image_title": 35110102
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1605",
@@ -1863,9 +1904,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1888,7 +1929,8 @@
         "title": 179711370,
         "number": 1452998120,
         "image_title": 3291384870
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1606",
@@ -1908,9 +1950,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1933,7 +1975,8 @@
         "title": 4219496554,
         "number": 4200492520,
         "image_title": 3443648702
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1607",
@@ -1953,9 +1996,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -1978,7 +2021,8 @@
         "title": 1190201530,
         "number": 2285634032,
         "image_title": 1460756598
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1608",
@@ -1998,9 +2042,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2023,7 +2067,8 @@
         "title": 3025454162,
         "number": 955387984,
         "image_title": 532535678
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1609",
@@ -2043,9 +2088,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2068,7 +2113,8 @@
         "title": 3430613402,
         "number": 275448312,
         "image_title": 3416331350
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1611",
@@ -2088,9 +2134,9 @@
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2113,7 +2159,8 @@
         "title": 395132050,
         "number": 746586536,
         "image_title": 3702940694
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1700",
@@ -2127,15 +2174,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Snezhnaya",
+      "region": null,
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2158,7 +2205,8 @@
         "title": 3566755218,
         "number": 1785396688,
         "image_title": 1185791294
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1701",
@@ -2172,15 +2220,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Snezhnaya",
+      "region": null,
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2203,7 +2251,8 @@
         "title": 795132178,
         "number": 1604859176,
         "image_title": 352983510
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1702",
@@ -2217,15 +2266,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Snezhnaya",
+      "region": null,
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2248,7 +2297,8 @@
         "title": 1420744706,
         "number": 2096227656,
         "image_title": 3937623542
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.act.1703",
@@ -2262,15 +2312,15 @@
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
-      "region": "Snezhnaya",
+      "region": null,
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
           "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2.0"
+          "version": "7.2.0 / pinned English index"
         },
         {
           "name": "Ghost — Genshin Impact Story Chapters (English index)",
@@ -2293,7 +2343,8 @@
         "title": 1839665242,
         "number": 3938761864,
         "image_title": 2925022334
-      }
+      },
+      "sequence": null
     },
     {
       "id": "quest.archon.quest.wanderers_trail",
@@ -2531,50 +2582,6 @@
       }
     },
     {
-      "id": "quest.archon.quest.dust_to_dust",
-      "category": "quest",
-      "quest_type": "archon",
-      "node_type": "quest",
-      "source_quest_id": "1018",
-      "source_name": "Dust to Dust",
-      "arabic_name": "من الغبار إلى الغبار",
-      "description_ar": "بعد البحث عن الحكماء وإتمام المهمة التي أوكلها إليك نحات القمر، تعود إلى ميناء ليوي للبحث عن تشايلد. ويخبرك أن رد فعل تشيسينغ على وفاة الأركون منحه الكثير للتفكير.",
-      "parent_id": "quest.archon.act.1101",
-      "chapter_id": "1101",
-      "act_id": "1101",
-      "series_id": "1101",
-      "region": "Liyue",
-      "sequence": null,
-      "prerequisite_ids": [],
-      "adventure_rank": null,
-      "version_added": null,
-      "source": [
-        {
-          "name": "AnimeGameData 7.2 QuestBrief 1018",
-          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/1018.json",
-          "version": "7.2.0"
-        },
-        {
-          "name": "GI-OnlineQuest English quest title and summary",
-          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/1018.json",
-          "version": "cross-reference"
-        }
-      ],
-      "translation_status": "draft",
-      "review_notes": "متطلبات الفتح 1003 و1008 و1009 غير مدرجة في الكتالوج الحالي.",
-      "source_text_map_hashes": {
-        "title": 3873565161,
-        "description": 2544792311
-      },
-      "source_main_quest_metadata": {
-        "chapterId": 1101,
-        "series": 1101,
-        "type": "AQ",
-        "mainQuestTag": "MAINQUEST_TAG_NONE",
-        "questType": "AQ"
-      }
-    },
-    {
       "id": "quest.archon.quest.zhonglis_treat",
       "category": "quest",
       "quest_type": "archon",
@@ -2612,6 +2619,50 @@
       },
       "source_main_quest_metadata": {
         "chapterId": 1102,
+        "series": 1101,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "questType": "AQ"
+      }
+    },
+    {
+      "id": "quest.archon.quest.dust_to_dust",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "quest",
+      "source_quest_id": "1018",
+      "source_name": "Dust to Dust",
+      "arabic_name": "من الغبار إلى الغبار",
+      "description_ar": "بعد البحث عن الحكماء وإتمام المهمة التي أوكلها إليك نحات القمر، تعود إلى ميناء ليوي للبحث عن تشايلد. ويخبرك أن رد فعل تشيسينغ على وفاة الأركون منحه الكثير للتفكير.",
+      "parent_id": "quest.archon.act.1101",
+      "chapter_id": "1101",
+      "act_id": "1101",
+      "series_id": "1101",
+      "region": "Liyue",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 1018",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/1018.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English quest title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/1018.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "متطلبات الفتح 1003 و1008 و1009 غير مدرجة في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 3873565161,
+        "description": 2544792311
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1101,
         "series": 1101,
         "type": "AQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
