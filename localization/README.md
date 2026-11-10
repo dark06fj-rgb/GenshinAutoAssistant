@@ -22,6 +22,9 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `MATERIALS_RESOURCES_AUDIT.md`: materials and gatherable-resource terminology audit.
 - `ar/materials.json`: common currencies and wish items.
 - `ar/resources.json`: gatherable plants, fruits, and ores.
+- `ar/quests_archon.json`: Archon (main story) quest catalog; structure exists, population pending.
+- `ar/quests_world.json`: World Quest catalog; structure exists, population pending.
+- `QUEST_CATALOG_FOUNDATION.md`: quest data-source inspection, classification rules, and population plan.
 - `schema/entity.schema.json`: shared entity format.
 - `VALIDATOR_GUIDE.md`: automated validator and regression-test documentation.
 - `SOURCES.md`: data provenance and attribution.
