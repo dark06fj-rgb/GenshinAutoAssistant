@@ -42,7 +42,7 @@
       "review_notes": "مجموعة مهام عالم؛ chapter id 10025 ونوع WQ مثبتان في لقطة 7.2."
     },
     {
-      "id": "quest.world.quest.a_strange_story_in_konda",
+      "id": "quest.world.quest.72106",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -75,7 +75,7 @@
       "review_notes": "المتطلب السابق 1025 موجود في مرجع EN لكنه غير مدرج هنا بعد؛ لذلك لم يُنشأ له رابط غير مكتمل."
     },
     {
-      "id": "quest.world.quest.cleansing_defilement",
+      "id": "quest.world.quest.72100",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -110,7 +110,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.sacrificial_offering",
+      "id": "quest.world.quest.72107",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -145,7 +145,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tanuki_bayashi_in_the_forest",
+      "id": "quest.world.quest.72108",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -180,7 +180,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.yougou_cleansing",
+      "id": "quest.world.quest.72105",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -249,7 +249,7 @@
       "review_notes": "مجموعة مهام عالم؛ chapter id 10036 ونوع WQ مثبتان في لقطة 7.2."
     },
     {
-      "id": "quest.world.quest.tatara_tales",
+      "id": "quest.world.quest.72114",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -282,7 +282,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_priority_investigation",
+      "id": "quest.world.quest.72115",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -317,7 +317,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_purification_device",
+      "id": "quest.world.quest.72116",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -352,7 +352,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_data_collection",
+      "id": "quest.world.quest.72117",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -387,7 +387,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_process_is_everything",
+      "id": "quest.world.quest.72118",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -422,7 +422,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_functional_test",
+      "id": "quest.world.quest.72119",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -457,7 +457,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_final_preparations",
+      "id": "quest.world.quest.72120",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -492,7 +492,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.tatara_tales_the_last_act",
+      "id": "quest.world.quest.72122",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -527,7 +527,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.sakura_arborism",
+      "id": "quest.world.quest.72123",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -562,7 +562,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.dreams_of_sword_art",
+      "id": "quest.world.quest.72124",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -595,7 +595,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.the_seventh_samurai",
+      "id": "quest.world.quest.72154",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -663,7 +663,7 @@
       "review_notes": "مجموعة مهام عالم؛ chapter id 10037 ونوع WQ مثبتان في لقطة 7.2."
     },
     {
-      "id": "quest.world.quest.orobashis_legacy_prologue",
+      "id": "quest.world.quest.72133",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -696,7 +696,7 @@
       "review_notes": "المتطلب السابق 1025 مثبت في مرجع EN لكنه غير مدرج في هذا الكتالوج."
     },
     {
-      "id": "quest.world.quest.orobashis_legacy_part_i",
+      "id": "quest.world.quest.72129",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -729,7 +729,7 @@
       "review_notes": "المتطلب السابق 1025 مثبت في مرجع EN لكنه غير مدرج في هذا الكتالوج."
     },
     {
-      "id": "quest.world.quest.orobashis_legacy_part_ii",
+      "id": "quest.world.quest.72130",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -764,7 +764,7 @@
       "review_notes": "يوجد متطلب إضافي 1025 في مرجع EN، ولم يُربط لعدم وجوده في الكتالوج."
     },
     {
-      "id": "quest.world.quest.orobashis_legacy_part_iii",
+      "id": "quest.world.quest.72131",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -799,7 +799,7 @@
       "review_notes": "يوجد متطلب إضافي 1025 في مرجع EN، ولم يُربط لعدم وجوده في الكتالوج."
     },
     {
-      "id": "quest.world.quest.orobashis_legacy_part_iv",
+      "id": "quest.world.quest.72134",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
@@ -836,7 +836,7 @@
       "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
     },
     {
-      "id": "quest.world.quest.orobashis_legacy_part_v",
+      "id": "quest.world.quest.72132",
       "category": "quest",
       "quest_type": "world",
       "node_type": "quest",
