@@ -261,6 +261,16 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.assertEqual(exit_code, 1)
         self.assertIn("unsupported node_type", output)
 
+    def test_quest_validator_handles_malformed_hierarchy_values(self):
+        catalogs = fixture_catalogs()
+        catalogs["quests_archon.json"]["entries"][0]["node_type"] = ["chapter"]
+        catalogs["quests_archon.json"]["entries"][1]["parent_id"] = ["not-an-id"]
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("unsupported node_type", output)
+        self.assertIn("parent_id must be a non-empty string or null", output)
+
 
     def test_complete_traveler_seven_element_matrix_passes(self):
         catalogs = add_traveler_talent_matrix(fixture_catalogs())
