@@ -6502,7 +6502,7 @@
       "source_quest_id": "40142",
       "source_name": "Hustle and Bustle",
       "arabic_name": "صخب وضجيج",
-      "description_ar": null,
+      "description_ar": "تمرّ أنت وبايمون بفترة هدوء، فتقرران زيارة قرية تشياوينغ لمعرفة ما يمكن فعله هناك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40139",
@@ -6519,7 +6519,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 151166383,
         "description": 1892428262
@@ -6544,7 +6544,7 @@
       "source_quest_id": "40143",
       "source_name": "Receiver of Friends From Afar: Part I",
       "arabic_name": "مستقبِل الأصدقاء القادمين من بعيد: الجزء الأول",
-      "description_ar": null,
+      "description_ar": "يلفت انتباهك أنت وبايمون إعلان في نُزل وانغشو، فتتعرفان إلى تكليف يتعلق باستقبال ضيوف قادمين من بعيد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40143",
@@ -6561,7 +6561,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4152083159,
         "description": 1226377374
@@ -6584,7 +6584,7 @@
       "source_quest_id": "40147",
       "source_name": "Receiver of Friends From Afar: Part II",
       "arabic_name": "مستقبِل الأصدقاء القادمين من بعيد: الجزء الثاني",
-      "description_ar": null,
+      "description_ar": "بعد يوم من العمل في المطبخ، تظن أنك أتقنت التعامل مع طلبات الزبائن، لكن ظهور زبائن شديدي الانتقاء يضع مهارتك أمام اختبار جديد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40143",
@@ -6601,7 +6601,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 336621039,
         "description": 1525400158
@@ -6624,7 +6624,7 @@
       "source_quest_id": "40148",
       "source_name": "Receiver of Friends From Afar: Part III",
       "arabic_name": "مستقبِل الأصدقاء القادمين من بعيد: الجزء الثالث",
-      "description_ar": null,
+      "description_ar": "يؤكد يانشياو أنك قادر على التعامل مع أصعب الزبائن، لكن الأحداث تثبت أن المهمة قد تكون أعقد مما توقع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40143",
@@ -6641,7 +6641,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 963544663,
         "description": 2017271406
@@ -6664,7 +6664,7 @@
       "source_quest_id": "40149",
       "source_name": "Receiver of Friends From Afar: Part IV",
       "arabic_name": "مستقبِل الأصدقاء القادمين من بعيد: الجزء الرابع",
-      "description_ar": null,
+      "description_ar": "يحل يومك الأخير كطاهٍ مؤقت، وتأمل أن يمر العمل بهدوء قبل انتهاء التكليف.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40143",
@@ -6681,7 +6681,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2317368807,
         "description": 2744550574
@@ -6704,7 +6704,7 @@
       "source_quest_id": "40187",
       "source_name": "Final Stanza: The Sanctification of Tao Dou",
       "arabic_name": "المقطع الختامي: تطهير تاو دو",
-      "description_ar": null,
+      "description_ar": "بعد تعاون الجميع، تنتهي أزمة الحدود أخيراً، وتبدو شيانغلينغ راغبة في التحدث إليك بميناء ليويه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40184",
@@ -6721,7 +6721,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2625306391,
         "description": 1079254622
@@ -6744,7 +6744,7 @@
       "source_quest_id": "40199",
       "source_name": "Covert Investigation, Dirty Money Misdeeds",
       "arabic_name": "تحقيق سري ومخالفات مالية قذرة",
-      "description_ar": null,
+      "description_ar": "باقتراح من بايمون، تتوجه إلى رصيف ييلونغ لتذوق الشاي الأخضر، لكنك تصادف ييلان وسط مهمة سرية تتعلق بأموال مشبوهة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40199",
@@ -6761,7 +6761,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 264830111,
         "description": 2626106054
@@ -6787,7 +6787,7 @@
       "source_quest_id": "40200",
       "source_name": "An Instant of Intoxication, A Meeting by Moonlight",
       "arabic_name": "لحظة سُكر ولقاء تحت ضوء القمر",
-      "description_ar": null,
+      "description_ar": "بعد تفكيك شبكة غسل الأموال التي يديرها الممول المظلم، تدعوك ييلان إلى فونتين لقضاء استراحة تستحقانها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40199",
@@ -6806,7 +6806,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3532985575,
         "description": 2516048510
@@ -6831,7 +6831,7 @@
       "source_quest_id": "40201",
       "source_name": "Covert Investigation, Dirty Money Misdeeds",
       "arabic_name": "تحقيق سري ومخالفات مالية قذرة",
-      "description_ar": null,
+      "description_ar": "تقترب ساعة تنفيذ الخطة، فتتوجه إلى رصيف ييلونغ للقاء ييلان والاستعداد للتحرك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40199",
@@ -6850,7 +6850,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 958012815,
         "description": 3612359902
@@ -6877,7 +6877,7 @@
       "source_quest_id": "40202",
       "source_name": "Covert Investigation, Dirty Money Misdeeds",
       "arabic_name": "تحقيق سري ومخالفات مالية قذرة",
-      "description_ar": null,
+      "description_ar": "تقود الأدلة المتعلقة بالممول المظلم إلى المزاد، فتستكمل استعداداتك قبل التوجه إلى فندق ديبور.",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40199",
@@ -6896,7 +6896,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1860096079,
         "description": 3519636086
@@ -6923,7 +6923,7 @@
       "source_quest_id": "40204",
       "source_name": "Those Strange and Intriguing Questions",
       "arabic_name": "تلك الأسئلة الغريبة والمثيرة للاهتمام",
-      "description_ar": null,
+      "description_ar": "تسمع باحثين من الأكاديمية يتجادلون في ميناء أورموس، فتقترب لمعرفة سبب خلافهم وما الذي يشغلهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6940,7 +6940,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 182532167,
         "description": 1321395774
@@ -6962,7 +6962,7 @@
       "source_quest_id": "40207",
       "source_name": "Ding Ding Dinggg! A Great Feast!",
       "arabic_name": "دينغ دينغ دينغ! وليمة عظيمة!",
-      "description_ar": null,
+      "description_ar": "بعد انتهاء الأيام العصيبة، تعود أنت وبايمون لزيارة آينو مرة أخرى.",
       "chapter_id": "10264",
       "act_id": null,
       "series_id": "40203",
@@ -6979,7 +6979,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 90116647,
         "description": 941600670
@@ -7005,7 +7005,7 @@
       "source_quest_id": "40214",
       "source_name": "An Adventurer's Woes",
       "arabic_name": "متاعب مغامر",
-      "description_ar": null,
+      "description_ar": "تتلقى نقابة المغامرين طلباً من آينو للمساعدة في شؤون المغامرين في نود-كراي، فتتوجه لمعرفة المطلوب.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7022,7 +7022,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3159579583,
         "description": 290712158
@@ -7046,7 +7046,7 @@
       "source_quest_id": "40215",
       "source_name": "A Mysterious Outsourced Contract",
       "arabic_name": "عقد خارجي غامض",
-      "description_ar": null,
+      "description_ar": "يبدو أن مكتب كوفاخكي للتصميم التجريبي لديه عمل يريد تكليف آينو به، فتساعد في متابعة الأمر.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7063,7 +7063,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 403561439,
         "description": 1489654446
@@ -7087,7 +7087,7 @@
       "source_quest_id": "40216",
       "source_name": "Backup Plans",
       "arabic_name": "خطط بديلة",
-      "description_ar": null,
+      "description_ar": "تعمل آينو على إعداد خطة بديلة لإنقاذ أصدقائها، فتساندها في تنفيذ ما يلزم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7104,7 +7104,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3623177711,
         "description": 3258293662
