@@ -233,6 +233,11 @@ class Validator:
             for talent_type in expected_types
         }
         talents = self.data.get("talents.json", {}).get("entries", [])
+        characters = self.data.get("characters.json", {}).get("entries", [])
+        traveler_exists = any(
+            isinstance(item, dict) and item.get("id") == traveler_id
+            for item in characters
+        )
         traveler_talents = [
             item for item in talents
             if isinstance(item, dict) and (
@@ -243,6 +248,10 @@ class Validator:
                 )
             )
         ]
+        # Generic fixtures may omit Traveler; enforce the full matrix whenever
+        # the real Traveler record or any Traveler talent exists.
+        if not traveler_exists and not traveler_talents:
+            return
 
         found_slots: set[tuple[str, str]] = set()
         for talent in traveler_talents:
@@ -253,7 +262,7 @@ class Validator:
                 )
 
             element = talent.get("element")
-            talent_type = talent.get("type")
+            talent_type = talent.get("talent_type")
             if element not in expected_elements:
                 self.error(
                     f"Traveler talent {talent_id} has unsupported element {element!r}"
