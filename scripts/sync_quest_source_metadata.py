@@ -125,11 +125,17 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
         raise ValueError(
             f"Quest {quest_id}: table type {expected_type} != detail type {actual_type!r}"
         )
+    show_type = meta.get("showType") or excel.get("showType") or raw.get("showType")
+    repeatable = meta.get("repeatable", raw.get("repeatable", False))
     title = payload.get("title") or excel.get("title")
     title_hash = payload.get("titleTextMapHash") or excel.get("titleTextMapHash")
     desc_hash = payload.get("descTextMapHash") or excel.get("descTextMapHash")
+    # Exclude hidden/internal and repeatable records; they are not player-facing
+    # quest catalog entries even when their config type is AQ or WQ.
+    if show_type != "QUEST_SHOW" or repeatable is True:
+        return None
     if not isinstance(title, str) or not title.strip():
-        raise ValueError(f"Quest {quest_id}: English source title missing")
+        raise ValueError(f"Quest {quest_id}: player-facing quest has no English title")
     if not isinstance(title_hash, int):
         raise ValueError(f"Quest {quest_id}: title text-map hash missing")
     if desc_hash is not None and not isinstance(desc_hash, int):
@@ -284,6 +290,7 @@ def main() -> int:
         raise ValueError("AQ/WQ candidate roster unexpectedly small")
 
     fetched = {}
+    skipped_hidden_or_repeatable = 0
     errors = []
     with ThreadPoolExecutor(max_workers=24) as pool:
         futures = {
@@ -293,7 +300,11 @@ def main() -> int:
         for future in as_completed(futures):
             quest_id = futures[future]
             try:
-                fetched[quest_id] = future.result()
+                result = future.result()
+                if result is None:
+                    skipped_hidden_or_repeatable += 1
+                else:
+                    fetched[quest_id] = result
             except Exception as exc:
                 errors.append(f"{quest_id}: {exc}")
     if errors:
@@ -448,7 +459,9 @@ def main() -> int:
             counts[key] = counts.get(key, 0) + 1
     print(
         f"Source roster: {len(main_rows)} MainQuest rows, "
-        f"{len(available_ids)} English quest files, {len(selected)} verified AQ/WQ IDs."
+        f"{len(available_ids)} English quest files, {len(selected)} AQ/WQ candidates, "
+        f"{len(fetched)} player-facing AQ/WQ quests, "
+        f"{skipped_hidden_or_repeatable} hidden/repeatable records skipped."
     )
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
