@@ -7689,6 +7689,468 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.anemo.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Anemo",
+      "talent_type": "normal",
+      "source_name": "Foreign Ironwind",
+      "arabic_name": "الريح الحديدية الغريبة",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/traveleranemo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.anemo.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Anemo",
+      "talent_type": "skill",
+      "source_name": "Palm Vortex",
+      "arabic_name": "دوامة الكف",
+      "description_source": null,
+      "description_ar": "ينشئ دوامة هوائية تسحب الأعداء أمامه وتسبب ضرر أنيمو مستمراً، ثم تنفجر بقوة أكبر. ويمكنها امتصاص عنصراً مناسباً لإلحاق ضرر إضافي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/traveleranemo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.anemo.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Anemo",
+      "talent_type": "burst",
+      "source_name": "Gust Surge",
+      "arabic_name": "هبوب الرياح",
+      "description_source": null,
+      "description_ar": "يطلق إعصاراً متقدماً يجذب الأعداء والأجسام ويسبب ضرر أنيمو مستمراً، وقد يمتص عنصراً آخر لإضافة ضرره.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/traveleranemo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.geo.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Geo",
+      "talent_type": "normal",
+      "source_name": "Foreign Rockblade",
+      "arabic_name": "النصل الصخري الغريب",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelergeo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.geo.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Geo",
+      "talent_type": "skill",
+      "source_name": "Starfell Sword",
+      "arabic_name": "سيف النيزك",
+      "description_source": null,
+      "description_ar": "يستدعي نيزكاً من الأرض يسبب ضرر جيو واسع النطاق، ويمكن تسلقه أو استخدامه لصد الهجمات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelergeo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.geo.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Geo",
+      "talent_type": "burst",
+      "source_name": "Wake of Earth",
+      "arabic_name": "يقظة الأرض",
+      "description_source": null,
+      "description_ar": "يطلق موجات صدمية من الأرض تدفع الأعداء وتسبب ضرر جيو واسعاً، وتنشئ جداراً صخرياً يصد الهجمات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelergeo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.electro.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Electro",
+      "talent_type": "normal",
+      "source_name": "Foreign Thundershock",
+      "arabic_name": "الصدمة الرعدية الغريبة",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerelectro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.electro.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Electro",
+      "talent_type": "skill",
+      "source_name": "Lightning Blade",
+      "arabic_name": "نصل البرق",
+      "description_source": null,
+      "description_ar": "يطلق ثلاث ظلال رعدية تسبب ضرر إلكترو وتترك تمائم وفرة؛ تمنح هذه التمائم الشخصية التي تلتقطها استعادة للطاقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerelectro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.electro.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Electro",
+      "talent_type": "burst",
+      "source_name": "Bellowing Thunder",
+      "arabic_name": "الرعد الهادر",
+      "description_source": null,
+      "description_ar": "يستدعي حماية البرق، فيدفع الأعداء القريبين ويسبب ضرر إلكترو، ثم يساند هجمات الشخصية النشطة بضربات رعدية تستعيد الطاقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerelectro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.dendro.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Dendro",
+      "talent_type": "normal",
+      "source_name": "Foreign Fieldcleaver",
+      "arabic_name": "قاطع الحقول الغريب",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerdendro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.dendro.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Dendro",
+      "talent_type": "skill",
+      "source_name": "Razorgrass Blade",
+      "arabic_name": "نصل العشب الشفري",
+      "description_source": null,
+      "description_ar": "يطلق شفرات أوراق حادة أمامه تسبب ضرر دندرو للأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerdendro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.dendro.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Dendro",
+      "talent_type": "burst",
+      "source_name": "Surgent Manifestation",
+      "arabic_name": "تجلّي النمو",
+      "description_source": null,
+      "description_ar": "ينشئ مصباح لوتس يسبب ضرر دندرو مستمراً ضمن نطاقه، وتتغير خصائصه عند ملامسة عناصر معينة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerdendro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.hydro.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Hydro",
+      "talent_type": "normal",
+      "source_name": "Foreign Stream",
+      "arabic_name": "التيار الغريب",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerhydro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.hydro.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Hydro",
+      "talent_type": "skill",
+      "source_name": "Aquacrest Saber",
+      "arabic_name": "سيف قمة الماء",
+      "description_source": null,
+      "description_ar": "يطلق موجة مائية أمامه، أو يدخل وضع التصويب لإطلاق قطرات ماء متتابعة تسبب ضرر هيدرو، ثم يطلق موجة عند انتهاء المهارة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerhydro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.hydro.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Hydro",
+      "talent_type": "burst",
+      "source_name": "Rising Waters",
+      "arabic_name": "المياه الصاعدة",
+      "description_source": null,
+      "description_ar": "يطلق فقاعة عائمة بطيئة الحركة تسبب ضرر هيدرو مستمراً للأعداء القريبين.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerhydro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.pyro.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Pyro",
+      "talent_type": "normal",
+      "source_name": "Foreign Blaze",
+      "arabic_name": "اللهيب الغريب",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerpyro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.pyro.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Pyro",
+      "talent_type": "skill",
+      "source_name": "Flowfire Blade",
+      "arabic_name": "نصل اللهب المتدفق",
+      "description_source": null,
+      "description_ar": "يستحضر نيراناً متدفقة؛ تختلف النتيجة بحسب الضغط أو الاستمرار، ويدخل المسافر حالة بركة الروح الليلي مع استدعاء عتبة ملتهبة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerpyro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.pyro.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Pyro",
+      "talent_type": "burst",
+      "source_name": "Plains Scorcher",
+      "arabic_name": "محرقة السهول",
+      "description_source": null,
+      "description_ar": "يكثف اللهب في علامة أمامه تسبب ضرر بايرو واسعاً متوافقاً مع طاقة الروح الليلي، ثم يستعيد نقاطاً من تلك الطاقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelerpyro.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.cryo.normal",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Cryo",
+      "talent_type": "normal",
+      "source_name": "Foreign Frostglint",
+      "arabic_name": "البريق الصقيعي الغريب",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات سريعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelercryo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.cryo.skill",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Cryo",
+      "talent_type": "skill",
+      "source_name": "Ice Fog Piercer",
+      "arabic_name": "ثاقب الضباب الجليدي",
+      "description_source": null,
+      "description_ar": "يطعن الخصم مطلقاً ضباباً جليدياً يسبب ضرر كرايو، وينشئ نجمة صقيع ترافق أعضاء الفريق وتطلق بلورات جليدية دورياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelercryo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.aether.talent.cryo.burst",
+      "category": "term",
+      "character_id": "character.aether",
+      "character_name": "Aether (Traveler)",
+      "character_name_ar": "إيثر (المسافر)",
+      "element": "Cryo",
+      "talent_type": "burst",
+      "source_name": "Frostbound Javelin",
+      "arabic_name": "رمح الصقيع",
+      "description_source": null,
+      "description_ar": "ينشئ رمحاً جليدياً ويوجهه نحو الأعداء ليسبب عدة ضربات من ضرر كرايو؛ وتزداد قوته باستهلاك تراكمات وهج الصقيع.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/travelercryo.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "سجل خاص بطقم المسافر لهذا العنصر؛ الاسم العربي والملخص مقترحان وغير رسميين، ويحتاجان إلى مراجعة لغوية ومصطلحية."
     }
   ]
 }
