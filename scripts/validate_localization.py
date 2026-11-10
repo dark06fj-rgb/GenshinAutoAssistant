@@ -31,6 +31,13 @@ WEAPON_TYPE_TERMS = {
     "WEAPON_BOW": "Bow",
     "WEAPON_CATALYST": "Catalyst",
 }
+NONCANONICAL_TALENT_TERMS = {
+    "هايدرو": re.compile(r"هايدرو"),
+    "كريو": re.compile(r"كريو"),
+    "ديندرو": re.compile(r"ديندرو"),
+    # Keep visual descriptions such as "تيار هوائي"; flag only this damage-label phrase.
+    "هوائي (damage label)": re.compile(r"ضررها\s+إلى\s+هوائي"),
+}
 EXPECTED_CATALOGS = {
     "characters.json", "talents.json", "weapons.json",
     "materials.json", "resources.json", "artifacts.json", "glossary.json",
@@ -192,6 +199,22 @@ class Validator:
             source_term = WEAPON_TYPE_TERMS.get(entry.get("weapon_type"))
             if source_term and source_term not in terms:
                 self.error(f"weapons.json: missing glossary term {source_term!r} for weapon_type")
+
+    def check_talent_elemental_terminology(self) -> None:
+        """Reject known non-canonical elemental labels in talent summaries."""
+        talents = self.data.get("talents.json", {}).get("entries", [])
+        for talent in talents:
+            if not isinstance(talent, dict):
+                continue
+            description = talent.get("description_ar")
+            if not isinstance(description, str):
+                continue
+            for term, pattern in NONCANONICAL_TALENT_TERMS.items():
+                if pattern.search(description):
+                    self.error(
+                        f"talents.json: {talent.get('id', 'no id')} uses non-canonical "
+                        f"elemental term {term!r} in description_ar"
+                    )
 
     def check_talent_references(self) -> None:
         characters = self.data.get("characters.json", {}).get("entries", [])
@@ -403,6 +426,7 @@ class Validator:
             self.check_glossary_links()
         if "characters.json" in self.data and "talents.json" in self.data:
             self.check_talent_references()
+            self.check_talent_elemental_terminology()
             self.check_traveler_talent_sets()
             self.check_character_talent_sets()
         self.check_global_ids()

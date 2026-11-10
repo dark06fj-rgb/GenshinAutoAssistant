@@ -281,6 +281,31 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.assertEqual(exit_code, 1)
         self.assertIn("invalid/unreadable JSON", output)
 
+    def test_noncanonical_elemental_talent_terms_fail(self):
+        for phrase in (
+            "ضرر هايدرو",
+            "ضرر كريو",
+            "موجة ديندرو",
+            "تحويل ضررها إلى هوائي",
+        ):
+            with self.subTest(phrase=phrase):
+                catalogs = fixture_catalogs()
+                catalogs["talents.json"]["entries"][0]["description_ar"] = phrase
+                self.write_catalogs(catalogs)
+                exit_code, output, _ = self.run_validator()
+                self.assertEqual(exit_code, 1, output)
+                self.assertIn("non-canonical elemental term", output)
+
+    def test_descriptive_air_current_is_not_an_element_label(self):
+        catalogs = fixture_catalogs()
+        catalogs["talents.json"]["entries"][0]["description_ar"] = (
+            "ينشئ تياراً هوائياً يرفع الشخصية في الهواء."
+        )
+        self.write_catalogs(catalogs)
+        exit_code, output, validator = self.run_validator()
+        self.assertEqual(exit_code, 0, output)
+        self.assertFalse(validator.errors)
+
 
 if __name__ == "__main__":
     unittest.main()
