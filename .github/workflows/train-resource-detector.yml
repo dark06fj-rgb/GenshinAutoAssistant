@@ -24,21 +24,24 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install training tools
+      - name: Install pinned CPU training and export tools
         run: |
           python -m pip install --upgrade pip
-          python -m pip install "ultralytics==8.3.0" "roboflow==1.1.49" "PyYAML==6.0.2" "onnx==1.16.2" "onnxscript==0.2.2" "onnx-ir"
-          python -m pip install --force-reinstall "numpy==1.26.4"
-          python -c "import numpy, onnx_ir; print('Pinned NumPy:', numpy.__version__); print('ONNX IR:', onnx_ir.__file__); assert numpy.__version__ == '1.26.4'; assert hasattr(numpy, 'trapz')"
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1" "torchvision==0.20.1"
+          python -m pip install "numpy==1.26.4" "ultralytics==8.3.0" "roboflow==1.1.49" "PyYAML==6.0.2" "onnx==1.16.2" "onnxscript==0.2.2"
+          python -m pip check
+          python -c "import torch, torchvision, numpy, ultralytics, onnx, onnxscript; print('torch:', torch.__version__); print('torchvision:', torchvision.__version__); print('numpy:', numpy.__version__); print('ultralytics:', ultralytics.__version__); print('onnx:', onnx.__version__); print('onnxscript:', onnxscript.__version__); assert torch.__version__.startswith('2.5.1'); assert torchvision.__version__.startswith('0.20.1'); assert numpy.__version__ == '1.26.4'"
 
-      - name: Train resource detector
+      - name: Train and evaluate resource detector
         env:
           ROBOFLOW_API_KEY: ${{ secrets.ROBOFLOW_API_KEY }}
           ROBOFLOW_DATASETS: ${{ vars.ROBOFLOW_DATASETS }}
         run: python tools/train_resource_detector.py
 
+      # Upload even if the optional ONNX export fails. The Python script records
+      # export failure separately and keeps the training job successful.
       - name: Upload trained model and evaluation files
-        if: success()
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: genshin-resource-detector-experimental
@@ -52,5 +55,8 @@ jobs:
             runs/detect/genshin_resources/class_counts.txt
             runs/detect/genshin_resources/DATASET_ATTRIBUTION.txt
             runs/detect/genshin_resources/test_metrics.txt
+            runs/detect/genshin_resources/onnx_export_status.txt
+            runs/detect/genshin_resources/onnx_export_error.txt
+            runs/detect/genshin_resources_test/**
           if-no-files-found: warn
           retention-days: 30
