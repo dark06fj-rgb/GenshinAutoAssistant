@@ -35,7 +35,7 @@
       "source_name": "Abiogenesis: Solar Isotoma",
       "arabic_name": "التكوين التلقائي: سولار إيزوتوما",
       "description_source": null,
-      "description_ar": "ينشئ زهرة شمسية تسبب ضرراً جغرافياً وتولد أزهاراً عابرة عند إصابة الأعداء داخل مجالها.",
+      "description_ar": "ينشئ زهرة شمسية تسبب ضرراً من عنصر جيو وتولد أزهاراً عابرة عند إصابة الأعداء داخل مجالها.",
       "source": [
         {
           "name": "genshin-db",
@@ -56,7 +56,7 @@
       "source_name": "Rite of Progeniture: Tectonic Tide",
       "arabic_name": "طقس النشأة: المدّ التكتوني",
       "description_source": null,
-      "description_ar": "يطلق بلورات جغرافية أمامه، وتظهر أزهار قاتلة إضافية إذا كانت الزهرة الشمسية موجودة.",
+      "description_ar": "يطلق بلورات جيو أمامه، وتظهر أزهار قاتلة إضافية إذا كانت الزهرة الشمسية موجودة.",
       "source": [
         {
           "name": "genshin-db",
@@ -161,7 +161,7 @@
       "source_name": "Let the Show Begin♪",
       "arabic_name": "لتبدأ العروض♪",
       "description_source": null,
-      "description_ar": "تنشئ حلقة لحنية مائية حول الشخصية وتلحق ضرراً مائياً وتساعد على استعادة الصحة.",
+      "description_ar": "تنشئ حلقة لحنية مائية حول الشخصية وتلحق ضرراً من عنصر هيدرو وتساعد على استعادة الصحة.",
       "source": [
         {
           "name": "genshin-db",
@@ -392,7 +392,7 @@
       "source_name": "Lightning Touch",
       "arabic_name": "لمسة البرق",
       "description_source": null,
-      "description_ar": "تطلق صواعق كهربائية، ويمكنها شحن هجوم يسبب ضرر كهرباء واسعاً.",
+      "description_ar": "تطلق صواعق كهربائية، ويمكنها شحن هجوم يسبب ضرر إلكترو واسعاً.",
       "source": [
         {
           "name": "genshin-db",
@@ -476,7 +476,7 @@
       "source_name": "Breastplate",
       "arabic_name": "الدرع الواقي",
       "description_source": null,
-      "description_ar": "تنشئ درعاً جغرافياً وتسبب ضرراً للأعداء القريبين عند التفعيل.",
+      "description_ar": "تنشئ درعاً من عنصر جيو وتسبب ضرراً للأعداء القريبين عند التفعيل.",
       "source": [
         {
           "name": "genshin-db",
@@ -497,7 +497,7 @@
       "source_name": "Sweeping Time",
       "arabic_name": "زمن الاجتياح",
       "description_source": null,
-      "description_ar": "تجمع القوة داخل سيفها وتوسع نطاق هجماتها وتحول ضررها إلى جغرافي.",
+      "description_ar": "تجمع القوة داخل سيفها وتوسع نطاق هجماتها وتحول ضررها إلى ضرر جيو.",
       "source": [
         {
           "name": "genshin-db",
@@ -1001,7 +1001,7 @@
       "source_name": "Analysis: Gradient Theory",
       "arabic_name": "التحليل: نظرية التدرج",
       "description_source": null,
-      "description_ar": "يطلق ضرراً كهربائياً واسع النطاق وينشئ ثلاث منارات تدرج.",
+      "description_ar": "يطلق ضرراً من عنصر إلكترو واسع النطاق وينشئ ثلاث منارات تدرج.",
       "source": [
         {
           "name": "genshin-db",
@@ -1043,7 +1043,7 @@
       "source_name": "Active Defense: Bastion Charge",
       "arabic_name": "دفاع نشط: اندفاعة الحصن",
       "description_source": null,
-      "description_ar": "يندفع للأمام بمدفع الدرع، ويسبب ضرراً كهربائياً ويكتسب زخم الاصطدام وينشر درعاً فائق الشحن.",
+      "description_ar": "يندفع للأمام بمدفع الدرع، ويسبب ضرراً من عنصر إلكترو ويكتسب زخم الاصطدام وينشر درعاً فائق الشحن.",
       "source": [
         {
           "name": "genshin-db",
@@ -1064,7 +1064,7 @@
       "source_name": "Focused Fire: Lightning Salvo",
       "arabic_name": "نيران مركزة: وابل البرق",
       "description_source": null,
-      "description_ar": "يطلق قذيفة رعدية تتفرق إلى وابل مقذوفات يسبب ضرراً كهربائياً في المنطقة.",
+      "description_ar": "يطلق قذيفة رعدية تتفرق إلى وابل مقذوفات يسبب ضرراً من عنصر إلكترو في المنطقة.",
       "source": [
         {
           "name": "genshin-db",
@@ -1085,7 +1085,7 @@
       "source_name": "Invitation to a Beheading",
       "arabic_name": "دعوة إلى قطع الرأس",
       "description_source": null,
-      "description_ar": "تنفذ سلسلة ضربات بالرمح، ويمكن أن تتحول هجماتها إلى ضرر ناري عند تحقق شرط عهد الحياة.",
+      "description_ar": "تنفذ سلسلة ضربات بالرمح، ويمكن أن تتحول هجماتها إلى ضرر بايرو عند تحقق شرط عهد الحياة.",
       "source": [
         {
           "name": "genshin-db",
@@ -1211,7 +1211,7 @@
       "source_name": "Akara",
       "arabic_name": "أكارا",
       "description_source": null,
-      "description_ar": "تنفذ هجمات نباتية متتابعة، مع هجوم مشحون وضربة غطس تسبب ضرراً نباتياً ضمن نطاق.",
+      "description_ar": "تنفذ هجمات نباتية متتابعة، مع هجوم مشحون وضربة غطس تسبب ضرراً من عنصر دندرو ضمن نطاق.",
       "source": [
         {
           "name": "genshin-db",
@@ -1295,7 +1295,7 @@
       "source_name": "O Tears, I Shall Repay",
       "arabic_name": "يا للدموع، سأردّ",
       "description_source": null,
-      "description_ar": "ينشئ شلالاً أمامه يسبب ضرراً مائياً ضمن نطاق ويولد قطرات ماء المصدر التي تساعد على شحن هجومه.",
+      "description_ar": "ينشئ شلالاً أمامه يسبب ضرراً من عنصر هيدرو ضمن نطاق ويولد قطرات ماء المصدر التي تساعد على شحن هجومه.",
       "source": [
         {
           "name": "genshin-db",
@@ -1316,7 +1316,7 @@
       "source_name": "O Tides, I Have Returned",
       "arabic_name": "يا للمد والجزر، أعود",
       "description_source": null,
-      "description_ar": "يطلق موجة مائية واسعة ثم شلالات إضافية، مسبباً ضرراً مائياً ومولداً قطرات ماء المصدر.",
+      "description_ar": "يطلق موجة مائية واسعة ثم شلالات إضافية، مسبباً ضرراً من عنصر هيدرو ومولداً قطرات ماء المصدر.",
       "source": [
         {
           "name": "genshin-db",
@@ -1379,7 +1379,7 @@
       "source_name": "Planet Befall",
       "arabic_name": "كوكب يسقط",
       "description_source": null,
-      "description_ar": "يستدعي نيزكاً يسبب ضرراً جغرافياً واسعاً ويطبق حالة التحجر على الأعداء المصابين.",
+      "description_ar": "يستدعي نيزكاً يسبب ضرراً واسعاً من عنصر جيو ويطبق حالة التحجر على الأعداء المصابين.",
       "source": [
         {
           "name": "genshin-db",
@@ -1547,7 +1547,7 @@
       "source_name": "Lingering Lifeline",
       "arabic_name": "خيط الحياة المتبقي",
       "description_source": null,
-      "description_ar": "تتحرك بسرعة بخيط الحياة لتقييد الأعداء ووَسمهم، ثم ينفجر الخيط مسبباً ضرراً مائياً.",
+      "description_ar": "تتحرك بسرعة بخيط الحياة لتقييد الأعداء ووَسمهم، ثم ينفجر الخيط مسبباً ضرراً من عنصر هيدرو.",
       "source": [
         {
           "name": "genshin-db",
@@ -1568,7 +1568,7 @@
       "source_name": "Depth-Clarion Dice",
       "arabic_name": "نرد العمق الواضح",
       "description_source": null,
-      "description_ar": "تسبب ضرراً مائياً واسعاً وتستدعي رمية فائقة تنفذ هجمات مائية منسقة مع الشخصية النشطة.",
+      "description_ar": "تسبب ضرراً واسعاً من عنصر هيدرو وتستدعي رمية فائقة تنفذ هجمات مائية منسقة مع الشخصية النشطة.",
       "source": [
         {
           "name": "genshin-db",
@@ -1631,7 +1631,7 @@
       "source_name": "Spirit Soother",
       "arabic_name": "مهدئة الأرواح",
       "description_source": null,
-      "description_ar": "تطلق لهباً روحياً ضمن نطاق، مسببة ضرراً نارياً وتستعيد صحتها بحسب عدد الأعداء المصابين.",
+      "description_ar": "تطلق لهباً روحياً ضمن نطاق، مسببة ضرراً من عنصر بايرو وتستعيد صحتها بحسب عدد الأعداء المصابين.",
       "source": [
         {
           "name": "genshin-db",
@@ -1673,7 +1673,7 @@
       "source_name": "Lemniscatic Wind Cycling",
       "arabic_name": "دورة ليمانيك: راكب الرياح",
       "description_source": null,
-      "description_ar": "يندفع إلى الأمام مسبباً ضرراً هوائياً، ويمكن استخدام الاندفاع في الجو.",
+      "description_ar": "يندفع إلى الأمام مسبباً ضرراً من عنصر أنيمو، ويمكن استخدام الاندفاع في الجو.",
       "source": [
         {
           "name": "genshin-db",
@@ -1736,7 +1736,7 @@
       "source_name": "Trail of the Qilin",
       "arabic_name": "أثر كيلين",
       "description_source": null,
-      "description_ar": "تتراجع تاركة زهرة جليدية تجذب الأعداء ثم تنفجر مسببة ضرراً جليدياً.",
+      "description_ar": "تتراجع تاركة زهرة جليدية تجذب الأعداء ثم تنفجر مسببة ضرراً من عنصر كرايو.",
       "source": [
         {
           "name": "genshin-db",
@@ -1799,7 +1799,7 @@
       "source_name": "Kamisato Art: Hyouka",
       "arabic_name": "فن كاميساتو: كيوكا",
       "description_source": null,
-      "description_ar": "تستحضر زهرة جليدية حولها تقذف الأعداء وتسبب ضرراً جليدياً ضمن نطاق.",
+      "description_ar": "تستحضر زهرة جليدية حولها تقذف الأعداء وتسبب ضرراً من عنصر كرايو ضمن نطاق.",
       "source": [
         {
           "name": "genshin-db",
@@ -1841,7 +1841,7 @@
       "source_name": "Kaboom!",
       "arabic_name": "تفجير-تفجير",
       "description_source": null,
-      "description_ar": "ترمي قنابل متفجرة تسبب ضرراً نارياً، مع هجوم مشحون وضربة غطس.",
+      "description_ar": "ترمي قنابل متفجرة تسبب ضرراً من عنصر بايرو، مع هجوم مشحون وضربة غطس.",
       "source": [
         {
           "name": "genshin-db",
@@ -1904,7 +1904,7 @@
       "source_name": "Divine Marksmanship",
       "arabic_name": "الرماية الإلهية",
       "description_source": null,
-      "description_ar": "يطلق سهاماً متتابعة، ويمكنه شحن سهم رياح يسبب ضرراً هوائياً.",
+      "description_ar": "يطلق سهاماً متتابعة، ويمكنه شحن سهم رياح يسبب ضرراً من عنصر أنيمو.",
       "source": [
         {
           "name": "genshin-db",
@@ -2114,7 +2114,7 @@
       "source_name": "Universality: An Elaboration on Form",
       "arabic_name": "تعميم: صياغة شكلية",
       "description_source": null,
-      "description_ar": "يندفع للأمام مسبباً ضرراً نباتياً، ويُنشئ مرايا ضوئية تعزز هجماته وتطلق ضربات منسقة.",
+      "description_ar": "يندفع للأمام مسبباً ضرراً من عنصر دندرو، ويُنشئ مرايا ضوئية تعزز هجماته وتطلق ضربات منسقة.",
       "source": [
         {
           "name": "genshin-db",
@@ -2135,7 +2135,7 @@
       "source_name": "Particular Field: Fetters of Phenomena",
       "arabic_name": "قيد ظاهري: قيود التشابك",
       "description_source": null,
-      "description_ar": "ينشئ حقلاً يسبب ضرراً نباتياً متعدد المرات، ويتغير عدد الضربات بحسب المرايا التي يستهلكها.",
+      "description_ar": "ينشئ حقلاً يسبب ضرراً من عنصر دندرو متعدد المرات، ويتغير عدد الضربات بحسب المرايا التي يستهلكها.",
       "source": [
         {
           "name": "genshin-db",
@@ -2324,7 +2324,7 @@
       "source_name": "Royal Descent: Behold, Itto the Evil!",
       "arabic_name": "نزول ملك: هاكوشين",
       "description_source": null,
-      "description_ar": "يدخل وضع ملك الأوني، محولاً ضرر هجماته إلى جغرافي ومعززاً سرعة هجومه وقوته.",
+      "description_ar": "يدخل وضع ملك الأوني، محولاً ضرر هجماته إلى ضرر جيو ومعززاً سرعة هجومه وقوته.",
       "source": [
         {
           "name": "genshin-db",
@@ -2345,7 +2345,7 @@
       "source_name": "The Classics of Acupuncture",
       "arabic_name": "الوخز الكلاسيكي الذهبي",
       "description_source": null,
-      "description_ar": "ينفذ ضربات متتابعة بمحفز، مع هجوم مشحون وضربة غطس تسبب ضرراً نباتياً.",
+      "description_ar": "ينفذ ضربات متتابعة بمحفز، مع هجوم مشحون وضربة غطس تسبب ضرراً من عنصر دندرو.",
       "source": [
         {
           "name": "genshin-db",
@@ -2387,7 +2387,7 @@
       "source_name": "Holistic Revivification",
       "arabic_name": "التجديد الشامل",
       "description_source": null,
-      "description_ar": "يدخل حالة نبضية تنشئ درعاً جديداً دورياً، وتعالج الشخصية النشطة وتهاجم الأعداء بضرر نباتي.",
+      "description_ar": "يدخل حالة نبضية تنشئ درعاً جديداً دورياً، وتعالج الشخصية النشطة وتهاجم الأعداء بضرر دندرو.",
       "source": [
         {
           "name": "genshin-db",
@@ -2576,7 +2576,7 @@
       "source_name": "Sacred Rite: Wagtail's Tide",
       "arabic_name": "طقس مقدس: مدّ ذعري",
       "description_source": null,
-      "description_ar": "تستدعي بركة مائية تمنح الفريق تعزيزاً لضرر الهجمات العادية وتحولها إلى ضرر مائي عند تبديل الشخصيات.",
+      "description_ar": "تستدعي بركة مائية تمنح الفريق تعزيزاً لضرر الهجمات العادية وتحولها إلى ضرر هيدرو عند تبديل الشخصيات.",
       "source": [
         {
           "name": "genshin-db",
@@ -2807,7 +2807,7 @@
       "source_name": "Fluttering Hasode",
       "arabic_name": "هاسودي الخفّاق",
       "description_source": null,
-      "description_ar": "تندفع شيوري للأمام وتستدعي دمية تاموتو التي تضرب الأعداء بضرر جغرافي؛ وقد تستدعي دمية إضافية عند وجود إنشاءات جغرافية.",
+      "description_ar": "تندفع شيوري للأمام وتستدعي دمية تاموتو التي تضرب الأعداء بضرر جيو؛ وقد تستدعي دمية إضافية عند وجود إنشاءات جغرافية.",
       "source": [
         {
           "name": "genshin-db",
@@ -2828,7 +2828,7 @@
       "source_name": "Hiyoku: Twin Blades",
       "arabic_name": "هييوكو: النصلان التوأمان",
       "description_source": null,
-      "description_ar": "تسحب شيوري نصلين وتنفذ ضربة واسعة تسبب ضرراً جغرافياً يعتمد على الهجوم والدفاع.",
+      "description_ar": "تسحب شيوري نصلين وتنفذ ضربة واسعة تسبب ضرراً من عنصر جيو يعتمد على الهجوم والدفاع.",
       "source": [
         {
           "name": "genshin-db",
@@ -3941,7 +3941,7 @@
       "source_name": "Inuzaka All-Round Defense",
       "arabic_name": "دفاع إينوزاكا الشامل",
       "description_source": null,
-      "description_ar": "ينشئ غورو راية الجنرال التي تمنح الشخصيات النشطة تعزيزات دفاعية ومقاومة للمقاطعة وضرر جغرافي بحسب عدد شخصيات جيو في الفريق.",
+      "description_ar": "ينشئ غورو راية الجنرال التي تمنح الشخصيات النشطة تعزيزات دفاعية ومقاومة للمقاطعة وضرر جيو بحسب عدد شخصيات جيو في الفريق.",
       "source": [
         {
           "name": "genshin-db",
@@ -3962,7 +3962,7 @@
       "source_name": "Juuga: Forward Unto Victory",
       "arabic_name": "جوغا: تقدّم نحو النصر",
       "description_source": null,
-      "description_ar": "ينشئ غورو مجال مجد الجنرال المتحرك الذي يمنح تعزيزات مشابهة للراية، ويسبب ضرراً جغرافياً دورياً ويجذب الشظايا العنصرية.",
+      "description_ar": "ينشئ غورو مجال مجد الجنرال المتحرك الذي يمنح تعزيزات مشابهة للراية، ويسبب ضرراً من عنصر جيو دورياً ويجذب الشظايا العنصرية.",
       "source": [
         {
           "name": "genshin-db",
@@ -4466,7 +4466,7 @@
       "source_name": "Painted Dome",
       "arabic_name": "القبة المرسومة",
       "description_source": null,
-      "description_ar": "يطلق كافيه طاقة مهرَك وينشئ مجالاً يمسح المنطقة ويسبب ضرر ديندرو، ويفجّر النوى ويعزز هجماته ومقاومته للمقاطعة مؤقتاً.",
+      "description_ar": "يطلق كافيه طاقة مهرَك وينشئ مجالاً يمسح المنطقة ويسبب ضرر دندرو، ويفجّر النوى ويعزز هجماته ومقاومته للمقاطعة مؤقتاً.",
       "source": [
         {
           "name": "genshin-db",
@@ -4508,7 +4508,7 @@
       "source_name": "Meow-teor Kick",
       "arabic_name": "ركلة نيزك المواء",
       "description_source": null,
-      "description_ar": "تقفز كيرارا وتوجه ركلة تسبب ضرر ديندرو وتنشئ درعاً؛ وبالضغط المطول تدخل صندوق توصيل خاصاً يزيد سرعة حركتها وتسلقها ويصدم الأعداء.",
+      "description_ar": "تقفز كيرارا وتوجه ركلة تسبب ضرر دندرو وتنشئ درعاً؛ وبالضغط المطول تدخل صندوق توصيل خاصاً يزيد سرعة حركتها وتسلقها ويصدم الأعداء.",
       "source": [
         {
           "name": "genshin-db",
@@ -4529,7 +4529,7 @@
       "source_name": "Secret Art: Surprise Dispatch",
       "arabic_name": "الفن السري: توصيل مفاجئ",
       "description_source": null,
-      "description_ar": "ترمي كيرارا طرداً خاصاً يسبب ضرر ديندرو واسعاً، ثم ينقسم بعد انفجاره إلى ثمار صغيرة تنفجر عند ملامسة الأعداء أو بعد مدة.",
+      "description_ar": "ترمي كيرارا طرداً خاصاً يسبب ضرر دندرو واسعاً، ثم ينقسم بعد انفجاره إلى ثمار صغيرة تنفجر عند ملامسة الأعداء أو بعد مدة.",
       "source": [
         {
           "name": "genshin-db",
@@ -4760,7 +4760,7 @@
       "source_name": "Runo: Dawnless Rest of Karsikko",
       "arabic_name": "رونو: سكون كارسيكو الخالي من الفجر",
       "description_source": null,
-      "description_ar": "تنشد لاوما ترنيمة تستدعي ملاذاً غابياً؛ والضغط المطول يستهلك قطرات الندى الخضراء لإطلاق ضرر ديندرو إضافي من نوع إزهار قمري ويقلل مقاومتي ديندرو وهيدرو لدى الأعداء.",
+      "description_ar": "تنشد لاوما ترنيمة تستدعي ملاذاً غابياً؛ والضغط المطول يستهلك قطرات الندى الخضراء لإطلاق ضرر دندرو إضافي من نوع إزهار قمري ويقلل مقاومتي ديندرو وهيدرو لدى الأعداء.",
       "source": [
         {
           "name": "genshin-db",
@@ -5390,7 +5390,7 @@
       "source_name": "Senet Strategy: Dance of a Thousand Nights",
       "arabic_name": "استراتيجية سينيت: رقصة ألف ليلة",
       "description_source": null,
-      "description_ar": "تندفع نيفر مسببة ضرر ديندرو وتدخل حالة رقصة الظلال؛ وخلالها تتحول هجماتها المشحونة إلى أداء خاص لا يستهلك القدرة على التحمل عند توفر الندى الأخضر.",
+      "description_ar": "تندفع نيفر مسببة ضرر دندرو وتدخل حالة رقصة الظلال؛ وخلالها تتحول هجماتها المشحونة إلى أداء خاص لا يستهلك القدرة على التحمل عند توفر الندى الأخضر.",
       "source": [
         {
           "name": "genshin-db",
@@ -5411,7 +5411,7 @@
       "source_name": "Sacred Vow: True Eye's Phantasm",
       "arabic_name": "العهد المقدس: وهم العين الحقيقية",
       "description_source": null,
-      "description_ar": "تطلق نيفر ضرر ديندرو واسعاً أمامها وتستهلك أغطية الوهم لزيادة ضرر هذه الضربة.",
+      "description_ar": "تطلق نيفر ضرر دندرو واسعاً أمامها وتستهلك أغطية الوهم لزيادة ضرر هذه الضربة.",
       "source": [
         {
           "name": "genshin-db",
@@ -5537,7 +5537,7 @@
       "source_name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
       "arabic_name": "رقصة أبزندغي: أحلام بعيدة وينبوع مُصغٍ",
       "description_source": null,
-      "description_ar": "تطلق نيلو زهرة مياه بعيدة تسبب ضرر هيدرو واسعاً، ثم يتلقى الأعداء المتأثرون ضرراً مائياً إضافياً بعد فترة.",
+      "description_ar": "تطلق نيلو زهرة مياه بعيدة تسبب ضرر هيدرو واسعاً، ثم يتلقى الأعداء المتأثرون ضرراً من عنصر هيدرو إضافياً بعد فترة.",
       "source": [
         {
           "name": "genshin-db",
@@ -6293,7 +6293,7 @@
       "source_name": "Fashioner's Tanglevine Shaft",
       "arabic_name": "سهم الكرمة المتشابكة للصانع",
       "description_source": null,
-      "description_ar": "يطلق تيغناري ستة سهام كرمة تتعقب الأعداء وتسبب ضرر ديندرو، ثم تنشئ عند إصابتها موجة ثانية من السهام المتعقبة.",
+      "description_ar": "يطلق تيغناري ستة سهام كرمة تتعقب الأعداء وتسبب ضرر دندرو، ثم تنشئ عند إصابتها موجة ثانية من السهام المتعقبة.",
       "source": [
         {
           "name": "genshin-db",
@@ -6839,7 +6839,7 @@
       "source_name": "Raphanus Sky Cluster",
       "arabic_name": "عنقود الفجل السماوي",
       "description_source": null,
-      "description_ar": "تستدعي يويغوي لرمي فجل اليشم الأبيض؛ ينفجر الفجل مسبباً ضرر ديندرو ويعالج الشخصيات القريبة وفقاً لصحة ياوياو، ويختار هدفه بحسب حالة الفريق.",
+      "description_ar": "تستدعي يويغوي لرمي فجل اليشم الأبيض؛ ينفجر الفجل مسبباً ضرر دندرو ويعالج الشخصيات القريبة وفقاً لصحة ياوياو، ويختار هدفه بحسب حالة الفريق.",
       "source": [
         {
           "name": "genshin-db",
@@ -7343,7 +7343,7 @@
       "source_name": "Ancient Rite: Arcane Light",
       "arabic_name": "الطقس القديم: النور الغامض",
       "description_source": null,
-      "description_ar": "يستحضر القوة الكامنة في مصباحه ويدخل هيئة اللهب المتجلي؛ تتحول هجماته العادية والمشحونة إلى ضرر كهربائي، وتُستبدل مهارته بمهارة عاصفة رماح الشمال.",
+      "description_ar": "يستحضر القوة الكامنة في مصباحه ويدخل هيئة اللهب المتجلي؛ تتحول هجماته العادية والمشحونة إلى ضرر إلكترو، وتُستبدل مهارته بمهارة عاصفة رماح الشمال.",
       "source": [
         {
           "name": "genshin-db",
@@ -7364,7 +7364,7 @@
       "source_name": "Ancient Ritual: Cometh the Night",
       "arabic_name": "الطقس القديم: أقبلِي أيتها الليلة",
       "description_source": null,
-      "description_ar": "يطلق القوة الحقيقية للمصباح ليسبب ضرراً كهربائياً واسعاً على دفعات، مع تعزيز الضربات في وجود سحب الرعد؛ وبعد مهارة عاصفة رماح الشمال يمكنه استخدام انفجار خاص أقل استهلاكاً للطاقة.",
+      "description_ar": "يطلق القوة الحقيقية للمصباح ليسبب ضرراً واسعاً من عنصر إلكترو على دفعات، مع تعزيز الضربات في وجود سحب الرعد؛ وبعد مهارة عاصفة رماح الشمال يمكنه استخدام انفجار خاص أقل استهلاكاً للطاقة.",
       "source": [
         {
           "name": "genshin-db",
@@ -7553,7 +7553,7 @@
       "source_name": "Hail to the Almighty Dragonlord",
       "arabic_name": "تحية لسيد التنانين العظيم",
       "description_source": null,
-      "description_ar": "يستدعي قوة التنين أجاو ليسبب ضرر ديندرو واسعاً، ثم يطلق التنين أنفاسه على فترات؛ وتطول حالة بركة روح الليل إذا كانت نشطة عند الاستخدام.",
+      "description_ar": "يستدعي قوة التنين أجاو ليسبب ضرر دندرو واسعاً، ثم يطلق التنين أنفاسه على فترات؛ وتطول حالة بركة روح الليل إذا كانت نشطة عند الاستخدام.",
       "source": [
         {
           "name": "genshin-db",
@@ -7679,7 +7679,7 @@
       "source_name": "Secret Rite: Twilight Shadowpiercer",
       "arabic_name": "الطقس السري: مخترق الظلال عند الغسق",
       "description_source": null,
-      "description_ar": "يدخل حالة تأمل الغسق، فتتحول هجماته العادية إلى سهام شفق نافذة تخترق الأعداء وتسبب ضرر كهرباء يزداد بحسب إتقانه للعناصر. تنتهي الحالة عند مغادرته ساحة القتال.",
+      "description_ar": "يدخل حالة تأمل الغسق، فتتحول هجماته العادية إلى سهام شفق نافذة تخترق الأعداء وتسبب ضرر إلكترو يزداد بحسب إتقانه للعناصر. تنتهي الحالة عند مغادرته ساحة القتال.",
       "source": [
         {
           "name": "genshin-db",
