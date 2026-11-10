@@ -246,7 +246,38 @@ jobs:
               final LinkedHashMap<String,TextView> resourceMarkers=new LinkedHashMap<>();
               LinearLayout root, content, nav;
               SharedPreferences prefs;
-              final String[] characters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
+              final String[] fallbackCharacters = {"Aino","Albedo","Alhaitham","Amber","Arlecchino","Barbara","Bennett","Chasca","Furina","Ganyu","Hu Tao","Kaedehara Kazuha","Kamisato Ayaka","Kamisato Ayato","Keqing","Klee","Nahida","Neuvillette","Raiden Shogun","Xiangling","Xingqiu","Yelan","Zhongli"};
+              String[] characters=fallbackCharacters;
+              final LinkedHashMap<String,String> characterArabicNames=new LinkedHashMap<>();
+              void loadCharacterCatalog() {
+                  try {
+                      InputStream input=getAssets().open("localization/ar/characters.json");
+                      ByteArrayOutputStream output=new ByteArrayOutputStream();
+                      byte[] buffer=new byte[8192]; int count;
+                      while((count=input.read(buffer))!=-1) output.write(buffer,0,count);
+                      input.close();
+                      JSONObject catalog=new JSONObject(output.toString("UTF-8"));
+                      JSONArray entries=catalog.optJSONArray("entries");
+                      if(entries==null || entries.length()==0) return;
+                      ArrayList<String> names=new ArrayList<>();
+                      for(int i=0;i<entries.length();i++) {
+                          JSONObject entry=entries.optJSONObject(i);
+                          if(entry==null) continue;
+                          String source=entry.optString("source_name","").trim();
+                          String arabic=entry.optString("arabic_name","").trim();
+                          if(source.isEmpty()) continue;
+                          if(!names.contains(source)) names.add(source);
+                          if(!arabic.isEmpty()) characterArabicNames.put(source,arabic);
+                      }
+                      if(!names.isEmpty()) characters=names.toArray(new String[0]);
+                  } catch(Exception e) {
+                      android.util.Log.w("GenshinAssistant","Arabic character catalog unavailable; using fallback list",e);
+                  }
+              }
+              String characterDisplayName(String sourceName) {
+                  String arabic=characterArabicNames.get(sourceName);
+                  return arabic==null || arabic.isEmpty()?sourceName:arabic+"  ·  "+sourceName;
+              }
           
               @Override protected void onResume() {
                   super.onResume();
@@ -292,6 +323,7 @@ jobs:
                   super.onCreate(state);
                   installCrashDiagnostics();
                   prefs=getSharedPreferences("genshin_progress",MODE_PRIVATE);
+                  loadCharacterCatalog();
                   root=new LinearLayout(this); root.setOrientation(LinearLayout.VERTICAL);
                   root.setPadding(16,18,16,12); root.setBackgroundColor(Color.rgb(247,246,250));
                   TextView title=new TextView(this); title.setText("Genshin Assistant"); title.setTextSize(25);
@@ -480,7 +512,7 @@ jobs:
                           owned.setChecked(prefs.getBoolean(key("owned",name),false));
                           owned.setOnCheckedChangeListener((v,checked)->prefs.edit().putBoolean(key("owned",name),checked).apply());
                           row.addView(owned);
-                          Button details=new Button(this);details.setText(name);details.setAllCaps(false);
+                          Button details=new Button(this);details.setText(characterDisplayName(name));details.setAllCaps(false);
                           details.setOnClickListener(v->showCharacterDetails(name));
                           row.addView(details,new LinearLayout.LayoutParams(0,-2,1));list.addView(row);
                       }
@@ -1139,6 +1171,25 @@ jobs:
               @Override public IBinder onBind(Intent intent){return binder;}
           }
           EOF
+
+      - name: Package and validate Arabic localization catalogs
+        run: |
+          mkdir -p app/src/main/assets/localization/ar
+          cp localization/ar/characters.json app/src/main/assets/localization/ar/characters.json
+          cp localization/ar/talents.json app/src/main/assets/localization/ar/talents.json
+          cp localization/ar/glossary.json app/src/main/assets/localization/ar/glossary.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path("app/src/main/assets/localization/ar")
+          expected = {"characters.json": 123, "talents.json": 387, "glossary.json": 54}
+          for filename, minimum in expected.items():
+              data = json.loads((root / filename).read_text(encoding="utf-8"))
+              entries = data.get("entries", [])
+              if len(entries) < minimum:
+                  raise SystemExit(f"{filename}: expected at least {minimum} entries, got {len(entries)}")
+              print(f"Validated {filename}: {len(entries)} entries")
+          PY
 
       - name: Build APK
         run: gradle --no-daemon assembleDebug --stacktrace
