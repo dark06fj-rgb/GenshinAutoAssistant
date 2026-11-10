@@ -18,7 +18,6 @@ The first batch contains a small starter sample of character names, weapon names
 
 ## Quest catalog sources and boundaries
 
-- [AnimeGameData](https://github.com/DimbreathBot/AnimeGameData): primary technical reference for quest/chapter identifiers. `MainQuestExcelConfigData` supplies main quest IDs and title hashes; `ChapterExcelConfigData` supplies chapter grouping and identifies World Quest chapters with `questType: WQ`; `QuestExcelConfigData` contains sub-quest steps. The 7.2.0 source snapshot is pinned in the quest audit. Treat extracted data as reference material; do not redistribute dialogue or proprietary assets.
 - [GenshinScripts](https://github.com/ToaHartor/GenshinScripts): community parser documentation demonstrates extraction of World Quest records and Archon/Story/Event chapter structures from GenshinData, including lookup by `MainQuestExcelConfigData` IDs. Use as a parser/reference lead, not as an authority for Arabic wording.
 - [Genshin Impact Wiki – Quest Menu](https://genshin-impact.fandom.com/wiki/Quest/Menu): reference for in-game grouping and the Travel Log's prerequisite graph. Verify individual quest titles and unlock conditions against versioned sources before adding them.
 - [GenshinDialogueFetch](https://github.com/arrogant-R/GenshinDialogueFetch): documents separate Archon and World Quest indexes and hierarchy. This project will use index/hierarchy metadata only; it will not copy dialogue, voice files, or images.
