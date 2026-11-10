@@ -233,6 +233,276 @@
       ],
       "translation_status": "draft",
       "review_notes": "مراجعة أولية لكتابة الاسم بالعربية؛ نقل صوتي مقترح وغير رسمي، مع إبقاء الحالة draft لحين مطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.arlecchino",
+      "category": "character",
+      "source_name": "Arlecchino",
+      "arabic_name": "أركليكينو",
+      "rarity": 5,
+      "element": "Pyro",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/arlecchino.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.furina",
+      "category": "character",
+      "source_name": "Furina",
+      "arabic_name": "فورينا",
+      "rarity": 5,
+      "element": "Hydro",
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/furina.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.nahida",
+      "category": "character",
+      "source_name": "Nahida",
+      "arabic_name": "ناهيدا",
+      "rarity": 5,
+      "element": "Dendro",
+      "weapon_type": "Catalyst",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/nahida.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.neuvillette",
+      "category": "character",
+      "source_name": "Neuvillette",
+      "arabic_name": "نيوفيليت",
+      "rarity": 5,
+      "element": "Hydro",
+      "weapon_type": "Catalyst",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/neuvillette.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.zhongli",
+      "category": "character",
+      "source_name": "Zhongli",
+      "arabic_name": "جونغلي",
+      "rarity": 5,
+      "element": "Geo",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/zhongli.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.raidenshogun",
+      "category": "character",
+      "source_name": "Raiden Shogun",
+      "arabic_name": "رايدن شوغون",
+      "rarity": 5,
+      "element": "Electro",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/raidenshogun.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.kaedeharakazuha",
+      "category": "character",
+      "source_name": "Kaedehara Kazuha",
+      "arabic_name": "كايدهارا كازوها",
+      "rarity": 5,
+      "element": "Anemo",
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/kaedeharakazuha.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.yelan",
+      "category": "character",
+      "source_name": "Yelan",
+      "arabic_name": "ييلان",
+      "rarity": 5,
+      "element": "Hydro",
+      "weapon_type": "Bow",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/yelan.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.hutao",
+      "category": "character",
+      "source_name": "Hu Tao",
+      "arabic_name": "هو تاو",
+      "rarity": 5,
+      "element": "Pyro",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/hutao.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.xiao",
+      "category": "character",
+      "source_name": "Xiao",
+      "arabic_name": "شياو",
+      "rarity": 5,
+      "element": "Anemo",
+      "weapon_type": "Polearm",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/xiao.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.ganyu",
+      "category": "character",
+      "source_name": "Ganyu",
+      "arabic_name": "غانيو",
+      "rarity": 5,
+      "element": "Cryo",
+      "weapon_type": "Bow",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/ganyu.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.kamisatoayaka",
+      "category": "character",
+      "source_name": "Kamisato Ayaka",
+      "arabic_name": "كاميساتو أياكا",
+      "rarity": 5,
+      "element": "Cryo",
+      "weapon_type": "Sword",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/kamisatoayaka.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.klee",
+      "category": "character",
+      "source_name": "Klee",
+      "arabic_name": "كلي",
+      "rarity": 5,
+      "element": "Pyro",
+      "weapon_type": "Catalyst",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/klee.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.venti",
+      "category": "character",
+      "source_name": "Venti",
+      "arabic_name": "فينتي",
+      "rarity": 5,
+      "element": "Anemo",
+      "weapon_type": "Bow",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/venti.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.mavuika",
+      "category": "character",
+      "source_name": "Mavuika",
+      "arabic_name": "مافويكا",
+      "rarity": 5,
+      "element": "Pyro",
+      "weapon_type": "Claymore",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/8e5badd60b5d894284ccc927a56c9683529d2592/src/data/English/characters/mavuika.json",
+          "version": "upstream commit 8e5badd"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
     }
   ]
 }
