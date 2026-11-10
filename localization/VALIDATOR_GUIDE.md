@@ -7,7 +7,7 @@
 ## Checks performed
 
 - Parse every JSON catalog under `localization/ar/` and require the six expected catalogs.
-- Validate required fields, non-empty source and Arabic labels, supported translation statuses, and HTTP(S) source URLs.
+- Validate required fields, stable lowercase IDs, supported catalog categories and translation statuses, non-empty source and Arabic labels, and HTTP(S) source URLs.
 - Detect duplicate IDs within a catalog and across all catalogs.
 - Validate glossary record fields and detect repeated or conflicting source terms.
 - Compare material/resource labels with exact glossary terms when a shared source term exists.
