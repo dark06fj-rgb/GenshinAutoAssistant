@@ -11,6 +11,8 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1] / "localization"
 AR_DIR = ROOT / "ar"
 ALLOWED_STATUSES = {"draft", "reviewed", "approved", "needs_context"}
+ALLOWED_CATEGORIES = {"character", "weapon", "artifact", "material", "resource", "region", "enemy", "food", "quest", "term"}
+ID_RE = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 ENTITY_REQUIRED = {"id", "category", "source_name", "arabic_name", "translation_status", "source"}
 GLOSSARY_REQUIRED = {"id", "source_term", "translation", "status"}
 ARABIC_RE = re.compile(r"[\u0600-\u06FF]")
@@ -101,6 +103,8 @@ class Validator:
             entity_id = entry.get("id")
             if not isinstance(entity_id, str) or not entity_id.strip():
                 self.error(f"{label} has an empty/invalid id")
+            elif not ID_RE.fullmatch(entity_id):
+                self.error(f"{label} has an id outside the stable lowercase format")
             elif entity_id in seen_ids:
                 self.error(f"{label} duplicates id {entity_id}")
             else:
@@ -118,6 +122,8 @@ class Validator:
             for field in ("source_name", "arabic_name"):
                 if not isinstance(entry.get(field), str) or not entry[field].strip():
                     self.error(f"{label} has an empty/invalid {field}")
+            if entry.get("category") not in ALLOWED_CATEGORIES:
+                self.error(f"{label} has an unsupported category")
             if entry.get("translation_status") not in ALLOWED_STATUSES:
                 self.error(f"{label} has unsupported translation_status")
             self.validate_source(label, entry.get("source"))
