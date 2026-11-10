@@ -6114,6 +6114,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.tartaglia.talent.normal",
+      "category": "term",
+      "character_id": "character.10000033",
+      "character_name": "Tartaglia",
+      "character_name_ar": "تارتاليا",
+      "talent_type": "normal",
+      "source_name": "Cutting Torrent",
+      "arabic_name": "السيل القاطع",
+      "description_source": null,
+      "description_ar": "يطلق تارتاليا سهاماً متتابعة، ويمكنه شحن سهم مائي يطبق حالة المدّ الجارف على الأعداء؛ وتسبب إصابة المتأثرين بها تأثيرات مائية إضافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/tartaglia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.tartaglia.talent.skill",
+      "category": "term",
+      "character_id": "character.10000033",
+      "character_name": "Tartaglia",
+      "character_name_ar": "تارتاليا",
+      "talent_type": "skill",
+      "source_name": "Foul Legacy: Raging Tide",
+      "arabic_name": "الإرث المظلم: المدّ الهائج",
+      "description_source": null,
+      "description_ar": "يحوّل تارتاليا سلاحه إلى شفرات مائية ويدخل وضع القتال القريب، فتتحول هجماته إلى ضرر هيدرو وتطلق إصاباته على الأعداء المتأثرين بالمدّ ضربات مائية إضافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/tartaglia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.tartaglia.talent.burst",
+      "category": "term",
+      "character_id": "character.10000033",
+      "character_name": "Tartaglia",
+      "character_name_ar": "تارتاليا",
+      "talent_type": "burst",
+      "source_name": "Havoc: Obliteration",
+      "arabic_name": "الخراب: الإبادة",
+      "description_source": null,
+      "description_ar": "ينفذ تارتاليا ضربة مختلفة حسب وضعه؛ ففي القتال البعيد يطلق سهماً مائياً واسعاً، وفي القريب ينفذ شقاً مائياً هائلاً يفجر حالة المدّ الجارف.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/tartaglia.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.thoma.talent.normal",
+      "category": "term",
+      "character_id": "character.10000050",
+      "character_name": "Thoma",
+      "character_name_ar": "توما",
+      "talent_type": "normal",
+      "source_name": "Swiftshatter Spear",
+      "arabic_name": "رمح التحطيم السريع",
+      "description_source": null,
+      "description_ar": "ينفذ توما ضربات متتابعة بالرمح، مع اندفاع مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/thoma.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.thoma.talent.skill",
+      "category": "term",
+      "character_id": "character.10000050",
+      "character_name": "Thoma",
+      "character_name_ar": "توما",
+      "talent_type": "skill",
+      "source_name": "Blazing Blessing",
+      "arabic_name": "البركة المتوهجة",
+      "description_source": null,
+      "description_ar": "يندفع توما برمحه وينفذ ركلة نارية واسعة، منشئاً حاجزاً متوهجاً يمتص الضرر ويكون أكثر فاعلية ضد ضرر بايرو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/thoma.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.thoma.talent.burst",
+      "category": "term",
+      "character_id": "character.10000050",
+      "character_name": "Thoma",
+      "character_name_ar": "توما",
+      "talent_type": "burst",
+      "source_name": "Crimson Ooyoroi",
+      "arabic_name": "درع أويوروي القرمزي",
+      "description_source": null,
+      "description_ar": "يدور توما برمحه مطلقاً ضرر بايرو، ثم تتسبب هجمات الشخصية النشطة العادية بانهيارات نارية دورية تنشئ حواجز متوهجة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/thoma.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.tighnari.talent.normal",
+      "category": "term",
+      "character_id": "character.10000069",
+      "character_name": "Tighnari",
+      "character_name_ar": "تيغناري",
+      "talent_type": "normal",
+      "source_name": "Khanda Barrier-Buster",
+      "arabic_name": "كاسر حاجز خاندا",
+      "description_source": null,
+      "description_ar": "يطلق تيغناري سهاماً متتابعة، ويمكنه شحن سهم ديندرو أو سهماً إكليلياً ينشطر عند إصابة الهدف إلى أربعة أسهم تتعقب الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/tighnari.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.tighnari.talent.skill",
+      "category": "term",
+      "character_id": "character.10000069",
+      "character_name": "Tighnari",
+      "character_name_ar": "تيغناري",
+      "talent_type": "skill",
+      "source_name": "Vijnana-Phala Mine",
+      "arabic_name": "لغم فيجنانا-فالا",
+      "description_source": null,
+      "description_ar": "يقذف تيغناري قلب عاصفة ديندرو ينشئ حقلاً من الأوهام يجذب هجمات الأعداء، ويقلل زمن شحن السهم الإكليلي لثلاث طلقات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/tighnari.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.tighnari.talent.burst",
+      "category": "term",
+      "character_id": "character.10000069",
+      "character_name": "Tighnari",
+      "character_name_ar": "تيغناري",
+      "talent_type": "burst",
+      "source_name": "Fashioner's Tanglevine Shaft",
+      "arabic_name": "سهم الكرمة المتشابكة للصانع",
+      "description_source": null,
+      "description_ar": "يطلق تيغناري ستة سهام كرمة تتعقب الأعداء وتسبب ضرر ديندرو، ثم تنشئ عند إصابتها موجة ثانية من السهام المتعقبة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/tighnari.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.wanderer.talent.normal",
+      "category": "term",
+      "character_id": "character.10000075",
+      "character_name": "Wanderer",
+      "character_name_ar": "المتجول",
+      "talent_type": "normal",
+      "source_name": "Yuuban Meigen",
+      "arabic_name": "يووبان ميغين",
+      "description_source": null,
+      "description_ar": "يطلق المتجول شفرات رياح متتابعة، مع هجوم مشحون واسع وهجوم غطس يسبب ضرر أنيمو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/wanderer.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.wanderer.talent.skill",
+      "category": "term",
+      "character_id": "character.10000075",
+      "character_name": "Wanderer",
+      "character_name_ar": "المتجول",
+      "talent_type": "skill",
+      "source_name": "Hanega: Song of the Wind",
+      "arabic_name": "هانيغا: أغنية الرياح",
+      "description_source": null,
+      "description_ar": "يطلق المتجول دفعة أنيمو ثم يحلّق في حالة الرياح المفضلة؛ وتتعزز هجماته العادية والمشحونة وتتحول إلى ضربات هوائية، مع استهلاك نقاط خاصة للحفاظ على التحليق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/wanderer.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.wanderer.talent.burst",
+      "category": "term",
+      "character_id": "character.10000075",
+      "character_name": "Wanderer",
+      "character_name_ar": "المتجول",
+      "talent_type": "burst",
+      "source_name": "Kyougen: Five Ceremonial Plays",
+      "arabic_name": "كيوغين: خمس رقصات احتفالية",
+      "description_source": null,
+      "description_ar": "يضغط المتجول الهواء في فراغ هائل يسحق الأعداء أمامه بعدة ضربات أنيمو واسعة، وينهي حالة الرياح المفضلة إن كان فيها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/wanderer.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.wriothesley.talent.normal",
+      "category": "term",
+      "character_id": "character.10000086",
+      "character_name": "Wriothesley",
+      "character_name_ar": "ريوثسلي",
+      "talent_type": "normal",
+      "source_name": "Forceful Fists of Frost",
+      "arabic_name": "قبضات الصقيع القوية",
+      "description_source": null,
+      "description_ar": "يوجه ريوثسلي سلسلة لكمات جليدية سريعة، مع لكمة قفزية مشحونة وهجوم غطس يسبب ضرر كرايو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/wriothesley.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.wriothesley.talent.skill",
+      "category": "term",
+      "character_id": "character.10000086",
+      "character_name": "Wriothesley",
+      "character_name_ar": "ريوثسلي",
+      "talent_type": "skill",
+      "source_name": "Icefang Rush",
+      "arabic_name": "اندفاعة الناب الجليدي",
+      "description_source": null,
+      "description_ar": "يندفع ريوثسلي إلى الأمام ويدخل حالة العقوبة الباردة، فترتفع مقاومته للمقاطعة وتتقوى لكماته العادية إذا تجاوزت صحته نصف الحد الأقصى، مقابل استهلاك جزء من صحته عند الإصابة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/wriothesley.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.wriothesley.talent.burst",
+      "category": "term",
+      "character_id": "character.10000086",
+      "character_name": "Wriothesley",
+      "character_name_ar": "ريوثسلي",
+      "talent_type": "burst",
+      "source_name": "Darkgold Wolfbite",
+      "arabic_name": "عضة الذئب ذي الذهب الداكن",
+      "description_source": null,
+      "description_ar": "يوجه ريوثسلي لكمة جليدية مستقيمة ثم يطلق اصطداماً جليدياً متعدد الضربات أمامه؛ وبعده تهبط شفرة طاقة أوسيا لتسبب ضرر كرايو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/wriothesley.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xianyun.talent.normal",
+      "category": "term",
+      "character_id": "character.10000093",
+      "character_name": "Xianyun",
+      "character_name_ar": "شيان يون",
+      "talent_type": "normal",
+      "source_name": "Word of Wind and Flower",
+      "arabic_name": "كلمات الريح والزهور",
+      "description_source": null,
+      "description_ar": "تستدعي شيان يون رياحاً دوارة لتنفيذ هجمات أنيمو متتابعة، مع مقذوف مشحون وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xianyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xianyun.talent.skill",
+      "category": "term",
+      "character_id": "character.10000093",
+      "character_name": "Xianyun",
+      "character_name_ar": "شيان يون",
+      "talent_type": "skill",
+      "source_name": "White Clouds at Dawn",
+      "arabic_name": "سحب بيضاء عند الفجر",
+      "description_source": null,
+      "description_ar": "تدخل شيان يون حالة التحول السحابي وتنفذ قفزات متتابعة في الهواء؛ ويتحول هجوم غطسها إلى موجة سحابية تزداد قوتها ونطاقها مع كل قفزة مستخدمة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xianyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xianyun.talent.burst",
+      "category": "term",
+      "character_id": "character.10000093",
+      "character_name": "Xianyun",
+      "character_name_ar": "شيان يون",
+      "talent_type": "burst",
+      "source_name": "Stars Gather at Dusk",
+      "arabic_name": "تجمع النجوم عند الغسق",
+      "description_source": null,
+      "description_ar": "تطلق شيان يون نسمة مقدسة تعالج الشخصيات القريبة وتستدعي جهاز ستارويكر الذي يواصل العلاج ويزيد ارتفاع قفزات الشخصية النشطة، ويستهلك شحنة لإحداث ضرر أنيمو عند هجوم الغطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xianyun.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xilonen.talent.normal",
+      "category": "term",
+      "character_id": "character.10000103",
+      "character_name": "Xilonen",
+      "character_name_ar": "شيلونين",
+      "talent_type": "normal",
+      "source_name": "Ehecatl's Roar",
+      "arabic_name": "زئير إيهكاتل",
+      "description_source": null,
+      "description_ar": "تنفذ شيلونين ضربات سريعة وركلة مشحونة وهجوم غطس؛ وفي وضع النعمة الليلية تتحول ضرباتها إلى ركلات بعجلاتها وتسبب ضرر جيو محسوباً وفق دفاعها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xilonen.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xilonen.talent.skill",
+      "category": "term",
+      "character_id": "character.10000103",
+      "character_name": "Xilonen",
+      "character_name_ar": "شيلونين",
+      "talent_type": "skill",
+      "source_name": "Yohual's Scratch",
+      "arabic_name": "خدش يوهال",
+      "description_source": null,
+      "description_ar": "تندفع شيلونين بمعدات التزلج وتدخل حالة النعمة الليلية، وتفعّل عينات صوتية تتغير وفق عناصر أعضاء الفريق لتقليل مقاومة الأعداء للعناصر المقابلة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xilonen.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xilonen.talent.burst",
+      "category": "term",
+      "character_id": "character.10000103",
+      "character_name": "Xilonen",
+      "character_name_ar": "شيلونين",
+      "talent_type": "burst",
+      "source_name": "Ocelotlicue Point!",
+      "arabic_name": "نقطة أوسيلوتليكوي!",
+      "description_source": null,
+      "description_ar": "تشغل شيلونين جهاز الدي جي بكامل قوته لتسبب ضرر جيو واسعاً؛ وإذا تغير عنصر عينتين صوتيتين على الأقل، تعالج الشخصيات النشطة دورياً، وإلا تطلق ضربات جيو إضافية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xilonen.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xingqiu.talent.normal",
+      "category": "term",
+      "character_id": "character.10000025",
+      "character_name": "Xingqiu",
+      "character_name_ar": "شينغتشيو",
+      "talent_type": "normal",
+      "source_name": "Guhua Style",
+      "arabic_name": "أسلوب غوهوا",
+      "description_source": null,
+      "description_ar": "ينفذ شينغتشيو ضربات سريعة متتابعة بالسيف، مع ضربتين مشحونتين وهجوم غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xingqiu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xingqiu.talent.skill",
+      "category": "term",
+      "character_id": "character.10000025",
+      "character_name": "Xingqiu",
+      "character_name_ar": "شينغتشيو",
+      "talent_type": "skill",
+      "source_name": "Guhua Sword: Fatal Rainscreen",
+      "arabic_name": "سيف غوهوا: ستار المطر القاتل",
+      "description_source": null,
+      "description_ar": "ينفذ شينغتشيو ضربتين مائيتين وينشئ أقصى عدد من سيوف المطر التي تدور حول الشخصية النشطة، فتقلل الضرر المتلقى وتعزز مقاومة المقاطعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xingqiu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
+    },
+    {
+      "id": "character.xingqiu.talent.burst",
+      "category": "term",
+      "character_id": "character.10000025",
+      "character_name": "Xingqiu",
+      "character_name_ar": "شينغتشيو",
+      "talent_type": "burst",
+      "source_name": "Guhua Sword: Raincutter",
+      "arabic_name": "سيف غوهوا: قاطع المطر",
+      "description_source": null,
+      "description_ar": "يفعّل شينغتشيو أسلوب السيوف قوس قزح؛ فتطلق الهجمات العادية للشخصية النشطة وابل سيوف مطر متتابعاً يسبب ضرر هيدرو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/xingqiu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز غير رسمي، مستندان إلى سجل الموهبة في genshin-db؛ يحتاجان إلى مراجعة لغوية ومقارنة داخل اللعبة قبل الاعتماد."
     }
   ]
 }
