@@ -4293,7 +4293,7 @@
       "source_quest_id": "1000",
       "source_name": "Rite of Descension",
       "arabic_name": "طقس النزول",
-      "description_ar": null,
+      "description_ar": "تصل إلى ميناء ليويه خلال مراسم النزول السنوية، حيث ينتظر السكان نبوءة ريكس لابس التي ترسم ملامح العام المقبل.",
       "chapter_id": "1101",
       "act_id": "1101",
       "series_id": "1101",
@@ -4312,7 +4312,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 492421553,
         "description": 911637991
@@ -4345,7 +4345,7 @@
       "source_quest_id": "1002",
       "source_name": "An Impromptu Change of Plan",
       "arabic_name": "تغيير مفاجئ للخطة",
-      "description_ar": null,
+      "description_ar": "تنقلب مراسم النزول إلى فوضى عندما يسقط جسد ريكس لابس أمام الحاضرين، فتتهمك حكومة ليويه بالاغتيال وتضطر إلى الفرار بمساعدة تارتاليا نحو مقر الحكماء في جويون كارست.",
       "chapter_id": "1101",
       "act_id": "1101",
       "series_id": "1101",
@@ -4364,7 +4364,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 633119625,
         "description": 2559755679
@@ -4396,7 +4396,7 @@
       "source_quest_id": "1003",
       "source_name": "Wangshu",
       "arabic_name": "وانغشو",
-      "description_ar": null,
+      "description_ar": "يلتقي طريقك بنحات القمر، أحد الحكماء، فيحميك من مطارديك ويشكك في تصرفات السبع نجوم؛ ثم يطلب منك إيصال رسائل إلى الحكماء الآخرين.",
       "chapter_id": "1101",
       "act_id": "1101",
       "series_id": "1101",
@@ -4415,7 +4415,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 775143905,
         "description": 2357219895
@@ -4445,7 +4445,7 @@
       "source_quest_id": "1008",
       "source_name": "Moulder of Mountains",
       "arabic_name": "مشكّل الجبال",
-      "description_ar": null,
+      "description_ar": "تتبع إرشادات نحات القمر إلى جبل هولاو بحثاً عن مُشكّل الجبال، أحد الحكماء.",
       "chapter_id": "1101",
       "act_id": "1101",
       "series_id": "1101",
@@ -4464,7 +4464,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2963680265,
         "description": 582367815
@@ -4494,7 +4494,7 @@
       "source_quest_id": "1009",
       "source_name": "Custodian of Clouds",
       "arabic_name": "حافظة السحب",
-      "description_ar": null,
+      "description_ar": "تقودك تعليمات نحات القمر إلى جبل أوتسانغ للقاء حافظة السحب.",
       "chapter_id": "1101",
       "act_id": "1101",
       "series_id": "1101",
@@ -4513,7 +4513,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2474320849,
         "description": 2151244959
@@ -4544,7 +4544,7 @@
       "source_quest_id": "1010",
       "source_name": "An Organization Known as Wangsheng",
       "arabic_name": "منظمة تُعرف باسم وانغشنغ",
-      "description_ar": null,
+      "description_ar": "بعد عودتك من زيارة الحكماء، تكتشف أن السبع نجوم أخفوا جسد الأركون الجغرافي، فتعود إلى بنك الشمال بحثاً عن الشخص الذي وعد تارتاليا بالعثور عليه.",
       "chapter_id": "1102",
       "act_id": "1102",
       "series_id": "1101",
@@ -4563,7 +4563,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3403721721,
         "description": 747522079
@@ -4593,7 +4593,7 @@
       "source_quest_id": "1011",
       "source_name": "Moonfinger",
       "arabic_name": "إصبع القمر",
-      "description_ar": null,
+      "description_ar": "يعرّفك تارتاليا على تشونغلي، مستشار دار وانغشنغ، فتوافق على مساعدته في تنظيم مراسم الوداع أملاً في لقاء الأركون الجغرافي مجدداً.",
       "chapter_id": "1102",
       "act_id": "1102",
       "series_id": "1101",
@@ -4612,7 +4612,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2168374345,
         "description": 1400555887
@@ -4643,7 +4643,7 @@
       "source_quest_id": "1012",
       "source_name": "Three Poignant Perfumes",
       "arabic_name": "العطور الثلاثة المؤثرة",
-      "description_ar": null,
+      "description_ar": "يركز تشونغلي على إقامة وداع يليق بالحاكم القديم وفق تقاليد ليويه؛ وبعد اختيار حجر اليشم المناسب، تبدأ بتحضير ثلاثة عطور لتقديمها إلى الأركون الجغرافي.",
       "chapter_id": "1102",
       "act_id": "1102",
       "series_id": "1101",
@@ -4662,7 +4662,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 156369657,
         "description": 3341844191
@@ -4692,7 +4692,7 @@
       "source_quest_id": "1013",
       "source_name": "Downtown",
       "arabic_name": "وسط المدينة",
-      "description_ar": null,
+      "description_ar": "بعد اكتشاف أن السيدة بينغ من الحكماء وأن منزلها يخفي عالماً داخل إبريق شاي، تتوجه إلى صخرة تشيهو لمواصلة ترتيبات مراسم الوداع.",
       "chapter_id": "1102",
       "act_id": "1102",
       "series_id": "1101",
@@ -4711,7 +4711,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 126291521,
         "description": 555889775
@@ -4741,7 +4741,7 @@
       "source_quest_id": "1014",
       "source_name": "The Realm Within",
       "arabic_name": "العالم الداخلي",
-      "description_ar": null,
+      "description_ar": "يرسلك تشونغلي إلى شرفة يوجينغ للقاء صديقته القديمة السيدة بينغ واستعارة جرس التطهير، بعدما حددتَ العطر الذي كان يفضله ريكس لابس.",
       "chapter_id": "1102",
       "act_id": "1102",
       "series_id": "1101",
@@ -4760,7 +4760,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2414407745,
         "description": 1874674503
@@ -4791,7 +4791,7 @@
       "source_quest_id": "1015",
       "source_name": "Guizhong",
       "arabic_name": "غوي تشونغ",
-      "description_ar": null,
+      "description_ar": "تذهب إلى صيدلية بوبو لشراء البخور الأبدي، لكن ما بدا زيارة بسيطة يتحول إلى مسألة أكثر تعقيداً.",
       "chapter_id": "1102",
       "act_id": "1102",
       "series_id": "1101",
@@ -4810,7 +4810,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2212320145,
         "description": 1687965807
@@ -4971,7 +4971,7 @@
       "source_quest_id": "1019",
       "source_name": "The Unexpected Guest",
       "arabic_name": "الضيف غير المتوقع",
-      "description_ar": null,
+      "description_ar": "تقلقك التطورات في أعماق الهاوية، فتقرر أنت وبايمون التحقيق في المنطقة، حيث تصادفان شخصاً لم تتوقعا وجوده.",
       "chapter_id": "1207",
       "act_id": "1207",
       "series_id": "1207",
@@ -4990,7 +4990,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4195987807,
         "description": 3263829742
@@ -5024,7 +5024,7 @@
       "source_quest_id": "1020",
       "source_name": "The Floating Palace",
       "arabic_name": "القصر العائم",
-      "description_ar": null,
+      "description_ar": "بعد لقاء غانيو في حانة الضربة الثالثة، تدعوك باسم نينغوانغ إلى القصر اليشمي؛ فتتجه مع بايمون إلى جبل تيانهينغ لمشاهدته عن قرب.",
       "chapter_id": "1103",
       "act_id": "1103",
       "series_id": "1101",
@@ -5043,7 +5043,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3420715793,
         "description": 543926495
@@ -5073,7 +5073,7 @@
       "source_quest_id": "1021",
       "source_name": "Equilibrium",
       "arabic_name": "التوازن",
-      "description_ar": null,
+      "description_ar": "عند وصولك إلى قاذفة غوي تشونغ في جبل تيانهينغ، تلتقي كيتشينغ من السبع نجوم، فتشرح لك طريق الصعود إلى القصر اليشمي وتلفت انتباه بايمون إلى ضرورة إحضار هدية ترحيب.",
       "chapter_id": "1103",
       "act_id": "1103",
       "series_id": "1101",
@@ -5092,7 +5092,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3308674505,
         "description": 3882879239
@@ -5123,7 +5123,7 @@
       "source_quest_id": "1022",
       "source_name": "Solitary Fragrance",
       "arabic_name": "عطر منفرد",
-      "description_ar": null,
+      "description_ar": "تصعد أخيراً إلى القصر اليشمي حيث تستقبلك نينغوانغ، وتتبادل معها الحديث والهدايا حول الآلهة والأركونات والفاتوي.",
       "chapter_id": "1103",
       "act_id": "1103",
       "series_id": "1101",
@@ -5142,7 +5142,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1529124233,
         "description": 1055115663
@@ -5172,7 +5172,7 @@
       "source_quest_id": "1023",
       "source_name": "Heart of Glaze",
       "arabic_name": "قلب الصقيل",
-      "description_ar": null,
+      "description_ar": "بناءً على نصيحة نينغوانغ، تتحقق من مخططات الفاتوي المتعلقة بختم الإذن، ثم تعود لمساعدة تشونغلي في المراسم؛ لكنك تجد أن الأوضاع في ميناء ليويه تتدهور بسرعة.",
       "chapter_id": "1103",
       "act_id": "1103",
       "series_id": "1101",
@@ -5191,7 +5191,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 186534449,
         "description": 1116484007
@@ -5221,7 +5221,7 @@
       "source_quest_id": "1024",
       "source_name": "Turning Point",
       "arabic_name": "نقطة التحول",
-      "description_ar": null,
+      "description_ar": "يتصاعد الخلاف بين الحكماء والسبع نجوم، فتتجه إلى البيت الذهبي لإيقاف تارتاليا قبل استيلائه على الغنوص؛ وعندما تفشل خطته الأولى، يستدعي إلهاً قديماً لإجبار ريكس لابس على الظهور.",
       "chapter_id": "1103",
       "act_id": "1103",
       "series_id": "1101",
@@ -5240,7 +5240,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4062148249,
         "description": 821672999
@@ -5370,7 +5370,7 @@
       "source_quest_id": "1028",
       "source_name": "Chasmic Maze",
       "arabic_name": "متاهة الهوة",
-      "description_ar": null,
+      "description_ar": "ينهار قاع الهاوية فجأة، فتسقط أنت ورفاقك إلى مساحة مجهولة في الأعماق، وتتعاونون لاستكشافها وفهم طبيعتها.",
       "chapter_id": "1207",
       "act_id": "1207",
       "series_id": "1207",
@@ -5389,7 +5389,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 497481909,
         "description": 3440538462
@@ -5420,7 +5420,7 @@
       "source_quest_id": "1029",
       "source_name": "Danger All Around",
       "arabic_name": "الخطر من كل جانب",
-      "description_ar": null,
+      "description_ar": "بعد أخذ قسط من الراحة في الأعماق، تواصل المجموعة البحث عن مخرج يقودها إلى سطح الهاوية.",
       "chapter_id": "1207",
       "act_id": "1207",
       "series_id": "1207",
@@ -5439,7 +5439,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3397078575,
         "description": 3878959334
@@ -5470,7 +5470,7 @@
       "source_quest_id": "1030",
       "source_name": "End of the Line",
       "arabic_name": "نهاية الخط",
-      "description_ar": null,
+      "description_ar": "بعد لقائك بشياو، تتبادل أنت ورفاقك ما لاحظتموه من ظواهر غريبة ومقلقة في الأعماق وتحاولون فهمها.",
       "chapter_id": "1207",
       "act_id": "1207",
       "series_id": "1207",
@@ -5489,7 +5489,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1604200951,
         "description": 3349370478
@@ -5519,7 +5519,7 @@
       "source_quest_id": "1031",
       "source_name": "At Tunnel's End, Light",
       "arabic_name": "نور في نهاية النفق",
-      "description_ar": null,
+      "description_ar": "تتعاون مع رفاقك في محاولة أخيرة للخروج من الأعماق، وتنجحون في بلوغ السطح في اللحظة الأخيرة.",
       "chapter_id": "1207",
       "act_id": "1207",
       "series_id": "1207",
@@ -5538,7 +5538,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1491105359,
         "description": 2279272270
