@@ -1,0 +1,37 @@
+name: Extract legacy World Quest source descriptions
+
+on:
+  push:
+    branches: [arabic-localization-catalog]
+    paths:
+      - "scripts/extract_legacy_world_quest_descriptions.py"
+      - ".github/workflows/extract-legacy-world-quest-descriptions.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  extract-source-descriptions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out localization branch
+        uses: actions/checkout@v4
+        with:
+          ref: arabic-localization-catalog
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Resolve source description hashes
+        run: python scripts/extract_legacy_world_quest_descriptions.py
+      - name: Upload compact source-description artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-world-quest-source-descriptions-en
+          path: |
+            artifacts/world_quest_source_descriptions_en.json
+            artifacts/world_quest_source_description_report.json
+          if-no-files-found: error
+          retention-days: 7
