@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "catalog_type": "weapons",
+  "game_version": null,
+  "entries": [
+    {
+      "id": "weapon.dull_blade",
+      "category": "weapon",
+      "source_name": "Dull Blade",
+      "arabic_name": "النصل الباهت",
+      "element": "Sword",
+      "rarity": 1,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "weapon.silver_sword",
+      "category": "weapon",
+      "source_name": "Silver Sword",
+      "arabic_name": "السيف الفضي",
+      "element": "Sword",
+      "rarity": 2,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "weapon.cool_steel",
+      "category": "weapon",
+      "source_name": "Cool Steel",
+      "arabic_name": "الفولاذ البارد",
+      "element": "Sword",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "weapon.harbringer_of_dawn",
+      "category": "weapon",
+      "source_name": "Harbinger of Dawn",
+      "arabic_name": "نذير الفجر",
+      "element": "Sword",
+      "rarity": 3,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "weapon.prototype_rancour",
+      "category": "weapon",
+      "source_name": "Prototype Rancour",
+      "arabic_name": "نموذج الرعونة",
+      "element": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    }
+  ]
+}
