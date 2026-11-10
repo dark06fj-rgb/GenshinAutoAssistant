@@ -6,7 +6,7 @@
 
 ## Checks performed
 
-- Parse every JSON catalog under `localization/ar/` and require the six expected catalogs.
+- Parse every JSON catalog under `localization/ar/` and require the nine expected catalogs: characters, talents, weapons, materials, resources, artifacts, Archon Quests, World Quests, and glossary.
 - Validate required fields, stable lowercase IDs, supported catalog categories and translation statuses, non-empty source and Arabic labels, and HTTP(S) source URLs.
 - Detect duplicate IDs within a catalog and across all catalogs.
 - Validate glossary record fields and detect repeated or conflicting source terms.
@@ -14,6 +14,7 @@
 - Require glossary coverage for material/resource item types.
 - Require canonical glossary entries for the seven elements and five character weapon classes used by the character catalog.
 - Map upstream weapon type identifiers to the corresponding shared glossary terms.
+- Require separate Archon Quest and World Quest catalog files; validate their records through the common entity checks (stable IDs, quest category, Arabic labels, translation status, and source URLs). Quest-specific hierarchy/reference validation is a planned next step.
 - Verify every talent's `character_id` exists and its Arabic character label matches the character catalog.
 - Reject stale editorial notes that claim a populated Arabic talent summary has not yet been translated.
 - Enforce a complete three-slot talent matrix (`normal`, `skill`, `burst`) for every non-Traveler character; validate each talent ID's stable name-based slug and slot type, ensure each slug belongs to only one upstream character ID, and reject missing, duplicate, or unsupported slots.
