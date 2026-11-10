@@ -6179,7 +6179,7 @@
       "source_quest_id": "418",
       "source_name": "Break the Sword Cemetery Seal",
       "arabic_name": "اكسر ختم مقبرة السيف",
-      "description_ar": null,
+      "description_ar": "بحسب الدكتور ليفينغستون، تحيط ثلاث قبائل من الهيليتشورل بمقبرة السيوف في مضيق داداوبا: قبيلة اللحوم شمالاً، وقبيلة النائمين جنوباً، وقبيلة الكسوف في الوادي شرقاً. وقد يكمن مفتاح كسر أختام المقبرة داخل معسكراتهم...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6201,7 +6201,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6225,7 +6225,7 @@
       "source_quest_id": "419",
       "source_name": "Break the Eclipse Tribe's Seal",
       "arabic_name": "اكسر ختم قبيلة الكسوف",
-      "description_ar": null,
+      "description_ar": "يقف النصب العنصري لقبيلة الكسوف في وسط مذبحها المتهالك، وتحرسه مجموعة من الساماشورل والميتاتشورل وسحرة الهاوية؛ لذا قد يكون من الأفضل التخلص منهم واحداً تلو الآخر.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6247,7 +6247,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6269,7 +6269,7 @@
       "source_quest_id": "420",
       "source_name": "Break the Sleeper Seal",
       "arabic_name": "اكسر ختم النائم",
-      "description_ar": null,
+      "description_ar": "تكمن قوة قبيلة النائمين تحت شجرة ضخمة، وتحرسها مجموعة من الميتاتشورل والهيليتشورل. سيؤدي هزيمة الميتاتشورل إلى كسر ختم النصب العنصري. ويُقال إنهم يخلدون إلى النوم مبكراً، لذا قد تكون مباغتتهم ليلاً فكرة جيدة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6291,7 +6291,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6313,7 +6313,7 @@
       "source_quest_id": "422",
       "source_name": "Break the Meaty Seal",
       "arabic_name": "اكسر الختم اللحمي",
-      "description_ar": null,
+      "description_ar": "تقدّس قبيلة اللحوم القوة؛ تحدّهم في ساحة القتال لكسر الختم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6335,7 +6335,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6357,7 +6357,7 @@
       "source_quest_id": "423",
       "source_name": "Find the Missing Fairy",
       "arabic_name": "اعثر على الجنية المفقودة",
-      "description_ar": null,
+      "description_ar": "اختطفت الهيليتشورل الجنيات القريبات، ما ألحق الخراب بشجرة الحياة. إذا تمكّنا من إنقاذهن، فربما تستجيب شجرة الحياة لصلواتنا.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6379,7 +6379,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6491,7 +6491,7 @@
       "source_quest_id": "428",
       "source_name": "Amber Abyss",
       "arabic_name": "هاوية العنبر",
-      "description_ar": null,
+      "description_ar": "أطلق سراح العائم الساقط.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6513,7 +6513,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6579,7 +6579,7 @@
       "source_quest_id": "467",
       "source_name": "The Art of Cooking",
       "arabic_name": "فن الطهي",
-      "description_ar": null,
+      "description_ar": "تستعد المغامِرة لين حالياً لإعداد وجبة على أطراف مدينة موندشتات...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6601,7 +6601,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6625,7 +6625,7 @@
       "source_quest_id": "469",
       "source_name": "The Blessings of The Seven",
       "arabic_name": "بركات السبعة",
-      "description_ar": null,
+      "description_ar": "تقترح بايمون أن تتوجه إلى أحد تماثيل السبعة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6647,7 +6647,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -6674,7 +6674,7 @@
       "source_quest_id": "470",
       "source_name": "Scent on the Wind",
       "arabic_name": "عبير في مهب الريح",
-      "description_ar": null,
+      "description_ar": "أثناء تجوالك في موندشتات، تجذب بايمون رائحة الطعام...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -6696,7 +6696,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -7334,7 +7334,7 @@
       "source_quest_id": "20501",
       "source_name": "Domain of Ancient Trees",
       "arabic_name": "نطاق الأشجار القديمة",
-      "description_ar": null,
+      "description_ar": "وفقاً للمعلومات التي جمعتها من نقابة المغامرين، يبدو أن كنزاً لا يُقدّر بثمن مخبأ داخل أحد الدهاليز.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7356,7 +7356,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -7378,7 +7378,7 @@
       "source_quest_id": "20502",
       "source_name": "Forsaken Rift",
       "arabic_name": "الصدع المهجور",
-      "description_ar": null,
+      "description_ar": "سينال كل من يجتاز الاختبار في هذا الدهليز كنزاً مميزاً.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7400,7 +7400,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -7422,7 +7422,7 @@
       "source_quest_id": "20503",
       "source_name": "Sharpening the Axe Won't Hinder the Work",
       "arabic_name": "شحذ الفأس لن يعيق العمل",
-      "description_ar": null,
+      "description_ar": "ترى بايمون أنه من الأفضل الاستعداد أولاً للمغامرات القادمة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7444,7 +7444,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -7468,7 +7468,7 @@
       "source_quest_id": "20504",
       "source_name": "Collector of Anemo Sigils",
       "arabic_name": "جامع رموز أنيمو",
-      "description_ar": null,
+      "description_ar": "اكتشفت بايمون متجراً فريداً للغاية...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7490,7 +7490,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -7514,7 +7514,7 @@
       "source_quest_id": "20505",
       "source_name": "Busy Adventurers' Guild",
       "arabic_name": "نقابة المغامرين المنشغلة",
-      "description_ar": null,
+      "description_ar": "تتلقى نقابة المغامرين عدداً متزايداً من التكليفات، وأصبحت كاثرين تجد صعوبة في مواكبتها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7536,7 +7536,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -7558,7 +7558,7 @@
       "source_quest_id": "20506",
       "source_name": "Wisdom of Ancient Civilizations",
       "arabic_name": "حكمة الحضارات القديمة",
-      "description_ar": null,
+      "description_ar": "يُشاع أن تيمياس، باحث الخيمياء في موندشتات، يحاول نشر فن الخيمياء.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7580,7 +7580,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -7602,7 +7602,7 @@
       "source_quest_id": "20601",
       "source_name": "A Fine Opportunity?",
       "arabic_name": "فرصة رائعة؟",
-      "description_ar": null,
+      "description_ar": "حتى وسط العاصفة، يبدو أن سايروس من نقابة المغامرين يستعد للتحرك...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7624,7 +7624,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
