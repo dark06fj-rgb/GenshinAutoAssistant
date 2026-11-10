@@ -435,32 +435,6 @@ def main() -> int:
             ]
             entry["prerequisite_ids"] = sorted(set(resolved))
 
-    # Retain only catalog records whose source IDs are represented in this
-    # pinned source, while preserving hand-authored chapter/series entries.
-    for kind, path in CATALOGS.items():
-        entries = list(existing_by_kind[kind].values())
-        entries.sort(key=lambda item: (
-            {"chapter": 0, "act": 1, "series": 1, "quest": 2}.get(item.get("node_type"), 9),
-            int(item.get("source_quest_id", "0")) if str(item.get("source_quest_id", "")).isdigit() else 0,
-            item.get("id", ""),
-        ))
-        data = data_by_kind[kind]
-        data["entries"] = entries
-        path.write_text(
-            json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-
-    counts = {}
-    for kind, data in data_by_kind.items():
-        for entry in data["entries"]:
-            key = f"{kind}_{entry.get('node_type')}"
-            counts[key] = counts.get(key, 0) + 1
-    fetched_counts = {
-        kind: sum(1 for value in fetched.values() if value["type"] == kind)
-        for kind in ("AQ", "WQ")
-    }
-    unresolved_title_ids = sorted(unresolved_title_ids)
     cycle_edges_dropped = 0
     for kind in ("archon", "world"):
         graph = {}
@@ -489,6 +463,33 @@ def main() -> int:
                     kept.append(prerequisite)
                     graph.setdefault(entry["id"], []).append(prerequisite)
             entry["prerequisite_ids"] = kept
+
+    # Retain only catalog records whose source IDs are represented in this
+    # pinned source, while preserving hand-authored chapter/series entries.
+    for kind, path in CATALOGS.items():
+        entries = list(existing_by_kind[kind].values())
+        entries.sort(key=lambda item: (
+            {"chapter": 0, "act": 1, "series": 1, "quest": 2}.get(item.get("node_type"), 9),
+            int(item.get("source_quest_id", "0")) if str(item.get("source_quest_id", "")).isdigit() else 0,
+            item.get("id", ""),
+        ))
+        data = data_by_kind[kind]
+        data["entries"] = entries
+        path.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+    counts = {}
+    for kind, data in data_by_kind.items():
+        for entry in data["entries"]:
+            key = f"{kind}_{entry.get('node_type')}"
+            counts[key] = counts.get(key, 0) + 1
+    fetched_counts = {
+        kind: sum(1 for value in fetched.values() if value["type"] == kind)
+        for kind in ("AQ", "WQ")
+    }
+
 
     report = {
         "animegamedata_commit": ANIME_COMMIT,
