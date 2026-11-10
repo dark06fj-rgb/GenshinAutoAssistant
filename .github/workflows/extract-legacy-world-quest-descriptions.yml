@@ -1,0 +1,33 @@
+name: Extract legacy World Quest source descriptions
+
+on:
+  push:
+    branches:
+      - arabic-localization-catalog
+    paths:
+      - scripts/extract_legacy_world_quest_descriptions.py
+      - .github/workflows/extract-legacy-world-quest-descriptions.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arabic-localization-catalog
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Resolve pinned English description hashes
+        run: python scripts/extract_legacy_world_quest_descriptions.py
+      - name: Commit temporary source extract for editorial translation
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add artifacts/world_quest_source_descriptions_en.json artifacts/world_quest_source_description_report.json
+          git commit -m "Extract pinned source descriptions for legacy WQ translations"
+          git push origin HEAD:arabic-localization-catalog
