@@ -37,8 +37,11 @@ def fixture_catalogs():
                    element=None, weapon_type="Sword")
         ]},
         "talents.json": {"entries": [
-            entity("character.test.talent.normal", "term", "Test talent", "موهبة تجريبية",
-                   character_id="character.test", character_name_ar="اختبار")
+            entity(f"character.test.talent.{talent_type}", "term",
+                   f"Test {talent_type} talent", "موهبة تجريبية",
+                   character_id="character.test", character_name_ar="اختبار",
+                   talent_type=talent_type)
+            for talent_type in ("normal", "skill", "burst")
         ]},
         "weapons.json": {"entries": [
             entity("weapon.test", "weapon", "Test Sword", "سيف تجريبي",
@@ -213,6 +216,64 @@ class ValidatorRegressionTests(unittest.TestCase):
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
         self.assertIn("duplicate talent slot Anemo/normal", output)
+
+    def test_complete_regular_character_talent_matrix_passes(self):
+        catalogs = fixture_catalogs()
+        self.write_catalogs(catalogs)
+        exit_code, output, validator = self.run_validator()
+        self.assertEqual(exit_code, 0, output)
+        self.assertFalse(validator.errors)
+
+    def test_missing_regular_character_talent_slot_fails(self):
+        catalogs = fixture_catalogs()
+        catalogs["talents.json"]["entries"] = [
+            item for item in catalogs["talents.json"]["entries"]
+            if item.get("talent_type") != "burst"
+        ]
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("Character character.test is missing talent slot burst", output)
+
+    def test_regular_talent_must_reference_matching_character(self):
+        catalogs = fixture_catalogs()
+        catalogs["characters.json"]["entries"].append(
+            entity("character.other", "character", "Other", "آخر",
+                   element=None, weapon_type="Sword")
+        )
+        catalogs["talents.json"]["entries"][0]["character_id"] = "character.other"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("ID does not match character/talent slot", output)
+        self.assertIn("Character character.test is missing talent slot normal", output)
+        self.assertIn("Character character.other is missing talent slot", output)
+
+    def test_regular_talent_rejects_unknown_type(self):
+        catalogs = fixture_catalogs()
+        catalogs["talents.json"]["entries"][0]["talent_type"] = "passive"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("unsupported regular-character talent_type 'passive'", output)
+
+    def test_regular_talent_rejects_duplicate_slot(self):
+        catalogs = fixture_catalogs()
+        duplicate = dict(catalogs["talents.json"]["entries"][0])
+        duplicate["id"] = "character.test.talent.normal.copy"
+        catalogs["talents.json"]["entries"].append(duplicate)
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("duplicate talent slot normal", output)
+
+    def test_regular_talent_id_must_match_talent_type(self):
+        catalogs = fixture_catalogs()
+        catalogs["talents.json"]["entries"][0]["talent_type"] = "skill"
+        self.write_catalogs(catalogs)
+        exit_code, output, _ = self.run_validator()
+        self.assertEqual(exit_code, 1)
+        self.assertIn("ID does not match character/talent slot", output)
 
     def test_malformed_json_fails(self):
         (self.catalog_dir / "resources.json").write_text("{broken", encoding="utf-8")
