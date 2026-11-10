@@ -74,7 +74,7 @@ def add_traveler_talent_matrix(catalogs):
                     character_id="character.aether",
                     character_name_ar="إيثر (المسافر)",
                     element=element,
-                    type=talent_type,
+                    talent_type=talent_type,
                 )
             )
     return catalogs
@@ -208,7 +208,7 @@ class ValidatorRegressionTests(unittest.TestCase):
             if item.get("id") == "character.aether.talent.cryo.burst"
         )
         target["element"] = "Anemo"
-        target["type"] = "normal"
+        target["talent_type"] = "normal"
         self.write_catalogs(catalogs)
         exit_code, output, _ = self.run_validator()
         self.assertEqual(exit_code, 1)
