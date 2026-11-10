@@ -2082,6 +2082,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.alhaitham.talent.normal",
+      "category": "term",
+      "character_id": "character.alhaitham",
+      "character_name": "Alhaitham",
+      "character_name_ar": "الحيثم",
+      "talent_type": "normal",
+      "source_name": "Abductive Reasoning",
+      "arabic_name": "استدلال اختزالي",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات سيف متتابعة، وتطلق هجماته المشحونة والغطس ضرراً إضافياً وفق أسلوبه القتالي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/alhaitham.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.alhaitham.talent.skill",
+      "category": "term",
+      "character_id": "character.alhaitham",
+      "character_name": "Alhaitham",
+      "character_name_ar": "الحيثم",
+      "talent_type": "skill",
+      "source_name": "Universality: An Elaboration on Form",
+      "arabic_name": "تعميم: صياغة شكلية",
+      "description_source": null,
+      "description_ar": "يندفع للأمام مسبباً ضرراً نباتياً، ويُنشئ مرايا ضوئية تعزز هجماته وتطلق ضربات منسقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/alhaitham.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.alhaitham.talent.burst",
+      "category": "term",
+      "character_id": "character.alhaitham",
+      "character_name": "Alhaitham",
+      "character_name_ar": "الحيثم",
+      "talent_type": "burst",
+      "source_name": "Particular Field: Fetters of Phenomena",
+      "arabic_name": "قيد ظاهري: قيود التشابك",
+      "description_source": null,
+      "description_ar": "ينشئ حقلاً يسبب ضرراً نباتياً متعدد المرات، ويتغير عدد الضربات بحسب المرايا التي يستهلكها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/alhaitham.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aloy.talent.normal",
+      "category": "term",
+      "character_id": "character.aloy",
+      "character_name": "Aloy",
+      "character_name_ar": "آلوي",
+      "talent_type": "normal",
+      "source_name": "Rapid Fire",
+      "arabic_name": "الرماية السريعة",
+      "description_source": null,
+      "description_ar": "تطلق سهاماً متتابعة، ويمكنها شحن سهم جليدي لإحداث ضرر كريو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aloy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aloy.talent.skill",
+      "category": "term",
+      "character_id": "character.aloy",
+      "character_name": "Aloy",
+      "character_name_ar": "آلوي",
+      "talent_type": "skill",
+      "source_name": "Frozen Wilds",
+      "arabic_name": "البرية المتجمدة",
+      "description_source": null,
+      "description_ar": "ترمي قنبلة تجمد تنفجر إلى قنابل صغيرة، وتمنحها الملفات المتجمعة تعزيزاً لهجماتها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aloy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aloy.talent.burst",
+      "category": "term",
+      "character_id": "character.aloy",
+      "character_name": "Aloy",
+      "character_name_ar": "آلوي",
+      "talent_type": "burst",
+      "source_name": "Prophecies of Dawn",
+      "arabic_name": "نبوءات الفجر",
+      "description_source": null,
+      "description_ar": "تطلق خلية طاقة جليدية تنفجر مسببة ضرراً كريو ضمن نطاق.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aloy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.alyosha.talent.normal",
+      "category": "term",
+      "character_id": "character.alyosha",
+      "character_name": "Alyosha",
+      "character_name_ar": "أليوشا",
+      "talent_type": "normal",
+      "source_name": "Skirmishing Spear",
+      "arabic_name": "أسلوب الحارس",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات متتابعة بسلاحه، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/alyosha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.alyosha.talent.skill",
+      "category": "term",
+      "character_id": "character.alyosha",
+      "character_name": "Alyosha",
+      "character_name_ar": "أليوشا",
+      "talent_type": "skill",
+      "source_name": "Thunderbolt Strike",
+      "arabic_name": "اندفاع العاصفة",
+      "description_source": null,
+      "description_ar": "يندفع عبر ساحة القتال ويضرب الأعداء بطاقة عنصرية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/alyosha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.alyosha.talent.burst",
+      "category": "term",
+      "character_id": "character.alyosha",
+      "character_name": "Alyosha",
+      "character_name_ar": "أليوشا",
+      "talent_type": "burst",
+      "source_name": "Hunter's Advance",
+      "arabic_name": "نداء الحصن",
+      "description_source": null,
+      "description_ar": "يطلق هجوماً واسعاً يسبب ضرراً عنصرياً ويدعم حلفاءه في المعركة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/alyosha.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aratakiitto.talent.normal",
+      "category": "term",
+      "character_id": "character.aratakiitto",
+      "character_name": "Arataki Itto",
+      "character_name_ar": "أراتاكي إيتو",
+      "talent_type": "normal",
+      "source_name": "Fight Club Legend",
+      "arabic_name": "أسطورة القتال: أسطورة إيتو",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات قوية، ويجمع قوة فائقة تسمح له بإطلاق ضربات مشحونة متتابعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aratakiitto.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aratakiitto.talent.skill",
+      "category": "term",
+      "character_id": "character.aratakiitto",
+      "character_name": "Arataki Itto",
+      "character_name_ar": "أراتاكي إيتو",
+      "talent_type": "skill",
+      "source_name": "Masatsu Zetsugi: Akaushi Burst!",
+      "arabic_name": "ماساتسو زتسوغي: ضربة آكوشي",
+      "description_source": null,
+      "description_ar": "يرمي أوني صغيراً يجذب انتباه الأعداء، ويمنح إيتو تكدسات قوة عند إصابته أو مغادرته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aratakiitto.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.aratakiitto.talent.burst",
+      "category": "term",
+      "character_id": "character.aratakiitto",
+      "character_name": "Arataki Itto",
+      "character_name_ar": "أراتاكي إيتو",
+      "talent_type": "burst",
+      "source_name": "Royal Descent: Behold, Itto the Evil!",
+      "arabic_name": "نزول ملك: هاكوشين",
+      "description_source": null,
+      "description_ar": "يدخل وضع ملك الأوني، محولاً ضرر هجماته إلى جغرافي ومعززاً سرعة هجومه وقوته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/aratakiitto.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.baizhu.talent.normal",
+      "category": "term",
+      "character_id": "character.baizhu",
+      "character_name": "Baizhu",
+      "character_name_ar": "بايتشو",
+      "talent_type": "normal",
+      "source_name": "The Classics of Acupuncture",
+      "arabic_name": "الوخز الكلاسيكي الذهبي",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات متتابعة بمحفز، مع هجوم مشحون وضربة غطس تسبب ضرراً نباتياً.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/baizhu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.baizhu.talent.skill",
+      "category": "term",
+      "character_id": "character.baizhu",
+      "character_name": "Baizhu",
+      "character_name_ar": "بايتشو",
+      "talent_type": "skill",
+      "source_name": "Universal Diagnosis",
+      "arabic_name": "التشخيص الشامل",
+      "description_source": null,
+      "description_ar": "يرسل روحاً طائرة تهاجم الأعداء وتعود، معالجة الشخصية النشطة بحسب صحة بايتشو.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/baizhu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.baizhu.talent.burst",
+      "category": "term",
+      "character_id": "character.baizhu",
+      "character_name": "Baizhu",
+      "character_name_ar": "بايتشو",
+      "talent_type": "burst",
+      "source_name": "Holistic Revivification",
+      "arabic_name": "التجديد الشامل",
+      "description_source": null,
+      "description_ar": "يدخل حالة نبضية تنشئ درعاً جديداً دورياً، وتعالج الشخصية النشطة وتهاجم الأعداء بضرر نباتي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/baizhu.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.beidou.talent.normal",
+      "category": "term",
+      "character_id": "character.beidou",
+      "character_name": "Beidou",
+      "character_name_ar": "بيدو",
+      "talent_type": "normal",
+      "source_name": "Oceanborne",
+      "arabic_name": "مجد البحر",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات متتابعة بالسيف العظيم، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/beidou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.beidou.talent.skill",
+      "category": "term",
+      "character_id": "character.beidou",
+      "character_name": "Beidou",
+      "character_name_ar": "بيدو",
+      "talent_type": "skill",
+      "source_name": "Tidecaller",
+      "arabic_name": "كاسر المد",
+      "description_source": null,
+      "description_ar": "ترفع سيفها لصد الهجمات ثم تطلق ضربة مضادة، وتزداد قوتها بحسب الضرر الذي امتصته.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/beidou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.beidou.talent.burst",
+      "category": "term",
+      "character_id": "character.beidou",
+      "character_name": "Beidou",
+      "character_name_ar": "بيدو",
+      "talent_type": "burst",
+      "source_name": "Stormbreaker",
+      "arabic_name": "نداء العاصفة",
+      "description_source": null,
+      "description_ar": "تطلق قوة البرق حولها، مانحة درعاً كهربائياً وهجمات برق متسلسلة عند إصابة الأعداء.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/beidou.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.bennett.talent.normal",
+      "category": "term",
+      "character_id": "character.bennett",
+      "character_name": "Bennett",
+      "character_name_ar": "بينيت",
+      "talent_type": "normal",
+      "source_name": "Strike of Fortune",
+      "arabic_name": "ضربة الحظ",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات متتابعة بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/bennett.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.bennett.talent.skill",
+      "category": "term",
+      "character_id": "character.bennett",
+      "character_name": "Bennett",
+      "character_name_ar": "بينيت",
+      "talent_type": "skill",
+      "source_name": "Passion Overload",
+      "arabic_name": "عبء العاطفة",
+      "description_source": null,
+      "description_ar": "يشحن سيفه بطاقة نارية ويطلق هجوماً، وقد تتفرع الضربة بحسب مستوى الشحن.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/bennett.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.bennett.talent.burst",
+      "category": "term",
+      "character_id": "character.bennett",
+      "character_name": "Bennett",
+      "character_name_ar": "بينيت",
+      "talent_type": "burst",
+      "source_name": "Fantastic Voyage",
+      "arabic_name": "رحلة رائعة",
+      "description_source": null,
+      "description_ar": "ينفذ قفزة هجومية نارية وينشئ مجالاً يعالج الشخصيات أو يعزز هجومها وفق مستوى صحتها.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/bennett.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.candace.talent.normal",
+      "category": "term",
+      "character_id": "character.candace",
+      "character_name": "Candace",
+      "character_name_ar": "كانديس",
+      "talent_type": "normal",
+      "source_name": "Gleaming Spear - Guardian Stance",
+      "arabic_name": "رمح الحارس: الموقف المتلألئ",
+      "description_source": null,
+      "description_ar": "تنفذ ضربات رمحية متتابعة، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/candace.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.candace.talent.skill",
+      "category": "term",
+      "character_id": "character.candace",
+      "character_name": "Candace",
+      "character_name_ar": "كانديس",
+      "talent_type": "skill",
+      "source_name": "Sacred Rite: Heron's Sanctum",
+      "arabic_name": "الطقس المقدس: ملاذ مالك الحزين",
+      "description_source": null,
+      "description_ar": "تصد الهجمات بدرعها ثم تطلق موجة مائية، وتزداد قوة الضربة بحسب مدة الشحن.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/candace.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
+    },
+    {
+      "id": "character.candace.talent.burst",
+      "category": "term",
+      "character_id": "character.candace",
+      "character_name": "Candace",
+      "character_name_ar": "كانديس",
+      "talent_type": "burst",
+      "source_name": "Sacred Rite: Wagtail's Tide",
+      "arabic_name": "طقس مقدس: مدّ ذعري",
+      "description_source": null,
+      "description_ar": "تستدعي بركة مائية تمنح الفريق تعزيزاً لضرر الهجمات العادية وتحولها إلى ضرر مائي عند تبديل الشخصيات.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/candace.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وظيفي موجز بصياغة أصلية اعتماداً على سجل الموهبة؛ يحتاجان إلى مراجعة لغوية ولعبية، وليسا ترجمة رسمية."
     }
   ]
 }
