@@ -38,7 +38,7 @@ Source filtering results:
 - 208 AQ and 1,230 WQ displayable quests imported.
 - 960 non-AQ/WQ records excluded.
 - 1,428 hidden or repeatable AQ/WQ records excluded.
-- 79 displayable AQ/WQ records held back because their English title is empty; their source IDs are recorded in `quest-import-report.json`.
+- The 79 IDs previously held back for empty English titles were cross-checked against the pinned Chinese quest records: **78 are internal, test, obsolete, or explicitly unreleased placeholders** and are now excluded from the player-facing catalog; **ID `74173` remains unresolved** because no usable title is present. No Arabic labels were invented for these records. The released World Quest **The Farmer's Treasure** is source ID `72199` and is already translated as `كنز المزارع`; `72109` is an unreleased duplicate.
 - The source chapter table has 53 Archon act rows and 132 World Quest series rows. The current catalogs contain 51 and 101 respectively because the remaining chapter/series rows do not yet have a verified English title in the per-ID data used by this importer.
 
 All catalog IDs are unique. Parent references and the retained prerequisite graph resolve within their respective catalogs, and the validator reports no hierarchy or prerequisite cycles.
@@ -60,7 +60,7 @@ The quest schema and validator now permit an empty Arabic name **only** when `tr
 
 ## Remaining work
 
-1. Resolve the 79 held-back quest titles using a bounded per-hash lookup source rather than downloading the entire TextMapEN file.
+1. Revisit the single unresolved source ID `74173` only if a later source snapshot provides a real title; the other 78 IDs have been correctly classified as internal/unreleased placeholders.
 2. Resolve the 2 Archon act titles and 31 World Quest series titles missing from the current per-ID chapter metadata, then add those nodes.
 3. Translate the 1,442 newly added records in reviewable batches, including Arabic titles and concise original summaries. Preserve `needs_translation` until each record has actual Arabic text.
 4. Review the four omitted prerequisite edges against the in-game quest log and versioned source tables.
