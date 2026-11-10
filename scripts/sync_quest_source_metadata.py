@@ -380,6 +380,16 @@ def main() -> int:
         existing_by_kind["archon"].pop(("quest", source_id), None)
     for source_id in excluded_internal_by_kind["WQ"] + excluded_hidden_by_kind["WQ"]:
         existing_by_kind["world"].pop(("quest", source_id), None)
+    # Also prune legacy hidden entries that are absent from the current English roster.
+    for kind in ("archon", "world"):
+        for key, entry in list(existing_by_kind[kind].items()):
+            if key[0] != "quest":
+                continue
+            source_meta = entry.get("source_main_quest_metadata")
+            if isinstance(source_meta, dict) and source_meta.get("showType") != "QUEST_SHOW":
+                existing_by_kind[kind].pop(key, None)
+            elif is_internal_quest_title(entry.get("source_name", "")):
+                existing_by_kind[kind].pop(key, None)
 
     # Create/update chapter and series nodes using verified chapter IDs.
     chapter_titles = {}
