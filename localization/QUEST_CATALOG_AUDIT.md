@@ -12,7 +12,10 @@ Story Quests, Hangout Events, Commissions, and Event Quests are not silently mix
 ## Source assessment
 
 - The current `genshin-db` data-folder index documents characters, talents, weapons, artifacts, materials, and other categories, but does not expose a dedicated quest catalog in its documented query functions. It is therefore not sufficient by itself for quest coverage.
-- GenshinData is the intended technical reference for stable quest/chapter identifiers and structured relationships, subject to confirming access to the relevant versioned tables.
+- The maintained technical source is now identified: [DimbreathBot/AnimeGameData](https://github.com/DimbreathBot/AnimeGameData), the GitHub mirror of `Dimbreath/animegamedata2`. Its documented 7.2.0 snapshot is commit `d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1` (2026-11-04). The legacy `Dimbreath/GenshinData` GitHub path is no longer the maintained location.
+- `ExcelBinOutput/MainQuestExcelConfigData.json` contains 4,075 main-quest definitions in that snapshot, including `id`, `chapterId`, `series`, `titleTextMapHash`, `descTextMapHash`, `mainQuestTag`, and `recommendLevel`. This is a mixed pool, not a count of Archon or World Quests; it must be filtered against chapter metadata.
+- `ExcelBinOutput/ChapterExcelConfigData.json` supplies chapter metadata. The source uses `questType: WQ` for World Quest chapter groups and `CHAPTER_STYLE_TYPE_AQ` for Archon chapter groups. `ExcelBinOutput/QuestExcelConfigData.json` stores individual steps linked by `mainId`; these steps must not be mistaken for separate main quests.
+- Quest title hashes are resolved through both `TextMapEN` and `TextMap_MediumEN`; the upstream audit documents separate, non-overlapping hash spaces. Missing hashes must be counted and reported, not silently replaced with empty strings.
 - Community parsers such as GenshinScripts document extraction of World Quest IDs from `MainQuestExcelConfigData` and chapter structures for Archon Quests. They are leads for extraction logic, not translation authorities.
 - The Genshin Impact Wiki quest index and Travel Log are useful cross-checks for titles, hierarchy, and prerequisite graphs. Individual records still need version-aware verification.
 
@@ -32,12 +35,13 @@ Arabic titles and concise summaries are original community drafts. Do not copy d
 
 ## Remaining work
 
-1. Obtain a stable, versioned quest index for the 7.2 baseline and record its exact commit/release provenance.
-2. Build and test an importer that preserves source IDs and hierarchy without importing dialogue.
+1. Build a reproducible importer pinned to AnimeGameData snapshot `d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1`; verify the table layout against that exact commit before relying on it.
+2. Resolve title hashes using both English TextMap files, filter Archon and World Quest records through chapter metadata, and preserve the original numeric quest IDs.
+3. Build and test an importer that preserves source IDs and hierarchy without importing dialogue.
 3. Populate Archon Quest chapter/act/quest nodes and World Quest series/quest nodes in reviewable batches.
 4. Cross-check prerequisite graphs and Adventure Rank gates against the Travel Log and versioned source tables.
 5. Write original Arabic titles and short summaries; leave ambiguous translations as `needs_context`.
 6. Add validator rules for parent references, prerequisite references, cycles, and sequence consistency, plus regression tests.
-7. Publish coverage counts only after reconciling the imported roster against the source index.
+7. Publish coverage counts only after reconciling the imported roster against the source index. The 4,075-row main-quest table is not itself a valid Archon/World Quest coverage denominator.
 
 **This is scaffolding, not a completed quest translation.** Empty catalogs deliberately make the missing coverage visible rather than presenting a fabricated or partial list as complete.
