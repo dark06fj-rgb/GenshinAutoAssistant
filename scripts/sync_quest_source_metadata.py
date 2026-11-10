@@ -120,6 +120,21 @@ def classify_unresolved_title(chs_title: str | None, title_hash: int | None) -> 
     return "missing_english_title"
 
 
+def is_internal_quest_title(title: str) -> bool:
+    """Exclude test fixtures and explicitly hidden internal quest labels."""
+    if not isinstance(title, str):
+        return False
+    folded = title.casefold().strip()
+    return (
+        "(test)" in folded
+        or "（test）" in folded
+        or "(test" in folded
+        or "（test" in folded
+        or "$hidden" in folded
+        or (folded.startswith("unleashed ") and "- hidden" in folded)
+    )
+
+
 def fetch_quest(quest_id: str) -> dict | None:
     payload = fetch_json(f"{GI_BASE}/EN/quests/{quest_id}.json")
     if not isinstance(payload, dict) or str(payload.get("mainQuestId")) != quest_id:
@@ -143,6 +158,8 @@ def fetch_quest(quest_id: str) -> dict | None:
     desc_hash = payload.get("descTextMapHash") or excel.get("descTextMapHash")
     if show_type != "QUEST_SHOW" or repeatable is True:
         return {"_skip_reason": "hidden_or_repeatable", "type": actual_type}
+    if isinstance(title, str) and is_internal_quest_title(title):
+        return {"_skip_reason": "internal_test", "type": actual_type}
     if not isinstance(title, str) or not title.strip():
         try:
             chs_payload = fetch_json(f"{GI_BASE}/CHS/quests/{quest_id}.json")
