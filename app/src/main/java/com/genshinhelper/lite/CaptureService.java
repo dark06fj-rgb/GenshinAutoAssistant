@@ -40,6 +40,7 @@ public class CaptureService extends Service {
     private TextView bubble;
     private WindowManager windowManager;
     private final AtomicBoolean busy = new AtomicBoolean(false);
+    private volatile boolean translatorReady = false;
     private long lastFrame;
     private int screenWidth, screenHeight, density;
 
@@ -52,8 +53,10 @@ public class CaptureService extends Service {
         recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS);
         TranslatorOptions options = new TranslatorOptions.Builder().setSourceLanguage("en").setTargetLanguage("ar").build();
         translator = Translation.getClient(options);
-        translator.downloadModelIfNeeded(new DownloadConditions.Builder().build());
-        showBubble("بانتظار نص إنجليزي ظاهر على الشاشة…");
+        translator.downloadModelIfNeeded(new DownloadConditions.Builder().build())
+            .addOnSuccessListener(v -> { translatorReady = true; showBubble("نموذج الترجمة جاهز. بانتظار نص إنجليزي…"); })
+            .addOnFailureListener(e -> showBubble("تعذر تنزيل نموذج الترجمة؛ تحقق من الإنترنت ثم أعد تشغيل الخدمة."));
+        showBubble("جارٍ تجهيز نموذج الترجمة لأول مرة…");
         thread = new HandlerThread("screen-ocr"); thread.start(); handler = new Handler(thread.getLooper());
     }
 
@@ -79,7 +82,7 @@ public class CaptureService extends Service {
         Image image = null;
         try {
             image = source.acquireLatestImage();
-            if (image == null || busy.get() || System.currentTimeMillis() - lastFrame < 1400) { if (image != null) image.close(); return; }
+            if (image == null || busy.get() || !translatorReady || System.currentTimeMillis() - lastFrame < 1400) { if (image != null) image.close(); return; }
             busy.set(true); lastFrame = System.currentTimeMillis();
             Image frame = image;
             recognizer.process(InputImage.fromMediaImage(frame, 0))
