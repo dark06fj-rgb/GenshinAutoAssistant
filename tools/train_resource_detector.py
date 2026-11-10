@@ -281,28 +281,41 @@ def main() -> None:
         )
         box = test_metrics.box
         metrics_path.write_text(
-            "Held-out test split metrics (not training/validation metrics):\\n"
-            f"mAP50: {float(box.map50):.6f}\\n"
-            f"mAP50-95: {float(box.map):.6f}\\n"
-            f"precision: {float(box.mp):.6f}\\n"
-            f"recall: {float(box.mr):.6f}\\n",
+            "Held-out test split metrics (not training/validation metrics):\n"
+            f"mAP50: {float(box.map50):.6f}\n"
+            f"mAP50-95: {float(box.map):.6f}\n"
+            f"precision: {float(box.mp):.6f}\n"
+            f"recall: {float(box.mr):.6f}\n",
             encoding="utf-8",
         )
     else:
         metrics_path.write_text(
-            "No held-out test split was supplied by the configured datasets.\\n",
+            "No held-out test split was supplied by the configured datasets.\n",
             encoding="utf-8",
         )
 
+    # Export is deliberately non-fatal: preserve best.pt and evaluation outputs
+    # even when the optional ONNX toolchain is incompatible.
+    export_status = OUTPUT / "onnx_export_status.txt"
+    export_error = OUTPUT / "onnx_export_error.txt"
     print("Exporting experimental model to ONNX for a future Android test build...", flush=True)
-    onnx_path = trained.export(format="onnx", imgsz=320, simplify=False)
-    if not Path(onnx_path).exists():
-        raise RuntimeError("ONNX export did not produce a model file.")
+    try:
+        onnx_path = trained.export(format="onnx", imgsz=320, simplify=False)
+        onnx_path = Path(onnx_path)
+        if not onnx_path.exists():
+            raise RuntimeError("ONNX export returned without creating a model file.")
+        export_status.write_text(f"ONNX export succeeded: {onnx_path}\\n", encoding="utf-8")
+        if export_error.exists():
+            export_error.unlink()
+        print(f"ONNX_EXPORT_COMPLETE model={onnx_path}", flush=True)
+    except Exception as exc:
+        export_status.write_text("ONNX export failed; trained weights and evaluation files are preserved.\\n", encoding="utf-8")
+        export_error.write_text(f"{type(exc).__name__}: {exc}\\n", encoding="utf-8")
+        print(f"ONNX_EXPORT_FAILED: {type(exc).__name__}: {exc}", flush=True)
 
-    print(f"TRAINING_COMPLETE best_model={best}")
-    print(f"ONNX_EXPORT_COMPLETE model={onnx_path}")
-    print(f"TEST_METRICS_FILE={metrics_path}")
-    print("Experimental model only; do not integrate as production-ready until real gameplay false positives are reviewed.")
+    print(f"TRAINING_COMPLETE best_model={best}", flush=True)
+    print(f"TEST_METRICS_FILE={metrics_path}", flush=True)
+    print("Experimental model only; do not integrate as production-ready until real gameplay false positives are reviewed.", flush=True)
 
 
 if __name__ == "__main__":
