@@ -25059,7 +25059,7 @@
       "source_quest_id": "71676",
       "source_name": "Battle Beneath the Spirit-Quelling Banner",
       "arabic_name": "معركة تحت راية قهر الأرواح",
-      "description_ar": null,
+      "description_ar": "يتبادل الراوي جيوو وخبير مسرح الورق باوفي الحديث حول أحدث أعمالهما، ما يمهّد لنشاط جديد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -25076,7 +25076,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -25103,7 +25103,7 @@
       "source_quest_id": "71677",
       "source_name": "Sigil Barrage Kaleidoscope",
       "arabic_name": "مهرجان وابل الشارات",
-      "description_ar": null,
+      "description_ar": "تروّج مساعدة أحد السحرة في شارع الطعام للعبة جديدة ابتكروها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -25120,7 +25120,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -42274,7 +42274,7 @@
       "source_quest_id": "73355",
       "source_name": "Reunite, My Shroom Buddies!",
       "arabic_name": "اجتمعوا مجدداً يا أصدقائي الفطريون!",
-      "description_ar": null,
+      "description_ar": "تلتقي أنت وبايمون أصدقاء قدامى ورفاقاً مميزين في ميناء بايداه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -42291,7 +42291,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -42318,7 +42318,7 @@
       "source_quest_id": "73356",
       "source_name": "A Meeting of \"Puppets\"",
       "arabic_name": "لقاء «الدمى»",
-      "description_ar": null,
+      "description_ar": "توجّه إلى حانة لامباد، وأعدّ طاولة الشاي لاستقبال الفتى ذو القبعة والاستمتاع بالجلسة معه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -42335,7 +42335,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -42362,7 +42362,7 @@
       "source_quest_id": "73357",
       "source_name": "Tea Party Re-Invitation: Hat Guy",
       "arabic_name": "دعوة شاي ثانية: الفتى ذو القبعة",
-      "description_ar": null,
+      "description_ar": "توجّه إلى حانة لامباد، وأعدّ طاولة الشاي لاستقبال الفتى ذو القبعة والاستمتاع بالجلسة معه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -42379,7 +42379,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46168,7 +46168,7 @@
       "source_quest_id": "73708",
       "source_name": "Reunite, My Shroom Buddies!",
       "arabic_name": "اجتمعوا مجدداً يا أصدقائي الفطريون!",
-      "description_ar": null,
+      "description_ar": "تترك صديقة لك رسالة لدى نقابة المغامرين تدعوك فيها أنت وبايمون لزيارة متجرها الجديد في ميناء بايداه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46185,7 +46185,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46212,7 +46212,7 @@
       "source_quest_id": "73709",
       "source_name": "Behold the Grandeur, Seize the Splendor",
       "arabic_name": "انظروا إلى العظمة واغتنموا الروعة",
-      "description_ar": null,
+      "description_ar": "بعد رحلة طويلة، تصل أنت ورفاقك من الفطريات إلى أول موقع خلاب، وتبدؤون جولتك الخاصة بعد تحديد معالمه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46229,7 +46229,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46256,7 +46256,7 @@
       "source_quest_id": "73710",
       "source_name": "A New Day at the Lil' Fungi Playground",
       "arabic_name": "يوم جديد في ملعب الفطريات الصغير",
-      "description_ar": null,
+      "description_ar": "بعد أيام من السفر والمرح، تعود برفقة أصدقائك الفطريين إلى ملعب الفطريات الصغير في ميناء بايداه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46273,7 +46273,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46300,7 +46300,7 @@
       "source_quest_id": "73711",
       "source_name": "Sightseeing With Friends: A Trip to Fontaine",
       "arabic_name": "جولة مع الأصدقاء: رحلة إلى فونتين",
-      "description_ar": null,
+      "description_ar": "بعد انتهاء جولتك في ناتلان، تنطلق أنت وأصدقاؤك الفطريون إلى المحطة التالية في قائمة بايمون: فونتين.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46317,7 +46317,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46344,7 +46344,7 @@
       "source_quest_id": "73712",
       "source_name": "Sightseeing With Friends: Back to Sumeru",
       "arabic_name": "جولة مع الأصدقاء: العودة إلى سوميرو",
-      "description_ar": null,
+      "description_ar": "بعد مواصلة الرحلة لبعض الوقت، تضع بايمون خطة جديدة لمغامرتكم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46361,7 +46361,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46388,7 +46388,7 @@
       "source_quest_id": "73713",
       "source_name": "Sightseeing With Friends: Underwater Fun",
       "arabic_name": "جولة مع الأصدقاء: متعة تحت الماء",
-      "description_ar": null,
+      "description_ar": "إلى جانب موقع التصوير الشهير خارج محكمة فونتين، تخطط بايمون لجولة تحت الماء أيضاً.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46405,7 +46405,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -46432,7 +46432,7 @@
       "source_quest_id": "73714",
       "source_name": "Sightseeing With Friends: Scenic Highlights",
       "arabic_name": "جولة مع الأصدقاء: أجمل المشاهد",
-      "description_ar": null,
+      "description_ar": "تبدو لدى بايمون أفكارها الخاصة حول مواقع التنزه والتصوير المميزة في سوميرو.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -46449,7 +46449,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52277,7 +52277,7 @@
       "source_quest_id": "74248",
       "source_name": "Stories Make the Best Pastries",
       "arabic_name": "القصص تصنع أفضل المعجنات",
-      "description_ar": null,
+      "description_ar": "توجّه إلى متجر تشورييا، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف والاستمتاع بالجلسة معهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52294,7 +52294,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52321,7 +52321,7 @@
       "source_quest_id": "74249",
       "source_name": "For Fontaine!",
       "arabic_name": "من أجل فونتين!",
-      "description_ar": null,
+      "description_ar": "توجّه إلى دار أوبرا إبيكليز، وأعدّ طاولة الشاي لاستقبال فورينا والاستمتاع بالجلسة معها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52338,7 +52338,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52365,7 +52365,7 @@
       "source_quest_id": "74250",
       "source_name": "Whispers by the Hearth",
       "arabic_name": "همسات قرب الموقد",
-      "description_ar": null,
+      "description_ar": "توجّه إلى فندق بوف ديتِه، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف والاستمتاع بالجلسة معهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52382,7 +52382,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52409,7 +52409,7 @@
       "source_quest_id": "74251",
       "source_name": "Stories of the Past",
       "arabic_name": "حكايات من الماضي",
-      "description_ar": null,
+      "description_ar": "توجّه إلى قصر ميرمونيا، وأعدّ طاولة الشاي لاستقبال نوفيلت والاستمتاع بالجلسة معه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52426,7 +52426,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52453,7 +52453,7 @@
       "source_quest_id": "74253",
       "source_name": "Ann, Mary-Ann, and Marionette",
       "arabic_name": "آن وماري آن والماريونيت",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف والاستمتاع بالجلسة معهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52470,7 +52470,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52497,7 +52497,7 @@
       "source_quest_id": "74254",
       "source_name": "Narcissus's Waltz",
       "arabic_name": "فالس نارسيس",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف والاستمتاع بالجلسة معهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52514,7 +52514,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52541,7 +52541,7 @@
       "source_quest_id": "74255",
       "source_name": "Tea Party Re-Invitation: Tabletop Troupe",
       "arabic_name": "دعوة شاي ثانية: فرقة المسرح المصغّرة",
-      "description_ar": null,
+      "description_ar": "توجّه إلى متجر تشورييا، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف والاستمتاع بالجلسة معهم.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52558,7 +52558,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52585,7 +52585,7 @@
       "source_quest_id": "74256",
       "source_name": "Tea Party Re-Invitation: Furina",
       "arabic_name": "دعوة شاي ثانية: فورينا",
-      "description_ar": null,
+      "description_ar": "توجّه إلى دار أوبرا إبيكليز، وأعدّ طاولة الشاي لاستقبال فورينا والاستمتاع بالجلسة معها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52602,7 +52602,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52629,7 +52629,7 @@
       "source_quest_id": "74257",
       "source_name": "Tea Party Re-Invitation: House of the Hearth",
       "arabic_name": "دعوة شاي ثانية: دار الموقد",
-      "description_ar": null,
+      "description_ar": "توجّه إلى فندق بوف ديتِه، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف من بيت الموقد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52646,7 +52646,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52673,7 +52673,7 @@
       "source_quest_id": "74258",
       "source_name": "Tea Party Re-Invitation: Neuvillette",
       "arabic_name": "دعوة شاي ثانية: نيوفيليت",
-      "description_ar": null,
+      "description_ar": "توجّه إلى قصر ميرمونيا، وأعدّ طاولة الشاي لاستقبال نوفيلت والاستمتاع بالجلسة معه.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52690,7 +52690,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52717,7 +52717,7 @@
       "source_quest_id": "74259",
       "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
       "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف في لقاء لمّ الشمل المرتبط بنارسيسنكروز.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52734,7 +52734,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52761,7 +52761,7 @@
       "source_quest_id": "74260",
       "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
       "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف في لقاء لمّ الشمل المرتبط بنارسيسنكروز.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52778,7 +52778,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -52805,7 +52805,7 @@
       "source_quest_id": "74261",
       "source_name": "Tea Party Re-Invitation: Narzissenkreuz Reunion",
       "arabic_name": "دعوة شاي ثانية: لمّ شمل نارزيسنكروز",
-      "description_ar": null,
+      "description_ar": "توجّه إلى المسكن المخفي، وأعدّ طاولة الشاي لاستقبال ساندَروني والضيوف في لقاء لمّ الشمل المرتبط بنارسيسنكروز.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -52822,7 +52822,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -53689,7 +53689,7 @@
       "source_quest_id": "74532",
       "source_name": "Popular Entertainment",
       "arabic_name": "ترفيه شعبي",
-      "description_ar": null,
+      "description_ar": "يبدو أن بيتي لوميير قرأت في صحيفة ستيمبيرد شيئاً عن «اللقطات الخاطفة»، وقد يترتب على ذلك أمر جديد.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -53706,7 +53706,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55466,7 +55466,7 @@
       "source_quest_id": "74690",
       "source_name": "A Robust Theoretical Discussion",
       "arabic_name": "نقاش نظري متين",
-      "description_ar": null,
+      "description_ar": "تسمع أنت وبايمون نقاشاً محتدماً قرب نافورة لوسين.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55483,7 +55483,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55510,7 +55510,7 @@
       "source_quest_id": "74691",
       "source_name": "Revelations by Chance",
       "arabic_name": "انكشافات بمحض الصدفة",
-      "description_ar": null,
+      "description_ar": "تعثر خارج مدينة فونتين على كشك غريب لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55527,7 +55527,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55554,7 +55554,7 @@
       "source_quest_id": "74692",
       "source_name": "Witch's Revelation: Special Blend's Instruction",
       "arabic_name": "كشف الساحرة: تعليمات المزيج الخاص",
-      "description_ar": null,
+      "description_ar": "تصادف ديونا في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55571,7 +55571,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -55598,7 +55598,7 @@
       "source_quest_id": "74693",
       "source_name": "Witch's Revelation: Duty's Instruction",
       "arabic_name": "كشف الساحرة: تعليمات الواجب",
-      "description_ar": null,
+      "description_ar": "تصادف ساينو في كشك باربيلوث لقراءة الطالع.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -55615,7 +55615,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
