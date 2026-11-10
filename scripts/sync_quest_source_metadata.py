@@ -416,7 +416,7 @@ def main() -> int:
         merged = merge_source(old, generated)
         existing_by_kind[kind][("quest", quest_id)] = merged
 
-    translation_path = ROOT / "localization/ar/quest-title-translations.json"
+    translation_path = ROOT / "localization/quest-title-translations.json"
     translation_data = json.loads(translation_path.read_text(encoding="utf-8"))
     if not isinstance(translation_data, dict):
         raise ValueError("Quest title translation map must be an object")
