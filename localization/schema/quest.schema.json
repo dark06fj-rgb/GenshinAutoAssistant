@@ -46,7 +46,7 @@
     },
     "arabic_name": {
       "type": "string",
-      "minLength": 1
+      "minLength": 0
     },
     "description_ar": {
       "type": [
@@ -151,12 +151,33 @@
         "draft",
         "reviewed",
         "approved",
-        "needs_context"
+        "needs_context",
+        "needs_translation"
       ]
     },
     "review_notes": {
       "type": "string"
     }
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "translation_status": { "const": "needs_translation" }
+        },
+        "required": ["translation_status"]
+      },
+      "then": {
+        "properties": {
+          "arabic_name": { "type": "string", "maxLength": 0 }
+        }
+      },
+      "else": {
+        "properties": {
+          "arabic_name": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  ],
   "additionalProperties": true
 }
