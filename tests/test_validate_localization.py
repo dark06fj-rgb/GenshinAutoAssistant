@@ -45,7 +45,7 @@ def fixture_catalogs():
                    weapon_type="WEAPON_SWORD_ONE_HAND")
         ]},
         "materials.json": {"entries": [
-            entity("material.test", "material", "Test Coin", "عملة تجريبية",
+            entity("material.test", "material", "Currency", "عملة تجريبية",
                    item_type="Currency")
         ]},
         "resources.json": {"entries": [
