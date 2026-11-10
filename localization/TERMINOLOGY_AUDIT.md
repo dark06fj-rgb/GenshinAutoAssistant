@@ -143,3 +143,14 @@ Only elemental labels in talent summaries were changed. Generic visual descripti
 ### Regression protection
 
 The validator now rejects the four known non-canonical elemental labels in talent summaries. Regression tests cover each label, while a separate test confirms that ordinary visual wording such as «تيار هوائي» remains valid. No translation status was changed; all affected records remain drafts.
+
+
+## Additional explicit element-label corrections — 2026-11-10
+
+The source-backed talent follow-up corrected only clear element-label cases that conflicted with the glossary convention:
+
+- Geo: `سهم جغرافي` → `سهم جيو` in Gorou and Linnea's charged-arrow summaries; `إنشاءات/منشآت جغرافية` → `إنشاءات جيو` in Chiori and Illuga's Geo Construct references; and Geo-labelled Navia attacks were rewritten to state `ضرر جيو`.
+- Dendro: Nahida's Normal Attack summary now names `هجمات دندرو` rather than `هجمات نباتية`.
+- Anemo: Prune's Normal Attack and Wanderer's skill-converted attacks now use `أنيمو` rather than `هوائي` when the wording denotes Anemo damage.
+
+Visual descriptions such as a wind current, whirlwind, ice flower, or water-like projectile were not globally rewritten. Remaining `كهربائي`, `مائي`, `ناري`, and `جليدي` variants are candidates for contextual review; no blanket replacement was made because some occurrences describe appearance or object names rather than an explicit damage label. All glossary entries and talent statuses remain `draft`.
