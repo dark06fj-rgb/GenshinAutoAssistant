@@ -59,21 +59,28 @@ def fetch_individual_quest(quest_id: str) -> dict:
         raise ValueError(f"Quest {quest_id}: titleTextMapHash is missing")
     if desc_hash is not None and not isinstance(desc_hash, int):
         raise ValueError(f"Quest {quest_id}: descTextMapHash is invalid")
+
     excel = payload.get("mainQuestExcel")
-    if not isinstance(excel, dict):
-        excel = {}
+    raw = excel.get("mainQuestRaw") if isinstance(excel, dict) else None
+    if not isinstance(raw, dict):
+        raw = {}
+    metadata_source = dict(raw)
+    if isinstance(excel, dict):
+        metadata_source.update(excel)
     metadata = {}
     for key in (
         "chapterId", "series", "type", "mainQuestTag",
         "recommendLevel", "suggestTrackMainQuestList",
     ):
-        value = excel.get(key)
+        value = metadata_source.get(key)
         if value is not None and value != 0 and value != []:
             metadata[key] = value
+    quest_tag = str(metadata.get("mainQuestTag", metadata.get("type", "")))
     return {
         "title": title.strip(),
         "hashes": {"title": title_hash, "description": desc_hash},
         "metadata": metadata,
+        "quest_tag": quest_tag,
     }
 
 
@@ -96,7 +103,7 @@ def main() -> int:
     chapters = fetch_chapters()
     loaded = []
     errors = []
-    quest_requests: dict[str, list[dict]] = {}
+    quest_requests: dict[str, list[tuple[str, dict]]] = {}
     world_series_ids = set()
 
     for path, catalog_type in CATALOGS.items():
@@ -113,18 +120,39 @@ def main() -> int:
                 continue
             key = str(source_id)
             node_type = entry.get("node_type")
+            row = chapters.get(key)
 
             if catalog_type == "archon" and node_type == "quest":
-                quest_requests.setdefault(key, []).append(entry)
+                quest_requests.setdefault(key, []).append((catalog_type, entry))
                 continue
 
-            row = chapters.get(key)
-            if row is None:
-                errors.append(f"{path.name}: chapter ID {key} is absent from pinned source")
+            if catalog_type == "world":
+                if row is not None and row.get("questType") == "WQ":
+                    old_id = entry.get("id")
+                    new_id = f"quest.world.series.{key}"
+                    entry["id"] = new_id
+                    entry["node_type"] = "series"
+                    entry["series_id"] = key
+                    entry["chapter_id"] = key
+                    entry["source_chapter_metadata"] = {
+                        name: row[name]
+                        for name in (
+                            "id", "groupId", "beginQuestId", "endQuestId",
+                            "cityId", "needPlayerLevel", "questType",
+                        )
+                        if name in row
+                    }
+                    entry["source_text_map_hashes"] = chapter_hashes(row)
+                    world_series_ids.add((str(old_id), new_id))
+                    continue
+                if row is None:
+                    quest_requests.setdefault(key, []).append((catalog_type, entry))
+                    continue
+                errors.append(f"{path.name}: ID {key} is neither a WQ series nor a resolvable quest")
                 continue
 
             if catalog_type == "archon" and node_type == "act":
-                if row.get("FOGHOPGBDML") != "CHAPTER_STYLE_TYPE_AQ":
+                if row is None or row.get("FOGHOPGBDML") != "CHAPTER_STYLE_TYPE_AQ":
                     errors.append(f"{path.name}: ID {key} is not an Archon act row")
                     continue
                 entry["source_chapter_metadata"] = {
@@ -136,29 +164,11 @@ def main() -> int:
                     if name in row
                 }
                 entry["source_text_map_hashes"] = chapter_hashes(row)
-            elif catalog_type == "world" and node_type == "series":
-                if row.get("questType") != "WQ":
-                    errors.append(f"{path.name}: ID {key} is not a World Quest series row")
-                    continue
-                old_id = entry.get("id")
-                new_id = f"quest.world.series.{key}"
-                entry["id"] = new_id
-                entry["series_id"] = key
-                entry["chapter_id"] = key
-                entry["source_chapter_metadata"] = {
-                    name: row[name]
-                    for name in (
-                        "id", "groupId", "beginQuestId", "endQuestId",
-                        "cityId", "needPlayerLevel", "questType",
-                    )
-                    if name in row
-                }
-                entry["source_text_map_hashes"] = chapter_hashes(row)
-                world_series_ids.add((str(old_id), new_id))
-            else:
-                errors.append(
-                    f"{path.name}: unsupported node_type {node_type!r} for source ID {key}"
-                )
+                continue
+
+            errors.append(
+                f"{path.name}: unsupported node_type {node_type!r} for source ID {key}"
+            )
         loaded.append((path, data, catalog_type))
 
     quest_results = {}
@@ -175,17 +185,34 @@ def main() -> int:
                 except Exception as exc:
                     errors.append(f"Individual quest {quest_id}: {exc}")
 
-    for quest_id, entries in quest_requests.items():
+    for quest_id, targets in quest_requests.items():
         source = quest_results.get(quest_id)
         if source is None:
             continue
-        for entry in entries:
+        for catalog_type, entry in targets:
             if str(entry.get("source_name", "")).strip().casefold() != source["title"].casefold():
                 errors.append(
                     f"Quest {quest_id}: English title mismatch "
                     f"({entry.get('source_name')!r} != {source['title']!r})"
                 )
                 continue
+            if catalog_type == "world":
+                tag = source["quest_tag"]
+                if "WQ" not in tag:
+                    errors.append(f"World quest {quest_id}: source tag is not WQ ({tag!r})")
+                    continue
+                old_id = entry.get("id")
+                entry["id"] = f"quest.world.quest.{quest_id}"
+                entry["node_type"] = "quest"
+                metadata = source["metadata"]
+                chapter_id = metadata.get("chapterId")
+                series_id = metadata.get("series")
+                if chapter_id:
+                    entry["chapter_id"] = str(chapter_id)
+                if series_id:
+                    entry["series_id"] = str(series_id)
+            else:
+                old_id = entry.get("id")
             entry["source_text_map_hashes"] = source["hashes"]
             entry["source_main_quest_metadata"] = source["metadata"]
 
@@ -215,25 +242,14 @@ def main() -> int:
             encoding="utf-8",
         )
 
-    archon_acts = sum(
-        entry.get("node_type") == "act"
-        for _, data, kind in loaded if kind == "archon"
-        for entry in data["entries"]
-    )
-    archon_quests = sum(
-        entry.get("node_type") == "quest"
-        for _, data, kind in loaded if kind == "archon"
-        for entry in data["entries"]
-    )
-    world_series = sum(
-        entry.get("node_type") == "series"
-        for _, data, kind in loaded if kind == "world"
-        for entry in data["entries"]
-    )
-    print(
-        f"Resolved {archon_acts} Archon act records, {archon_quests} individual "
-        f"Archon quests, and {world_series} World Quest series records."
-    )
+    counts = {}
+    for _, data, catalog_type in loaded:
+        for entry in data["entries"]:
+            key = f"{catalog_type}_{entry.get('node_type')}"
+            counts[key] = counts.get(key, 0) + 1
+    print("Resolved quest source metadata by stable IDs:")
+    for key in sorted(counts):
+        print(f"  {key}: {counts[key]}")
     print(f"Chapter source: AnimeGameData snapshot {ANIME_COMMIT}")
     print("Individual quest source: pinned GI-OnlineQuest per-ID records.")
     print("Only requested IDs and text-map hashes were extracted; TextMapEN.json was not requested.")
