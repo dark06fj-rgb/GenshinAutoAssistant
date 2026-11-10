@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Resolve quest chapter/series metadata by stable IDs, without TextMapEN.json."""
+"""Resolve quest source hashes by stable IDs without fetching TextMapEN.json."""
 from __future__ import annotations
 
 import json
 import sys
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,20 +13,26 @@ CATALOGS = {
     ROOT / "localization/ar/quests_archon.json": "archon",
     ROOT / "localization/ar/quests_world.json": "world",
 }
-SOURCE_COMMIT = "d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+ANIME_COMMIT = "d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
 CHAPTER_URL = (
     "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/"
-    f"{SOURCE_COMMIT}/ExcelBinOutput/ChapterExcelConfigData.json"
+    f"{ANIME_COMMIT}/ExcelBinOutput/ChapterExcelConfigData.json"
 )
+GI_QUEST_BASE = (
+    "https://raw.githubusercontent.com/lzray-universe/GI-OnlineQuest/"
+    "9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests"
+)
+USER_AGENT = "GenshinArabicQuestCatalog/1.0"
+
+
+def fetch_json(url: str):
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(request, timeout=45) as response:
+        return json.loads(response.read().decode("utf-8"))
 
 
 def fetch_chapters() -> dict[str, dict]:
-    request = urllib.request.Request(
-        CHAPTER_URL,
-        headers={"User-Agent": "GenshinArabicQuestCatalog/1.0"},
-    )
-    with urllib.request.urlopen(request, timeout=45) as response:
-        rows = json.loads(response.read().decode("utf-8"))
+    rows = fetch_json(CHAPTER_URL)
     if not isinstance(rows, list):
         raise ValueError("ChapterExcelConfigData response is not an array")
     result = {}
@@ -39,10 +46,57 @@ def fetch_chapters() -> dict[str, dict]:
     return result
 
 
+def fetch_individual_quest(quest_id: str) -> dict:
+    payload = fetch_json(f"{GI_QUEST_BASE}/{quest_id}.json")
+    if not isinstance(payload, dict) or str(payload.get("mainQuestId")) != quest_id:
+        raise ValueError(f"Quest {quest_id}: source returned a mismatched record")
+    title = payload.get("title")
+    title_hash = payload.get("titleTextMapHash")
+    desc_hash = payload.get("descTextMapHash")
+    if not isinstance(title, str) or not title.strip():
+        raise ValueError(f"Quest {quest_id}: source title is missing")
+    if not isinstance(title_hash, int):
+        raise ValueError(f"Quest {quest_id}: titleTextMapHash is missing")
+    if desc_hash is not None and not isinstance(desc_hash, int):
+        raise ValueError(f"Quest {quest_id}: descTextMapHash is invalid")
+    excel = payload.get("mainQuestExcel")
+    if not isinstance(excel, dict):
+        excel = {}
+    metadata = {}
+    for key in (
+        "chapterId", "series", "type", "mainQuestTag",
+        "recommendLevel", "suggestTrackMainQuestList",
+    ):
+        value = excel.get(key)
+        if value is not None and value != 0 and value != []:
+            metadata[key] = value
+    return {
+        "title": title.strip(),
+        "hashes": {"title": title_hash, "description": desc_hash},
+        "metadata": metadata,
+    }
+
+
+def chapter_hashes(row: dict) -> dict:
+    hashes = {}
+    for name, source_key in (
+        ("title", "chapterTitleTextMapHash"),
+        ("number", "chapterNumTextMapHash"),
+        ("image_title", "chapterImageTitleTextMapHash"),
+    ):
+        value = row.get(source_key)
+        if isinstance(value, int):
+            hashes[name] = value
+    if not hashes.get("title"):
+        raise ValueError(f"Chapter {row.get('id')}: chapter title hash is missing")
+    return hashes
+
+
 def main() -> int:
     chapters = fetch_chapters()
     loaded = []
     errors = []
+    quest_requests: dict[str, list[dict]] = {}
     world_series_ids = set()
 
     for path, catalog_type in CATALOGS.items():
@@ -54,24 +108,25 @@ def main() -> int:
                 errors.append(f"{path.name}[{index}]: entry is not an object")
                 continue
             source_id = entry.get("source_quest_id")
-            if source_id is None:
-                errors.append(f"{path.name}[{index}]: source_quest_id is missing")
+            if source_id is None or not str(source_id).isdigit():
+                errors.append(f"{path.name}[{index}]: invalid source_quest_id")
                 continue
             key = str(source_id)
+            node_type = entry.get("node_type")
+
+            if catalog_type == "archon" and node_type == "quest":
+                quest_requests.setdefault(key, []).append(entry)
+                continue
+
             row = chapters.get(key)
             if row is None:
                 errors.append(f"{path.name}: chapter ID {key} is absent from pinned source")
                 continue
 
-            if catalog_type == "archon":
-                style = row.get("FOGHOPGBDML")
-                if style != "CHAPTER_STYLE_TYPE_AQ":
-                    errors.append(
-                        f"{path.name}: ID {key} is not an Archon chapter (style={style!r})"
-                    )
+            if catalog_type == "archon" and node_type == "act":
+                if row.get("FOGHOPGBDML") != "CHAPTER_STYLE_TYPE_AQ":
+                    errors.append(f"{path.name}: ID {key} is not an Archon act row")
                     continue
-                if entry.get("node_type") != "act":
-                    entry["node_type"] = "act"
                 entry["source_chapter_metadata"] = {
                     name: row[name]
                     for name in (
@@ -80,27 +135,14 @@ def main() -> int:
                     )
                     if name in row
                 }
-                hashes = {}
-                for name, source_key in (
-                    ("title", "chapterTitleTextMapHash"),
-                    ("number", "chapterNumTextMapHash"),
-                    ("image_title", "chapterImageTitleTextMapHash"),
-                ):
-                    value = row.get(source_key)
-                    if isinstance(value, int):
-                        hashes[name] = value
-                entry["source_text_map_hashes"] = hashes
-            else:
-                quest_type = row.get("questType")
-                if quest_type != "WQ":
-                    errors.append(
-                        f"{path.name}: ID {key} is not a World Quest series (questType={quest_type!r})"
-                    )
+                entry["source_text_map_hashes"] = chapter_hashes(row)
+            elif catalog_type == "world" and node_type == "series":
+                if row.get("questType") != "WQ":
+                    errors.append(f"{path.name}: ID {key} is not a World Quest series row")
                     continue
                 old_id = entry.get("id")
                 new_id = f"quest.world.series.{key}"
                 entry["id"] = new_id
-                entry["node_type"] = "series"
                 entry["series_id"] = key
                 entry["chapter_id"] = key
                 entry["source_chapter_metadata"] = {
@@ -111,18 +153,41 @@ def main() -> int:
                     )
                     if name in row
                 }
-                hashes = {}
-                for name, source_key in (
-                    ("title", "chapterTitleTextMapHash"),
-                    ("number", "chapterNumTextMapHash"),
-                    ("image_title", "chapterImageTitleTextMapHash"),
-                ):
-                    value = row.get(source_key)
-                    if isinstance(value, int):
-                        hashes[name] = value
-                entry["source_text_map_hashes"] = hashes
+                entry["source_text_map_hashes"] = chapter_hashes(row)
                 world_series_ids.add((str(old_id), new_id))
+            else:
+                errors.append(
+                    f"{path.name}: unsupported node_type {node_type!r} for source ID {key}"
+                )
         loaded.append((path, data, catalog_type))
+
+    quest_results = {}
+    if quest_requests:
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            futures = {
+                pool.submit(fetch_individual_quest, quest_id): quest_id
+                for quest_id in quest_requests
+            }
+            for future in as_completed(futures):
+                quest_id = futures[future]
+                try:
+                    quest_results[quest_id] = future.result()
+                except Exception as exc:
+                    errors.append(f"Individual quest {quest_id}: {exc}")
+
+    for quest_id, entries in quest_requests.items():
+        source = quest_results.get(quest_id)
+        if source is None:
+            continue
+        for entry in entries:
+            if str(entry.get("source_name", "")).strip().casefold() != source["title"].casefold():
+                errors.append(
+                    f"Quest {quest_id}: English title mismatch "
+                    f"({entry.get('source_name')!r} != {source['title']!r})"
+                )
+                continue
+            entry["source_text_map_hashes"] = source["hashes"]
+            entry["source_main_quest_metadata"] = source["metadata"]
 
     if errors:
         raise RuntimeError(
@@ -150,11 +215,28 @@ def main() -> int:
             encoding="utf-8",
         )
 
-    archon_count = sum(len(data["entries"]) for _, data, kind in loaded if kind == "archon")
-    world_count = sum(len(data["entries"]) for _, data, kind in loaded if kind == "world")
-    print(f"Resolved {archon_count} Archon chapter records and {world_count} World Quest series records.")
-    print(f"Source: AnimeGameData snapshot {SOURCE_COMMIT}")
-    print("Extracted only IDs and text-map hashes from ChapterExcelConfigData; TextMapEN.json was not requested.")
+    archon_acts = sum(
+        entry.get("node_type") == "act"
+        for _, data, kind in loaded if kind == "archon"
+        for entry in data["entries"]
+    )
+    archon_quests = sum(
+        entry.get("node_type") == "quest"
+        for _, data, kind in loaded if kind == "archon"
+        for entry in data["entries"]
+    )
+    world_series = sum(
+        entry.get("node_type") == "series"
+        for _, data, kind in loaded if kind == "world"
+        for entry in data["entries"]
+    )
+    print(
+        f"Resolved {archon_acts} Archon act records, {archon_quests} individual "
+        f"Archon quests, and {world_series} World Quest series records."
+    )
+    print(f"Chapter source: AnimeGameData snapshot {ANIME_COMMIT}")
+    print("Individual quest source: pinned GI-OnlineQuest per-ID records.")
+    print("Only requested IDs and text-map hashes were extracted; TextMapEN.json was not requested.")
     return 0
 
 
