@@ -7,7 +7,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `ar/glossary.json`: terminology and shared translations.
 - `ar/characters.json`: character name records.
 - `ar/talents.json`: initial combat talent names for the 10 seed characters; descriptions are intentionally pending review.
-- `ar/weapons.json`: weapon name records.
+- `ar/weapons.json`: weapon name records and compact weapon metadata.\n- `scripts/import_weapon_catalog.py`: imports the public weapon roster from genshin-db while preserving existing Arabic translations.
 - `ar/artifacts.json`: artifact set name records.
 - `ar/materials.json`: common currencies and wish items.
 - `ar/resources.json`: gatherable plants, fruits, and ores.
