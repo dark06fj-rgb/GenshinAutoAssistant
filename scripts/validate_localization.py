@@ -222,6 +222,70 @@ class Validator:
                     f"for {character_id}: {actual_name!r}"
                 )
 
+    def check_traveler_talent_sets(self) -> None:
+        """Require the seven known Traveler elements to have all three talent slots."""
+        traveler_id = "character.aether"
+        expected_elements = {"Anemo", "Geo", "Electro", "Dendro", "Hydro", "Pyro", "Cryo"}
+        expected_types = {"normal", "skill", "burst"}
+        expected_slots = {
+            (element, talent_type)
+            for element in expected_elements
+            for talent_type in expected_types
+        }
+        talents = self.data.get("talents.json", {}).get("entries", [])
+        traveler_talents = [
+            item for item in talents
+            if isinstance(item, dict) and (
+                item.get("character_id") == traveler_id
+                or (
+                    isinstance(item.get("id"), str)
+                    and item["id"].startswith(f"{traveler_id}.talent.")
+                )
+            )
+        ]
+
+        found_slots: set[tuple[str, str]] = set()
+        for talent in traveler_talents:
+            talent_id = talent.get("id", "no id")
+            if talent.get("character_id") != traveler_id:
+                self.error(
+                    f"Traveler talent {talent_id} must reference {traveler_id}"
+                )
+
+            element = talent.get("element")
+            talent_type = talent.get("type")
+            if element not in expected_elements:
+                self.error(
+                    f"Traveler talent {talent_id} has unsupported element {element!r}"
+                )
+                continue
+            if talent_type not in expected_types:
+                self.error(
+                    f"Traveler talent {talent_id} has unsupported type {talent_type!r}"
+                )
+                continue
+
+            slot = (element, talent_type)
+            expected_id = (
+                f"{traveler_id}.talent.{element.lower()}.{talent_type}"
+            )
+            if talent_id != expected_id:
+                self.error(
+                    f"Traveler talent ID {talent_id!r} does not match slot "
+                    f"{element}/{talent_type}; expected {expected_id!r}"
+                )
+            if slot in found_slots:
+                self.error(
+                    f"Traveler has duplicate talent slot {element}/{talent_type}"
+                )
+            found_slots.add(slot)
+
+        missing_slots = expected_slots - found_slots
+        for element, talent_type in sorted(missing_slots):
+            self.error(
+                f"Traveler is missing talent slot {element}/{talent_type}"
+            )
+
     def check_global_ids(self) -> None:
         owners: dict[str, str] = {}
         for filename, data in self.data.items():
@@ -244,6 +308,7 @@ class Validator:
             self.check_glossary_links()
         if "characters.json" in self.data and "talents.json" in self.data:
             self.check_talent_references()
+            self.check_traveler_talent_sets()
         self.check_global_ids()
 
         print(
