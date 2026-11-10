@@ -37,8 +37,8 @@ def fixture_catalogs():
                    element=None, weapon_type="Sword")
         ]},
         "talents.json": {"entries": [
-            {"id": "character.test.talent.normal", "category": "term",
-             "character_id": "character.test", "character_name_ar": "اختبار"}
+            entity("character.test.talent.normal", "term", "Test talent", "موهبة تجريبية",
+                   character_id="character.test", character_name_ar="اختبار")
         ]},
         "weapons.json": {"entries": [
             entity("weapon.test", "weapon", "Test Sword", "سيف تجريبي",
