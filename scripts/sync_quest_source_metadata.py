@@ -278,6 +278,8 @@ def main() -> int:
     skipped_non_target = 0
     skipped_hidden_or_repeatable = 0
     skipped_unresolved_title = 0
+    unresolved_title_ids = []
+    candidate_type_counts = {"AQ": 0, "WQ": 0}
     errors = []
     with ThreadPoolExecutor(max_workers=24) as pool:
         futures = {
@@ -290,12 +292,16 @@ def main() -> int:
                 result = future.result()
                 if result is None or result.get("_skip_reason") == "not_aq_or_wq":
                     skipped_non_target += 1
-                elif result.get("_skip_reason") == "hidden_or_repeatable":
-                    skipped_hidden_or_repeatable += 1
-                elif result.get("_skip_reason") == "missing_english_title":
-                    skipped_unresolved_title += 1
                 else:
-                    fetched[quest_id] = result
+                    if result.get("type") in candidate_type_counts:
+                        candidate_type_counts[result["type"]] += 1
+                    if result.get("_skip_reason") == "hidden_or_repeatable":
+                        skipped_hidden_or_repeatable += 1
+                    elif result.get("_skip_reason") == "missing_english_title":
+                        skipped_unresolved_title += 1
+                        unresolved_title_ids.append(quest_id)
+                    else:
+                        fetched[quest_id] = result
             except Exception as exc:
                 errors.append(f"{quest_id}: {exc}")
     if errors:
@@ -450,36 +456,51 @@ def main() -> int:
         for entry in data["entries"]:
             key = f"{kind}_{entry.get('node_type')}"
             counts[key] = counts.get(key, 0) + 1
-    candidate_counts = {
-        kind: sum(
-            1 for value in fetched.values() if value["type"] == kind
-        ) + sum(
-            1 for quest_id in selected_ids
-            if quest_id not in fetched
-            and any(
-                source.get("id") == quest_id and source.get("type") == kind
-                for source in []
-            )
-        )
-        for kind in ("AQ", "WQ")
-    }
     fetched_counts = {
         kind: sum(1 for value in fetched.values() if value["type"] == kind)
         for kind in ("AQ", "WQ")
     }
-    unresolved_title_ids = sorted(
-        quest_id for quest_id in selected_ids
-        if quest_id not in fetched
-    )
+    unresolved_title_ids = sorted(unresolved_title_ids)
+    cycle_edges_dropped = 0
+    for kind in ("archon", "world"):
+        graph = {}
+        quest_entries = [
+            entry for (node_type, _), entry in existing_by_kind[kind].items()
+            if node_type == "quest"
+        ]
+        for entry in sorted(quest_entries, key=lambda item: item["id"]):
+            kept = []
+            for prerequisite in sorted(set(entry.get("prerequisite_ids", []))):
+                stack = [prerequisite]
+                visited = set()
+                creates_cycle = False
+                while stack:
+                    current = stack.pop()
+                    if current == entry["id"]:
+                        creates_cycle = True
+                        break
+                    if current in visited:
+                        continue
+                    visited.add(current)
+                    stack.extend(graph.get(current, []))
+                if creates_cycle:
+                    cycle_edges_dropped += 1
+                else:
+                    kept.append(prerequisite)
+                    graph.setdefault(entry["id"], []).append(prerequisite)
+            entry["prerequisite_ids"] = kept
+
     report = {
         "animegamedata_commit": ANIME_COMMIT,
         "gi_onlinequest_commit": GI_COMMIT,
         "main_quest_rows": len(main_rows),
         "english_quest_files": len(available_ids),
+        "player_facing_candidates": candidate_type_counts,
         "player_facing_imported": fetched_counts,
         "skipped_non_target": skipped_non_target,
         "skipped_hidden_or_repeatable": skipped_hidden_or_repeatable,
         "held_back_unresolved_title_count": skipped_unresolved_title,
+        "cycle_prerequisite_edges_dropped": cycle_edges_dropped,
         "catalog_counts": counts,
         "unresolved_title_source_ids": unresolved_title_ids,
     }
@@ -496,7 +517,10 @@ def main() -> int:
         f"{skipped_hidden_or_repeatable} hidden/repeatable AQ/WQ records skipped, "
         f"{skipped_unresolved_title} AQ/WQ records held back for unresolved English titles."
     )
+    print(f"Player-facing candidates: AQ={candidate_type_counts['AQ']}, WQ={candidate_type_counts['WQ']}")
     print(f"Imported displayable types: AQ={fetched_counts['AQ']}, WQ={fetched_counts['WQ']}")
+    print(f"Unresolved-title IDs held back: {len(unresolved_title_ids)}")
+    print(f"Prerequisite cycle edges safely omitted: {cycle_edges_dropped}")
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
     print(
