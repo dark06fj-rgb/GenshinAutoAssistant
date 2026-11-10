@@ -8,7 +8,7 @@
       "id": "artifact.blizzard_strayer",
       "category": "artifact",
       "source_name": "Blizzard Strayer",
-      "arabic_name": "ظلّف الثلج",
+      "arabic_name": "متجوّل العاصفة الثلجية",
       "source": [
         {
           "name": "genshin-db",
@@ -17,7 +17,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة اسم المجموعة مقترحة وتحتاج مراجعة."
+      "review_notes": "صياغة عربية أولية لاسم المجموعة؛ تحتاج مراجعة ومقارنة مع المصطلحات المعتمدة."
     },
     {
       "id": "artifact.bloodstained_chivalry",
