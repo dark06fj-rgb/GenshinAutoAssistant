@@ -39,12 +39,35 @@ jobs:
         run: python scripts/validate_localization.py
       - name: Commit metadata when changed
         run: |
-          if git diff --quiet -- localization/ar/quests_archon.json localization/ar/quests_world.json localization/quest-import-report.json; then
-            echo "Quest source metadata is already current."
-            exit 0
-          fi
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add localization/ar/quests_archon.json localization/ar/quests_world.json localization/quest-import-report.json localization/quest-title-translations.json
-          git commit -m "Import complete AQ/WQ source roster and metadata"
-          git push origin HEAD:arabic-localization-catalog
+
+          for attempt in 1 2 3; do
+            git fetch origin arabic-localization-catalog
+            remote_sha="$(git rev-parse FETCH_HEAD)"
+            local_sha="$(git rev-parse HEAD)"
+
+            if [ "$remote_sha" != "$local_sha" ]; then
+              echo "Branch advanced during import; rebasing work by regenerating from latest source."
+              git reset --hard "$remote_sha"
+              python scripts/sync_quest_source_metadata.py
+              python -m unittest discover -s tests -v
+              python scripts/validate_localization.py
+            fi
+
+            git add localization/ar/quests_archon.json localization/ar/quests_world.json localization/quest-import-report.json localization/quest-title-translations.json
+            if git diff --cached --quiet; then
+              echo "Quest source metadata is already current."
+              exit 0
+            fi
+
+            git commit -m "Import complete AQ/WQ source roster and metadata"
+            if git push origin HEAD:arabic-localization-catalog; then
+              exit 0
+            fi
+            echo "Push attempt $attempt raced with another update; retrying from the new branch head."
+          done
+
+          echo "Could not push quest catalog after three safe retries." >&2
+          exit 1
