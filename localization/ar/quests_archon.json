@@ -9,140 +9,1636 @@
   "disclaimer": "Community translation drafts; not official HoYoverse terminology. Quest dialogue is intentionally excluded.",
   "entries": [
     {
-      "id": "quest.archon.chapter.prologue",
+      "id": "quest.archon.act.1001",
       "category": "quest",
       "quest_type": "archon",
-      "node_type": "chapter",
+      "node_type": "act",
       "source_quest_id": "1001",
-      "source_name": "Prologue: The Outlander Who Caught the Wind",
-      "arabic_name": "المقدمة: الغريب الذي أسر الريح",
+      "source_name": "The Outlander Who Caught the Wind",
+      "arabic_name": "الغريب الذي أسر الريح",
       "description_ar": null,
-      "parent_id": null,
-      "chapter_id": null,
-      "act_id": null,
-      "series_id": "1001",
+      "chapter_id": "1001",
+      "act_id": "1001",
+      "series_id": null,
       "region": "Mondstadt",
-      "sequence": null,
+      "sequence": 1,
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2 ChapterExcelConfigData",
-          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
-          "version": "7.2 snapshot d54f6f0"
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
         },
         {
-          "name": "Archon chapter title reference",
-          "url": "https://github.com/FichteFoll/gacha-game-story-length-analysis/blob/4b15b28e9916a17dc7de1d307873e371dc716543/genshin-impact/00-prologue-mondstadt.md",
-          "version": null
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1001",
+          "version": "current index"
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل مستند إلى chapter id 1001 ووسم CHAPTER_STYLE_TYPE_AQ؛ العنوان العربي مسودة."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
     },
     {
-      "id": "quest.archon.quest.wanderers_trail",
+      "id": "quest.archon.act.1002",
       "category": "quest",
       "quest_type": "archon",
-      "node_type": "quest",
-      "source_quest_id": "351",
-      "source_name": "Wanderer's Trail",
-      "arabic_name": "درب المتجول",
-      "description_ar": "اختطف الإله قريبك الوحيد، ثم خُتمتَ وأُلقيتَ في سبات عميق. وبعد استيقاظك، تجولت وحدك حتى التقيت رفيقة غريبة تُدعى بايمون، لتبدأ رحلتك عبر قارة تيفات.",
-      "parent_id": null,
-      "chapter_id": null,
-      "act_id": null,
-      "series_id": "1001",
-      "region": null,
-      "sequence": null,
+      "node_type": "act",
+      "source_quest_id": "1002",
+      "source_name": "For a Tomorrow Without Tears",
+      "arabic_name": "من أجل غدٍ بلا دموع",
+      "description_ar": null,
+      "chapter_id": "1002",
+      "act_id": "1002",
+      "series_id": null,
+      "region": "Mondstadt",
+      "sequence": 2,
       "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2 QuestBrief 351",
-          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/351.json",
-          "version": "7.2 snapshot d54f6f0"
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
         },
         {
-          "name": "GI-OnlineQuest English title and summary cross-reference",
-          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/351.json",
-          "version": null
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1002",
+          "version": "current index"
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المعرّف 351 ونوع AQ والعنوان والملخص مثبتة في مرجع البيانات؛ لا يحمل QuestBrief لهذا السجل chapterId، لذلك تُرك parent_id فارغاً."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
     },
     {
-      "id": "quest.archon.quest.birds_eye_view",
+      "id": "quest.archon.act.1003",
       "category": "quest",
       "quest_type": "archon",
-      "node_type": "quest",
-      "source_quest_id": "352",
-      "source_name": "Bird's Eye View",
-      "arabic_name": "منظور عين الطائر",
-      "description_ar": "تبدأ رحلتك في وادي ستارفيل، حيث تستكشف الأرض وتتأمل معالمها برفقة بايمون.",
-      "parent_id": "quest.archon.chapter.prologue",
-      "chapter_id": "1001",
-      "act_id": null,
-      "series_id": "1001",
+      "node_type": "act",
+      "source_quest_id": "1003",
+      "source_name": "Song of the Dragon and Freedom",
+      "arabic_name": "أغنية التنين والحرية",
+      "description_ar": null,
+      "chapter_id": "1003",
+      "act_id": "1003",
+      "series_id": null,
       "region": "Mondstadt",
-      "sequence": null,
-      "prerequisite_ids": [
-        "quest.archon.quest.wanderers_trail"
-      ],
+      "sequence": 3,
+      "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2 QuestBrief 352",
-          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/352.json",
-          "version": "7.2 snapshot d54f6f0"
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
         },
         {
-          "name": "GI-OnlineQuest English title and summary cross-reference",
-          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/352.json",
-          "version": null
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1003",
+          "version": "current index"
         }
       ],
       "translation_status": "draft",
-      "review_notes": "العنوان والملخص ترجمة عربية أولية؛ يلزم تدقيق تحريري قبل الاعتماد."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
     },
     {
-      "id": "quest.archon.quest.unexpected_power",
+      "id": "quest.archon.act.1101",
       "category": "quest",
       "quest_type": "archon",
-      "node_type": "quest",
-      "source_quest_id": "353",
-      "source_name": "Unexpected Power",
-      "arabic_name": "قوة غير متوقعة",
-      "description_ar": "أثناء تقدمك، يظهر تمثال السبعة في الأفق أمامك. وباقتراح من بايمون، تتوجه لاستكشافه.",
-      "parent_id": "quest.archon.chapter.prologue",
-      "chapter_id": "1001",
-      "act_id": null,
-      "series_id": "1001",
-      "region": "Mondstadt",
-      "sequence": null,
-      "prerequisite_ids": [
-        "quest.archon.quest.birds_eye_view"
-      ],
+      "node_type": "act",
+      "source_quest_id": "1101",
+      "source_name": "Of the Land Amidst Monoliths",
+      "arabic_name": "أرضٌ تتوسطها المسلّات",
+      "description_ar": null,
+      "chapter_id": "1101",
+      "act_id": "1101",
+      "series_id": null,
+      "region": "Liyue",
+      "sequence": 4,
+      "prerequisite_ids": [],
       "adventure_rank": null,
       "version_added": null,
       "source": [
         {
-          "name": "AnimeGameData 7.2 QuestBrief 353",
-          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/353.json",
-          "version": "7.2 snapshot d54f6f0"
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
         },
         {
-          "name": "GI-OnlineQuest English title and summary cross-reference",
-          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/353.json",
-          "version": null
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1101",
+          "version": "current index"
         }
       ],
       "translation_status": "draft",
-      "review_notes": "العنوان والملخص ترجمة عربية أولية؛ يلزم تدقيق تحريري قبل الاعتماد."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1102",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1102",
+      "source_name": "Farewell, Archaic Lord",
+      "arabic_name": "وداعاً أيها السيد العتيق",
+      "description_ar": null,
+      "chapter_id": "1102",
+      "act_id": "1102",
+      "series_id": null,
+      "region": "Liyue",
+      "sequence": 5,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1102",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1103",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1103",
+      "source_name": "A New Star Approaches",
+      "arabic_name": "نجم جديد يقترب",
+      "description_ar": null,
+      "chapter_id": "1103",
+      "act_id": "1103",
+      "series_id": null,
+      "region": "Liyue",
+      "sequence": 6,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1103",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1104",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1104",
+      "source_name": "We Will Be Reunited",
+      "arabic_name": "سنلتقي مجدداً",
+      "description_ar": null,
+      "chapter_id": "1104",
+      "act_id": "1104",
+      "series_id": null,
+      "region": "Traveler",
+      "sequence": 7,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1104",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1201",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1201",
+      "source_name": "Autumn Winds, Scarlet Leaves",
+      "arabic_name": "رياح الخريف وأوراق قرمزية",
+      "description_ar": null,
+      "chapter_id": "1201",
+      "act_id": "1201",
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": 8,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1201",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1202",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1202",
+      "source_name": "The Immovable God and the Eternal Euthymia",
+      "arabic_name": "الإله الذي لا يتزحزح والسكون الأبدي",
+      "description_ar": null,
+      "chapter_id": "1202",
+      "act_id": "1202",
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": 9,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1202",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1203",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1203",
+      "source_name": "Stillness, the Sublimation of Shadow",
+      "arabic_name": "السكون وارتقاء الظل",
+      "description_ar": null,
+      "chapter_id": "1203",
+      "act_id": "1203",
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": 10,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1203",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1204",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1204",
+      "source_name": "Omnipresence Over Mortals",
+      "arabic_name": "الحضور المطلق بين الفانين",
+      "description_ar": null,
+      "chapter_id": "1204",
+      "act_id": "1204",
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": 11,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1204",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1205",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1205",
+      "source_name": "The Crane Returns on the Wind",
+      "arabic_name": "عودة الكركي مع الريح",
+      "description_ar": null,
+      "chapter_id": "1205",
+      "act_id": "1205",
+      "series_id": null,
+      "region": "Interlude",
+      "sequence": 12,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1205",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1206",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1206",
+      "source_name": "Requiem of the Echoing Depths",
+      "arabic_name": "مرثية الأعماق الصادحة",
+      "description_ar": null,
+      "chapter_id": "1206",
+      "act_id": "1206",
+      "series_id": null,
+      "region": "Traveler",
+      "sequence": 13,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1206",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1207",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1207",
+      "source_name": "Perilous Trail",
+      "arabic_name": "درب محفوف بالمخاطر",
+      "description_ar": null,
+      "chapter_id": "1207",
+      "act_id": "1207",
+      "series_id": null,
+      "region": "Interlude",
+      "sequence": 14,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1207",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1004",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1004",
+      "source_name": "Paralogism",
+      "arabic_name": "مغالطة",
+      "description_ar": null,
+      "chapter_id": "1004",
+      "act_id": "1004",
+      "series_id": null,
+      "region": "Interlude",
+      "sequence": 15,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1004",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1301",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1301",
+      "source_name": "Through Mists of Smoke and Forests Dark",
+      "arabic_name": "عبر ضباب الدخان والغابات المعتمة",
+      "description_ar": null,
+      "chapter_id": "1301",
+      "act_id": "1301",
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": 16,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1301",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1302",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1302",
+      "source_name": "The Morn a Thousand Roses Brings",
+      "arabic_name": "صباحٌ يحمل ألف وردة",
+      "description_ar": null,
+      "chapter_id": "1302",
+      "act_id": "1302",
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": 17,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1302",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1303",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1303",
+      "source_name": "Dreams, Emptiness, Deception",
+      "arabic_name": "أحلام وفراغ وخداع",
+      "description_ar": null,
+      "chapter_id": "1303",
+      "act_id": "1303",
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": 18,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1303",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1304",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1304",
+      "source_name": "King Deshret and the Three Magi",
+      "arabic_name": "الملك دِشرت والسحرة الثلاثة",
+      "description_ar": null,
+      "chapter_id": "1304",
+      "act_id": "1304",
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": 19,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1304",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1305",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1305",
+      "source_name": "Akasha Pulses, the Kalpa Flame Rises",
+      "arabic_name": "نبضات الأكاشا واشتداد لهب الكالبا",
+      "description_ar": null,
+      "chapter_id": "1305",
+      "act_id": "1305",
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": 20,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1305",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1306",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1306",
+      "source_name": "The Morn a Thousand Roses Brings: Denouement",
+      "arabic_name": "صباحٌ يحمل ألف وردة: الخاتمة",
+      "description_ar": null,
+      "chapter_id": "1306",
+      "act_id": "1306",
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": 21,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1306",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1307",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1307",
+      "source_name": "Inversion of Genesis",
+      "arabic_name": "انقلاب التكوين",
+      "description_ar": null,
+      "chapter_id": "1307",
+      "act_id": "1307",
+      "series_id": null,
+      "region": "Interlude",
+      "sequence": 22,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1307",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1308",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1308",
+      "source_name": "Caribert",
+      "arabic_name": "كاريبرت",
+      "description_ar": null,
+      "chapter_id": "1308",
+      "act_id": "1308",
+      "series_id": null,
+      "region": "Traveler",
+      "sequence": 23,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1308",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1401",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1401",
+      "source_name": "Prelude of Blancheur and Noirceur",
+      "arabic_name": "مقدمة البياض والسواد",
+      "description_ar": null,
+      "chapter_id": "1401",
+      "act_id": "1401",
+      "series_id": null,
+      "region": "Fontaine",
+      "sequence": 24,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1401",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1402",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1402",
+      "source_name": "As Light Rain Falls Without Reason",
+      "arabic_name": "حين يهطل المطر الخفيف بلا سبب",
+      "description_ar": null,
+      "chapter_id": "1402",
+      "act_id": "1402",
+      "series_id": null,
+      "region": "Fontaine",
+      "sequence": 25,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1402",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1403",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1403",
+      "source_name": "To the Stars Shining in the Depths",
+      "arabic_name": "إلى النجوم المتلألئة في الأعماق",
+      "description_ar": null,
+      "chapter_id": "1403",
+      "act_id": "1403",
+      "series_id": null,
+      "region": "Fontaine",
+      "sequence": 26,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1403",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1404",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1404",
+      "source_name": "Cataclysm's Quickening",
+      "arabic_name": "اقتراب الكارثة",
+      "description_ar": null,
+      "chapter_id": "1404",
+      "act_id": "1404",
+      "series_id": null,
+      "region": "Fontaine",
+      "sequence": 27,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1404",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1405",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1405",
+      "source_name": "Masquerade of the Guilty",
+      "arabic_name": "تنكّر المذنبين",
+      "description_ar": null,
+      "chapter_id": "1405",
+      "act_id": "1405",
+      "series_id": null,
+      "region": "Fontaine",
+      "sequence": 28,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1405",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1406",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1406",
+      "source_name": "Bedtime Story",
+      "arabic_name": "حكاية ما قبل النوم",
+      "description_ar": null,
+      "chapter_id": "1406",
+      "act_id": "1406",
+      "series_id": null,
+      "region": "Traveler",
+      "sequence": 29,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1406",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1500",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1500",
+      "source_name": "Flowers Resplendent on the Sun-Scorched Sojourn",
+      "arabic_name": "أزهار متألقة في رحلة أحرقتها الشمس",
+      "description_ar": null,
+      "chapter_id": "1500",
+      "act_id": "1500",
+      "series_id": null,
+      "region": "Natlan",
+      "sequence": 30,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1500",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1501",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1501",
+      "source_name": "Black Stone Under a White Stone",
+      "arabic_name": "حجر أسود تحت حجر أبيض",
+      "description_ar": null,
+      "chapter_id": "1501",
+      "act_id": "1501",
+      "series_id": null,
+      "region": "Natlan",
+      "sequence": 31,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1501",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1502",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1502",
+      "source_name": "Beyond the Smoke and Mirrors",
+      "arabic_name": "ما وراء الدخان والمرايا",
+      "description_ar": null,
+      "chapter_id": "1502",
+      "act_id": "1502",
+      "series_id": null,
+      "region": "Natlan",
+      "sequence": 32,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1502",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1503",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1503",
+      "source_name": "The Rainbow Destined to Burn",
+      "arabic_name": "قوس قزح مقدّر له أن يحترق",
+      "description_ar": null,
+      "chapter_id": "1503",
+      "act_id": "1503",
+      "series_id": null,
+      "region": "Natlan",
+      "sequence": 33,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1503",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1504",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1504",
+      "source_name": "Incandescent Ode of Resurrection",
+      "arabic_name": "أنشودة القيامة المتوهجة",
+      "description_ar": null,
+      "chapter_id": "1504",
+      "act_id": "1504",
+      "series_id": null,
+      "region": "Natlan",
+      "sequence": 34,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1504",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1505",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1505",
+      "source_name": "All Fires Fuel the Flame",
+      "arabic_name": "كل النيران تغذّي اللهب",
+      "description_ar": null,
+      "chapter_id": "1505",
+      "act_id": "1505",
+      "series_id": null,
+      "region": "Natlan",
+      "sequence": 35,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1505",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1506",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1506",
+      "source_name": "A Space and Time for You",
+      "arabic_name": "حيّز من المكان والزمان من أجلك",
+      "description_ar": null,
+      "chapter_id": "1506",
+      "act_id": "1506",
+      "series_id": null,
+      "region": "Traveler",
+      "sequence": 36,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1506",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1600",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1600",
+      "source_name": "A Dance of Snowy Tides and Hoarfrost Groves",
+      "arabic_name": "رقصة المدود الثلجية وغابات الصقيع",
+      "description_ar": null,
+      "chapter_id": "1600",
+      "act_id": "1600",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 37,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1600",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1601",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1601",
+      "source_name": "Elegy of Dust and Lamplight",
+      "arabic_name": "مرثية الغبار وضوء المصابيح",
+      "description_ar": null,
+      "chapter_id": "1601",
+      "act_id": "1601",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 38,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1601",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1602",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1602",
+      "source_name": "The Journey Home",
+      "arabic_name": "رحلة العودة إلى الوطن",
+      "description_ar": null,
+      "chapter_id": "1602",
+      "act_id": "1602",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 39,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1602",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1603",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1603",
+      "source_name": "A Nation That Doesn't Exist",
+      "arabic_name": "أمة غير موجودة",
+      "description_ar": null,
+      "chapter_id": "1603",
+      "act_id": "1603",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 40,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1603",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1604",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1604",
+      "source_name": "An Elegy for Faded Moonlight",
+      "arabic_name": "مرثية لضوء القمر الخافت",
+      "description_ar": null,
+      "chapter_id": "1604",
+      "act_id": "1604",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 41,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1604",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1605",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1605",
+      "source_name": "A Nocturne of the Far North",
+      "arabic_name": "نوكتورن أقصى الشمال",
+      "description_ar": null,
+      "chapter_id": "1605",
+      "act_id": "1605",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 42,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1605",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1606",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1606",
+      "source_name": "Melting Moonlight in the Morning Mist",
+      "arabic_name": "ذوبان ضوء القمر في ضباب الصباح",
+      "description_ar": null,
+      "chapter_id": "1606",
+      "act_id": "1606",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 43,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1606",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1607",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1607",
+      "source_name": "A Traveler on a Winter's Night",
+      "arabic_name": "مسافر في ليلة شتوية",
+      "description_ar": null,
+      "chapter_id": "1607",
+      "act_id": "1607",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 44,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1607",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1608",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1608",
+      "source_name": "True Moon",
+      "arabic_name": "القمر الحقيقي",
+      "description_ar": null,
+      "chapter_id": "1608",
+      "act_id": "1608",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 45,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1608",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1609",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1609",
+      "source_name": "As All Falls to Emptiness",
+      "arabic_name": "حين ينحدر كل شيء إلى العدم",
+      "description_ar": null,
+      "chapter_id": "1609",
+      "act_id": "1609",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 46,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1609",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1611",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1611",
+      "source_name": "Of Myriad Paths, Flux, and Dissolution",
+      "arabic_name": "مسارات لا حصر لها وتحول واضمحلال",
+      "description_ar": null,
+      "chapter_id": "1611",
+      "act_id": "1611",
+      "series_id": null,
+      "region": "Nod-Krai",
+      "sequence": 47,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1611",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1700",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1700",
+      "source_name": "Everwinter Without Mercy",
+      "arabic_name": "شتاء أبدي بلا رحمة",
+      "description_ar": null,
+      "chapter_id": "1700",
+      "act_id": "1700",
+      "series_id": null,
+      "region": "Snezhnaya",
+      "sequence": 48,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1700",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1701",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1701",
+      "source_name": "Wraith's Nocturne",
+      "arabic_name": "نوكتورن الشبح",
+      "description_ar": null,
+      "chapter_id": "1701",
+      "act_id": "1701",
+      "series_id": null,
+      "region": "Snezhnaya",
+      "sequence": 49,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1701",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1702",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1702",
+      "source_name": "White Night, Like a Dream Upon Waking",
+      "arabic_name": "ليلة بيضاء كحلم عند الاستيقاظ",
+      "description_ar": null,
+      "chapter_id": "1702",
+      "act_id": "1702",
+      "series_id": null,
+      "region": "Snezhnaya",
+      "sequence": 50,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1702",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+    },
+    {
+      "id": "quest.archon.act.1703",
+      "category": "quest",
+      "quest_type": "archon",
+      "node_type": "act",
+      "source_quest_id": "1703",
+      "source_name": "A Rekviem for the Underworld",
+      "arabic_name": "قداس للعالم السفلي",
+      "description_ar": null,
+      "chapter_id": "1703",
+      "act_id": "1703",
+      "series_id": null,
+      "region": "Snezhnaya",
+      "sequence": 51,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot — ChapterExcelConfigData",
+          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "Ghost — Genshin Impact Story Chapters (English index)",
+          "url": "https://ghost.mwb.moe/en/genshin/chapter/1703",
+          "version": "current index"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
     }
   ]
 }
