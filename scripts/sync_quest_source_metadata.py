@@ -107,6 +107,19 @@ def quest_type(row: dict) -> str | None:
     return None
 
 
+def classify_unresolved_title(chs_title: str | None, title_hash: int | None) -> str:
+    """Separate internal/unreleased placeholders from genuinely unresolved titles."""
+    title = chs_title.strip() if isinstance(chs_title, str) else ""
+    folded = title.casefold()
+    if "$unreleased" in folded:
+        return "unreleased_or_internal"
+    if "test" in folded or "测试" in title or "測試" in title:
+        return "internal_test"
+    if not title and (not isinstance(title_hash, int) or title_hash <= 0):
+        return "no_source_title"
+    return "missing_english_title"
+
+
 def fetch_quest(quest_id: str) -> dict | None:
     payload = fetch_json(f"{GI_BASE}/EN/quests/{quest_id}.json")
     if not isinstance(payload, dict) or str(payload.get("mainQuestId")) != quest_id:
@@ -131,7 +144,15 @@ def fetch_quest(quest_id: str) -> dict | None:
     if show_type != "QUEST_SHOW" or repeatable is True:
         return {"_skip_reason": "hidden_or_repeatable", "type": actual_type}
     if not isinstance(title, str) or not title.strip():
-        return {"_skip_reason": "missing_english_title", "type": actual_type}
+        try:
+            chs_payload = fetch_json(f"{GI_BASE}/CHS/quests/{quest_id}.json")
+            chs_title = chs_payload.get("title") if isinstance(chs_payload, dict) else None
+        except urllib.error.HTTPError as exc:
+            if exc.code != 404:
+                raise
+            chs_title = None
+        reason = classify_unresolved_title(chs_title, title_hash)
+        return {"_skip_reason": reason, "type": actual_type}
     if not isinstance(title_hash, int):
         raise ValueError(f"Quest {quest_id}: title text-map hash missing")
     if desc_hash is not None and not isinstance(desc_hash, int):
@@ -278,7 +299,11 @@ def main() -> int:
     skipped_non_target = 0
     skipped_hidden_or_repeatable = 0
     skipped_unresolved_title = 0
+    skipped_internal_or_unreleased = 0
+    skipped_no_source_title = 0
     unresolved_title_ids = []
+    excluded_internal_ids = []
+    excluded_no_source_title_ids = []
     candidate_type_counts = {"AQ": 0, "WQ": 0}
     errors = []
     with ThreadPoolExecutor(max_workers=24) as pool:
@@ -297,6 +322,12 @@ def main() -> int:
                         candidate_type_counts[result["type"]] += 1
                     if result.get("_skip_reason") == "hidden_or_repeatable":
                         skipped_hidden_or_repeatable += 1
+                    elif result.get("_skip_reason") in ("unreleased_or_internal", "internal_test"):
+                        skipped_internal_or_unreleased += 1
+                        excluded_internal_ids.append(quest_id)
+                    elif result.get("_skip_reason") == "no_source_title":
+                        skipped_no_source_title += 1
+                        excluded_no_source_title_ids.append(quest_id)
                     elif result.get("_skip_reason") == "missing_english_title":
                         skipped_unresolved_title += 1
                         unresolved_title_ids.append(quest_id)
@@ -580,6 +611,10 @@ def main() -> int:
         "skipped_non_target": skipped_non_target,
         "skipped_hidden_or_repeatable": skipped_hidden_or_repeatable,
         "held_back_unresolved_title_count": skipped_unresolved_title,
+        "excluded_internal_or_unreleased_count": skipped_internal_or_unreleased,
+        "excluded_internal_or_unreleased_source_ids": sorted(excluded_internal_ids),
+        "excluded_no_source_title_count": skipped_no_source_title,
+        "excluded_no_source_title_source_ids": sorted(excluded_no_source_title_ids),
         "arabic_title_coverage": arabic_title_coverage,
         "cycle_prerequisite_edges_dropped": cycle_edges_dropped,
         "catalog_counts": counts,
@@ -596,11 +631,15 @@ def main() -> int:
         f"{len(fetched)} player-facing AQ/WQ quests, "
         f"{skipped_non_target} non-AQ/WQ records skipped, "
         f"{skipped_hidden_or_repeatable} hidden/repeatable AQ/WQ records skipped, "
-        f"{skipped_unresolved_title} AQ/WQ records held back for unresolved English titles."
+        f"{skipped_unresolved_title} AQ/WQ records held back for unresolved English titles, "
+        f"{skipped_internal_or_unreleased} internal/unreleased placeholders excluded, "
+        f"{skipped_no_source_title} records excluded because the source has no title hash."
     )
     print(f"Player-facing candidates: AQ={candidate_type_counts['AQ']}, WQ={candidate_type_counts['WQ']}")
     print(f"Imported displayable types: AQ={fetched_counts['AQ']}, WQ={fetched_counts['WQ']}")
     print(f"Unresolved-title IDs held back: {len(unresolved_title_ids)}")
+    print(f"Internal/unreleased IDs excluded: {len(excluded_internal_ids)}")
+    print(f"No-source-title IDs excluded: {len(excluded_no_source_title_ids)}")
     print(
         "Arabic draft titles applied: "
         f"AQ={applied_translations['archon']}, "
