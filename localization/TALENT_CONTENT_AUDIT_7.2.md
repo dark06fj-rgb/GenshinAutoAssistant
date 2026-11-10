@@ -66,10 +66,11 @@ specific combat details.
 
 ## Validation status
 
-The repository's GitHub Actions workflow has previously completed successfully
-with 21 regression tests and a pass over 828 records. This audit adds a new
-regression case for stale review notes; its result must be confirmed by the
-new workflow run after these commits.
+The repository's GitHub Actions run #18 completed successfully on commit
+`6304cd2b933a8b614ca4e504c813a46b141d5b96`: all 22 regression tests passed,
+then the validator checked all 7 Arabic JSON catalogs and 828 records with
+no errors. The added stale-review-note regression case passed as part of that
+run. See [the run log](https://github.com/dark06fj-rgb/GenshinAutoAssistant/actions/runs/42864206952).
 
 ## Editorial policy
 
