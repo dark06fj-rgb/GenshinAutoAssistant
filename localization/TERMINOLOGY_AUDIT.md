@@ -75,7 +75,7 @@ This table is the pre-normalization snapshot. The records were subsequently chec
 
 ## Structural checks
 
-The automated validator reports no structural or cross-reference errors in the current catalogs. The GitHub Actions validator run checked 7 Arabic JSON catalogs and 828 records. Its regression suite ran 19 tests successfully.
+The automated validator reports no structural or cross-reference errors in the current catalogs. On commit `53446fda1eb7c4730693b682904acf1ab20be0cd`, GitHub Actions checked 7 Arabic JSON catalogs and 828 records; the validator test suite ran 21 tests successfully.
 
 - No duplicate IDs were found within any catalog file.
 - No missing Arabic name/translation fields were found in the checked catalogs.
