@@ -1079,6 +1079,240 @@
       ],
       "translation_status": "draft",
       "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.10000092",
+      "category": "character",
+      "source_name": "Gaming",
+      "arabic_name": "غامِنغ",
+      "element": "Pyro",
+      "weapon_type": "Claymore",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000055",
+      "category": "character",
+      "source_name": "Gorou",
+      "arabic_name": "غورو",
+      "element": "Geo",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000059",
+      "category": "character",
+      "source_name": "Shikanoin Heizou",
+      "arabic_name": "شيكانوين هيزو",
+      "element": "Anemo",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000110",
+      "category": "character",
+      "source_name": "Iansan",
+      "arabic_name": "إيانسان",
+      "element": "Electro",
+      "weapon_type": "Polearm",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000113",
+      "category": "character",
+      "source_name": "Ifa",
+      "arabic_name": "إيفا",
+      "element": "Anemo",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000127",
+      "category": "character",
+      "source_name": "Illuga",
+      "arabic_name": "إيلوغا",
+      "element": "Geo",
+      "weapon_type": "Polearm",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000116",
+      "category": "character",
+      "source_name": "Ineffa",
+      "arabic_name": "إينيفا",
+      "element": "Electro",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000124",
+      "category": "character",
+      "source_name": "Jahoda",
+      "arabic_name": "جاهودا",
+      "element": "Anemo",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000100",
+      "category": "character",
+      "source_name": "Kachina",
+      "arabic_name": "كاتشينا",
+      "element": "Geo",
+      "weapon_type": "Polearm",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000081",
+      "category": "character",
+      "source_name": "Kaveh",
+      "arabic_name": "كافيه",
+      "element": "Dendro",
+      "weapon_type": "Claymore",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000061",
+      "category": "character",
+      "source_name": "Kirara",
+      "arabic_name": "كيرارا",
+      "element": "Dendro",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000065",
+      "category": "character",
+      "source_name": "Kuki Shinobu",
+      "arabic_name": "كوكي شينوبو",
+      "element": "Electro",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000056",
+      "category": "character",
+      "source_name": "Kujou Sara",
+      "arabic_name": "كوجو سارا",
+      "element": "Electro",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
     }
   ]
 }
