@@ -1092,9 +1092,91 @@ jobs:
                   stopProjectionForegroundService();
               }
               @Override protected void onDestroy(){if(mediaProjection!=null){try{mediaProjection.stop();}catch(Exception ignored){}}releaseCapture();super.onDestroy();}
+              JSONArray readQuestCatalog(String filename) {
+                  try {
+                      InputStream input=getAssets().open("localization/ar/"+filename);
+                      ByteArrayOutputStream output=new ByteArrayOutputStream();
+                      byte[] buffer=new byte[8192]; int count;
+                      while((count=input.read(buffer))!=-1) output.write(buffer,0,count);
+                      input.close();
+                      JSONObject catalog=new JSONObject(output.toString("UTF-8"));
+                      JSONArray entries=catalog.optJSONArray("entries");
+                      return entries==null?new JSONArray():entries;
+                  } catch(Exception e) {
+                      android.util.Log.e("GenshinAssistant","Unable to read quest catalog "+filename,e);
+                      return new JSONArray();
+                  }
+              }
+              String questDisplayName(JSONObject entry) {
+                  String arabic=entry.optString("arabic_name","").trim();
+                  String source=entry.optString("source_name","").trim();
+                  if(arabic.isEmpty()) return source.isEmpty()?entry.optString("id","مهمة بلا اسم"):source;
+                  return source.isEmpty()?arabic:arabic+"  ·  "+source;
+              }
+              void showQuestCatalog(boolean world) {
+                  content.removeAllViews();
+                  Button back=new Button(this); back.setText("رجوع إلى المهام");
+                  back.setOnClickListener(v->showTasks()); content.addView(back);
+                  heading(world?"مهام العالم":"القصة الرئيسية");
+                  JSONArray entries=readQuestCatalog(world?"quests_world.json":"quests_archon.json");
+                  line("عدد السجلات في الفهرس: "+entries.length()+" — علّم ما أنجزته، وسيُحفظ تقدمك على الجهاز.");
+                  EditText search=new EditText(this); search.setSingleLine(true); search.setTextSize(15);
+                  search.setHint("ابحث بالعربية أو الإنجليزية..."); content.addView(search);
+                  TextView summary=new TextView(this); summary.setTextSize(13);
+                  summary.setTextColor(Color.rgb(65,48,91)); content.addView(summary);
+                  LinearLayout list=new LinearLayout(this); list.setOrientation(LinearLayout.VERTICAL); content.addView(list);
+                  Runnable refresh=()->{
+                      list.removeAllViews();
+                      String query=search.getText().toString().toLowerCase(Locale.ROOT).trim();
+                      int shown=0,completed=0;
+                      for(int i=0;i<entries.length();i++) {
+                          JSONObject entry=entries.optJSONObject(i); if(entry==null) continue;
+                          String node=entry.optString("node_type","");
+                          if(!world && "act".equalsIgnoreCase(node)) {
+                              if(query.isEmpty()) {
+                                  TextView chapter=new TextView(this);
+                                  chapter.setText("◆ "+questDisplayName(entry));
+                                  chapter.setTextSize(16); chapter.setTypeface(null,Typeface.BOLD);
+                                  chapter.setTextColor(Color.rgb(65,48,91));
+                                  chapter.setPadding(dp(5),dp(13),dp(5),dp(7)); list.addView(chapter);
+                              }
+                              continue;
+                          }
+                          String title=questDisplayName(entry);
+                          String source=entry.optString("source_name","").toLowerCase(Locale.ROOT);
+                          String arabic=entry.optString("arabic_name","").toLowerCase(Locale.ROOT);
+                          if(!query.isEmpty() && !source.contains(query) && !arabic.contains(query) && !title.toLowerCase(Locale.ROOT).contains(query)) continue;
+                          String id=entry.optString("id","quest_"+i);
+                          String prefKey="quest_done_"+id;
+                          boolean done=prefs.getBoolean(prefKey,false);
+                          if(done) completed++;
+                          CheckBox item=new CheckBox(this);
+                          item.setText(title); item.setTextSize(14); item.setPadding(dp(4),dp(5),dp(4),dp(5));
+                          item.setChecked(done);
+                          item.setOnCheckedChangeListener((button,checked)->prefs.edit().putBoolean(prefKey,checked).apply());
+                          list.addView(item); shown++;
+                      }
+                      summary.setText("المعروض: "+shown+" | المكتمل ضمن النتائج: "+completed);
+                      if(shown==0) {
+                          TextView empty=new TextView(this); empty.setText("لا توجد نتائج مطابقة. جرّب كلمة بحث أخرى.");
+                          empty.setPadding(dp(8),dp(12),dp(8),dp(12)); list.addView(empty);
+                      }
+                  };
+                  search.addTextChangedListener(new TextWatcher(){
+                      public void beforeTextChanged(CharSequence s,int start,int count,int after){}
+                      public void onTextChanged(CharSequence s,int start,int before,int count){refresh.run();}
+                      public void afterTextChanged(Editable e){}
+                  });
+                  refresh.run();
+              }
               void showTasks() {
-                  content.removeAllViews();heading("المهام العامة");
-                  line("مهام يمكنك التأشير عليها بعد إنجازها.");
+                  content.removeAllViews();heading("المهام والتقدم");
+                  line("تتضمن القصة الرئيسية ومهام العالم، إضافة إلى قائمة المهام اليومية.");
+                  Button archon=new Button(this); archon.setText("القصة الرئيسية — مهام Archon");
+                  archon.setOnClickListener(v->showQuestCatalog(false)); content.addView(archon);
+                  Button world=new Button(this); world.setText("مهام العالم — World Quests");
+                  world.setOnClickListener(v->showQuestCatalog(true)); content.addView(world);
+                  heading("المهام اليومية والأسبوعية");
                   check("daily_commissions","إنجاز المهام اليومية");check("daily_resin","استخدام الراتنج الأصلي");
                   check("weekly_boss","إنجاز زعماء الأسبوع");check("domains","إنجاز الزنزانات");
                   check("exploration","استكشاف المناطق");check("waypoints","فتح نقاط الانتقال");
