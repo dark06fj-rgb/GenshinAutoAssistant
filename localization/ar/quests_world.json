@@ -4085,7 +4085,7 @@
       "source_quest_id": "10003",
       "source_name": "Alan Smithee, Author of Fischl",
       "arabic_name": "آلان سميثي، مؤلف فيشل",
-      "description_ar": null,
+      "description_ar": "تمرّ بنقابة المغامرين للاستفسار عن التكليفات الجديدة، لكن زيارتك تنتهي بمفاجأة لم تكن تتوقعها.",
       "chapter_id": "2076",
       "act_id": null,
       "series_id": null,
@@ -4102,7 +4102,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1396513831,
         "description": 1987777366
@@ -4128,7 +4128,7 @@
       "source_quest_id": "10004",
       "source_name": "A Dry Well Doth Not Reflect the Stars",
       "arabic_name": "البئر الجاف لا يعكس النجوم",
-      "description_ar": null,
+      "description_ar": "تقودك إشارات قاموس الساحرة أنت وبايمون إلى تسليم التكليف لمونا، غير أن المهمة لا تسير بالبساطة التي تخيلتماها.",
       "chapter_id": "2077",
       "act_id": null,
       "series_id": null,
@@ -4145,7 +4145,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3080970415,
         "description": 1344725206
@@ -4169,7 +4169,7 @@
       "source_quest_id": "10005",
       "source_name": "Old Friends and New Knowledge",
       "arabic_name": "أصدقاء قدامى ومعرفة جديدة",
-      "description_ar": null,
+      "description_ar": "تتبع إرشادات قاموس الساحرة إلى جبل دراغونسباين لإيصال تكليف جديد إلى ألبيدو.",
       "chapter_id": "2078",
       "act_id": null,
       "series_id": null,
@@ -4186,7 +4186,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1638154655,
         "description": 1986044670
@@ -4212,7 +4212,7 @@
       "source_quest_id": "10006",
       "source_name": "A Child Wandering the World",
       "arabic_name": "طفل يجوب العالم",
-      "description_ar": null,
+      "description_ar": "تعثر في قاموس الساحرة على رسالة غير مألوفة، ويقع على عاتقك إيصالها إلى دورين.",
       "chapter_id": "2079",
       "act_id": null,
       "series_id": null,
@@ -4229,7 +4229,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3072234591,
         "description": 4283183382
@@ -4253,7 +4253,7 @@
       "source_quest_id": "10007",
       "source_name": "Tales of Time and Wind",
       "arabic_name": "حكايات الزمن والرياح",
-      "description_ar": null,
+      "description_ar": "رغم أن القاموس لا يحدد مهمة واضحة تخص فنتي، فإنك تتبع إرشاداته وتبحث عنه في أرجاء موندشتات.",
       "chapter_id": "2080",
       "act_id": null,
       "series_id": null,
@@ -4270,7 +4270,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 69265703,
         "description": 3525276878
@@ -4294,7 +4294,7 @@
       "source_quest_id": "10008",
       "source_name": "With Lupical...",
       "arabic_name": "مع لوبِيكال...",
-      "description_ar": null,
+      "description_ar": "يشير قاموس الساحرة إلى تكليف في وولفندوم؛ فتتوجه إلى هناك لمعرفة ما ينتظرك.",
       "chapter_id": "2081",
       "act_id": null,
       "series_id": null,
@@ -4311,7 +4311,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 73634879,
         "description": 2969261846
@@ -4335,7 +4335,7 @@
       "source_quest_id": "10009",
       "source_name": "The Law of Boundaries",
       "arabic_name": "قانون الحدود",
-      "description_ar": null,
+      "description_ar": "تعمل السكروز على إعداد جرعة كيميائية جديدة، لكن محاولاتها المتكررة لتعديل تركيبتها لا تعطي النتيجة المطلوبة.",
       "chapter_id": "2082",
       "act_id": null,
       "series_id": "10009",
@@ -4352,7 +4352,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 20593703,
         "description": 2253204310
@@ -4377,7 +4377,7 @@
       "source_quest_id": "10010",
       "source_name": "The Great Mage's Journey of Trials",
       "arabic_name": "رحلة الساحر العظيم عبر المحن",
-      "description_ar": null,
+      "description_ar": "يتضمن قاموس الساحرة تكليفاً تركته أليس لكلي، فتتوجه إلى مقر فرسان فافونيوس للاستفسار منها.",
       "chapter_id": "2083",
       "act_id": null,
       "series_id": null,
@@ -4394,7 +4394,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3005284031,
         "description": 1294841342
@@ -4418,7 +4418,7 @@
       "source_quest_id": "11008",
       "source_name": "A Teapot to Call Home: Part I",
       "arabic_name": "إبريق شاي يُتخذ وطناً: الجزء الأول",
-      "description_ar": null,
+      "description_ar": "بعد انحسار الأزمة عن ميناء ليوي وعودة الحياة إلى طبيعتها، يبدو أن السيدة بينغ لديها أمر جديد تريد مناقشته معك.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -4435,7 +4435,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 3548989711,
         "description": 299730286
@@ -4463,7 +4463,7 @@
       "source_quest_id": "13028",
       "source_name": "Another Home There May Yet Be",
       "arabic_name": "ربما يوجد موطن آخر",
-      "description_ar": null,
+      "description_ar": "ما زالت الكائنات العنصرية تحتفظ بروابطها العائلية؛ ولكي تجتمع مجدداً يوماً ما، عليك التعامل مع الفراق الذي يحدث الآن.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -4480,7 +4480,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2473401415,
         "description": 3928170766
@@ -4504,7 +4504,7 @@
       "source_quest_id": "18000",
       "source_name": "Bough Keeper: Dainsleif",
       "arabic_name": "حارس الغصن: داينسليف",
-      "description_ar": null,
+      "description_ar": "تبدو كاثرين، من نقابة المغامرين في موندشتات، راغبة في إخبارك بأمر ما.",
       "chapter_id": "1105",
       "act_id": null,
       "series_id": null,
@@ -4521,7 +4521,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1883243111,
         "description": 799530718
@@ -4550,7 +4550,7 @@
       "source_quest_id": "20030",
       "source_name": "Welcome to the Adventurers' Guild",
       "arabic_name": "مرحباً بك في نقابة المغامرين",
-      "description_ar": null,
+      "description_ar": "تبعث إليك كاثرين من نقابة المغامرين دعوة للانضمام إليها.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -4567,7 +4567,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 602385569,
         "description": 482155751
@@ -4593,7 +4593,7 @@
       "source_quest_id": "20031",
       "source_name": "Every Day a New Adventure",
       "arabic_name": "كل يوم مغامرة جديدة",
-      "description_ar": null,
+      "description_ar": "لدى كاثرين من نقابة المغامرين تكليف جديد تعرضه عليك كجزء من مغامراتك اليومية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -4610,7 +4610,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2502719273,
         "description": 3982594271
