@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "catalog_type": "materials",
+  "game_version": null,
+  "entries": [
+    {
+      "id": "material.mora",
+      "category": "material",
+      "source_name": "Mora",
+      "arabic_name": "مورا",
+      "element": "Currency",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "material.primogem",
+      "category": "material",
+      "source_name": "Primogem",
+      "arabic_name": "الجوهرة الأولية",
+      "element": "Currency",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "material.original_resin",
+      "category": "material",
+      "source_name": "Original Resin",
+      "arabic_name": "الريزن الأصلي",
+      "element": "Currency",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "material.intertwined_fate",
+      "category": "material",
+      "source_name": "Intertwined Fate",
+      "arabic_name": "القدر المتشابك",
+      "element": "Wish Item",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "material.acquaint_fate",
+      "category": "material",
+      "source_name": "Acquaint Fate",
+      "arabic_name": "القدر المألوف",
+      "element": "Wish Item",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    }
+  ]
+}
