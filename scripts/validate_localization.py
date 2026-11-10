@@ -308,6 +308,8 @@ class Validator:
         found_slots: dict[str, set[str]] = {
             character_id: set() for character_id in character_ids
         }
+        prefix_owner: dict[str, str] = {}
+        prefix_by_character: dict[str, str] = {}
 
         for index, talent in enumerate(talents):
             if not isinstance(talent, dict):
@@ -321,12 +323,11 @@ class Validator:
                 and talent_id.startswith("character.aether.talent.")
             ):
                 continue
-
             if character_id not in character_ids:
                 continue
 
-            talent_type = talent.get("talent_type")
             label = f"talents.json: entry {index + 1} ({talent_id})"
+            talent_type = talent.get("talent_type")
             if talent_type not in expected_types:
                 self.error(
                     f"{label} has unsupported regular-character talent_type "
@@ -334,12 +335,37 @@ class Validator:
                 )
                 continue
 
-            expected_id = f"{character_id}.talent.{talent_type}"
-            if talent_id != expected_id:
+            # Character catalog IDs are upstream numeric IDs (e.g. character.10000083),
+            # while talent IDs use stable name slugs (e.g. character.lynette.talent.skill).
+            # Validate the talent slug independently and enforce one-to-one consistency.
+            match = re.fullmatch(
+                r"(character\.[a-z0-9][a-z0-9._-]*)\.talent\.(normal|skill|burst)",
+                talent_id if isinstance(talent_id, str) else "",
+            )
+            if not match or match.group(2) != talent_type:
                 self.error(
-                    f"{label} ID does not match character/talent slot; "
-                    f"expected {expected_id!r}"
+                    f"{label} ID does not match a supported character/talent slot "
+                    f"for {talent_type!r}"
                 )
+            else:
+                talent_prefix = match.group(1)
+                previous_owner = prefix_owner.get(talent_prefix)
+                if previous_owner is not None and previous_owner != character_id:
+                    self.error(
+                        f"{label} talent ID prefix {talent_prefix!r} is already "
+                        f"assigned to {previous_owner}, not {character_id}"
+                    )
+                else:
+                    prefix_owner[talent_prefix] = character_id
+
+                previous_prefix = prefix_by_character.get(character_id)
+                if previous_prefix is not None and previous_prefix != talent_prefix:
+                    self.error(
+                        f"{label} uses inconsistent talent ID prefix for {character_id}; "
+                        f"expected {previous_prefix!r}"
+                    )
+                else:
+                    prefix_by_character[character_id] = talent_prefix
 
             slots = found_slots[character_id]
             if talent_type in slots:
