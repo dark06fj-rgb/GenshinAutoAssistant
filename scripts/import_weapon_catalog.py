@@ -51,6 +51,8 @@ def records_from(payload):
     if isinstance(payload, list):
         return payload
     if isinstance(payload, dict):
+        if "name" in payload or "Name" in payload:
+            return [payload]
         for key in ("data", "results", "result", "weapons"):
             value = payload.get(key)
             if isinstance(value, list):
@@ -126,7 +128,7 @@ def main():
         "records_skipped": len(skipped),
         "note": "Names and compact metadata only; long descriptions are not copied.",
     }
-    CATALOG.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    CATALOG.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Imported {len(merged)} weapon records; skipped {len(skipped)}.")
     if skipped:
         print("Skipped records:", ", ".join(skipped[:20]))
