@@ -935,6 +935,150 @@
       ],
       "translation_status": "draft",
       "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.mitya",
+      "category": "character",
+      "source_name": "Mitya",
+      "arabic_name": "ميتيا",
+      "element": "Electro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/mitya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.valeriy",
+      "category": "character",
+      "source_name": "Valeriy",
+      "arabic_name": "فاليري",
+      "element": "Electro",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/valeriy.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.eula",
+      "category": "character",
+      "source_name": "Eula",
+      "arabic_name": "يولا",
+      "element": "Cryo",
+      "weapon_type": "Claymore",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/eula.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.emilie",
+      "category": "character",
+      "source_name": "Emilie",
+      "arabic_name": "إيميلي",
+      "element": "Dendro",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/emilie.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.escoffier",
+      "category": "character",
+      "source_name": "Escoffier",
+      "arabic_name": "إسكوفير",
+      "element": "Cryo",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/escoffier.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.faruzan",
+      "category": "character",
+      "source_name": "Faruzan",
+      "arabic_name": "فاروزان",
+      "element": "Anemo",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/faruzan.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.fischl",
+      "category": "character",
+      "source_name": "Fischl",
+      "arabic_name": "فيشل",
+      "element": "Electro",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/fischl.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.freminet",
+      "category": "character",
+      "source_name": "Freminet",
+      "arabic_name": "فريمينيه",
+      "element": "Cryo",
+      "weapon_type": "Claymore",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/freminet.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "بيانات العنصر ونوع السلاح والندرة من سجل الشخصية في genshin-db؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
     }
   ]
 }
