@@ -40,7 +40,8 @@ NONCANONICAL_TALENT_TERMS = {
 }
 EXPECTED_CATALOGS = {
     "characters.json", "talents.json", "weapons.json",
-    "materials.json", "resources.json", "artifacts.json", "glossary.json",
+    "materials.json", "resources.json", "artifacts.json",
+    "quests_archon.json", "quests_world.json", "glossary.json",
 }
 
 
