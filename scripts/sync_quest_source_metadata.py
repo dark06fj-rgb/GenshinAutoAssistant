@@ -135,7 +135,9 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
     if show_type != "QUEST_SHOW" or repeatable is True:
         return None
     if not isinstance(title, str) or not title.strip():
-        raise ValueError(f"Quest {quest_id}: player-facing quest has no English title")
+        # Keep the record out of the public catalog until its text-map hash
+        # can be resolved through a bounded lookup source.
+        return {"_skip_reason": "missing_english_title"}
     if not isinstance(title_hash, int):
         raise ValueError(f"Quest {quest_id}: title text-map hash missing")
     if desc_hash is not None and not isinstance(desc_hash, int):
@@ -291,6 +293,7 @@ def main() -> int:
 
     fetched = {}
     skipped_hidden_or_repeatable = 0
+    skipped_unresolved_title = 0
     errors = []
     with ThreadPoolExecutor(max_workers=24) as pool:
         futures = {
@@ -303,6 +306,8 @@ def main() -> int:
                 result = future.result()
                 if result is None:
                     skipped_hidden_or_repeatable += 1
+                elif result.get("_skip_reason") == "missing_english_title":
+                    skipped_unresolved_title += 1
                 else:
                     fetched[quest_id] = result
             except Exception as exc:
@@ -461,7 +466,8 @@ def main() -> int:
         f"Source roster: {len(main_rows)} MainQuest rows, "
         f"{len(available_ids)} English quest files, {len(selected)} AQ/WQ candidates, "
         f"{len(fetched)} player-facing AQ/WQ quests, "
-        f"{skipped_hidden_or_repeatable} hidden/repeatable records skipped."
+        f"{skipped_hidden_or_repeatable} hidden/repeatable records skipped, "
+        f"{skipped_unresolved_title} records held back because their English title is unresolved."
     )
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
