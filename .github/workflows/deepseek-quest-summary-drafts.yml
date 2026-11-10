@@ -14,7 +14,6 @@ concurrency:
 
 jobs:
   translate:
-    if: github.ref == 'refs/heads/gemini-arabic-work' || github.event_name == 'schedule'
     runs-on: ubuntu-latest
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
