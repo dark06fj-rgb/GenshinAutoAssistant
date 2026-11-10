@@ -14,7 +14,7 @@ permissions:
 jobs:
   train:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -53,6 +53,8 @@ jobs:
             runs/detect/genshin_resources/PR_curve.png
             runs/detect/genshin_resources/F1_curve.png
             runs/detect/genshin_resources/class_counts.txt
+            runs/detect/genshin_resources/dataset_quality_report.txt
+            runs/detect/genshin_resources/quality_gate.txt
             runs/detect/genshin_resources/DATASET_ATTRIBUTION.txt
             runs/detect/genshin_resources/test_metrics.txt
             runs/detect/genshin_resources/onnx_export_status.txt
