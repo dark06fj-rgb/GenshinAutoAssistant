@@ -15,6 +15,7 @@
 - Require canonical glossary entries for the seven elements and five character weapon classes used by the character catalog.
 - Map upstream weapon type identifiers to the corresponding shared glossary terms.
 - Verify every talent's `character_id` exists and its Arabic character label matches the character catalog.
+- Reject stale editorial notes that claim a populated Arabic talent summary has not yet been translated.
 - Enforce a complete three-slot talent matrix (`normal`, `skill`, `burst`) for every non-Traveler character; validate each talent ID's stable name-based slug and slot type, ensure each slug belongs to only one upstream character ID, and reject missing, duplicate, or unsupported slots.
 - Enforce the Traveler (Aether) talent matrix: all seven known elements (Anemo, Geo, Electro, Dendro, Hydro, Pyro, Cryo), each with exactly one normal, skill, and burst slot; validate slot IDs and require every Traveler talent to reference `character.aether`.
 - Report Arabic-script coverage and empty optional Arabic descriptions as warnings rather than silently rewriting content.
@@ -34,7 +35,7 @@ python -m unittest discover -s tests -v
 python scripts/validate_localization.py
 ```
 
-The suite covers a valid fixture and deliberate failures for duplicate cross-catalog IDs, glossary mismatches, dangling talent references, unsafe source URLs, unsupported categories, missing catalogs, malformed JSON, incomplete Traveler element kits, incorrect Traveler character links, unsupported Traveler elements, duplicate Traveler talent slots, incomplete regular-character kits, mismatched regular talent IDs/references, unsupported regular talent types, and duplicate regular talent slots. It also verifies that a complete seven-element/21-slot Traveler fixture passes. GitHub Actions runs both the tests and the live-catalog validator on relevant changes.
+The suite covers a valid fixture and deliberate failures for duplicate cross-catalog IDs, glossary mismatches, dangling talent references, unsafe source URLs, unsupported categories, missing catalogs, malformed JSON, incomplete Traveler element kits, incorrect Traveler character links, unsupported Traveler elements, duplicate Traveler talent slots, incomplete regular-character kits, mismatched regular talent IDs/references, unsupported regular talent types, and duplicate regular talent slots. It also verifies that a complete seven-element/21-slot Traveler fixture passes and that stale review notes cannot contradict populated Arabic summaries. GitHub Actions runs both the tests and the live-catalog validator on relevant changes.
 
 ## Run locally
 
