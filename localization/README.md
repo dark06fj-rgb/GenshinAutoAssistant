@@ -13,6 +13,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `WEAPON_TERMINOLOGY_AUDIT.md`: weapon-name structure and terminology audit.
 - `scripts/import_weapon_catalog.py`: imports the public weapon roster from genshin-db while preserving existing Arabic translations.
 - `ar/artifacts.json`: artifact set name records.
+- `ARTIFACT_TERMINOLOGY_AUDIT.md`: artifact-set name and terminology audit.
 - `ar/materials.json`: common currencies and wish items.
 - `ar/resources.json`: gatherable plants, fruits, and ores.
 - `schema/entity.schema.json`: shared entity format.
