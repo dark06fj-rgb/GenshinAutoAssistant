@@ -9,6 +9,7 @@ on:
       - .github/workflows/extract-legacy-world-quest-descriptions.yml
   workflow_dispatch:
 
+ # Resolves pinned source text only; never edits quest translations.
 permissions:
   contents: write
 
