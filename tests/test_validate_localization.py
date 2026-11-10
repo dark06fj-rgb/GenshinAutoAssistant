@@ -58,6 +58,8 @@ def fixture_catalogs():
         "artifacts.json": {"entries": [
             entity("artifact.test", "artifact", "Test Set", "مجموعة تجريبية")
         ]},
+        "quests_archon.json": {"entries": []},
+        "quests_world.json": {"entries": []},
     }
 
 
