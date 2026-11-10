@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - experiment/resource-detector-test
 
 jobs:
   build:
