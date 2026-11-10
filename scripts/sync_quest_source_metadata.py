@@ -420,30 +420,40 @@ def main() -> int:
     translation_data = json.loads(translation_path.read_text(encoding="utf-8"))
     if not isinstance(translation_data, dict):
         raise ValueError("Quest title translation map must be an object")
-    applied_translations = {"archon": 0, "world": 0}
-    known_quest_ids = {
-        kind: {
-            source_id for (node_type, source_id) in existing_by_kind[kind]
-            if node_type == "quest"
-        }
-        for kind in ("archon", "world")
+    translation_targets = {
+        "archon": ("archon", "quest"),
+        "world": ("world", "quest"),
+        "world_series": ("world", "series"),
     }
-    for kind, mapping in translation_data.items():
-        if kind not in known_quest_ids or not isinstance(mapping, dict):
-            raise ValueError(f"Invalid quest title translation group: {kind!r}")
+    applied_translations = {group: 0 for group in translation_targets}
+    for group, mapping in translation_data.items():
+        target = translation_targets.get(group)
+        if target is None or not isinstance(mapping, dict):
+            raise ValueError(f"Invalid quest title translation group: {group!r}")
+        kind, node_type = target
+        known_source_ids = {
+            source_id for (current_type, source_id) in existing_by_kind[kind]
+            if current_type == node_type
+        }
         for source_id, arabic_title in mapping.items():
-            if source_id not in known_quest_ids[kind]:
-                raise ValueError(f"Translation map references unknown {kind} quest ID {source_id}")
+            if source_id not in known_source_ids:
+                raise ValueError(
+                    f"Translation map references unknown {kind}/{node_type} ID {source_id}"
+                )
             if not isinstance(arabic_title, str) or not arabic_title.strip():
-                raise ValueError(f"Translation for {kind} quest {source_id} is empty")
+                raise ValueError(f"Translation for {group} ID {source_id} is empty")
             if not any("\u0600" <= char <= "\u06FF" for char in arabic_title):
-                raise ValueError(f"Translation for {kind} quest {source_id} contains no Arabic text")
-            entry = existing_by_kind[kind][("quest", source_id)]
+                raise ValueError(f"Translation for {group} ID {source_id} contains no Arabic text")
+            entry = existing_by_kind[kind][(node_type, source_id)]
             if not str(entry.get("arabic_name", "")).strip():
                 entry["arabic_name"] = arabic_title.strip()
                 entry["translation_status"] = "draft"
-                entry["review_notes"] = "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها."
-                applied_translations[kind] += 1
+                entry["review_notes"] = (
+                    "ترجمة عربية أولية لاسم مجموعة المهام؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها."
+                    if node_type == "series"
+                    else "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها."
+                )
+                applied_translations[group] += 1
 
     # Resolve only prerequisites that are present in the matching catalog.
     for kind in ("archon", "world"):
@@ -551,7 +561,12 @@ def main() -> int:
     print(f"Player-facing candidates: AQ={candidate_type_counts['AQ']}, WQ={candidate_type_counts['WQ']}")
     print(f"Imported displayable types: AQ={fetched_counts['AQ']}, WQ={fetched_counts['WQ']}")
     print(f"Unresolved-title IDs held back: {len(unresolved_title_ids)}")
-    print(f"Arabic draft titles applied: AQ={applied_translations['archon']}, WQ={applied_translations['world']}")
+    print(
+        "Arabic draft titles applied: "
+        f"AQ={applied_translations['archon']}, "
+        f"WQ={applied_translations['world']}, "
+        f"WQ series={applied_translations['world_series']}"
+    )
     print(f"Prerequisite cycle edges safely omitted: {cycle_edges_dropped}")
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
