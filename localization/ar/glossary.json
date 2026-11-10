@@ -293,6 +293,41 @@
       "translation": "مجموعة الآثار",
       "status": "draft",
       "notes": "مصطلح تصنيفي موحّد مقترح للإشارة إلى مجموعة آثار؛ غير رسمي ويحتاج مقارنة باستعمال المجتمع."
+    },
+    {
+      "id": "term.item_type.currency",
+      "source_term": "Currency",
+      "translation": "عملة",
+      "status": "draft",
+      "notes": "تصنيف عام للمواد المستخدمة كعملة داخل اللعبة؛ مقابل عربي مقترح وغير رسمي."
+    },
+    {
+      "id": "term.item_type.wish_item",
+      "source_term": "Wish Item",
+      "translation": "عنصر أمنية",
+      "status": "draft",
+      "notes": "تصنيف للعناصر المستخدمة في نظام الأمنيات؛ مقابل عربي مقترح وغير رسمي."
+    },
+    {
+      "id": "term.item_type.gatherable_plant",
+      "source_term": "Gatherable plant",
+      "translation": "نبات قابل للجمع",
+      "status": "draft",
+      "notes": "تصنيف وصفي لمورد نباتي يمكن جمعه؛ مقابل عربي مقترح وغير رسمي."
+    },
+    {
+      "id": "term.item_type.gatherable_fruit",
+      "source_term": "Gatherable fruit",
+      "translation": "ثمرة قابلة للجمع",
+      "status": "draft",
+      "notes": "تصنيف وصفي لمورد من الفواكه يمكن جمعه؛ مقابل عربي مقترح وغير رسمي."
+    },
+    {
+      "id": "term.item_type.ore",
+      "source_term": "Ore",
+      "translation": "خام",
+      "status": "draft",
+      "notes": "تصنيف للموارد المعدنية الخام؛ مقابل عربي مقترح وغير رسمي."
     }
   ]
 }
