@@ -2354,7 +2354,7 @@
       "source_quest_id": "306",
       "source_name": "Winds of the Past",
       "arabic_name": "رياح الماضي",
-      "description_ar": null,
+      "description_ar": "لمواجهة هجوم ديفالين، تتجه إلى معابد الرياح الأربعة المدمرة لإزالة تدفقات العناصر، حيث تنتظرك آمبر عند معبد الصقر.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2373,7 +2373,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1965198993,
         "description": 1713958199
@@ -2400,7 +2400,7 @@
       "source_quest_id": "307",
       "source_name": "Crash Course",
       "arabic_name": "دورة تدريبية مكثفة",
-      "description_ar": null,
+      "description_ar": "يرافقك كايا لاستكشاف معبد الذئب والتعرّف إلى الأخطار التي تنتظرك داخله.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2419,7 +2419,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1911328169,
         "description": 1722924463
@@ -2446,7 +2446,7 @@
       "source_quest_id": "308",
       "source_name": "Sparks Amongst the Pages",
       "arabic_name": "شرارات بين الصفحات",
-      "description_ar": null,
+      "description_ar": "تنضم ليزا إليك في تطهير معبد الأسد من الأخطار التي تعترض الطريق.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2465,7 +2465,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1947339513,
         "description": 896452047
@@ -2667,7 +2667,7 @@
       "source_quest_id": "354",
       "source_name": "Wind-Riding Knight",
       "arabic_name": "فارس الرياح",
-      "description_ar": null,
+      "description_ar": "في طريقك إلى موندشتات، تشهد لقاءً غامضاً بين تنين وشخص مجهول، ثم تعترض طريقك فتاة شابة.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2686,7 +2686,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 641240337,
         "description": 3239802911
@@ -2715,7 +2715,7 @@
       "source_quest_id": "355",
       "source_name": "Forest Rendezvous",
       "arabic_name": "لقاء في الغابة",
-      "description_ar": null,
+      "description_ar": "بعد استجابة تمثال السبعة لقوة الأنيمو داخلك، تقرر البحث عن الأركون المسؤول عنها، فتتجه إلى موندشتات.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2734,7 +2734,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1760868089,
         "description": 70357895
@@ -2763,7 +2763,7 @@
       "source_quest_id": "356",
       "source_name": "City of Freedom",
       "arabic_name": "مدينة الحرية",
-      "description_ar": null,
+      "description_ar": "بمساعدتك تُحل المشكلة سريعاً، وتقودك آمبر إلى مدينة الحرية موندشتات.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2782,7 +2782,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 278941721,
         "description": 1566999583
@@ -2811,7 +2811,7 @@
       "source_quest_id": "357",
       "source_name": "Dragon Storm",
       "arabic_name": "عاصفة التنين",
-      "description_ar": null,
+      "description_ar": "يتعرض موندشتات الهادئ لهجوم مفاجئ من التنين المعروف باسم ديفالين، وهو المخلوق الذي صادفته سابقاً في الغابة.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2830,7 +2830,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4246098801,
         "description": 863921743
@@ -2861,7 +2861,7 @@
       "source_quest_id": "358",
       "source_name": "Knights of Favonius",
       "arabic_name": "فرسان فافونيوس",
-      "description_ar": null,
+      "description_ar": "بعد صدّ التنين بصعوبة، يدعوك كايا، عضو فرسان فافونيوس، إلى زيارة مقر الفرسان.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2880,7 +2880,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 4251075033,
         "description": 3824461879
@@ -2918,7 +2918,7 @@
       "source_quest_id": "360",
       "source_name": "Going Upon the Breeze",
       "arabic_name": "الانطلاق مع النسيم",
-      "description_ar": null,
+      "description_ar": "تعرّفك آمبر بواجبها ككشافة مرافقتك إلى موندشتات، لكنها تطلب أولاً مساعدتك في التعامل مع الهيليتشيرلز قرب المدينة.",
       "chapter_id": "1001",
       "act_id": "1001",
       "series_id": "1001",
@@ -2937,7 +2937,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1478804457,
         "description": 1869466943
@@ -2967,7 +2967,7 @@
       "source_quest_id": "370",
       "source_name": "Shadow Over Mondstadt",
       "arabic_name": "ظلّ فوق موندشتات",
-      "description_ar": null,
+      "description_ar": "بعد إعادة تدفق العناصر في موندشتات إلى طبيعته بجهودك، يحين وقت إبلاغ جين بما حدث.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -2984,7 +2984,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2826605337,
         "description": 1581497687
@@ -3014,7 +3014,7 @@
       "source_quest_id": "371",
       "source_name": "Unexpected Encounter",
       "arabic_name": "لقاء غير متوقع",
-      "description_ar": null,
+      "description_ar": "عند عودتك إلى موندشتات، تجد جين في مواجهة مع الفاتوي، ثم تعرض عليها دمعة التنين التي عثرت عليها لتشارك مجدداً في التحقيق.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3033,7 +3033,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 500475441,
         "description": 3024589647
@@ -3063,7 +3063,7 @@
       "source_quest_id": "372",
       "source_name": "That Green Fellow",
       "arabic_name": "ذلك الفتى الأخضر",
-      "description_ar": null,
+      "description_ar": "أثناء استعدادك للتحقيق، تصادف الرجل الغامض الذي رأيته يتحدث مع التنين.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3082,7 +3082,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2546023913,
         "description": 3232682647
@@ -3113,7 +3113,7 @@
       "source_quest_id": "373",
       "source_name": "Let the Wind Lead",
       "arabic_name": "دع الرياح تقود الطريق",
-      "description_ar": null,
+      "description_ar": "يدّعي الغريب أنه الشاعر فنتي، ثم يبتعد قبل أن يوضح علاقته بالتنين؛ فتتبعه إلى الشجرة العملاقة في ويندرايز.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3132,7 +3132,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 949761097,
         "description": 1927916727
@@ -3162,7 +3162,7 @@
       "source_quest_id": "374",
       "source_name": "Venti's Plan",
       "arabic_name": "خطة فنتي",
-      "description_ar": null,
+      "description_ar": "يكشف فنتي أنه عجز عن إزالة لعنة ديفالين، ويقترح الاستعانة بقوة القيثارة السماوية المقدسة لإنقاذه.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3181,7 +3181,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2683990361,
         "description": 2096794535
@@ -3212,7 +3212,7 @@
       "source_quest_id": "375",
       "source_name": "Venti's New Plan",
       "arabic_name": "خطة فنتي الجديدة",
-      "description_ar": null,
+      "description_ar": "تفشل محاولة فنتي لاستعادة القيثارة بالحيلة، فيضع خطة بديلة تحتاج إلى مساعدتك.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3231,7 +3231,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 1044015961,
         "description": 640297255
@@ -3262,7 +3262,7 @@
       "source_quest_id": "376",
       "source_name": "Wild Escape",
       "arabic_name": "هروب جامح",
-      "description_ar": null,
+      "description_ar": "تنجح خطة سرقة القيثارة تقريباً، لكن شخصاً مجهولاً ينتزعها قبل وصولها إليك، فتضطر إلى الفرار من الكاتدرائية.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3281,7 +3281,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2512702433,
         "description": 2382906927
@@ -3311,7 +3311,7 @@
       "source_quest_id": "377",
       "source_name": "Behind the Scenes",
       "arabic_name": "خلف الكواليس",
-      "description_ar": null,
+      "description_ar": "تقودك الفوضى أثناء الهرب إلى حانة ديلوك، حيث يعرض إخفاءك، ثم يحدد لقاءً ليلياً مع أشخاص يصفهم بمعارفه.",
       "chapter_id": "1002",
       "act_id": "1002",
       "series_id": "1002",
@@ -3330,7 +3330,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز بصياغة أصلية اعتماداً على وصف المصدر؛ يحتاج إلى مراجعة تحريرية.",
       "source_text_map_hashes": {
         "title": 2943776345,
         "description": 3458757927
