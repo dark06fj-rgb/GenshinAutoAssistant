@@ -7,5 +7,3562 @@
   "game_version": "7.2",
   "catalog_type": "world_quests",
   "disclaimer": "Community translation drafts; not official HoYoverse terminology. Quest dialogue is intentionally excluded.",
-  "entries": []
+  "entries": [
+    {
+      "id": "quest.world.series.1105",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "1105",
+      "source_name": "Dainsleif",
+      "arabic_name": "سلسلة داينسلييف",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "1105",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10015",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10015",
+      "source_name": "Beneath Splendent Lanterns",
+      "arabic_name": "سلسلة تحت متألقة الفوانيس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10015",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10016",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10016",
+      "source_name": "Beneath Splendent Lanterns",
+      "arabic_name": "سلسلة تحت متألقة الفوانيس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10016",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10017",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10017",
+      "source_name": "Beneath Splendent Lanterns",
+      "arabic_name": "سلسلة تحت متألقة الفوانيس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10017",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10025",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10025",
+      "source_name": "Sacred Sakura Cleansing Ritual",
+      "arabic_name": "سلسلة مقدس ساكورا تطهير طقوس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10025",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10031",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10031",
+      "source_name": "The Moon-Bathed Deep",
+      "arabic_name": "سلسلة الـ القمر-باتهيد الأعماق",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10031",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10032",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10032",
+      "source_name": "Seirai Stormchasers",
+      "arabic_name": "سلسلة سيراي مطاردو العواصف",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10032",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10036",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10036",
+      "source_name": "Tatara Tales",
+      "arabic_name": "سلسلة تاتارا حكايات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10036",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10037",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10037",
+      "source_name": "Orobashi's Legacy",
+      "arabic_name": "سلسلة أوروباشي'س إرث",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10037",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10044",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10044",
+      "source_name": "Through the Mists",
+      "arabic_name": "سلسلة عبر الـ الضباب",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10044",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10051",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10051",
+      "source_name": "The Chasm Delvers",
+      "arabic_name": "سلسلة الـ الهوة مستكشفو",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10051",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10055",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10055",
+      "source_name": "From Dusk to Dawn in Byakuyakoku",
+      "arabic_name": "سلسلة من الغسق إلى الفجر في بياكويـاكوكو",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10055",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10058",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10058",
+      "source_name": "The Very Special Fortune Slip",
+      "arabic_name": "سلسلة الـ جداً الخاص الحظ قصاصة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10058",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10059",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10059",
+      "source_name": "Erebos' Secret",
+      "arabic_name": "سلسلة إريبوس' سر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10059",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10060",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10060",
+      "source_name": "Hyperion's Dirge",
+      "arabic_name": "سلسلة هيبيريون'س مرثية",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10060",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10061",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10061",
+      "source_name": "Ritou Travel Permit",
+      "arabic_name": "سلسلة ريتو السفر تصريح",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10061",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10069",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10069",
+      "source_name": "An Unwavering Culinary Dream",
+      "arabic_name": "سلسلة ان لا يتزعزع الطهي حلم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10069",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10070",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10070",
+      "source_name": "Vimana Agama",
+      "arabic_name": "سلسلة فيمانا أغاما",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10071",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10071",
+      "source_name": "The Treasure of the Four Skerries",
+      "arabic_name": "سلسلة الـ كنز من الـ الأربعة الجزر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10071",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10072",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10072",
+      "source_name": "Varuna Gatha",
+      "arabic_name": "سلسلة فارونا غاثا",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10073",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10073",
+      "source_name": "Woodland Encounter",
+      "arabic_name": "سلسلة الغابة لقاء",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10073",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10074",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10074",
+      "source_name": "Woodland Encounter",
+      "arabic_name": "سلسلة الغابة لقاء",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10074",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10075",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10075",
+      "source_name": "Woodland Encounter",
+      "arabic_name": "سلسلة الغابة لقاء",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10075",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10076",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10076",
+      "source_name": "Dream Nursery",
+      "arabic_name": "سلسلة حلم حضانة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10077",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10077",
+      "source_name": "Dream Nursery",
+      "arabic_name": "سلسلة حلم حضانة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10077",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10078",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10078",
+      "source_name": "Dream Nursery",
+      "arabic_name": "سلسلة حلم حضانة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10078",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10079",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10079",
+      "source_name": "Nursery of Lost Dreams",
+      "arabic_name": "سلسلة حضانة من المفقودة تحلم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10079",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10080",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10080",
+      "source_name": "Nursery of Lost Dreams",
+      "arabic_name": "سلسلة حضانة من المفقودة تحلم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10080",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10081",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10081",
+      "source_name": "Nursery of Lost Dreams",
+      "arabic_name": "سلسلة حضانة من المفقودة تحلم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10081",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10082",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10082",
+      "source_name": "In the End, the Forest Will Remember",
+      "arabic_name": "سلسلة في الـ النهاية, الـ الغابة سوف تتذكر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10082",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10083",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10083",
+      "source_name": "Agnihotra Sutra",
+      "arabic_name": "سلسلة أغني هوترا سوترا",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10083",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10084",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10084",
+      "source_name": "The Scattered Past",
+      "arabic_name": "سلسلة الـ المبعثر الماضي",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10084",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10085",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10085",
+      "source_name": "A Child From Beyond the Forest",
+      "arabic_name": "سلسلة ا طفل من ما وراء الـ الغابة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10085",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10087",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10087",
+      "source_name": "Golden Slumber",
+      "arabic_name": "سلسلة ذهبي السبات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10087",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10096",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10096",
+      "source_name": "Film Notes",
+      "arabic_name": "سلسلة الفيلم ملاحظات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10096",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10107",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10107",
+      "source_name": "Old Notes and New Friends",
+      "arabic_name": "سلسلة قديمة ملاحظات و جديدة أصدقاء",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10107",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10120",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10120",
+      "source_name": "Her Foes Rage Like Great Waters...",
+      "arabic_name": "سلسلة لها أعداؤها يثورون مثل عظيم المياه...",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10120",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10121",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10121",
+      "source_name": "Khvarena of Good and Evil",
+      "arabic_name": "سلسلة خڤارينا من الخير و الشر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10121",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10122",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10122",
+      "source_name": "Khvarena of Good and Evil",
+      "arabic_name": "سلسلة خڤارينا من الخير و الشر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10122",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10123",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10123",
+      "source_name": "Khvarena of Good and Evil",
+      "arabic_name": "سلسلة خڤارينا من الخير و الشر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10123",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10124",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10124",
+      "source_name": "Khvarena of Good and Evil",
+      "arabic_name": "سلسلة خڤارينا من الخير و الشر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10124",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10125",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10125",
+      "source_name": "Monumental Study",
+      "arabic_name": "سلسلة أثري دراسة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10125",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10126",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10126",
+      "source_name": "Pale Fire",
+      "arabic_name": "سلسلة باهت النار",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10126",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10130",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10130",
+      "source_name": "The Dirge of Bilqis",
+      "arabic_name": "سلسلة الـ مرثية من بلقيس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10130",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10131",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10131",
+      "source_name": "Apocalypse Lost",
+      "arabic_name": "سلسلة نهاية العالم المفقودة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10131",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10135",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10135",
+      "source_name": "Daiya's Three-Day Reverie",
+      "arabic_name": "سلسلة داييا'س تهريي-داي أحلام يقظة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10135",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10142",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10142",
+      "source_name": "A Brush of Seafoam and Crimson",
+      "arabic_name": "سلسلة ا لمسة من زبد البحر و قرمزي",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10142",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10143",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10143",
+      "source_name": "Unfinished Comedy",
+      "arabic_name": "سلسلة غير مكتملة كوميديا",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10143",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10145",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10145",
+      "source_name": "Fontaine Research Institute Chronicles",
+      "arabic_name": "سلسلة فونتين بحث معهد سجلات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10145",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10146",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10146",
+      "source_name": "The Narzissenkreuz Adventure",
+      "arabic_name": "سلسلة الـ نارسيسنكروز مغامرة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10146",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10147",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10147",
+      "source_name": "The Wild Fairy of Erinnyes",
+      "arabic_name": "سلسلة الـ البرية جنية من إيرينيس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10147",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10148",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10148",
+      "source_name": "Kingdom Through the Looking-Glass",
+      "arabic_name": "سلسلة مملكة عبر الـ لووكينغ-غلاسس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10148",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10149",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10149",
+      "source_name": "\"If She No Longer Dreams of You...\"",
+      "arabic_name": "سلسلة \"إذا هي لا بعد الآن تحلم من بك...\"",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10149",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10150",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10150",
+      "source_name": "A Gradient of Dreams and Ochre",
+      "arabic_name": "سلسلة ا تدرج من تحلم و المغرة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10150",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10151",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10151",
+      "source_name": "Blue Longing of Heart and Moon",
+      "arabic_name": "سلسلة أزرق حنين من القلب و القمر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10151",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10152",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10152",
+      "source_name": "Search in the Algae Sea",
+      "arabic_name": "سلسلة بحث في الـ الطحالب البحر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10152",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10153",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10153",
+      "source_name": "Savior's Wake",
+      "arabic_name": "سلسلة ساڤيور'س الصحوة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10153",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10154",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10154",
+      "source_name": "Waking From the Great Dream",
+      "arabic_name": "سلسلة الاستيقاظ من الـ عظيم حلم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10154",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10155",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10155",
+      "source_name": "Rowboat's Wake",
+      "arabic_name": "سلسلة رووبوات'س الصحوة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10155",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10200",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10200",
+      "source_name": "Questioning Melusine and Answering Machine: Act I",
+      "arabic_name": "سلسلة استجواب ميلوزين و الرد آلة: الفصل ي",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10200",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10201",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10201",
+      "source_name": "Questioning Melusine and Answering Machine: Act II",
+      "arabic_name": "سلسلة استجواب ميلوزين و الرد آلة: الفصل يي",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10201",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10202",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10202",
+      "source_name": "Questioning Melusine and Answering Machine: Act III",
+      "arabic_name": "سلسلة استجواب ميلوزين و الرد آلة: الفصل ييي",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10202",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2076",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2076",
+      "source_name": "Witch's Homework: Of the Unexpected",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من الـ غير المتوقع",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2076",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2077",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2077",
+      "source_name": "Witch's Homework: Of Untested Insight",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من غير المختبر البصيرة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2077",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2078",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2078",
+      "source_name": "Witch's Homework: Of Questions Beyond Questions",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من أسئلة ما وراء أسئلة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2078",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2079",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2079",
+      "source_name": "Witch's Homework: Of This World",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من تهيس العالم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2079",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2080",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2080",
+      "source_name": "Witch's Homework: Of the Waking of Wind",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من الـ الاستيقاظ من الريح",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2080",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2081",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2081",
+      "source_name": "Witch's Homework: Of the Little Wolf Pack",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من الـ الصغير الذئب القطيع",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2081",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2082",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2082",
+      "source_name": "Witch's Homework: Of Wonderland Flowers",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من بلاد العجائب أزهار",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2082",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.2083",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "2083",
+      "source_name": "Witch's Homework: Of Leaves That Spark",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من أوراق التي تتوهج",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "2083",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10086",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10086",
+      "source_name": "Magic Mountain",
+      "arabic_name": "سلسلة سحر الجبل",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10086",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10094",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10094",
+      "source_name": "Paradise",
+      "arabic_name": "سلسلة الجنة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10094",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10095",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10095",
+      "source_name": "Hell",
+      "arabic_name": "سلسلة الجحيم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10095",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10106",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10106",
+      "source_name": "Battlefield of Dice, Cats, and Cards",
+      "arabic_name": "سلسلة ساحة المعركة من النرد, القطط, و البطاقات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10106",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10132",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10132",
+      "source_name": "Judgment",
+      "arabic_name": "سلسلة الحكم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10132",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10134",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10134",
+      "source_name": "Witch's Homework: Solution",
+      "arabic_name": "سلسلة ويتكه'س الواجب: الحل",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10134",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10156",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10156",
+      "source_name": "Scenes from Life in Meropide",
+      "arabic_name": "سلسلة مشاهد من الحياة في ميروبيد",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10156",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10160",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10160",
+      "source_name": "A Free Lunch",
+      "arabic_name": "سلسلة ا مجاني غداء",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10160",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10168",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10168",
+      "source_name": "Chenyu's Blessings of Sunken Jade",
+      "arabic_name": "سلسلة كهينيو'س بركات من الغارقة اليشم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10168",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10177",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10177",
+      "source_name": "Prelude to the Night Vigil",
+      "arabic_name": "سلسلة مقدمة إلى الـ الليل السهر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10177",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10178",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10178",
+      "source_name": "Darradarljod",
+      "arabic_name": "سلسلة دارادارليود",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10178",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10179",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10179",
+      "source_name": "A Star Out of Time",
+      "arabic_name": "سلسلة ا نجم خارج من الزمن",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10179",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10181",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10181",
+      "source_name": "Pharsalia's Rhapsody",
+      "arabic_name": "سلسلة بهارساليا'س نشيد",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10181",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10182",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10182",
+      "source_name": "Prisoner in Shackles",
+      "arabic_name": "سلسلة سجين في الأغلال",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10182",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10183",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10183",
+      "source_name": "Petrichorror Dream",
+      "arabic_name": "سلسلة بتريكور حلم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10183",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10184",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10184",
+      "source_name": "In the Hall of the Sea King",
+      "arabic_name": "سلسلة في الـ قاعة من الـ البحر الملك",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10184",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10185",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10185",
+      "source_name": "Requiem",
+      "arabic_name": "سلسلة قداس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10185",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10187",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10187",
+      "source_name": "Hesperides of Love and Hate",
+      "arabic_name": "سلسلة هسبيريديس من الحب و الكراهية",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10187",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10188",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10188",
+      "source_name": "Her Palace Collapses Into the Blizzard",
+      "arabic_name": "سلسلة لها قصر ينهار داخل الـ العاصفة الثلجية",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10188",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10189",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10189",
+      "source_name": "Witch's Homework: The Untitled Question",
+      "arabic_name": "سلسلة ويتكه'س الواجب: الـ بلا عنوان كويستيون",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10189",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10197",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10197",
+      "source_name": "Pioneers",
+      "arabic_name": "سلسلة رواد",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10197",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10199",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10199",
+      "source_name": "Visitors From the Stars",
+      "arabic_name": "سلسلة زوار من الـ النجوم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10199",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10203",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10203",
+      "source_name": "Between Pledge and Forgettance",
+      "arabic_name": "سلسلة بين العهد و النسيان",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10203",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10204",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10204",
+      "source_name": "In the Footsteps of the Chosen of Dragons",
+      "arabic_name": "سلسلة في الـ خطى من الـ المختار من التنانين",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10204",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10205",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10205",
+      "source_name": "Shadows of the Mountains",
+      "arabic_name": "سلسلة ظلال من الـ الجبال",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10205",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10206",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10206",
+      "source_name": "Tale of Dreams Plucked From Fire",
+      "arabic_name": "سلسلة حكاية من تحلم المقتطفة من النار",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10206",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10213",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10213",
+      "source_name": "City Buried By Ash",
+      "arabic_name": "سلسلة مدينة مدفونة بواسطة الرماد",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10213",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10214",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10214",
+      "source_name": "From One Case to Another",
+      "arabic_name": "سلسلة من واحد قضية إلى أخرى",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10214",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10215",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10215",
+      "source_name": "A Dream of Gazing Upon the Distant Sky",
+      "arabic_name": "سلسلة ا حلم من التطلع إلى الـ البعيد السماء",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10215",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10216",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10216",
+      "source_name": "The Tonatiuh Quivers",
+      "arabic_name": "سلسلة الـ توناتيوه يرتجف",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10216",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10217",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10217",
+      "source_name": "The Chosen One's Promise",
+      "arabic_name": "سلسلة الـ المختار واحد'س وعد",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10217",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10228",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10228",
+      "source_name": "Project Moongazer",
+      "arabic_name": "سلسلة مشروع مراقب القمر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10228",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10230",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10230",
+      "source_name": "Chronicler of the Crumbling City",
+      "arabic_name": "سلسلة مؤرخ من الـ المنهارة مدينة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10230",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10231",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10231",
+      "source_name": "A Finale Emberforged",
+      "arabic_name": "سلسلة ا خاتمة المصوغة بالجمر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10231",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10239",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10239",
+      "source_name": "Witch's Homework: The Role of a Guide...?",
+      "arabic_name": "سلسلة ويتكه'س الواجب: الـ دور من ا مرشد...?",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10239",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10240",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10240",
+      "source_name": "Path to the Flaming Peaks",
+      "arabic_name": "سلسلة طريق إلى الـ المشتعلة القمم",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10240",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10241",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10241",
+      "source_name": "Polkka Beneath the Moon's Oracle",
+      "arabic_name": "سلسلة بولكا تحت الـ القمر'س العرافة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10241",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10242",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10242",
+      "source_name": "Beyond Silver and Fine Gold",
+      "arabic_name": "سلسلة ما وراء الفضة و الخالص الذهب",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10242",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10244",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10244",
+      "source_name": "Summer Event Beta Testing Quest",
+      "arabic_name": "سلسلة سوممير يڤينت بيتا تيستينغ كويست",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10244",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10252",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10252",
+      "source_name": "Witch's Homework: Of What Is Contested",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من وهات يس كونتيستيد",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10252",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10253",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10253",
+      "source_name": "Witch's Homework: Of Various Foes",
+      "arabic_name": "سلسلة ويتكه'س الواجب: من ڤاريووس أعداؤها",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10253",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10255",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10255",
+      "source_name": "In the Dwelling of Life",
+      "arabic_name": "سلسلة في الـ مسكن من الحياة",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10255",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10260",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10260",
+      "source_name": "Colors of Emptiness",
+      "arabic_name": "سلسلة ألوان من الفراغ",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10260",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10264",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10264",
+      "source_name": "Ding Ding Dinggg! A Great Feast!",
+      "arabic_name": "سلسلة دينغ دينغ دينغغغ! ا عظيم وليمة!",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10264",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10265",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10265",
+      "source_name": "East of the Moon, West of the Sun",
+      "arabic_name": "سلسلة شرق من الـ القمر, غرب من الـ الشمس",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10265",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10277",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10277",
+      "source_name": "The Crystal City in the Gorge's Depths",
+      "arabic_name": "سلسلة الـ الكريستال مدينة في الـ غورغي'س الأعماق",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10277",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10278",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10278",
+      "source_name": "First, Let the Earth Open Its Maw",
+      "arabic_name": "سلسلة أولاً, دع الـ الأرض تفتح لها فمها",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10278",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10279",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10279",
+      "source_name": "Ancient Streets Where Sorrows Linger",
+      "arabic_name": "سلسلة قديمة شوارع وهيري الأحزان تظل",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10279",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10280",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10280",
+      "source_name": "A Mirror That Reflects the Foe",
+      "arabic_name": "سلسلة ا مرآة التي تعكس الـ العدو",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10280",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10282",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10282",
+      "source_name": "On One Side a Palace, On the Other a Tomb",
+      "arabic_name": "سلسلة على واحد جانب ا قصر, على الـ آخر ا قبر",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10282",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10283",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10283",
+      "source_name": "Mean Streets of the Despicable",
+      "arabic_name": "سلسلة سيئة شوارع من الـ الحقير",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10283",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10284",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10284",
+      "source_name": "Variations on Belyi and Chernyi",
+      "arabic_name": "سلسلة تنويعات على بيلي و كهيرنيي",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10284",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10285",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10285",
+      "source_name": "Swords and Secrets",
+      "arabic_name": "سلسلة سيوف و أسرار",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10285",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10286",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10286",
+      "source_name": "Upstream Variations",
+      "arabic_name": "سلسلة ضد التيار تنويعات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10286",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10287",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10287",
+      "source_name": "Food Street Must Be Saved!",
+      "arabic_name": "سلسلة الطعام الشارع يجب أن يُنقذ!",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10287",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.10288",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "10288",
+      "source_name": "The Anomaly",
+      "arabic_name": "سلسلة الـ الشذوذ",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "10288",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    },
+    {
+      "id": "quest.world.series.101203",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "series",
+      "source_quest_id": "101203",
+      "source_name": "Hidden chapters are used in 4.7 to activate multiple character challenges",
+      "arabic_name": "سلسلة مخفية فصول اري تُستخدم في 4.7 إلى لتفعيل متعددة الشخصيات التحديات",
+      "description_ar": null,
+      "parent_id": null,
+      "chapter_id": "101203",
+      "act_id": null,
+      "series_id": null,
+      "region": null,
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "translation_status": "needs_context",
+      "source": [
+        {
+          "name": "AnimeGameData 7.2.0 snapshot",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/ChapterExcelConfigData.json",
+          "version": "7.2.0 / d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
+        }
+      ],
+      "review_notes": "تعريب صوتي آلي مؤقت لاسم مجموعة المهمة؛ يحتاج ترجمة دلالية ومراجعة بشرية، ولم تُستورد حوارات أو مراحل فرعية."
+    }
+  ]
 }
