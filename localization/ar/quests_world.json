@@ -71897,7 +71897,7 @@
       "source_quest_id": "77209",
       "source_name": "Ever Beneath the Waves",
       "arabic_name": "تحت الأمواج أبداً",
-      "description_ar": null,
+      "description_ar": "تطفو كتلة جليدية غريبة فوق الماء، ويخبرك صوت غامض عبر نظام الأنابيب بوجود كوخ خشبي مقلوب أسفلها. أزل الجليد المتكسر القريب، فقد يظهر الكوخ على حقيقته.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -71914,7 +71914,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -71941,7 +71941,7 @@
       "source_quest_id": "77210",
       "source_name": "The Sunken Ship Sailed Past, Ringing No Bells",
       "arabic_name": "أبحرت السفينة الغارقة دون أن تقرع جرساً",
-      "description_ar": null,
+      "description_ar": "استقر كوخ خشبي فوق سطح الماء، وقد يكون هذا المنزل المألوف مأوى لأحد معارفك القدامى. تتساءل إن كان قد وقع في مشكلة مجدداً، فتتوجه للتحقق.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -71958,7 +71958,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -71985,7 +71985,7 @@
       "source_quest_id": "77211",
       "source_name": "In the Tranquility of Cycles",
       "arabic_name": "في سكينة الدورات",
-      "description_ar": null,
+      "description_ar": "يبدو أن الكوخ فوق الجليد على وشك الغرق في البحر. تتساءل عما حدث أثناء غيابك، وما إذا كان صاحبه الذي رفض النزول إلى الشاطئ لا يزال بداخله؛ فتقترب لتتفقده.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -72002,7 +72002,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -72029,7 +72029,7 @@
       "source_quest_id": "77226",
       "source_name": "Beasts in a Cage",
       "arabic_name": "وحوش في قفص",
-      "description_ar": null,
+      "description_ar": "بعد مرور بعض الوقت، أحرز التحقيق اختراقاً مهماً، وبدأت تتضح خيوط القضية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -72046,7 +72046,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -72073,7 +72073,7 @@
       "source_quest_id": "77227",
       "source_name": "Dark Clouds in a Wine Bottle",
       "arabic_name": "غيوم داكنة في زجاجة نبيذ",
-      "description_ar": null,
+      "description_ar": "يبدو أن لدى ميتيا أمراً يشغل باله، فتتوجه لمعرفة ما يريد قوله.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -72090,7 +72090,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -72117,7 +72117,7 @@
       "source_quest_id": "77229",
       "source_name": "Curious Lights",
       "arabic_name": "أضواء غريبة",
-      "description_ar": null,
+      "description_ar": "لاحظ عمال المنجم أن الأضواء في إحدى المناطق تومض وفق نمط متكرر. فهل يرتبط ذلك أيضاً بسرقة كريستال كريسنيك الأخيرة؟",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -72134,7 +72134,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
@@ -72161,7 +72161,7 @@
       "source_quest_id": "77233",
       "source_name": "Simple Chores",
       "arabic_name": "أعمال بسيطة",
-      "description_ar": null,
+      "description_ar": "يبدو أن مشرف الهندسة سوبوليف يحتاج إلى المساعدة في بعض الأعمال.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -72178,7 +72178,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
+      "review_notes": "ملخص عربي موجز مستند إلى وصف المهمة الإنجليزي في مصدر اللعبة المثبّت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "chapterId": null,
         "series": null,
