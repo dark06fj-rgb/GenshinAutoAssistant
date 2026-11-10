@@ -27,21 +27,23 @@ Arabic titles and concise summaries are original community drafts. Do not copy d
 ## Current verified state
 
 - `ar/quests_archon.json`: **63 records** — 51 act nodes and 12 individual quest nodes.
-- `ar/quests_world.json`: **85 records** — 63 series nodes and 22 individual quest nodes.
-- **148 total records** have unique catalog IDs and source title hashes.
+- `ar/quests_world.json`: **95 records** — 63 series nodes and 32 individual quest nodes.
+- **158 total records** have unique catalog IDs and source title hashes: 114 chapter/series index nodes and 44 individual quest nodes.
 - All parent and prerequisite references currently resolve within the two quest catalogs.
+- Arabic summaries are present for 43 of the 44 individual quests; one source record has no English summary and remains explicitly flagged for context review.
+- The individual-quest resolver validates `meta.questType` (`AQ`/`WQ`) rather than relying on `mainQuestTag`, which can legitimately be `MAINQUEST_TAG_NONE`; title matching normalizes typographic quotation marks.
 - Chapter/act/series metadata is pinned to AnimeGameData snapshot `d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1`.
 - Individual quest title/hash lookups use pinned GI-OnlineQuest per-ID JSON records. The importer does not request or download the 57.7 MB `TextMapEN.json`.
 - The importer is `scripts/sync_quest_source_metadata.py`; its workflow is `.github/workflows/quest-source-metadata-sync.yml`.
-- The sync workflow completed successfully and committed the catalog metadata. The 148 records remain community drafts or context-dependent records; none is automatically marked reviewed or approved.
+- The sync workflow completed successfully and committed the catalog metadata. Catalog JSON changes now trigger the metadata sync automatically. All 158 records remain community drafts or context-dependent records; none is automatically marked reviewed or approved.
 
 ## Remaining work
 
-1. Expand the catalogs beyond the current 148-record sample by filtering the pinned main-quest table through validated chapter metadata.
+1. Expand the catalogs beyond the current 158-record sample by filtering the pinned main-quest table through validated chapter metadata.
 2. Resolve additional text-map hashes only for IDs actually selected for import; report unresolved hashes rather than fabricating titles.
 3. Complete Archon chapter hierarchy and World Quest series/quest coverage in reviewable batches.
 4. Cross-check prerequisite graphs, Adventure Rank gates, and region assignments against versioned source tables and the Travel Log.
 5. Write original Arabic titles and short summaries; leave ambiguous translations as `needs_context`.
 6. Add importer integration tests that compare chapter/act membership and individual quest references against the pinned source tables, then publish coverage counts only after reconciling the complete roster.
 
-**This is a validated partial quest catalog, not complete quest coverage or a completed translation.** The current 148 records are source-verified scaffolding; further roster extraction and editorial review remain outstanding.
+**This is a validated partial quest catalog, not complete quest coverage or a completed translation.** The current 158 records are source-verified scaffolding; further roster extraction and editorial review remain outstanding.
