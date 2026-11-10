@@ -1,63 +1,253 @@
 #!/usr/bin/env python3
-"""Validate localization JSON syntax, record shape, and stable IDs."""
+"""Validate JSON catalogs, Arabic coverage, glossary consistency, and cross-catalog references."""
+from __future__ import annotations
+
 import json
-import pathlib
+import re
 import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+from urllib.parse import urlparse
 
-ROOT = pathlib.Path(__file__).resolve().parents[1] / "localization"
-files = sorted(ROOT.rglob("*.json"))
-errors = []
-checked = 0
-allowed_statuses = {"draft", "reviewed", "approved", "needs_context"}
-required_fields = {"id", "category", "source_name", "arabic_name", "translation_status", "source"}
+ROOT = Path(__file__).resolve().parents[1] / "localization"
+AR_DIR = ROOT / "ar"
+ALLOWED_STATUSES = {"draft", "reviewed", "approved", "needs_context"}
+ENTITY_REQUIRED = {"id", "category", "source_name", "arabic_name", "translation_status", "source"}
+GLOSSARY_REQUIRED = {"id", "source_term", "translation", "status"}
+ARABIC_RE = re.compile(r"[\u0600-\u06FF]")
+ELEMENT_TERMS = {
+    "Anemo": "Anemo", "Geo": "Geo", "Electro": "Electro",
+    "Dendro": "Dendro", "Hydro": "Hydro", "Pyro": "Pyro", "Cryo": "Cryo",
+}
+CHARACTER_WEAPON_TERMS = {
+    "Sword": "Sword", "Claymore": "Claymore", "Polearm": "Polearm",
+    "Bow": "Bow", "Catalyst": "Catalyst",
+}
+WEAPON_TYPE_TERMS = {
+    "WEAPON_SWORD_ONE_HAND": "Sword",
+    "WEAPON_CLAYMORE": "Claymore",
+    "WEAPON_POLE": "Polearm",
+    "WEAPON_BOW": "Bow",
+    "WEAPON_CATALYST": "Catalyst",
+}
+EXPECTED_CATALOGS = {
+    "characters.json", "talents.json", "weapons.json",
+    "materials.json", "resources.json", "artifacts.json",
+}
 
-for path in files:
-    try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        checked += 1
-    except Exception as exc:
-        errors.append(f"{path.relative_to(ROOT.parent)}: invalid JSON: {exc}")
-        continue
 
-    entries = data.get("entries", []) if isinstance(data, dict) else []
-    if not isinstance(entries, list):
-        errors.append(f"{path.relative_to(ROOT.parent)}: 'entries' must be an array")
-        continue
+class Validator:
+    def __init__(self) -> None:
+        self.errors: list[str] = []
+        self.warnings: list[str] = []
+        self.data: dict[str, dict] = {}
+        self.entry_count = 0
 
-    seen = set()
-    for index, entry in enumerate(entries):
-        label = f"{path.relative_to(ROOT.parent)}: entry {index}"
-        if not isinstance(entry, dict):
-            errors.append(f"{label} is not an object")
-            continue
+    def error(self, message: str) -> None:
+        self.errors.append(message)
 
-        entity_id = entry.get("id")
-        if entity_id is not None:
-            if not isinstance(entity_id, str) or not entity_id:
-                errors.append(f"{label} has an invalid id")
-            elif entity_id in seen:
-                errors.append(f"{label} duplicates id {entity_id}")
+    def warning(self, message: str) -> None:
+        self.warnings.append(message)
+
+    def load_catalogs(self) -> None:
+        for path in sorted(AR_DIR.glob("*.json")):
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+                self.error(f"{path.name}: invalid/unreadable JSON: {exc}")
+                continue
+            if not isinstance(data, dict):
+                self.error(f"{path.name}: top-level JSON value must be an object")
+                continue
+            entries = data.get("entries")
+            if not isinstance(entries, list):
+                self.error(f"{path.name}: 'entries' must be an array")
+                continue
+            self.data[path.name] = data
+            self.entry_count += len(entries)
+            self.validate_entries(path.name, entries)
+
+        missing = EXPECTED_CATALOGS - self.data.keys()
+        for name in sorted(missing):
+            self.error(f"Missing expected catalog: ar/{name}")
+
+    def validate_source(self, label: str, sources: object) -> None:
+        if not isinstance(sources, list) or not sources:
+            self.error(f"{label}: source must be a non-empty array")
+            return
+        for index, source in enumerate(sources):
+            item = f"{label}: source[{index}]"
+            if not isinstance(source, dict):
+                self.error(f"{item} must be an object")
+                continue
+            if not isinstance(source.get("name"), str) or not source["name"].strip():
+                self.error(f"{item} has no source name")
+            url = source.get("url")
+            parsed = urlparse(url) if isinstance(url, str) else None
+            if not parsed or parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                self.error(f"{item} has an invalid HTTP(S) URL")
+
+    def validate_entries(self, filename: str, entries: list) -> None:
+        seen_ids: set[str] = set()
+        is_glossary = filename == "glossary.json"
+        required = GLOSSARY_REQUIRED if is_glossary else ENTITY_REQUIRED
+        for index, entry in enumerate(entries):
+            label = f"ar/{filename}: entry {index + 1}"
+            if not isinstance(entry, dict):
+                self.error(f"{label} must be an object")
+                continue
+            missing = required - entry.keys()
+            if missing:
+                self.error(f"{label} missing fields: {', '.join(sorted(missing))}")
+            entity_id = entry.get("id")
+            if not isinstance(entity_id, str) or not entity_id.strip():
+                self.error(f"{label} has an empty/invalid id")
+            elif entity_id in seen_ids:
+                self.error(f"{label} duplicates id {entity_id}")
             else:
-                seen.add(entity_id)
+                seen_ids.add(entity_id)
 
-        # The glossary has its own compact term/value record format.
-        if path.name == "glossary.json":
-            continue
+            if is_glossary:
+                if not isinstance(entry.get("source_term"), str) or not entry["source_term"].strip():
+                    self.error(f"{label} has an empty source_term")
+                if not isinstance(entry.get("translation"), str) or not entry["translation"].strip():
+                    self.error(f"{label} has an empty translation")
+                if entry.get("status") not in ALLOWED_STATUSES:
+                    self.error(f"{label} has unsupported glossary status")
+                continue
 
-        missing = required_fields - entry.keys()
-        if missing:
-            errors.append(f"{label} is missing fields: {', '.join(sorted(missing))}")
-            continue
+            for field in ("source_name", "arabic_name"):
+                if not isinstance(entry.get(field), str) or not entry[field].strip():
+                    self.error(f"{label} has an empty/invalid {field}")
+            if entry.get("translation_status") not in ALLOWED_STATUSES:
+                self.error(f"{label} has unsupported translation_status")
+            self.validate_source(label, entry.get("source"))
+            if isinstance(entry.get("arabic_name"), str) and entry["arabic_name"].strip():
+                if not ARABIC_RE.search(entry["arabic_name"]):
+                    self.warning(f"{label} Arabic name contains no Arabic-script character")
+            if "description_ar" in entry and entry["description_ar"] is not None:
+                if not isinstance(entry["description_ar"], str):
+                    self.error(f"{label} description_ar must be a string or null")
+                elif not entry["description_ar"].strip():
+                    self.warning(f"{label} has an empty description_ar")
 
-        if not isinstance(entry["translation_status"], str) or entry["translation_status"] not in allowed_statuses:
-            errors.append(f"{label} has unsupported translation_status")
-        if not isinstance(entry["source"], list) or not entry["source"]:
-            errors.append(f"{label} must include at least one source record")
-        if not isinstance(entry["arabic_name"], str):
-            errors.append(f"{label} arabic_name must be a string")
+    def glossary_index(self) -> dict[str, str]:
+        glossary = self.data.get("glossary.json", {}).get("entries", [])
+        by_source: dict[str, str] = {}
+        seen_ids: set[str] = set()
+        for index, term in enumerate(glossary):
+            if not isinstance(term, dict):
+                continue
+            source = term.get("source_term")
+            translation = term.get("translation")
+            if not isinstance(source, str) or not isinstance(translation, str):
+                continue
+            if source in by_source and by_source[source] != translation:
+                self.error(f"Glossary has conflicting translations for source term: {source}")
+            elif source in by_source:
+                self.error(f"Glossary repeats source term: {source}")
+            by_source[source] = translation
+        return by_source
 
-if errors:
-    print("\n".join(errors))
-    sys.exit(1)
+    def check_glossary_links(self) -> None:
+        terms = self.glossary_index()
+        for filename in ("materials.json", "resources.json"):
+            for entry in self.data.get(filename, {}).get("entries", []):
+                if not isinstance(entry, dict):
+                    continue
+                source = entry.get("source_name")
+                if source in terms and entry.get("arabic_name") != terms[source]:
+                    self.error(
+                        f"ar/{filename}: {entry.get('id')} disagrees with glossary "
+                        f"for {source!r}: {entry.get('arabic_name')!r} != {terms[source]!r}"
+                    )
+                item_type = entry.get("item_type")
+                if item_type and item_type not in terms:
+                    self.warning(
+                        f"ar/{filename}: item_type {item_type!r} has no glossary entry"
+                    )
 
-print(f"Validated JSON syntax and catalog records in {checked} files.")
+        for entry in self.data.get("characters.json", {}).get("entries", []):
+            if not isinstance(entry, dict):
+                continue
+            for field, mapping in (
+                ("element", ELEMENT_TERMS),
+                ("weapon_type", CHARACTER_WEAPON_TERMS),
+            ):
+                value = entry.get(field)
+                source_term = mapping.get(value)
+                if source_term and source_term not in terms:
+                    self.error(f"characters.json: missing glossary term {source_term!r} for {field}")
+
+        for entry in self.data.get("weapons.json", {}).get("entries", []):
+            if not isinstance(entry, dict):
+                continue
+            source_term = WEAPON_TYPE_TERMS.get(entry.get("weapon_type"))
+            if source_term and source_term not in terms:
+                self.error(f"weapons.json: missing glossary term {source_term!r} for weapon_type")
+
+    def check_talent_references(self) -> None:
+        characters = self.data.get("characters.json", {}).get("entries", [])
+        talents = self.data.get("talents.json", {}).get("entries", [])
+        character_by_id = {
+            item.get("id"): item for item in characters
+            if isinstance(item, dict) and isinstance(item.get("id"), str)
+        }
+        for index, talent in enumerate(talents):
+            if not isinstance(talent, dict):
+                continue
+            label = f"talents.json: entry {index + 1} ({talent.get('id', 'no id')})"
+            character_id = talent.get("character_id")
+            character = character_by_id.get(character_id)
+            if character is None:
+                self.error(f"{label} references unknown character_id {character_id!r}")
+                continue
+            if talent.get("character_name_ar") != character.get("arabic_name"):
+                self.error(
+                    f"{label} character_name_ar does not match characters.json "
+                    f"for {character_id}"
+                )
+
+    def check_global_ids(self) -> None:
+        owners: dict[str, str] = {}
+        for filename, data in self.data.items():
+            for entry in data.get("entries", []):
+                if not isinstance(entry, dict):
+                    continue
+                entity_id = entry.get("id")
+                if not isinstance(entity_id, str):
+                    continue
+                if entity_id in owners:
+                    self.error(
+                        f"ID {entity_id!r} is shared by {owners[entity_id]} and ar/{filename}"
+                    )
+                else:
+                    owners[entity_id] = f"ar/{filename}"
+
+    def run(self) -> int:
+        self.load_catalogs()
+        if "glossary.json" in self.data:
+            self.check_glossary_links()
+        if "characters.json" in self.data and "talents.json" in self.data:
+            self.check_talent_references()
+        self.check_global_ids()
+
+        print(
+            f"Checked {len(self.data)} Arabic JSON catalogs and "
+            f"{self.entry_count} records."
+        )
+        if self.warnings:
+            print(f"\nWarnings ({len(self.warnings)}):")
+            for message in self.warnings:
+                print(f"  WARN: {message}")
+        if self.errors:
+            print(f"\nErrors ({len(self.errors)}):")
+            for message in self.errors:
+                print(f"  ERROR: {message}")
+            return 1
+        print("PASS: JSON structure, IDs, source metadata, glossary links, and talent references.")
+        return 0
+
+
+if __name__ == "__main__":
+    sys.exit(Validator().run())
