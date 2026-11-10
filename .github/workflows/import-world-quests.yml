@@ -1,0 +1,63 @@
+name: Import complete World Quest catalog
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - arabic-localization-catalog
+    paths:
+      - 'scripts/import_world_quests.py'
+      - '.github/workflows/import-world-quests.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-world-quests-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout catalog branch
+        uses: actions/checkout@v4
+        with:
+          ref: arabic-localization-catalog
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Import all World Quest records from pinned source
+        run: python scripts/import_world_quests.py
+
+      - name: Validate JSON structure
+        run: |
+          python -m json.tool localization/ar/quests_world.json > /dev/null
+          python - <<'PY'
+          import json
+          p='localization/ar/quests_world.json'
+          d=json.load(open(p,encoding='utf-8'))
+          ids=[x['id'] for x in d['entries']]
+          assert len(ids)==len(set(ids)), 'duplicate quest IDs'
+          assert all(x['quest_type']=='world' for x in d['entries'])
+          assert all(x['arabic_name']=='' and x['translation_status']=='needs_translation'
+                     for x in d['entries']), 'untranslated records must be explicitly marked'
+          print('Validated',len(ids),'world quest/chapter records')
+          PY
+
+      - name: Commit imported catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add localization/ar/quests_world.json localization/WORLD_QUEST_IMPORT_REPORT.md
+          if git diff --cached --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git commit -m "Import complete world quest catalog"
+          git push origin HEAD:arabic-localization-catalog
