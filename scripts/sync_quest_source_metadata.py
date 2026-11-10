@@ -190,7 +190,7 @@ def main() -> int:
         if source is None:
             continue
         for catalog_type, entry in targets:
-            normalize_title = lambda value: str(value).strip().strip(' \\"\\'“”‘’').casefold()
+            normalize_title = lambda value: str(value).strip().strip("\"'“”‘’").casefold()
             if normalize_title(entry.get("source_name", "")) != normalize_title(source["title"]):
                 errors.append(
                     f"Quest {quest_id}: English title mismatch "
