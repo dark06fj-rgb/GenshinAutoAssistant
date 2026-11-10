@@ -648,9 +648,12 @@ jobs:
                   floatingMenuParams.gravity=Gravity.TOP|Gravity.LEFT;
                   floatingMenuParams.x=dp(12);
                   floatingMenuParams.y=dp(130);
-                  header.setOnTouchListener(new android.view.View.OnTouchListener(){
+                  // Attach dragging only to the title; a listener on the whole header
+                  // consumes taps before the collapse button can receive its click.
+                  title.setOnTouchListener(new android.view.View.OnTouchListener(){
                       float downX,downY; int startX,startY;
                       @Override public boolean onTouch(android.view.View view,android.view.MotionEvent event) {
+                          if(floatingMenuParams==null || overlayManager==null) return false;
                           if(event.getAction()==android.view.MotionEvent.ACTION_DOWN) {
                               downX=event.getRawX(); downY=event.getRawY();
                               startX=floatingMenuParams.x; startY=floatingMenuParams.y;
@@ -662,7 +665,8 @@ jobs:
                               try { overlayManager.updateViewLayout(floatingMenu,floatingMenuParams); } catch(Exception ignored) {}
                               return true;
                           }
-                          return event.getAction()==android.view.MotionEvent.ACTION_UP;
+                          return event.getAction()==android.view.MotionEvent.ACTION_UP
+                              || event.getAction()==android.view.MotionEvent.ACTION_CANCEL;
                       }
                   });
                   try {
@@ -687,7 +691,17 @@ jobs:
                   LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-1,-2);
                   lp.topMargin=dp(5);
                   floatingMenuItems.addView(item,lp);
-                  item.setOnClickListener(v->action.run());
+                  item.setClickable(true);
+                  item.setFocusable(true);
+                  item.setOnClickListener(v->{
+                      try {
+                          Toast.makeText(this,"تم الضغط: "+label,Toast.LENGTH_SHORT).show();
+                          action.run();
+                      } catch(Exception e) {
+                          Toast.makeText(this,"تعذر تنفيذ "+label+": "+e.getClass().getSimpleName(),Toast.LENGTH_LONG).show();
+                          android.util.Log.e("GenshinAssistant","Floating menu action failed: "+label,e);
+                      }
+                  });
               }
               void clearResourceMarkers() {
                   if(overlayManager!=null) {
