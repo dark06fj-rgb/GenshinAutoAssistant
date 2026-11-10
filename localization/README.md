@@ -36,3 +36,23 @@ This is a translation/reference catalog. It does **not** modify the game, patch 
 8. Store Arabic in logical Unicode order; any future viewer must handle RTL and Arabic shaping.
 
 All seed translations are drafts, not official HoYoverse translations.
+
+## Automatic weapon metadata import
+
+The weapon importer uses the public `genshin-db` API and stores a compact roster
+(name, rarity, and weapon type where available). It preserves existing Arabic
+translations by stable catalog ID and does not copy long passive descriptions.
+
+Run locally with Python 3:
+
+```bash
+python scripts/import_weapon_catalog.py
+python scripts/validate_localization.py
+```
+
+A GitHub Actions workflow is also available at
+`.github/workflows/weapon-catalog-import.yml`. It can be started manually from
+the Actions tab, and commits an updated weapon catalog to
+`arabic-localization-catalog` when the imported data changes. The importer
+requires network access to the upstream public API. Imported Arabic names remain
+drafts or `needs_context`; they are not official translations.
