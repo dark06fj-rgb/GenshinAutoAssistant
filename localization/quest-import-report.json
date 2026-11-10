@@ -102,7 +102,7 @@
     "archon_quest": 208,
     "world_chapter": 67,
     "world_series": 90,
-    "world_quest": 1526
+    "world_quest": 1506
   },
   "cycle_prerequisite_edges_dropped": 4,
   "catalog_counts": {
@@ -110,7 +110,7 @@
     "archon_quest": 208,
     "world_chapter": 67,
     "world_series": 90,
-    "world_quest": 1544
+    "world_quest": 1508
   },
   "unresolved_title_source_ids": [
     "74173"
