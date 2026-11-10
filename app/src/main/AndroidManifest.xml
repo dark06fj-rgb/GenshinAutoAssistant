@@ -10,7 +10,7 @@
 
     <application
         android:theme="@style/AppTheme"
-        android:label="Genshin Resource &amp; Translate"
+        android:label="Teyvat Companion"
         android:allowBackup="false"
         android:supportsRtl="true">
 
