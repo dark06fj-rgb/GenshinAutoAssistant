@@ -7649,7 +7649,7 @@
       "source_quest_id": "20602",
       "source_name": "Not to be Missed",
       "arabic_name": "فرصة لا تفوّت",
-      "description_ar": null,
+      "description_ar": "انحسرت العاصفة، لكن يبدو أن سايروس غير راضٍ...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7671,7 +7671,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -7696,7 +7696,7 @@
       "source_quest_id": "20603",
       "source_name": "Time Waits For No Man",
       "arabic_name": "الزمن لا ينتظر أحداً",
-      "description_ar": null,
+      "description_ar": "انتهت أزمة موندشتات، لكن سايروس يبدو... غير سعيد؟",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7718,7 +7718,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -7744,7 +7744,7 @@
       "source_quest_id": "20740",
       "source_name": "Flighty Flora... and Flora",
       "arabic_name": "فلورا المتقلبة... وفلورا",
-      "description_ar": null,
+      "description_ar": "فلورا المتقلبة... وفلورا: فلورا، صاحبة متجر الزهور في موندشتات، مستاءة للغاية... يبدو أن الرياح بعثرت فجأة كثيراً من أزهارها، وهي تبحث عمّن يساعدها...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7766,7 +7766,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -7790,7 +7790,7 @@
       "source_quest_id": "20741",
       "source_name": "Mondstadt and its Archon",
       "arabic_name": "موندشتات وأرشدها",
-      "description_ar": null,
+      "description_ar": "بعد أن نجت موندشتات من الكارثة، ترغب الأخت غريس في تقديم الشكر لأرْكون الرياح على حمايته للمدينة.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7812,7 +7812,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -7838,7 +7838,7 @@
       "source_quest_id": "20743",
       "source_name": "Windrise, Windfall",
       "arabic_name": "ويندرايز، ويندفول",
-      "description_ar": null,
+      "description_ar": "أثّرت العواصف الأخيرة في أعمال مصنع فجر النبيذ، لذا يحاول إلزر جاهداً ابتكار أفكار لإعادة الأمور إلى نصابها...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -7860,7 +7860,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -8690,7 +8690,7 @@
       "source_quest_id": "25001",
       "source_name": "Adventure Rank Ascension 1",
       "arabic_name": "ترقية رتبة المغامرة 1",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8712,7 +8712,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -8736,7 +8736,7 @@
       "source_quest_id": "25003",
       "source_name": "Adventure Rank Ascension 2",
       "arabic_name": "ترقية رتبة المغامرة 2",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8758,7 +8758,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -8780,7 +8780,7 @@
       "source_quest_id": "25005",
       "source_name": "Adventure Rank Ascension 2",
       "arabic_name": "ترقية رتبة المغامرة 2",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8802,7 +8802,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -8826,7 +8826,7 @@
       "source_quest_id": "25007",
       "source_name": "Adventure Rank Ascension 2",
       "arabic_name": "ترقية رتبة المغامرة 2",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8848,7 +8848,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -8870,7 +8870,7 @@
       "source_quest_id": "25009",
       "source_name": "Adventure Rank Ascension 3",
       "arabic_name": "ترقية رتبة المغامرة 3",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8892,7 +8892,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -8916,7 +8916,7 @@
       "source_quest_id": "25011",
       "source_name": "Adventure Rank Ascension 4",
       "arabic_name": "ترقية رتبة المغامرة 4",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8938,7 +8938,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -8962,7 +8962,7 @@
       "source_quest_id": "25013",
       "source_name": "Adventure Rank Ascension 7",
       "arabic_name": "ترقية رتبة المغامرة 7",
-      "description_ar": null,
+      "description_ar": "نشرت نقابة المغامرين تكليفاً طارئاً لاستعادة أثر قديم. سيؤثر أداء المغامر الذي يقبل التحدي في تصنيفه داخل النقابة. اتخذ خطوتك التالية نحو النجوم والهاوية.",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -8984,7 +8984,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -9006,7 +9006,7 @@
       "source_quest_id": "25015",
       "source_name": "World Level Ascension",
       "arabic_name": "ترقية مستوى العالم",
-      "description_ar": null,
+      "description_ar": "يوشك هذا العالم أن يصبح مكاناً أشد خطراً على المغامرين. افتحوا تحديات جديدة، يا من استعددتم لها. إلى النجوم والهاوية!",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -9028,7 +9028,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_GUIDE",
@@ -9052,7 +9052,7 @@
       "source_quest_id": "40000",
       "source_name": "Liyue: Theater Mechanicus",
       "arabic_name": "ليويه: مسرح ميكانيكوس",
-      "description_ar": null,
+      "description_ar": "يروّج رويجين من ميناء ليويه لـ«لعبة» جديدة...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -9074,7 +9074,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -9385,7 +9385,7 @@
       "source_quest_id": "40096",
       "source_name": "Between Facades and Familiar Faces",
       "arabic_name": "بين الواجهات والوجوه المألوفة",
-      "description_ar": null,
+      "description_ar": "حان الآن موعد حضور مأدبة هو تاو. تتجه إلى كشك شينيوي برفقة بايمون...",
       "chapter_id": null,
       "act_id": null,
       "series_id": "40092",
@@ -9407,7 +9407,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "series": 40092,
         "type": "WQ",
@@ -10177,7 +10177,7 @@
       "source_quest_id": "41120",
       "source_name": "That Which Fell From the Sky",
       "arabic_name": "ما سقط من السماء",
-      "description_ar": null,
+      "description_ar": "بسبب تساقط النيازك المستمر من السماء، أصبح الخروج غير آمن. تشعر الأخت غريس بقلق بالغ على الأشخاص العالقين في البرية...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -10199,7 +10199,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -10221,7 +10221,7 @@
       "source_quest_id": "41122",
       "source_name": "To Each Their Duty",
       "arabic_name": "لكل امرئ واجبه",
-      "description_ar": null,
+      "description_ar": "على الرغم من تساقط الصخور من السماء، لا يزال بعض فرسان فافونيوس يؤدون واجباتهم خارج المدينة. ويشعر هوفمان بقلق شديد عليهم...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -10243,7 +10243,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -10265,7 +10265,7 @@
       "source_quest_id": "41123",
       "source_name": "Contingencies",
       "arabic_name": "تدابير احتياطية",
-      "description_ar": null,
+      "description_ar": "ينشغل هوفمان حالياً إلى حد كبير بالتعامل مع النيازك الساقطة، حتى إنه بالكاد يجد وقتاً لأي شيء آخر...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -10287,7 +10287,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -10309,7 +10309,7 @@
       "source_quest_id": "41124",
       "source_name": "\"That Guy\"'s Scheme",
       "arabic_name": "خطة ذلك الرجل",
-      "description_ar": null,
+      "description_ar": "قلبت النيازك الساقطة موندشتات رأساً على عقب. لكن يبدو أن فيل الغامضة تبحث عمّن يساعدها في أمر صغير...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -10331,7 +10331,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
@@ -10353,7 +10353,7 @@
       "source_quest_id": "41126",
       "source_name": "Trouble With Letters",
       "arabic_name": "مشكلة مع الرسائل",
-      "description_ar": null,
+      "description_ar": "بسبب زخّات النيازك، أُلغيت مجدداً خطط جيايي للعودة إلى منزله ورؤية عائلته. وهو يبحث عمّن يوصل رسالة إلى قرية تشينغتسه...",
       "chapter_id": null,
       "act_id": null,
       "series_id": null,
@@ -10375,7 +10375,7 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها.",
+      "review_notes": "ملخص عربي موجز مترجم اعتماداً على وصف المصدر الإنجليزي المثبت؛ يحتاج إلى مراجعة تحريرية.",
       "source_main_quest_metadata": {
         "type": "WQ",
         "mainQuestTag": "MAINQUEST_TAG_NONE",
