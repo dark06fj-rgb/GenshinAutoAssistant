@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "language": "ar",
   "catalog_type": "characters",
-  "game_version": null,
+  "game_version": "7.2",
   "entries": [
     {
       "id": "character.albedo",
@@ -2177,6 +2177,96 @@
       ],
       "translation_status": "draft",
       "review_notes": "نقل صوتي عربي أولي للاسم؛ غير رسمي ويحتاج مراجعة لغوية ومطابقة الاستعمال العربي الشائع."
+    },
+    {
+      "id": "character.10000066",
+      "category": "character",
+      "source_name": "Kamisato Ayato",
+      "arabic_name": "كاميساتو أياتو",
+      "element": "Hydro",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/kamisatoayato.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "أضيف بعد مطابقة قائمة الشخصيات القابلة للعب في الإصدار 7.2؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.10000015",
+      "category": "character",
+      "source_name": "Kaeya",
+      "arabic_name": "كايا",
+      "element": "Cryo",
+      "weapon_type": "Sword",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/kaeya.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "أضيف بعد مطابقة قائمة الشخصيات القابلة للعب في الإصدار 7.2؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.10000063",
+      "category": "character",
+      "source_name": "Shenhe",
+      "arabic_name": "شينهي",
+      "element": "Cryo",
+      "weapon_type": "Polearm",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/shenhe.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "أضيف بعد مطابقة قائمة الشخصيات القابلة للعب في الإصدار 7.2؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.10000114",
+      "category": "character",
+      "source_name": "Skirk",
+      "arabic_name": "سكيرك",
+      "element": "Cryo",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/skirk.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "أضيف بعد مطابقة قائمة الشخصيات القابلة للعب في الإصدار 7.2؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
+    },
+    {
+      "id": "character.10000111",
+      "category": "character",
+      "source_name": "Varesa",
+      "arabic_name": "فاريسا",
+      "element": "Electro",
+      "weapon_type": "Catalyst",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/characters/varesa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "أضيف بعد مطابقة قائمة الشخصيات القابلة للعب في الإصدار 7.2؛ الاسم العربي نقل صوتي أولي غير رسمي ويحتاج مراجعة بشرية."
     }
   ]
 }
