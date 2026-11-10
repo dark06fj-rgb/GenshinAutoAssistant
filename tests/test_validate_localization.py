@@ -450,5 +450,93 @@ class ValidatorRegressionTests(unittest.TestCase):
         self.assertFalse(validator.errors)
 
 
+    def test_source_backed_talent_summary_corrections_remain_draft(self):
+        root = Path(__file__).resolve().parents[1]
+        catalog_path = root / "localization" / "ar" / "talents.json"
+        entries = json.loads(catalog_path.read_text(encoding="utf-8"))["entries"]
+        by_id = {entry["id"]: entry for entry in entries}
+        expected = {
+            "character.beidou.talent.skill": (
+                ("عدد مرات تعرضها للهجوم",),
+                ("الضرر الذي امتصته",),
+            ),
+            "character.beidou.talent.burst": (
+                ("مقاومة المقاطعة", "تفريغات برق متسلسلة"),
+                ("درعاً كهربائياً",),
+            ),
+            "character.hutao.talent.skill": (
+                ("علامة زهر الدم", "ضرر بايرو دورياً"),
+                ("تضعف الأعداء",),
+            ),
+            "character.razor.talent.burst": (
+                ("مقاومته للمقاطعة", "مناعة من ضرر حالة الشحن الكهربائي"),
+                ("مقاومته الكهربائية ومقاطعة الأعداء له",),
+            ),
+            "character.noelle.talent.skill": (
+                ("فرصة لاستعادة صحة جميع أعضاء الفريق",),
+                (),
+            ),
+            "character.noelle.talent.burst": (
+                ("يزيد هجومها بحسب دفاعها",),
+                (),
+            ),
+            "character.ganyu.talent.normal": (
+                ("سهماً إكليلياً", "ضرر كرايو واسعاً"),
+                ("انفجار جليدي واسع",),
+            ),
+            "character.ganyu.talent.burst": (
+                ("ضرر كرايو", "باستمرار"),
+                ("لؤلؤة جليدية",),
+            ),
+            "character.nahida.talent.normal": (
+                ("هجمات دندرو",),
+                ("هجمات نباتية",),
+            ),
+            "character.prune.talent.normal": (
+                ("ضربات أنيمو",),
+                ("ضربات هوائية",),
+            ),
+            "character.wanderer.talent.skill": (
+                ("ضربات أنيمو",),
+                ("ضربات هوائية",),
+            ),
+            "character.gorou.talent.normal": (
+                ("سهم جيو",),
+                ("سهم جغرافي",),
+            ),
+            "character.illuga.talent.burst": (
+                ("إنشاءات جيو", "تراكمات إضافية"),
+                ("المنشآت الجغرافية",),
+            ),
+            "character.linnea.talent.normal": (
+                ("سهم جيو",),
+                ("سهم جغرافي",),
+            ),
+            "character.navia.talent.skill": (
+                ("ضرر جيو", "تخترق الأعداء"),
+                ("روسولا الجغرافية",),
+            ),
+            "character.navia.talent.burst": (
+                ("ضرر جيو", "الأعداء القريبين"),
+                ("قصفاً مدفعياً جغرافياً",),
+            ),
+            "character.chiori.talent.skill": (
+                ("إنشاءات جيو",),
+                ("إنشاءات جغرافية",),
+            ),
+        }
+        for talent_id, (required, forbidden) in expected.items():
+            with self.subTest(talent_id=talent_id):
+                self.assertIn(talent_id, by_id)
+                entry = by_id[talent_id]
+                summary = entry["description_ar"]
+                for phrase in required:
+                    self.assertIn(phrase, summary)
+                for phrase in forbidden:
+                    self.assertNotIn(phrase, summary)
+                self.assertEqual(entry["translation_status"], "draft")
+
+
+
 if __name__ == "__main__":
     unittest.main()
