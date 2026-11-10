@@ -1,4 +1,4 @@
-name: Import complete World Quest catalog
+name: Import complete World Quest catalog (pinned 7.2 snapshot)
 
 on:
   workflow_dispatch:
