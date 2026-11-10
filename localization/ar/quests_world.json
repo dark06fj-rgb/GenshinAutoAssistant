@@ -2727,7 +2727,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 1654035231,
+        "description": 1762554878
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10025,
+        "series": 72100,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          72107
+        ]
+      }
     },
     {
       "id": "quest.world.quest.72100",
@@ -2762,7 +2775,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 4246870127,
+        "description": 3046670766
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10025,
+        "series": 72100,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          72105
+        ]
+      }
     },
     {
       "id": "quest.world.quest.72107",
@@ -2797,7 +2823,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 2145198927,
+        "description": 2268671990
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10025,
+        "series": 72100,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          72100
+        ]
+      }
     },
     {
       "id": "quest.world.quest.72108",
@@ -2832,7 +2871,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1009297543,
+        "description": 2749779366
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10025,
+        "series": 72100,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          72100
+        ]
+      }
     },
     {
       "id": "quest.world.quest.72105",
@@ -2868,7 +2920,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1945689855,
+        "description": 3984731318
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10025,
+        "series": 72100,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72114",
@@ -2901,7 +2963,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1858503383,
+        "description": 2299722238
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72115",
@@ -2936,7 +3007,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1495904223,
+        "description": 585506550
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72116",
@@ -2971,7 +3051,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 2233104247,
+        "description": 1994194190
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72117",
@@ -3006,7 +3095,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 944204063,
+        "description": 3196338054
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72118",
@@ -3041,7 +3139,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 2674553551,
+        "description": 3209733238
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72119",
@@ -3076,7 +3183,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 3185866927,
+        "description": 4281875414
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72120",
@@ -3111,7 +3227,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 2410441815,
+        "description": 862024214
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72122",
@@ -3146,7 +3271,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1569473791,
+        "description": 2765136494
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10036,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ"
+      }
     },
     {
       "id": "quest.world.quest.72123",
@@ -3181,7 +3315,15 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 3826181287,
+        "description": 318970126
+      },
+      "source_main_quest_metadata": {
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72124",
@@ -3214,7 +3356,15 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1727940143,
+        "description": 1850439534
+      },
+      "source_main_quest_metadata": {
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72154",
@@ -3249,7 +3399,15 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 3862293215,
+        "description": 2770953046
+      },
+      "source_main_quest_metadata": {
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72133",
@@ -3282,7 +3440,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 4155151279,
+        "description": 3266313670
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72129",
@@ -3315,7 +3482,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 1025 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 2638013831,
+        "description": 1412778310
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72130",
@@ -3350,7 +3526,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "يوجد متطلب إضافي 1025 غير مدرج في الكتالوج الحالي."
+      "review_notes": "يوجد متطلب إضافي 1025 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 3334183007,
+        "description": 744646318
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72131",
@@ -3385,7 +3570,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "يوجد متطلب إضافي 1025 غير مدرج في الكتالوج الحالي."
+      "review_notes": "يوجد متطلب إضافي 1025 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 2474356655,
+        "description": 3492908574
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72134",
@@ -3422,7 +3616,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1495501791,
+        "description": 1530289486
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.world.quest.72132",
@@ -3457,7 +3660,16 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 305154495,
+        "description": 3704291174
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     }
   ]
 }

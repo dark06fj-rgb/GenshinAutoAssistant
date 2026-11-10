@@ -2326,7 +2326,19 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 597412161,
+        "description": 1008401167
+      },
+      "source_main_quest_metadata": {
+        "series": 1001,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "suggestTrackMainQuestList": [
+          352
+        ]
+      }
     },
     {
       "id": "quest.archon.quest.birds_eye_view",
@@ -2361,7 +2373,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 1595243881,
+        "description": 4079689231
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1001,
+        "series": 1001,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "suggestTrackMainQuestList": [
+          353
+        ]
+      }
     },
     {
       "id": "quest.archon.quest.unexpected_power",
@@ -2396,7 +2421,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة."
+      "review_notes": "ملخص عربي موجز مترجم عن وصف المهمة الإنجليزي؛ الترجمة ما زالت مسودة.",
+      "source_text_map_hashes": {
+        "title": 3070624785,
+        "description": 2054916031
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1001,
+        "series": 1001,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "suggestTrackMainQuestList": [
+          355
+        ]
+      }
     },
     {
       "id": "quest.archon.quest.reunion_with_the_dragon",
@@ -2429,7 +2467,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 383 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 383 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 1797437065,
+        "description": 181808063
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1002,
+        "series": 1002,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE",
+        "suggestTrackMainQuestList": [
+          397
+        ]
+      }
     },
     {
       "id": "quest.archon.quest.ending_note",
@@ -2462,7 +2513,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 398 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 398 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 4079397641,
+        "description": 3000630519
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1003,
+        "series": 1003,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.dust_to_dust",
@@ -2495,7 +2556,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "متطلبات الفتح 1003 و1008 و1009 غير مدرجة في الكتالوج الحالي."
+      "review_notes": "متطلبات الفتح 1003 و1008 و1009 غير مدرجة في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 3873565161,
+        "description": 2544792311
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1101,
+        "series": 1101,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.zhonglis_treat",
@@ -2528,7 +2599,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 1015 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 1015 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 1207725753,
+        "description": 3653856391
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1102,
+        "series": 1101,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.the_fond_farewell",
@@ -2561,7 +2642,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 1024 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 1024 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 2849435409,
+        "description": 1908491559
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1103,
+        "series": 1101,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.follow_the_wind",
@@ -2594,7 +2685,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 2001 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 2001 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 3473314535,
+        "description": 2024314502
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1201,
+        "series": 1201,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.a_flower_blooms_in_a_prison",
@@ -2627,7 +2728,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 2006 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 2006 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 3043740727,
+        "description": 2882723302
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1202,
+        "series": 1201,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.in_the_name_of_the_resistance",
@@ -2660,7 +2771,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 2008 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 2008 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 56189327,
+        "description": 2612484278
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1203,
+        "series": 1201,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     },
     {
       "id": "quest.archon.quest.wishes",
@@ -2693,7 +2814,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 2020 غير مدرج في الكتالوج الحالي."
+      "review_notes": "المتطلب السابق 2020 غير مدرج في الكتالوج الحالي.",
+      "source_text_map_hashes": {
+        "title": 3806214671,
+        "description": 1196854086
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 1204,
+        "series": 1210,
+        "type": "AQ",
+        "mainQuestTag": "MAINQUEST_TAG_NONE"
+      }
     }
   ]
 }
