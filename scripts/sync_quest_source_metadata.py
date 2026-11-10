@@ -1,277 +1,460 @@
 #!/usr/bin/env python3
-"""Resolve quest source hashes by stable IDs without fetching TextMapEN.json."""
+"""Expand Archon and World Quest catalogs from pinned, per-ID source records.
+
+The importer downloads small structured quest/chapter tables and only the
+individual English quest records selected as AQ/WQ. It never downloads TextMapEN.
+"""
 from __future__ import annotations
 
 import json
 import sys
+import time
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGS = {
-    ROOT / "localization/ar/quests_archon.json": "archon",
-    ROOT / "localization/ar/quests_world.json": "world",
+    "archon": ROOT / "localization/ar/quests_archon.json",
+    "world": ROOT / "localization/ar/quests_world.json",
 }
 ANIME_COMMIT = "d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1"
-CHAPTER_URL = (
+GI_COMMIT = "9651f89b8b4af8815cb193e147c84e3fb43ede63"
+ANIME_BASE = (
     "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/"
-    f"{ANIME_COMMIT}/ExcelBinOutput/ChapterExcelConfigData.json"
+    f"{ANIME_COMMIT}/ExcelBinOutput"
 )
-GI_QUEST_BASE = (
+GI_BASE = (
     "https://raw.githubusercontent.com/lzray-universe/GI-OnlineQuest/"
-    "9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests"
+    f"{GI_COMMIT}"
 )
-USER_AGENT = "GenshinArabicQuestCatalog/1.0"
+GI_TREE_URL = (
+    "https://api.github.com/repos/lzray-universe/GI-OnlineQuest/"
+    f"git/trees/{GI_COMMIT}?recursive=1"
+)
+USER_AGENT = "GenshinArabicQuestCatalog/2.0"
+REGIONS = {
+    1: "Mondstadt",
+    2: "Liyue",
+    3: "Inazuma",
+    4: "Sumeru",
+    5: "Fontaine",
+    6: "Natlan",
+    7: "Nod-Krai",
+}
 
 
-def fetch_json(url: str):
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=45) as response:
-        return json.loads(response.read().decode("utf-8"))
+def fetch_json(url: str, attempts: int = 4):
+    last_error = None
+    for attempt in range(attempts):
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "application/vnd.github+json, application/json",
+            },
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=35) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            last_error = exc
+            if exc.code == 404:
+                raise
+            if exc.code not in (403, 429, 500, 502, 503, 504):
+                raise
+        except (TimeoutError, urllib.error.URLError, json.JSONDecodeError) as exc:
+            last_error = exc
+        time.sleep(min(2 ** attempt, 12))
+    raise RuntimeError(f"Could not fetch {url}: {last_error}")
 
 
-def fetch_chapters() -> dict[str, dict]:
-    rows = fetch_json(CHAPTER_URL)
-    if not isinstance(rows, list):
-        raise ValueError("ChapterExcelConfigData response is not an array")
-    result = {}
-    for row in rows:
-        if not isinstance(row, dict) or row.get("id") is None:
-            continue
-        key = str(row["id"])
-        if key in result:
-            raise ValueError(f"Duplicate chapter ID in pinned source: {key}")
-        result[key] = row
-    return result
+def fetch_source_tables():
+    chapters = fetch_json(
+        f"{ANIME_BASE}/ChapterExcelConfigData.json"
+    )
+    main_quests = fetch_json(
+        f"{ANIME_BASE}/MainQuestExcelConfigData.json"
+    )
+    tree = fetch_json(GI_TREE_URL)
+    if not isinstance(chapters, list) or len(chapters) < 100:
+        raise ValueError("Pinned ChapterExcelConfigData is incomplete")
+    if not isinstance(main_quests, list) or len(main_quests) < 1000:
+        raise ValueError("Pinned MainQuestExcelConfigData is incomplete")
+    if tree.get("truncated"):
+        raise ValueError("GI-OnlineQuest source tree is truncated")
+    available_ids = set()
+    for item in tree.get("tree", []):
+        prefix = "EN/quests/"
+        path = item.get("path", "")
+        if path.startswith(prefix) and path.endswith(".json"):
+            quest_id = path[len(prefix):-5]
+            if quest_id.isdigit():
+                available_ids.add(quest_id)
+    if len(available_ids) < 1000:
+        raise ValueError("Pinned GI-OnlineQuest English quest roster is incomplete")
+    return chapters, main_quests, available_ids
 
 
-def fetch_individual_quest(quest_id: str) -> dict:
-    payload = fetch_json(f"{GI_QUEST_BASE}/{quest_id}.json")
+def quest_type(row: dict) -> str | None:
+    value = row.get("type")
+    if value in ("AQ", "WQ"):
+        return value
+    raw = row.get("mainQuestRaw")
+    if isinstance(raw, dict) and raw.get("type") in ("AQ", "WQ"):
+        return raw["type"]
+    return None
+
+
+def fetch_quest(quest_id: str, expected_type: str) -> dict:
+    payload = fetch_json(f"{GI_BASE}/EN/quests/{quest_id}.json")
     if not isinstance(payload, dict) or str(payload.get("mainQuestId")) != quest_id:
-        raise ValueError(f"Quest {quest_id}: source returned a mismatched record")
-    title = payload.get("title")
-    title_hash = payload.get("titleTextMapHash")
-    desc_hash = payload.get("descTextMapHash")
-    if not isinstance(title, str) or not title.strip():
-        raise ValueError(f"Quest {quest_id}: source title is missing")
-    if not isinstance(title_hash, int):
-        raise ValueError(f"Quest {quest_id}: titleTextMapHash is missing")
-    if desc_hash is not None and not isinstance(desc_hash, int):
-        raise ValueError(f"Quest {quest_id}: descTextMapHash is invalid")
-
-    excel = payload.get("mainQuestExcel")
-    raw = excel.get("mainQuestRaw") if isinstance(excel, dict) else None
-    if not isinstance(raw, dict):
-        raw = {}
-    metadata_source = dict(raw)
-    if isinstance(excel, dict):
-        metadata_source.update(excel)
+        raise ValueError(f"Quest {quest_id}: source ID mismatch")
     meta = payload.get("meta")
     if not isinstance(meta, dict):
         meta = {}
-    source_type = (
-        meta.get("questType")
-        or metadata_source.get("type")
-        or payload.get("type")
-    )
-    metadata = {}
-    for key in (
-        "chapterId", "series", "type", "mainQuestTag",
-        "recommendLevel", "suggestTrackMainQuestList",
-    ):
-        value = metadata_source.get(key)
-        if value is not None and value != 0 and value != []:
-            metadata[key] = value
-    if source_type:
-        metadata["questType"] = source_type
-    quest_tag = str(source_type or "")
+    excel = payload.get("mainQuestExcel")
+    if not isinstance(excel, dict):
+        excel = {}
+    raw = excel.get("mainQuestRaw")
+    if not isinstance(raw, dict):
+        raw = {}
+    actual_type = meta.get("questType") or quest_type(raw) or quest_type(excel)
+    if actual_type != expected_type:
+        raise ValueError(
+            f"Quest {quest_id}: table type {expected_type} != detail type {actual_type!r}"
+        )
+    title = payload.get("title") or excel.get("title")
+    title_hash = payload.get("titleTextMapHash") or excel.get("titleTextMapHash")
+    desc_hash = payload.get("descTextMapHash") or excel.get("descTextMapHash")
+    if not isinstance(title, str) or not title.strip():
+        raise ValueError(f"Quest {quest_id}: English source title missing")
+    if not isinstance(title_hash, int):
+        raise ValueError(f"Quest {quest_id}: title text-map hash missing")
+    if desc_hash is not None and not isinstance(desc_hash, int):
+        raise ValueError(f"Quest {quest_id}: invalid description text-map hash")
+
+    def positive_int(value):
+        return value if isinstance(value, int) and not isinstance(value, bool) and value > 0 else None
+
+    chapter_id = positive_int(meta.get("chapterId") or raw.get("chapterId"))
+    series_id = positive_int(meta.get("series") or raw.get("series"))
+    city_id = positive_int(meta.get("cityId"))
+    need_level = positive_int(meta.get("needPlayerLevel"))
+    recommend_level = positive_int(meta.get("recommendLevel") or raw.get("recommendLevel"))
+    prerequisites = meta.get("preMainQuestIds", [])
+    if not isinstance(prerequisites, list):
+        prerequisites = []
+    prerequisites = sorted({
+        str(value) for value in prerequisites
+        if isinstance(value, int) and not isinstance(value, bool) and value > 0
+    })
+    next_ids = meta.get("nextMainQuestIds", [])
+    if not isinstance(next_ids, list):
+        next_ids = []
+    next_ids = sorted({
+        str(value) for value in next_ids
+        if isinstance(value, int) and not isinstance(value, bool) and value > 0
+    })
     return {
+        "id": quest_id,
+        "type": expected_type,
         "title": title.strip(),
-        "hashes": {"title": title_hash, "description": desc_hash},
-        "metadata": metadata,
-        "quest_tag": quest_tag,
+        "hashes": {
+            "title": title_hash,
+            **({"description": desc_hash} if isinstance(desc_hash, int) else {}),
+        },
+        "chapter_id": str(chapter_id) if chapter_id else None,
+        "series_id": str(series_id) if series_id else None,
+        "region": meta.get("cityName") or REGIONS.get(city_id),
+        "city_id": city_id,
+        "adventure_rank": need_level or recommend_level,
+        "prerequisites": prerequisites,
+        "next_ids": next_ids,
+        "meta": {
+            key: value for key, value in {
+                "chapterId": chapter_id,
+                "series": series_id,
+                "type": expected_type,
+                "mainQuestTag": meta.get("mainQuestTag") or raw.get("mainQuestTag"),
+                "recommendLevel": recommend_level,
+                "needPlayerLevel": need_level,
+                "cityId": city_id,
+                "cityName": meta.get("cityName"),
+                "preMainQuestIds": [int(x) for x in prerequisites],
+                "nextMainQuestIds": [int(x) for x in next_ids],
+            }.items() if value is not None
+        },
     }
 
 
-def chapter_hashes(row: dict) -> dict:
-    hashes = {}
-    for name, source_key in (
-        ("title", "chapterTitleTextMapHash"),
-        ("number", "chapterNumTextMapHash"),
-        ("image_title", "chapterImageTitleTextMapHash"),
-    ):
-        value = row.get(source_key)
-        if isinstance(value, int):
-            hashes[name] = value
-    if not hashes.get("title"):
-        raise ValueError(f"Chapter {row.get('id')}: chapter title hash is missing")
-    return hashes
+def existing_index(data: dict, expected_type: str) -> dict[str, dict]:
+    result = {}
+    for entry in data.get("entries", []):
+        if not isinstance(entry, dict):
+            continue
+        if entry.get("quest_type") != expected_type:
+            continue
+        source_id = entry.get("source_quest_id")
+        if source_id is not None:
+            key = (entry.get("node_type"), str(source_id))
+            result[key] = entry
+    return result
+
+
+def node_id(kind: str, node_type: str, source_id: str) -> str:
+    return f"quest.{kind}.{node_type}.{source_id}"
+
+
+def new_node(kind: str, node_type: str, source_id: str, title: str, source_url: str,
+             hashes: dict, region: str | None, metadata: dict) -> dict:
+    return {
+        "id": node_id(kind, node_type, source_id),
+        "category": "quest",
+        "quest_type": kind,
+        "node_type": node_type,
+        "source_quest_id": source_id,
+        "source_name": title,
+        "arabic_name": "",
+        "description_ar": None,
+        "chapter_id": None,
+        "act_id": None,
+        "series_id": None,
+        "region": region,
+        "sequence": None,
+        "prerequisite_ids": [],
+        "adventure_rank": None,
+        "version_added": None,
+        "source": [{
+            "name": "Pinned AnimeGameData / GI-OnlineQuest source records",
+            "url": source_url,
+            "version": "7.2.0 / pinned English index",
+        }],
+        "translation_status": "needs_translation",
+        "review_notes": "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة.",
+        "source_text_map_hashes": hashes,
+        **metadata,
+    }
+
+
+def merge_source(existing: dict | None, generated: dict) -> dict:
+    if existing is None:
+        return generated
+    merged = dict(existing)
+    for key, value in generated.items():
+        if key in ("arabic_name", "description_ar", "translation_status", "review_notes"):
+            continue
+        if key == "source":
+            old_sources = merged.get("source", [])
+            if not isinstance(old_sources, list):
+                old_sources = []
+            by_url = {item.get("url"): item for item in old_sources if isinstance(item, dict)}
+            for item in value:
+                by_url[item["url"]] = item
+            merged[key] = list(by_url.values())
+        else:
+            merged[key] = value
+    if not str(merged.get("arabic_name", "")).strip():
+        merged["arabic_name"] = ""
+        merged["translation_status"] = "needs_translation"
+        merged["review_notes"] = (
+            "لم يُنجز الاسم أو الملخص العربي بعد؛ أُدرج السجل لتغطية المصدر فقط ويحتاج إلى ترجمة ومراجعة."
+        )
+    return merged
 
 
 def main() -> int:
-    chapters = fetch_chapters()
-    loaded = []
-    errors = []
-    quest_requests: dict[str, list[tuple[str, dict]]] = {}
-    world_series_ids = set()
+    chapters, main_rows, available_ids = fetch_source_tables()
+    chapter_by_id = {
+        str(row["id"]): row for row in chapters
+        if isinstance(row, dict) and row.get("id") is not None
+    }
 
-    for path, catalog_type in CATALOGS.items():
+    selected = {}
+    for row in main_rows:
+        if not isinstance(row, dict) or row.get("id") is None:
+            continue
+        kind = quest_type(row)
+        quest_id = str(row["id"])
+        if kind in ("AQ", "WQ") and quest_id in available_ids:
+            selected[quest_id] = kind
+    if len(selected) < 100:
+        raise ValueError("AQ/WQ candidate roster unexpectedly small")
+
+    fetched = {}
+    errors = []
+    with ThreadPoolExecutor(max_workers=24) as pool:
+        futures = {
+            pool.submit(fetch_quest, quest_id, kind): quest_id
+            for quest_id, kind in selected.items()
+        }
+        for future in as_completed(futures):
+            quest_id = futures[future]
+            try:
+                fetched[quest_id] = future.result()
+            except Exception as exc:
+                errors.append(f"{quest_id}: {exc}")
+    if errors:
+        raise RuntimeError(
+            f"Failed to verify {len(errors)} of {len(selected)} selected AQ/WQ records; "
+            "refusing all catalog writes. First errors: " + "; ".join(errors[:20])
+        )
+
+    data_by_kind = {}
+    existing_by_kind = {}
+    for kind, path in CATALOGS.items():
         data = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(data, dict) or not isinstance(data.get("entries"), list):
             raise ValueError(f"{path}: invalid catalog structure")
-        for index, entry in enumerate(data["entries"]):
-            if not isinstance(entry, dict):
-                errors.append(f"{path.name}[{index}]: entry is not an object")
-                continue
-            source_id = entry.get("source_quest_id")
-            if source_id is None or not str(source_id).isdigit():
-                errors.append(f"{path.name}[{index}]: invalid source_quest_id")
-                continue
-            key = str(source_id)
-            node_type = entry.get("node_type")
-            row = chapters.get(key)
+        data_by_kind[kind] = data
+        existing_by_kind[kind] = existing_index(data, kind)
 
-            if catalog_type == "archon" and node_type == "quest":
-                quest_requests.setdefault(key, []).append((catalog_type, entry))
-                continue
+    # Create/update chapter and series nodes using verified chapter IDs.
+    chapter_titles = {}
+    chapter_regions = {}
+    for quest in fetched.values():
+        if quest["chapter_id"]:
+            chapter_titles.setdefault(quest["chapter_id"], quest["title"])
+            if quest["region"]:
+                chapter_regions.setdefault(quest["chapter_id"], quest["region"])
 
-            if catalog_type == "world":
-                if row is not None and row.get("questType") == "WQ":
-                    old_id = entry.get("id")
-                    new_id = f"quest.world.series.{key}"
-                    entry["id"] = new_id
-                    entry["node_type"] = "series"
-                    entry["series_id"] = key
-                    entry["chapter_id"] = key
-                    entry["source_chapter_metadata"] = {
-                        name: row[name]
-                        for name in (
-                            "id", "groupId", "beginQuestId", "endQuestId",
-                            "cityId", "needPlayerLevel", "questType",
-                        )
-                        if name in row
-                    }
-                    entry["source_text_map_hashes"] = chapter_hashes(row)
-                    world_series_ids.add((str(old_id), new_id))
-                    continue
-                if row is None:
-                    quest_requests.setdefault(key, []).append((catalog_type, entry))
-                    continue
-                errors.append(f"{path.name}: ID {key} is neither a WQ series nor a resolvable quest")
-                continue
-
-            if catalog_type == "archon" and node_type == "act":
-                if row is None or row.get("FOGHOPGBDML") != "CHAPTER_STYLE_TYPE_AQ":
-                    errors.append(f"{path.name}: ID {key} is not an Archon act row")
-                    continue
-                entry["source_chapter_metadata"] = {
-                    name: row[name]
-                    for name in (
-                        "id", "groupId", "beginQuestId", "endQuestId",
-                        "cityId", "needPlayerLevel", "chapterSerialNumberIcon",
-                    )
-                    if name in row
-                }
-                entry["source_text_map_hashes"] = chapter_hashes(row)
-                continue
-
-            errors.append(
-                f"{path.name}: unsupported node_type {node_type!r} for source ID {key}"
-            )
-        loaded.append((path, data, catalog_type))
-
-    quest_results = {}
-    if quest_requests:
-        with ThreadPoolExecutor(max_workers=6) as pool:
-            futures = {
-                pool.submit(fetch_individual_quest, quest_id): quest_id
-                for quest_id in quest_requests
-            }
-            for future in as_completed(futures):
-                quest_id = futures[future]
-                try:
-                    quest_results[quest_id] = future.result()
-                except Exception as exc:
-                    errors.append(f"Individual quest {quest_id}: {exc}")
-
-    for quest_id, targets in quest_requests.items():
-        source = quest_results.get(quest_id)
-        if source is None:
+    for row in chapters:
+        if not isinstance(row, dict) or row.get("id") is None:
             continue
-        for catalog_type, entry in targets:
-            normalize_title = lambda value: str(value).strip().strip("\"'“”‘’").casefold()
-            if normalize_title(entry.get("source_name", "")) != normalize_title(source["title"]):
-                errors.append(
-                    f"Quest {quest_id}: English title mismatch "
-                    f"({entry.get('source_name')!r} != {source['title']!r})"
-                )
-                continue
-            if catalog_type == "world":
-                if source["quest_tag"] != "WQ":
-                    errors.append(
-                        f"World quest {quest_id}: source questType is not WQ "
-                        f"({source['quest_tag']!r})"
-                    )
-                    continue
-                old_id = entry.get("id")
-                entry["id"] = f"quest.world.quest.{quest_id}"
-                entry["node_type"] = "quest"
-                metadata = source["metadata"]
-                chapter_id = metadata.get("chapterId")
-                series_id = metadata.get("series")
-                if chapter_id:
-                    entry["chapter_id"] = str(chapter_id)
-                if series_id:
-                    entry["series_id"] = str(series_id)
-            else:
-                if source["quest_tag"] != "AQ":
-                    errors.append(
-                        f"Archon quest {quest_id}: source questType is not AQ "
-                        f"({source['quest_tag']!r})"
-                    )
-                    continue
-                old_id = entry.get("id")
-            entry["source_text_map_hashes"] = source["hashes"]
-            entry["source_main_quest_metadata"] = source["metadata"]
+        source_id = str(row["id"])
+        style = row.get("FOGHOPGBDML")
+        quest_type_value = row.get("questType")
+        if style == "CHAPTER_STYLE_TYPE_AQ":
+            kind, node_type = "archon", "act"
+        elif quest_type_value == "WQ":
+            kind, node_type = "world", "series"
+        else:
+            continue
 
-    if errors:
-        raise RuntimeError(
-            "Source reconciliation failed; refusing partial writes:\n"
-            + "\n".join(errors)
+        existing = existing_by_kind[kind].get((node_type, source_id))
+        source_title = (
+            (existing or {}).get("source_name")
+            or chapter_titles.get(source_id)
         )
-
-    rename_map = dict(world_series_ids)
-    for path, data, catalog_type in loaded:
-        if catalog_type != "world":
+        # Keep the chapter roster source-complete without inventing a localized title.
+        if not isinstance(source_title, str) or not source_title.strip():
             continue
-        for entry in data["entries"]:
-            parent = entry.get("parent_id")
-            if parent in rename_map:
-                entry["parent_id"] = rename_map[parent]
-            prerequisites = entry.get("prerequisite_ids")
-            if isinstance(prerequisites, list):
-                entry["prerequisite_ids"] = [
-                    rename_map.get(value, value) for value in prerequisites
-                ]
+        hashes = {}
+        for name, source_key in (
+            ("title", "chapterTitleTextMapHash"),
+            ("number", "chapterNumTextMapHash"),
+            ("image_title", "chapterImageTitleTextMapHash"),
+        ):
+            value = row.get(source_key)
+            if isinstance(value, int):
+                hashes[name] = value
+        metadata = {
+            "source_chapter_metadata": {
+                key: row[key] for key in (
+                    "id", "groupId", "beginQuestId", "endQuestId",
+                    "cityId", "needPlayerLevel", "chapterSerialNumberIcon",
+                    "questType",
+                ) if key in row
+            },
+            "source_text_map_hashes": hashes,
+        }
+        region = chapter_regions.get(source_id) or REGIONS.get(row.get("cityId"))
+        url = (
+            f"https://github.com/DimbreathBot/AnimeGameData/blob/{ANIME_COMMIT}/"
+            "ExcelBinOutput/ChapterExcelConfigData.json"
+        )
+        generated = new_node(kind, node_type, source_id, source_title, url,
+                             hashes, region, metadata)
+        generated["id"] = (
+            existing.get("id") if existing else node_id(kind, node_type, source_id)
+        )
+        generated["region"] = region
+        merged = merge_source(existing, generated)
+        existing_by_kind[kind][(node_type, source_id)] = merged
 
-    for path, data, _ in loaded:
+    # Generate individual quest nodes; preserve existing Arabic editorial work.
+    for quest_id, quest in fetched.items():
+        kind = "archon" if quest["type"] == "AQ" else "world"
+        old = existing_by_kind[kind].get(("quest", quest_id))
+        source_url = f"{GI_BASE}/blob/{GI_COMMIT}/EN/quests/{quest_id}.json"
+        metadata = {
+            "source_main_quest_metadata": quest["meta"],
+        }
+        generated = new_node(
+            kind, "quest", quest_id, quest["title"], source_url,
+            quest["hashes"], quest["region"], metadata,
+        )
+        generated["id"] = old.get("id") if old else node_id(kind, "quest", quest_id)
+        generated["chapter_id"] = quest["chapter_id"]
+        generated["series_id"] = quest["series_id"]
+        generated["act_id"] = (
+            quest["chapter_id"] if kind == "archon" else None
+        )
+        generated["adventure_rank"] = quest["adventure_rank"]
+        generated["parent_id"] = None
+        if kind == "archon" and quest["chapter_id"]:
+            parent = node_id("archon", "act", quest["chapter_id"])
+            if ("act", quest["chapter_id"]) in existing_by_kind[kind]:
+                generated["parent_id"] = parent
+        elif kind == "world" and quest["chapter_id"]:
+            parent = node_id("world", "series", quest["chapter_id"])
+            if ("series", quest["chapter_id"]) in existing_by_kind[kind]:
+                generated["parent_id"] = parent
+        merged = merge_source(old, generated)
+        existing_by_kind[kind][("quest", quest_id)] = merged
+
+    # Resolve only prerequisites that are present in the matching catalog.
+    for kind in ("archon", "world"):
+        source_to_catalog_id = {
+            source_id: entry["id"]
+            for (node_type, source_id), entry in existing_by_kind[kind].items()
+            if node_type == "quest"
+        }
+        for quest_id, quest in fetched.items():
+            expected_kind = "archon" if quest["type"] == "AQ" else "world"
+            if expected_kind != kind:
+                continue
+            entry = existing_by_kind[kind][("quest", quest_id)]
+            resolved = [
+                source_to_catalog_id[source_id]
+                for source_id in quest["prerequisites"]
+                if source_id in source_to_catalog_id and source_id != quest_id
+            ]
+            entry["prerequisite_ids"] = sorted(set(resolved))
+
+    # Retain only catalog records whose source IDs are represented in this
+    # pinned source, while preserving hand-authored chapter/series entries.
+    for kind, path in CATALOGS.items():
+        entries = list(existing_by_kind[kind].values())
+        entries.sort(key=lambda item: (
+            {"chapter": 0, "act": 1, "series": 1, "quest": 2}.get(item.get("node_type"), 9),
+            int(item.get("source_quest_id", "0")) if str(item.get("source_quest_id", "")).isdigit() else 0,
+            item.get("id", ""),
+        ))
+        data = data_by_kind[kind]
+        data["entries"] = entries
         path.write_text(
             json.dumps(data, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
 
     counts = {}
-    for _, data, catalog_type in loaded:
+    for kind, data in data_by_kind.items():
         for entry in data["entries"]:
-            key = f"{catalog_type}_{entry.get('node_type')}"
+            key = f"{kind}_{entry.get('node_type')}"
             counts[key] = counts.get(key, 0) + 1
-    print("Resolved quest source metadata by stable IDs:")
+    print(
+        f"Source roster: {len(main_rows)} MainQuest rows, "
+        f"{len(available_ids)} English quest files, {len(selected)} verified AQ/WQ IDs."
+    )
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
-    print(f"Chapter source: AnimeGameData snapshot {ANIME_COMMIT}")
-    print("Individual quest source: pinned GI-OnlineQuest per-ID records.")
-    print("Only requested IDs and text-map hashes were extracted; TextMapEN.json was not requested.")
+    print(
+        "Arabic names/summaries not yet translated are explicitly marked "
+        "needs_translation; existing Arabic editorial text is preserved."
+    )
+    print("TextMapEN.json was not requested or downloaded.")
     return 0
 
 
@@ -279,5 +462,5 @@ if __name__ == "__main__":
     try:
         raise SystemExit(main())
     except Exception as exc:
-        print(f"Quest source sync failed safely: {exc}", file=sys.stderr)
+        print(f"Quest catalog import failed safely: {exc}", file=sys.stderr)
         raise SystemExit(1)
