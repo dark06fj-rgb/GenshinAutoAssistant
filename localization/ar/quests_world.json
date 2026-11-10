@@ -3724,7 +3724,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المصدر لا يوفّر وصفاً موجزاً لهذا السجل؛ يلزم تحرير ملخص عربي بعد مراجعة سياق السلسلة."
+      "review_notes": "المصدر لا يوفّر وصفاً موجزاً لهذا السجل؛ يلزم تحرير ملخص عربي بعد مراجعة سياق السلسلة.",
+      "source_text_map_hashes": {
+        "title": 204528007,
+        "description": 0
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10031,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.72158",
@@ -3757,7 +3767,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 72157 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 72157 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 171553671,
+        "description": 2510779142
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10032,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.72173",
@@ -3790,7 +3810,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 72172 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 72172 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 1373011415,
+        "description": 588224798
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10044,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.71045",
@@ -3823,7 +3853,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 71043 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 71043 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 3187870135,
+        "description": 3901548646
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10051,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.72177",
@@ -3856,7 +3896,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 72242 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 72242 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 773518695,
+        "description": 2960305726
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10055,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.73027",
@@ -3870,7 +3920,7 @@
       "parent_id": "quest.world.series.10070",
       "chapter_id": "10070",
       "act_id": null,
-      "series_id": null,
+      "series_id": "73026",
       "region": "Sumeru",
       "sequence": null,
       "prerequisite_ids": [],
@@ -3889,7 +3939,18 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 73026 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 73026 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 3888174199,
+        "description": 356316542
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10070,
+        "series": 73026,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.73018",
@@ -3903,7 +3964,7 @@
       "parent_id": "quest.world.series.10072",
       "chapter_id": "10072",
       "act_id": null,
-      "series_id": null,
+      "series_id": "73014",
       "region": "Sumeru",
       "sequence": null,
       "prerequisite_ids": [],
@@ -3922,7 +3983,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 73015 و73016 و73017 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 73015 و73016 و73017 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 1810063119,
+        "description": 1553717086
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10072,
+        "series": 73014,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          73239
+        ],
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.73003",
@@ -3936,7 +4011,7 @@
       "parent_id": "quest.world.series.10073",
       "chapter_id": "10073",
       "act_id": null,
-      "series_id": null,
+      "series_id": "73009",
       "region": "Sumeru",
       "sequence": null,
       "prerequisite_ids": [],
@@ -3955,7 +4030,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 73002 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 73002 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 587389143,
+        "description": 1337502206
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10073,
+        "series": 73009,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          73025
+        ],
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.73032",
@@ -3969,7 +4058,7 @@
       "parent_id": "quest.world.series.10076",
       "chapter_id": "10076",
       "act_id": null,
-      "series_id": null,
+      "series_id": "73032",
       "region": "Sumeru",
       "sequence": null,
       "prerequisite_ids": [],
@@ -3988,7 +4077,18 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 73031 و73047 و73050 و73039 و73041 و73040 و73042 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 73031 و73047 و73050 و73039 و73041 و73040 و73042 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 3810818183,
+        "description": 555134038
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10076,
+        "series": 73032,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "questType": "WQ"
+      }
     },
     {
       "id": "quest.world.quest.73037",
@@ -4002,7 +4102,7 @@
       "parent_id": "quest.world.series.10079",
       "chapter_id": "10079",
       "act_id": null,
-      "series_id": null,
+      "series_id": "73037",
       "region": "Sumeru",
       "sequence": null,
       "prerequisite_ids": [],
@@ -4021,7 +4121,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "المتطلب السابق 73036 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+      "review_notes": "المتطلب السابق 73036 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود.",
+      "source_text_map_hashes": {
+        "title": 252798087,
+        "description": 1367809278
+      },
+      "source_main_quest_metadata": {
+        "chapterId": 10079,
+        "series": 73037,
+        "type": "WQ",
+        "mainQuestTag": "MAINQUEST_TAG_RANK_ZERO_WQ",
+        "suggestTrackMainQuestList": [
+          73038
+        ],
+        "questType": "WQ"
+      }
     }
   ]
 }
