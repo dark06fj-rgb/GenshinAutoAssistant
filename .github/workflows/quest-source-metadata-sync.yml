@@ -5,6 +5,8 @@ on:
     paths:
       - "scripts/sync_quest_source_metadata.py"
       - ".github/workflows/quest-source-metadata-sync.yml"
+      - "localization/ar/quests_archon.json"
+      - "localization/ar/quests_world.json"
   workflow_dispatch:
 
 permissions:
