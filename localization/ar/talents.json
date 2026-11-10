@@ -7122,6 +7122,510 @@
       ],
       "translation_status": "draft",
       "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز اعتماداً على بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000150.talent.normal",
+      "category": "term",
+      "character_id": "character.10000150",
+      "character_name": "Odette",
+      "character_name_ar": "أوديت",
+      "talent_type": "normal",
+      "source_name": "Snow Swan Variation",
+      "arabic_name": "تنويعة البجعة الثلجية",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات بالسيف، مع ضربة مشحونة وضربة غطس تسبب ضرراً عند الهبوط.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/odette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000150.talent.skill",
+      "category": "term",
+      "character_id": "character.10000150",
+      "character_name": "Odette",
+      "character_name_ar": "أوديت",
+      "talent_type": "skill",
+      "source_name": "Adagio: Phantom Night Dancers",
+      "arabic_name": "أداجيو: راقصو الليل الشبحية",
+      "description_source": null,
+      "description_ar": "تؤدي رقصة تسبب ضرر جليد واسعاً وتستدعي نسخة راقصة تهاجم الأعداء دورياً؛ ويمكن أن تتحول المهارة مؤقتاً إلى رقصة ثنائية ذات ضربات جليدية متتابعة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/odette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000150.talent.burst",
+      "category": "term",
+      "character_id": "character.10000150",
+      "character_name": "Odette",
+      "character_name_ar": "أوديت",
+      "talent_type": "burst",
+      "source_name": "Presto: Bluebird Finale",
+      "arabic_name": "بريستو: ختام الطائر الأزرق",
+      "description_source": null,
+      "description_ar": "تنفذ رقصة سريعة تضرب الأعداء عدة مرات بضرر جليد وتستدعي نسختها الراقصة، كما تعزز ضرر تفاعلات الوميض النجمي.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/odette.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000143.talent.normal",
+      "category": "term",
+      "character_id": "character.10000143",
+      "character_name": "Vesna",
+      "character_name_ar": "فيسنا",
+      "talent_type": "normal",
+      "source_name": "Vila Blade Dance",
+      "arabic_name": "رقصة نصل الفيلا",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة ضربات متتابعة، مع هجوم مشحون يهاجم الخصوم أمامها وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/vesna.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000143.talent.skill",
+      "category": "term",
+      "character_id": "character.10000143",
+      "character_name": "Vesna",
+      "character_name_ar": "فيسنا",
+      "talent_type": "skill",
+      "source_name": "The Art of Victory",
+      "arabic_name": "فن النصر",
+      "description_source": null,
+      "description_ar": "تستدعي شفرات الأرواح لتسبب ضرر أنيمو واسعاً وتدخل وضع الاستعداد للقتال؛ تتحول هجماتها إلى ضرر أنيمو وتستدعي ريشة ريح مساندة، كما تستهلك جوهر السيف لتنفيذ مهارة خاصة متدرجة القوة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/vesna.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000143.talent.burst",
+      "category": "term",
+      "character_id": "character.10000143",
+      "character_name": "Vesna",
+      "character_name_ar": "فيسنا",
+      "talent_type": "burst",
+      "source_name": "For the Tsaritsa!",
+      "arabic_name": "من أجل تساريتسا!",
+      "description_source": null,
+      "description_ar": "تستدعي عدة شفرات أرواح لتسبب ضرر أنيمو واسعاً وتكتسب تراكماً إضافياً من جوهر السيف.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/vesna.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000140.talent.normal",
+      "category": "term",
+      "character_id": "character.10000140",
+      "character_name": "Vodyanitsa",
+      "character_name_ar": "فوديانيتسا",
+      "talent_type": "normal",
+      "source_name": "Psyshkhwe Arietta",
+      "arabic_name": "أرييتا بسيشخوي",
+      "description_source": null,
+      "description_ar": "تؤدي أنشودة مائية قديمة عبر سلسلة هجمات تسبب ضرر هايدرو، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/vodyanitsa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000140.talent.skill",
+      "category": "term",
+      "character_id": "character.10000140",
+      "character_name": "Vodyanitsa",
+      "character_name_ar": "فوديانيتسا",
+      "talent_type": "skill",
+      "source_name": "Rechitativ: Sonorous Dawn",
+      "arabic_name": "ريتسيتاتيف: فجر رنّان",
+      "description_source": null,
+      "description_ar": "تكشف هيئتها الحقيقية كجنية ماء وتسبب ضرر هايدرو واسعاً، ثم تستدعي بوق الربيع ليهاجم الأعداء دورياً؛ كما تقلل مقاومتي هايدرو وكرايو وتدعم الشخصية النشطة بمقاومة المقاطعة واستعادة الصحة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/vodyanitsa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000140.talent.burst",
+      "category": "term",
+      "character_id": "character.10000140",
+      "character_name": "Vodyanitsa",
+      "character_name_ar": "فوديانيتسا",
+      "talent_type": "burst",
+      "source_name": "Koda: Sink With Thee",
+      "arabic_name": "كودا: اغرقوا معها",
+      "description_source": null,
+      "description_ar": "تقود أنشودة تستدرج الأعداء وتسبب لهم ضرر هايدرو واسعاً، ويزداد الضرر أثناء تأثير أغنية العصور الماضية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/vodyanitsa.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000120.talent.normal",
+      "category": "term",
+      "character_id": "character.10000120",
+      "character_name": "Flins",
+      "character_name_ar": "فلينز",
+      "talent_type": "normal",
+      "source_name": "Pocztowy Demonspear",
+      "arabic_name": "رمح الشيطان البريدي",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات بالرمح، مع هجوم مشحون يرمي الرمح إلى الأمام وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/flins.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000120.talent.skill",
+      "category": "term",
+      "character_id": "character.10000120",
+      "character_name": "Flins",
+      "character_name_ar": "فلينز",
+      "talent_type": "skill",
+      "source_name": "Ancient Rite: Arcane Light",
+      "arabic_name": "الطقس القديم: النور الغامض",
+      "description_source": null,
+      "description_ar": "يستحضر القوة الكامنة في مصباحه ويدخل هيئة اللهب المتجلي؛ تتحول هجماته العادية والمشحونة إلى ضرر كهربائي، وتُستبدل مهارته بمهارة عاصفة رماح الشمال.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/flins.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000120.talent.burst",
+      "category": "term",
+      "character_id": "character.10000120",
+      "character_name": "Flins",
+      "character_name_ar": "فلينز",
+      "talent_type": "burst",
+      "source_name": "Ancient Ritual: Cometh the Night",
+      "arabic_name": "الطقس القديم: أقبلِي أيتها الليلة",
+      "description_source": null,
+      "description_ar": "يطلق القوة الحقيقية للمصباح ليسبب ضرراً كهربائياً واسعاً على دفعات، مع تعزيز الضربات في وجود سحب الرعد؛ وبعد مهارة عاصفة رماح الشمال يمكنه استخدام انفجار خاص أقل استهلاكاً للطاقة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/flins.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000123.talent.normal",
+      "category": "term",
+      "character_id": "character.10000123",
+      "character_name": "Durin",
+      "character_name_ar": "دورين",
+      "talent_type": "normal",
+      "source_name": "Radiant Wingslash",
+      "arabic_name": "ضربة الجناح المتألق",
+      "description_source": null,
+      "description_ar": "ينفذ سلسلة ضربات بالسيف، مع هجوم مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/durin.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000123.talent.skill",
+      "category": "term",
+      "character_id": "character.10000123",
+      "character_name": "Durin",
+      "character_name_ar": "دورين",
+      "talent_type": "skill",
+      "source_name": "Binary Form: Convergence and Division",
+      "arabic_name": "الصيغة الثنائية: الالتقاء والانقسام",
+      "description_source": null,
+      "description_ar": "يخضع لتحول جوهري يبدل مهارته وهجومه العادي بمهارتين خاصتين؛ إحداهما تسبب ضربة بايرو واسعة، والأخرى تنفذ ثلاث ضربات متتابعة، وتعيدان ضبط حالة التحول.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/durin.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000123.talent.burst",
+      "category": "term",
+      "character_id": "character.10000123",
+      "character_name": "Durin",
+      "character_name_ar": "دورين",
+      "talent_type": "burst",
+      "source_name": "Principle of Purity: As the Light Shifts",
+      "arabic_name": "مبدأ النقاء: حين يتحول الضوء",
+      "description_source": null,
+      "description_ar": "يطلق قوة الوحش في هيئة تنين اللهب الأبيض أو تنين الاضمحلال المظلم وفق حالة التحول، مسبباً ضربات بايرو واستدعاء تنين يساند الشخصية النشطة بهجمات دورية.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/durin.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000128.talent.normal",
+      "category": "term",
+      "character_id": "character.10000128",
+      "character_name": "Varka",
+      "character_name_ar": "فاركا",
+      "talent_type": "normal",
+      "source_name": "Favonius Bladework: Dancing Radiance",
+      "arabic_name": "فن نصل فافونيوس: الإشراق الراقص",
+      "description_source": null,
+      "description_ar": "يستخدم سيفين عظيمين لتنفيذ سلسلة ضربات مستوحاة من رقصة فرسان قديمة، مع اندفاع مشحون وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/varka.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000128.talent.skill",
+      "category": "term",
+      "character_id": "character.10000128",
+      "character_name": "Varka",
+      "character_name_ar": "فاركا",
+      "talent_type": "skill",
+      "source_name": "Windbound Execution",
+      "arabic_name": "تنفيذ مقيد بالريح",
+      "description_source": null,
+      "description_ar": "يندفع ويضرب بضربة أنيمو واسعة، ثم يدخل وضع العاصفة والاندفاع الذي يعزز هجماته ويمنح نصليه ضرراً عنصرياً وفق عناصر أعضاء الفريق؛ وقد تتحول المهارة إلى صعود الرياح الأربع.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/varka.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000128.talent.burst",
+      "category": "term",
+      "character_id": "character.10000128",
+      "character_name": "Varka",
+      "character_name_ar": "فاركا",
+      "talent_type": "burst",
+      "source_name": "Northwind Avatar",
+      "arabic_name": "تجسيد ريح الشمال",
+      "description_source": null,
+      "description_ar": "ينفذ ضربة مزدوجة قوية تسبب ضرر أنيمو، ويمكن أن يتحول ضرر الضربة الأولى إلى عنصر آخر بحسب عناصر الفريق وأولوية محددة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/varka.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000101.talent.normal",
+      "category": "term",
+      "character_id": "character.10000101",
+      "character_name": "Kinich",
+      "character_name_ar": "كينيش",
+      "talent_type": "normal",
+      "source_name": "Nightsun Style",
+      "arabic_name": "أسلوب شمس الليل",
+      "description_source": null,
+      "description_ar": "ينفذ ضربات سريعة، ويمكنه تنفيذ هجوم عادي في الهواء بعد التأرجح بمهارته؛ كما يملك هجوماً مشحوناً وضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kinich.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000101.talent.skill",
+      "category": "term",
+      "character_id": "character.10000101",
+      "character_name": "Kinich",
+      "character_name_ar": "كينيش",
+      "talent_type": "skill",
+      "source_name": "Canopy Hunter: Riding High",
+      "arabic_name": "صياد المظلة: التحليق عالياً",
+      "description_source": null,
+      "description_ar": "يطلق خطافاً للتعلق بالأعداء أو الأجسام والتأرجح حولها، ويدخل بركة روح الليل؛ يطلق طلقات حلقية أثناء الحركة ويستهلك نقاط الروح لإطلاق مدفع قاذف المقاييس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kinich.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000101.talent.burst",
+      "category": "term",
+      "character_id": "character.10000101",
+      "character_name": "Kinich",
+      "character_name_ar": "كينيش",
+      "talent_type": "burst",
+      "source_name": "Hail to the Almighty Dragonlord",
+      "arabic_name": "تحية لسيد التنانين العظيم",
+      "description_source": null,
+      "description_ar": "يستدعي قوة التنين أجاو ليسبب ضرر ديندرو واسعاً، ثم يطلق التنين أنفاسه على فترات؛ وتطول حالة بركة روح الليل إذا كانت نشطة عند الاستخدام.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/kinich.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000095.talent.normal",
+      "category": "term",
+      "character_id": "character.10000095",
+      "character_name": "Sigewinne",
+      "character_name_ar": "سيغوين",
+      "talent_type": "normal",
+      "source_name": "Targeted Treatment",
+      "arabic_name": "علاج موجّه",
+      "description_source": null,
+      "description_ar": "تنفذ سلسلة هجمات، ويمكنها شحن سهم مائي لإطلاق فقاعات صغيرة بطيئة نحو الهدف، إضافة إلى ضربة غطس.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sigewinne.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000095.talent.skill",
+      "category": "term",
+      "character_id": "character.10000095",
+      "character_name": "Sigewinne",
+      "character_name_ar": "سيغوين",
+      "talent_type": "skill",
+      "source_name": "Rebound Hydrotherapy",
+      "arabic_name": "علاج مائي ارتدادي",
+      "description_source": null,
+      "description_ar": "تطلق فقاعة علاجية ترتد بين الأعداء وتسبب ضرر هايدرو، وتعالج أعضاء الفريق القريبين عند ارتدادها؛ ويزداد حجمها وفعاليتها عند الضغط المطول.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sigewinne.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
+    },
+    {
+      "id": "character.10000095.talent.burst",
+      "category": "term",
+      "character_id": "character.10000095",
+      "character_name": "Sigewinne",
+      "character_name_ar": "سيغوين",
+      "talent_type": "burst",
+      "source_name": "Super Saturated Syringing",
+      "arabic_name": "حقن فائق التشبع",
+      "description_source": null,
+      "description_ar": "تستخدم حقنة خاصة لإطلاق موجات علاجية هجومية أمامها تسبب ضرر هايدرو واسعاً بحسب صحتها القصوى، وتمتص قطرات ماء قريبة.",
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db/blob/main/src/data/English/talents/sigewinne.json",
+          "version": "7.2"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "اسم عربي مقترح وملخص وصفي أصلي موجز مستند إلى بيانات الموهبة؛ ليس ترجمة رسمية ويحتاج إلى مراجعة لغوية ومصطلحية."
     }
   ]
 }
