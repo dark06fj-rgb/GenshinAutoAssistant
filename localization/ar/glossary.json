@@ -12,38 +12,42 @@
       "source_term": "Primogem",
       "translation": "الجوهرة الأولية",
       "status": "draft",
-      "notes": "اقتراح ترجمة؛ يحتاج مراجعة واتساقاً مع بقية المصطلحات."
+      "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
     },
     {
       "id": "term.mora",
       "source_term": "Mora",
       "translation": "مورا",
       "status": "draft",
-      "notes": "اسم عملة؛ يمكن إبقاؤه منقولاً صوتياً."
+      "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
     },
     {
       "id": "term.adventure_rank",
       "source_term": "Adventure Rank",
       "translation": "رتبة المغامرة",
-      "status": "draft"
+      "status": "draft",
+      "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
     },
     {
       "id": "term.original_resin",
       "source_term": "Original Resin",
       "translation": "الريزن الأصلي",
-      "status": "draft"
+      "status": "draft",
+      "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
     },
     {
       "id": "term.intertwined_fate",
       "source_term": "Intertwined Fate",
       "translation": "القدر المتشابك",
-      "status": "draft"
+      "status": "draft",
+      "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
     },
     {
       "id": "term.acquaint_fate",
       "source_term": "Acquaint Fate",
-      "translation": "القدر المألوف",
-      "status": "draft"
+      "translation": "قدر التعارف",
+      "status": "draft",
+      "notes": "مصطلح عربي موحّد مقترح للمشروع؛ غير رسمي ويحتاج مقارنة مع الاستعمال العربي لدى المجتمع."
     }
   ]
 }
