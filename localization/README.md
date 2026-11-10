@@ -24,7 +24,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 
 ## Validation
 
-Run `python scripts/validate_localization.py` to check JSON syntax and duplicate IDs within each catalog file. GitHub Actions runs this check when localization files change.
+Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, and talent-to-character references. Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator when localization files change.
 
 ## Scope and limitations
 
