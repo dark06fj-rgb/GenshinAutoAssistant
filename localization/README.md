@@ -18,13 +18,14 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `ar/materials.json`: common currencies and wish items.
 - `ar/resources.json`: gatherable plants, fruits, and ores.
 - `schema/entity.schema.json`: shared entity format.
+- `VALIDATOR_GUIDE.md`: automated validator and regression-test documentation.
 - `SOURCES.md`: data provenance and attribution.
 - `CONTRIBUTING.md`: translation contribution rules.
 - `ROADMAP.md`: project stages.
 
 ## Validation
 
-Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, and talent-to-character references. Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator when localization files change.
+Run `python scripts/validate_localization.py` to check JSON syntax, required fields, source URLs, translation statuses, duplicate IDs (within and across catalogs), glossary consistency for shared terms and item types, canonical element/weapon terminology, and talent-to-character references. Warnings (such as untranslated Arabic-script labels) are reported separately; structural and cross-reference errors fail the check. GitHub Actions runs this validator and its regression tests when relevant files change.
 
 ## Scope and limitations
 
