@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Translate only quest summaries backed by explicit English source-description fields.
+"""Draft Arabic quest summaries only from explicit, source-backed English text.
 
-The script deliberately skips records without source text. It never invents quest
-summaries from quest titles, IDs, regions, or metadata alone.
+World Quest descriptions are joined by stable quest ID to the pinned English
+source artifact. Records without a matching English description are skipped;
+titles, IDs, regions, and metadata are never used to invent summaries.
 """
 from __future__ import annotations
 
@@ -20,23 +21,65 @@ CATALOGS = [
     ROOT / "localization/ar/quests_archon.json",
     ROOT / "localization/ar/quests_world.json",
 ]
+WORLD_SOURCE_ARTIFACT = ROOT / "artifacts/world_quest_source_descriptions_en.json"
 SOURCE_FIELDS = (
     "source_description_en",
     "description_en",
     "source_description",
     "description_source",
 )
+MIN_SOURCE_LENGTH = 20
 ARABIC_RE = re.compile(r"[\u0600-\u06FF]")
 MAX_RECORDS = int(os.getenv("MAX_TRANSLATIONS_PER_RUN", "15"))
 MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
 API_URL = "https://api.deepseek.com/chat/completions"
 
 
-def source_text(entry: dict) -> str | None:
+def load_world_source_descriptions(path: Path | None = None) -> dict[str, str]:
+    """Load source descriptions keyed by exact catalog entry ID."""
+    source_path = path or WORLD_SOURCE_ARTIFACT
+    if not source_path.exists():
+        print(f"WARNING: World Quest source artifact is missing: {source_path}")
+        return {}
+
+    data = json.loads(source_path.read_text(encoding="utf-8"))
+    records = data.get("entries") if isinstance(data, dict) else None
+    if not isinstance(records, list):
+        raise RuntimeError("World Quest source artifact must contain an entries array")
+
+    sources: dict[str, str] = {}
+    for record in records:
+        if not isinstance(record, dict):
+            continue
+        entry_id = record.get("id")
+        description = record.get("description_en")
+        if not isinstance(entry_id, str) or not entry_id.strip():
+            continue
+        if not isinstance(description, str):
+            continue
+        description = description.strip()
+        # Exclude title-only strings; this file is intended for quest summaries.
+        if len(description) < MIN_SOURCE_LENGTH:
+            continue
+        previous = sources.get(entry_id)
+        if previous is not None and previous != description:
+            raise RuntimeError(f"Conflicting English source descriptions for {entry_id}")
+        sources[entry_id] = description
+    return sources
+
+
+def source_text(entry: dict, world_sources: dict[str, str] | None = None) -> str | None:
     for key in SOURCE_FIELDS:
         value = entry.get(key)
         if isinstance(value, str) and value.strip():
             return value.strip()
+
+    # The pinned source artifact currently covers World Quests only. Join on
+    # the exact stable entry ID; do not guess from titles or source quest IDs.
+    if entry.get("quest_type") == "world" and entry.get("node_type") in (None, "quest"):
+        entry_id = entry.get("id")
+        if isinstance(entry_id, str) and world_sources:
+            return world_sources.get(entry_id)
     return None
 
 
@@ -98,6 +141,9 @@ def main() -> int:
         print("MAX_TRANSLATIONS_PER_RUN must be at least 1.")
         return 2
 
+    world_sources = load_world_source_descriptions()
+    print(f"Loaded {len(world_sources)} source-backed World Quest descriptions.")
+
     changed_files: list[Path] = []
     translated = 0
     skipped_without_source = 0
@@ -121,7 +167,7 @@ def main() -> int:
                 continue
             if current not in (None, ""):
                 continue
-            source = source_text(entry)
+            source = source_text(entry, world_sources)
             if not source:
                 skipped_without_source += 1
                 continue
