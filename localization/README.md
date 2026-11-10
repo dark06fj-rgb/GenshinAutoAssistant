@@ -9,7 +9,9 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `ar/characters.json`: character name records.
 - `CHARACTER_ROSTER_AUDIT_7.2.md`: Version 7.2 playable-roster completeness audit.
 - `ar/talents.json`: combat talent names and concise Arabic draft summaries; includes seven element-specific Traveler kits (Anemo, Geo, Electro, Dendro, Hydro, Pyro, Cryo).
-- `ar/weapons.json`: weapon name records and compact weapon metadata.\n- `scripts/import_weapon_catalog.py`: imports the public weapon roster from genshin-db while preserving existing Arabic translations.
+- `ar/weapons.json`: weapon name records and compact weapon metadata.
+- `WEAPON_TERMINOLOGY_AUDIT.md`: weapon-name structure and terminology audit.
+- `scripts/import_weapon_catalog.py`: imports the public weapon roster from genshin-db while preserving existing Arabic translations.
 - `ar/artifacts.json`: artifact set name records.
 - `ar/materials.json`: common currencies and wish items.
 - `ar/resources.json`: gatherable plants, fruits, and ores.
