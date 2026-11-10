@@ -3692,6 +3692,336 @@
         "mainQuestTag": "MAINQUEST_TAG_NONE",
         "questType": "WQ"
       }
+    },
+    {
+      "id": "quest.world.quest.72149",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72149",
+      "source_name": "\"Heart of Watatsumi\"",
+      "arabic_name": "قلب واتاتسومي",
+      "description_ar": null,
+      "parent_id": "quest.world.series.10031",
+      "chapter_id": "10031",
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72149",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72149.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72149.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المصدر لا يوفّر وصفاً موجزاً لهذا السجل؛ يلزم تحرير ملخص عربي بعد مراجعة سياق السلسلة."
+    },
+    {
+      "id": "quest.world.quest.72158",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72158",
+      "source_name": "Seirai Stormchasers: Part IV",
+      "arabic_name": "مطاردو عواصف سيراي: الجزء الرابع",
+      "description_ar": "بعد وصولك إلى جزيرة سيراي، تلتقي مغامرين يحققان في حجر الحماية. وتقودك آثار قطة إلى ضريح متهالك تسكنه قطة تُدعى نيكو، فتساعدها في إصلاح صندوق القرابين وتتعرف إلى طريقة ختم أحجار الحماية الأربعة لإيقاف العاصفة الرعدية.",
+      "parent_id": "quest.world.series.10032",
+      "chapter_id": "10032",
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72158",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72158.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72158.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 72157 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.72173",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72173",
+      "source_name": "The Sun-Wheel and Mt. Kanna",
+      "arabic_name": "عجلة الشمس وجبل كانّا",
+      "description_ar": "سواء أكنت هنا لمساعدة روو أم لإتمام التكليف، فقد حان وقت العودة إلى جزيرة تسورومي مرة أخرى.",
+      "parent_id": "quest.world.series.10044",
+      "chapter_id": "10044",
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72173",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72173.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72173.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 72172 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.71045",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "71045",
+      "source_name": "Wherefore Did the Spiritstone Descend?",
+      "arabic_name": "لماذا هبط حجر الروح؟",
+      "description_ar": "بعد القضاء على قرّاء الهاوية المتربصين هنا، تكتشف أن تشيونغ شاهدت في مكان آخر الرموز المنقوشة على الجسم الشبيه بالمفتاح الذي تركه القرّاء.",
+      "parent_id": "quest.world.series.10051",
+      "chapter_id": "10051",
+      "act_id": null,
+      "series_id": null,
+      "region": "Liyue",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 71045",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/71045.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/71045.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 71043 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.72177",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "72177",
+      "source_name": "The Subterranean Trials of Drake and Serpent",
+      "arabic_name": "تجارب التنين والأفعى تحت الأرض",
+      "description_ar": "من أجل الكنز ومستقبل جزيرة واتاتسومي، تقبل تكليف تسويوكو وتستعد للنزول إلى إنكانوميا...",
+      "parent_id": "quest.world.series.10055",
+      "chapter_id": "10055",
+      "act_id": null,
+      "series_id": null,
+      "region": "Inazuma",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 72177",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/72177.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/72177.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 72242 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.73027",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73027",
+      "source_name": "Vimana Agama: Dev Delver Chapter",
+      "arabic_name": "فيمانا أغاما: فصل مستكشف الأعماق",
+      "description_ar": "تمكنت بطريقة ما من فتح مدخل الأطلال تحت الأرض. وعندما تعثر على النواة في كهف ديف، ستنكشف حقيقة مرض الغابة...",
+      "parent_id": "quest.world.series.10070",
+      "chapter_id": "10070",
+      "act_id": null,
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 73027",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/73027.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/73027.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 73026 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.73018",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73018",
+      "source_name": "A Prayer for Rain on the Fecund Land",
+      "arabic_name": "صلاة من أجل المطر على الأرض الخصبة",
+      "description_ar": "بعد شفاء الأغصان والأوراق المتناثرة في فانا بواسطة جهاز فارونا، حان الوقت للتخلص من الحشرات السيئة التي تقضم جذوره، وفقاً لأراباندو...",
+      "parent_id": "quest.world.series.10072",
+      "chapter_id": "10072",
+      "act_id": null,
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 73018",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/73018.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/73018.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 73015 و73016 و73017 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.73003",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73003",
+      "source_name": "The Lost Child",
+      "arabic_name": "الطفل المفقود",
+      "description_ar": "اعتنيت بمناطق الذبول التي حددتها رانا وبالسبيونوكروكودايل. ينبغي أن يكون أطفال قرية فيمارا بأمان الآن؛ عُد مع رانا.",
+      "parent_id": "quest.world.series.10073",
+      "chapter_id": "10073",
+      "act_id": null,
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 73003",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/73003.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/73003.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 73002 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.73032",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73032",
+      "source_name": "Festival Utsava",
+      "arabic_name": "مهرجان أوتسافا",
+      "description_ar": "عدت إلى فانارانا مع أراما بعد وداع أرانا ورانا. وأخيراً حان وقت مهرجان أوتسافا.",
+      "parent_id": "quest.world.series.10076",
+      "chapter_id": "10076",
+      "act_id": null,
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 73032",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/73032.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/73032.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 73031 و73047 و73050 و73039 و73041 و73040 و73042 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
+    },
+    {
+      "id": "quest.world.quest.73037",
+      "category": "quest",
+      "quest_type": "world",
+      "node_type": "quest",
+      "source_quest_id": "73037",
+      "source_name": "For All Children Who Long for Life",
+      "arabic_name": "من أجل كل الأطفال الذين يتوقون إلى الحياة",
+      "description_ar": "لم يبقَ سوى العدو الأخير الذي يجب هزيمته. واصل التقدم ولا تتوقف أبداً.",
+      "parent_id": "quest.world.series.10079",
+      "chapter_id": "10079",
+      "act_id": null,
+      "series_id": null,
+      "region": "Sumeru",
+      "sequence": null,
+      "prerequisite_ids": [],
+      "adventure_rank": null,
+      "version_added": null,
+      "source": [
+        {
+          "name": "AnimeGameData 7.2 QuestBrief 73037",
+          "url": "https://raw.githubusercontent.com/DimbreathBot/AnimeGameData/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/BinOutput/QuestBrief/73037.json",
+          "version": "7.2.0"
+        },
+        {
+          "name": "GI-OnlineQuest English title and summary",
+          "url": "https://github.com/lzray-universe/GI-OnlineQuest/blob/9651f89b8b4af8815cb193e147c84e3fb43ede63/EN/quests/73037.json",
+          "version": "cross-reference"
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "المتطلب السابق 73036 مثبت في مرجع EN لكنه غير مدرج في الكتالوج الحالي؛ أُبقيت العلاقة غير مربوطة حتى لا تشير إلى معرّف مفقود."
     }
   ]
 }
