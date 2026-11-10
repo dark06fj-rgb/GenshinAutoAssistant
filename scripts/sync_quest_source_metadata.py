@@ -416,6 +416,35 @@ def main() -> int:
         merged = merge_source(old, generated)
         existing_by_kind[kind][("quest", quest_id)] = merged
 
+    translation_path = ROOT / "localization/ar/quest-title-translations.json"
+    translation_data = json.loads(translation_path.read_text(encoding="utf-8"))
+    if not isinstance(translation_data, dict):
+        raise ValueError("Quest title translation map must be an object")
+    applied_translations = {"archon": 0, "world": 0}
+    known_quest_ids = {
+        kind: {
+            source_id for (node_type, source_id) in existing_by_kind[kind]
+            if node_type == "quest"
+        }
+        for kind in ("archon", "world")
+    }
+    for kind, mapping in translation_data.items():
+        if kind not in known_quest_ids or not isinstance(mapping, dict):
+            raise ValueError(f"Invalid quest title translation group: {kind!r}")
+        for source_id, arabic_title in mapping.items():
+            if source_id not in known_quest_ids[kind]:
+                raise ValueError(f"Translation map references unknown {kind} quest ID {source_id}")
+            if not isinstance(arabic_title, str) or not arabic_title.strip():
+                raise ValueError(f"Translation for {kind} quest {source_id} is empty")
+            if not any("\\u0600" <= char <= "\\u06FF" for char in arabic_title):
+                raise ValueError(f"Translation for {kind} quest {source_id} contains no Arabic text")
+            entry = existing_by_kind[kind][("quest", source_id)]
+            if not str(entry.get("arabic_name", "")).strip():
+                entry["arabic_name"] = arabic_title.strip()
+                entry["translation_status"] = "draft"
+                entry["review_notes"] = "ترجمة عربية أولية لاسم المهمة؛ تحتاج إلى تدقيق المصطلحات والسياق قبل اعتمادها."
+                applied_translations[kind] += 1
+
     # Resolve only prerequisites that are present in the matching catalog.
     for kind in ("archon", "world"):
         source_to_catalog_id = {
@@ -501,6 +530,7 @@ def main() -> int:
         "skipped_non_target": skipped_non_target,
         "skipped_hidden_or_repeatable": skipped_hidden_or_repeatable,
         "held_back_unresolved_title_count": skipped_unresolved_title,
+        "manual_arabic_titles_applied": applied_translations,
         "cycle_prerequisite_edges_dropped": cycle_edges_dropped,
         "catalog_counts": counts,
         "unresolved_title_source_ids": unresolved_title_ids,
@@ -521,6 +551,7 @@ def main() -> int:
     print(f"Player-facing candidates: AQ={candidate_type_counts['AQ']}, WQ={candidate_type_counts['WQ']}")
     print(f"Imported displayable types: AQ={fetched_counts['AQ']}, WQ={fetched_counts['WQ']}")
     print(f"Unresolved-title IDs held back: {len(unresolved_title_ids)}")
+    print(f"Arabic draft titles applied: AQ={applied_translations['archon']}, WQ={applied_translations['world']}")
     print(f"Prerequisite cycle edges safely omitted: {cycle_edges_dropped}")
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
