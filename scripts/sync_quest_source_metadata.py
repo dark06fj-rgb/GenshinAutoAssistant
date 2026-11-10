@@ -107,7 +107,7 @@ def quest_type(row: dict) -> str | None:
     return None
 
 
-def fetch_quest(quest_id: str, expected_type: str) -> dict:
+def fetch_quest(quest_id: str) -> dict | None:
     payload = fetch_json(f"{GI_BASE}/EN/quests/{quest_id}.json")
     if not isinstance(payload, dict) or str(payload.get("mainQuestId")) != quest_id:
         raise ValueError(f"Quest {quest_id}: source ID mismatch")
@@ -121,23 +121,17 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
     if not isinstance(raw, dict):
         raw = {}
     actual_type = meta.get("questType") or quest_type(raw) or quest_type(excel)
-    if actual_type != expected_type:
-        raise ValueError(
-            f"Quest {quest_id}: table type {expected_type} != detail type {actual_type!r}"
-        )
+    if actual_type not in ("AQ", "WQ"):
+        return {"_skip_reason": "not_aq_or_wq"}
     show_type = meta.get("showType") or excel.get("showType") or raw.get("showType")
     repeatable = meta.get("repeatable", raw.get("repeatable", False))
     title = payload.get("title") or excel.get("title")
     title_hash = payload.get("titleTextMapHash") or excel.get("titleTextMapHash")
     desc_hash = payload.get("descTextMapHash") or excel.get("descTextMapHash")
-    # Exclude hidden/internal and repeatable records; they are not player-facing
-    # quest catalog entries even when their config type is AQ or WQ.
     if show_type != "QUEST_SHOW" or repeatable is True:
-        return None
+        return {"_skip_reason": "hidden_or_repeatable", "type": actual_type}
     if not isinstance(title, str) or not title.strip():
-        # Keep the record out of the public catalog until its text-map hash
-        # can be resolved through a bounded lookup source.
-        return {"_skip_reason": "missing_english_title"}
+        return {"_skip_reason": "missing_english_title", "type": actual_type}
     if not isinstance(title_hash, int):
         raise ValueError(f"Quest {quest_id}: title text-map hash missing")
     if desc_hash is not None and not isinstance(desc_hash, int):
@@ -167,7 +161,7 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
     })
     return {
         "id": quest_id,
-        "type": expected_type,
+        "type": actual_type,
         "title": title.strip(),
         "hashes": {
             "title": title_hash,
@@ -185,7 +179,7 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
             key: value for key, value in {
                 "chapterId": chapter_id,
                 "series": series_id,
-                "type": expected_type,
+                "type": actual_type,
                 "mainQuestTag": meta.get("mainQuestTag") or raw.get("mainQuestTag"),
                 "recommendLevel": recommend_level,
                 "needPlayerLevel": need_level,
@@ -196,7 +190,6 @@ def fetch_quest(quest_id: str, expected_type: str) -> dict:
             }.items() if value is not None
         },
     }
-
 
 def existing_index(data: dict, expected_type: str) -> dict[str, dict]:
     result = {}
@@ -280,31 +273,24 @@ def main() -> int:
         if isinstance(row, dict) and row.get("id") is not None
     }
 
-    selected = {}
-    for row in main_rows:
-        if not isinstance(row, dict) or row.get("id") is None:
-            continue
-        kind = quest_type(row)
-        quest_id = str(row["id"])
-        if kind in ("AQ", "WQ") and quest_id in available_ids:
-            selected[quest_id] = kind
-    if len(selected) < 100:
-        raise ValueError("AQ/WQ candidate roster unexpectedly small")
-
+    selected_ids = sorted(available_ids)
     fetched = {}
+    skipped_non_target = 0
     skipped_hidden_or_repeatable = 0
     skipped_unresolved_title = 0
     errors = []
     with ThreadPoolExecutor(max_workers=24) as pool:
         futures = {
-            pool.submit(fetch_quest, quest_id, kind): quest_id
-            for quest_id, kind in selected.items()
+            pool.submit(fetch_quest, quest_id): quest_id
+            for quest_id in selected_ids
         }
         for future in as_completed(futures):
             quest_id = futures[future]
             try:
                 result = future.result()
-                if result is None:
+                if result is None or result.get("_skip_reason") == "not_aq_or_wq":
+                    skipped_non_target += 1
+                elif result.get("_skip_reason") == "hidden_or_repeatable":
                     skipped_hidden_or_repeatable += 1
                 elif result.get("_skip_reason") == "missing_english_title":
                     skipped_unresolved_title += 1
@@ -314,9 +300,11 @@ def main() -> int:
                 errors.append(f"{quest_id}: {exc}")
     if errors:
         raise RuntimeError(
-            f"Failed to verify {len(errors)} of {len(selected)} selected AQ/WQ records; "
+            f"Failed to verify {len(errors)} of {len(selected_ids)} English quest files; "
             "refusing all catalog writes. First errors: " + "; ".join(errors[:20])
         )
+    if len(fetched) < 100:
+        raise ValueError("Verified player-facing AQ/WQ roster unexpectedly small")
 
     data_by_kind = {}
     existing_by_kind = {}
@@ -462,28 +450,38 @@ def main() -> int:
         for entry in data["entries"]:
             key = f"{kind}_{entry.get('node_type')}"
             counts[key] = counts.get(key, 0) + 1
-    selected_counts = {
-        kind: sum(1 for value in selected.values() if value == kind)
+    candidate_counts = {
+        kind: sum(
+            1 for value in fetched.values() if value["type"] == kind
+        ) + sum(
+            1 for quest_id in selected_ids
+            if quest_id not in fetched
+            and any(
+                source.get("id") == quest_id and source.get("type") == kind
+                for source in []
+            )
+        )
         for kind in ("AQ", "WQ")
     }
     fetched_counts = {
         kind: sum(1 for value in fetched.values() if value["type"] == kind)
         for kind in ("AQ", "WQ")
     }
+    unresolved_title_ids = sorted(
+        quest_id for quest_id in selected_ids
+        if quest_id not in fetched
+    )
     report = {
         "animegamedata_commit": ANIME_COMMIT,
         "gi_onlinequest_commit": GI_COMMIT,
         "main_quest_rows": len(main_rows),
         "english_quest_files": len(available_ids),
-        "selected_candidates": selected_counts,
         "player_facing_imported": fetched_counts,
+        "skipped_non_target": skipped_non_target,
         "skipped_hidden_or_repeatable": skipped_hidden_or_repeatable,
         "held_back_unresolved_title_count": skipped_unresolved_title,
         "catalog_counts": counts,
-        "unresolved_title_source_ids": sorted(
-            quest_id for quest_id, kind in selected.items()
-            if quest_id not in fetched and kind in ("AQ", "WQ")
-        ),
+        "unresolved_title_source_ids": unresolved_title_ids,
     }
     report_path = ROOT / "localization/quest-import-report.json"
     report_path.write_text(
@@ -492,12 +490,12 @@ def main() -> int:
     )
     print(
         f"Source roster: {len(main_rows)} MainQuest rows, "
-        f"{len(available_ids)} English quest files, {len(selected)} AQ/WQ candidates, "
+        f"{len(available_ids)} English quest files scanned, "
         f"{len(fetched)} player-facing AQ/WQ quests, "
-        f"{skipped_hidden_or_repeatable} hidden/repeatable records skipped, "
-        f"{skipped_unresolved_title} records held back because their English title is unresolved."
+        f"{skipped_non_target} non-AQ/WQ records skipped, "
+        f"{skipped_hidden_or_repeatable} hidden/repeatable AQ/WQ records skipped, "
+        f"{skipped_unresolved_title} AQ/WQ records held back for unresolved English titles."
     )
-    print(f"Candidate types: AQ={selected_counts['AQ']}, WQ={selected_counts['WQ']}")
     print(f"Imported displayable types: AQ={fetched_counts['AQ']}, WQ={fetched_counts['WQ']}")
     for key in sorted(counts):
         print(f"  {key}: {counts[key]}")
