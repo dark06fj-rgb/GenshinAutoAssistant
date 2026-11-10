@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0.0",
+  "language": "ar",
+  "catalog_type": "characters",
+  "game_version": null,
+  "entries": [
+    {
+      "id": "character.albedo",
+      "category": "character",
+      "source_name": "Albedo",
+      "arabic_name": "ألبيدو",
+      "element": "Geo",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.amber",
+      "category": "character",
+      "source_name": "Amber",
+      "arabic_name": "آمبر",
+      "element": "Pyro",
+      "weapon_type": "Bow",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.barbara",
+      "category": "character",
+      "source_name": "Barbara",
+      "arabic_name": "باربرا",
+      "element": "Hydro",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.diluc",
+      "category": "character",
+      "source_name": "Diluc",
+      "arabic_name": "ديلوك",
+      "element": "Pyro",
+      "weapon_type": "Claymore",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.jean",
+      "category": "character",
+      "source_name": "Jean",
+      "arabic_name": "جين",
+      "element": "Anemo",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.keqing",
+      "category": "character",
+      "source_name": "Keqing",
+      "arabic_name": "كي تشينغ",
+      "element": "Electro",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.lisa",
+      "category": "character",
+      "source_name": "Lisa",
+      "arabic_name": "ليزا",
+      "element": "Electro",
+      "weapon_type": "Catalyst",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.noelle",
+      "category": "character",
+      "source_name": "Noelle",
+      "arabic_name": "نويل",
+      "element": "Geo",
+      "weapon_type": "Claymore",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.qiqi",
+      "category": "character",
+      "source_name": "Qiqi",
+      "arabic_name": "تشي تشي",
+      "element": "Cryo",
+      "weapon_type": "Sword",
+      "rarity": 5,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    },
+    {
+      "id": "character.xiangling",
+      "category": "character",
+      "source_name": "Xiangling",
+      "arabic_name": "شيانغلينغ",
+      "element": "Pyro",
+      "weapon_type": "Polearm",
+      "rarity": 4,
+      "source": [
+        {
+          "name": "genshin-db",
+          "url": "https://github.com/theBowja/genshin-db",
+          "version": "7.2"
+        },
+        {
+          "name": "GenshinData",
+          "url": "https://github.com/Dimbreath/GenshinData",
+          "version": null
+        }
+      ],
+      "translation_status": "draft",
+      "review_notes": "ترجمة أولية مقترحة؛ تحتاج مراجعة لغوية ومقارنة مع السياق داخل اللعبة."
+    }
+  ]
+}
