@@ -30,7 +30,7 @@ Arabic titles and concise summaries are original community drafts. Do not copy d
 - `ar/quests_archon.json`: initialized, **0 records imported**.
 - `ar/quests_world.json`: initialized, **0 records imported**.
 - `schema/quest.schema.json`: quest metadata contract added.
-- Automated validator now requires both catalogs to exist and validates their generic entity fields, IDs, source URLs, and translation status.
+- Automated validator requires both catalogs and validates generic entity fields plus quest type, node type, source IDs, parent/prerequisite references, sequence and Adventure Rank values, and parent/prerequisite cycles.
 - No quest has been marked reviewed or approved.
 
 ## Remaining work
@@ -41,7 +41,7 @@ Arabic titles and concise summaries are original community drafts. Do not copy d
 3. Populate Archon Quest chapter/act/quest nodes and World Quest series/quest nodes in reviewable batches.
 4. Cross-check prerequisite graphs and Adventure Rank gates against the Travel Log and versioned source tables.
 5. Write original Arabic titles and short summaries; leave ambiguous translations as `needs_context`.
-6. Add validator rules for parent references, prerequisite references, cycles, and sequence consistency, plus regression tests.
+6. Extend quest validation to compare chapter and act membership against the pinned source tables and add importer integration tests.
 7. Publish coverage counts only after reconciling the imported roster against the source index. The 4,075-row main-quest table is not itself a valid Archon/World Quest coverage denominator.
 
 **This is scaffolding, not a completed quest translation.** Empty catalogs deliberately make the missing coverage visible rather than presenting a fabricated or partial list as complete.
