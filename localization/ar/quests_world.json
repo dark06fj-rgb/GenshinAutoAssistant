@@ -67338,50 +67338,6 @@
       "parent_id": null
     },
     {
-      "id": "quest.world.quest.76208",
-      "category": "quest",
-      "quest_type": "world",
-      "node_type": "quest",
-      "source_quest_id": "76208",
-      "source_name": "(test)Hidden$HIDDEN",
-      "arabic_name": "",
-      "description_ar": null,
-      "chapter_id": null,
-      "act_id": null,
-      "series_id": null,
-      "region": null,
-      "sequence": null,
-      "prerequisite_ids": [],
-      "adventure_rank": null,
-      "version_added": null,
-      "source": [
-        {
-          "name": "AnimeGameData 7.2.0 pinned MainQuestExcelConfigData",
-          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
-          "version": "7.2.0"
-        }
-      ],
-      "translation_status": "needs_translation",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
-      "source_main_quest_metadata": {
-        "chapterId": null,
-        "series": null,
-        "type": "WQ",
-        "mainQuestTag": null,
-        "showType": "QUEST_HIDDEN",
-        "activeMode": null,
-        "repeatable": null,
-        "recommendLevel": null,
-        "cityId": null,
-        "luaPath": "Actor/Quest/WQ76208"
-      },
-      "source_text_map_hashes": {
-        "title": 80893447,
-        "description": 2915939110
-      },
-      "parent_id": null
-    },
-    {
       "id": "quest.world.quest.76210",
       "category": "quest",
       "quest_type": "world",
@@ -69026,50 +68982,6 @@
       "source_text_map_hashes": {
         "title": 1513028431,
         "description": 3207700094
-      },
-      "parent_id": null
-    },
-    {
-      "id": "quest.world.quest.76682",
-      "category": "quest",
-      "quest_type": "world",
-      "node_type": "quest",
-      "source_quest_id": "76682",
-      "source_name": "(test)Hidden$HIDDEN",
-      "arabic_name": "",
-      "description_ar": null,
-      "chapter_id": null,
-      "act_id": null,
-      "series_id": null,
-      "region": null,
-      "sequence": null,
-      "prerequisite_ids": [],
-      "adventure_rank": null,
-      "version_added": null,
-      "source": [
-        {
-          "name": "AnimeGameData 7.2.0 pinned MainQuestExcelConfigData",
-          "url": "https://github.com/DimbreathBot/AnimeGameData/blob/d54f6f0d423ded9d055bb740a3e5f3aa8f2667f1/ExcelBinOutput/MainQuestExcelConfigData.json",
-          "version": "7.2.0"
-        }
-      ],
-      "translation_status": "needs_translation",
-      "review_notes": "سجل مهمة عالم مستورد آلياً؛ الاسم الإنجليزي موثق والترجمة العربية لم تُنجز بعد.",
-      "source_main_quest_metadata": {
-        "chapterId": null,
-        "series": null,
-        "type": "WQ",
-        "mainQuestTag": null,
-        "showType": "QUEST_HIDDEN",
-        "activeMode": null,
-        "repeatable": null,
-        "recommendLevel": null,
-        "cityId": null,
-        "luaPath": "Actor/Quest/WQ76682"
-      },
-      "source_text_map_hashes": {
-        "title": 1506239079,
-        "description": 2206618166
       },
       "parent_id": null
     },
