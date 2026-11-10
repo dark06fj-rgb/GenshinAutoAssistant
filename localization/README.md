@@ -7,12 +7,17 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 - `ar/glossary.json`: terminology and shared translations.
 - `ar/characters.json`: character name records.
 - `ar/weapons.json`: weapon name records.
+- `ar/artifacts.json`: artifact set name records.
 - `ar/materials.json`: common currencies and wish items.
 - `ar/resources.json`: gatherable plants, fruits, and ores.
 - `schema/entity.schema.json`: shared entity format.
 - `SOURCES.md`: data provenance and attribution.
 - `CONTRIBUTING.md`: translation contribution rules.
 - `ROADMAP.md`: project stages.
+
+## Validation
+
+Run `python scripts/validate_localization.py` to check JSON syntax and duplicate IDs within each catalog file. GitHub Actions runs this check when localization files change.
 
 ## Scope and limitations
 
