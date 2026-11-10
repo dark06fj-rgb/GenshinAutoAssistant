@@ -2,41 +2,31 @@
 
 This directory stores a community-maintained Arabic reference catalog for Genshin Impact.
 
-## Scope
+## Catalog files
 
-- Arabic terminology and translation drafts.
-- Structured names and descriptions for characters, weapons, items, regions, quests, and resources when reliable source data is available.
-- Source attribution, game-version tracking, review status, and terminology consistency.
+- `ar/glossary.json`: terminology and shared translations.
+- `ar/characters.json`: character name records.
+- `ar/weapons.json`: weapon name records.
+- `ar/materials.json`: common currencies and wish items.
+- `ar/resources.json`: gatherable plants, fruits, and ores.
+- `schema/entity.schema.json`: shared entity format.
+- `SOURCES.md`: data provenance and attribution.
+- `CONTRIBUTING.md`: translation contribution rules.
+- `ROADMAP.md`: project stages.
 
-## Important limitations
+## Scope and limitations
 
-This catalog is a translation/reference project. It does **not** modify the game, patch APK files, inject code, hook game functions, or bypass anti-cheat. It does not currently make Arabic appear inside the live game.
+This is a translation/reference catalog. It does **not** modify the game, patch APK files, inject code, hook game functions, or bypass anti-cheat. It does not currently make Arabic appear inside the live game.
 
-## Data rules
+## Quality rules
 
 1. Never invent missing source text, IDs, item locations, or drop information.
 2. Keep source text and translated text in separate fields.
 3. Mark every unverified translation as `draft`.
-4. Record the source URL or source repository and the game version where known.
+4. Record source URLs and game version where known.
 5. Preserve stable source identifiers exactly; do not translate IDs.
 6. Use UTF-8 JSON and validate files before committing.
-7. Do not copy proprietary game databases wholesale unless their license permits redistribution. Prefer original translations, clearly attributed public sources, and small factual references.
+7. Do not copy proprietary game databases wholesale unless redistribution rights are confirmed.
+8. Store Arabic in logical Unicode order; any future viewer must handle RTL and Arabic shaping.
 
-## Translation conventions
-
-- Use clear Modern Standard Arabic.
-- Keep character and place names consistent in the glossary.
-- Preserve placeholders such as `{0}`, `{name}`, and rich-text tags exactly.
-- Do not reorder format placeholders.
-- Arabic text should be stored in logical Unicode order. RTL display is the responsibility of any future viewer/exporter.
-
-## Status values
-
-- `draft`: initial translation, not reviewed.
-- `reviewed`: checked by a human reviewer.
-- `approved`: approved for this catalog release.
-- `needs_context`: cannot be translated reliably without more context.
-
-## Current state
-
-The initial glossary is a small, explicitly unapproved terminology draft. No complete game text dataset has been imported.
+All seed translations are drafts, not official HoYoverse translations.
