@@ -9,17 +9,17 @@
   "disclaimer": "Community translation drafts; not official HoYoverse terminology. Quest dialogue is intentionally excluded.",
   "entries": [
     {
-      "id": "quest.world.quest.10025",
+      "id": "quest.world.series.10025",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10025",
       "source_name": "Sacred Sakura Cleansing Ritual",
       "arabic_name": "طقوس تطهير الساكورا المقدسة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10025",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10025",
       "region": "Inazuma",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -37,20 +37,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10025,
+        "groupId": 10025,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3463353569,
+        "number": 2839998594,
+        "image_title": 3860391253
+      }
     },
     {
-      "id": "quest.world.quest.10031",
+      "id": "quest.world.series.10031",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10031",
       "source_name": "The Moon-Bathed Deep",
       "arabic_name": "الأعماق المغمورة بضوء القمر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10031",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10031",
       "region": "Inazuma",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -68,20 +79,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10031,
+        "groupId": 10031,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 967448793,
+        "number": 2605892962,
+        "image_title": 3314487445
+      }
     },
     {
-      "id": "quest.world.quest.10032",
+      "id": "quest.world.series.10032",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10032",
       "source_name": "Seirai Stormchasers",
       "arabic_name": "مطاردو عواصف سيراي",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10032",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10032",
       "region": "Inazuma",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -99,20 +121,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10032,
+        "groupId": 10032,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2404727977,
+        "number": 3531160850,
+        "image_title": 3751968885
+      }
     },
     {
-      "id": "quest.world.quest.10036",
+      "id": "quest.world.series.10036",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10036",
       "source_name": "Tatara Tales",
       "arabic_name": "حكايات تاتارا",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10036",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10036",
       "region": "Inazuma",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -130,20 +163,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10036,
+        "groupId": 10036,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 4236527673,
+        "number": 3385240578,
+        "image_title": 2867480909
+      }
     },
     {
-      "id": "quest.world.quest.10037",
+      "id": "quest.world.series.10037",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10037",
       "source_name": "Orobashi's Legacy",
       "arabic_name": "إرث أوروباشي",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10037",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10037",
       "region": "Inazuma",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -161,20 +205,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10037,
+        "groupId": 10037,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 299291785,
+        "number": 1950545090,
+        "image_title": 1153450301
+      }
     },
     {
-      "id": "quest.world.quest.10044",
+      "id": "quest.world.series.10044",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10044",
       "source_name": "Through the Mists",
       "arabic_name": "عبر الضباب",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10044",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10044",
       "region": "Inazuma",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -192,20 +247,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10044,
+        "groupId": 10044,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 895947873,
+        "number": 497569010,
+        "image_title": 1056172173
+      }
     },
     {
-      "id": "quest.world.quest.10051",
+      "id": "quest.world.series.10051",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10051",
       "source_name": "The Chasm Delvers",
       "arabic_name": "منقّبو الهوة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10051",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10051",
       "region": "Liyue",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -223,20 +289,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10051,
+        "groupId": 10051,
+        "cityId": 2,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3683305673,
+        "number": 1328399786,
+        "image_title": 1443178893
+      }
     },
     {
-      "id": "quest.world.quest.10055",
+      "id": "quest.world.series.10055",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10055",
       "source_name": "From Dusk to Dawn in Byakuyakoku",
       "arabic_name": "من الغسق إلى الفجر في بياكوياكوكو",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10055",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10055",
       "region": "Enkanomiya",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -254,20 +331,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10055,
+        "groupId": 10055,
+        "cityId": 3,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2397754873,
+        "number": 190340386,
+        "image_title": 1487576157
+      }
     },
     {
-      "id": "quest.world.quest.10070",
+      "id": "quest.world.series.10070",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10070",
       "source_name": "Vimana Agama",
       "arabic_name": "فيمانا أغاما",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10070",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10070",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -285,20 +373,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10070,
+        "groupId": 10070,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3485128073,
+        "number": 844611058,
+        "image_title": 3330223405
+      }
     },
     {
-      "id": "quest.world.quest.10072",
+      "id": "quest.world.series.10072",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10072",
       "source_name": "Varuna Gatha",
       "arabic_name": "فارونا غاثا",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10072",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10072",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -316,20 +415,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10072,
+        "groupId": 10072,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2504511713,
+        "number": 4064383290,
+        "image_title": 1765273933
+      }
     },
     {
-      "id": "quest.world.quest.10073",
+      "id": "quest.world.series.10073",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10073",
       "source_name": "Woodland Encounter",
       "arabic_name": "لقاء في الغابة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10073",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10073",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -347,20 +457,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10073,
+        "groupId": 10073,
+        "beginQuestId": 7300102,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1187662225,
+        "number": 3729371618,
+        "image_title": 1435738237
+      }
     },
     {
-      "id": "quest.world.quest.10076",
+      "id": "quest.world.series.10076",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10076",
       "source_name": "Dream Nursery",
       "arabic_name": "مشتل الأحلام",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10076",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10076",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -378,20 +500,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10076,
+        "groupId": 10073,
+        "beginQuestId": 7302521,
+        "endQuestId": 7303208,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3601752425,
+        "number": 2951387442,
+        "image_title": 3867415941
+      }
     },
     {
-      "id": "quest.world.quest.10079",
+      "id": "quest.world.series.10079",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10079",
       "source_name": "Nursery of Lost Dreams",
       "arabic_name": "مشتل الأحلام الضائعة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10079",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10079",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -409,20 +544,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10079,
+        "groupId": 10073,
+        "beginQuestId": 7303601,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1300917385,
+        "number": 3269455946,
+        "image_title": 3717610837
+      }
     },
     {
-      "id": "quest.world.quest.10082",
+      "id": "quest.world.series.10082",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10082",
       "source_name": "In the End, the Forest Will Remember",
       "arabic_name": "في النهاية، ستتذكر الغابة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10082",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10082",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -440,20 +587,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10082,
+        "groupId": 10073,
+        "beginQuestId": 7303801,
+        "endQuestId": 7303803,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3323252905,
+        "number": 3090560346,
+        "image_title": 1122092269
+      }
     },
     {
-      "id": "quest.world.quest.10083",
+      "id": "quest.world.series.10083",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10083",
       "source_name": "Agnihotra Sutra",
       "arabic_name": "أغنيهوترا سوترا",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10083",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10083",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -471,20 +631,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10083,
+        "groupId": 10083,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 207189473,
+        "number": 1282051482,
+        "image_title": 336492013
+      }
     },
     {
-      "id": "quest.world.quest.10087",
+      "id": "quest.world.series.10087",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10087",
       "source_name": "Golden Slumber",
       "arabic_name": "سبات ذهبي",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10087",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10087",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -502,20 +673,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10087,
+        "groupId": 10087,
+        "beginQuestId": 7305204,
+        "endQuestId": 7305508,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1957458425,
+        "number": 2770282698,
+        "image_title": 1483707765
+      }
     },
     {
-      "id": "quest.world.quest.10121",
+      "id": "quest.world.series.10121",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10121",
       "source_name": "Khvarena of Good and Evil",
       "arabic_name": "خوارينا الخير والشر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10121",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10121",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -533,20 +717,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10121,
+        "groupId": 10121,
+        "beginQuestId": 7323803,
+        "endQuestId": 7323218,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2041631025,
+        "number": 2900292930,
+        "image_title": 2793876549
+      }
     },
     {
-      "id": "quest.world.quest.10130",
+      "id": "quest.world.series.10130",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10130",
       "source_name": "The Dirge of Bilqis",
       "arabic_name": "مرثية بلقيس",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10130",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10130",
       "region": "Sumeru",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -564,20 +761,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10130,
+        "groupId": 10130,
+        "beginQuestId": 7328702,
+        "endQuestId": 7322008,
+        "cityId": 4,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3400181961,
+        "number": 2777525322,
+        "image_title": 3686413773
+      }
     },
     {
-      "id": "quest.world.quest.10142",
+      "id": "quest.world.series.10142",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10142",
       "source_name": "A Brush of Seafoam and Crimson",
       "arabic_name": "لمسة من زبد البحر والقرمزي",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10142",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10142",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -595,20 +805,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10142,
+        "groupId": 10142,
+        "beginQuestId": 7400518,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2934788113,
+        "number": 846161114,
+        "image_title": 2160755037
+      }
     },
     {
-      "id": "quest.world.quest.10150",
+      "id": "quest.world.series.10150",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10150",
       "source_name": "A Gradient of Dreams and Ochre",
       "arabic_name": "تدرّج من الأحلام واللون المغري",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10150",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10150",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -626,20 +848,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10150,
+        "groupId": 10142,
+        "beginQuestId": 7400624,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2626932073,
+        "number": 2879911178,
+        "image_title": 3656379893
+      }
     },
     {
-      "id": "quest.world.quest.10151",
+      "id": "quest.world.series.10151",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10151",
       "source_name": "Blue Longing of Heart and Moon",
       "arabic_name": "حنين أزرق للقلب والقمر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10151",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10151",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -657,20 +891,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10151,
+        "groupId": 10142,
+        "beginQuestId": 7400721,
+        "endQuestId": 7400716,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3440973129,
+        "number": 2347466194,
+        "image_title": 3084244477
+      }
     },
     {
-      "id": "quest.world.quest.10146",
+      "id": "quest.world.series.10146",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10146",
       "source_name": "The Narzissenkreuz Adventure",
       "arabic_name": "مغامرة نارزيسنكروز",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10146",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10146",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -688,20 +935,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10146,
+        "groupId": 10146,
+        "beginQuestId": 7400102,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 4143677793,
+        "number": 3210421306,
+        "image_title": 4085436613
+      }
     },
     {
-      "id": "quest.world.quest.10148",
+      "id": "quest.world.series.10148",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10148",
       "source_name": "Kingdom Through the Looking-Glass",
       "arabic_name": "مملكة عبر المرآة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10148",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10148",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -719,20 +978,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10148,
+        "groupId": 10146,
+        "beginQuestId": 7400330,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1357093153,
+        "number": 27776218,
+        "image_title": 2188133717
+      }
     },
     {
-      "id": "quest.world.quest.10149",
+      "id": "quest.world.series.10149",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10149",
       "source_name": "\"If She No Longer Dreams of You...\"",
       "arabic_name": "«إن لم تعد تحلم بك...»",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10149",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10149",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -750,20 +1021,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10149,
+        "groupId": 10146,
+        "beginQuestId": 7400401,
+        "endQuestId": 7400415,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1294546137,
+        "number": 344024530,
+        "image_title": 113038445
+      }
     },
     {
-      "id": "quest.world.quest.10147",
+      "id": "quest.world.series.10147",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10147",
       "source_name": "The Wild Fairy of Erinnyes",
       "arabic_name": "جنية إيرينيس البرية",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10147",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10147",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -781,20 +1065,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10147,
+        "groupId": 10147,
+        "beginQuestId": 7416902,
+        "endQuestId": 7408519,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1653100985,
+        "number": 2782731634,
+        "image_title": 4203835685
+      }
     },
     {
-      "id": "quest.world.quest.10152",
+      "id": "quest.world.series.10152",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10152",
       "source_name": "Search in the Algae Sea",
       "arabic_name": "البحث في بحر الطحالب",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10152",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10152",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -812,20 +1109,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10152,
+        "groupId": 10152,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 806252897,
+        "number": 530108466,
+        "image_title": 3292280181
+      }
     },
     {
-      "id": "quest.world.quest.10153",
+      "id": "quest.world.series.10153",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10153",
       "source_name": "Savior's Wake",
       "arabic_name": "صحوة المنقذ",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10153",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10153",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -843,20 +1151,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10153,
+        "groupId": 10152,
+        "beginQuestId": 7407701,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 678622609,
+        "number": 2708388146,
+        "image_title": 1804107173
+      }
     },
     {
-      "id": "quest.world.quest.10154",
+      "id": "quest.world.series.10154",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10154",
       "source_name": "Waking From the Great Dream",
       "arabic_name": "الاستيقاظ من الحلم العظيم",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10154",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10154",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -874,20 +1194,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10154,
+        "groupId": 10152,
+        "beginQuestId": 7416507,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3609531713,
+        "number": 3369531698,
+        "image_title": 1496278293
+      }
     },
     {
-      "id": "quest.world.quest.10155",
+      "id": "quest.world.series.10155",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10155",
       "source_name": "Rowboat's Wake",
       "arabic_name": "أثر قارب التجديف",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10155",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10155",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -905,20 +1237,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10155,
+        "groupId": 10152,
+        "beginQuestId": 7407815,
+        "endQuestId": 7407828,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3536519353,
+        "number": 2876729546,
+        "image_title": 2763739389
+      }
     },
     {
-      "id": "quest.world.quest.10177",
+      "id": "quest.world.series.10177",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10177",
       "source_name": "Prelude to the Night Vigil",
       "arabic_name": "مقدمة إلى السهر الليلي",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10177",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10177",
       "region": "Nod-Krai",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -936,20 +1281,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10177,
+        "groupId": 10177,
+        "beginQuestId": 7609930,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1560931562,
+        "number": 3879372192,
+        "image_title": 5242982
+      }
     },
     {
-      "id": "quest.world.quest.10178",
+      "id": "quest.world.series.10178",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10178",
       "source_name": "Darradarljod",
       "arabic_name": "دارادارليود",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10178",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10178",
       "region": "Nod-Krai",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -967,20 +1324,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10178,
+        "groupId": 10177,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2425398330,
+        "number": 2651512888,
+        "image_title": 3832496502
+      }
     },
     {
-      "id": "quest.world.quest.10179",
+      "id": "quest.world.series.10179",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10179",
       "source_name": "A Star Out of Time",
       "arabic_name": "نجم خارج الزمن",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10179",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10179",
       "region": "Nod-Krai",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -998,20 +1366,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10179,
+        "groupId": 10177,
+        "endQuestId": 7610121,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3052838234,
+        "number": 3190264984,
+        "image_title": 2657328630
+      }
     },
     {
-      "id": "quest.world.quest.10181",
+      "id": "quest.world.series.10181",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10181",
       "source_name": "Pharsalia's Rhapsody",
       "arabic_name": "رابسودية فارساليا",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10181",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10181",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1029,20 +1409,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10181,
+        "groupId": 10181,
+        "beginQuestId": 7419403,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1479609434,
+        "number": 286630080,
+        "image_title": 896757838
+      }
     },
     {
-      "id": "quest.world.quest.10187",
+      "id": "quest.world.series.10187",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10187",
       "source_name": "Hesperides of Love and Hate",
       "arabic_name": "هيسبيريدس الحب والكراهية",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10187",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10187",
       "region": "Snezhnaya",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1060,20 +1452,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10187,
+        "groupId": 10187,
+        "endQuestId": 7710709,
+        "cityId": 8,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 784510210,
+        "number": 2716309560,
+        "image_title": 2194118030
+      }
     },
     {
-      "id": "quest.world.quest.10188",
+      "id": "quest.world.series.10188",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10188",
       "source_name": "Her Palace Collapses Into the Blizzard",
       "arabic_name": "ينهار قصرها وسط العاصفة الثلجية",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10188",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10188",
       "region": "Snezhnaya",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1091,20 +1495,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10188,
+        "groupId": 10188,
+        "cityId": 8,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2866022810,
+        "number": 898600384,
+        "image_title": 3174604054
+      }
     },
     {
-      "id": "quest.world.quest.10255",
+      "id": "quest.world.series.10255",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10255",
       "source_name": "In the Dwelling of Life",
       "arabic_name": "في مسكن الحياة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10255",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10255",
       "region": "Snezhnaya",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1122,20 +1537,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10255,
+        "groupId": 10255,
+        "beginQuestId": 7711507,
+        "endQuestId": 7711204,
+        "cityId": 8,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3241593874,
+        "number": 756528304,
+        "image_title": 3547039166
+      }
     },
     {
-      "id": "quest.world.quest.10282",
+      "id": "quest.world.series.10282",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10282",
       "source_name": "On One Side a Palace, on the Other a Tomb",
       "arabic_name": "قصر من جهة وقبر من جهة أخرى",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10282",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10282",
       "region": "Snezhnaya",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1153,20 +1581,33 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10282,
+        "groupId": 10282,
+        "beginQuestId": 7710002,
+        "endQuestId": 7710117,
+        "cityId": 8,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1205697898,
+        "number": 711890248,
+        "image_title": 2941033742
+      }
     },
     {
-      "id": "quest.world.quest.10086",
+      "id": "quest.world.series.10086",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10086",
       "source_name": "Magic Mountain",
       "arabic_name": "الجبل السحري",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10086",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10086",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1184,20 +1625,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10086,
+        "beginQuestId": 7006505,
+        "cityId": 105,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1867628658,
+        "number": 2944467048,
+        "image_title": 2961112086
+      }
     },
     {
-      "id": "quest.world.quest.10094",
+      "id": "quest.world.series.10094",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10094",
       "source_name": "Paradise",
       "arabic_name": "الفردوس",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10094",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10094",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1215,20 +1667,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10094,
+        "beginQuestId": 7609501,
+        "endQuestId": 7609505,
+        "cityId": 105,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3421527474,
+        "number": 882530664,
+        "image_title": 3276182582
+      }
     },
     {
-      "id": "quest.world.quest.10095",
+      "id": "quest.world.series.10095",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10095",
       "source_name": "Hell",
       "arabic_name": "الجحيم",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10095",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10095",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1246,20 +1710,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10095,
+        "beginQuestId": 7614806,
+        "cityId": 105,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 793207098,
+        "number": 2392137208,
+        "image_title": 973808694
+      }
     },
     {
-      "id": "quest.world.quest.10132",
+      "id": "quest.world.series.10132",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10132",
       "source_name": "Judgment",
       "arabic_name": "الحُكم",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10132",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10132",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1277,20 +1752,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10132,
+        "beginQuestId": 7609601,
+        "endQuestId": 7609623,
+        "cityId": 105,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2153855354,
+        "number": 346112,
+        "image_title": 725412942
+      }
     },
     {
-      "id": "quest.world.quest.10143",
+      "id": "quest.world.series.10143",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10143",
       "source_name": "Unfinished Comedy",
       "arabic_name": "كوميديا غير مكتملة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10143",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10143",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1308,20 +1795,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10143,
+        "beginQuestId": 7402508,
+        "endQuestId": 7402803,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1286530553,
+        "number": 1100739706,
+        "image_title": 244087085
+      }
     },
     {
-      "id": "quest.world.quest.10145",
+      "id": "quest.world.series.10145",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10145",
       "source_name": "Fontaine Research Institute Chronicles",
       "arabic_name": "سجلات معهد فونتين للأبحاث",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10145",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10145",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1339,20 +1838,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10145,
+        "beginQuestId": 7405305,
+        "endQuestId": 7405379,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 56674745,
+        "number": 1421662538,
+        "image_title": 1934390389
+      }
     },
     {
-      "id": "quest.world.quest.10168",
+      "id": "quest.world.series.10168",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10168",
       "source_name": "Chenyu's Blessings of Sunken Jade",
       "arabic_name": "بركات اليشم الغارق في تشنيو",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10168",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10168",
       "region": "Liyue",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1370,20 +1881,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10168,
+        "beginQuestId": 7110207,
+        "endQuestId": 7110060,
+        "cityId": 2,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3337665658,
+        "number": 1623489992,
+        "image_title": 4055800942
+      }
     },
     {
-      "id": "quest.world.quest.10182",
+      "id": "quest.world.series.10182",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10182",
       "source_name": "Prisoner in Shackles",
       "arabic_name": "سجين في الأغلال",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10182",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10182",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1401,20 +1924,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10182,
+        "beginQuestId": 7418301,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 46656658,
+        "number": 1288556632,
+        "image_title": 3030775870
+      }
     },
     {
-      "id": "quest.world.quest.10183",
+      "id": "quest.world.series.10183",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10183",
       "source_name": "Petrichorror Dream",
       "arabic_name": "حلم بيتريكور المرعب",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10183",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10183",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1432,20 +1966,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10183,
+        "beginQuestId": 7418420,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3819739530,
+        "number": 205794568,
+        "image_title": 2889228518
+      }
     },
     {
-      "id": "quest.world.quest.10184",
+      "id": "quest.world.series.10184",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10184",
       "source_name": "In the Hall of the Sea King",
       "arabic_name": "في قاعة ملك البحر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10184",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10184",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1463,20 +2008,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10184,
+        "beginQuestId": 7419513,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1783361642,
+        "number": 3506557040,
+        "image_title": 3257311478
+      }
     },
     {
-      "id": "quest.world.quest.10185",
+      "id": "quest.world.series.10185",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10185",
       "source_name": "Requiem",
       "arabic_name": "قداس جنائزي",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10185",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10185",
       "region": "Fontaine",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1494,20 +2050,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10185,
+        "beginQuestId": 7419601,
+        "endQuestId": 7419620,
+        "cityId": 5,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3020581090,
+        "number": 895712368,
+        "image_title": 2837961198
+      }
     },
     {
-      "id": "quest.world.quest.10197",
+      "id": "quest.world.series.10197",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10197",
       "source_name": "Pioneers",
       "arabic_name": "روّاد",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10197",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10197",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1525,20 +2093,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10197,
+        "beginQuestId": 7613205,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1558666738,
+        "number": 2812413984,
+        "image_title": 4182006030
+      }
     },
     {
-      "id": "quest.world.quest.10199",
+      "id": "quest.world.series.10199",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10199",
       "source_name": "Visitors From the Stars",
       "arabic_name": "زوار من النجوم",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10199",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10199",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1556,20 +2135,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10199,
+        "beginQuestId": 7613309,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 543786122,
+        "number": 584909992,
+        "image_title": 710922502
+      }
     },
     {
-      "id": "quest.world.quest.10203",
+      "id": "quest.world.series.10203",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10203",
       "source_name": "Between Pledge and Forgettance",
       "arabic_name": "بين العهد والنسيان",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10203",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10203",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1587,20 +2177,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10203,
+        "beginQuestId": 7501902,
+        "endQuestId": 7500235,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3228381602,
+        "number": 2362198216,
+        "image_title": 3146809678
+      }
     },
     {
-      "id": "quest.world.quest.10205",
+      "id": "quest.world.series.10205",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10205",
       "source_name": "Shadows of the Mountains",
       "arabic_name": "ظلال الجبال",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10205",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10205",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1618,20 +2220,30 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10205,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 4093045810,
+        "number": 23829704,
+        "image_title": 1173141710
+      }
     },
     {
-      "id": "quest.world.quest.10206",
+      "id": "quest.world.series.10206",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10206",
       "source_name": "Tale of Dreams Plucked From Fire",
       "arabic_name": "حكاية أحلام انتُزعت من النار",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10206",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10206",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1649,20 +2261,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10206,
+        "beginQuestId": 7500617,
+        "endQuestId": 7501117,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1171481978,
+        "number": 2404610160,
+        "image_title": 3391948134
+      }
     },
     {
-      "id": "quest.world.quest.10213",
+      "id": "quest.world.series.10213",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10213",
       "source_name": "City Buried By Ash",
       "arabic_name": "مدينة دفنها الرماد",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10213",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10213",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1680,20 +2304,30 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10213,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 4149278898,
+        "number": 1274416448,
+        "image_title": 1569801318
+      }
     },
     {
-      "id": "quest.world.quest.10215",
+      "id": "quest.world.series.10215",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10215",
       "source_name": "A Dream of Gazing Upon the Distant Sky",
       "arabic_name": "حلم التحديق في السماء البعيدة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10215",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10215",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1711,20 +2345,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10215,
+        "beginQuestId": 7513301,
+        "endQuestId": 7513505,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 3949216058,
+        "number": 440661400,
+        "image_title": 1032802414
+      }
     },
     {
-      "id": "quest.world.quest.10216",
+      "id": "quest.world.series.10216",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10216",
       "source_name": "The Tonatiuh Quivers",
       "arabic_name": "ارتجاف توناتيـوه",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10216",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10216",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1742,20 +2388,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10216,
+        "endQuestId": 7513707,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2823076258,
+        "number": 3225516040,
+        "image_title": 831440158
+      }
     },
     {
-      "id": "quest.world.quest.10217",
+      "id": "quest.world.series.10217",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10217",
       "source_name": "The Chosen One's Promise",
       "arabic_name": "وعد المختار",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10217",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10217",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1773,20 +2430,30 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10217,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2066857154,
+        "number": 2176378296,
+        "image_title": 578136366
+      }
     },
     {
-      "id": "quest.world.quest.10228",
+      "id": "quest.world.series.10228",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10228",
       "source_name": "Project Moongazer",
       "arabic_name": "مشروع راصد القمر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10228",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10228",
       "region": "Other",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1804,20 +2471,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10228,
+        "beginQuestId": 7613102,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 549154210,
+        "number": 1931143400,
+        "image_title": 787164326
+      }
     },
     {
-      "id": "quest.world.quest.10230",
+      "id": "quest.world.series.10230",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10230",
       "source_name": "Chronicler of the Crumbling City",
       "arabic_name": "مؤرخ المدينة الآيلة للانهيار",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10230",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10230",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1835,20 +2513,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10230,
+        "beginQuestId": 7514915,
+        "endQuestId": 7516607,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2575465938,
+        "number": 2630698176,
+        "image_title": 1239880174
+      }
     },
     {
-      "id": "quest.world.quest.10231",
+      "id": "quest.world.series.10231",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10231",
       "source_name": "A Finale Emberforged",
       "arabic_name": "خاتمة صاغها الجمر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10231",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10231",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1866,20 +2556,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10231,
+        "beginQuestId": 7515106,
+        "endQuestId": 7515124,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 4221783442,
+        "number": 2360828072,
+        "image_title": 1642100870
+      }
     },
     {
-      "id": "quest.world.quest.10240",
+      "id": "quest.world.series.10240",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10240",
       "source_name": "Path to the Flaming Peaks",
       "arabic_name": "طريق القمم المتقدة",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10240",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10240",
       "region": "Natlan",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1897,20 +2599,32 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10240,
+        "beginQuestId": 7514805,
+        "endQuestId": 7514803,
+        "cityId": 6,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1174526138,
+        "number": 251776352,
+        "image_title": 689295398
+      }
     },
     {
-      "id": "quest.world.quest.10241",
+      "id": "quest.world.series.10241",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10241",
       "source_name": "Polkka Beneath the Moon's Oracle",
       "arabic_name": "بولكا تحت نبوءة القمر",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10241",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10241",
       "region": "Nod-Krai",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1928,20 +2642,31 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10241,
+        "endQuestId": 7601120,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 1773035642,
+        "number": 3681528080,
+        "image_title": 1927165374
+      }
     },
     {
-      "id": "quest.world.quest.10265",
+      "id": "quest.world.series.10265",
       "category": "quest",
       "quest_type": "world",
-      "node_type": "quest",
+      "node_type": "series",
       "source_quest_id": "10265",
       "source_name": "East of the Moon, West of the Sun",
       "arabic_name": "شرق القمر وغرب الشمس",
       "description_ar": null,
-      "chapter_id": null,
+      "chapter_id": "10265",
       "act_id": null,
-      "series_id": null,
+      "series_id": "10265",
       "region": "Nod-Krai",
       "prerequisite_ids": [],
       "adventure_rank": null,
@@ -1959,7 +2684,17 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها."
+      "review_notes": "سجل فصل/مجموعة مهام عالم من فهرس المصدر؛ لم تُستورد بعد أسماء المهام الفردية وخطواتها أو متطلباتها.",
+      "source_chapter_metadata": {
+        "id": 10265,
+        "cityId": 7,
+        "questType": "WQ"
+      },
+      "source_text_map_hashes": {
+        "title": 2622192090,
+        "number": 2667488288,
+        "image_title": 3500415414
+      }
     }
   ]
 }

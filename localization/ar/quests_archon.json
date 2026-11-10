@@ -37,7 +37,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1001,
+        "groupId": 1001,
+        "beginQuestId": 36301,
+        "endQuestId": 31101,
+        "cityId": 1,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 4069653889,
+        "number": 988250,
+        "image_title": 3052926405
+      }
     },
     {
       "id": "quest.archon.act.1002",
@@ -68,7 +81,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1002,
+        "groupId": 1001,
+        "beginQuestId": 37004,
+        "endQuestId": 38406,
+        "cityId": 1,
+        "needPlayerLevel": 10,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 3129506201,
+        "number": 1710050402,
+        "image_title": 446548101
+      }
     },
     {
       "id": "quest.archon.act.1003",
@@ -99,7 +126,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1003,
+        "groupId": 1001,
+        "beginQuestId": 39705,
+        "endQuestId": 39604,
+        "cityId": 1,
+        "needPlayerLevel": 18,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 44670081,
+        "number": 1351210426,
+        "image_title": 1181818933
+      }
     },
     {
       "id": "quest.archon.act.1101",
@@ -130,7 +171,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1101,
+        "groupId": 1101,
+        "beginQuestId": 100002,
+        "endQuestId": 101801,
+        "cityId": 2,
+        "needPlayerLevel": 23,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 67026961,
+        "number": 3223313530,
+        "image_title": 225146909
+      }
     },
     {
       "id": "quest.archon.act.1102",
@@ -161,7 +216,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1102,
+        "groupId": 1101,
+        "beginQuestId": 101003,
+        "endQuestId": 101609,
+        "cityId": 2,
+        "needPlayerLevel": 25,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 4011294841,
+        "number": 1139438706,
+        "image_title": 2853826621
+      }
     },
     {
       "id": "quest.archon.act.1103",
@@ -192,7 +261,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1103,
+        "groupId": 1101,
+        "beginQuestId": 102001,
+        "endQuestId": 102510,
+        "cityId": 2,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 2560407913,
+        "number": 4237881826,
+        "image_title": 2343126293
+      }
     },
     {
       "id": "quest.archon.act.1104",
@@ -223,7 +306,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1104,
+        "groupId": 1104,
+        "beginQuestId": 800002,
+        "endQuestId": 800311,
+        "cityId": 1,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 376022177,
+        "number": 2982267122,
+        "image_title": 1643924781
+      }
     },
     {
       "id": "quest.archon.act.1201",
@@ -254,7 +351,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1201,
+        "groupId": 1201,
+        "beginQuestId": 200003,
+        "endQuestId": 200212,
+        "cityId": 3,
+        "needPlayerLevel": 30,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 2886286777,
+        "number": 1576758474,
+        "image_title": 139804829
+      }
     },
     {
       "id": "quest.archon.act.1202",
@@ -285,7 +396,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1202,
+        "groupId": 1201,
+        "beginQuestId": 201102,
+        "endQuestId": 200711,
+        "cityId": 3,
+        "needPlayerLevel": 30,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 2635576673,
+        "number": 1822948722,
+        "image_title": 3865951405
+      }
     },
     {
       "id": "quest.archon.act.1203",
@@ -316,7 +441,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1203,
+        "groupId": 1201,
+        "beginQuestId": 200805,
+        "endQuestId": 200908,
+        "cityId": 3,
+        "needPlayerLevel": 30,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 1090804777,
+        "number": 2951618746,
+        "image_title": 2608688605
+      }
     },
     {
       "id": "quest.archon.act.1204",
@@ -347,7 +486,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1204,
+        "groupId": 1201,
+        "beginQuestId": 201003,
+        "endQuestId": 202102,
+        "cityId": 3,
+        "needPlayerLevel": 30,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 1668153345,
+        "number": 963369066,
+        "image_title": 3117817925
+      }
     },
     {
       "id": "quest.archon.act.1205",
@@ -378,7 +531,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1205,
+        "groupId": 1205,
+        "beginQuestId": 1100905,
+        "endQuestId": 1101505,
+        "cityId": 2,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 3568228361,
+        "number": 2563504330,
+        "image_title": 3761394981
+      }
     },
     {
       "id": "quest.archon.act.1206",
@@ -409,7 +576,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1206,
+        "groupId": 1206,
+        "beginQuestId": 800402,
+        "endQuestId": 800710,
+        "cityId": 2,
+        "needPlayerLevel": 30,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_5"
+      },
+      "source_text_map_hashes": {
+        "title": 904042809,
+        "number": 1431852242,
+        "image_title": 1157401661
+      }
     },
     {
       "id": "quest.archon.act.1207",
@@ -440,7 +621,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1207,
+        "groupId": 1207,
+        "beginQuestId": 101903,
+        "endQuestId": 103106,
+        "cityId": 2,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 654650721,
+        "number": 3428830426,
+        "image_title": 2110774781
+      }
     },
     {
       "id": "quest.archon.act.1004",
@@ -471,7 +666,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1004,
+        "beginQuestId": 60002,
+        "endQuestId": 60210,
+        "cityId": 1,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 1196880306,
+        "number": 184770864,
+        "image_title": 2203220110
+      }
     },
     {
       "id": "quest.archon.act.1301",
@@ -502,7 +710,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1301,
+        "groupId": 1301,
+        "beginQuestId": 300002,
+        "endQuestId": 300612,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 676607441,
+        "number": 4153381122,
+        "image_title": 508055693
+      }
     },
     {
       "id": "quest.archon.act.1302",
@@ -533,7 +755,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1302,
+        "groupId": 1301,
+        "beginQuestId": 300714,
+        "endQuestId": 301210,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 3965683105,
+        "number": 1163496690,
+        "image_title": 2410205581
+      }
     },
     {
       "id": "quest.archon.act.1303",
@@ -564,7 +800,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1303,
+        "groupId": 1301,
+        "beginQuestId": 301617,
+        "endQuestId": 301811,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 2200974649,
+        "number": 392465610,
+        "image_title": 1071846517
+      }
     },
     {
       "id": "quest.archon.act.1304",
@@ -595,7 +845,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1304,
+        "groupId": 1301,
+        "beginQuestId": 301906,
+        "endQuestId": 302110,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 4223961545,
+        "number": 889251842,
+        "image_title": 3410463941
+      }
     },
     {
       "id": "quest.archon.act.1305",
@@ -626,7 +890,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1305,
+        "groupId": 1301,
+        "beginQuestId": 302413,
+        "endQuestId": 302617,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_5"
+      },
+      "source_text_map_hashes": {
+        "title": 3145045481,
+        "number": 1040367634,
+        "image_title": 1228754189
+      }
     },
     {
       "id": "quest.archon.act.1306",
@@ -657,7 +935,19 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1306,
+        "groupId": 1301,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 458848681,
+        "number": 3813909530,
+        "image_title": 1503909077
+      }
     },
     {
       "id": "quest.archon.act.1307",
@@ -688,7 +978,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1307,
+        "beginQuestId": 302902,
+        "endQuestId": 303205,
+        "cityId": 4,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 2100565426,
+        "number": 1944121712,
+        "image_title": 463639862
+      }
     },
     {
       "id": "quest.archon.act.1308",
@@ -719,7 +1022,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1308,
+        "beginQuestId": 800902,
+        "endQuestId": 801212,
+        "cityId": 4,
+        "needPlayerLevel": 35,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_6"
+      },
+      "source_text_map_hashes": {
+        "title": 3989534090,
+        "number": 695824688,
+        "image_title": 607151614
+      }
     },
     {
       "id": "quest.archon.act.1401",
@@ -750,7 +1066,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1401,
+        "groupId": 1401,
+        "beginQuestId": 400403,
+        "endQuestId": 400617,
+        "cityId": 5,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 456482290,
+        "number": 2479357240,
+        "image_title": 2442141014
+      }
     },
     {
       "id": "quest.archon.act.1402",
@@ -781,7 +1111,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1402,
+        "groupId": 1401,
+        "beginQuestId": 400002,
+        "endQuestId": 400221,
+        "cityId": 5,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 3413587354,
+        "number": 1302118664,
+        "image_title": 3167487446
+      }
     },
     {
       "id": "quest.archon.act.1403",
@@ -812,7 +1156,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1403,
+        "groupId": 1403,
+        "beginQuestId": 401103,
+        "endQuestId": 401810,
+        "cityId": 5,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 2071857626,
+        "number": 3911815504,
+        "image_title": 2254759974
+      }
     },
     {
       "id": "quest.archon.act.1404",
@@ -843,7 +1201,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1404,
+        "groupId": 1403,
+        "beginQuestId": 400711,
+        "endQuestId": 401906,
+        "cityId": 5,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 1402363962,
+        "number": 1276769776,
+        "image_title": 334558486
+      }
     },
     {
       "id": "quest.archon.act.1405",
@@ -874,7 +1246,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1405,
+        "groupId": 1405,
+        "beginQuestId": 402303,
+        "endQuestId": 402511,
+        "cityId": 5,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_5"
+      },
+      "source_text_map_hashes": {
+        "title": 664914,
+        "number": 2052338136,
+        "image_title": 4249494582
+      }
     },
     {
       "id": "quest.archon.act.1406",
@@ -905,7 +1291,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1406,
+        "beginQuestId": 801902,
+        "endQuestId": 802114,
+        "cityId": 4,
+        "needPlayerLevel": 40,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_6"
+      },
+      "source_text_map_hashes": {
+        "title": 3215090698,
+        "number": 730947704,
+        "image_title": 3186599318
+      }
     },
     {
       "id": "quest.archon.act.1500",
@@ -936,7 +1335,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1500,
+        "groupId": 1500,
+        "beginQuestId": 500001,
+        "endQuestId": 500218,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 2074693786,
+        "number": 3544535192,
+        "image_title": 992644406
+      }
     },
     {
       "id": "quest.archon.act.1501",
@@ -967,7 +1380,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1501,
+        "groupId": 1500,
+        "beginQuestId": 500301,
+        "endQuestId": 500706,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 1650496554,
+        "number": 3171878184,
+        "image_title": 3779032118
+      }
     },
     {
       "id": "quest.archon.act.1502",
@@ -998,7 +1425,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1502,
+        "groupId": 1502,
+        "beginQuestId": 501501,
+        "endQuestId": 501718,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 2776962218,
+        "number": 38296816,
+        "image_title": 1901643238
+      }
     },
     {
       "id": "quest.archon.act.1503",
@@ -1029,7 +1470,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1503,
+        "groupId": 1502,
+        "beginQuestId": 500901,
+        "endQuestId": 501417,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 2487173354,
+        "number": 1071926760,
+        "image_title": 1677557766
+      }
     },
     {
       "id": "quest.archon.act.1504",
@@ -1060,7 +1515,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1504,
+        "groupId": 1504,
+        "beginQuestId": 502203,
+        "endQuestId": 502940,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_6"
+      },
+      "source_text_map_hashes": {
+        "title": 433195202,
+        "number": 3962470448,
+        "image_title": 2921288774
+      }
     },
     {
       "id": "quest.archon.act.1505",
@@ -1091,7 +1560,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1505,
+        "groupId": 1505,
+        "beginQuestId": 502602,
+        "endQuestId": 502615,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_5"
+      },
+      "source_text_map_hashes": {
+        "title": 2835644562,
+        "number": 3986112760,
+        "image_title": 177860670
+      }
     },
     {
       "id": "quest.archon.act.1506",
@@ -1122,7 +1605,20 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1506,
+        "beginQuestId": 801611,
+        "endQuestId": 801813,
+        "cityId": 6,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_7"
+      },
+      "source_text_map_hashes": {
+        "title": 2772865210,
+        "number": 1173797184,
+        "image_title": 1670941086
+      }
     },
     {
       "id": "quest.archon.act.1600",
@@ -1153,7 +1649,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1600,
+        "groupId": 1600,
+        "beginQuestId": 600002,
+        "endQuestId": 600234,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 4050995626,
+        "number": 3290512496,
+        "image_title": 1364037054
+      }
     },
     {
       "id": "quest.archon.act.1601",
@@ -1184,7 +1694,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1601,
+        "groupId": 1600,
+        "beginQuestId": 600717,
+        "endQuestId": 601108,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 1075406162,
+        "number": 805568760,
+        "image_title": 2686786622
+      }
     },
     {
       "id": "quest.archon.act.1602",
@@ -1215,7 +1739,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1602,
+        "groupId": 1602,
+        "beginQuestId": 600401,
+        "endQuestId": 600624,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 1928922530,
+        "number": 1821080736,
+        "image_title": 3708622854
+      }
     },
     {
       "id": "quest.archon.act.1603",
@@ -1246,7 +1784,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1603,
+        "groupId": 1603,
+        "beginQuestId": 601201,
+        "endQuestId": 601427,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 373682538,
+        "number": 3985278096,
+        "image_title": 2879894
+      }
     },
     {
       "id": "quest.archon.act.1604",
@@ -1277,7 +1829,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1604,
+        "groupId": 1603,
+        "beginQuestId": 601801,
+        "endQuestId": 602017,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_5"
+      },
+      "source_text_map_hashes": {
+        "title": 4001352810,
+        "number": 1271167328,
+        "image_title": 35110102
+      }
     },
     {
       "id": "quest.archon.act.1605",
@@ -1308,7 +1874,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1605,
+        "groupId": 1605,
+        "beginQuestId": 602501,
+        "endQuestId": 602614,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_6"
+      },
+      "source_text_map_hashes": {
+        "title": 179711370,
+        "number": 1452998120,
+        "image_title": 3291384870
+      }
     },
     {
       "id": "quest.archon.act.1606",
@@ -1339,7 +1919,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1606,
+        "groupId": 1605,
+        "beginQuestId": 602401,
+        "endQuestId": 602805,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_7"
+      },
+      "source_text_map_hashes": {
+        "title": 4219496554,
+        "number": 4200492520,
+        "image_title": 3443648702
+      }
     },
     {
       "id": "quest.archon.act.1607",
@@ -1370,7 +1964,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1607,
+        "groupId": 1607,
+        "beginQuestId": 600312,
+        "endQuestId": 602329,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_8"
+      },
+      "source_text_map_hashes": {
+        "title": 1190201530,
+        "number": 2285634032,
+        "image_title": 1460756598
+      }
     },
     {
       "id": "quest.archon.act.1608",
@@ -1401,7 +2009,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1608,
+        "groupId": 1607,
+        "beginQuestId": 601501,
+        "endQuestId": 601710,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_9"
+      },
+      "source_text_map_hashes": {
+        "title": 3025454162,
+        "number": 955387984,
+        "image_title": 532535678
+      }
     },
     {
       "id": "quest.archon.act.1609",
@@ -1432,7 +2054,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1609,
+        "groupId": 1609,
+        "beginQuestId": 303403,
+        "endQuestId": 303616,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_10"
+      },
+      "source_text_map_hashes": {
+        "title": 3430613402,
+        "number": 275448312,
+        "image_title": 3416331350
+      }
     },
     {
       "id": "quest.archon.act.1611",
@@ -1463,7 +2099,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1611,
+        "groupId": 1609,
+        "beginQuestId": 603402,
+        "endQuestId": 603811,
+        "cityId": 7,
+        "needPlayerLevel": 28,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_11"
+      },
+      "source_text_map_hashes": {
+        "title": 395132050,
+        "number": 746586536,
+        "image_title": 3702940694
+      }
     },
     {
       "id": "quest.archon.act.1700",
@@ -1494,7 +2144,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1700,
+        "groupId": 1700,
+        "beginQuestId": 701101,
+        "endQuestId": 701411,
+        "cityId": 8,
+        "needPlayerLevel": 18,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_1"
+      },
+      "source_text_map_hashes": {
+        "title": 3566755218,
+        "number": 1785396688,
+        "image_title": 1185791294
+      }
     },
     {
       "id": "quest.archon.act.1701",
@@ -1525,7 +2189,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1701,
+        "groupId": 1701,
+        "beginQuestId": 700501,
+        "endQuestId": 700917,
+        "cityId": 8,
+        "needPlayerLevel": 18,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_2"
+      },
+      "source_text_map_hashes": {
+        "title": 795132178,
+        "number": 1604859176,
+        "image_title": 352983510
+      }
     },
     {
       "id": "quest.archon.act.1702",
@@ -1556,7 +2234,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1702,
+        "groupId": 1702,
+        "beginQuestId": 701518,
+        "endQuestId": 701715,
+        "cityId": 8,
+        "needPlayerLevel": 18,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_3"
+      },
+      "source_text_map_hashes": {
+        "title": 1420744706,
+        "number": 2096227656,
+        "image_title": 3937623542
+      }
     },
     {
       "id": "quest.archon.act.1703",
@@ -1587,7 +2279,21 @@
         }
       ],
       "translation_status": "draft",
-      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية."
+      "review_notes": "ترجمة عنوان فصل/فعل فقط؛ لا يمثل هذا السجل مهام الفصل الفرعية. يلزم استيراد سجلات MainQuest وربطها بهذا الفصل ومراجعة الصياغة العربية.",
+      "source_chapter_metadata": {
+        "id": 1703,
+        "groupId": 1703,
+        "beginQuestId": 701801,
+        "endQuestId": 702012,
+        "cityId": 8,
+        "needPlayerLevel": 18,
+        "chapterSerialNumberIcon": "UI_QuestType_Chapter_4"
+      },
+      "source_text_map_hashes": {
+        "title": 1839665242,
+        "number": 3938761864,
+        "image_title": 2925022334
+      }
     }
   ]
 }
