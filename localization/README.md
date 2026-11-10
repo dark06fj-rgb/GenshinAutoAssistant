@@ -5,6 +5,7 @@ This directory stores a community-maintained Arabic reference catalog for Genshi
 ## Catalog files
 
 - `ar/glossary.json`: terminology and shared translations.
+- `TERMINOLOGY_AUDIT.md`: Arabic terminology consistency audit and normalization log.
 - `ar/characters.json`: character name records.
 - `CHARACTER_ROSTER_AUDIT_7.2.md`: Version 7.2 playable-roster completeness audit.
 - `ar/talents.json`: combat talent names and concise Arabic draft summaries; includes seven element-specific Traveler kits (Anemo, Geo, Electro, Dendro, Hydro, Pyro, Cryo).
