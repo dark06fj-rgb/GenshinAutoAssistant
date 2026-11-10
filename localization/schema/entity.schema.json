@@ -111,6 +111,12 @@
     "updated_at": {
       "type": "string",
       "format": "date"
+    },
+    "item_type": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "additionalProperties": false
