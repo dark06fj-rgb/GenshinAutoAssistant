@@ -436,7 +436,7 @@ def main() -> int:
                 raise ValueError(f"Translation map references unknown {kind} quest ID {source_id}")
             if not isinstance(arabic_title, str) or not arabic_title.strip():
                 raise ValueError(f"Translation for {kind} quest {source_id} is empty")
-            if not any("\\u0600" <= char <= "\\u06FF" for char in arabic_title):
+            if not any("\u0600" <= char <= "\u06FF" for char in arabic_title):
                 raise ValueError(f"Translation for {kind} quest {source_id} contains no Arabic text")
             entry = existing_by_kind[kind][("quest", source_id)]
             if not str(entry.get("arabic_name", "")).strip():
