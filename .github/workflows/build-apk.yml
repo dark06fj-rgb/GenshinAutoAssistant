@@ -460,7 +460,7 @@ jobs:
                                   URL url=new URL("https://enka.network/api/uid/"+uid+"/");
                                   HttpURLConnection conn=(HttpURLConnection)url.openConnection();
                                   conn.setRequestMethod("GET"); conn.setConnectTimeout(15000); conn.setReadTimeout(15000);
-                                  conn.setRequestProperty("User-Agent","GenshinAssistant/4.0 (Android)");
+                                  conn.setRequestProperty("User-Agent","TeyvatCompanion/4.0 (Android)");
                                   int code=conn.getResponseCode();
                                   if(code!=200) throw new Exception("HTTP "+code);
                                   BufferedReader reader=new BufferedReader(new InputStreamReader(conn.getInputStream(),"UTF-8"));
@@ -623,7 +623,7 @@ jobs:
               void setupTranslationOverlay() {
                   overlayManager=(WindowManager)getSystemService(WINDOW_SERVICE);
                   overlayText=new TextView(this);
-                  overlayText.setText("Genshin Assistant\nجارٍ تجهيز الترجمة الإنجليزية ← العربية...");
+                  overlayText.setText("Teyvat Companion\nجارٍ تجهيز الترجمة الإنجليزية ← العربية...");
                   overlayText.setTextColor(Color.WHITE); overlayText.setTextSize(15);
                   overlayText.setPadding(18,14,18,14); overlayText.setGravity(Gravity.CENTER_VERTICAL);
                   overlayText.setMaxLines(8);
@@ -959,7 +959,7 @@ jobs:
               void showTecnoCompatibilityHelp() {
                   new android.app.AlertDialog.Builder(this)
                       .setTitle("إعدادات TECNO / HiOS")
-                      .setMessage("للسماح للمساعد بالعمل فوق Genshin Impact:\\n1) افتح معلومات تطبيق Genshin Assistant ثم الأذونات الخاصة وفعّل الظهور فوق التطبيقات.\\n2) من إعدادات البطارية اجعل التطبيق بلا قيود أو اختر عدم التحسين.\\n3) فعّل التشغيل التلقائي والسماح بالنوافذ المنبثقة في الخلفية إن ظهرت هذه الخيارات في HiOS.\\n4) أعد فتح المساعد وابدأ المسح من جديد.\\nقد تختلف أسماء القوائم حسب إصدار HiOS.")
+                      .setMessage("للسماح للمساعد بالعمل فوق Genshin Impact:\\n1) افتح معلومات تطبيق Teyvat Companion ثم الأذونات الخاصة وفعّل الظهور فوق التطبيقات.\\n2) من إعدادات البطارية اجعل التطبيق بلا قيود أو اختر عدم التحسين.\\n3) فعّل التشغيل التلقائي والسماح بالنوافذ المنبثقة في الخلفية إن ظهرت هذه الخيارات في HiOS.\\n4) أعد فتح المساعد وابدأ المسح من جديد.\\nقد تختلف أسماء القوائم حسب إصدار HiOS.")
                       .setNegativeButton("إغلاق",null)
                       .setPositiveButton("فتح معلومات التطبيق",(d,w)->{
                           try { startActivity(new Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,Uri.parse("package:"+getPackageName()))); }
