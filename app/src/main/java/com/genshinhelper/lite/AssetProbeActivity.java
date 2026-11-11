@@ -124,6 +124,7 @@ public class AssetProbeActivity extends AppCompatActivity {
     }
 
     private boolean hasBinaryData(byte[] bytes) {
+        if (bytes.length >= 2 && ((bytes[0] == (byte)0xFF && bytes[1] == (byte)0xFE) || (bytes[0] == (byte)0xFE && bytes[1] == (byte)0xFF))) return false;
         int limit = Math.min(bytes.length, 4096);
         for (int i = 0; i < limit; i++) if (bytes[i] == 0) return true;
         return false;
