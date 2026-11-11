@@ -1,29 +1,32 @@
-# Read-only Android asset probe
+# Automatic game text recognition prototype
 
-## Current scope
+## What this milestone does
 
-The Android app provides an in-app document picker for files the user is authorized to inspect. It reads selected files locally and reports only basic metadata:
+The Android app now has an opt-in AccessibilityService prototype for Genshin Impact Android package variants:
 
-- display name, byte size, and line count;
-- whether the file is plain text, JSON, XML-like, or delimited text;
-- the number of JSON string/key values when valid JSON is selected.
+- `com.miHoYo.GenshinImpact`
+- `com.miHoYo.ys.mi`
 
-The app does not upload file contents, alter selected files, patch the game, unpack game containers, decrypt protected data, or interact with anti-cheat systems.
+When the user explicitly enables the service in Android Accessibility settings, it listens only to those package names, reads text exposed through Android accessibility nodes, skips password fields, detects the source language with ML Kit, translates detected strings to Arabic, and stores up to 80 recent pairs locally in app preferences.
 
-## Android use
+The translation history is viewed inside the app. There are no screenshots, MediaProjection prompts, floating windows, or overlay permissions. The service does not upload captured text to our servers. ML Kit may download its on-device language and translation models; that requires network access on first use.
 
-1. Build and install the debug APK from the **Build Read-only Game Asset Probe APK** workflow artifact.
-2. Open **مساعد تعريب الألعاب**.
-3. Tap **اختيار ملفات التصدير وفحصها**.
-4. Select one or more small, already-exported text files that you own or are authorized to inspect.
-5. Review the on-device report.
+## Important platform boundary
 
-The picker accepts multiple files. The current probe skips binary data and files larger than 2 MiB. It does not recursively scan app-private directories.
+This does **not** replace the rendered text inside Genshin Impact. Android accessibility services can observe accessible text nodes, but cannot rewrite arbitrary text rendered by another app's Unity/game canvas. Genshin may expose little or no game UI text through the Android accessibility tree. If no text is exposed, the observer cannot translate it.
 
-## Genshin Impact limitation
+In-place replacement without an overlay requires an official game localization/customization interface or a permitted, offline, reversible asset workflow. Do not bypass encryption, DRM, access controls, or anti-cheat, and do not patch the live game installation.
 
-This is only a reconnaissance stage. It does not establish that Genshin Impact's Android installation exposes editable text assets. Do not attempt to bypass encryption, DRM, access controls, or anti-cheat protections. Do not overwrite the live game installation. Any later localization experiment must use a legally obtained, user-provided export and a reversible offline copy, and must be validated for compatibility before any game-side use.
+## Test
 
-## Next engineering milestone
+1. Install the debug APK.
+2. Open the app and tap **تفعيل التعرف التلقائي**.
+3. In Android Accessibility settings, enable **التعرف التلقائي على نصوص Genshin**.
+4. Open Genshin Impact and visit a screen with visible text.
+5. Return to the app and open **عرض الترجمات المحفوظة**.
 
-Collect a metadata-only report from a permitted text export, then determine whether its schema can be mapped to the existing Arabic localization catalog. If no plain-text export is available, stop at that boundary rather than attempting protected-container extraction.
+A blank history can mean the game does not expose its Unity-rendered text to Android accessibility. It does not mean the translation model is broken.
+
+## Next milestone
+
+Validate whether the supported Genshin Android build exposes any accessible text. If it does, improve language filtering, deduplication, and the in-app translation history. If it does not, stop the accessibility path and investigate only official or user-authorized plain-text localization exports.
