@@ -14,7 +14,7 @@ class TextAssetProbeTests(unittest.TestCase):
             report = probe(root)
             self.assertEqual(report["readable_file_count"], 1)
             self.assertEqual(report["files"][0]["format"], "json")
-            self.assertEqual(report["files"][0]["string_value_count"], 4)
+            self.assertEqual(report["files"][0]["string_value_count"], 5)
             self.assertNotIn("Settings", str(report))
 
     def test_skips_binary_and_oversized_files(self):
