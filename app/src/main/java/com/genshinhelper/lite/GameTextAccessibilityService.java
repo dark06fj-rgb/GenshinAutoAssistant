@@ -36,6 +36,7 @@ public class GameTextAccessibilityService extends AccessibilityService {
     }};
 
     private final Set<String> pending = new HashSet<>();
+    private final Set<String> translated = new HashSet<>();
     private LanguageIdentifier languageIdentifier;
 
     @Override
@@ -53,6 +54,7 @@ public class GameTextAccessibilityService extends AccessibilityService {
         info.packageNames = SUPPORTED_PACKAGES.toArray(new String[0]);
         setServiceInfo(info);
         languageIdentifier = LanguageIdentification.getClient();
+        loadTranslatedTexts();
     }
 
     @Override
@@ -92,7 +94,7 @@ public class GameTextAccessibilityService extends AccessibilityService {
         if (value.length() < 3 || value.length() > 500 || TextUtils.isDigitsOnly(value)) return;
         if (value.indexOf('\n') >= 0 && value.length() > 350) return;
         synchronized (pending) {
-            if (pending.contains(value)) return;
+            if (pending.contains(value) || translated.contains(value)) return;
             pending.add(value);
         }
         if (languageIdentifier == null) {
@@ -144,14 +146,30 @@ public class GameTextAccessibilityService extends AccessibilityService {
                 });
     }
 
-    private void saveTranslation(String original, String translated, String language) {
+    private void loadTranslatedTexts() {
+        try {
+            JSONArray entries = new JSONArray(getSharedPreferences(PREFS, MODE_PRIVATE)
+                    .getString(LOG_KEY, "[]"));
+            for (int i = 0; i < entries.length(); i++) {
+                String original = entries.getJSONObject(i).optString("original", "");
+                if (!original.isEmpty()) translated.add(original);
+            }
+        } catch (Exception error) {
+            Log.w(TAG, "Could not load translation cache", error);
+        }
+    }
+
+    private void saveTranslation(String original, String translatedText, String language) {
+        synchronized (pending) {
+            if (!translated.add(original)) return;
+        }
         try {
             SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
             JSONArray old = new JSONArray(prefs.getString(LOG_KEY, "[]"));
             JSONArray updated = new JSONArray();
             JSONObject entry = new JSONObject();
             entry.put("original", original);
-            entry.put("arabic", translated);
+            entry.put("arabic", translatedText);
             entry.put("language", language);
             entry.put("package", "Genshin Impact");
             entry.put("time", System.currentTimeMillis());
