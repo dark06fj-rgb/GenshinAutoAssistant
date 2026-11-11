@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         intro.setText("نسخة جديدة وخفيفة\n1) قراءة النص الظاهر وترجمته للعربية\n2) تجهيز أساس آمن لميزة كشف الموارد المرئي\n\nلن يبدأ التقاط الشاشة إلا بعد موافقتك.");
         intro.setTextColor(0xFFD8D2E2); intro.setTextSize(16); intro.setPadding(0, dp(18), 0, dp(22));
         root.addView(intro);
+        Button probe = new Button(this); probe.setText("فحص ملفات التصدير دون نوافذ عائمة");
+        probe.setOnClickListener(v -> startActivity(new Intent(this, AssetProbeActivity.class)));
+        root.addView(probe, new LinearLayout.LayoutParams(-1, dp(54)));
         Button overlay = new Button(this); overlay.setText("السماح بالنافذة العائمة");
         overlay.setOnClickListener(v -> { if (!Settings.canDrawOverlays(this)) { Intent i = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:" + getPackageName())); startActivity(i); } else setStatus("إذن النافذة العائمة مفعل."); });
         root.addView(overlay, new LinearLayout.LayoutParams(-1, dp(52)));
