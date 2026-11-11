@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:theme="@style/AppTheme"
-        android:label="مساعد تعريب الألعاب"
+        android:label="مترجم الألعاب التلقائي"
         android:allowBackup="false"
         android:supportsRtl="true">
         <activity android:name=".AssetProbeActivity" android:exported="false" />
+        <activity android:name=".TranslationLogActivity" android:exported="false" />
+        <service
+            android:name=".GameTextAccessibilityService"
+            android:label="التعرف التلقائي على نصوص Genshin"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/game_text_accessibility_service" />
+        </service>
         <activity
             android:name=".MainActivity"
             android:exported="true">
